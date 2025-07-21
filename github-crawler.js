@@ -30,7 +30,41 @@ class GitHubSCPCrawler {
       'http://scp-jp.wikidot.com/scp-series-4',
       'http://scp-jp.wikidot.com/scp-series-5',
       'http://scp-jp.wikidot.com/scp-series-6',
-      'http://scp-jp.wikidot.com/scp-series-jp'
+      'http://scp-jp.wikidot.com/scp-series-7',
+      'http://scp-jp.wikidot.com/scp-series-8',
+      'http://scp-jp.wikidot.com/scp-series-9',
+      'http://scp-jp.wikidot.com/joke-scps',
+      'http://scp-jp.wikidot.com/archived-scps',
+      'http://scp-jp.wikidot.com/scp-ex',
+      'http://scp-jp.wikidot.com/log-of-anomalous-items',
+      'http://scp-jp.wikidot.com/log-of-extranormal-events',
+      'http://scp-jp.wikidot.com/log-of-unexplained-locations',
+      'http://scp-jp.wikidot.com/foundation-tales',
+      'http://scp-jp.wikidot.com/canon-hub',
+      'http://scp-jp.wikidot.com/goi-formats',
+      'http://scp-jp.wikidot.com/incident-reports-eye-witness-interviews-and-personal-logs',
+      'http://scp-jp.wikidot.com/audio-adaptations',
+      'http://scp-jp.wikidot.com/creepy-pasta',
+      'http://scp-jp.wikidot.com/contest-archive',
+      'http://scp-jp.wikidot.com/scp-series-jp',
+      'http://scp-jp.wikidot.com/scp-series-jp-2',
+      'http://scp-jp.wikidot.com/scp-series-jp-3',
+      'http://scp-jp.wikidot.com/scp-series-jp-4',
+      'http://scp-jp.wikidot.com/heritage-collection-jp',
+      'http://scp-jp.wikidot.com/joke-scps-jp',
+      'http://scp-jp.wikidot.com/archived-scps-jp',
+      'http://scp-jp.wikidot.com/scp-jp-ex',
+      'http://scp-jp.wikidot.com/log-of-anomalous-items-jp',
+      'http://scp-jp.wikidot.com/log-of-extranormal-events-jp',
+      'http://scp-jp.wikidot.com/log-of-unexplained-locations-jp',
+      'http://scp-jp.wikidot.com/foundation-tales-jp',
+      'http://scp-jp.wikidot.com/canon-hub-jp',
+      'http://scp-jp.wikidot.com/series-hub-jp',
+      'http://scp-jp.wikidot.com/goi-formats-jp',
+      'http://scp-jp.wikidot.com/collaboration-hub-jp',
+      'http://scp-jp.wikidot.com/supplement-hub-jp',
+      'http://scp-jp.wikidot.com/event-archive-jp',
+      'http://scp-jp.wikidot.com/anthology-hub-jp'
     ];
   }
 
@@ -66,7 +100,17 @@ class GitHubSCPCrawler {
             
             if (scpNumberMatch) {
               const scpNumber = scpNumberMatch[1];
-              const scpTitle = link.textContent.replace(/^SCP-\d+(-[A-Z]+)?\s*-?\s*/, '').trim();
+              
+              // タイトルを正しく抽出：リンクの後の「 - タイトル」部分を取得
+              const entryText = entry.textContent.trim();
+              const linkText = link.textContent.trim();
+              let scpTitle = '';
+              
+              // リンクテキストの後の「 - 」から始まる部分を探す
+              const titleMatch = entryText.match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*-\\s*(.+)'));
+              if (titleMatch) {
+                scpTitle = titleMatch[1].trim();
+              }
               
               // 未翻訳チェック
               const isUntranslated = entry.textContent.includes('未翻訳') || 
@@ -76,22 +120,12 @@ class GitHubSCPCrawler {
               const scpDetailUrl = `${this.baseUrl}${href}`;
               const extractedFrom = path.basename(url);
               
-              // シリーズ番号を判定
-              let series = 1;
-              if (url.includes('scp-series-2')) series = 2;
-              else if (url.includes('scp-series-3')) series = 3;
-              else if (url.includes('scp-series-4')) series = 4;
-              else if (url.includes('scp-series-5')) series = 5;
-              else if (url.includes('scp-series-6')) series = 6;
-              else if (url.includes('scp-series-jp')) series = 0; // JP独自
-              
               scpEntries.push({
                 scpNumber,
                 scpTitle,
                 scpDetailUrl,
                 isUntranslated,
                 extractedFrom,
-                series,
                 lastUpdated: new Date().toISOString()
               });
             }
