@@ -69,6 +69,182 @@ class GitHubSCPCrawler {
   }
 
   /**
+   * ページタイプを判定
+   */
+  getPageType(url) {
+    const pageName = path.basename(url);
+    
+    if (pageName.match(/^scp-series/)) return 'scp-series';
+    if (pageName.match(/^joke-scps/)) return 'joke-scps';
+    if (pageName.match(/foundation-tales/)) return 'tales';
+    if (pageName.match(/canon-hub/)) return 'canon';
+    if (pageName.match(/log-of-/)) return 'logs';
+    if (pageName.match(/goi-formats/)) return 'goi';
+    if (pageName.match(/hub|archive|collection/)) return 'hub';
+    
+    return 'default';
+  }
+
+  /**
+   * SCPシリーズページからデータを抽出
+   */
+  extractFromScpSeries(document) {
+    const entries = [];
+    const listItems = document.querySelectorAll('ul li');
+    
+    listItems.forEach(entry => {
+      const link = entry.querySelector('a[href^="/scp-"]');
+      if (link) {
+        const href = link.getAttribute('href');
+        const scpNumberMatch = href.match(/\/scp-(\d+)(?:-.*)?$/);
+        
+        if (scpNumberMatch) {
+          const scpNumber = scpNumberMatch[1];
+          const entryText = entry.textContent.trim();
+          const linkText = link.textContent.trim();
+          
+          // タイトル抽出
+          let scpTitle = '';
+          const titleMatch = entryText.match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*-\\s*(.+)'));
+          if (titleMatch) {
+            scpTitle = titleMatch[1].trim();
+          }
+          
+          entries.push({
+            itemId: scpNumber,
+            title: scpTitle,
+            url: href,
+            isUntranslated: link.classList.contains('newpage'),
+            type: 'scp'
+          });
+        }
+      }
+    });
+    
+    return entries;
+  }
+
+  /**
+   * Taleページからデータを抽出
+   */
+  extractFromTales(document) {
+    const entries = [];
+    const tables = document.querySelectorAll('table.wiki-content-table');
+    
+    tables.forEach(table => {
+      const rows = table.querySelectorAll('tr');
+      rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        if (cells.length >= 2) {
+          const link = cells[0].querySelector('a');
+          if (link && link.getAttribute('href')) {
+            const href = link.getAttribute('href');
+            const title = link.textContent.trim();
+            const description = cells[1].textContent.trim();
+            
+            entries.push({
+              itemId: title,
+              title: description || title,
+              url: href,
+              isUntranslated: link.classList.contains('newpage'),
+              type: 'tale'
+            });
+          }
+        }
+      });
+    });
+    
+    return entries;
+  }
+
+  /**
+   * Canon Hubページからデータを抽出
+   */
+  extractFromCanonHub(document) {
+    const entries = [];
+    const headers = document.querySelectorAll('h1, h2, h3');
+    
+    headers.forEach(header => {
+      const link = header.querySelector('a');
+      if (link && link.getAttribute('href')) {
+        const href = link.getAttribute('href');
+        const title = link.textContent.trim();
+        
+        // 次の段落から説明を取得
+        let description = '';
+        let nextElement = header.nextElementSibling;
+        if (nextElement && nextElement.tagName === 'P') {
+          description = nextElement.textContent.trim();
+        }
+        
+        entries.push({
+          itemId: title,
+          title: description || title,
+          url: href,
+          isUntranslated: link.classList.contains('newpage'),
+          type: 'canon'
+        });
+      }
+    });
+    
+    return entries;
+  }
+
+  /**
+   * ログページからデータを抽出（リンクがないため基本情報のみ）
+   */
+  extractFromLogs(document) {
+    const entries = [];
+    const paragraphs = document.querySelectorAll('p');
+    let itemCount = 0;
+    
+    paragraphs.forEach(p => {
+      const text = p.textContent.trim();
+      if (text.includes('説明:') || text.includes('Description:')) {
+        itemCount++;
+        const descMatch = text.match(/説明:\s*(.+?)(\n|$)/);
+        const description = descMatch ? descMatch[1].trim() : text.substring(0, 100);
+        
+        entries.push({
+          itemId: itemCount.toString(),
+          title: description,
+          url: null, // ログアイテムは個別URLなし
+          isUntranslated: false,
+          type: 'log'
+        });
+      }
+    });
+    
+    return entries;
+  }
+
+  /**
+   * その他のページからデータを抽出
+   */
+  extractFromDefault(document) {
+    const entries = [];
+    const links = document.querySelectorAll('a[href^="/"]');
+    
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href && !href.includes('#') && !href.includes('edit') && !href.includes('discussion')) {
+        const title = link.textContent.trim();
+        if (title.length > 0) {
+          entries.push({
+            itemId: title,
+            title: title,
+            url: href,
+            isUntranslated: link.classList.contains('newpage'),
+            type: 'other'
+          });
+        }
+      }
+    });
+    
+    return entries;
+  }
+
+  /**
    * URLからSCPデータを抽出
    */
   async extractScpDataFromUrl(url, maxRetries = 3) {
@@ -89,50 +265,42 @@ class GitHubSCPCrawler {
         const dom = new JSDOM(response.data);
         const document = dom.window.document;
         
-        const scpEntries = [];
-        const listItems = document.querySelectorAll('ul li');
+        const pageType = this.getPageType(url);
+        let rawEntries = [];
         
-        listItems.forEach(entry => {
-          const link = entry.querySelector('a[href^="/scp-"]');
-          if (link) {
-            const href = link.getAttribute('href');
-            const scpNumberMatch = href.match(/\/scp-(\d+)(?:-.*)?$/);
-            
-            if (scpNumberMatch) {
-              const scpNumber = scpNumberMatch[1];
-              
-              // タイトルを正しく抽出：リンクの後の「 - タイトル」部分を取得
-              const entryText = entry.textContent.trim();
-              const linkText = link.textContent.trim();
-              let scpTitle = '';
-              
-              // リンクテキストの後の「 - 」から始まる部分を探す
-              const titleMatch = entryText.match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*-\\s*(.+)'));
-              if (titleMatch) {
-                scpTitle = titleMatch[1].trim();
-              }
-              
-              // 未翻訳チェック
-              const isUntranslated = entry.textContent.includes('未翻訳') || 
-                                   entry.textContent.includes('(未訳)') ||
-                                   link.classList.contains('newpage');
-              
-              const scpDetailUrl = `${this.baseUrl}${href}`;
-              const extractedFrom = path.basename(url);
-              
-              scpEntries.push({
-                scpNumber,
-                scpTitle,
-                scpDetailUrl,
-                isUntranslated,
-                extractedFrom,
-                lastUpdated: new Date().toISOString()
-              });
-            }
-          }
-        });
+        // ページタイプに応じた抽出方法を選択
+        switch (pageType) {
+          case 'scp-series':
+          case 'joke-scps':
+            rawEntries = this.extractFromScpSeries(document);
+            break;
+          case 'tales':
+            rawEntries = this.extractFromTales(document);
+            break;
+          case 'canon':
+            rawEntries = this.extractFromCanonHub(document);
+            break;
+          case 'logs':
+            rawEntries = this.extractFromLogs(document);
+            break;
+          default:
+            rawEntries = this.extractFromDefault(document);
+            break;
+        }
         
-        console.log(`${url}から${scpEntries.length}件のSCPデータを抽出`);
+        // 統一フォーマットに変換
+        const scpEntries = rawEntries.map(entry => ({
+          itemId: entry.itemId,
+          title: entry.title,
+          url: entry.url ? `${this.baseUrl}${entry.url}` : null,
+          isUntranslated: entry.isUntranslated,
+          extractedFrom: path.basename(url),
+          pageType: pageType,
+          contentType: entry.type,
+          lastUpdated: new Date().toISOString()
+        }));
+        
+        console.log(`${url}から${scpEntries.length}件のデータを抽出`);
         return scpEntries;
         
       } catch (error) {
