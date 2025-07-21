@@ -1,0 +1,23 @@
+{
+  "name": "scp-crawler-github-actions",
+  "version": "1.0.0",
+  "description": "SCP-JP Crawler for GitHub Actions",
+  "main": "github-crawler.js",
+  "scripts": {
+    "start": "node github-crawler.js",
+    "crawl": "node github-crawler.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "jsdom": "^25.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syiroku/scpjp_reader_firebase.git"
+  },
+  "author": "SCP Crawler Bot",
+  "license": "MIT"
+}
