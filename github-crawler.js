@@ -87,6 +87,7 @@ class GitHubSCPCrawler {
           
           entries.push({
             itemId: `${pageType}-${scpNumber}`,
+            numericItemId: scpNumber,
             title: scpTitle,
             url: href,
             isUntranslated: link.classList.contains('newpage'),
@@ -168,6 +169,7 @@ class GitHubSCPCrawler {
         // 統一フォーマットに変換
         const scpEntries = rawEntries.map(entry => ({
           itemId: entry.itemId,
+          numericItemId: entry.numericItemId || null,
           title: entry.title,
           url: entry.url ? `${this.baseUrl}${entry.url}` : null,
           isUntranslated: entry.isUntranslated,
