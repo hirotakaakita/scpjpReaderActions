@@ -50,12 +50,12 @@ class GitHubSCPCrawler {
   getPageType(url) {
     const pageName = path.basename(url);
     
-    if (pageName.match(/^scp-series/)) return 'scp-series';
-    if (pageName.match(/^joke-scps/)) return 'joke-scps';
-    if (pageName.match(/^scp-ex/)) return 'scp-ex';
     if (pageName.match(/^scp-series-jp/)) return 'scp-series-jp';
     if (pageName.match(/^joke-scps-jp/)) return 'joke-scps-jp';
     if (pageName.match(/^scp-jp-ex/)) return 'scp-jp-ex';
+    if (pageName.match(/^scp-series/)) return 'scp-series';
+    if (pageName.match(/^joke-scps/)) return 'joke-scps';
+    if (pageName.match(/^scp-ex/)) return 'scp-ex';
     
     return 'default';
   }
@@ -63,7 +63,7 @@ class GitHubSCPCrawler {
   /**
    * SCPシリーズページからデータを抽出
    */
-  extractFromScpSeries(document) {
+  extractFromScpSeries(document, pageType) {
     const entries = [];
     const listItems = document.querySelectorAll('ul li');
     
@@ -86,7 +86,7 @@ class GitHubSCPCrawler {
           }
           
           entries.push({
-            itemId: scpNumber,
+            itemId: `${pageType}-${scpNumber}`,
             title: scpTitle,
             url: href,
             isUntranslated: link.classList.contains('newpage'),
@@ -158,7 +158,7 @@ class GitHubSCPCrawler {
           case 'joke-scps-jp':
           case 'scp-ex':
           case 'scp-jp-ex':
-            rawEntries = this.extractFromScpSeries(document);
+            rawEntries = this.extractFromScpSeries(document, pageType);
             break;
           default:
             rawEntries = this.extractFromDefault(document);
