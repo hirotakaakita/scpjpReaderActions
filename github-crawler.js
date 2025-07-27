@@ -130,7 +130,7 @@ class GitHubSCPCrawler {
   /**
    * URLからSCPデータを抽出
    */
-  async extractScpDataFromUrl(url, maxRetries = 3) {
+  async extractScpDataFromUrl(url, existingData, maxRetries = 3) {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
         console.log(`処理中: ${url} (試行 ${attempt}/${maxRetries})`);
@@ -167,17 +167,24 @@ class GitHubSCPCrawler {
         }
         
         // 統一フォーマットに変換
-        const scpEntries = rawEntries.map(entry => ({
-          itemId: entry.itemId,
-          numericItemId: entry.numericItemId || null,
-          title: entry.title,
-          url: entry.url ? `${this.baseUrl}${entry.url}` : null,
-          isUntranslated: entry.isUntranslated,
-          extractedFrom: path.basename(url),
-          pageType: pageType,
-          contentType: entry.type,
-          lastUpdated: new Date().toISOString()
-        }));
+        const currentTime = new Date().toISOString();
+        const scpEntries = rawEntries.map(entry => {
+          const existingItem = existingData.get(entry.itemId);
+          const isNewItem = !existingItem;
+          
+          return {
+            itemId: entry.itemId,
+            numericItemId: entry.numericItemId || null,
+            title: entry.title,
+            url: entry.url ? `${this.baseUrl}${entry.url}` : null,
+            isUntranslated: entry.isUntranslated,
+            extractedFrom: path.basename(url),
+            pageType: pageType,
+            contentType: entry.type,
+            lastUpdated: currentTime,
+            createdAt: isNewItem ? currentTime : (existingItem.createdAt || existingItem.lastUpdated)
+          };
+        });
         
         console.log(`${url}から${scpEntries.length}件のデータを抽出`);
         return scpEntries;
@@ -200,11 +207,38 @@ class GitHubSCPCrawler {
   }
 
   /**
+   * 既存データを読み込み
+   */
+  loadExistingData() {
+    const dataFilePath = path.join(this.outputDir, 'scp-data.json');
+    if (fs.existsSync(dataFilePath)) {
+      try {
+        const existingContent = fs.readFileSync(dataFilePath, 'utf8');
+        const existingData = JSON.parse(existingContent);
+        if (existingData.data && Array.isArray(existingData.data)) {
+          const existingMap = new Map();
+          existingData.data.forEach(item => {
+            existingMap.set(item.itemId, item);
+          });
+          return existingMap;
+        }
+      } catch (error) {
+        console.warn('既存データの読み込みに失敗:', error.message);
+      }
+    }
+    return new Map();
+  }
+
+  /**
    * すべてのURLからデータを収集
    */
   async crawlAllData() {
     console.log('=== GitHub Actions SCP Crawler 開始 ===');
     const startTime = new Date();
+    
+    // 既存データを読み込み
+    const existingData = this.loadExistingData();
+    console.log(`既存データ件数: ${existingData.size}`);
     
     const urls = this.getUrls();
     console.log(`対象URL数: ${urls.length}`);
@@ -212,7 +246,7 @@ class GitHubSCPCrawler {
     this.results = [];
     
     for (const url of urls) {
-      const entries = await this.extractScpDataFromUrl(url);
+      const entries = await this.extractScpDataFromUrl(url, existingData);
       this.results.push(...entries);
       
       // 各URL処理後に1秒待機
