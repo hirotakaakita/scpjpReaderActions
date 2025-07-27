@@ -34,37 +34,13 @@ class GitHubSCPCrawler {
       'http://scp-jp.wikidot.com/scp-series-8',
       'http://scp-jp.wikidot.com/scp-series-9',
       'http://scp-jp.wikidot.com/joke-scps',
-      'http://scp-jp.wikidot.com/archived-scps',
       'http://scp-jp.wikidot.com/scp-ex',
-      'http://scp-jp.wikidot.com/log-of-anomalous-items',
-      'http://scp-jp.wikidot.com/log-of-extranormal-events',
-      'http://scp-jp.wikidot.com/log-of-unexplained-locations',
-      'http://scp-jp.wikidot.com/foundation-tales',
-      'http://scp-jp.wikidot.com/canon-hub',
-      'http://scp-jp.wikidot.com/goi-formats',
-      'http://scp-jp.wikidot.com/incident-reports-eye-witness-interviews-and-personal-logs',
-      'http://scp-jp.wikidot.com/audio-adaptations',
-      'http://scp-jp.wikidot.com/creepy-pasta',
-      'http://scp-jp.wikidot.com/contest-archive',
       'http://scp-jp.wikidot.com/scp-series-jp',
       'http://scp-jp.wikidot.com/scp-series-jp-2',
       'http://scp-jp.wikidot.com/scp-series-jp-3',
       'http://scp-jp.wikidot.com/scp-series-jp-4',
-      'http://scp-jp.wikidot.com/heritage-collection-jp',
       'http://scp-jp.wikidot.com/joke-scps-jp',
-      'http://scp-jp.wikidot.com/archived-scps-jp',
       'http://scp-jp.wikidot.com/scp-jp-ex',
-      'http://scp-jp.wikidot.com/log-of-anomalous-items-jp',
-      'http://scp-jp.wikidot.com/log-of-extranormal-events-jp',
-      'http://scp-jp.wikidot.com/log-of-unexplained-locations-jp',
-      'http://scp-jp.wikidot.com/foundation-tales-jp',
-      'http://scp-jp.wikidot.com/canon-hub-jp',
-      'http://scp-jp.wikidot.com/series-hub-jp',
-      'http://scp-jp.wikidot.com/goi-formats-jp',
-      'http://scp-jp.wikidot.com/collaboration-hub-jp',
-      'http://scp-jp.wikidot.com/supplement-hub-jp',
-      'http://scp-jp.wikidot.com/event-archive-jp',
-      'http://scp-jp.wikidot.com/anthology-hub-jp'
     ];
   }
 
@@ -76,11 +52,10 @@ class GitHubSCPCrawler {
     
     if (pageName.match(/^scp-series/)) return 'scp-series';
     if (pageName.match(/^joke-scps/)) return 'joke-scps';
-    if (pageName.match(/foundation-tales/)) return 'tales';
-    if (pageName.match(/canon-hub/)) return 'canon';
-    if (pageName.match(/log-of-/)) return 'logs';
-    if (pageName.match(/goi-formats/)) return 'goi';
-    if (pageName.match(/hub|archive|collection/)) return 'hub';
+    if (pageName.match(/^scp-ex/)) return 'scp-ex';
+    if (pageName.match(/^scp-series-jp/)) return 'scp-series-jp';
+    if (pageName.match(/^joke-scps-jp/)) return 'joke-scps-jp';
+    if (pageName.match(/^scp-jp-ex/)) return 'scp-jp-ex';
     
     return 'default';
   }
@@ -124,99 +99,6 @@ class GitHubSCPCrawler {
     return entries;
   }
 
-  /**
-   * Taleページからデータを抽出
-   */
-  extractFromTales(document) {
-    const entries = [];
-    const tables = document.querySelectorAll('table.wiki-content-table');
-    
-    tables.forEach(table => {
-      const rows = table.querySelectorAll('tr');
-      rows.forEach(row => {
-        const cells = row.querySelectorAll('td');
-        if (cells.length >= 2) {
-          const link = cells[0].querySelector('a');
-          if (link && link.getAttribute('href')) {
-            const href = link.getAttribute('href');
-            const title = link.textContent.trim();
-            const description = cells[1].textContent.trim();
-            
-            entries.push({
-              itemId: title,
-              title: description || title,
-              url: href,
-              isUntranslated: link.classList.contains('newpage'),
-              type: 'tale'
-            });
-          }
-        }
-      });
-    });
-    
-    return entries;
-  }
-
-  /**
-   * Canon Hubページからデータを抽出
-   */
-  extractFromCanonHub(document) {
-    const entries = [];
-    const headers = document.querySelectorAll('h1, h2, h3');
-    
-    headers.forEach(header => {
-      const link = header.querySelector('a');
-      if (link && link.getAttribute('href')) {
-        const href = link.getAttribute('href');
-        const title = link.textContent.trim();
-        
-        // 次の段落から説明を取得
-        let description = '';
-        let nextElement = header.nextElementSibling;
-        if (nextElement && nextElement.tagName === 'P') {
-          description = nextElement.textContent.trim();
-        }
-        
-        entries.push({
-          itemId: title,
-          title: description || title,
-          url: href,
-          isUntranslated: link.classList.contains('newpage'),
-          type: 'canon'
-        });
-      }
-    });
-    
-    return entries;
-  }
-
-  /**
-   * ログページからデータを抽出（リンクがないため基本情報のみ）
-   */
-  extractFromLogs(document) {
-    const entries = [];
-    const paragraphs = document.querySelectorAll('p');
-    let itemCount = 0;
-    
-    paragraphs.forEach(p => {
-      const text = p.textContent.trim();
-      if (text.includes('説明:') || text.includes('Description:')) {
-        itemCount++;
-        const descMatch = text.match(/説明:\s*(.+?)(\n|$)/);
-        const description = descMatch ? descMatch[1].trim() : text.substring(0, 100);
-        
-        entries.push({
-          itemId: itemCount.toString(),
-          title: description,
-          url: null, // ログアイテムは個別URLなし
-          isUntranslated: false,
-          type: 'log'
-        });
-      }
-    });
-    
-    return entries;
-  }
 
   /**
    * その他のページからデータを抽出
@@ -271,17 +153,12 @@ class GitHubSCPCrawler {
         // ページタイプに応じた抽出方法を選択
         switch (pageType) {
           case 'scp-series':
+          case 'scp-series-jp':
           case 'joke-scps':
+          case 'joke-scps-jp':
+          case 'scp-ex':
+          case 'scp-jp-ex':
             rawEntries = this.extractFromScpSeries(document);
-            break;
-          case 'tales':
-            rawEntries = this.extractFromTales(document);
-            break;
-          case 'canon':
-            rawEntries = this.extractFromCanonHub(document);
-            break;
-          case 'logs':
-            rawEntries = this.extractFromLogs(document);
             break;
           default:
             rawEntries = this.extractFromDefault(document);
