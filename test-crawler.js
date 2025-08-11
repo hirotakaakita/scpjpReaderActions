@@ -4,43 +4,27 @@ const { JSDOM } = require('jsdom');
 const axios = require('axios');
 
 /**
- * GitHub Actions用SCP Crawler
- * クロール結果をJSONファイルとして保存
+ * ローカルテスト用SCP Crawler
+ * 画像URL取得機能のテスト版
  */
-class GitHubSCPCrawler {
+class LocalTestSCPCrawler {
   constructor() {
     this.baseUrl = 'http://scp-jp.wikidot.com';
     this.results = [];
-    this.outputDir = path.join(__dirname, 'data');
+    this.outputDir = path.join(__dirname, 'test-data');
     
-    // dataディレクトリを作成
+    // test-dataディレクトリを作成
     if (!fs.existsSync(this.outputDir)) {
       fs.mkdirSync(this.outputDir, { recursive: true });
     }
   }
 
   /**
-   * 対象URLリスト
+   * テスト用URL（少数のページのみ）
    */
-  getUrls() {
+  getTestUrls() {
     return [
-      'http://scp-jp.wikidot.com/scp-series',
-      'http://scp-jp.wikidot.com/scp-series-2',
-      'http://scp-jp.wikidot.com/scp-series-3',
-      'http://scp-jp.wikidot.com/scp-series-4',
-      'http://scp-jp.wikidot.com/scp-series-5',
-      'http://scp-jp.wikidot.com/scp-series-6',
-      'http://scp-jp.wikidot.com/scp-series-7',
-      'http://scp-jp.wikidot.com/scp-series-8',
-      'http://scp-jp.wikidot.com/scp-series-9',
-      'http://scp-jp.wikidot.com/joke-scps',
-      'http://scp-jp.wikidot.com/scp-ex',
-      'http://scp-jp.wikidot.com/scp-series-jp',
-      'http://scp-jp.wikidot.com/scp-series-jp-2',
-      'http://scp-jp.wikidot.com/scp-series-jp-3',
-      'http://scp-jp.wikidot.com/scp-series-jp-4',
-      'http://scp-jp.wikidot.com/joke-scps-jp',
-      'http://scp-jp.wikidot.com/scp-jp-ex',
+      'http://scp-jp.wikidot.com/scp-series', // 最初のシリーズページのみ
     ];
   }
 
@@ -61,13 +45,16 @@ class GitHubSCPCrawler {
   }
 
   /**
-   * SCPシリーズページからデータを抽出
+   * SCPシリーズページからデータを抽出（テスト用：最初の5件のみ）
    */
-  extractFromScpSeries(document, pageType) {
+  extractFromScpSeriesTest(document, pageType) {
     const entries = [];
     const listItems = document.querySelectorAll('ul li');
+    let count = 0;
     
-    listItems.forEach(entry => {
+    for (const entry of listItems) {
+      if (count >= 5) break; // テスト用：最初の5件のみ
+      
       const link = entry.querySelector('a[href^="/scp-"]');
       if (link) {
         const href = link.getAttribute('href');
@@ -93,57 +80,48 @@ class GitHubSCPCrawler {
             isUntranslated: link.classList.contains('newpage'),
             type: 'scp'
           });
+          
+          count++;
         }
       }
-    });
-    
-    return entries;
-  }
-
-
-  /**
-   * その他のページからデータを抽出
-   */
-  extractFromDefault(document) {
-    const entries = [];
-    const links = document.querySelectorAll('a[href^="/"]');
-    
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && !href.includes('#') && !href.includes('edit') && !href.includes('discussion')) {
-        const title = link.textContent.trim();
-        if (title.length > 0) {
-          entries.push({
-            itemId: title,
-            title: title,
-            url: href,
-            isUntranslated: link.classList.contains('newpage'),
-            type: 'other'
-          });
-        }
-      }
-    });
+    }
     
     return entries;
   }
 
   /**
-   * SCPページから画像URLを取得
+   * SCPページから画像URLを取得（詳細ログ付き）
    */
   async extractImageUrlFromScpPage(scpUrl, maxRetries = 3) {
+    console.log(`\n=== 画像URL取得開始: ${scpUrl} ===`);
+    
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
+        console.log(`試行 ${attempt}/${maxRetries}: HTTPリクエスト送信中...`);
+        
         const response = await axios.get(scpUrl, {
           timeout: 30000,
           headers: {
-            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; GitHub Actions)',
+            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; Local Test)',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
           }
         });
         
+        console.log(`レスポンス受信: ステータス ${response.status}, サイズ ${response.data.length}文字`);
+        
         const dom = new JSDOM(response.data);
         const document = dom.window.document;
+        
+        // すべての画像要素を取得してログ出力
+        const allImages = document.querySelectorAll('img');
+        console.log(`ページ内の画像要素数: ${allImages.length}`);
+        
+        allImages.forEach((img, index) => {
+          const src = img.getAttribute('src');
+          const alt = img.getAttribute('alt');
+          console.log(`  画像 ${index + 1}: src="${src}", alt="${alt}"`);
+        });
         
         // 画像を検索（優先順位順）
         const imageSelectors = [
@@ -155,11 +133,15 @@ class GitHubSCPCrawler {
         ];
         
         for (const selector of imageSelectors) {
+          console.log(`セレクタ "${selector}" で検索中...`);
           const img = document.querySelector(selector);
           if (img) {
             let src = img.getAttribute('src');
+            console.log(`マッチした画像: ${src}`);
+            
             if (src) {
               // 相対URLを絶対URLに変換
+              const originalSrc = src;
               if (src.startsWith('/')) {
                 src = `${this.baseUrl}${src}`;
               } else if (src.startsWith('//')) {
@@ -167,21 +149,27 @@ class GitHubSCPCrawler {
               } else if (!src.startsWith('http')) {
                 src = `${this.baseUrl}/${src}`;
               }
+              
+              console.log(`URL変換: "${originalSrc}" → "${src}"`);
+              console.log(`=== 画像URL取得成功 ===\n`);
               return src;
             }
           }
         }
         
+        console.log('該当する画像が見つかりませんでした');
+        console.log(`=== 画像URL取得結果: なし ===\n`);
         return null;
         
       } catch (error) {
-        console.warn(`画像URL取得エラー ${scpUrl} (試行 ${attempt}/${maxRetries}):`, error.message);
+        console.error(`画像URL取得エラー (試行 ${attempt}/${maxRetries}):`, error.message);
         
         if (attempt === maxRetries) {
+          console.log(`=== 画像URL取得失敗 ===\n`);
           return null;
         }
         
-        // 2秒待機後にリトライ
+        console.log('2秒待機後にリトライします...');
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
     }
@@ -190,17 +178,17 @@ class GitHubSCPCrawler {
   }
 
   /**
-   * URLからSCPデータを抽出
+   * URLからSCPデータを抽出（テスト版）
    */
-  async extractScpDataFromUrl(url, existingData, maxRetries = 3) {
+  async extractScpDataFromUrl(url, existingData = new Map(), maxRetries = 3) {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        console.log(`処理中: ${url} (試行 ${attempt}/${maxRetries})`);
+        console.log(`\n処理中: ${url} (試行 ${attempt}/${maxRetries})`);
         
         const response = await axios.get(url, {
-          timeout: 60000, // 60秒タイムアウト
+          timeout: 60000,
           headers: {
-            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; GitHub Actions)',
+            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; Local Test)',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
           }
@@ -213,37 +201,32 @@ class GitHubSCPCrawler {
         const pageType = this.getPageType(url);
         let rawEntries = [];
         
-        // ページタイプに応じた抽出方法を選択
-        switch (pageType) {
-          case 'scp-series':
-          case 'scp-series-jp':
-          case 'joke-scps':
-          case 'joke-scps-jp':
-          case 'scp-ex':
-          case 'scp-jp-ex':
-            rawEntries = this.extractFromScpSeries(document, pageType);
-            break;
-          default:
-            rawEntries = this.extractFromDefault(document);
-            break;
-        }
+        // テスト用のデータ抽出
+        rawEntries = this.extractFromScpSeriesTest(document, pageType);
         
         // 統一フォーマットに変換
         const currentTime = new Date().toISOString();
         const scpEntries = [];
+        
+        console.log(`\n${rawEntries.length}件のSCPエントリを処理中...`);
         
         for (const entry of rawEntries) {
           const existingItem = existingData.get(entry.itemId);
           const isNewItem = !existingItem;
           const fullUrl = entry.url ? `${this.baseUrl}${entry.url}` : null;
           
-          // 画像URLを取得（新しいアイテムまたは既存の画像URLがない場合のみ）
+          console.log(`\n--- ${entry.itemId}: ${entry.title} ---`);
+          console.log(`URL: ${fullUrl}`);
+          
+          // 画像URLを取得
           let imageUrl = existingItem?.image_url || null;
-          if (fullUrl && (!existingItem || !existingItem.image_url) && entry.type === 'scp') {
-            console.log(`画像URL取得中: ${entry.itemId}`);
+          if (fullUrl && entry.type === 'scp') {
+            console.log(`画像URL取得開始...`);
             imageUrl = await this.extractImageUrlFromScpPage(fullUrl);
             if (imageUrl) {
-              console.log(`画像URL見つかりました: ${entry.itemId} - ${imageUrl}`);
+              console.log(`✓ 画像URL取得成功: ${imageUrl}`);
+            } else {
+              console.log(`✗ 画像URL取得失敗`);
             }
           }
           
@@ -258,16 +241,15 @@ class GitHubSCPCrawler {
             pageType: pageType,
             contentType: entry.type,
             lastUpdated: currentTime,
-            createdAt: isNewItem ? currentTime : (existingItem.createdAt || existingItem.lastUpdated)
+            createdAt: isNewItem ? currentTime : (existingItem?.createdAt || currentTime)
           });
           
-          // 各エントリ処理後に500ms待機（レート制限対策）
-          if (fullUrl && entry.type === 'scp') {
-            await new Promise(resolve => setTimeout(resolve, 500));
-          }
+          // 各エントリ処理後に1秒待機
+          console.log('1秒待機...');
+          await new Promise(resolve => setTimeout(resolve, 1000));
         }
         
-        console.log(`${url}から${scpEntries.length}件のデータを抽出`);
+        console.log(`\n${url}から${scpEntries.length}件のデータを抽出完了`);
         return scpEntries;
         
       } catch (error) {
@@ -278,7 +260,6 @@ class GitHubSCPCrawler {
           return [];
         }
         
-        // 10秒待機後にリトライ
         console.log('10秒待機後にリトライします...');
         await new Promise(resolve => setTimeout(resolve, 10000));
       }
@@ -288,102 +269,70 @@ class GitHubSCPCrawler {
   }
 
   /**
-   * 既存データを読み込み
+   * テスト実行
    */
-  loadExistingData() {
-    const dataFilePath = path.join(this.outputDir, 'scp-data.json');
-    if (fs.existsSync(dataFilePath)) {
-      try {
-        const existingContent = fs.readFileSync(dataFilePath, 'utf8');
-        const existingData = JSON.parse(existingContent);
-        if (existingData.data && Array.isArray(existingData.data)) {
-          const existingMap = new Map();
-          existingData.data.forEach(item => {
-            existingMap.set(item.itemId, item);
-          });
-          return existingMap;
-        }
-      } catch (error) {
-        console.warn('既存データの読み込みに失敗:', error.message);
-      }
-    }
-    return new Map();
-  }
-
-  /**
-   * すべてのURLからデータを収集
-   */
-  async crawlAllData() {
-    console.log('=== GitHub Actions SCP Crawler 開始 ===');
+  async runTest() {
+    console.log('=== ローカルテスト開始 ===');
     const startTime = new Date();
     
-    // 既存データを読み込み
-    const existingData = this.loadExistingData();
-    console.log(`既存データ件数: ${existingData.size}`);
-    
-    const urls = this.getUrls();
+    const urls = this.getTestUrls();
     console.log(`対象URL数: ${urls.length}`);
     
     this.results = [];
     
     for (const url of urls) {
-      const entries = await this.extractScpDataFromUrl(url, existingData);
+      const entries = await this.extractScpDataFromUrl(url);
       this.results.push(...entries);
-      
-      // 各URL処理後に1秒待機
-      await new Promise(resolve => setTimeout(resolve, 1000));
     }
     
     const endTime = new Date();
     const duration = Math.round((endTime - startTime) / 1000);
     
-    console.log(`=== 収集完了 ===`);
+    console.log(`\n=== テスト完了 ===`);
     console.log(`総件数: ${this.results.length}`);
     console.log(`実行時間: ${duration}秒`);
     
-    return {
+    // 結果をファイルに保存
+    const result = {
       totalCount: this.results.length,
       timestamp: startTime.toISOString(),
       duration: duration,
-      status: 'completed',
+      status: 'test-completed',
       data: this.results
     };
-  }
-
-  /**
-   * 結果をファイルに保存
-   */
-  async saveResults() {
-    const crawlResult = await this.crawlAllData();
     
-    // メインデータファイル
-    const dataFilePath = path.join(this.outputDir, 'scp-data.json');
-    fs.writeFileSync(dataFilePath, JSON.stringify(crawlResult, null, 2), 'utf8');
-    console.log(`データを保存: ${dataFilePath}`);
+    const outputPath = path.join(this.outputDir, 'test-result.json');
+    fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf8');
+    console.log(`テスト結果を保存: ${outputPath}`);
     
-    // メタデータファイル（Firebase Functionsが参照用）
-    const metaFilePath = path.join(this.outputDir, 'meta.json');
-    const meta = {
-      lastUpdated: crawlResult.timestamp,
-      totalCount: crawlResult.totalCount,
-      status: crawlResult.status,
-      duration: crawlResult.duration,
-      dataFile: 'scp-data.json'
-    };
-    fs.writeFileSync(metaFilePath, JSON.stringify(meta, null, 2), 'utf8');
-    console.log(`メタデータを保存: ${metaFilePath}`);
+    // 画像URL取得結果のサマリー
+    const withImage = this.results.filter(item => item.image_url).length;
+    const withoutImage = this.results.filter(item => !item.image_url).length;
     
-    return crawlResult;
+    console.log(`\n=== 画像URL取得結果 ===`);
+    console.log(`画像あり: ${withImage}件`);
+    console.log(`画像なし: ${withoutImage}件`);
+    
+    if (withImage > 0) {
+      console.log(`\n=== 取得した画像URL ===`);
+      this.results.forEach(item => {
+        if (item.image_url) {
+          console.log(`${item.itemId}: ${item.image_url}`);
+        }
+      });
+    }
+    
+    return result;
   }
 }
 
 // メイン実行
 if (require.main === module) {
-  const crawler = new GitHubSCPCrawler();
-  crawler.saveResults().catch(error => {
-    console.error('クローラー実行エラー:', error);
+  const crawler = new LocalTestSCPCrawler();
+  crawler.runTest().catch(error => {
+    console.error('テスト実行エラー:', error);
     process.exit(1);
   });
 }
 
-module.exports = { GitHubSCPCrawler };
+module.exports = { LocalTestSCPCrawler };
