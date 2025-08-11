@@ -280,27 +280,38 @@ class GitHubSCPCrawler {
           const isNewItem = !existingItem;
           const fullUrl = entry.url ? `${this.baseUrl}${entry.url}` : null;
           
+          // URLを英語版と日本語版に分ける
+          let urlEn = '';  // 英語版URL
+          let urlJp = '';  // 日本語版URL
+          
+          if (fullUrl && entry.isUntranslated) {
+            // 未翻訳の場合：英語版のみ存在
+            urlEn = fullUrl.replace('http://scp-jp.wikidot.com', 'http://scp-wiki.wikidot.com');
+            urlJp = '';  // 日本語版は空
+          } else if (fullUrl) {
+            // 翻訳済みの場合：日本語版が存在し、英語版も推測できる
+            urlJp = fullUrl;  // 日本語版
+            urlEn = fullUrl.replace('http://scp-jp.wikidot.com', 'http://scp-wiki.wikidot.com');  // 英語版
+          }
+          
           // 画像URLを取得（新しいアイテムまたは既存の画像URLがない場合のみ）
+          // 日本語版があればそれを、なければ英語版を使用
           let imageUrl = existingItem?.image_url || null;
-          if (fullUrl && (!existingItem || !existingItem.image_url) && entry.type === 'scp') {
+          const urlForImageExtraction = urlJp || urlEn;
+          if (urlForImageExtraction && (!existingItem || !existingItem.image_url) && entry.type === 'scp') {
             console.log(`画像URL取得中: ${entry.itemId}`);
-            imageUrl = await this.extractImageUrlFromScpPage(fullUrl);
+            imageUrl = await this.extractImageUrlFromScpPage(urlForImageExtraction);
             if (imageUrl) {
               console.log(`画像URL見つかりました: ${entry.itemId} - ${imageUrl}`);
             }
-          }
-          
-          // isUntranslatedがtrueの場合、URLのホストを変更
-          let finalUrl = fullUrl;
-          if (fullUrl && entry.isUntranslated) {
-            finalUrl = fullUrl.replace('http://scp-jp.wikidot.com', 'http://scp-wiki.wikidot.com');
           }
 
           scpEntries.push({
             itemId: entry.itemId,
             numericItemId: entry.numericItemId || null,
             title: entry.title,
-            url: finalUrl,
+            url_en: urlEn,
+            url_jp: urlJp,
             image_url: imageUrl,
             isUntranslated: entry.isUntranslated,
             extractedFrom: path.basename(url),
