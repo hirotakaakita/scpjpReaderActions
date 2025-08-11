@@ -276,11 +276,18 @@ class LocalTestSCPCrawler {
             }
           }
           
+          // isUntranslatedがtrueの場合、URLのホストを変更
+          let finalUrl = fullUrl;
+          if (fullUrl && entry.isUntranslated) {
+            finalUrl = fullUrl.replace('http://scp-jp.wikidot.com', 'http://scp-wiki.wikidot.com');
+            console.log(`未翻訳記事のURL変更: ${fullUrl} → ${finalUrl}`);
+          }
+
           scpEntries.push({
             itemId: entry.itemId,
             numericItemId: entry.numericItemId || null,
             title: entry.title,
-            url: fullUrl,
+            url: finalUrl,
             image_url: imageUrl,
             isUntranslated: entry.isUntranslated,
             extractedFrom: path.basename(url),
