@@ -290,11 +290,17 @@ class GitHubSCPCrawler {
             }
           }
           
+          // isUntranslatedがtrueの場合、URLのホストを変更
+          let finalUrl = fullUrl;
+          if (fullUrl && entry.isUntranslated) {
+            finalUrl = fullUrl.replace('http://scp-jp.wikidot.com', 'http://scp-wiki.wikidot.com');
+          }
+
           scpEntries.push({
             itemId: entry.itemId,
             numericItemId: entry.numericItemId || null,
             title: entry.title,
-            url: fullUrl,
+            url: finalUrl,
             image_url: imageUrl,
             isUntranslated: entry.isUntranslated,
             extractedFrom: path.basename(url),
