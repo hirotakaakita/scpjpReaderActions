@@ -113,17 +113,52 @@ class LocalTestSCPCrawler {
         const dom = new JSDOM(response.data);
         const document = dom.window.document;
         
-        // すべての画像要素を取得してログ出力
-        const allImages = document.querySelectorAll('img');
-        console.log(`ページ内の画像要素数: ${allImages.length}`);
+        // 本文コンテンツエリアを特定
+        const contentSelectors = [
+          '#page-content',        // メインコンテンツエリア
+          '.page-source',         // ページソース表示時
+          '#main-content',        // 代替メインコンテンツ
+          '.content-panel'        // コンテンツパネル
+        ];
+        
+        let contentArea = null;
+        for (const selector of contentSelectors) {
+          contentArea = document.querySelector(selector);
+          if (contentArea) {
+            console.log(`本文エリア特定: ${selector}`);
+            break;
+          }
+        }
+        
+        if (!contentArea) {
+          console.log('本文エリアが特定できませんでした');
+          return null;
+        }
+        
+        // 本文エリア内の画像要素を取得してログ出力
+        const allImages = contentArea.querySelectorAll('img');
+        console.log(`本文エリア内の画像要素数: ${allImages.length}`);
         
         allImages.forEach((img, index) => {
           const src = img.getAttribute('src');
           const alt = img.getAttribute('alt');
-          console.log(`  画像 ${index + 1}: src="${src}", alt="${alt}"`);
+          const className = img.getAttribute('class');
+          console.log(`  画像 ${index + 1}: src="${src}", alt="${alt}", class="${className}"`);
         });
         
-        // 画像を検索（優先順位順）
+        // 除外すべき画像のパターン
+        const excludePatterns = [
+          '/files/util/',          // ユーティリティ画像
+          '/common/media/',        // 共通メディア
+          'nav/',                  // ナビゲーション
+          'side/',                 // サイドバー
+          'help.png',              // ヘルプアイコン
+          'icon',                  // アイコン類
+          'button',                // ボタン画像
+          'logo'                   // ロゴ
+        ];
+        
+        // 本文コンテンツ内の画像を検索（優先順位順、除外パターンを考慮）
         const imageSelectors = [
           'img[src*=".jpg"]',
           'img[src*=".jpeg"]', 
@@ -133,11 +168,22 @@ class LocalTestSCPCrawler {
         ];
         
         for (const selector of imageSelectors) {
-          console.log(`セレクタ "${selector}" で検索中...`);
-          const img = document.querySelector(selector);
-          if (img) {
+          console.log(`セレクタ "${selector}" で本文エリア内を検索中...`);
+          const images = contentArea.querySelectorAll(selector);
+          
+          for (const img of images) {
             let src = img.getAttribute('src');
-            console.log(`マッチした画像: ${src}`);
+            console.log(`候補画像: ${src}`);
+            
+            // 除外パターンをチェック
+            const shouldExclude = excludePatterns.some(pattern => 
+              src && src.toLowerCase().includes(pattern.toLowerCase())
+            );
+            
+            if (shouldExclude) {
+              console.log(`除外: ${src} (除外パターンにマッチ)`);
+              continue;
+            }
             
             if (src) {
               // 相対URLを絶対URLに変換
@@ -151,7 +197,7 @@ class LocalTestSCPCrawler {
               }
               
               console.log(`URL変換: "${originalSrc}" → "${src}"`);
-              console.log(`=== 画像URL取得成功 ===\n`);
+              console.log(`=== 本文内画像URL取得成功 ===\n`);
               return src;
             }
           }
