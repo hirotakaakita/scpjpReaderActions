@@ -145,7 +145,39 @@ class GitHubSCPCrawler {
         const dom = new JSDOM(response.data);
         const document = dom.window.document;
         
-        // 画像を検索（優先順位順）
+        // 本文コンテンツエリアを特定
+        const contentSelectors = [
+          '#page-content',        // メインコンテンツエリア
+          '.page-source',         // ページソース表示時
+          '#main-content',        // 代替メインコンテンツ
+          '.content-panel'        // コンテンツパネル
+        ];
+        
+        let contentArea = null;
+        for (const selector of contentSelectors) {
+          contentArea = document.querySelector(selector);
+          if (contentArea) {
+            break;
+          }
+        }
+        
+        if (!contentArea) {
+          return null;
+        }
+        
+        // 除外すべき画像のパターン
+        const excludePatterns = [
+          '/files/util/',          // ユーティリティ画像
+          '/common/media/',        // 共通メディア
+          'nav/',                  // ナビゲーション
+          'side/',                 // サイドバー
+          'help.png',              // ヘルプアイコン
+          'icon',                  // アイコン類
+          'button',                // ボタン画像
+          'logo'                   // ロゴ
+        ];
+        
+        // 本文コンテンツ内の画像を検索（優先順位順、除外パターンを考慮）
         const imageSelectors = [
           'img[src*=".jpg"]',
           'img[src*=".jpeg"]', 
@@ -155,9 +187,20 @@ class GitHubSCPCrawler {
         ];
         
         for (const selector of imageSelectors) {
-          const img = document.querySelector(selector);
-          if (img) {
+          const images = contentArea.querySelectorAll(selector);
+          
+          for (const img of images) {
             let src = img.getAttribute('src');
+            
+            // 除外パターンをチェック
+            const shouldExclude = excludePatterns.some(pattern => 
+              src && src.toLowerCase().includes(pattern.toLowerCase())
+            );
+            
+            if (shouldExclude) {
+              continue;
+            }
+            
             if (src) {
               // 相対URLを絶対URLに変換
               if (src.startsWith('/')) {
