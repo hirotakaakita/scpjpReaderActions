@@ -331,12 +331,12 @@ class LocalSCPCrawler {
           
           // URLを英語版と日本語版に分ける
           let urlEn = '';  // 英語版URL
-          let urlJp = '';  // 日本語版URL
+          let urlJp = null;  // 日本語版URL（存在しない場合はnull）
           
           if (fullUrl && entry.isUntranslated) {
             // 未翻訳の場合：英語版のみ存在
             urlEn = fullUrl.replace('http://scp-jp.wikidot.com', 'http://scp-wiki.wikidot.com');
-            urlJp = '';  // 日本語版は空
+            urlJp = null;  // 日本語版はnull
           } else if (fullUrl) {
             // 翻訳済みの場合：日本語版が存在し、英語版も推測できる
             urlJp = fullUrl;  // 日本語版
