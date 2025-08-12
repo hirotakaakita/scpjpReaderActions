@@ -4,23 +4,26 @@ const { JSDOM } = require('jsdom');
 const axios = require('axios');
 
 /**
- * GitHub Actions用SCP Crawler
- * クロール結果をJSONファイルとして保存
+ * ローカル実行用SCP Crawler（全URL対応版）
+ * メイン版から派生し、ローカル環境ですべてのURLを処理
  */
-class GitHubSCPCrawler {
+class LocalSCPCrawler {
   constructor() {
     this.baseUrl = 'http://scp-jp.wikidot.com';
     this.results = [];
-    this.outputDir = path.join(__dirname, 'data');
+    this.outputDir = path.join(__dirname, 'local-data');
+    this.processedCount = 0;
+    this.totalUrls = 0;
+    this.startTime = null;
     
-    // dataディレクトリを作成
+    // local-dataディレクトリを作成
     if (!fs.existsSync(this.outputDir)) {
       fs.mkdirSync(this.outputDir, { recursive: true });
     }
   }
 
   /**
-   * 対象URLリスト
+   * 対象URLリスト（全URL）
    */
   getUrls() {
     return [
@@ -100,7 +103,6 @@ class GitHubSCPCrawler {
     return entries;
   }
 
-
   /**
    * その他のページからデータを抽出
    */
@@ -136,7 +138,7 @@ class GitHubSCPCrawler {
         const response = await axios.get(scpUrl, {
           timeout: 30000,
           headers: {
-            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; GitHub Actions)',
+            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; Local Full)',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
           }
@@ -247,23 +249,43 @@ class GitHubSCPCrawler {
   }
 
   /**
+   * 進捗表示
+   */
+  displayProgress(currentIndex, totalCount, message = '') {
+    const percentage = Math.round((currentIndex / totalCount) * 100);
+    const elapsed = Date.now() - this.startTime;
+    const elapsedMinutes = Math.floor(elapsed / 60000);
+    const elapsedSeconds = Math.floor((elapsed % 60000) / 1000);
+    const avgTimePerUrl = elapsed / (currentIndex || 1);
+    const estimatedTotal = avgTimePerUrl * totalCount;
+    const remainingTime = estimatedTotal - elapsed;
+    const remainingMinutes = Math.floor(remainingTime / 60000);
+    const remainingSeconds = Math.floor((remainingTime % 60000) / 1000);
+    
+    console.log(`\n[${percentage}%] ${currentIndex}/${totalCount} - 経過時間: ${elapsedMinutes}:${elapsedSeconds.toString().padStart(2, '0')} - 残り予想: ${remainingMinutes}:${remainingSeconds.toString().padStart(2, '0')}`);
+    if (message) {
+      console.log(`現在: ${message}`);
+    }
+  }
+
+  /**
    * URLからSCPデータを抽出
    */
   async extractScpDataFromUrl(url, existingData, maxRetries = 3) {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        console.log(`処理中: ${url} (試行 ${attempt}/${maxRetries})`);
+        this.displayProgress(this.processedCount, this.totalUrls, `${url}を処理中...`);
         
         const response = await axios.get(url, {
-          timeout: 60000, // 60秒タイムアウト
+          timeout: 60000,
           headers: {
-            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; GitHub Actions)',
+            'User-Agent': 'Mozilla/5.0 (compatible; SCPCrawler/1.0; Local Full)',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
           }
         });
         
-        console.log(`レスポンス受信: ${url} - ${response.status}`);
+        console.log(`レスポンス受信: ${response.status}`);
         const dom = new JSDOM(response.data, {
           resources: "usable",
           runScripts: "outside-only",
@@ -296,6 +318,8 @@ class GitHubSCPCrawler {
             break;
         }
         
+        console.log(`${rawEntries.length}件のエントリを抽出`);
+        
         // 統一フォーマットに変換
         const currentTime = new Date().toISOString();
         const scpEntries = [];
@@ -324,10 +348,12 @@ class GitHubSCPCrawler {
           let imageUrl = existingItem?.image_url || null;
           const urlForImageExtraction = urlJp || urlEn;
           if (urlForImageExtraction && (!existingItem || !existingItem.image_url) && entry.type === 'scp') {
-            console.log(`画像URL取得中: ${entry.itemId}`);
+            console.log(`  画像URL取得中: ${entry.itemId}`);
             imageUrl = await this.extractImageUrlFromScpPage(urlForImageExtraction);
             if (imageUrl) {
-              console.log(`画像URL見つかりました: ${entry.itemId} - ${imageUrl}`);
+              console.log(`  ✓ 画像URL取得成功: ${imageUrl}`);
+            } else {
+              console.log(`  - 画像なし`);
             }
           }
 
@@ -347,12 +373,13 @@ class GitHubSCPCrawler {
           });
           
           // 各エントリ処理後に500ms待機（レート制限対策）
-          if (fullUrl && entry.type === 'scp') {
+          if (urlForImageExtraction && entry.type === 'scp') {
             await new Promise(resolve => setTimeout(resolve, 500));
           }
         }
         
-        console.log(`${url}から${scpEntries.length}件のデータを抽出`);
+        console.log(`${url}から${scpEntries.length}件のデータを抽出完了\n`);
+        this.processedCount++;
         return scpEntries;
         
       } catch (error) {
@@ -360,6 +387,7 @@ class GitHubSCPCrawler {
         
         if (attempt === maxRetries) {
           console.error(`${url}の処理に${maxRetries}回失敗しました`);
+          this.processedCount++;
           return [];
         }
         
@@ -396,41 +424,82 @@ class GitHubSCPCrawler {
   }
 
   /**
+   * 中間結果を保存
+   */
+  saveIntermediateResults(results, urlIndex) {
+    const intermediateFilePath = path.join(this.outputDir, `intermediate-${urlIndex}.json`);
+    const data = {
+      urlIndex: urlIndex,
+      timestamp: new Date().toISOString(),
+      totalCount: results.length,
+      data: results
+    };
+    fs.writeFileSync(intermediateFilePath, JSON.stringify(data, null, 2), 'utf8');
+    console.log(`中間結果を保存: ${intermediateFilePath} (${results.length}件)`);
+  }
+
+  /**
    * すべてのURLからデータを収集
    */
   async crawlAllData() {
-    console.log('=== GitHub Actions SCP Crawler 開始 ===');
-    const startTime = new Date();
+    console.log('=== ローカル全URL処理開始 ===');
+    this.startTime = new Date();
     
     // 既存データを読み込み
     const existingData = this.loadExistingData();
     console.log(`既存データ件数: ${existingData.size}`);
     
     const urls = this.getUrls();
+    this.totalUrls = urls.length;
     console.log(`対象URL数: ${urls.length}`);
     
     this.results = [];
+    this.processedCount = 0;
     
-    for (const url of urls) {
+    for (let i = 0; i < urls.length; i++) {
+      const url = urls[i];
+      console.log(`\n=== URL ${i + 1}/${urls.length}: ${path.basename(url)} ===`);
+      
       const entries = await this.extractScpDataFromUrl(url, existingData);
       this.results.push(...entries);
       
-      // 各URL処理後に1秒待機
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // 各URL処理後に中間結果を保存
+      this.saveIntermediateResults(this.results, i + 1);
+      
+      // 各URL処理後に2秒待機
+      if (i < urls.length - 1) {
+        console.log('次のURL処理まで2秒待機...');
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
     }
     
     const endTime = new Date();
-    const duration = Math.round((endTime - startTime) / 1000);
+    const duration = Math.round((endTime - this.startTime) / 1000);
     
-    console.log(`=== 収集完了 ===`);
+    console.log(`\n=== 全URL処理完了 ===`);
     console.log(`総件数: ${this.results.length}`);
-    console.log(`実行時間: ${duration}秒`);
+    console.log(`実行時間: ${Math.floor(duration / 60)}分${duration % 60}秒`);
+    
+    // 統計情報
+    const withImage = this.results.filter(item => item.image_url).length;
+    const untranslated = this.results.filter(item => item.isUntranslated).length;
+    const translated = this.results.filter(item => !item.isUntranslated).length;
+    
+    console.log(`\n=== 統計情報 ===`);
+    console.log(`翻訳済み記事: ${translated}件`);
+    console.log(`未翻訳記事: ${untranslated}件`);
+    console.log(`画像付き記事: ${withImage}件`);
     
     return {
       totalCount: this.results.length,
-      timestamp: startTime.toISOString(),
+      timestamp: this.startTime.toISOString(),
       duration: duration,
-      status: 'completed',
+      status: 'local-completed',
+      statistics: {
+        translated: translated,
+        untranslated: untranslated,
+        withImage: withImage
+      },
       data: this.results
     };
   }
@@ -444,19 +513,27 @@ class GitHubSCPCrawler {
     // メインデータファイル
     const dataFilePath = path.join(this.outputDir, 'scp-data.json');
     fs.writeFileSync(dataFilePath, JSON.stringify(crawlResult, null, 2), 'utf8');
-    console.log(`データを保存: ${dataFilePath}`);
+    console.log(`\nデータを保存: ${dataFilePath}`);
     
-    // メタデータファイル（Firebase Functionsが参照用）
+    // メタデータファイル
     const metaFilePath = path.join(this.outputDir, 'meta.json');
     const meta = {
       lastUpdated: crawlResult.timestamp,
       totalCount: crawlResult.totalCount,
       status: crawlResult.status,
       duration: crawlResult.duration,
+      statistics: crawlResult.statistics,
       dataFile: 'scp-data.json'
     };
     fs.writeFileSync(metaFilePath, JSON.stringify(meta, null, 2), 'utf8');
     console.log(`メタデータを保存: ${metaFilePath}`);
+    
+    // 中間ファイルを削除
+    const intermediateFiles = fs.readdirSync(this.outputDir).filter(file => file.startsWith('intermediate-'));
+    intermediateFiles.forEach(file => {
+      fs.unlinkSync(path.join(this.outputDir, file));
+    });
+    console.log(`中間ファイル ${intermediateFiles.length}件を削除`);
     
     return crawlResult;
   }
@@ -464,11 +541,11 @@ class GitHubSCPCrawler {
 
 // メイン実行
 if (require.main === module) {
-  const crawler = new GitHubSCPCrawler();
+  const crawler = new LocalSCPCrawler();
   crawler.saveResults().catch(error => {
-    console.error('クローラー実行エラー:', error);
+    console.error('ローカルクローラー実行エラー:', error);
     process.exit(1);
   });
 }
 
-module.exports = { GitHubSCPCrawler };
+module.exports = { LocalSCPCrawler };

@@ -110,7 +110,18 @@ class LocalTestSCPCrawler {
         
         console.log(`レスポンス受信: ステータス ${response.status}, サイズ ${response.data.length}文字`);
         
-        const dom = new JSDOM(response.data);
+        const dom = new JSDOM(response.data, {
+          resources: "usable",
+          runScripts: "outside-only",
+          pretendToBeVisual: false,
+          storageQuota: 10000000,
+          // CSSパースを無効にしてエラーを回避
+          features: {
+            FetchExternalResources: false,
+            ProcessExternalResources: false,
+            SkipExternalResources: true
+          }
+        });
         const document = dom.window.document;
         
         // 本文コンテンツエリアを特定
@@ -155,7 +166,10 @@ class LocalTestSCPCrawler {
           'help.png',              // ヘルプアイコン
           'icon',                  // アイコン類
           'button',                // ボタン画像
-          'logo'                   // ロゴ
+          'logo',                  // ロゴ
+          'heritage-rating',       // heritage-rating関連アイコン
+          'scp-heritage',          // SCPヘリテージアイコン
+          'component:'             // コンポーネント関連画像
         ];
         
         // 本文コンテンツ内の画像を検索（優先順位順、除外パターンを考慮）
@@ -241,7 +255,18 @@ class LocalTestSCPCrawler {
         });
         
         console.log(`レスポンス受信: ${url} - ${response.status}`);
-        const dom = new JSDOM(response.data);
+        const dom = new JSDOM(response.data, {
+          resources: "usable",
+          runScripts: "outside-only",
+          pretendToBeVisual: false,
+          storageQuota: 10000000,
+          // CSSパースを無効にしてエラーを回避
+          features: {
+            FetchExternalResources: false,
+            ProcessExternalResources: false,
+            SkipExternalResources: true
+          }
+        });
         const document = dom.window.document;
         
         const pageType = this.getPageType(url);
