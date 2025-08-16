@@ -74,7 +74,7 @@ class LocalTestSCPCrawler {
           
           entries.push({
             itemId: `${pageType}-${scpNumber}`,
-            numericItemId: scpNumber,
+            numericItemId: parseInt(scpNumber, 10),
             title: scpTitle,
             url: href,
             isUntranslated: link.classList.contains('newpage'),
