@@ -321,9 +321,9 @@ class GitHubSCPCrawler {
           
           // 画像URLを取得（新しいアイテムまたは既存の画像URLがない場合のみ）
           // 日本語版があればそれを、なければ英語版を使用
-          let imageUrl = existingItem?.image_url || null;
+          let imageUrl = existingItem?.imageUrl || null;
           const urlForImageExtraction = urlJp || urlEn;
-          if (urlForImageExtraction && (!existingItem || !existingItem.image_url) && entry.type === 'scp') {
+          if (urlForImageExtraction && (!existingItem || !existingItem.imageUrl) && entry.type === 'scp') {
             console.log(`画像URL取得中: ${entry.itemId}`);
             imageUrl = await this.extractImageUrlFromScpPage(urlForImageExtraction);
             if (imageUrl) {
@@ -334,11 +334,11 @@ class GitHubSCPCrawler {
           scpEntries.push({
             itemId: entry.itemId,
             numericItemId: entry.numericItemId || null,
-            title: entry.title,
-            url_en: urlEn,
-            url_jp: urlJp,
-            image_url: imageUrl,
-            isUntranslated: entry.isUntranslated,
+            titleJP: entry.title,
+            urlEN: urlEn,
+            urlJP: urlJp,
+            imageUrl: imageUrl,
+            isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),
             pageType: pageType,
             contentType: entry.type,

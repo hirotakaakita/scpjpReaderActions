@@ -306,7 +306,7 @@ class LocalTestSCPCrawler {
           }
           
           // 画像URLを取得（日本語版があればそれを、なければ英語版を使用）
-          let imageUrl = existingItem?.image_url || null;
+          let imageUrl = existingItem?.imageUrl || null;
           const urlForImageExtraction = urlJp || urlEn;
           if (urlForImageExtraction && entry.type === 'scp') {
             console.log(`画像URL取得開始 (${urlJp ? '日本語版' : '英語版'}から)...`);
@@ -321,11 +321,11 @@ class LocalTestSCPCrawler {
           scpEntries.push({
             itemId: entry.itemId,
             numericItemId: entry.numericItemId || null,
-            title: entry.title,
-            url_en: urlEn,
-            url_jp: urlJp,
-            image_url: imageUrl,
-            isUntranslated: entry.isUntranslated,
+            titleJP: entry.title,
+            urlEN: urlEn,
+            urlJP: urlJp,
+            imageUrl: imageUrl,
+            isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),
             pageType: pageType,
             contentType: entry.type,
@@ -395,8 +395,8 @@ class LocalTestSCPCrawler {
     console.log(`テスト結果を保存: ${outputPath}`);
     
     // 画像URL取得結果のサマリー
-    const withImage = this.results.filter(item => item.image_url).length;
-    const withoutImage = this.results.filter(item => !item.image_url).length;
+    const withImage = this.results.filter(item => item.imageUrl).length;
+    const withoutImage = this.results.filter(item => !item.imageUrl).length;
     
     console.log(`\n=== 画像URL取得結果 ===`);
     console.log(`画像あり: ${withImage}件`);
@@ -405,8 +405,8 @@ class LocalTestSCPCrawler {
     if (withImage > 0) {
       console.log(`\n=== 取得した画像URL ===`);
       this.results.forEach(item => {
-        if (item.image_url) {
-          console.log(`${item.itemId}: ${item.image_url}`);
+        if (item.imageUrl) {
+          console.log(`${item.itemId}: ${item.imageUrl}`);
         }
       });
     }
