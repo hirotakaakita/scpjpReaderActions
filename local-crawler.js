@@ -15,6 +15,8 @@ class LocalSCPCrawler {
     this.processedCount = 0;
     this.totalUrls = 0;
     this.startTime = null;
+    // レート制限対策のエントリ間待機時間（並列実行時はCRAWL_DELAY_MSで延長する）
+    this.entryDelayMs = parseInt(process.env.CRAWL_DELAY_MS || '500', 10);
     
     // local-dataディレクトリを作成
     if (!fs.existsSync(this.outputDir)) {
@@ -372,9 +374,9 @@ class LocalSCPCrawler {
             createdAt: isNewItem ? currentTime : (existingItem.createdAt || existingItem.lastUpdated)
           });
           
-          // 各エントリ処理後に500ms待機（レート制限対策）
+          // 各エントリ処理後に待機（レート制限対策）
           if (urlForImageExtraction && entry.type === 'scp') {
-            await new Promise(resolve => setTimeout(resolve, 500));
+            await new Promise(resolve => setTimeout(resolve, this.entryDelayMs));
           }
         }
         
