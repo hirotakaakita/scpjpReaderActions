@@ -40,7 +40,7 @@ node merge-data.js                     # partial-data/ の17ページ分を loca
 ```
 
 masterブランチにpushした時点でアプリの取得先に反映されます。
-※ アプリ側はローカルDBに記事が存在すると再ダウンロードをスキップするため、インストール済み端末への反映にはアプリの再インストール（またはデータ削除）が必要です。
+アプリは起動時に `local-data/meta.json` の `lastUpdated` を前回取り込み時の値と比較し、変化があれば `scp-data.json` を再ダウンロードします（`meta.json` と `scp-data.json` は必ずセットで更新してください）。
 
 ## 構成
 
