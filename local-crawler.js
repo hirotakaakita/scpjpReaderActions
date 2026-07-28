@@ -514,7 +514,7 @@ class LocalSCPCrawler {
     
     // メインデータファイル
     const dataFilePath = path.join(this.outputDir, 'scp-data.json');
-    fs.writeFileSync(dataFilePath, JSON.stringify(crawlResult, null, 2), 'utf8');
+    fs.writeFileSync(dataFilePath, stringifyAsciiSafe(crawlResult), 'utf8');
     console.log(`\nデータを保存: ${dataFilePath}`);
     
     // メタデータファイル
@@ -527,7 +527,7 @@ class LocalSCPCrawler {
       statistics: crawlResult.statistics,
       dataFile: 'scp-data.json'
     };
-    fs.writeFileSync(metaFilePath, JSON.stringify(meta, null, 2), 'utf8');
+    fs.writeFileSync(metaFilePath, stringifyAsciiSafe(meta), 'utf8');
     console.log(`メタデータを保存: ${metaFilePath}`);
     
     // 中間ファイルを削除
@@ -541,6 +541,20 @@ class LocalSCPCrawler {
   }
 }
 
+/**
+ * 非ASCII文字をJSONのユニコードエスケープに変換して文字列化する。
+ * raw.githubusercontent.comはcharset指定なし(application/octet-stream)で配信するため、
+ * アプリ側(Dart http)がLatin-1として読むと生のUTF-8日本語は文字化けする。
+ * ASCIIのみの出力ならどの文字コードで読んでもJSONパース時に正しく復元される。
+ * 正規表現は「改行と印字可能ASCII(空白～チルダ)以外」にマッチする。
+ */
+function stringifyAsciiSafe(value) {
+  return JSON.stringify(value, null, 2).replace(
+    /[^\n -~]/g,
+    ch => '\\u' + ch.charCodeAt(0).toString(16).padStart(4, '0')
+  );
+}
+
 // メイン実行
 if (require.main === module) {
   const crawler = new LocalSCPCrawler();
@@ -550,4 +564,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { LocalSCPCrawler };
+module.exports = { LocalSCPCrawler, stringifyAsciiSafe };

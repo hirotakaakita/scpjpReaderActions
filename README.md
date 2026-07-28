@@ -42,6 +42,9 @@ node merge-data.js                     # partial-data/ の17ページ分を loca
 masterブランチにpushした時点でアプリの取得先に反映されます。
 アプリは起動時に `local-data/meta.json` の `lastUpdated` を前回取り込み時の値と比較し、変化があれば `scp-data.json` を再ダウンロードします（`meta.json` と `scp-data.json` は必ずセットで更新してください）。
 
+配信JSONは非ASCII文字をすべて `\uXXXX` にエスケープして出力します（`stringifyAsciiSafe`）。
+raw.githubusercontent.com がcharset指定なし（`application/octet-stream`）で配信するため、生のUTF-8日本語を含めるとアプリ側でLatin-1解釈されて文字化けします。手動でデータを生成・修正する場合も必ずASCIIのみの形式を維持してください。
+
 ## 構成
 
 ```
