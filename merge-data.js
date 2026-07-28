@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { LocalSCPCrawler } = require('./local-crawler');
+const { LocalSCPCrawler, stringifyAsciiSafe } = require('./local-crawler');
 
 /**
  * 分割クロール結果の結合スクリプト
@@ -76,15 +76,16 @@ function main() {
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
-  fs.writeFileSync(path.join(outputDir, 'scp-data.json'), JSON.stringify(crawlResult, null, 2), 'utf8');
-  fs.writeFileSync(path.join(outputDir, 'meta.json'), JSON.stringify({
+  // 非ASCIIをエスケープして配信（charset未指定配信でも文字化けしないように）
+  fs.writeFileSync(path.join(outputDir, 'scp-data.json'), stringifyAsciiSafe(crawlResult), 'utf8');
+  fs.writeFileSync(path.join(outputDir, 'meta.json'), stringifyAsciiSafe({
     lastUpdated: timestamp,
     totalCount: results.length,
     status: crawlResult.status,
     duration: totalDuration,
     statistics: crawlResult.statistics,
     dataFile: 'scp-data.json',
-  }, null, 2), 'utf8');
+  }), 'utf8');
 
   console.log(`\n=== 結合完了 ===`);
   console.log(`総件数: ${results.length}件（翻訳済み ${translated} / 未翻訳 ${untranslated} / 画像付き ${withImage}）`);
