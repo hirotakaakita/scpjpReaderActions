@@ -11,31 +11,33 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # languages.jsから全言語×全ページのmatrixを生成する
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate matrix
+        id: matrix
+        run: echo "matrix=$(node print-matrix.js)" >> "$GITHUB_OUTPUT"
+
   crawl:
     runs-on: ubuntu-latest
+    needs: setup
     timeout-minutes: 120
     strategy:
       fail-fast: false # 1ページの失敗で他ページのクロールを止めない
-      max-parallel: 3 # クロール先のレート制限対策（同時実行を3ページまでに制限）
-      matrix:
-        page:
-          - scp-series
-          - scp-series-2
-          - scp-series-3
-          - scp-series-4
-          - scp-series-5
-          - scp-series-6
-          - scp-series-7
-          - scp-series-8
-          - scp-series-9
-          - joke-scps
-          - scp-ex
-          - scp-series-jp
-          - scp-series-jp-2
-          - scp-series-jp-3
-          - scp-series-jp-4
-          - joke-scps-jp
-          - scp-jp-ex
+      max-parallel: 5 # クロール先のレート制限対策（wikidot全体への同時接続数を制限）
+      matrix: ${{ fromJSON(needs.setup.outputs.matrix) }}
 
     steps:
       - name: Checkout repository
@@ -50,27 +52,28 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # local-data/scp-data.json（checkout済み）を参照して
+      # local-data/<lang>/scp-data.json（checkout済み）を参照して
       # createdAt・取得済み画像URLを引き継ぐ差分クロール
       # 並列実行のためエントリ間の待機を1000msに延長（レート制限対策）
-      - name: Crawl ${{ matrix.page }}
-        run: node partial-crawler.js ${{ matrix.page }}
+      - name: Crawl ${{ matrix.lang }}/${{ matrix.page }}
+        run: node partial-crawler.js ${{ matrix.lang }} ${{ matrix.page }}
         env:
           CRAWL_DELAY_MS: '1000'
 
       - name: Upload partial data
         uses: actions/upload-artifact@v4
         with:
-          name: partial-${{ matrix.page }}
-          path: partial-data/${{ matrix.page }}.json
+          name: partial-${{ matrix.lang }}--${{ matrix.page }}
+          path: partial-data/${{ matrix.lang }}--${{ matrix.page }}.json
           retention-days: 3
           if-no-files-found: error
 
-  # 全ページのクロールが成功した場合のみ結合・配備する
-  # （1ページでも失敗するとこのジョブはスキップされ、local-dataは前回のまま維持される）
+  # 言語単位で全ページのクロールが成功した言語のみ結合・配備する
+  # （ある言語で1ページでも失敗するとその言語はスキップされ、local-dataは前回のまま維持される）
   merge-and-deploy:
     runs-on: ubuntu-latest
     needs: crawl
+    if: always() && needs.crawl.result != 'cancelled'
     timeout-minutes: 15
     permissions:
       contents: write

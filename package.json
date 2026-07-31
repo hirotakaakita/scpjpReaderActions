@@ -1,12 +1,11 @@
 {
   "name": "scp-crawler",
-  "version": "1.0.0",
-  "description": "SCP-JP Crawler for SCP Reader app (manual local run)",
+  "version": "2.0.0",
+  "description": "Multi-language SCP branch crawler for SCP Reader app",
   "main": "local-crawler.js",
   "scripts": {
     "start": "node local-crawler.js",
-    "crawl": "node local-crawler.js",
-    "test-crawl": "node test-crawler.js"
+    "crawl": "node local-crawler.js"
   },
   "dependencies": {
     "axios": "^1.7.7",
