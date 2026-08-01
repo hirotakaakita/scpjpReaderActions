@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2026-08-01T01:33:25.654Z",
+  "language": "pt",
+  "totalCount": 9261,
+  "status": "completed",
+  "duration": 12108,
+  "statistics": {
+    "translated": 2153,
+    "untranslated": 7108,
+    "withImage": 5036
+  },
+  "dataFile": "scp-data.json"
+}
