@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2026-08-01T00:30:46.605Z",
+  "language": "ko",
+  "totalCount": 3995,
+  "status": "completed",
+  "duration": 4926,
+  "statistics": {
+    "translated": 3960,
+    "untranslated": 35,
+    "withImage": 1932
+  },
+  "dataFile": "scp-data.json"
+}
