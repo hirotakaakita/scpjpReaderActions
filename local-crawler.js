@@ -68,7 +68,9 @@ class LocalSCPCrawler {
       return this.extractFromAnyLinks(document, pageConfig);
     }
 
-    const entries = [];
+    // 同一番号のバリアント記事（scp-001-j / scp-001-and-a-half-j 等）が
+    // 同じitemIdに畳まれて欠損しないよう、衝突時はスラッグからIDを生成する
+    const entriesById = new Map();
     const entryPattern = new RegExp(pageConfig.entryPattern || DEFAULT_ENTRY_PATTERN);
     const listItems = document.querySelectorAll('ul li');
 
@@ -96,8 +98,18 @@ class LocalSCPCrawler {
         scpTitle = titleMatch[1].trim();
       }
 
-      entries.push({
-        itemId: `${pageConfig.pageType}-${scpNumber}`,
+      let itemId = `${pageConfig.pageType}-${scpNumber}`;
+      const existing = entriesById.get(itemId);
+      if (existing) {
+        // 同一記事の重複掲載はスキップ
+        if (existing.url === href) return;
+        // 別記事（番号バリアント）はスラッグ由来のIDで両方残す
+        itemId = `${pageConfig.pageType}-${href.replace(/^\//, '').replace(/^scp-/, '')}`;
+        if (entriesById.has(itemId)) return;
+      }
+
+      entriesById.set(itemId, {
+        itemId: itemId,
         numericItemId: parseInt(scpNumber, 10),
         title: scpTitle,
         url: href,
@@ -106,7 +118,7 @@ class LocalSCPCrawler {
       });
     });
 
-    return entries;
+    return [...entriesById.values()];
   }
 
   /**
@@ -390,7 +402,8 @@ class LocalSCPCrawler {
 
           scpEntries.push({
             itemId: entry.itemId,
-            numericItemId: entry.numericItemId || null,
+            // ??にすること（||だと000番記事のnumericItemId=0がnullになる）
+            numericItemId: entry.numericItemId ?? null,
             titleJP: entry.title,
             urlEN: urlEn,
             urlJP: urlLocal,
