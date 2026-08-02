@@ -113,6 +113,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update SCP data - $(date -u +%Y%m%d%H%M%S)"
-            git pull --rebase origin master
+            # 実行中に他のrunがデータをpushしていた場合、生成ファイル同士の
+            # rebaseは必ず衝突するため、今回のクロール結果（新しい方）を優先する
+            git pull --rebase -X theirs origin master
             git push origin master
           fi
