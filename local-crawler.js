@@ -89,9 +89,9 @@ class LocalSCPCrawler {
       const entryText = entry.textContent.trim();
       const linkText = link.textContent.trim();
 
-      // タイトル抽出（"SCP-XXX - タイトル" 形式）
+      // タイトル抽出（"SCP-XXX - タイトル" 形式。区切りはサイトによって - / – / — が使われる）
       let scpTitle = '';
-      const titleMatch = entryText.match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*-\\s*(.+)'));
+      const titleMatch = entryText.match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*[-–—]\\s*(.+)'));
       if (titleMatch) {
         scpTitle = titleMatch[1].trim();
       }
