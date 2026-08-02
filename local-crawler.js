@@ -143,12 +143,20 @@ class LocalSCPCrawler {
       if (isUnwritten && pageConfig.skipUnwritten) return;
 
       const scpNumber = scpNumberMatch[1];
+
+      // ページの担当番号範囲外のリンク（注目記事ブロック等の混在）を除外する
+      if (pageConfig.numberRange) {
+        const num = parseInt(scpNumber, 10);
+        if (num < pageConfig.numberRange[0] || num > pageConfig.numberRange[1]) return;
+      }
+
       const itemId = `${pageConfig.pageType}-${scpNumber}`;
       const existing = entriesById.get(itemId);
       if (existing && existing.title) return;
 
       // リンク直後のテキスト（" - タイトル" または " - タイトル, рейтинг NN"等）からタイトルを抽出
       let scpTitle = '';
+      const linkText = link.textContent.trim();
       const nextText = link.nextSibling ? String(link.nextSibling.textContent || '') : '';
       const titleMatch = nextText.match(/^\s*[-–—]\s*(.+)/);
       if (titleMatch) {
@@ -157,11 +165,21 @@ class LocalSCPCrawler {
         // li内にあるエントリはli全体のテキスト（"SCP-XXX - タイトル"形式）から抽出
         const li = link.closest('li');
         if (li) {
-          const linkText = link.textContent.trim();
           const liTitleMatch = li.textContent.trim().match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*[-–—]\\s*(.+)'));
           if (liTitleMatch) {
             scpTitle = liTitleMatch[1].trim();
           }
+        }
+      }
+      if (!scpTitle) {
+        // UAの国際版ミラーはリンクテキスト自体にタイトルが埋め込まれている
+        // （例: "SCP-2602, який колись був бібліотекою"）
+        const inlineMatch = linkText.match(/^SCP-[^\s,]+[,]?\s*[-–—]?\s*(.+)$/i);
+        if (inlineMatch) {
+          scpTitle = inlineMatch[1].trim();
+        } else if (!/^scp/i.test(linkText)) {
+          // "SCP-XXX"の形式ですらないリンクテキストは全体が表示名（SCP-2521のドット表記等）
+          scpTitle = linkText;
         }
       }
 
