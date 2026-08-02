@@ -114,7 +114,8 @@ const LANGUAGES = {
     enBaseUrl: 'http://scp-wiki.wikidot.com',
     pages: [
       ...internationalPages(10),
-      { path: 'liste-fr', pageType: 'scp-series-fr', skipUnwritten: true },
+      // liste-frはクローラー系UAを503でブロックすることがあるためブラウザUAで取得する
+      { path: 'liste-fr', pageType: 'scp-series-fr', skipUnwritten: true, browserUserAgent: true },
     ],
   },
 
