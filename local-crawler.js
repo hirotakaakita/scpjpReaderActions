@@ -314,6 +314,9 @@ class LocalSCPCrawler {
    */
   async extractScpDataFromUrl(url, existingData, maxRetries = 3) {
     const pageConfig = this.getPageConfig(url);
+    // 一部サイトの負荷の高い一覧ページはクローラー系UAを503でブロックすることがある
+    // （lista-pl、liste-frで確認）。403/503を受けたら以降はブラウザUAに切り替える。
+    let useBrowserUa = !!pageConfig.browserUserAgent;
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
@@ -322,7 +325,7 @@ class LocalSCPCrawler {
         const response = await axios.get(url, {
           timeout: 60000,
           headers: {
-            'User-Agent': pageConfig.browserUserAgent ? BROWSER_USER_AGENT : CRAWLER_USER_AGENT,
+            'User-Agent': useBrowserUa ? BROWSER_USER_AGENT : CRAWLER_USER_AGENT,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'en-US;q=0.9,en;q=0.8,*;q=0.5',
           }
@@ -412,6 +415,13 @@ class LocalSCPCrawler {
 
       } catch (error) {
         console.error(`URL ${url}の処理エラー (試行 ${attempt}/${maxRetries}):`, error.message);
+
+        // UAベースのbotブロック（403/503）はブラウザUAに切り替えてリトライ
+        const status = error.response?.status;
+        if (!useBrowserUa && (status === 403 || status === 503)) {
+          console.log('ブラウザUAに切り替えてリトライします...');
+          useBrowserUa = true;
+        }
 
         if (attempt === maxRetries) {
           console.error(`${url}の処理に${maxRetries}回失敗しました`);
