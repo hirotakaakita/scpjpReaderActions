@@ -186,9 +186,19 @@ const LANGUAGES = {
   ua: {
     baseUrl: 'http://scp-ukrainian.wikidot.com',
     enBaseUrl: 'http://scp-wiki.wikidot.com',
-    // 国際版ミラーは通常のul li構造でないため支部独自リストのみ。
-    // 支部リストもdiv+brベースの特殊構造のためanyLinkモードで抽出する。
+    // UAサイトは全ページがdiv+brベースの特殊構造のためanyLinkモードで抽出する。
+    // 国際版ミラーは「翻訳済み記事のみ掲載」のキュレーション型で、
+    // ページ上部の注目記事ブロック（他シリーズの記事が混在）はnumberRangeで除外する。
+    // joke-scps等は404のためシリーズのみ対象。
     pages: [
+      ...internationalPages(10)
+        .filter(page => page.pageType === 'scp-series')
+        .map((page, index) => ({
+          ...page,
+          extractMode: 'anyLink',
+          skipUnwritten: true,
+          numberRange: [index === 0 ? 1 : index * 1000, index * 1000 + 999],
+        })),
       { path: 'scp-series-ua', pageType: 'scp-series-ua', skipUnwritten: true, extractMode: 'anyLink' },
     ],
   },
