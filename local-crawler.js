@@ -212,18 +212,11 @@ class LocalSCPCrawler {
           }
         });
 
-        const dom = new JSDOM(response.data, {
-          resources: "usable",
-          runScripts: "outside-only",
-          pretendToBeVisual: false,
-          storageQuota: 10000000,
-          // CSSパースを無効にしてエラーを回避
-          features: {
-            FetchExternalResources: false,
-            ProcessExternalResources: false,
-            SkipExternalResources: true
-          }
-        });
+        // HTML属性を読むだけなので外部リソース（CSS/フォント/画像）は読み込まない。
+        // resources:'usable'を指定すると全サブリソースの取得・保持でメモリリークし、
+        // 記事数の多いジョブがOOMで落ちる（scp-series-koで発生）。
+        const dom = new JSDOM(response.data);
+        try {
         const document = dom.window.document;
 
         // 本文コンテンツエリアを特定
@@ -304,6 +297,10 @@ class LocalSCPCrawler {
 
         return null;
 
+        } finally {
+          // JSDOMウィンドウを明示的に閉じてメモリを解放する
+          dom.window.close();
+        }
       } catch (error) {
         console.warn(`画像URL取得エラー ${scpUrl} (試行 ${attempt}/${maxRetries}):`, error.message);
 
@@ -362,21 +359,14 @@ class LocalSCPCrawler {
         });
 
         console.log(`レスポンス受信: ${response.status}`);
-        const dom = new JSDOM(response.data, {
-          resources: "usable",
-          runScripts: "outside-only",
-          pretendToBeVisual: false,
-          storageQuota: 10000000,
-          // CSSパースを無効にしてエラーを回避
-          features: {
-            FetchExternalResources: false,
-            ProcessExternalResources: false,
-            SkipExternalResources: true
-          }
-        });
-        const document = dom.window.document;
-
-        const rawEntries = this.extractFromScpSeries(document, pageConfig);
+        // 外部リソースは読み込まない（画像抽出側と同じOOM対策）
+        const dom = new JSDOM(response.data);
+        let rawEntries;
+        try {
+          rawEntries = this.extractFromScpSeries(dom.window.document, pageConfig);
+        } finally {
+          dom.window.close();
+        }
         console.log(`${rawEntries.length}件のエントリを抽出`);
 
         // 統一フォーマットに変換
