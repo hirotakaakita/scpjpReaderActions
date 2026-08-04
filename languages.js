@@ -17,7 +17,9 @@
  *  - wikidotサイトの多くはHTTPS不可（httpへ301リダイレクトされループする）。baseUrlのスキームを変えないこと。
  *  - RU支部(scpfoundation.net)はアンチボット保護(Anubis, JS必須)のためクロール不可 → 未対応。
  *  - INTは全体シリーズ一覧が無いため、INT独自記事(int-hub)のみ対応。
- *  - UAは国際版ミラーが通常のul li構造でない（curated list）ため、支部独自リストのみ対応。
+ *  - UAは全ページがul li構造でないため、専用のanyLinkモードで抽出する。
+ *    国際版ミラーは「翻訳済み記事のみ掲載」のキュレーション型（newpage枠なし）で、
+ *    未翻訳記事は取得できない。numberRangeで注目記事ブロックの混入を除外している。
  *  - ITのジョーク一覧には番号なしslug記事（scp-sexooo-it-j等）があり、番号抽出できないため対象外。
  */
 
@@ -197,6 +199,10 @@ const LANGUAGES = {
           ...page,
           extractMode: 'anyLink',
           skipUnwritten: true,
+          // 本編記事の素のslug（/scp-NNN）のみ対象にする。
+          // サフィックス付き（/scp-NNN-ua や /scp-NNN-j）を許すと支部記事や
+          // バリアントが本編のitemIdとして混入してしまう
+          entryPattern: '^\\/scp-(\\d+)$',
           numberRange: [index === 0 ? 1 : index * 1000, index * 1000 + 999],
         })),
       { path: 'scp-series-ua', pageType: 'scp-series-ua', skipUnwritten: true, extractMode: 'anyLink' },

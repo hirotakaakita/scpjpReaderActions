@@ -9,6 +9,113 @@ const CRAWLER_USER_AGENT = 'Mozilla/5.0 (compatible; SCPCrawler/2.0; Multi-Langu
 // pageConfig.browserUserAgent: true のページのみブラウザ相当のUAを使う
 const BROWSER_USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
+/** 正規表現メタ文字をエスケープする */
+function escapeRegExp(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * "リンクテキスト - タイトル" 形式のテキストからタイトル部分を抽出する。
+ * 区切りはサイトによって - / – / — が使われる（PLは—、THの一部は–）。
+ */
+function titleAfterLink(text, linkText) {
+  const match = text.match(new RegExp(escapeRegExp(linkText) + '\\s*[-–—]\\s*(.+)'));
+  return match ? match[1].trim() : '';
+}
+
+/**
+ * HTMLをJSDOMでパースしてfnを実行し、必ずwindowを閉じて返す。
+ * 外部リソース（CSS/フォント/画像）は読み込まない。resources:'usable'指定や
+ * close()忘れはサブリソースの取得・保持でメモリリークし、記事数の多いジョブが
+ * OOMで落ちる（scp-series-koで発生）。パース箇所は必ずこのヘルパーを使うこと。
+ */
+function withDom(html, fn) {
+  const dom = new JSDOM(html);
+  try {
+    return fn(dom.window.document);
+  } finally {
+    dom.window.close();
+  }
+}
+
+/** pageTypeから支部コードを取り出す（国際版ページはnull） */
+function branchCodeOf(pageType) {
+  const match = pageType.match(/^scp-series-([a-z-]+)$/)
+    || pageType.match(/^joke-scps-([a-z-]+)$/)
+    || pageType.match(/^scp-([a-z-]+)-ex$/);
+  return match ? match[1] : null;
+}
+
+/**
+ * 番号バリアント記事用のitemId接尾辞をスラッグから作る。
+ * pageTypeに既に含まれる支部コードはスラッグ側から取り除き、
+ * 「joke-scps-cn-cn-001-x-j」のような二重化を防ぐ。
+ */
+function variantSlugPart(href, pageType) {
+  let slug = href.replace(/^\//, '').replace(/^scp-/, '');
+  const code = branchCodeOf(pageType);
+  if (code) {
+    if (slug.startsWith(`${code}-`)) {
+      slug = slug.slice(code.length + 1);
+    } else if (slug.endsWith(`-${code}`)) {
+      slug = slug.slice(0, -(code.length + 1));
+    } else {
+      const middle = slug.indexOf(`-${code}-`);
+      if (middle >= 0) {
+        slug = slug.slice(0, middle) + slug.slice(middle + code.length + 1);
+      }
+    }
+  }
+  return slug;
+}
+
+/**
+ * 収集したリンク候補からエントリ一覧を組み立てる。
+ * - 同一URLの重複掲載は1件に統合（タイトルが取れている出現を優先）
+ * - 同一番号の別記事（バリアント）は、最短スラッグ（＝正規記事）が基本番号IDを持ち、
+ *   残りはスラッグ由来のIDになる。ページの記載順に依存しない決定的な割り当てのため、
+ *   サイト側で一覧の並びが変わってもitemIdの帰属は揺れない。
+ */
+function buildEntries(candidates, pageConfig) {
+  const byNumber = new Map();
+  for (const candidate of candidates) {
+    if (!byNumber.has(candidate.scpNumber)) byNumber.set(candidate.scpNumber, []);
+    byNumber.get(candidate.scpNumber).push(candidate);
+  }
+
+  const entries = [];
+  const usedIds = new Set();
+  for (const [scpNumber, group] of byNumber) {
+    const byHref = new Map();
+    for (const candidate of group) {
+      const existing = byHref.get(candidate.href);
+      if (!existing || (!existing.title && candidate.title)) {
+        byHref.set(candidate.href, candidate);
+      }
+    }
+
+    const articles = [...byHref.values()].sort((a, b) =>
+      a.href.length - b.href.length || a.href.localeCompare(b.href));
+
+    articles.forEach((article, index) => {
+      const itemId = index === 0
+        ? `${pageConfig.pageType}-${scpNumber}`
+        : `${pageConfig.pageType}-${variantSlugPart(article.href, pageConfig.pageType)}`;
+      if (usedIds.has(itemId)) return;
+      usedIds.add(itemId);
+      entries.push({
+        itemId: itemId,
+        numericItemId: parseInt(scpNumber, 10),
+        title: article.title,
+        url: article.href,
+        isUntranslated: article.isUnwritten,
+        type: 'scp'
+      });
+    });
+  }
+  return entries;
+}
+
 /**
  * SCP Crawler（多言語対応版）
  * languages.jsの設定に基づき、指定言語の支部サイトから記事一覧を抽出する。
@@ -61,20 +168,24 @@ class LocalSCPCrawler {
   }
 
   /**
-   * シリーズ一覧ページからデータを抽出
+   * シリーズ一覧ページからデータを抽出。
+   * リンク候補の収集（ul li / anyLink）とエントリ組み立て（重複統合・ID割り当て）を分離している。
    */
   extractFromScpSeries(document, pageConfig) {
-    if (pageConfig.extractMode === 'anyLink') {
-      return this.extractFromAnyLinks(document, pageConfig);
-    }
+    const candidates = pageConfig.extractMode === 'anyLink'
+      ? this.collectFromAnyLinks(document, pageConfig)
+      : this.collectFromListItems(document, pageConfig);
+    return buildEntries(candidates, pageConfig);
+  }
 
-    // 同一番号のバリアント記事（scp-001-j / scp-001-and-a-half-j 等）が
-    // 同じitemIdに畳まれて欠損しないよう、衝突時はスラッグからIDを生成する
-    const entriesById = new Map();
+  /**
+   * 標準的なul li構造の一覧からリンク候補を収集する
+   */
+  collectFromListItems(document, pageConfig) {
     const entryPattern = new RegExp(pageConfig.entryPattern || DEFAULT_ENTRY_PATTERN);
-    const listItems = document.querySelectorAll('ul li');
+    const candidates = [];
 
-    listItems.forEach(entry => {
+    document.querySelectorAll('ul li').forEach(entry => {
       // ES支部などはli > strong > aのネスト構造のため、descendantセレクタで取得する
       const link = entry.querySelector('a[href^="/scp-"]');
       if (!link) return;
@@ -87,54 +198,27 @@ class LocalSCPCrawler {
       // 支部独自リストのnewpage=記事が存在しない枠のため除外する
       if (isUnwritten && pageConfig.skipUnwritten) return;
 
-      const scpNumber = scpNumberMatch[1];
-      const entryText = entry.textContent.trim();
-      const linkText = link.textContent.trim();
-
-      // タイトル抽出（"SCP-XXX - タイトル" 形式。区切りはサイトによって - / – / — が使われる）
-      let scpTitle = '';
-      const titleMatch = entryText.match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*[-–—]\\s*(.+)'));
-      if (titleMatch) {
-        scpTitle = titleMatch[1].trim();
-      }
-
-      let itemId = `${pageConfig.pageType}-${scpNumber}`;
-      const existing = entriesById.get(itemId);
-      if (existing) {
-        // 同一記事の重複掲載はスキップ
-        if (existing.url === href) return;
-        // 別記事（番号バリアント）はスラッグ由来のIDで両方残す
-        itemId = `${pageConfig.pageType}-${href.replace(/^\//, '').replace(/^scp-/, '')}`;
-        if (entriesById.has(itemId)) return;
-      }
-
-      entriesById.set(itemId, {
-        itemId: itemId,
-        numericItemId: parseInt(scpNumber, 10),
-        title: scpTitle,
-        url: href,
-        isUntranslated: isUnwritten,
-        type: 'scp'
+      candidates.push({
+        href: href,
+        scpNumber: scpNumberMatch[1],
+        title: titleAfterLink(entry.textContent.trim(), link.textContent.trim()),
+        isUnwritten: isUnwritten,
       });
     });
 
-    return [...entriesById.values()];
+    return candidates;
   }
 
   /**
-   * ul liに依存せず、本文内のパターン一致リンクを総当たりで抽出する。
+   * ul liに依存せず、本文内のパターン一致リンクを総当たりで収集する。
    * UA支部のようにリスト構造が特殊なページ用（extractMode: 'anyLink'）。
-   * タイトルはリンク直後のテキストノード（" - タイトル"形式）から取得する。
    */
-  extractFromAnyLinks(document, pageConfig) {
-    // 同一記事がページ内に複数回登場する場合（上部の注目記事ブロック等）に備え、
-    // itemIdごとに1件とし、タイトルが取得できた出現を優先する
-    const entriesById = new Map();
+  collectFromAnyLinks(document, pageConfig) {
     const entryPattern = new RegExp(pageConfig.entryPattern || DEFAULT_ENTRY_PATTERN);
     const contentArea = document.querySelector('#page-content') || document;
-    const links = contentArea.querySelectorAll('a[href^="/scp-"]');
+    const candidates = [];
 
-    links.forEach(link => {
+    contentArea.querySelectorAll('a[href^="/scp-"]').forEach(link => {
       const href = link.getAttribute('href');
       const scpNumberMatch = href ? href.match(entryPattern) : null;
       if (!scpNumberMatch) return;
@@ -150,11 +234,7 @@ class LocalSCPCrawler {
         if (num < pageConfig.numberRange[0] || num > pageConfig.numberRange[1]) return;
       }
 
-      const itemId = `${pageConfig.pageType}-${scpNumber}`;
-      const existing = entriesById.get(itemId);
-      if (existing && existing.title) return;
-
-      // リンク直後のテキスト（" - タイトル" または " - タイトル, рейтинг NN"等）からタイトルを抽出
+      // タイトルはリンク直後のテキスト → li全体 → リンクテキスト内の順で探す
       let scpTitle = '';
       const linkText = link.textContent.trim();
       const nextText = link.nextSibling ? String(link.nextSibling.textContent || '') : '';
@@ -162,19 +242,16 @@ class LocalSCPCrawler {
       if (titleMatch) {
         scpTitle = titleMatch[1].trim();
       } else {
-        // li内にあるエントリはli全体のテキスト（"SCP-XXX - タイトル"形式）から抽出
         const li = link.closest('li');
         if (li) {
-          const liTitleMatch = li.textContent.trim().match(new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*[-–—]\\s*(.+)'));
-          if (liTitleMatch) {
-            scpTitle = liTitleMatch[1].trim();
-          }
+          scpTitle = titleAfterLink(li.textContent.trim(), linkText);
         }
       }
       if (!scpTitle) {
         // UAの国際版ミラーはリンクテキスト自体にタイトルが埋め込まれている
-        // （例: "SCP-2602, який колись був бібліотекою"）
-        const inlineMatch = linkText.match(/^SCP-[^\s,]+[,]?\s*[-–—]?\s*(.+)$/i);
+        // （例: "SCP-2602, який колись був бібліотекою"）。
+        // タイトルなしの素の "SCP-NNNN" を誤マッチしないよう、区切り後の空白を必須にする
+        const inlineMatch = linkText.match(/^SCP-[^\s,]+[,:]?\s*[-–—]?\s+(.+)$/i);
         if (inlineMatch) {
           scpTitle = inlineMatch[1].trim();
         } else if (!/^scp/i.test(linkText)) {
@@ -183,18 +260,15 @@ class LocalSCPCrawler {
         }
       }
 
-      if (existing && !scpTitle) return;
-      entriesById.set(itemId, {
-        itemId: itemId,
-        numericItemId: parseInt(scpNumber, 10),
+      candidates.push({
+        href: href,
+        scpNumber: scpNumber,
         title: scpTitle,
-        url: href,
-        isUntranslated: isUnwritten,
-        type: 'scp'
+        isUnwritten: isUnwritten,
       });
     });
 
-    return [...entriesById.values()];
+    return candidates;
   }
 
   /**
@@ -213,12 +287,7 @@ class LocalSCPCrawler {
         });
 
         // HTML属性を読むだけなので外部リソース（CSS/フォント/画像）は読み込まない。
-        // resources:'usable'を指定すると全サブリソースの取得・保持でメモリリークし、
-        // 記事数の多いジョブがOOMで落ちる（scp-series-koで発生）。
-        const dom = new JSDOM(response.data);
-        try {
-        const document = dom.window.document;
-
+        return withDom(response.data, (document) => {
         // 本文コンテンツエリアを特定
         const contentSelectors = [
           '#page-content',        // メインコンテンツエリア
@@ -296,11 +365,7 @@ class LocalSCPCrawler {
         }
 
         return null;
-
-        } finally {
-          // JSDOMウィンドウを明示的に閉じてメモリを解放する
-          dom.window.close();
-        }
+        });
       } catch (error) {
         console.warn(`画像URL取得エラー ${scpUrl} (試行 ${attempt}/${maxRetries}):`, error.message);
 
@@ -359,14 +424,8 @@ class LocalSCPCrawler {
         });
 
         console.log(`レスポンス受信: ${response.status}`);
-        // 外部リソースは読み込まない（画像抽出側と同じOOM対策）
-        const dom = new JSDOM(response.data);
-        let rawEntries;
-        try {
-          rawEntries = this.extractFromScpSeries(dom.window.document, pageConfig);
-        } finally {
-          dom.window.close();
-        }
+        const rawEntries = withDom(response.data, (document) =>
+          this.extractFromScpSeries(document, pageConfig));
         console.log(`${rawEntries.length}件のエントリを抽出`);
 
         // 統一フォーマットに変換
@@ -631,4 +690,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { LocalSCPCrawler, stringifyAsciiSafe };
+module.exports = { LocalSCPCrawler, stringifyAsciiSafe, variantSlugPart, buildEntries };
