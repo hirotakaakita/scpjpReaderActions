@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-09T02:31:04.658Z",
+  "lastUpdated": "2026-08-16T02:13:09.246Z",
   "language": "cn",
-  "totalCount": 15277,
+  "totalCount": 15292,
   "status": "completed",
-  "duration": 19213,
+  "duration": 18986,
   "statistics": {
-    "translated": 12541,
-    "untranslated": 2736,
-    "withImage": 7207
+    "translated": 12584,
+    "untranslated": 2708,
+    "withImage": 7219
   },
   "dataFile": "scp-data.json"
 }
