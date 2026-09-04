@@ -1534,7 +1534,17 @@
       "pageType": "scp-series",
       "contentType": "scp",
       "lastUpdated": "2026-08-30T10:07:04.084Z",
-      "createdAt": "2026-08-03T01:02:11.059Z"
+      "createdAt": "2026-08-03T01:02:11.059Z",
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko"
+      ]
     },
     {
       "itemId": "scp-series-107",
