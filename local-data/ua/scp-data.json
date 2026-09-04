@@ -7690,7 +7690,24 @@
       "pageType": "scp-series",
       "contentType": "scp",
       "lastUpdated": "2026-08-30T10:10:19.400Z",
-      "createdAt": "2026-08-03T01:04:25.028Z"
+      "createdAt": "2026-08-03T01:04:25.028Z",
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ]
     },
     {
       "itemId": "scp-series-2309",

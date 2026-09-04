@@ -32120,7 +32120,24 @@
       "pageType": "scp-series",
       "contentType": "scp",
       "lastUpdated": "2026-08-30T05:38:53.014Z",
-      "createdAt": "2026-08-01T08:25:59.422Z"
+      "createdAt": "2026-08-01T08:25:59.422Z",
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ]
     },
     {
       "itemId": "scp-series-2296",
