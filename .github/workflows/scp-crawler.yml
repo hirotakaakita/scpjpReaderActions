@@ -101,6 +101,9 @@ jobs:
       - name: Merge partial data into local-data
         run: node merge-data.js
 
+      - name: Apply manga availability flags
+        run: node apply-manga-flags.js
+
       - name: Configure Git
         run: |
           git config --global user.name 'SCP Crawler Bot'
