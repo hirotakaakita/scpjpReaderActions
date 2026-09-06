@@ -1,0 +1,93 @@
+{
+  "id": "scp-008",
+  "panels": 4,
+  "image_size": [
+    776,
+    3368
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": [
+    28,
+    3124,
+    748,
+    3208
+  ],
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3228,
+    748,
+    3340
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-008",
+    "source_url": "http://scp-wiki.wikidot.com/scp-008",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "en": "SCP-008: The Zombie Plague",
+    "ja": "SCP-008\uff1a\u30be\u30f3\u30d3\u75c5",
+    "cs": "SCP-008: Zombie mor",
+    "de": "SCP-008: Die Zombie-Seuche",
+    "es": "SCP-008: La Plaga Zombi",
+    "fr": "SCP-008 : La Peste Zombie",
+    "it": "SCP-008: La Peste Zombie",
+    "ko": "SCP-008: \uc880\ube44 \uc5ed\ubcd1",
+    "pl": "SCP-008: Zombiowa Zaraza",
+    "pt": "SCP-008: A Praga Zumbi",
+    "th": "SCP-008: \u0e01\u0e32\u0e2c\u0e42\u0e23\u0e04\u0e0b\u0e2d\u0e21\u0e1a\u0e35\u0e49",
+    "uk": "SCP-008: \u0417\u043e\u043c\u0431\u0456-\u0447\u0443\u043c\u0430",
+    "vi": "SCP-008: B\u1ec7nh D\u1ecbch Zombie",
+    "zh": "SCP-008\uff1a\u50f5\u5c38\u761f\u75ab",
+    "zh_Hant": "SCP-008\uff1a\u6bad\u5c4d\u761f\u75ab"
+  },
+  "created_at": "2026-09-06T09:09:11Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ]
+}
