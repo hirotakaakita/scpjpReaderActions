@@ -7,8 +7,12 @@ const LOCAL_DATA_DIR = path.join(__dirname, 'local-data');
 
 const MANGA_DIR_NAME_PATTERN = /^scp-(\d+)$/;
 
+// 言語ファイルとして扱わない特殊ファイル（base.png=文字無し全コマ合成、
+// thumbnail.png=一覧画面用の1コマ目サムネイル、いずれも言語コードではない）
+const NON_LANGUAGE_PNG_NAMES = new Set(['base.png', 'thumbnail.png']);
+
 /**
- * manga/scp-<N>/<lang>.png (base.png除く) の実在ファイルから
+ * manga/scp-<N>/<lang>.png (base.png, thumbnail.png除く) の実在ファイルから
  * SCP番号(N) -> 利用可能言語コード配列 のマップを作る。
  * meta.jsonのlanguagesは生成予定言語であり実際に生成済みとは限らないため使わない。
  */
@@ -27,7 +31,7 @@ function buildMangaLanguageMap() {
     }
 
     const languages = fs.readdirSync(itemDir)
-      .filter(name => name.endsWith('.png') && name !== 'base.png')
+      .filter(name => name.endsWith('.png') && !NON_LANGUAGE_PNG_NAMES.has(name))
       .map(name => name.slice(0, -'.png'.length))
       .sort();
 
