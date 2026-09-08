@@ -43,6 +43,43 @@ https://raw.githubusercontent.com/hirotakaakita/scpjpReaderActions/refs/heads/ma
 - `class="newpage"` のリンクは「リンク先未作成」。国際版ミラーでは「未翻訳（英語版は読める）」の意味なので含め、支部独自リストでは「記事が存在しない」ので除外する（`skipUnwritten`）。
 - 出力フィールド名 `titleJP` / `urlJP` / `isTranslatedJP` のJPは歴史的経緯によるもので、多言語化後は「選択言語（現地語）の」の意味。アプリとの互換性のため維持している。
 
+## 強制アップデート・メンテナンス制御（app-status.json）
+
+アプリは起動時（データ取得より前）に以下のURLを取得し、内容に応じて強制アップデート画面
+またはメンテナンス画面を表示します。取得に失敗した場合（配信元の一時的な不調など）は
+制限なしとして通常起動します。
+
+```
+https://raw.githubusercontent.com/hirotakaakita/scpjpReaderActions/refs/heads/master/app-status.json
+```
+
+```json
+{
+  "maintenance": false,
+  "maintenanceMessage": "現在メンテナンス中です。しばらくしてから再度お試しください。",
+  "minSupportedVersion": "1.2.5",
+  "updateMessage": "ご利用のバージョンはサポートされていません。最新版にアップデートしてください。",
+  "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.scp.reader",
+  "iosStoreUrl": "https://apps.apple.com/app/idXXXXXXXXXX"
+}
+```
+
+| フィールド | 説明 |
+|---|---|
+| `maintenance` | `true`にすると、バージョンに関わらず全ユーザーにメンテナンス画面(離脱不可)を表示する |
+| `maintenanceMessage` | メンテナンス画面の案内文。空文字ならアプリ側の既定文言を使う |
+| `minSupportedVersion` | この値未満のアプリバージョン（`pubspec.yaml`の`version:`の`+`より前、例: `1.2.4`）には強制アップデート画面(離脱不可)を表示する。ドット区切りの数値のみ対応 |
+| `updateMessage` | 強制アップデート画面の案内文。空文字ならアプリ側の既定文言を使う |
+| `androidStoreUrl` / `iosStoreUrl` | 強制アップデート画面の「アップデートする」ボタンの遷移先 |
+
+**使い方**: このファイルを直接編集してmasterにpush・commitするだけで、次にアプリが起動した
+ユーザーから順次反映されます（ビルドやリリース作業は不要）。メンテナンスを終える時は
+`maintenance`を`false`に戻してください。
+
+**注意**: この仕組み自体を認識できるのはこの機能を含むバージョン以降のアプリだけです。
+それより古いバージョンは`app-status.json`を一切参照しないため、強制アップデートや
+メンテナンス通知は届きません。
+
 ## データの更新方法
 
 ### 自動更新（GitHub Actions）
@@ -91,6 +128,8 @@ raw.githubusercontent.com がcharset指定なし（`application/octet-stream`）
 ├── partial-crawler.js                   # 一覧ページ1枚だけクロール（matrixジョブ用）
 ├── merge-data.js                        # 部分JSONを言語ごとに結合してlocal-data/を生成
 ├── print-matrix.js                      # Actionsのmatrix定義を出力
+├── send-new-scp-notifications.js        # 新着SCPのFCM週次PUSH通知送信
+├── app-status.json                      # 強制アップデート・メンテナンス制御
 ├── local-data/
 │   ├── scp-data.json                    # 日本語データ本体（旧アプリ互換パス）
 │   ├── meta.json                        # 日本語メタデータ（旧アプリ互換パス）
@@ -102,5 +141,7 @@ raw.githubusercontent.com がcharset指定なし（`application/octet-stream`）
 
 ## 変更履歴
 
+- 2026-09-08: 強制アップデート・メンテナンス制御用の `app-status.json` を追加。アプリが
+  起動時に参照し、該当バージョン以降のアプリで強制アップデート/メンテナンス画面を出し分ける。
 - 2026-08-01: 多言語対応。`languages.js` に16言語（jp/en/cn/cs/de/es/fr/int/it/ko/pl/pt/th/ua/vn/zh-tr）のクロール設定を集約し、言語別に `local-data/<lang>/` へ出力。JPは互換のため従来パスにも出力。JPのクロール対象に scp-series-10 と scp-series-jp-5 を追加。
 - 2026-07-10: クロール対象をページ単位に分割したmatrix並列ワークフローで自動更新を再構築（旧ワークフローは実行時間上限のため2026-07-10に一度廃止）。旧Firestore/Firebase Functions連携は廃止済み。
