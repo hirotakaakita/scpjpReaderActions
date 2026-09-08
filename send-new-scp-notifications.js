@@ -40,14 +40,54 @@ function readFromHead(relPath) {
   }
 }
 
-function extractItemIds(jsonText) {
-  if (!jsonText) return new Set();
+/** itemId -> 記事データ のMapを作る(通知本文に代表記事名を出すため) */
+function extractItemsMap(jsonText) {
+  if (!jsonText) return new Map();
   try {
     const parsed = JSON.parse(jsonText);
-    return new Set((parsed.data || []).map((item) => item.itemId));
+    return new Map((parsed.data || []).map((item) => [item.itemId, item]));
   } catch (e) {
-    return new Set();
+    return new Map();
   }
+}
+
+// アプリ側 PageTypeUtils.formatDisplayId と同じ変換ルール(itemId -> 表示ID)。
+// 通知本文に「SCP-173」のような見慣れた表記で代表記事を出すために複製している。
+const DISPLAY_ID_PATTERNS = [
+  [/^scp-([a-z][a-z-]*)-ex-(\d+(?:-.+)?)$/, (m) => `SCP-EX-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
+  [/^scp-ex-(\d+(?:-.+)?)$/, (m) => `SCP-EX-${m[1].toUpperCase()}`],
+  [/^joke-scps-([a-z][a-z-]*)-(\d+(?:-.+)?)$/, (m) => `JOKE-SCP-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
+  [/^joke-scps-(\d+(?:-.+)?)$/, (m) => `JOKE-SCP-${m[1].toUpperCase()}`],
+  [/^scp-series-([a-z][a-z-]*)-(\d+(?:-.+)?)$/, (m) => `SCP-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
+  [/^scp-series-(\d+(?:-.+)?)$/, (m) => `SCP-${m[1].toUpperCase()}`],
+];
+
+function formatDisplayId(itemId) {
+  for (const [pattern, formatter] of DISPLAY_ID_PATTERNS) {
+    const match = itemId.match(pattern);
+    if (match) return formatter(match);
+  }
+  return itemId.toUpperCase();
+}
+
+function truncate(text, maxLength) {
+  if (!text || text.length <= maxLength) return text;
+  return `${text.slice(0, maxLength)}…`;
+}
+
+/** 新着記事のうち代表的な数件を挙げた通知本文を組み立てる */
+function buildNotificationBody(newItems) {
+  const REPRESENTATIVE_COUNT = 2;
+  const representatives = newItems.slice(0, REPRESENTATIVE_COUNT);
+  const labels = representatives.map(
+    (item) => `${formatDisplayId(item.itemId)}「${truncate(item.titleJP, 20)}」`,
+  );
+  const listText = labels.join('、');
+  const remaining = newItems.length - representatives.length;
+
+  return remaining > 0
+    ? `${listText}など、今週${newItems.length}件の新着記事が追加されました`
+    : `${listText}が追加されました`;
 }
 
 function httpsRequest(hostname, requestPath, method, body, headers) {
@@ -156,12 +196,14 @@ async function main() {
     if (!fs.existsSync(dataPath)) continue;
 
     const relPath = `local-data/${lang}/scp-data.json`;
-    const previousIds = extractItemIds(readFromHead(relPath));
-    const currentIds = extractItemIds(fs.readFileSync(dataPath, 'utf8'));
-    const newIds = [...currentIds].filter((id) => !previousIds.has(id));
+    const previousMap = extractItemsMap(readFromHead(relPath));
+    const currentMap = extractItemsMap(fs.readFileSync(dataPath, 'utf8'));
+    const newItems = [...currentMap.values()].filter(
+      (item) => !previousMap.has(item.itemId),
+    );
 
-    if (newIds.length > 0) {
-      langsToNotify.push({ lang, count: newIds.length });
+    if (newItems.length > 0) {
+      langsToNotify.push({ lang, newItems });
     }
   }
 
@@ -171,7 +213,7 @@ async function main() {
   }
 
   console.log(
-    `通知対象: ${langsToNotify.map((l) => `${l.lang}(${l.count}件)`).join(', ')}`,
+    `通知対象: ${langsToNotify.map((l) => `${l.lang}(${l.newItems.length}件)`).join(', ')}`,
   );
 
   let accessToken;
@@ -182,17 +224,18 @@ async function main() {
     return;
   }
 
-  for (const { lang, count } of langsToNotify) {
+  for (const { lang, newItems } of langsToNotify) {
     const topic = `new_scp_${lang}`;
+    const body = buildNotificationBody(newItems);
     try {
       await sendTopicNotification(
         accessToken,
         projectId,
         topic,
         '新着SCPのお知らせ',
-        `今週${count}件の新着記事が追加されました`,
+        body,
       );
-      console.log(`[${lang}] 通知送信完了 (トピック: ${topic}, ${count}件)`);
+      console.log(`[${lang}] 通知送信完了 (トピック: ${topic}, ${newItems.length}件): ${body}`);
     } catch (e) {
       console.error(`[${lang}] 通知送信失敗: ${e.message}`);
     }
@@ -206,4 +249,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { extractItemIds };
+module.exports = { extractItemsMap, formatDisplayId, buildNotificationBody };
