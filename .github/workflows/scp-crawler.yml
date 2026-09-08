@@ -104,6 +104,16 @@ jobs:
       - name: Apply manga availability flags
         run: node apply-manga-flags.js
 
+      # git HEAD(前回コミット時点)と今回のlocal-dataを比較して新着記事を検出し、
+      # 言語別FCMトピック(new_scp_<lang>)に通知を送る。commitより前に実行する
+      # 必要がある(commit後だとHEADが今回のデータになり差分が0件になるため)。
+      # Secret未設定時はスクリプト内で自動的にスキップされる。
+      - name: Send new-SCP push notifications
+        run: node send-new-scp-notifications.js
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        continue-on-error: true # 通知送信の失敗でデータのcommit/pushを止めない
+
       - name: Configure Git
         run: |
           git config --global user.name 'SCP Crawler Bot'
