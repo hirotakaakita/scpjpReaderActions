@@ -1,6 +1,6 @@
 {
-  "maintenance": false,
-  "maintenanceMessage": "",
+  "maintenance": true,
+  "maintenanceMessage": "現在メンテナンス中です。しばらくしてから再度お試しください。",
   "minSupportedVersion": "1.0.0",
   "updateMessage": "",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.scp.reader",
