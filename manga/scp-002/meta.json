@@ -1,0 +1,96 @@
+{
+  "id": "scp-002",
+  "panels": 4,
+  "image_size": [
+    776,
+    3368
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": [
+    28,
+    3124,
+    748,
+    3208
+  ],
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3228,
+    748,
+    3340
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-002",
+    "source_url": "http://scp-wiki.wikidot.com/scp-002",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-002\uff1a\"\u751f\u304d\u3066\u3044\u308b\"\u5c45\u9593",
+    "en": "SCP-002: The \"Living\" Room",
+    "cs": "SCP-002: \"\u017div\u00e1\" m\u00edstnost",
+    "de": "SCP-002: Der Lebende Raum",
+    "es": "SCP-002: El \"Cuarto\" Viviente",
+    "fr": "SCP-002: La Salle a mang\u00e9",
+    "it": "SCP-002: Soggiorno \"Vivente\"",
+    "ko": "SCP-002: \"\uc0b4\uc544\uc788\ub294\" \ubc29",
+    "pl": "SCP-002: \u017bywy pok\u00f3j",
+    "pt": "SCP-002: O Quarto \"Vivo\"",
+    "th": "SCP-002: \u0e2b\u0e49\u0e2d\u0e07\u0e21\u0e35\u0e0a\u0e35\u0e27\u0e34\u0e15",
+    "uk": "SCP-002: \"\u0416\u0438\u0432\u0430\" \u043a\u0456\u043c\u043d\u0430\u0442\u0430",
+    "vi": "SCP-002: C\u0103n Ph\u00f2ng \"S\u1ed1ng\"",
+    "zh": "SCP-002\uff1a\u201c\u751f\u6d3b\u201d\u5ba4",
+    "zh_Hant": "SCP-002\uff1a\u751f\u300c\u6d3b\u300d\u8d77\u5c45\u5ba4"
+  },
+  "created_at": "2026-09-11T15:58:05Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
