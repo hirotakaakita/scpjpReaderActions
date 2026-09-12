@@ -57,23 +57,23 @@
     "license": "CC BY-SA 3.0"
   },
   "title": {
-    "en": "SCP-105: Iris",
-    "ja": "SCP-105\uff1a\u30a2\u30a4\u30ea\u30b9",
-    "cs": "SCP-105: Iris",
-    "de": "SCP-105: Iris",
-    "es": "SCP-105: Iris",
-    "fr": "SCP-105 : Iris",
-    "it": "SCP-105: Iris",
-    "ko": "SCP-105: \uc544\uc774\ub9ac\uc2a4",
-    "pl": "SCP-105: Iris",
-    "pt": "SCP-105: Iris",
-    "th": "SCP-105: \u0e44\u0e2d\u0e23\u0e34\u0e2a",
-    "uk": "SCP-105: \u0410\u0439\u0440\u0456\u0441",
-    "vi": "SCP-105: Iris",
-    "zh": "SCP-105\uff1a\u7231\u745e\u4e1d",
-    "zh_Hant": "SCP-105\uff1a\u611b\u745e\u7d72"
+    "ja": "SCP-105\uff1a\"\u30a2\u30a4\u30ea\u30b9\"",
+    "en": "SCP-105: \"Iris\"",
+    "cs": "SCP-105: \"Iris\"",
+    "de": "SCP-105: \"Iris\"",
+    "es": "SCP-105: \"Iris\"",
+    "fr": "SCP-105: \"Iris\"",
+    "it": "SCP-105: \"Iris\"",
+    "ko": "SCP-105: \"\uc544\uc774\ub9ac\uc2a4\"",
+    "pl": "SCP-105: \"Iris\"",
+    "pt": "SCP-105: \"Iris\"",
+    "th": "SCP-105: \"\u0e44\u0e2d\u0e23\u0e34\u0e2a\"",
+    "uk": "SCP-105: \"\u0410\u0439\u0440\u0456\u0441\"",
+    "vi": "SCP-105: \"Iris\"",
+    "zh": "SCP-105\uff1a\u201c\u9e22\u5a13\u201d",
+    "zh_Hant": "SCP-105\uff1a\u300cIris\u300d"
   },
-  "created_at": "2026-09-07T09:31:34Z",
+  "created_at": "2026-09-12T02:53:39Z",
   "languages": [
     "ja",
     "en",
@@ -90,5 +90,8 @@
     "vi",
     "zh",
     "zh_Hant"
-  ]
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
 }
