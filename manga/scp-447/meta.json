@@ -1,0 +1,92 @@
+{
+  "id": "scp-447",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-447",
+    "author": "DrClef",
+    "source_url": "http://scp-wiki.wikidot.com/scp-447",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-447\uff1a\u7dd1\u306e\u30b9\u30e9\u30a4\u30e0",
+    "en": "SCP-447: Ball of Green Slime",
+    "cs": "SCP-447: Koule zelen\u00e9ho slizu",
+    "de": "SCP-447: Kugel aus gr\u00fcnem Schleim",
+    "es": "SCP-447: Bola de Limo Verde",
+    "fr": "SCP-447: Boule de gel\u00e9e verte",
+    "it": "SCP-447: Palla di Muco Verde",
+    "ko": "SCP-447: \ub179\uc0c9 \ub048\ub048\uc774\uacf5",
+    "pl": "SCP-447: Kula zielonej mazi",
+    "pt": "SCP-447: Bola de Gosma Verde",
+    "th": "SCP-447: \u0e40\u0e21\u0e37\u0e2d\u0e01\u0e2a\u0e35\u0e40\u0e02\u0e35\u0e22\u0e27",
+    "uk": "SCP-447: \u041a\u0443\u043b\u044c\u043a\u0430 \u0437 \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0441\u043b\u0438\u0437\u0443",
+    "vi": "SCP-447: B\u00f3ng Slime \u0110a D\u1ee5ng",
+    "zh": "SCP-447\uff1a\u7eff\u8272\u9ecf\u6db2\u7403",
+    "zh_Hant": "SCP-447\uff1a\u7da0\u9ecf\u7403"
+  },
+  "created_at": "2026-09-12T18:59:44Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
