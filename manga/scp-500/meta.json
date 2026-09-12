@@ -1,0 +1,92 @@
+{
+  "id": "scp-500",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-500 - Panacea",
+    "source_url": "https://scp-wiki.wikidot.com/scp-500",
+    "author": "snorlison",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-500\uff1a\u4e07\u80fd\u85ac",
+    "en": "SCP-500: Panacea",
+    "cs": "SCP-500: Panacea",
+    "de": "SCP-500: Panazee",
+    "es": "SCP-500: Panacea",
+    "fr": "SCP-500: La Panac\u00e9e",
+    "it": "SCP-500: Panacea",
+    "ko": "SCP-500: \ub9cc\ubcd1\ud1b5\uce58\uc57d",
+    "pl": "SCP-500: Panaceum",
+    "pt": "SCP-500: Panaceia",
+    "th": "SCP-500: \u0e22\u0e32\u0e04\u0e23\u0e2d\u0e1a\u0e08\u0e31\u0e01\u0e23\u0e27\u0e32\u0e25",
+    "uk": "SCP-500: \u041f\u0430\u043d\u0430\u0446\u0435\u044f",
+    "vi": "SCP-500: Thu\u1ed1c V\u1ea1n \u1ee8ng",
+    "zh": "SCP-500\uff1a\u4e07\u80fd\u836f",
+    "zh_Hant": "SCP-500\uff1a\u842c\u9748\u85e5"
+  },
+  "created_at": "2026-09-12T18:30:24Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
