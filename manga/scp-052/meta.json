@@ -1,0 +1,92 @@
+{
+  "id": "scp-052",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-052",
+    "author": "eric_h",
+    "source_url": "http://scp-wiki.wikidot.com/scp-052",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-052\uff1a\u6642\u9593\u65c5\u884c\u5217\u8eca",
+    "en": "SCP-052: Time-Traveling Train",
+    "cs": "SCP-052: Vlak cestuj\u00edc\u00ed \u010dasem",
+    "de": "SCP-052: Zeitreisender Zug",
+    "es": "SCP-052: Tren que Viaja en el Tiempo",
+    "fr": "SCP-052: Train voyageant dans le temps",
+    "it": "SCP-052: Treno che Viaggia nel Tempo",
+    "ko": "SCP-052: \uc2dc\uac04 \uc5ec\ud589 \uc5f4\ucc28",
+    "pl": "SCP-052: Podr\u00f3\u017cuj\u0105cy w czasie poci\u0105g",
+    "pt": "SCP-052: Trem Viajante do Tempo",
+    "th": "SCP-052: \u0e23\u0e16\u0e44\u0e1f\u0e01\u0e32\u0e25\u0e40\u0e27\u0e25\u0e32",
+    "uk": "SCP-052: \u041f\u043e\u0442\u044f\u0433-\u043c\u0430\u043d\u0434\u0440\u0456\u0432\u043d\u0438\u043a \u0443 \u0447\u0430\u0441\u0456",
+    "vi": "SCP-052: T\u00e0u Xuy\u00ean Th\u1eddi Gian",
+    "zh": "SCP-052\uff1a\u65f6\u5149\u5217\u8f66",
+    "zh_Hant": "SCP-052\uff1a\u6642\u7a7a\u7a7f\u68ad\u5217\u8eca"
+  },
+  "created_at": "2026-09-13T16:19:38Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
