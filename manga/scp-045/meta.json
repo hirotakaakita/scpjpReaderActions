@@ -1,0 +1,92 @@
+{
+  "id": "scp-045",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-045",
+    "author": "Unknown Author, rewritten by Drewbear",
+    "source_url": "http://scp-wiki.wikidot.com/scp-045",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-045\uff1a\u5927\u6c17\u5909\u63db\u5668",
+    "en": "SCP-045: Atmospheric Converter",
+    "cs": "SCP-045: Atmosferick\u00fd konvertor",
+    "de": "SCP-045: Atmosph\u00e4rischer Konverter",
+    "es": "SCP-045: Convertidor Atmosf\u00e9rico",
+    "fr": "SCP-045: Convertisseur atmosph\u00e9rique",
+    "it": "SCP-045: Convertitore Atmosferico",
+    "ko": "SCP-045: \ub300\uae30 \ubcc0\ud658\uae30",
+    "pl": "SCP-045: Konwerter atmosferyczny",
+    "pt": "SCP-045: Conversor Atmosf\u00e9rico",
+    "th": "SCP-045: \u0e15\u0e31\u0e27\u0e41\u0e1b\u0e25\u0e07\u0e1a\u0e23\u0e23\u0e22\u0e32\u0e01\u0e32\u0e28",
+    "uk": "SCP-045: \u041f\u0435\u0440\u0435\u0442\u0432\u043e\u0440\u044e\u0432\u0430\u0447 \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0438",
+    "vi": "SCP-045: B\u1ed9 Chuy\u1ec3n \u0110\u1ed5i Kh\u00ed Quy\u1ec3n",
+    "zh": "SCP-045\uff1a\u5927\u6c14\u8f6c\u6362\u5668",
+    "zh_Hant": "SCP-045\uff1a\u5927\u6c23\u8f49\u63db\u5100"
+  },
+  "created_at": "2026-09-13T16:48:08Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
