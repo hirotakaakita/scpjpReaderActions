@@ -1,0 +1,97 @@
+{
+  "id": "scp-063",
+  "panels": 4,
+  "image_size": [
+    776,
+    3368
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": [
+    28,
+    3124,
+    748,
+    3208
+  ],
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3228,
+    748,
+    3340
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-063",
+    "author": "Kain Pathos Crow",
+    "source_url": "http://scp-wiki.wikidot.com/scp-063",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-063\uff1a\u201c\u4e16\u754c\u6700\u9ad8\u306e\u6b6f\u30d7\u30e9\u30b7\u201d",
+    "en": "SCP-063: \"The World's Best TothBrush\"",
+    "cs": "SCP-063: \"Nejlep\u0161\u00ed kart\u00e1ek na zuby na sv\u011bt\u011b\"",
+    "de": "SCP-063: \"Die weltbeste Zahnb\u00fcrste\"",
+    "es": "SCP-063: \"El Mejor Cepillo Dntal del Mundo\"",
+    "fr": "SCP-063: \"La Meilleure Brose \u00e0 dents du monde\"",
+    "it": "SCP-063: \"Lo Spazolino Migliore del Mondo\"",
+    "ko": "SCP-063: \"\uc138\uacc4 \ucd5c\uace0\uc758 \uce58\uc194\"",
+    "pl": "SCP-063: Najlepsza Szczoteczka do Zemb\u00f3w",
+    "pt": "SCP-063: \"A Melhor Scova de Dentes do Mundo\"",
+    "th": "SCP-063: \u0e41\u0e1b\u0e23\u0e07\u0e2a\u0e35\u0e1f\u0e31\u0e07\u0e17\u0e35\u0e48\u0e40\u0e08\u0e4b\u0e07\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14\u0e43\u0e19\u0e42\u0e25\u0e01",
+    "uk": "SCP-063: \"\u041d\u0430\u0439\u043a\u0440\u0430\u0449\u0430 \u0443 \u0441\u0432\u0456\u0442\u0456 \u0437\u0443\u0431\u043d\u043e\u0449\u0456\u0442\u043a\u0430\"",
+    "vi": "SCP-063: \"B\u00e0n Ch\u1ea3i \u0110\u00e1nh R\u0103ng T\u1ed1t Nh\u1ea5t Th\u1ebf Gi\u1edbi\"",
+    "zh": "SCP-063\uff1a\u201c\u4e16\u754c\u4e0a\u6700\u597d\u7684\u7259\u5237\u201d",
+    "zh_Hant": "SCP-063\uff1a\u300c\u4e16\u754c\u4e0a\u6700\u597d\u7528\u7684\u7259\u5237\u300d"
+  },
+  "created_at": "2026-09-13T18:19:34Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
