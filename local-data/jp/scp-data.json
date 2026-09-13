@@ -9712,7 +9712,24 @@
       "pageType": "scp-series",
       "contentType": "scp",
       "lastUpdated": "2026-09-13T01:57:44.411Z",
-      "createdAt": "2025-07-27T16:58:33.925Z"
+      "createdAt": "2025-07-27T16:58:33.925Z",
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ]
     },
     {
       "itemId": "scp-series-682",
