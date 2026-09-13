@@ -1,0 +1,92 @@
+{
+  "id": "scp-014",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-014",
+    "author": "Whitewings",
+    "source_url": "http://scp-wiki.wikidot.com/scp-014",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-014\uff1a\u30b3\u30f3\u30af\u30ea\u30fc\u30c8\u7537",
+    "en": "SCP-014: The Concrete Man",
+    "cs": "SCP-014: Betonov\u00fd mu\u017e",
+    "de": "SCP-014: Der Beton-Mann",
+    "es": "SCP-014: El Hombre de Hormig\u00f3n",
+    "fr": "SCP-014: L'Homme immortel",
+    "it": "SCP-014: L'uomo di Calcestruzzo",
+    "ko": "SCP-014: \ucf58\ud06c\ub9ac\ud2b8 \uc778\uac04",
+    "pl": "SCP-014: Betonowy m\u0119\u017cczyzna",
+    "pt": "SCP-014: O Homem de Concreto",
+    "th": "SCP-014: \u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c\u0e04\u0e2d\u0e19\u0e01\u0e23\u0e35\u0e15",
+    "uk": "SCP-014: \u041a\u0430\u043c'\u044f\u043d\u0430 \u043b\u044e\u0434\u0438\u043d\u0430",
+    "vi": "SCP-014: Ng\u01b0\u1eddi \u0110\u00e0n \u00d4ng B\u00ea T\u00f4ng",
+    "zh": "SCP-014\uff1a\u6df7\u51dd\u571f\u4eba",
+    "zh_Hant": "SCP-014\uff1a\u6df7\u51dd\u571f\u96d5\u50cf\u4eba"
+  },
+  "created_at": "2026-09-12T05:54:20Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
