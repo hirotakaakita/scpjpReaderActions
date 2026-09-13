@@ -1,0 +1,96 @@
+{
+  "id": "scp-109",
+  "panels": 4,
+  "image_size": [
+    776,
+    3368
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": [
+    28,
+    3124,
+    748,
+    3208
+  ],
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3228,
+    748,
+    3340
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-109",
+    "source_url": "http://scp-wiki.wikidot.com/scp-109",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-109\uff1a\u7121\u9650\u6c34\u7b52",
+    "en": "SCP-109: Infinite Canteen",
+    "cs": "SCP-109: Bezedn\u00e1 \u010dutora",
+    "de": "SCP-109: Unendliche Feldflasche",
+    "es": "SCP-109: Cantimplora Infinita",
+    "fr": "SCP-109: Gourde infinie",
+    "it": "SCP-109: Borraccia Infinita",
+    "ko": "SCP-109: \ubb34\ud55c \uc218\ud1b5",
+    "pl": "SCP-109: Bezkresna mena\u017cka",
+    "pt": "SCP-109: Cantil Infinito",
+    "th": "SCP-109: \u0e01\u0e23\u0e30\u0e15\u0e34\u0e01\u0e19\u0e49\u0e33\u0e44\u0e21\u0e48\u0e2a\u0e34\u0e49\u0e19\u0e2a\u0e38\u0e14",
+    "uk": "SCP-109: \u041d\u0435\u0441\u043a\u0456\u043d\u0447\u0435\u043d\u043d\u0430 \u0444\u043b\u044f\u0433\u0430",
+    "vi": "SCP-109: B\u00ecnh N\u01b0\u1edbc V\u00f4 T\u1eadn",
+    "zh": "SCP-109\uff1a\u65e0\u9650\u6c34\u58f6",
+    "zh_Hant": "SCP-109\uff1a\u7121\u9650\u6c34\u58fa"
+  },
+  "created_at": "2026-09-12T09:41:58Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
