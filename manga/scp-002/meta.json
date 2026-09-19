@@ -3,8 +3,17 @@
   "panels": 4,
   "image_size": [
     776,
-    3368
+    3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -31,12 +40,7 @@
       3108
     ]
   ],
-  "addendum_rect": [
-    28,
-    3124,
-    748,
-    3208
-  ],
+  "addendum_rect": null,
   "header_rect": [
     28,
     28,
@@ -45,15 +49,15 @@
   ],
   "footer_rect": [
     28,
-    3228,
+    3128,
     748,
-    3340
+    3240
   ],
   "object_class": "Euclid",
   "attribution": {
     "article": "SCP-002",
-    "source_url": "http://scp-wiki.wikidot.com/scp-002",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-002",
+    "author": "Unknown Author"
   },
   "title": {
     "ja": "SCP-002\uff1a\"\u751f\u304d\u3066\u3044\u308b\"\u5c45\u9593",
@@ -72,7 +76,7 @@
     "zh": "SCP-002\uff1a\u201c\u751f\u6d3b\u201d\u5ba4",
     "zh_Hant": "SCP-002\uff1a\u751f\u300c\u6d3b\u300d\u8d77\u5c45\u5ba4"
   },
-  "created_at": "2026-09-12T02:53:29Z",
+  "created_at": "2026-09-19T19:46:52Z",
   "languages": [
     "ja",
     "en",
