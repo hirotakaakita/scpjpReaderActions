@@ -1,0 +1,100 @@
+{
+  "id": "scp-019",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-019 \u2014 The Monster Pot",
+    "source_url": "https://scp-wiki.wikidot.com/scp-019",
+    "author": "Unknown Author / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-019\uff1a\u5316\u7269\u74f6",
+    "en": "SCP-019: The Monster Pot",
+    "cs": "SCP-019: V\u00e1za s monstry",
+    "de": "SCP-019: Die Monster-Vase",
+    "es": "SCP-019: Jarr\u00f3n de los Monstruos",
+    "fr": "SCP-019: Le Pot aux monstres",
+    "it": "SCP-019: Il Vaso dei Mostri",
+    "ko": "SCP-019: \uad34\ubb3c \ud56d\uc544\ub9ac",
+    "pl": "SCP-019: Potworna waza",
+    "pt": "SCP-019: O Jarro de Monstros",
+    "th": "SCP-019: \u0e41\u0e08\u0e01\u0e31\u0e19\u0e1b\u0e35\u0e28\u0e32\u0e08",
+    "uk": "SCP-019: \u0412\u0430\u0437\u0430 \u0437 \u0447\u0443\u0434\u043e\u0432\u0438\u0441\u044c\u043a\u0430\u043c\u0438",
+    "vi": "SCP-019: B\u00ecnh Qu\u00e1i V\u1eadt",
+    "zh": "SCP-019\uff1a\u517d\u4e4b\u74f6",
+    "zh_Hant": "SCP-019\uff1a\u602a\u7378\u74f6"
+  },
+  "created_at": "2026-09-20T21:25:43Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

@@ -1,0 +1,100 @@
+{
+  "id": "scp-013",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-013 \u2014 Blue Lady Cigarettes",
+    "source_url": "https://scp-wiki.wikidot.com/scp-013",
+    "author": "Unknown Author / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-013\uff1a\u30d6\u30eb\u30fc\u30ec\u30c7\u30a3\u7159\u8349",
+    "en": "SCP-013: Blue Lady Cigarettes",
+    "cs": "SCP-013: Cigarety Blue Lady",
+    "de": "SCP-013: Blue Lady Zigaretten",
+    "es": "SCP-013: Cigarrillos Dama Azul",
+    "fr": "SCP-013: Cigarettes de la Femme en bleu",
+    "it": "SCP-013: Sigarette \"Blue Lady\"",
+    "ko": "SCP-013: \ube14\ub8e8 \ub808\uc774\ub514 \uad90\ub828",
+    "pl": "SCP-013: Papierosy Blue Lady",
+    "pt": "SCP-013: Cigarros Blue Lady",
+    "th": "SCP-013: \u0e1a\u0e38\u0e2b\u0e23\u0e35\u0e48\u0e02\u0e2d\u0e07\u0e2a\u0e38\u0e20\u0e32\u0e1e\u0e2a\u0e15\u0e23\u0e35\u0e2a\u0e35\u0e19\u0e49\u0e33\u0e40\u0e07\u0e34\u0e19",
+    "uk": "SCP-013: \u0426\u0438\u0433\u0430\u0440\u043a\u0438 \"Blue Lady\"",
+    "vi": "SCP-013: Thu\u1ed1c L\u00e1 Thanh N\u1eef",
+    "zh": "SCP-013\uff1a\u84dd\u8272\u5973\u58eb\u9999\u70df",
+    "zh_Hant": "SCP-013\uff1a\u85cd\u8272\u5973\u58eb\u9999\u7159"
+  },
+  "created_at": "2026-09-20T21:25:20Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

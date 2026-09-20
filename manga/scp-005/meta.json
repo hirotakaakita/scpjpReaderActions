@@ -1,0 +1,100 @@
+{
+  "id": "scp-005",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-005 \u2014 Skeleton Key",
+    "source_url": "https://scp-wiki.wikidot.com/scp-005",
+    "author": "Unknown Author / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-005\uff1a\u5408\u3044\u9375",
+    "en": "SCP-005: Skeleton Key",
+    "cs": "SCP-005: Kostliv\u00fd kl\u00ed\u010d",
+    "de": "SCP-005: Der Skelettschl\u00fcssel",
+    "es": "SCP-005: Llave Maestra",
+    "fr": "SCP-005: Passe-partout",
+    "it": "SCP-005: Passe-partout",
+    "ko": "SCP-005: \ub9cc\ub2a5 \uc5f4\uc1e0",
+    "pl": "SCP-005: Uniwersalny klucz",
+    "pt": "SCP-005: Chave-Mestra",
+    "th": "SCP-005: \u0e01\u0e38\u0e0d\u0e41\u0e08\u0e1c\u0e35",
+    "uk": "SCP-005: \u0412\u0456\u0434\u043c\u0438\u043a\u0430\u0447\u043a\u0430",
+    "vi": "SCP-005: Ch\u00eca Kh\u00f3a X\u01b0\u01a1ng",
+    "zh": "SCP-005\uff1a\u4e07\u80fd\u94a5\u5319",
+    "zh_Hant": "SCP-005\uff1a\u89e3\u69cb\u9470\u5319"
+  },
+  "created_at": "2026-09-20T21:24:51Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

@@ -55,9 +55,9 @@
   ],
   "object_class": "Safe",
   "attribution": {
-    "article": "SCP-014",
+    "article": "SCP-014 \u2014 The Concrete Man",
     "source_url": "https://scp-wiki.wikidot.com/scp-014",
-    "author": "Whitewings"
+    "author": "Whitewings / SCP Foundation"
   },
   "title": {
     "ja": "SCP-014\uff1a\u30b3\u30f3\u30af\u30ea\u30fc\u30c8\u7537",
@@ -76,7 +76,7 @@
     "zh": "SCP-014\uff1a\u6df7\u51dd\u571f\u4eba",
     "zh_Hant": "SCP-014\uff1a\u6df7\u51dd\u571f\u96d5\u50cf\u4eba"
   },
-  "created_at": "2026-09-20T15:21:25Z",
+  "created_at": "2026-09-20T21:25:28Z",
   "languages": [
     "ja",
     "en",

@@ -1,0 +1,100 @@
+{
+  "id": "scp-020",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-020 \u2014 Unseen Mold",
+    "source_url": "https://scp-wiki.wikidot.com/scp-020",
+    "author": "Unknown Author / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-020\uff1a\u898b\u3048\u306a\u3044\u9ef4",
+    "en": "SCP-020: Unseen Mold",
+    "cs": "SCP-020: Neviditeln\u00e1 pl\u00edse\u0148",
+    "de": "SCP-020: Unsichtbarer Schimmel",
+    "es": "SCP-020: Moho Invisible",
+    "fr": "SCP-020: Moisissure invisible",
+    "it": "SCP-020: Muffa Invisibile",
+    "ko": "SCP-020: \ubcf4\uc774\uc9c0 \uc54a\ub294 \uacf0\ud321\uc774",
+    "pl": "SCP-020: Niewidzialna ple\u015b\u0144",
+    "pt": "SCP-020: Mofo Invis\u00edvel",
+    "th": "SCP-020: \u0e23\u0e32\u0e17\u0e35\u0e48\u0e21\u0e2d\u0e07\u0e44\u0e21\u0e48\u0e40\u0e2b\u0e47\u0e19",
+    "uk": "SCP-020: \u041d\u0435\u0432\u0438\u0434\u0438\u043c\u0430 \u0446\u0432\u0456\u043b\u044c",
+    "vi": "SCP-020: N\u1ea5m M\u1ed1c V\u00f4 H\u00ecnh",
+    "zh": "SCP-020\uff1a\u9690\u5f62\u9709\u83cc",
+    "zh_Hant": "SCP-020\uff1a\u96b1\u5f62\u9ef4\u83cc"
+  },
+  "created_at": "2026-09-20T21:25:50Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
