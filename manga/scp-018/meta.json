@@ -1,0 +1,100 @@
+{
+  "id": "scp-018",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-018 \u2014 Super Ball",
+    "source_url": "https://scp-wiki.wikidot.com/scp-018",
+    "author": "Unknown Author / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-018\uff1a\u30b9\u30fc\u30d1\u30fc\u30dc\u30fc\u30eb",
+    "en": "SCP-018: Super Ball",
+    "cs": "SCP-018: Super m\u00ed\u010d",
+    "de": "SCP-018: Superball",
+    "es": "SCP-018: La S\u00faper Bola",
+    "fr": "SCP-018: Super-balle",
+    "it": "SCP-018: Super Palla",
+    "ko": "SCP-018: \uc288\ud37c\ubcfc",
+    "pl": "SCP-018: Superpi\u0142ka",
+    "pt": "SCP-018: Super-Bola",
+    "th": "SCP-018: \u0e0b\u0e39\u0e40\u0e1b\u0e2d\u0e23\u0e4c\u0e1a\u0e2d\u0e25",
+    "uk": "SCP-018: \u041c'\u044f\u0447 \"Super ball\"",
+    "vi": "SCP-018: Si\u00eau B\u00f3ng",
+    "zh": "SCP-018\uff1a\u5f39\u529b\u7403",
+    "zh_Hant": "SCP-018\uff1a\u8d85\u7d1a\u5f48\u529b\u7403"
+  },
+  "created_at": "2026-09-20T21:41:59Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

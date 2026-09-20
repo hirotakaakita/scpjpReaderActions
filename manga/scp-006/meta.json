@@ -1,0 +1,100 @@
+{
+  "id": "scp-006",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-006 \u2014 Fountain of Youth",
+    "source_url": "https://scp-wiki.wikidot.com/scp-006",
+    "author": "Unknown Author, rewritten by Epic Phail Spy and Proxtown / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-006\uff1a\u82e5\u3055\u306e\u6cc9",
+    "en": "SCP-006: Fountain of Youth",
+    "cs": "SCP-006: Font\u00e1na ml\u00e1d\u00ed",
+    "de": "SCP-006: Jungbrunnen",
+    "es": "SCP-006: Fuente de la Juventud",
+    "fr": "SCP-006: Fontaine de jouvence",
+    "it": "SCP-006: Fonte della Giovinezza",
+    "ko": "SCP-006: \uc80a\uc74c\uc758 \uc0d8",
+    "pl": "SCP-006: \u0179r\u00f3d\u0142o m\u0142odo\u015bci",
+    "pt": "SCP-006: Fonte da Juventude",
+    "th": "SCP-006: \u0e19\u0e49\u0e33\u0e1e\u0e38\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e40\u0e22\u0e32\u0e27\u0e4c\u0e27\u0e31\u0e22",
+    "uk": "SCP-006: \u0424\u043e\u043d\u0442\u0430\u043d \u043c\u043e\u043b\u043e\u0434\u043e\u0441\u0442\u0456",
+    "vi": "SCP-006: Su\u1ed1i Ngu\u1ed3n T\u01b0\u01a1i Tr\u1ebb",
+    "zh": "SCP-006\uff1a\u4e0d\u8001\u6cc9",
+    "zh_Hant": "SCP-006\uff1a\u9752\u6625\u6e67\u6cc9"
+  },
+  "created_at": "2026-09-20T21:24:59Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

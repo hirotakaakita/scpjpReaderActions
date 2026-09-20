@@ -1,0 +1,100 @@
+{
+  "id": "scp-017",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-017 \u2014 Shadow Person",
+    "source_url": "https://scp-wiki.wikidot.com/scp-017",
+    "author": "Sam Swicegood (CityToast) / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-017\uff1a\u5f71\u4eba\u9593",
+    "en": "SCP-017: Shadow Person",
+    "cs": "SCP-017: St\u00ednov\u00e1 postava",
+    "de": "SCP-017: Schatten Person",
+    "es": "SCP-017: Hombre-Sombra",
+    "fr": "SCP-017: Ombre",
+    "it": "SCP-017: Persona d'Ombra",
+    "ko": "SCP-017: \uadf8\ub9bc\uc790 \uc778\uac04",
+    "pl": "SCP-017: Cienisty byt",
+    "pt": "SCP-017: Homem Sombra",
+    "th": "SCP-017: \u0e40\u0e07\u0e32\u0e21\u0e37\u0e14",
+    "uk": "SCP-017: \u0422\u0456\u043d\u044c\u043e\u0432\u0430 \u0456\u0441\u0442\u043e\u0442\u0430",
+    "vi": "SCP-017: Ng\u01b0\u1eddi B\u00f3ng \u0110en",
+    "zh": "SCP-017\uff1a\u5f71\u9b54",
+    "zh_Hant": "SCP-017\uff1a\u5f71\u4eba"
+  },
+  "created_at": "2026-09-20T21:45:24Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

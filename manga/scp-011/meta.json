@@ -1,0 +1,100 @@
+{
+  "id": "scp-011",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-011 \u2014 Civil War Memorial Statue",
+    "source_url": "https://scp-wiki.wikidot.com/scp-011",
+    "author": "Unknown Author / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-011\uff1a\u7dba\u9e97\u597d\u304d\u306a\u5357\u5317\u6226\u4e89\u8a18\u5ff5\u50cf",
+    "en": "SCP-011: Sentient Civil War Memorial Statue",
+    "cs": "SCP-011: Uv\u011bdom\u011bl\u00e1 pam\u00e1tn\u00ed socha z ob\u010dansk\u00e9 v\u00e1lky",
+    "de": "SCP-011: Lebendes Denkmal des B\u00fcrgerkrieges",
+    "es": "SCP-011: Estatua Conmemorativa de la Guerra Civil Consciente",
+    "fr": "SCP-011: Statue comm\u00e9morative de la Guerre de S\u00e9cession",
+    "it": "SCP-011: Statua Commemorativa Senziente della Guerra Civile",
+    "ko": "SCP-011: \uc9c0\uac01\uc788\ub294 \ub0a8\ubd81\uc804\uc7c1 \uae30\ub150\ube44",
+    "pl": "SCP-011: \u015awiadomy pomnik z Wojny Secesyjnej",
+    "pt": "SCP-011: Est\u00e1tua Memorial da Guerra Civil Senciente",
+    "th": "SCP-011: \u0e2d\u0e19\u0e38\u0e2a\u0e32\u0e27\u0e23\u0e35\u0e22\u0e4c\u0e17\u0e35\u0e48\u0e21\u0e35\u0e2a\u0e33\u0e19\u0e36\u0e01",
+    "uk": "SCP-011: \u0420\u043e\u0437\u0443\u043c\u043d\u0438\u0439 \u043f\u0430\u043c'\u044f\u0442\u043d\u0438\u043a \u0443\u0447\u0430\u0441\u043d\u0438\u043a\u0430\u043c \u0413\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u043e\u0457 \u0412\u0456\u0439\u043d\u0438",
+    "vi": "SCP-011: \u0110\u00e0i T\u01b0\u1edfng Ni\u1ec7m N\u1ed9i Chi\u1ebfn S\u1ed1ng",
+    "zh": "SCP-011\uff1a\u6709\u611f\u77e5\u7684\u5185\u6218\u7eaa\u5ff5\u96d5\u50cf",
+    "zh_Hant": "SCP-011\uff1a\u6709\u611f\u77e5\u7684\u5167\u6230\u7d00\u5ff5\u96d5\u50cf"
+  },
+  "created_at": "2026-09-20T21:25:13Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
