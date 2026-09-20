@@ -5,6 +5,15 @@
     776,
     3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -47,8 +56,8 @@
   "object_class": "Euclid",
   "attribution": {
     "article": "SCP-008",
-    "source_url": "http://scp-wiki.wikidot.com/scp-008",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-008",
+    "author": "Unknown Author"
   },
   "title": {
     "ja": "SCP-008\uff1a\u30be\u30f3\u30d3\u75c5",
@@ -67,7 +76,7 @@
     "zh": "SCP-008\uff1a\u4e27\u5c38\u75c5\u6bd2",
     "zh_Hant": "SCP-008\uff1a\u6bad\u5c4d\u761f\u75ab"
   },
-  "created_at": "2026-09-12T04:39:29Z",
+  "created_at": "2026-09-20T15:21:19Z",
   "languages": [
     "ja",
     "en",

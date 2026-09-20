@@ -3,8 +3,17 @@
   "panels": 4,
   "image_size": [
     776,
-    3368
+    3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -31,12 +40,7 @@
       3108
     ]
   ],
-  "addendum_rect": [
-    28,
-    3124,
-    748,
-    3208
-  ],
+  "addendum_rect": null,
   "header_rect": [
     28,
     28,
@@ -45,15 +49,15 @@
   ],
   "footer_rect": [
     28,
-    3228,
+    3128,
     748,
-    3340
+    3240
   ],
   "object_class": "Euclid",
   "attribution": {
     "article": "SCP-109",
-    "source_url": "http://scp-wiki.wikidot.com/scp-109",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-109",
+    "author": "Proxtown"
   },
   "title": {
     "ja": "SCP-109\uff1a\u7121\u9650\u6c34\u7b52",
@@ -72,7 +76,7 @@
     "zh": "SCP-109\uff1a\u65e0\u9650\u6c34\u58f6",
     "zh_Hant": "SCP-109\uff1a\u7121\u9650\u6c34\u58fa"
   },
-  "created_at": "2026-09-12T09:41:58Z",
+  "created_at": "2026-09-20T15:21:59Z",
   "languages": [
     "ja",
     "en",

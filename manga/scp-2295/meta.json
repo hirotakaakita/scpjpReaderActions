@@ -3,8 +3,17 @@
   "panels": 4,
   "image_size": [
     776,
-    3368
+    3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -31,12 +40,7 @@
       3108
     ]
   ],
-  "addendum_rect": [
-    28,
-    3124,
-    748,
-    3208
-  ],
+  "addendum_rect": null,
   "header_rect": [
     28,
     28,
@@ -45,16 +49,15 @@
   ],
   "footer_rect": [
     28,
-    3228,
+    3128,
     748,
-    3340
+    3240
   ],
   "object_class": "Safe",
   "attribution": {
     "article": "SCP-2295",
-    "author": "K Mota",
-    "source_url": "http://scp-wiki.wikidot.com/scp-2295",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-2295",
+    "author": "K Mota"
   },
   "title": {
     "ja": "SCP-2295\uff1a\u30d1\u30c3\u30c1\u30ef\u30fc\u30af\u306e\u30cf\u30fc\u30c8\u304c\u3042\u308b\u30af\u30de",
@@ -73,7 +76,7 @@
     "zh": "SCP-2295\uff1a\u7f1d\u5fc3\u7684\u718a",
     "zh_Hant": "SCP-2295\uff1a\u6709\u8457\u62fc\u5e03\u5fc3\u81df\u7684\u718a"
   },
-  "created_at": "2026-09-12T02:53:44Z",
+  "created_at": "2026-09-20T15:22:30Z",
   "languages": [
     "ja",
     "en",

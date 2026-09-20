@@ -3,8 +3,17 @@
   "panels": 4,
   "image_size": [
     776,
-    3368
+    3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -31,12 +40,7 @@
       3108
     ]
   ],
-  "addendum_rect": [
-    28,
-    3124,
-    748,
-    3208
-  ],
+  "addendum_rect": null,
   "header_rect": [
     28,
     28,
@@ -45,15 +49,15 @@
   ],
   "footer_rect": [
     28,
-    3228,
+    3128,
     748,
-    3340
+    3240
   ],
   "object_class": "Safe",
   "attribution": {
     "article": "SCP-107",
-    "source_url": "http://scp-wiki.wikidot.com/scp-107",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-107",
+    "author": "RichardJ28"
   },
   "title": {
     "ja": "SCP-107\uff1a\u4e80\u306e\u7532\u7f85",
@@ -72,7 +76,7 @@
     "zh": "SCP-107\uff1a\u7a7a\u9f9f\u58f3",
     "zh_Hant": "SCP-107\uff1a\u9f9c\u7532"
   },
-  "created_at": "2026-09-12T09:39:08Z",
+  "created_at": "2026-09-20T15:21:54Z",
   "languages": [
     "ja",
     "en",

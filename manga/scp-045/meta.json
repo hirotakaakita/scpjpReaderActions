@@ -5,6 +5,15 @@
     776,
     3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -47,9 +56,8 @@
   "object_class": "Safe",
   "attribution": {
     "article": "SCP-045",
-    "author": "Unknown Author, rewritten by Drewbear",
-    "source_url": "http://scp-wiki.wikidot.com/scp-045",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-045",
+    "author": "Unknown Author; rewritten by Drewbear"
   },
   "title": {
     "ja": "SCP-045\uff1a\u5927\u6c17\u5909\u63db\u5668",
@@ -68,7 +76,7 @@
     "zh": "SCP-045\uff1a\u5927\u6c14\u8f6c\u6362\u5668",
     "zh_Hant": "SCP-045\uff1a\u5927\u6c23\u8f49\u63db\u5100"
   },
-  "created_at": "2026-09-13T16:48:08Z",
+  "created_at": "2026-09-20T15:21:31Z",
   "languages": [
     "ja",
     "en",

@@ -5,6 +5,15 @@
     776,
     3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -47,9 +56,8 @@
   "object_class": "Euclid",
   "attribution": {
     "article": "SCP-052",
-    "author": "eric_h",
-    "source_url": "http://scp-wiki.wikidot.com/scp-052",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-052",
+    "author": "eric_h"
   },
   "title": {
     "ja": "SCP-052\uff1a\u6642\u9593\u65c5\u884c\u5217\u8eca",
@@ -68,7 +76,7 @@
     "zh": "SCP-052\uff1a\u65f6\u5149\u5217\u8f66",
     "zh_Hant": "SCP-052\uff1a\u6642\u7a7a\u7a7f\u68ad\u5217\u8eca"
   },
-  "created_at": "2026-09-13T16:19:38Z",
+  "created_at": "2026-09-20T15:21:36Z",
   "languages": [
     "ja",
     "en",
