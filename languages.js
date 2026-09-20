@@ -144,8 +144,12 @@ const LANGUAGES = {
     baseUrl: 'https://scpko.wikidot.com',
     enBaseUrl: 'https://scp-wiki.wikidot.com',
     pages: [
-      ...internationalPages(10),
-      { path: 'scp-series-ko', pageType: 'scp-series-ko', skipUnwritten: true },
+      ...internationalPages(10).map(page =>
+        page.path === 'scp-series'
+          ? { ...page, path: 'scp-series-1' }
+          : page
+      ),
+      { path: 'scp-series-ko-1', pageType: 'scp-series-ko', skipUnwritten: true },
       { path: 'scp-series-ko-2', pageType: 'scp-series-ko', skipUnwritten: true },
       { path: 'joke-scps-ko', pageType: 'joke-scps-ko', skipUnwritten: true },
       { path: 'scp-ko-ex', pageType: 'scp-ko-ex', skipUnwritten: true },
