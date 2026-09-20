@@ -5,6 +5,15 @@
     776,
     3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -46,10 +55,9 @@
   ],
   "object_class": "Safe",
   "attribution": {
-    "article": "SCP-500 - Panacea",
+    "article": "SCP-500",
     "source_url": "https://scp-wiki.wikidot.com/scp-500",
-    "author": "snorlison",
-    "license": "CC BY-SA 3.0"
+    "author": "snorlison"
   },
   "title": {
     "ja": "SCP-500\uff1a\u4e07\u80fd\u85ac",
@@ -68,7 +76,7 @@
     "zh": "SCP-500\uff1a\u4e07\u80fd\u836f",
     "zh_Hant": "SCP-500\uff1a\u842c\u9748\u85e5"
   },
-  "created_at": "2026-09-12T18:30:24Z",
+  "created_at": "2026-09-20T15:22:11Z",
   "languages": [
     "ja",
     "en",

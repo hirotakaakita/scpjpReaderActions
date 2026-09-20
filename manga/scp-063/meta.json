@@ -3,8 +3,17 @@
   "panels": 4,
   "image_size": [
     776,
-    3368
+    3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -31,12 +40,7 @@
       3108
     ]
   ],
-  "addendum_rect": [
-    28,
-    3124,
-    748,
-    3208
-  ],
+  "addendum_rect": null,
   "header_rect": [
     28,
     28,
@@ -45,16 +49,15 @@
   ],
   "footer_rect": [
     28,
-    3228,
+    3128,
     748,
-    3340
+    3240
   ],
   "object_class": "Safe",
   "attribution": {
     "article": "SCP-063",
-    "author": "Kain Pathos Crow",
-    "source_url": "http://scp-wiki.wikidot.com/scp-063",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-063",
+    "author": "Kain Pathos Crow"
   },
   "title": {
     "ja": "SCP-063\uff1a\u201c\u4e16\u754c\u6700\u9ad8\u306e\u6b6f\u30d7\u30e9\u30b7\u201d",
@@ -73,7 +76,7 @@
     "zh": "SCP-063\uff1a\u201c\u4e16\u754c\u4e0a\u6700\u597d\u7684\u7259\u5237\u201d",
     "zh_Hant": "SCP-063\uff1a\u300c\u4e16\u754c\u4e0a\u6700\u597d\u7528\u7684\u7259\u5237\u300d"
   },
-  "created_at": "2026-09-13T18:19:34Z",
+  "created_at": "2026-09-20T15:21:42Z",
   "languages": [
     "ja",
     "en",

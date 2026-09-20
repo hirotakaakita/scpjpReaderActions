@@ -5,6 +5,15 @@
     776,
     3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -48,8 +57,7 @@
   "attribution": {
     "article": "SCP-681",
     "source_url": "https://scp-wiki.wikidot.com/scp-681",
-    "author": "ClockworkMage",
-    "license": "CC BY-SA 3.0"
+    "author": "ClockworkMage"
   },
   "title": {
     "ja": "SCP-681\uff1a\u6575\u6027\u30d8\u30ea\u30a6\u30e0",
@@ -62,13 +70,13 @@
     "ko": "SCP-681: \ub108\ubb34 \ubed4\ud55c \uad34\ubb3c\uc784",
     "pl": "SCP-681: Wrogi Hel",
     "pt": "SCP-681: H\u00e9lio Hostil",
-    "th": "Hostile Helium",
-    "uk": "Hostile Helium",
-    "vi": "SCP-681: [TRUY C\u1eacP TH\u1ea4T B\u1ea0I]",
+    "th": "SCP-681: Hostile Helium",
+    "uk": "SCP-681: Hostile Helium",
+    "vi": "SCP-681: Hostile Helium",
     "zh": "SCP-681\uff1a\u6740\u4eba\u6c26\u6c14",
     "zh_Hant": "SCP-681\uff1aHostile Helium"
   },
-  "created_at": "2026-09-13T17:15:39Z",
+  "created_at": "2026-09-20T15:22:17Z",
   "languages": [
     "ja",
     "en",

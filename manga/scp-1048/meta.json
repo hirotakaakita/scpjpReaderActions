@@ -3,8 +3,17 @@
   "panels": 4,
   "image_size": [
     776,
-    3368
+    3268
   ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
   "panel_rects": [
     [
       28,
@@ -31,12 +40,7 @@
       3108
     ]
   ],
-  "addendum_rect": [
-    28,
-    3124,
-    748,
-    3208
-  ],
+  "addendum_rect": null,
   "header_rect": [
     28,
     28,
@@ -45,15 +49,15 @@
   ],
   "footer_rect": [
     28,
-    3228,
+    3128,
     748,
-    3340
+    3240
   ],
   "object_class": "Keter",
   "attribution": {
     "article": "SCP-1048",
-    "source_url": "http://scp-wiki.wikidot.com/scp-1048",
-    "license": "CC BY-SA 3.0"
+    "source_url": "https://scp-wiki.wikidot.com/scp-1048",
+    "author": "trennerdios"
   },
   "title": {
     "ja": "SCP-1048\uff1a\u30d3\u30eb\u30c0\u30fc\u30fb\u30d9\u30a2",
@@ -72,7 +76,7 @@
     "zh": "SCP-1048\uff1a\u6cf0\u8fea\u718a\u5efa\u9020\u8005",
     "zh_Hant": "SCP-1048\uff1a\u62fc\u88dd\u8005\u5c0f\u718a"
   },
-  "created_at": "2026-09-13T07:30:07Z",
+  "created_at": "2026-09-20T15:22:23Z",
   "languages": [
     "ja",
     "en",
