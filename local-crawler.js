@@ -39,8 +39,26 @@ function withDom(html, fn) {
 }
 
 /** SCP記事本文からオブジェクトクラス（支部ごとの表記を含む）を抽出する。 */
+const OBJECT_CLASS_VALUE_PATTERN = /(?:Safe|Euclid|Keter|Thaumiel|Apollyon|Archon|Cernunnos|Ticonderoga|Explained|Neutralized|Decommissioned|Pending|Uncontained|無力化|説明済み|未収容|保留|廃止|アポリオン|タウミエル|アーコン)/gi;
+
+function selectCurrentObjectClass(value) {
+  const matches = [...value.matchAll(OBJECT_CLASS_VALUE_PATTERN)].map(match => match[0]);
+  if (!matches.length) return value;
+
+  const canonical = new Map([
+    ['safe', 'Safe'], ['euclid', 'Euclid'], ['keter', 'Keter'],
+    ['thaumiel', 'Thaumiel'], ['apollyon', 'Apollyon'], ['archon', 'Archon'],
+    ['cernunnos', 'Cernunnos'], ['ticonderoga', 'Ticonderoga'],
+    ['explained', 'Explained'], ['neutralized', 'Neutralized'],
+    ['decommissioned', 'Decommissioned'], ['pending', 'Pending'],
+    ['uncontained', 'Uncontained'],
+  ]);
+  const selected = matches[matches.length - 1];
+  return canonical.get(selected.toLowerCase()) || selected;
+}
+
 function extractObjectClassFromDocument(document) {
-  const labelPattern = /(?:object\s*class|オブジェクトクラス|项目等级|項目等級|třída\s+objektu|klassifizierung|clasificación\s+del\s+objeto|classe(?:\s+dell?'oggetto|\s+do\s+objeto)?|klasa\s+podmiotu|ระดับ|клас\s+об'єкта|phân loại|객체\s*등급|개체\s*등급|등급)\s*[:：]?/i;
+  const labelPattern = /(?:object\s*class|containment\s*class|オブジェクトクラス|项目等级|項目等級|třída\s+objektu|klassifizierung|clasificación\s+del\s+objeto|classe(?:\s+dell?'oggetto|\s+do\s+objeto)?|klasa\s+podmiotu|ระดับ|клас\s+об'єкта|phân loại|객체\s*등급|개체\s*등급|등급)\s*[:：]?/i;
 
   // Wikidot記事の標準形式（<strong>ラベル:</strong> 値）を優先する。
   for (const label of document.querySelectorAll('strong, b')) {
@@ -53,7 +71,7 @@ function extractObjectClassFromDocument(document) {
       value += node.textContent || '';
     }
     value = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').replace(/^[:：]\s*/, '').trim();
-    if (value) return value;
+    if (value) return selectCurrentObjectClass(value);
   }
 
   // strong要素を使わないページ向けのフォールバック。
@@ -68,8 +86,21 @@ function extractObjectClassFromDocument(document) {
       .split(/\s+(?:object\s*class|special containment procedures?|description|项目等级|項目等級|třída objektu|klassifizierung|clasificación del objeto|classe|klasa podmiotu|ระดับ|клас об'єкта|phân loại|등급|격리 절차|특수 격리 절차|オブジェクトクラス)\s*[:：]/i)[0]
       .split(/[|;]/)[0]
       .trim();
-    if (value) return value;
+    if (value) return selectCurrentObjectClass(value);
   }
+
+  // EXTDOC/ACS形式など、アイテム番号の直後にクラスだけを置く記事向け。
+  const content = (document.querySelector('#page-content') || document.body).textContent
+    .replace(/\u00a0/g, ' ')
+    .replace(/\s+/g, ' ');
+  const itemMatch = content.match(/item\s*#\s*:?\s*(?:scp-)?\d+/i);
+  if (itemMatch) {
+    const header = content.slice(itemMatch.index, itemMatch.index + 500)
+      .split(/special containment procedures|description/i)[0];
+    const matches = [...header.matchAll(OBJECT_CLASS_VALUE_PATTERN)].map(match => match[0]);
+    if (matches.length) return selectCurrentObjectClass(matches.join(' '));
+  }
+
   return null;
 }
 
@@ -92,21 +123,30 @@ const DESCRIPTION_TAG_RULES = [
 
 function extractDescriptionAndTagsFromDocument(document) {
   let excerpt = '';
+  let descriptionText = '';
   for (const label of document.querySelectorAll('strong, b')) {
     const labelText = label.textContent.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
     if (!DESCRIPTION_LABEL_PATTERN.test(labelText)) continue;
 
-    let value = '';
+    const parts = [];
     for (let node = label.nextSibling; node; node = node.nextSibling) {
       if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
-      value += node.textContent || '';
+      parts.push(node.textContent || '');
     }
-    value = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').replace(/^[:：]\s*/, '').trim();
-    if (!value && label.parentElement) {
-      const next = label.parentElement.nextElementSibling;
-      value = next?.textContent?.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim() || '';
+    if (label.parentElement) {
+      let next = label.parentElement.nextElementSibling;
+      while (next && !next.querySelector('strong, b') && parts.join('').length < 10000) {
+        parts.push(next.textContent || '');
+        next = next.nextElementSibling;
+      }
     }
+    const value = parts.join(' ')
+      .replace(/\u00a0/g, ' ')
+      .replace(/\s+/g, ' ')
+      .replace(/^[:：]\s*/, '')
+      .trim();
     if (value) {
+      descriptionText = value;
       // バイト数ではなく、Unicodeコードポイント単位で冒頭250文字を保存する。
       excerpt = Array.from(value).slice(0, 250).join('');
       break;
@@ -115,7 +155,7 @@ function extractDescriptionAndTagsFromDocument(document) {
 
   if (!excerpt) return { descriptionExcerpt: null, tags: [] };
   const tags = DESCRIPTION_TAG_RULES
-    .filter(rule => rule.pattern.test(excerpt))
+    .filter(rule => rule.pattern.test(descriptionText))
     .map(rule => rule.tag);
   return { descriptionExcerpt: excerpt, tags };
 }
