@@ -38,6 +38,41 @@ function withDom(html, fn) {
   }
 }
 
+/** SCP記事本文からオブジェクトクラス（支部ごとの表記を含む）を抽出する。 */
+function extractObjectClassFromDocument(document) {
+  const labelPattern = /(?:object\s*class|オブジェクトクラス|项目等级|項目等級|třída\s+objektu|klassifizierung|clasificación\s+del\s+objeto|classe(?:\s+dell?'oggetto|\s+do\s+objeto)?|klasa\s+podmiotu|ระดับ|клас\s+об'єкта|phân loại|객체\s*등급|개체\s*등급|등급)\s*[:：]?/i;
+
+  // Wikidot記事の標準形式（<strong>ラベル:</strong> 値）を優先する。
+  for (const label of document.querySelectorAll('strong, b')) {
+    const labelText = label.textContent.replace(/\u00a0/g, ' ').trim();
+    if (!labelPattern.test(labelText)) continue;
+
+    let value = '';
+    for (let node = label.nextSibling; node; node = node.nextSibling) {
+      if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
+      value += node.textContent || '';
+    }
+    value = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').replace(/^[:：]\s*/, '').trim();
+    if (value) return value;
+  }
+
+  // strong要素を使わないページ向けのフォールバック。
+  const selectors = 'p, li, td, th';
+
+  for (const element of document.querySelectorAll(selectors)) {
+    const text = element.textContent.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+    const match = text.match(labelPattern);
+    if (!match) continue;
+
+    const value = text.slice(match.index + match[0].length)
+      .split(/\s+(?:object\s*class|special containment procedures?|description|项目等级|項目等級|třída objektu|klassifizierung|clasificación del objeto|classe|klasa podmiotu|ระดับ|клас об'єкта|phân loại|등급|격리 절차|특수 격리 절차|オブジェクトクラス)\s*[:：]/i)[0]
+      .split(/[|;]/)[0]
+      .trim();
+    if (value) return value;
+  }
+  return null;
+}
+
 /** pageTypeから支部コードを取り出す（国際版ページはnull） */
 function branchCodeOf(pageType) {
   const match = pageType.match(/^scp-series-([a-z-]+)$/)
@@ -381,6 +416,29 @@ class LocalSCPCrawler {
     return null;
   }
 
+  /** SCP記事ページからオブジェクトクラスを取得する。 */
+  async extractObjectClassFromScpPage(scpUrl, maxRetries = 3) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        const response = await axios.get(scpUrl, {
+          timeout: 30000,
+          headers: {
+            'User-Agent': CRAWLER_USER_AGENT,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US;q=0.9,en;q=0.8,*;q=0.5',
+          }
+        });
+
+        return withDom(response.data, extractObjectClassFromDocument);
+      } catch (error) {
+        console.warn(`オブジェクトクラス取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
+        if (attempt === maxRetries) return null;
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+    }
+    return null;
+  }
+
   /**
    * 進捗表示
    */
@@ -455,8 +513,10 @@ class LocalSCPCrawler {
           // 現地語版があればそれを、なければ英語版を使用
           // SKIP_IMAGE_FETCH=1で画像取得を省略できる（一覧抽出のみのテスト用）
           let imageUrl = existingItem?.imageUrl || null;
+          let objectClass = existingItem?.objectClass || null;
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
-          const urlForImageExtraction = skipImageFetch ? null : (urlLocal || urlEn);
+          const urlForArticleExtraction = urlLocal || urlEn;
+          const urlForImageExtraction = skipImageFetch ? null : urlForArticleExtraction;
           if (urlForImageExtraction && (!existingItem || !existingItem.imageUrl) && entry.type === 'scp') {
             console.log(`  画像URL取得中: ${entry.itemId}`);
             imageUrl = await this.extractImageUrlFromScpPage(urlForImageExtraction);
@@ -464,6 +524,14 @@ class LocalSCPCrawler {
               console.log(`  ✓ 画像URL取得成功: ${imageUrl}`);
             } else {
               console.log(`  - 画像なし`);
+            }
+          }
+
+          if (urlForArticleExtraction && !objectClass && entry.type === 'scp') {
+            console.log(`  オブジェクトクラス取得中: ${entry.itemId}`);
+            objectClass = await this.extractObjectClassFromScpPage(urlForArticleExtraction);
+            if (objectClass) {
+              console.log(`  ✓ オブジェクトクラス取得成功: ${objectClass}`);
             }
           }
 
@@ -475,6 +543,7 @@ class LocalSCPCrawler {
             urlEN: urlEn,
             urlJP: urlLocal,
             imageUrl: imageUrl,
+            objectClass: objectClass,
             isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),
             pageType: pageConfig.pageType,
@@ -484,7 +553,7 @@ class LocalSCPCrawler {
           });
 
           // 各エントリ処理後に待機（レート制限対策）
-          if (urlForImageExtraction && entry.type === 'scp') {
+          if (urlForArticleExtraction && entry.type === 'scp') {
             await new Promise(resolve => setTimeout(resolve, this.entryDelayMs));
           }
         }
