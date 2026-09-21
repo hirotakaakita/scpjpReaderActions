@@ -73,6 +73,53 @@ function extractObjectClassFromDocument(document) {
   return null;
 }
 
+const DESCRIPTION_LABEL_PATTERN = /^(?:description|説明|描述|popis|beschreibung|descripción|descrizione|opis|설명|รายละเอียด|опис|mô tả)\s*[:：]?$/i;
+
+const DESCRIPTION_TAG_RULES = [
+  { tag: '人間型', pattern: /humanoid|human[- ]like|人型|人間型|인간형|гуманоид|человекоподоб|hình người|człekokształtn/i },
+  { tag: '生物', pattern: /organism|creature|biological|animal|生物|생물|생명체|organismo|organisme|organismus|criatura|biologique|биолог|sinh vật/i },
+  { tag: '物品', pattern: /artifact|artefact|device|item|物品|物体|装置|アイテム|물체|장치|artefacto|предмет|objeto|dispositivo/i },
+  { tag: '伝染性', pattern: /infect|contag|pathogen|virus|disease|pandemic|感染|伝染|病原|ウイルス|감염|전염|바이러스|infecc|contagio|infekc|зараз|инфекц|truyền nhiễm/i },
+  { tag: '知性', pattern: /sentient|sapient|intelligent|conscious|知性|知能|自我|知的|지성|지능|의식|разумн|сознатель|trí tuệ/i },
+  { tag: '情報災害', pattern: /infohazard|cognitohazard|memetic|information hazard|情報災害|認識災害|ミーム|정보재해|인지재해|memético|memético|инфоопас|когнитивн|thông tin nguy hại/i },
+  { tag: '精神影響', pattern: /mind[- ]affect|psycholog|mental|hallucin|精神|心理|幻覚|정신|심리|환각|психичес|галлюцин|tâm lý|ảo giác/i },
+  { tag: '時間', pattern: /temporal|time[- ]based|時間|시공간|시간적|временн|thời gian/i },
+  { tag: '空間', pattern: /spatial|dimension|extradimensional|portal|空間|異次元|차원|포털|пространств|измерени|không gian|chiều không gian/i },
+  { tag: '機械', pattern: /mechanical|machine|robot|機械|ロボット|기계|로봇|механичес|робот|máy móc/i },
+  { tag: '植物', pattern: /plant|flora|植物|식물|растени|thực vật/i },
+  { tag: '液体', pattern: /liquid|fluid|液体|액체|líquido|liquide|жидк|chất lỏng/i },
+];
+
+function extractDescriptionAndTagsFromDocument(document) {
+  let excerpt = '';
+  for (const label of document.querySelectorAll('strong, b')) {
+    const labelText = label.textContent.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!DESCRIPTION_LABEL_PATTERN.test(labelText)) continue;
+
+    let value = '';
+    for (let node = label.nextSibling; node; node = node.nextSibling) {
+      if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
+      value += node.textContent || '';
+    }
+    value = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').replace(/^[:：]\s*/, '').trim();
+    if (!value && label.parentElement) {
+      const next = label.parentElement.nextElementSibling;
+      value = next?.textContent?.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim() || '';
+    }
+    if (value) {
+      // バイト数ではなく、Unicodeコードポイント単位で冒頭250文字を保存する。
+      excerpt = Array.from(value).slice(0, 250).join('');
+      break;
+    }
+  }
+
+  if (!excerpt) return { descriptionExcerpt: null, tags: [] };
+  const tags = DESCRIPTION_TAG_RULES
+    .filter(rule => rule.pattern.test(excerpt))
+    .map(rule => rule.tag);
+  return { descriptionExcerpt: excerpt, tags };
+}
+
 /** pageTypeから支部コードを取り出す（国際版ページはnull） */
 function branchCodeOf(pageType) {
   const match = pageType.match(/^scp-series-([a-z-]+)$/)
@@ -439,6 +486,32 @@ class LocalSCPCrawler {
     return null;
   }
 
+  /** SCP記事ページからオブジェクトクラス、説明冒頭、特徴タグをまとめて取得する。 */
+  async extractScpDetailsFromPage(scpUrl, maxRetries = 3) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        const response = await axios.get(scpUrl, {
+          timeout: 30000,
+          headers: {
+            'User-Agent': CRAWLER_USER_AGENT,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US;q=0.9,en;q=0.8,*;q=0.5',
+          }
+        });
+
+        return withDom(response.data, document => ({
+          objectClass: extractObjectClassFromDocument(document),
+          ...extractDescriptionAndTagsFromDocument(document),
+        }));
+      } catch (error) {
+        console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
+        if (attempt === maxRetries) return { objectClass: null, descriptionExcerpt: null, tags: [] };
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+    }
+    return { objectClass: null, descriptionExcerpt: null, tags: [] };
+  }
+
   /**
    * 進捗表示
    */
@@ -514,6 +587,8 @@ class LocalSCPCrawler {
           // SKIP_IMAGE_FETCH=1で画像取得を省略できる（一覧抽出のみのテスト用）
           let imageUrl = existingItem?.imageUrl || null;
           let objectClass = existingItem?.objectClass || null;
+          let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
+          let tags = existingItem?.tags || [];
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
           const urlForImageExtraction = skipImageFetch ? null : urlForArticleExtraction;
@@ -527,12 +602,14 @@ class LocalSCPCrawler {
             }
           }
 
-          if (urlForArticleExtraction && !objectClass && entry.type === 'scp') {
-            console.log(`  オブジェクトクラス取得中: ${entry.itemId}`);
-            objectClass = await this.extractObjectClassFromScpPage(urlForArticleExtraction);
-            if (objectClass) {
-              console.log(`  ✓ オブジェクトクラス取得成功: ${objectClass}`);
-            }
+          if (urlForArticleExtraction && (!objectClass || !descriptionExcerpt || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
+            console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
+            const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
+            objectClass = objectClass || details.objectClass;
+            descriptionExcerpt = descriptionExcerpt || details.descriptionExcerpt;
+            if (!Array.isArray(existingItem?.tags)) tags = details.tags;
+            if (details.objectClass) console.log(`  ✓ オブジェクトクラス取得成功: ${details.objectClass}`);
+            if (details.tags.length) console.log(`  ✓ 自動タグ取得成功: ${details.tags.join(', ')}`);
           }
 
           scpEntries.push({
@@ -544,6 +621,8 @@ class LocalSCPCrawler {
             urlJP: urlLocal,
             imageUrl: imageUrl,
             objectClass: objectClass,
+            descriptionExcerpt: descriptionExcerpt,
+            tags: tags,
             isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),
             pageType: pageConfig.pageType,
