@@ -41,9 +41,44 @@ function withDom(html, fn) {
 /** SCP記事本文からオブジェクトクラス（支部ごとの表記を含む）を抽出する。 */
 const OBJECT_CLASS_VALUE_PATTERN = /(?:Safe|Euclid|Keter|Thaumiel|Apollyon|Archon|Cernunnos|Ticonderoga|Explained|Neutralized|Decommissioned|Pending|Uncontained|無力化|説明済み|未収容|保留|廃止|アポリオン|タウミエル|アーコン)/gi;
 
+function isStruckElement(element) {
+  if (!element || element.nodeType !== 1) return false;
+  const style = element.getAttribute('style') || '';
+  const className = typeof element.className === 'string' ? element.className : '';
+  return /^(del|s|strike)$/i.test(element.tagName)
+    || /text-decoration(?:-line)?\s*:[^;]*line-through/i.test(style)
+    || /(?:^|\s)(?:strike|strikethrough|line-through)(?:\s|$)/i.test(className);
+}
+
+function isStruckNode(node) {
+  return node?.nodeType === 1 ? isStruckElement(node) : isStruckElement(node?.parentElement);
+}
+
+function textContentWithoutStruck(node) {
+  if (isStruckNode(node)) return '';
+  const clone = node.cloneNode(true);
+  clone.querySelectorAll?.('del, s, strike, [style*="line-through"], .strike, .strikethrough, .line-through')
+    .forEach(element => element.remove());
+  return clone.textContent || '';
+}
+
+function isObjectClassLabel(text, labelPattern) {
+  const match = text.match(labelPattern);
+  if (!match) return false;
+  const before = text.slice(0, match.index).trim();
+  const after = text.slice(match.index + match[0].length).replace(/[\s:：]/g, '');
+  return !before && !after;
+}
+
 function selectCurrentObjectClass(value) {
-  const matches = [...value.matchAll(OBJECT_CLASS_VALUE_PATTERN)].map(match => match[0]);
-  if (!matches.length) return value;
+  const normalized = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+  OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
+  const matches = [...normalized.matchAll(OBJECT_CLASS_VALUE_PATTERN)].map(match => ({ value: match[0], index: match.index }));
+  if (!matches.length) {
+    if (/^[A-Za-z][A-Za-z0-9 /_-]{0,40}$/.test(normalized) && !/^(?:s|d|t|r)$/i.test(normalized)) return normalized;
+    return null;
+  }
+  if (matches[0].index > 0 && !/^[(:：\-\s]*$/.test(normalized.slice(0, matches[0].index))) return null;
 
   const canonical = new Map([
     ['safe', 'Safe'], ['euclid', 'Euclid'], ['keter', 'Keter'],
@@ -53,22 +88,31 @@ function selectCurrentObjectClass(value) {
     ['decommissioned', 'Decommissioned'], ['pending', 'Pending'],
     ['uncontained', 'Uncontained'],
   ]);
-  const selected = matches[matches.length - 1];
+  const last = matches[matches.length - 1];
+  const between = normalized.slice(matches[0].index + matches[0].value.length, last.index);
+  const selected = matches.length > 1 && between.length <= 40 && !/[.!?]/.test(between) ? last.value : matches[0].value;
   return canonical.get(selected.toLowerCase()) || selected;
 }
 
 function extractObjectClassFromDocument(document) {
+  for (const valueElement of document.querySelectorAll('.class-text, .objclass .obj-text')) {
+    if (isStruckNode(valueElement)) continue;
+    const value = textContentWithoutStruck(valueElement).replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+    OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
+    if (value && OBJECT_CLASS_VALUE_PATTERN.test(value)) return selectCurrentObjectClass(value);
+  }
+
   const labelPattern = /(?:object\s*class|containment\s*class|オブジェクトクラス|项目等级|項目等級|třída\s+objektu|klassifizierung|clasificación\s+del\s+objeto|classe(?:\s+dell?'oggetto|\s+do\s+objeto)?|klasa\s+podmiotu|ระดับ|клас\s+об'єкта|phân loại|객체\s*등급|개체\s*등급|등급)\s*[:：]?/i;
 
   // Wikidot記事の標準形式（<strong>ラベル:</strong> 値）を優先する。
   for (const label of document.querySelectorAll('strong, b')) {
     const labelText = label.textContent.replace(/\u00a0/g, ' ').trim();
-    if (!labelPattern.test(labelText)) continue;
+    if (!isObjectClassLabel(labelText, labelPattern)) continue;
 
     let value = '';
     for (let node = label.nextSibling; node; node = node.nextSibling) {
       if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
-      value += node.textContent || '';
+      value += textContentWithoutStruck(node);
     }
     value = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').replace(/^[:：]\s*/, '').trim();
     if (value) return selectCurrentObjectClass(value);
@@ -78,9 +122,10 @@ function extractObjectClassFromDocument(document) {
   const selectors = 'p, li, td, th';
 
   for (const element of document.querySelectorAll(selectors)) {
-    const text = element.textContent.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
-    const match = text.match(labelPattern);
+    const text = textContentWithoutStruck(element).replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+    const match = text.match(new RegExp('^' + labelPattern.source, 'i'));
     if (!match) continue;
+    if (!/[:：]/.test(match[0])) continue;
 
     const value = text.slice(match.index + match[0].length)
       .split(/\s+(?:object\s*class|special containment procedures?|description|项目等级|項目等級|třída objektu|klassifizierung|clasificación del objeto|classe|klasa podmiotu|ระดับ|клас об'єкта|phân loại|등급|격리 절차|특수 격리 절차|オブジェクトクラス)\s*[:：]/i)[0]
@@ -95,8 +140,9 @@ function extractObjectClassFromDocument(document) {
     .replace(/\s+/g, ' ');
   const itemMatch = content.match(/item\s*#\s*:?\s*(?:scp-)?\d+/i);
   if (itemMatch) {
-    const header = content.slice(itemMatch.index, itemMatch.index + 500)
+    const header = content.slice(itemMatch.index, itemMatch.index + 180)
       .split(/special containment procedures|description/i)[0];
+    OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
     const matches = [...header.matchAll(OBJECT_CLASS_VALUE_PATTERN)].map(match => match[0]);
     if (matches.length) return selectCurrentObjectClass(matches.join(' '));
   }
