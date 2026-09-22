@@ -209,8 +209,8 @@ function extractDescriptionAndTagsFromDocument(document) {
       .trim();
     if (value) {
       descriptionText = value;
-      // バイト数ではなく、Unicodeコードポイント単位で冒頭250文字を保存する。
-      excerpt = Array.from(value).slice(0, 250).join('');
+      // バイト数ではなく、Unicodeコードポイント単位で冒頭500文字を保存する。
+      excerpt = Array.from(value).slice(0, 500).join('');
       break;
     }
   }
