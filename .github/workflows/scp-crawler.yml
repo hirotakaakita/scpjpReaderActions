@@ -61,7 +61,7 @@ jobs:
           CRAWL_DELAY_MS: '1000'
 
       - name: Upload partial data
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: partial-${{ matrix.lang }}--${{ matrix.page }}
           path: partial-data/${{ matrix.lang }}--${{ matrix.page }}.json
