@@ -1,8 +1,8 @@
 {
   "totalCount": 24,
   "language": "int",
-  "timestamp": "2026-09-21T08:56:55.280Z",
-  "duration": 33,
+  "timestamp": "2026-09-22T12:35:48.320Z",
+  "duration": 31,
   "status": "completed",
   "statistics": {
     "translated": 24,
@@ -24,7 +24,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -43,7 +43,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -60,7 +60,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -77,7 +77,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -94,7 +94,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -111,7 +111,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -121,7 +121,7 @@
       "urlEN": "http://scp-int.wikidot.com/scp-007-int",
       "urlJP": "http://scp-int.wikidot.com/scp-007-int",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Liquid_helium_superfluid_phase.jpg/800px-Liquid_helium_superfluid_phase.jpg",
-      "objectClass": null,
+      "objectClass": "Thaumiel",
       "descriptionExcerpt": "SCP-007-INT designates an intelligent, highly adaptable, translucent, perpetually congealed substance that exhibits extraordinary plastic malleability. The object exists in the form of four (4) individual instances (\u03b1 (4.5 kilograms), \u03b2 (8.5 kilogram",
       "tags": [
         "\u77e5\u6027"
@@ -130,7 +130,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -150,7 +150,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -169,7 +169,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -188,7 +188,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -207,7 +207,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -217,7 +217,7 @@
       "urlEN": "http://scp-int.wikidot.com/scp-012-int",
       "urlJP": "http://scp-int.wikidot.com/scp-012-int",
       "imageUrl": null,
-      "objectClass": null,
+      "objectClass": "Keter",
       "descriptionExcerpt": "SCP-012-INT designates a group of 6 human women of varied phenotypes. Notably, however, is that they exhibit several inhuman animalistic physical attributes that are commonly found in common household cat breeds (Felis Silvestris Catus); namely, a fu",
       "tags": [
         "\u751f\u7269"
@@ -226,7 +226,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -243,7 +243,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -260,7 +260,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -277,7 +277,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -294,7 +294,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -304,7 +304,7 @@
       "urlEN": "http://scp-int.wikidot.com/scp-042-int",
       "urlJP": "http://scp-int.wikidot.com/scp-042-int",
       "imageUrl": null,
-      "objectClass": null,
+      "objectClass": "Safe",
       "descriptionExcerpt": "SCP-042-INT is an anomalous device in the form of a spheroid contained within a 0.3 m by 0.2m rectangular housing. A 0.6 meter rope has been fitted to SCP-042-INT with an adjustable loop on the free end that allows it to be tethered to an object. Bas",
       "tags": [
         "\u7269\u54c1"
@@ -313,7 +313,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -330,7 +330,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -347,7 +347,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -357,7 +357,7 @@
       "urlEN": "http://scp-int.wikidot.com/scp-055-int",
       "urlJP": "http://scp-int.wikidot.com/scp-055-int",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cereals_Settlement_Cookbook_10_ed_p_17.png",
-      "objectClass": null,
+      "objectClass": "Keter",
       "descriptionExcerpt": "SCP-055-INT, also known as a AE-K-Class \"Atlantis-Alethia 'Amnestics Absolution' Event Escalation\" Scenario, is the current drastic decrease of the effectiveness of amnestics and other memory-affecting drugs on all conscious minds.",
       "tags": [
         "\u77e5\u6027"
@@ -366,7 +366,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -376,14 +376,14 @@
       "urlEN": "http://scp-int.wikidot.com/scp-057-int",
       "urlJP": "http://scp-int.wikidot.com/scp-057-int",
       "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-057-int/map.jpg",
-      "objectClass": null,
+      "objectClass": "Keter",
       "descriptionExcerpt": "SCP-057-INT refers to the sudden manifestation of a mega-structure largely located beneath the Andes Mountains between the border of Chile and Argentina. SCP-057-INT contains multiple entities claiming membership in the Foundation.",
       "tags": [],
       "isTranslatedJP": true,
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -402,7 +402,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -419,7 +419,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -436,7 +436,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-21T08:56:55.715Z",
+      "lastUpdated": "2026-09-22T12:35:48.850Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     }
   ]
