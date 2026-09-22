@@ -121,6 +121,21 @@ const DESCRIPTION_TAG_RULES = [
   { tag: '液体', pattern: /liquid|fluid|液体|액체|líquido|liquide|жидк|chất lỏng/i },
 ];
 
+function textContentPreservingBreaks(node) {
+  if (node.nodeType === 3) return node.textContent || '';
+  const clone = node.cloneNode(true);
+  clone.querySelectorAll?.('br').forEach(br => br.replaceWith('\n'));
+  return clone.textContent || '';
+}
+
+function normalizeDescriptionText(value) {
+  return value
+    .replace(/\r\n?/g, '\n')
+    .replace(/[ \t\f\v]+/g, ' ')
+    .replace(/[ \t]*\n[ \t]*/g, '\n')
+    .trim();
+}
+
 function extractDescriptionAndTagsFromDocument(document) {
   let excerpt = '';
   let descriptionText = '';
@@ -131,18 +146,19 @@ function extractDescriptionAndTagsFromDocument(document) {
     const parts = [];
     for (let node = label.nextSibling; node; node = node.nextSibling) {
       if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
-      parts.push(node.textContent || '');
+      parts.push(node.nodeType === 1 && node.tagName.toLowerCase() === 'br'
+        ? '\n'
+        : textContentPreservingBreaks(node));
     }
     if (label.parentElement) {
       let next = label.parentElement.nextElementSibling;
       while (next && !next.querySelector('strong, b') && parts.join('').length < 10000) {
-        parts.push(next.textContent || '');
+        parts.push('\n', textContentPreservingBreaks(next));
         next = next.nextElementSibling;
       }
     }
-    const value = parts.join(' ')
-      .replace(/\u00a0/g, ' ')
-      .replace(/\s+/g, ' ')
+    const value = normalizeDescriptionText(parts.join('')
+      .replace(/\u00a0/g, ' '))
       .replace(/^[:：]\s*/, '')
       .trim();
     if (value) {
