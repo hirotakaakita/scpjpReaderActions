@@ -4,7 +4,13 @@ on:
   schedule:
     # 毎週日曜日午前0時（UTC）に実行（日本時間午前9時）
     - cron: '0 0 * * 0'
-  workflow_dispatch: # 手動実行も可能
+  workflow_dispatch:
+    inputs:
+      force_refresh_scp_details:
+        description: "???ObjectClass?????????"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: scp-crawler
@@ -59,6 +65,7 @@ jobs:
         run: node partial-crawler.js ${{ matrix.lang }} ${{ matrix.page }}
         env:
           CRAWL_DELAY_MS: '1000'
+          FORCE_REFRESH_SCP_DETAILS: ${{ inputs.force_refresh_scp_details == true && '1' || '0' }}
 
       - name: Upload partial data
         uses: actions/upload-artifact@v5

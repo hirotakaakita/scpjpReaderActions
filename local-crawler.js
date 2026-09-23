@@ -693,7 +693,8 @@ class LocalSCPCrawler {
           let imageUrl = existingItem?.imageUrl || null;
           let objectClass = existingItem?.objectClass || null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
-          const refreshDescription = !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
+          const forceRefreshDetails = process.env.FORCE_REFRESH_SCP_DETAILS === '1';
+          const refreshDescription = forceRefreshDetails || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
           let tags = existingItem?.tags || [];
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
@@ -708,7 +709,7 @@ class LocalSCPCrawler {
             }
           }
 
-          if (urlForArticleExtraction && (!objectClass || refreshDescription || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
+          if (urlForArticleExtraction && (forceRefreshDetails || !objectClass || refreshDescription || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
             if (!objectClass || refreshDescription) objectClass = details.objectClass || objectClass;
