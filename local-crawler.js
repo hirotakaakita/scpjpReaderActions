@@ -185,7 +185,7 @@ function normalizeDescriptionText(value) {
 function extractDescriptionAndTagsFromDocument(document) {
   let excerpt = '';
   let descriptionText = '';
-  for (const label of document.querySelectorAll('strong, b')) {
+  for (const label of document.querySelectorAll('strong, b, h1, h2, h3, h4, h5, h6')) {
     const labelText = label.textContent.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
     if (!DESCRIPTION_LABEL_PATTERN.test(labelText)) continue;
 
@@ -196,9 +196,11 @@ function extractDescriptionAndTagsFromDocument(document) {
         ? '\n'
         : textContentPreservingBreaks(node));
     }
-    if (label.parentElement) {
-      let next = label.parentElement.nextElementSibling;
-      while (next && !next.querySelector('strong, b') && parts.join('').length < 10000) {
+    const heading = label.closest('h1, h2, h3, h4, h5, h6');
+    const section = heading || label.parentElement;
+    if (section) {
+      let next = section.nextElementSibling;
+      while (next && !/^H[1-6]$/i.test(next.tagName) && !next.querySelector('strong, b') && parts.join('').length < 10000) {
         parts.push('\n', textContentPreservingBreaks(next));
         next = next.nextElementSibling;
       }
