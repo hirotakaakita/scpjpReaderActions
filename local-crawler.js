@@ -56,8 +56,9 @@ function isStruckNode(node) {
 
 function textContentWithoutStruck(node) {
   if (isStruckNode(node)) return '';
+  if (node?.nodeType === 1 && node.matches?.('.fnnum, .fncon, .footnoteref')) return '';
   const clone = node.cloneNode(true);
-  clone.querySelectorAll?.('del, s, strike, [style*="line-through"], .strike, .strikethrough, .line-through')
+  clone.querySelectorAll?.('del, s, strike, [style*="line-through"], .strike, .strikethrough, .line-through, .fnnum, .fncon, .footnoteref')
     .forEach(element => element.remove());
   return clone.textContent || '';
 }
