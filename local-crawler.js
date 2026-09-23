@@ -693,6 +693,7 @@ class LocalSCPCrawler {
           let imageUrl = existingItem?.imageUrl || null;
           let objectClass = existingItem?.objectClass || null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
+          const refreshDescription = !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
           let tags = existingItem?.tags || [];
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
@@ -707,11 +708,11 @@ class LocalSCPCrawler {
             }
           }
 
-          if (urlForArticleExtraction && (!objectClass || !descriptionExcerpt || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
+          if (urlForArticleExtraction && (!objectClass || refreshDescription || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
-            objectClass = objectClass || details.objectClass;
-            descriptionExcerpt = descriptionExcerpt || details.descriptionExcerpt;
+            if (!objectClass || refreshDescription) objectClass = details.objectClass || objectClass;
+            if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
             if (!Array.isArray(existingItem?.tags)) tags = details.tags;
             if (details.objectClass) console.log(`  ✓ オブジェクトクラス取得成功: ${details.objectClass}`);
             if (details.tags.length) console.log(`  ✓ 自動タグ取得成功: ${details.tags.join(', ')}`);
