@@ -7,7 +7,12 @@ on:
   workflow_dispatch:
     inputs:
       force_refresh_scp_details:
-        description: "???ObjectClass?????????"
+        description: "Force refresh SCP object classes and excerpts"
+        required: false
+        default: false
+        type: boolean
+      send_push_notifications:
+        description: "Send push notifications for newly discovered SCPs"
         required: false
         default: false
         type: boolean
@@ -116,6 +121,7 @@ jobs:
       # 必要がある(commit後だとHEADが今回のデータになり差分が0件になるため)。
       # Secret未設定時はスクリプト内で自動的にスキップされる。
       - name: Send new-SCP push notifications
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.send_push_notifications == true }}
         run: node send-new-scp-notifications.js
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
