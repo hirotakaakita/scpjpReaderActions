@@ -225,6 +225,13 @@ function extractDescriptionAndTagsFromDocument(document) {
   return { descriptionExcerpt: excerpt, tags };
 }
 
+function extractRatingFromDocument(document) {
+  const number = document.querySelector('.page-rate-widget-box .rate-points .number, .rate-points .number');
+  if (!number) return null;
+  const value = Number.parseInt((number.textContent || '').trim(), 10);
+  return Number.isFinite(value) ? value : null;
+}
+
 /** pageTypeから支部コードを取り出す（国際版ページはnull） */
 function branchCodeOf(pageType) {
   const match = pageType.match(/^scp-series-([a-z-]+)$/)
@@ -606,15 +613,16 @@ class LocalSCPCrawler {
 
         return withDom(response.data, document => ({
           objectClass: extractObjectClassFromDocument(document),
+          rating: extractRatingFromDocument(document),
           ...extractDescriptionAndTagsFromDocument(document),
         }));
       } catch (error) {
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
-        if (attempt === maxRetries) return { objectClass: null, descriptionExcerpt: null, tags: [] };
+        if (attempt === maxRetries) return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [] };
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
     }
-    return { objectClass: null, descriptionExcerpt: null, tags: [] };
+    return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [] };
   }
 
   /**
@@ -692,6 +700,7 @@ class LocalSCPCrawler {
           // SKIP_IMAGE_FETCH=1で画像取得を省略できる（一覧抽出のみのテスト用）
           let imageUrl = existingItem?.imageUrl || null;
           let objectClass = existingItem?.objectClass || null;
+          let rating = existingItem?.rating ?? null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
           const forceRefreshDetails = process.env.FORCE_REFRESH_SCP_DETAILS === '1';
           const refreshDescription = forceRefreshDetails || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
@@ -709,10 +718,11 @@ class LocalSCPCrawler {
             }
           }
 
-          if (urlForArticleExtraction && (forceRefreshDetails || !objectClass || refreshDescription || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
+          if (urlForArticleExtraction && (forceRefreshDetails || !objectClass || rating === null || refreshDescription || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
             if (!objectClass || refreshDescription) objectClass = details.objectClass || objectClass;
+            if (forceRefreshDetails || rating === null) rating = details.rating ?? rating;
             if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
             if (!Array.isArray(existingItem?.tags)) tags = details.tags;
             if (details.objectClass) console.log(`  ✓ オブジェクトクラス取得成功: ${details.objectClass}`);
@@ -728,6 +738,7 @@ class LocalSCPCrawler {
             urlJP: urlLocal,
             imageUrl: imageUrl,
             objectClass: objectClass,
+            rating: rating,
             descriptionExcerpt: descriptionExcerpt,
             tags: tags,
             isTranslatedJP: !entry.isUntranslated,
