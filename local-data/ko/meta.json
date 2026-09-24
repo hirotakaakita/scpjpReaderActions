@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-23T07:34:44.972Z",
+  "lastUpdated": "2026-09-24T12:54:30.782Z",
   "language": "ko",
-  "totalCount": 4043,
+  "totalCount": 4045,
   "status": "completed",
-  "duration": 4661,
+  "duration": 5358,
   "statistics": {
-    "translated": 4008,
+    "translated": 4010,
     "untranslated": 35,
     "withImage": 1966
   },
