@@ -718,11 +718,12 @@ class LocalSCPCrawler {
             }
           }
 
-          if (urlForArticleExtraction && (forceRefreshDetails || !objectClass || rating === null || refreshDescription || !Array.isArray(existingItem?.tags)) && entry.type === 'scp') {
+          // 評価値は変動するため、既存値の有無にかかわらず毎回取得する。
+          if (urlForArticleExtraction && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
             if (!objectClass || refreshDescription) objectClass = details.objectClass || objectClass;
-            if (forceRefreshDetails || rating === null) rating = details.rating ?? rating;
+            rating = details.rating ?? rating;
             if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
             if (!Array.isArray(existingItem?.tags)) tags = details.tags;
             if (details.objectClass) console.log(`  ✓ オブジェクトクラス取得成功: ${details.objectClass}`);
