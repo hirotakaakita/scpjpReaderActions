@@ -21,6 +21,11 @@ on:
         required: false
         default: false
         type: boolean
+      force_refresh_description:
+        description: "Force refresh all SCP description excerpts"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: scp-crawler
@@ -77,6 +82,7 @@ jobs:
           CRAWL_DELAY_MS: '1000'
           FORCE_REFRESH_SCP_DETAILS: ${{ inputs.force_refresh_scp_details == true && '1' || '0' }}
           FORCE_REFRESH_OBJECT_CLASS: ${{ inputs.force_refresh_object_class == true && '1' || '0' }}
+          FORCE_REFRESH_DESCRIPTION: ${{ inputs.force_refresh_description == true && '1' || '0' }}
 
       - name: Upload partial data
         uses: actions/upload-artifact@v5

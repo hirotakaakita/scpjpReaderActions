@@ -704,10 +704,11 @@ class LocalSCPCrawler {
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
           const forceRefreshDetails = process.env.FORCE_REFRESH_SCP_DETAILS === '1';
           const forceRefreshObjectClass = process.env.FORCE_REFRESH_OBJECT_CLASS === '1';
+          const forceRefreshDescription = process.env.FORCE_REFRESH_DESCRIPTION === '1';
           OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
           const storedClassTokens = objectClass ? [...objectClass.matchAll(OBJECT_CLASS_VALUE_PATTERN)] : [];
           const refreshObjectClass = forceRefreshObjectClass || !objectClass || storedClassTokens.length > 1 || objectClass.length > 80;
-          const refreshDescription = forceRefreshDetails || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
+          const refreshDescription = forceRefreshDetails || forceRefreshDescription || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
           let tags = existingItem?.tags || [];
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
