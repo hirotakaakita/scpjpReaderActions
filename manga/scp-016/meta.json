@@ -1,0 +1,100 @@
+{
+  "id": "scp-016",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-016 \u2014 Sentient Micro-Organism",
+    "source_url": "https://scp-wiki.wikidot.com/scp-016",
+    "author": "DrClef / SCP Foundation"
+  },
+  "title": {
+    "ja": "SCP-016\uff1a\u6709\u611f\u899a\u5fae\u751f\u7269",
+    "en": "SCP-016: Sentient Micro-Organism",
+    "cs": "SCP-016: Mysl\u00edc\u00ed mikroorganismus",
+    "de": "SCP-016: Empfindungsf\u00e4higer Mikro-Organismus",
+    "es": "SCP-016: Micro-organismo Inteligente",
+    "fr": "SCP-016: Micro-organisme conscient",
+    "it": "SCP-016: Micro Organismo Senziente",
+    "ko": "SCP-016: \uc758\uc2dd\uc774 \uc788\ub294 \ubbf8\uc0dd\ubb3c",
+    "pl": "SCP-016: \u015awiadomy mikroorganizm",
+    "pt": "SCP-016: Microrganismo Senciente",
+    "th": "SCP-016: \u0e08\u0e38\u0e25\u0e34\u0e19\u0e17\u0e23\u0e35\u0e22\u0e4c\u0e17\u0e35\u0e48\u0e21\u0e35\u0e2a\u0e15\u0e34\u0e1b\u0e31\u0e0d\u0e0d\u0e32",
+    "uk": "SCP-016: \u0420\u043e\u0437\u0443\u043c\u043d\u0438\u0439 \u0432\u0456\u0440\u0443\u0441",
+    "vi": "SCP-016: Vi Sinh V\u1eadt Th\u00f4ng Minh",
+    "zh": "SCP-016\uff1a\u667a\u80fd\u5fae\u751f\u7269",
+    "zh_Hant": "SCP-016\uff1a\u6709\u611f\u77e5\u80fd\u529b\u7684\u5fae\u751f\u7269"
+  },
+  "created_at": "2026-09-28T02:02:47Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
