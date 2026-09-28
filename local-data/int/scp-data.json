@@ -1,8 +1,8 @@
 {
   "totalCount": 24,
   "language": "int",
-  "timestamp": "2026-09-27T09:49:54.654Z",
-  "duration": 37,
+  "timestamp": "2026-09-28T06:34:58.353Z",
+  "duration": 39,
   "status": "completed",
   "statistics": {
     "translated": 24,
@@ -25,7 +25,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -45,7 +45,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -63,7 +63,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -81,7 +81,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -99,7 +99,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -117,7 +117,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -137,7 +137,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -158,7 +158,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -178,7 +178,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -198,7 +198,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -218,7 +218,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -238,7 +238,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -256,7 +256,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -268,13 +268,13 @@
       "imageUrl": null,
       "objectClass": null,
       "rating": 8,
-      "descriptionExcerpt": "SCP-014-INT is a vehicle similar to a Fiat Marengo, shiny black in colour, with several dents and bullet holes. The windscreen is shattered, probably from an armed collision.",
+      "descriptionExcerpt": "SCP-014-INT is a vehicle similar to a Fiat Marengo, shiny black in colour, with several dents and bullet holes. The windscreen is shattered, probably from an armed collision.\nInside SCP-014-INT is a small laboratory that was used to anomalously create amnestics. This is possible due to an anomalous effect of SCP-014-INT ; in fact, the boot of the vehicle is a Non-Euclidean space, tripling the measurements of a non-anomalous boot.\nThe anomaly is dated 1991, as can be read from a document found in",
       "tags": [],
       "isTranslatedJP": true,
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -292,7 +292,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -310,7 +310,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -330,7 +330,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -348,7 +348,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -366,7 +366,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -386,7 +386,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -398,13 +398,13 @@
       "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-057-int/map.jpg",
       "objectClass": "Keter",
       "rating": 48,
-      "descriptionExcerpt": "SCP-057-INT refers to the sudden manifestation of a mega-structure largely located beneath the Andes Mountains between the border of Chile and Argentina. SCP-057-INT contains multiple entities claiming membership in the Foundation.",
+      "descriptionExcerpt": "SCP-057-INT refers to the sudden manifestation of a mega-structure largely located beneath the Andes Mountains between the border of Chile and Argentina. SCP-057-INT contains multiple entities claiming membership in the Foundation.\nFurther investigation is pending.",
       "tags": [],
       "isTranslatedJP": true,
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -424,7 +424,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -442,7 +442,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     },
     {
@@ -460,7 +460,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-09-27T09:49:55.332Z",
+      "lastUpdated": "2026-09-28T06:34:59.077Z",
       "createdAt": "2026-08-01T10:55:17.661Z"
     }
   ]
