@@ -432,7 +432,24 @@
       "pageType": "scp-series",
       "contentType": "scp",
       "lastUpdated": "2026-09-28T07:56:39.103Z",
-      "createdAt": "2026-08-01T12:01:49.417Z"
+      "createdAt": "2026-08-01T12:01:49.417Z",
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ]
     },
     {
       "itemId": "scp-series-017",
@@ -862,7 +879,24 @@
       "pageType": "scp-series",
       "contentType": "scp",
       "lastUpdated": "2026-09-28T07:56:39.103Z",
-      "createdAt": "2026-08-01T12:01:49.417Z"
+      "createdAt": "2026-08-01T12:01:49.417Z",
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ]
     },
     {
       "itemId": "scp-series-037",
