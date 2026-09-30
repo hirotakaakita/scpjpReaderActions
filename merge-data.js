@@ -103,6 +103,39 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
   return true;
 }
 
+/**
+ * 全言語の同一itemIdを突き合わせ、翻訳済み言語コードを各カタログへ付与する。
+ * 既存のisTranslatedJPは後方互換のため残し、新しいtranslatedLanguagesを追加する。
+ */
+function addTranslatedLanguages(baseOutputDir, languages) {
+  const translatedByItem = new Map();
+  const catalogs = new Map();
+  const orderedLanguages = Object.keys(LANGUAGES).filter(lang => languages.includes(lang));
+
+  for (const lang of orderedLanguages) {
+    const filePath = path.join(baseOutputDir, lang, 'scp-data.json');
+    if (!fs.existsSync(filePath)) continue;
+    const catalog = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    catalogs.set(lang, { filePath, catalog });
+    for (const item of catalog.data || []) {
+      if (!item.isTranslatedJP) continue;
+      if (!translatedByItem.has(item.itemId)) translatedByItem.set(item.itemId, new Set());
+      translatedByItem.get(item.itemId).add(lang);
+    }
+  }
+
+  for (const [lang, { filePath, catalog }] of catalogs) {
+    catalog.data = (catalog.data || []).map(item => ({
+      ...item,
+      translatedLanguages: [...(translatedByItem.get(item.itemId) || [])],
+    }));
+    fs.writeFileSync(filePath, stringifyAsciiSafe(catalog), 'utf8');
+    if (lang === 'jp') {
+      fs.writeFileSync(path.join(baseOutputDir, 'scp-data.json'), stringifyAsciiSafe(catalog), 'utf8');
+    }
+  }
+}
+
 function main() {
   const langArg = process.argv[2];
   const partialDir = path.resolve(path.join(__dirname, 'partial-data'));
@@ -134,10 +167,11 @@ function main() {
     console.error('1言語も結合できませんでした。');
     process.exit(1);
   }
+  addTranslatedLanguages(baseOutputDir, merged);
 }
 
 if (require.main === module) {
   main();
 }
 
-module.exports = { mergeLanguage };
+module.exports = { mergeLanguage, addTranslatedLanguages };
