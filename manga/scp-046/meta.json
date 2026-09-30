@@ -1,0 +1,100 @@
+{
+  "id": "scp-046",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-046",
+    "source_url": "https://scp-wiki.wikidot.com/scp-046",
+    "author": "Eskobar"
+  },
+  "title": {
+    "ja": "SCP-046\uff1a\"\u6355\u98df\u6027\"\u30d2\u30a4\u30e9\u30ae\u306e\u85ae",
+    "en": "SCP-046: \"Predatory\" Holly Bush",
+    "cs": "SCP-046: \"Pred\u00e1torsk\u00e9\" cesm\u00ednov\u00e9 k\u0159ov\u00ed",
+    "de": "SCP-046: \"R\u00e4uberisches\"' Stechpalmengeb\u00fcsch",
+    "es": "SCP-046: Arbusto de Acebo \"Predador\"",
+    "fr": "SCP-046: Buisson de houx \"pr\u00e9dateur\"",
+    "it": "SCP-046: Cespuglio d'Agrifoglio Predatore",
+    "ko": "SCP-046: \"\ud3ec\uc2dd\uc131\" \ud638\ub791\uac00\uc2dc\ub098\ubb34",
+    "pl": "SCP-046: \"Drapie\u017cny\" ostrokrzew",
+    "pt": "SCP-046: Arbusto de Azevinho \"Predat\u00f3rio\"",
+    "th": "SCP-046: \u0e1e\u0e38\u0e48\u0e21\u0e2e\u0e2d\u0e25\u0e25\u0e35\u0e48\u0e01\u0e34\u0e19\u0e40\u0e19\u0e37\u0e49\u0e2d",
+    "uk": "SCP-046: \u00ab\u0425\u0438\u0436\u0456\u00bb \u043a\u0443\u0449\u0456 \u043f\u0430\u0434\u0443\u0431\u0443",
+    "vi": "SCP-046: Th\u1ea3m Th\u1ef1c V\u1eadt \"\u0102n Th\u1ecbt\"",
+    "zh": "SCP-046\uff1a\u201c\u63a0\u98df\u6027\u201d\u51ac\u9752\u6811\u4e1b",
+    "zh_Hant": "SCP-046\uff1a\u300c\u63a0\u98df\u6027\u300d\u51ac\u9752\u704c\u6728\u53e2"
+  },
+  "created_at": "2026-09-30T00:48:53Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

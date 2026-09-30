@@ -1,0 +1,100 @@
+{
+  "id": "scp-051",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-051",
+    "source_url": "https://scp-wiki.wikidot.com/scp-051",
+    "author": "mari_who"
+  },
+  "title": {
+    "ja": "SCP-051\uff1a\u65e5\u672c\u88fd\u306e\u598a\u5a66\u4eba\u5f62",
+    "en": "SCP-051: Japanese Obstetrical Model",
+    "cs": "SCP-051: Japonsk\u00fd porodnick\u00fd model",
+    "de": "SCP-051: Japanisches Geburtsmodell",
+    "es": "SCP-051: Modelo Obst\u00e9trico Japon\u00e9s",
+    "fr": "SCP-051: Mod\u00e8le obst\u00e9trique japonais",
+    "it": "SCP-051: Manichino Giapponese per Esercitazioni Ostetriche",
+    "ko": "SCP-051: \uc77c\ubcf8\uc2dd \uc0b0\ubd80\uc778\uacfc \ubaa8\ud615",
+    "pl": "SCP-051: Japo\u0144ski model po\u0142o\u017cniczy",
+    "pt": "SCP-051: Modelo Obst\u00e9trico Japon\u00eas",
+    "th": "SCP-051: \u0e2b\u0e38\u0e48\u0e19\u0e08\u0e33\u0e25\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e04\u0e25\u0e2d\u0e14\u0e02\u0e2d\u0e07\u0e0a\u0e32\u0e27\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "uk": "SCP-051: \u042f\u043f\u043e\u043d\u0441\u044c\u043a\u0430 \u0430\u043a\u0443\u0448\u0435\u0440\u0441\u044c\u043a\u0430 \u043c\u043e\u0434\u0435\u043b\u044c",
+    "vi": "SCP-051: M\u00f4 H\u00ecnh Thai Ph\u1ee5 Nh\u1eadt B\u1ea3n",
+    "zh": "SCP-051\uff1a\u65e5\u672c\u5987\u4ea7\u4eba\u5076",
+    "zh_Hant": "SCP-051\uff1a\u65e5\u672c\u7522\u5a66\u4eba\u5076"
+  },
+  "created_at": "2026-09-30T03:26:46Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

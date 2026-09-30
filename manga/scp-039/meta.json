@@ -1,0 +1,100 @@
+{
+  "id": "scp-039",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-039",
+    "source_url": "https://scp-wiki.wikidot.com/scp-039",
+    "author": "Kothardarastrix"
+  },
+  "title": {
+    "ja": "SCP-039\uff1a\u30e2\u30f3\u30ad\u30fc\u30fb\u30d6\u30ec\u30a4\u30f3",
+    "en": "SCP-039: Monkey Brain",
+    "cs": "SCP-039: Nosat\u00ed in\u017een\u00fd\u0159i",
+    "de": "SCP-039: R\u00fcssel-Ingenieur",
+    "es": "SCP-039: Cerebro de mono.",
+    "fr": "SCP-039: Ing\u00e9nieurs nasiques",
+    "it": "SCP-039: Cervello di Scimmia",
+    "ko": "SCP-039: \uc6d0\uc22d\uc774 \ub1cc",
+    "pl": "SCP-039: Ma\u0142pi Rozum",
+    "pt": "SCP-039: Engenheiros-narigudos",
+    "th": "SCP-039: \u0e27\u0e34\u0e28\u0e27\u0e01\u0e23\u0e08\u0e21\u0e39\u0e01\u0e42\u0e15",
+    "uk": "SCP-039: \u0406\u043d\u0436\u0435\u043d\u0435\u0440\u0438-\u043d\u043e\u0441\u0430\u0447\u0456",
+    "vi": "SCP-039: N\u00e3o Kh\u1ec9",
+    "zh": "SCP-039\uff1a\u7334\u8111",
+    "zh_Hant": "SCP-039\uff1a\u9577\u9f3b\u5de5\u7a0b\u5e2b"
+  },
+  "created_at": "2026-09-29T02:15:29Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
