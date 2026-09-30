@@ -110,7 +110,10 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
 function addTranslatedLanguages(baseOutputDir, languages) {
   const translatedByItem = new Map();
   const catalogs = new Map();
-  const orderedLanguages = Object.keys(LANGUAGES).filter(lang => languages.includes(lang));
+  // 部分クロール失敗時も、既存カタログの翻訳状況を失わないようにする。
+  const orderedLanguages = Object.keys(LANGUAGES).filter(lang =>
+    fs.existsSync(path.join(baseOutputDir, lang, 'scp-data.json'))
+  );
 
   for (const lang of orderedLanguages) {
     const filePath = path.join(baseOutputDir, lang, 'scp-data.json');
