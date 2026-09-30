@@ -1,0 +1,100 @@
+{
+  "id": "scp-042",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-042",
+    "source_url": "https://scp-wiki.wikidot.com/scp-042",
+    "author": "Unknown Author; rewritten by Skali Sharpnose"
+  },
+  "title": {
+    "ja": "SCP-042\uff1a\u3082\u3068\u3082\u3068\u7ffc\u304c\u3042\u3063\u305f\u99ac",
+    "en": "SCP-042: A Formerly Winged Horse",
+    "cs": "SCP-042: D\u0159\u00edve ok\u0159\u00eddlen\u00fd k\u016f\u0148",
+    "de": "SCP-042: Ein ehemals gefl\u00fcgeltes Pferd",
+    "es": "SCP-042: Un Caballo Anteriormente Alado",
+    "fr": "SCP-042: Un cheval autrefois ail\u00e9",
+    "it": "SCP-042: Un Cavallo che fu Alato",
+    "ko": "SCP-042: \ub0a0\uac1c\uac00 \ub2ec\ub838\ub358 \ub9d0",
+    "pl": "SCP-042: By\u0142y pegaz",
+    "pt": "SCP-042: Um Cavalo Anteriormente Alado",
+    "th": "SCP-042: \u0e2d\u0e14\u0e35\u0e15\u0e21\u0e49\u0e32\u0e21\u0e35\u0e1b\u0e35\u0e01",
+    "uk": "SCP-042: \u0420\u0430\u043d\u0456\u0448\u0435 \u043a\u0440\u0438\u043b\u0430\u0442\u0438\u0439 \u043a\u0456\u043d\u044c",
+    "vi": "SCP-042: K\u00ec L\u00e2n G\u00e3y C\u00e1nh",
+    "zh": "SCP-042\uff1a\u6614\u65e5\u5929\u9a6c",
+    "zh_Hant": "SCP-042\uff1a\u66fe\u70ba\u5929\u99ac"
+  },
+  "created_at": "2026-09-29T23:57:54Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

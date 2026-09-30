@@ -1,0 +1,100 @@
+{
+  "id": "scp-053",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-053",
+    "source_url": "https://scp-wiki.wikidot.com/scp-053",
+    "author": "Dr Gears"
+  },
+  "title": {
+    "ja": "SCP-053\uff1a\u5e7c\u5973",
+    "en": "SCP-053: Young Girl",
+    "cs": "SCP-053: Mlad\u00e1 d\u00edvka",
+    "de": "SCP-053: Das Junge M\u00e4dchen",
+    "es": "SCP-053: La Ni\u00f1a",
+    "fr": "SCP-053: Petite Fille",
+    "it": "SCP-053: Giovane Ragazza",
+    "ko": "SCP-053: \uc18c\ub140",
+    "pl": "SCP-053: Dziewczynka",
+    "pt": "SCP-053: Jovem Garota",
+    "th": "SCP-053: \u0e40\u0e14\u0e47\u0e01\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "uk": "SCP-053: \u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0430 \u0434\u0456\u0432\u0447\u0438\u043d\u043a\u0430",
+    "vi": "SCP-053: B\u00e9 G\u00e1i",
+    "zh": "SCP-053\uff1a\u5c0f\u59d1\u5a18",
+    "zh_Hant": "SCP-053\uff1a\u5c0f\u5973\u5b69"
+  },
+  "created_at": "2026-09-30T08:17:27Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
