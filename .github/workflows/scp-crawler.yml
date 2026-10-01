@@ -62,7 +62,7 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false # 1ページの失敗で他ページのクロールを止めない
-      max-parallel: 5 # クロール先のレート制限対策（wikidot全体への同時接続数を制限）
+      max-parallel: 8 # 言語サイト単位で並列化し、同一サイト内はlanguage-crawler.jsで順番に処理
       matrix: ${{ fromJSON(needs.setup.outputs.matrix) }}
 
     steps:
@@ -81,8 +81,8 @@ jobs:
       # local-data/<lang>/scp-data.json（checkout済み）を参照して
       # createdAt・取得済み画像URLを引き継ぐ差分クロール
       # 並列実行のためエントリ間の待機を1000msに延長（レート制限対策）
-      - name: Crawl ${{ matrix.lang }}/${{ matrix.page }}
-        run: node partial-crawler.js ${{ matrix.lang }} ${{ matrix.page }}
+      - name: Crawl ${{ matrix.lang }} site
+        run: node language-crawler.js ${{ matrix.lang }}
         env:
           CRAWL_DELAY_MS: '1000'
           CRAWL_ENTRY_CONCURRENCY: '3'
@@ -95,8 +95,8 @@ jobs:
       - name: Upload partial data
         uses: actions/upload-artifact@v5
         with:
-          name: partial-${{ matrix.lang }}--${{ matrix.page }}
-          path: partial-data/${{ matrix.lang }}--${{ matrix.page }}.json
+          name: partial-${{ matrix.lang }}
+          path: partial-data/
           retention-days: 3
           if-no-files-found: error
 
