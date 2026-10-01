@@ -260,6 +260,27 @@ function extractRatingFromDocument(document) {
   return Number.isFinite(value) ? value : null;
 }
 
+function extractImageUrlFromDocument(document, scpUrl) {
+  const contentSelectors = ['#page-content', '.page-source', '#main-content', '.content-panel'];
+  const contentArea = contentSelectors.map(selector => document.querySelector(selector)).find(Boolean);
+  if (!contentArea) return null;
+
+  const excluded = ['/files/util/', '/common/media/', 'nav/', 'side/', 'help.png', 'icon', 'button', 'logo', 'heritage-rating', 'scp-heritage', 'component:'];
+  const imageSelectors = ['img[src*=".jpg"]', 'img[src*=".jpeg"]', 'img[src*=".png"]', 'img[src*=".gif"]', 'img[src*=".webp"]'];
+  const pageOrigin = new URL(scpUrl).origin;
+  for (const selector of imageSelectors) {
+    for (const image of contentArea.querySelectorAll(selector)) {
+      let src = image.getAttribute('src');
+      if (!src || excluded.some(pattern => src.toLowerCase().includes(pattern))) continue;
+      if (src.startsWith('//')) src = `http:${src}`;
+      else if (src.startsWith('/')) src = `${pageOrigin}${src}`;
+      else if (!src.startsWith('http')) src = `${pageOrigin}/${src}`;
+      return src;
+    }
+  }
+  return null;
+}
+
 /** pageTypeから支部コードを取り出す（国際版ページはnull） */
 function branchCodeOf(pageType) {
   const match = pageType.match(/^scp-series-([a-z-]+)$/)
@@ -364,6 +385,9 @@ class LocalSCPCrawler {
     this.startTime = null;
     // レート制限対策のエントリ間待機時間（並列実行時はCRAWL_DELAY_MSで延長する）
     this.entryDelayMs = parseInt(process.env.CRAWL_DELAY_MS || '500', 10);
+    this.articleRequestIntervalMs = Math.max(0, parseInt(process.env.CRAWL_REQUEST_INTERVAL_MS || '300', 10));
+    this.articleRequestChain = Promise.resolve();
+    this.nextArticleRequestAt = 0;
 
     if (!fs.existsSync(this.outputDir)) {
       fs.mkdirSync(this.outputDir, { recursive: true });
@@ -493,117 +517,19 @@ class LocalSCPCrawler {
     return candidates;
   }
 
-  /**
-   * SCPページから画像URLを取得
-   */
-  async extractImageUrlFromScpPage(scpUrl, maxRetries = 3) {
-    for (let attempt = 1; attempt <= maxRetries; attempt++) {
-      try {
-        const response = await axios.get(scpUrl, {
-          timeout: 30000,
-          headers: {
-            'User-Agent': CRAWLER_USER_AGENT,
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'en-US;q=0.9,en;q=0.8,*;q=0.5',
-          }
-        });
-
-        // HTML属性を読むだけなので外部リソース（CSS/フォント/画像）は読み込まない。
-        return withDom(response.data, (document) => {
-        // 本文コンテンツエリアを特定
-        const contentSelectors = [
-          '#page-content',        // メインコンテンツエリア
-          '.page-source',         // ページソース表示時
-          '#main-content',        // 代替メインコンテンツ
-          '.content-panel'        // コンテンツパネル
-        ];
-
-        let contentArea = null;
-        for (const selector of contentSelectors) {
-          contentArea = document.querySelector(selector);
-          if (contentArea) {
-            break;
-          }
-        }
-
-        if (!contentArea) {
-          return null;
-        }
-
-        // 除外すべき画像のパターン
-        const excludePatterns = [
-          '/files/util/',          // ユーティリティ画像
-          '/common/media/',        // 共通メディア
-          'nav/',                  // ナビゲーション
-          'side/',                 // サイドバー
-          'help.png',              // ヘルプアイコン
-          'icon',                  // アイコン類
-          'button',                // ボタン画像
-          'logo',                  // ロゴ
-          'heritage-rating',       // heritage-rating関連アイコン
-          'scp-heritage',          // SCPヘリテージアイコン
-          'component:'             // コンポーネント関連画像
-        ];
-
-        // 本文コンテンツ内の画像を検索（優先順位順、除外パターンを考慮）
-        const imageSelectors = [
-          'img[src*=".jpg"]',
-          'img[src*=".jpeg"]',
-          'img[src*=".png"]',
-          'img[src*=".gif"]',
-          'img[src*=".webp"]'
-        ];
-
-        // 画像の相対URLは取得先ページのオリジンで解決する
-        const pageOrigin = new URL(scpUrl).origin;
-
-        for (const selector of imageSelectors) {
-          const images = contentArea.querySelectorAll(selector);
-
-          for (const img of images) {
-            let src = img.getAttribute('src');
-
-            // 除外パターンをチェック
-            const shouldExclude = excludePatterns.some(pattern =>
-              src && src.toLowerCase().includes(pattern.toLowerCase())
-            );
-
-            if (shouldExclude) {
-              continue;
-            }
-
-            if (src) {
-              // 相対URLを絶対URLに変換
-              if (src.startsWith('//')) {
-                src = `http:${src}`;
-              } else if (src.startsWith('/')) {
-                src = `${pageOrigin}${src}`;
-              } else if (!src.startsWith('http')) {
-                src = `${pageOrigin}/${src}`;
-              }
-              return src;
-            }
-          }
-        }
-
-        return null;
-        });
-      } catch (error) {
-        console.warn(`画像URL取得エラー ${scpUrl} (試行 ${attempt}/${maxRetries}):`, error.message);
-
-        if (attempt === maxRetries) {
-          return null;
-        }
-
-        // 2秒待機後にリトライ
-        await new Promise(resolve => setTimeout(resolve, 2000));
-      }
-    }
-
-    return null;
+  /** SCP記事ページからオブジェクトクラスを取得する。 */
+  async waitForArticleRequestSlot() {
+    let release;
+    const turn = new Promise(resolve => { release = resolve; });
+    const previous = this.articleRequestChain;
+    this.articleRequestChain = turn;
+    await previous;
+    const waitMs = Math.max(0, this.nextArticleRequestAt - Date.now());
+    if (waitMs > 0) await new Promise(resolve => setTimeout(resolve, waitMs));
+    this.nextArticleRequestAt = Date.now() + this.articleRequestIntervalMs;
+    release();
   }
 
-  /** SCP記事ページからオブジェクトクラスを取得する。 */
   async extractObjectClassFromScpPage(scpUrl, maxRetries = 3) {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
@@ -630,6 +556,7 @@ class LocalSCPCrawler {
   async extractScpDetailsFromPage(scpUrl, maxRetries = 3) {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
+        await this.waitForArticleRequestSlot();
         const response = await axios.get(scpUrl, {
           timeout: 30000,
           headers: {
@@ -642,6 +569,7 @@ class LocalSCPCrawler {
         return withDom(response.data, document => ({
           objectClass: extractObjectClassFromDocument(document),
           rating: extractRatingFromDocument(document),
+          imageUrl: extractImageUrlFromDocument(document, scpUrl),
           ...extractDescriptionAndTagsFromDocument(document),
         }));
       } catch (error) {
@@ -704,7 +632,7 @@ class LocalSCPCrawler {
         const currentTime = new Date().toISOString();
         const scpEntries = [];
 
-        for (const entry of rawEntries) {
+        const processEntry = async (entry) => {
           const existingItem = existingData.get(entry.itemId);
           const isNewItem = !existingItem;
           const fullUrl = entry.url ? `${this.baseUrl}${entry.url}` : null;
@@ -744,20 +672,11 @@ class LocalSCPCrawler {
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
           const urlForImageExtraction = skipImageFetch ? null : urlForArticleExtraction;
-          if (urlForImageExtraction && (!existingItem || !existingItem.imageUrl) && entry.type === 'scp') {
-            console.log(`  画像URL取得中: ${entry.itemId}`);
-            imageUrl = await this.extractImageUrlFromScpPage(urlForImageExtraction);
-            if (imageUrl) {
-              console.log(`  ✓ 画像URL取得成功: ${imageUrl}`);
-            } else {
-              console.log(`  - 画像なし`);
-            }
-          }
-
           // 評価値は変動するため、既存値の有無にかかわらず毎回取得する。
           if (urlForArticleExtraction && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
+            if (urlForImageExtraction && !existingItem?.imageUrl) imageUrl = details.imageUrl || imageUrl;
             if (refreshObjectClass || forceRefreshDetails) objectClass = details.objectClass || objectClass;
             rating = details.rating ?? rating;
             if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
@@ -769,7 +688,7 @@ class LocalSCPCrawler {
             if (details.tags.length) console.log(`  ✓ 自動タグ取得成功: ${details.tags.join(', ')}`);
           }
 
-          scpEntries.push({
+          return {
             itemId: entry.itemId,
             // ??にすること（||だと000番記事のnumericItemId=0がnullになる）
             numericItemId: entry.numericItemId ?? null,
@@ -788,13 +707,27 @@ class LocalSCPCrawler {
             contentType: entry.type,
             lastUpdated: currentTime,
             createdAt: isNewItem ? currentTime : (existingItem.createdAt || existingItem.lastUpdated)
-          });
+          };
+        };
 
-          // 各エントリ処理後に待機（レート制限対策）
-          if (urlForArticleExtraction && entry.type === 'scp') {
-            await new Promise(resolve => setTimeout(resolve, this.entryDelayMs));
+        const entryConcurrency = Math.max(1, Number.parseInt(process.env.CRAWL_ENTRY_CONCURRENCY || '3', 10));
+        const results = new Array(rawEntries.length);
+        let nextIndex = 0;
+        const worker = async () => {
+          while (true) {
+            const index = nextIndex++;
+            if (index >= rawEntries.length) return;
+            results[index] = await processEntry(rawEntries[index]);
+            if (index + 1 < rawEntries.length) {
+              await new Promise(resolve => setTimeout(resolve, this.entryDelayMs));
+            }
           }
-        }
+        };
+        await Promise.all(Array.from(
+          { length: Math.min(entryConcurrency, rawEntries.length) },
+          () => worker()
+        ));
+        scpEntries.push(...results);
 
         console.log(`${url}から${scpEntries.length}件のデータを抽出完了\n`);
         this.processedCount++;

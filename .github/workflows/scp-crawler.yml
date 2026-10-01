@@ -85,6 +85,8 @@ jobs:
         run: node partial-crawler.js ${{ matrix.lang }} ${{ matrix.page }}
         env:
           CRAWL_DELAY_MS: '1000'
+          CRAWL_ENTRY_CONCURRENCY: '3'
+          CRAWL_REQUEST_INTERVAL_MS: '300'
           FORCE_REFRESH_SCP_DETAILS: ${{ inputs.force_refresh_scp_details == true && '1' || '0' }}
           FORCE_REFRESH_OBJECT_CLASS: ${{ inputs.force_refresh_object_class == true && '1' || '0' }}
           FORCE_REFRESH_DESCRIPTION: ${{ inputs.force_refresh_description == true && '1' || '0' }}
