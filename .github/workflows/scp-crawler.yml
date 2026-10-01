@@ -26,6 +26,11 @@ on:
         required: false
         default: false
         type: boolean
+      force_refresh_tags:
+        description: "Force refresh all SCP tags"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: scp-crawler
@@ -83,6 +88,7 @@ jobs:
           FORCE_REFRESH_SCP_DETAILS: ${{ inputs.force_refresh_scp_details == true && '1' || '0' }}
           FORCE_REFRESH_OBJECT_CLASS: ${{ inputs.force_refresh_object_class == true && '1' || '0' }}
           FORCE_REFRESH_DESCRIPTION: ${{ inputs.force_refresh_description == true && '1' || '0' }}
+          FORCE_REFRESH_TAGS: ${{ inputs.force_refresh_tags == true && '1' || '0' }}
 
       - name: Upload partial data
         uses: actions/upload-artifact@v5

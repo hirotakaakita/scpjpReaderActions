@@ -153,19 +153,24 @@ function extractObjectClassFromDocument(document) {
 
 const DESCRIPTION_LABEL_PATTERN = /^(?:description|説明|描述|popis|beschreibung|descripción|descrizione|opis|설명|รายละเอียด|опис|mô tả)\s*[:：]?$/i;
 
+const TAG_RULE_VERSION = 2;
 const DESCRIPTION_TAG_RULES = [
-  { tag: '人間型', pattern: /humanoid|human[- ]like|人型|人間型|인간형|гуманоид|человекоподоб|hình người|człekokształtn/i },
-  { tag: '生物', pattern: /organism|creature|biological|animal|生物|생물|생명체|organismo|organisme|organismus|criatura|biologique|биолог|sinh vật/i },
-  { tag: '物品', pattern: /artifact|artefact|device|item|物品|物体|装置|アイテム|물체|장치|artefacto|предмет|objeto|dispositivo/i },
-  { tag: '伝染性', pattern: /infect|contag|pathogen|virus|disease|pandemic|感染|伝染|病原|ウイルス|감염|전염|바이러스|infecc|contagio|infekc|зараз|инфекц|truyền nhiễm/i },
-  { tag: '知性', pattern: /sentient|sapient|intelligent|conscious|知性|知能|自我|知的|지성|지능|의식|разумн|сознатель|trí tuệ/i },
-  { tag: '情報災害', pattern: /infohazard|cognitohazard|memetic|information hazard|情報災害|認識災害|ミーム|정보재해|인지재해|memético|memético|инфоопас|когнитивн|thông tin nguy hại/i },
-  { tag: '精神影響', pattern: /mind[- ]affect|psycholog|mental|hallucin|精神|心理|幻覚|정신|심리|환각|психичес|галлюцин|tâm lý|ảo giác/i },
-  { tag: '時間', pattern: /temporal|time[- ]based|時間|시공간|시간적|временн|thời gian/i },
-  { tag: '空間', pattern: /spatial|dimension|extradimensional|portal|空間|異次元|차원|포털|пространств|измерени|không gian|chiều không gian/i },
-  { tag: '機械', pattern: /mechanical|machine|robot|機械|ロボット|기계|로봇|механичес|робот|máy móc/i },
-  { tag: '植物', pattern: /plant|flora|植物|식물|растени|thực vật/i },
-  { tag: '液体', pattern: /liquid|fluid|液体|액체|líquido|liquide|жидк|chất lỏng/i },
+  { tag: 'humanoid', weight: 1.0, pattern: /\bhumanoid\b|human[- ]like|\u4eba\u578b|\u4eba\u9593\u578b|\uc778\uac04\ud615|\u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434/i },
+  { tag: 'biological', weight: 0.8, pattern: /\borganism\b|\bcreature\b|biological|\banimal\b|\u751f\u7269|\u751f\u547d\u4f53|\uc0dd\ubb3c|organismo|organisme|\u0431\u0438\u043e\u043b\u043e\u0433/i },
+  { tag: 'artifact', weight: 0.7, pattern: /\bartifact\b|\bartefact\b|\bdevice\b|\bweapon\b|\u7269\u54c1|\u7269\u4f53|\u88c5\u7f6e|\u30a2\u30a4\u30c6\u30e0|\ubb3c\uccb4|\uc7a5\uce58/i },
+  { tag: 'infectious', weight: 1.0, pattern: /infect|contag|pathogen|\bvirus\b|pandemic|\u611f\u67d3|\u4f1d\u67d3|\u75c5\u539f|\u30a6\u30a4\u30eb\u30b9|\uac10\uc5fc|\uc804\uc5fc|\ubc14\uc774\ub7ec\uc2a4|\u0437\u0430\u0440\u0430\u0437|\u0438\u043d\u0444\u0435\u043a\u0446/i },
+  { tag: 'sentient', weight: 0.9, pattern: /sentient|sapient|intelligent|conscious|self-aware|\u77e5\u6027|\u77e5\u80fd|\u81ea\u6211|\uc9c0\ub2a5|\uc758\uc2dd/i },
+  { tag: 'infohazard', weight: 1.0, pattern: /infohazard|cognitohazard|memetic|information hazard|\u60c5\u5831\u707d\u5bb3|\u8a8d\u8b58\u707d\u5bb3|\u30df\u30fc\u30e0|\uc815\ubcf4\uc7ac\ud574|\uc778\uc9c0\uc7ac\ud574|\u0438\u043d\u0444\u043e\u043e\u043f\u0430\u0441/i },
+  { tag: 'mind_affecting', weight: 0.9, pattern: /mind[- ]affect|psycholog|mental|hallucin|\u7cbe\u795e|\u5fc3\u7406|\u5e7b\u899a|\uc815\uc2e0|\uc2ec\ub9ac|\ud658\uac01/i },
+  { tag: 'temporal', weight: 0.9, pattern: /temporal|time[- ]based|time anomaly|\u6642\u9593|\uc2dc\uac04|\u0432\u0440\u0435\u043c\u0435\u043d/i },
+  { tag: 'spatial', weight: 0.9, pattern: /spatial|dimension|extradimensional|portal|\u7a7a\u9593|\u7570\u6b21\u5143|\ucc28\uc6d0|\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432/i },
+  { tag: 'mechanical', weight: 0.7, pattern: /mechanical|machine|robot|\u6a5f\u68b0|\u30ed\u30dc\u30c3\u30c8|\uae30\uacc4|\u043c\u0435\u0445\u0430\u043d\u0438\u0447|\u0440\u043e\u0431\u043e\u0442/i },
+  { tag: 'plant', weight: 0.9, pattern: /\bplant\b|\bflora\b|\u690d\u7269|\uc2dd\ubb3c|\u0440\u0430\u0441\u0442\u0435\u043d/i },
+  { tag: 'liquid', weight: 0.8, pattern: /\bliquid\b|\bfluid\b|\u6db2\u4f53|\uc561\uccb4|\u0436\u0438\u0434\u043a/i },
+  { tag: 'hostile', weight: 0.7, pattern: /hostile|aggressive|predatory|\u6575\u5bfe|\u653b\u6483\u7684|\uacf5\uaca9|\u0430\u0433\u0440\u0435\u0441\u0441/i },
+  { tag: 'reality_altering', weight: 1.0, pattern: /reality[- ](?:bending|altering|warping)|reality manipulation|\u73fe\u5b9f\u6539\u5909|\uc2e4\uc81c\ubcc0\ud615/i },
+  { tag: 'self_replicating', weight: 0.9, pattern: /self[- ]replicat|reproduce|replicate|\u81ea\u5df1\u8907\u88fd|\uc790\uac00\ubcf5\uc81c/i },
+  { tag: 'regenerative', weight: 0.8, pattern: /regenerat|immortal|indestructible|\u518d\u751f|\u4e0d\u6ec5|\u7834\u58ca\u4e0d\u53ef|\uc7ac\uc0dd/i },
 ];
 
 function textContentPreservingBreaks(node) {
@@ -183,6 +188,26 @@ function normalizeDescriptionText(value) {
     .trim();
 }
 
+function hasPositiveTagEvidence(text, pattern) {
+  const flags = pattern.flags.includes('g') ? pattern.flags : `${pattern.flags}g`;
+  const matcher = new RegExp(pattern.source, flags);
+  let match;
+  while ((match = matcher.exec(text)) !== null) {
+    const context = text.slice(Math.max(0, match.index - 60), match.index);
+    if (!/(?:\b(?:not|without|never|no|non|doesn['’]t|does\s+not)\b|非|ない|ません|不)/i.test(context)) return true;
+    if (match[0].length === 0) matcher.lastIndex++;
+  }
+  return false;
+}
+
+function extractTags(text) {
+  return DESCRIPTION_TAG_RULES
+    .filter(rule => hasPositiveTagEvidence(text, rule.pattern))
+    .sort((a, b) => b.weight - a.weight)
+    .slice(0, 8)
+    .map(rule => rule.tag);
+}
+
 function extractDescriptionAndTagsFromDocument(document) {
   let excerpt = '';
   let descriptionText = '';
@@ -190,14 +215,16 @@ function extractDescriptionAndTagsFromDocument(document) {
     const labelText = label.textContent.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
     if (!DESCRIPTION_LABEL_PATTERN.test(labelText)) continue;
 
-    const parts = [];
-    for (let node = label.nextSibling; node; node = node.nextSibling) {
-      if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
-      parts.push(node.nodeType === 1 && node.tagName.toLowerCase() === 'br'
-        ? '\n'
-        : textContentPreservingBreaks(node));
-    }
     const heading = label.closest('h1, h2, h3, h4, h5, h6');
+    const parts = [];
+    if (!heading) {
+      for (let node = label.nextSibling; node; node = node.nextSibling) {
+        if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
+        parts.push(node.nodeType === 1 && node.tagName.toLowerCase() === 'br'
+          ? '\n'
+          : textContentPreservingBreaks(node));
+      }
+    }
     const section = heading || label.parentElement;
     if (section) {
       let next = section.nextElementSibling;
@@ -218,11 +245,12 @@ function extractDescriptionAndTagsFromDocument(document) {
     }
   }
 
-  if (!excerpt) return { descriptionExcerpt: null, tags: [] };
-  const tags = DESCRIPTION_TAG_RULES
-    .filter(rule => rule.pattern.test(descriptionText))
-    .map(rule => rule.tag);
-  return { descriptionExcerpt: excerpt, tags };
+  const articleText = normalizeDescriptionText(
+    (document.querySelector('#page-content') || document.body).textContent || ''
+  ).slice(0, 12000);
+  const tagSource = descriptionText || articleText;
+  const tags = extractTags(tagSource);
+  return { descriptionExcerpt: excerpt || null, tags, tagVersion: TAG_RULE_VERSION };
 }
 
 function extractRatingFromDocument(document) {
@@ -618,11 +646,11 @@ class LocalSCPCrawler {
         }));
       } catch (error) {
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
-        if (attempt === maxRetries) return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [] };
+        if (attempt === maxRetries) return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: TAG_RULE_VERSION };
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
     }
-    return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [] };
+    return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: TAG_RULE_VERSION };
   }
 
   /**
@@ -702,13 +730,16 @@ class LocalSCPCrawler {
           let objectClass = existingItem?.objectClass || null;
           let rating = existingItem?.rating ?? null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
+          let tagVersion = existingItem?.tagVersion ?? null;
           const forceRefreshDetails = process.env.FORCE_REFRESH_SCP_DETAILS === '1';
           const forceRefreshObjectClass = process.env.FORCE_REFRESH_OBJECT_CLASS === '1';
           const forceRefreshDescription = process.env.FORCE_REFRESH_DESCRIPTION === '1';
+          const forceRefreshTags = process.env.FORCE_REFRESH_TAGS === '1';
           OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
           const storedClassTokens = objectClass ? [...objectClass.matchAll(OBJECT_CLASS_VALUE_PATTERN)] : [];
           const refreshObjectClass = forceRefreshObjectClass || !objectClass || storedClassTokens.length > 1 || objectClass.length > 80;
           const refreshDescription = forceRefreshDetails || forceRefreshDescription || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
+          const refreshTags = forceRefreshDetails || forceRefreshTags || tagVersion !== TAG_RULE_VERSION || !Array.isArray(existingItem?.tags);
           let tags = existingItem?.tags || [];
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
@@ -730,7 +761,10 @@ class LocalSCPCrawler {
             if (refreshObjectClass || forceRefreshDetails) objectClass = details.objectClass || objectClass;
             rating = details.rating ?? rating;
             if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
-            if (!Array.isArray(existingItem?.tags)) tags = details.tags;
+            if (refreshTags) {
+              tags = details.tags;
+              tagVersion = details.tagVersion ?? TAG_RULE_VERSION;
+            }
             if (details.objectClass) console.log(`  ✓ オブジェクトクラス取得成功: ${details.objectClass}`);
             if (details.tags.length) console.log(`  ✓ 自動タグ取得成功: ${details.tags.join(', ')}`);
           }
@@ -747,6 +781,7 @@ class LocalSCPCrawler {
             rating: rating,
             descriptionExcerpt: descriptionExcerpt,
             tags: tags,
+            tagVersion: tagVersion,
             isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),
             pageType: pageConfig.pageType,
