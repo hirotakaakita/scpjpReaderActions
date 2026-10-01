@@ -62,7 +62,7 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false # 1ページの失敗で他ページのクロールを止めない
-      max-parallel: 8 # 言語サイト単位で並列化し、同一サイト内はlanguage-crawler.jsで順番に処理
+      max-parallel: 5 # Wikidot???????????
       matrix: ${{ fromJSON(needs.setup.outputs.matrix) }}
 
     steps:
@@ -85,8 +85,8 @@ jobs:
         run: node language-crawler.js ${{ matrix.lang }}
         env:
           CRAWL_DELAY_MS: '1000'
-          CRAWL_ENTRY_CONCURRENCY: '3'
-          CRAWL_REQUEST_INTERVAL_MS: '300'
+          CRAWL_ENTRY_CONCURRENCY: '2'
+          CRAWL_REQUEST_INTERVAL_MS: '500'
           FORCE_REFRESH_SCP_DETAILS: ${{ inputs.force_refresh_scp_details == true && '1' || '0' }}
           FORCE_REFRESH_OBJECT_CLASS: ${{ inputs.force_refresh_object_class == true && '1' || '0' }}
           FORCE_REFRESH_DESCRIPTION: ${{ inputs.force_refresh_description == true && '1' || '0' }}
