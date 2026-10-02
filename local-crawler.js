@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { JSDOM } = require('jsdom');
+const { JSDOM, VirtualConsole } = require('jsdom');
 const axios = require('axios');
 const { LANGUAGES, DEFAULT_ENTRY_PATTERN } = require('./languages');
 
@@ -30,7 +30,13 @@ function titleAfterLink(text, linkText) {
  * OOMで落ちる（scp-series-koで発生）。パース箇所は必ずこのヘルパーを使うこと。
  */
 function withDom(html, fn) {
-  const dom = new JSDOM(html);
+  const virtualConsole = new VirtualConsole();
+  virtualConsole.on('jsdomError', error => {
+    if (error?.type === 'css parsing' || /Could not parse CSS stylesheet/i.test(error?.message || '')) return;
+    console.warn('JSDOM解析警告:', error?.message || error);
+  });
+  const sanitizedHtml = String(html).replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, '');
+  const dom = new JSDOM(sanitizedHtml, { virtualConsole });
   try {
     return fn(dom.window.document);
   } finally {
