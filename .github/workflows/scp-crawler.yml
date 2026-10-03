@@ -11,11 +11,6 @@ on:
         required: false
         default: false
         type: boolean
-      send_push_notifications:
-        description: "Send push notifications for newly discovered SCPs"
-        required: false
-        default: false
-        type: boolean
       force_refresh_object_class:
         description: "Force refresh all SCP object classes"
         required: false
@@ -33,7 +28,7 @@ on:
         type: boolean
 
 concurrency:
-  group: scp-crawler
+  group: scp-data-update
   cancel-in-progress: false
 
 jobs:
@@ -140,12 +135,8 @@ jobs:
       # 言語別FCMトピック(new_scp_<lang>)に通知を送る。commitより前に実行する
       # 必要がある(commit後だとHEADが今回のデータになり差分が0件になるため)。
       # Secret未設定時はスクリプト内で自動的にスキップされる。
-      - name: Send new-SCP push notifications
-        if: ${{ github.event_name != 'workflow_dispatch' || inputs.send_push_notifications == true }}
-        run: node send-new-scp-notifications.js
-        env:
-          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-        continue-on-error: true # 通知送信の失敗でデータのcommit/pushを止めない
+      - name: Prepare notification queue
+        run: node prepare-notification-queue.js
 
       - name: Configure Git
         run: |

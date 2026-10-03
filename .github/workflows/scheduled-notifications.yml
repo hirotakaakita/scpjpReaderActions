@@ -1,0 +1,33 @@
+name: Scheduled SCP Notifications
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: scp-data-update
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - run: node send-scheduled-notifications.js
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+      - name: Commit notification state
+        run: |
+          git config user.name 'SCP Notification Bot'
+          git config user.email 'scp-notifications@github-actions.bot'
+          git add local-data/notification-queue.json
+          if git diff --staged --quiet; then exit 0; fi
+          git commit -m "Update notification queue"
+          git pull --rebase -X theirs origin master
+          git push origin master
