@@ -1,0 +1,100 @@
+{
+  "id": "scp-059",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-059",
+    "source_url": "https://scp-wiki.wikidot.com/scp-059",
+    "author": "HK-016; rewritten by eric_h"
+  },
+  "title": {
+    "ja": "SCP-059\uff1a\u653e\u5c04\u6027\u9271\u7269",
+    "en": "SCP-059: Radioactive Mineral",
+    "cs": "SCP-059: Radioaktivn\u00ed miner\u00e1l",
+    "de": "SCP-059: Radioaktives Mineral",
+    "es": "SCP-059: Mineral Radiactivo",
+    "fr": "SCP-059: Min\u00e9ral radioactif",
+    "it": "SCP-059: Minerale Radioattivo",
+    "ko": "SCP-059: \ubc29\uc0ac\uc131 \uad11\ubb3c",
+    "pl": "SCP-059: Radioaktywny minera\u0142",
+    "pt": "SCP-059: Min\u00e9rio Radioativo",
+    "th": "SCP-059: \u0e41\u0e23\u0e48\u0e01\u0e31\u0e21\u0e21\u0e31\u0e19\u0e15\u0e23\u0e31\u0e07\u0e2a\u0e35",
+    "uk": "SCP-059: \u0420\u0430\u0434\u0456\u043e\u0430\u043a\u0442\u0438\u0432\u043d\u0438\u0439 \u043c\u0456\u043d\u0435\u0440\u0430\u043b",
+    "vi": "SCP-059: Kho\u00e1ng S\u1ea3n Ph\u00f3ng X\u1ea1",
+    "zh": "SCP-059\uff1a\u653e\u5c04\u6027\u77ff\u7269",
+    "zh_Hant": "SCP-059\uff1a\u653e\u5c04\u6027\u7926\u7269"
+  },
+  "created_at": "2026-10-01T05:42:48Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
