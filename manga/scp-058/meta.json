@@ -1,0 +1,100 @@
+{
+  "id": "scp-058",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_size": [
+    720,
+    720
+  ],
+  "thumbnail_size": [
+    480,
+    480
+  ],
+  "thumbnail_source": "panels/panel_1.png",
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-058",
+    "source_url": "https://scp-wiki.wikidot.com/scp-058",
+    "author": "Unknown author"
+  },
+  "title": {
+    "ja": "SCP-058\uff1a\u95c7\u306e\u5fc3\u81d3",
+    "en": "SCP-058: Heart of Darkness",
+    "cs": "SCP-058: Srdce temnoty",
+    "de": "SCP-058: Herz der Finsternis",
+    "es": "SCP-058: Coraz\u00f3n de la Oscuridad",
+    "fr": "SCP-058: C\u0153ur des t\u00e9n\u00e8bres",
+    "it": "SCP-058: Cuore di Tenebra",
+    "ko": "SCP-058: \uc554\ud751\uc758 \ud575\uc2ec",
+    "pl": "SCP-058: Serce ciemno\u015bci",
+    "pt": "SCP-058: Cora\u00e7\u00e3o das Trevas",
+    "th": "SCP-058: \u0e2b\u0e31\u0e27\u0e43\u0e08\u0e27\u0e31\u0e27",
+    "uk": "SCP-058: \u0421\u0435\u0440\u0446\u0435 \u0442\u0435\u043c\u0440\u044f\u0432\u0438",
+    "vi": "SCP-058: \u00c1m T\u00e2m",
+    "zh": "SCP-058\uff1a\u9ed1\u6697\u4e4b\u5fc3",
+    "zh_Hant": "SCP-058\uff1a\u9eef\u95c7\u4e4b\u5fc3"
+  },
+  "created_at": "2026-10-01T04:46:27Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
