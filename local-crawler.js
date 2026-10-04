@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const axios = require('axios');
+const { publicTags } = require('./public-tags');
 const { LANGUAGES, DEFAULT_ENTRY_PATTERN } = require('./languages');
 
 const CRAWLER_USER_AGENT = 'Mozilla/5.0 (compatible; SCPCrawler/2.0; Multi-Language)';
@@ -184,7 +185,7 @@ function extractPageTagsFromDocument(document) {
     seen.add(tag);
     tags.push(tag);
   }
-  return tags;
+  return publicTags(tags);
 }
 
 function extractDescriptionAndTagsFromDocument(document) {
@@ -676,7 +677,7 @@ class LocalSCPCrawler {
             objectClass: objectClass,
             rating: rating,
             descriptionExcerpt: descriptionExcerpt,
-            tags: tags,
+            tags: publicTags(tags),
             tagVersion: tagVersion,
             isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),

@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { stringifyAsciiSafe } = require('./local-crawler');
 const { LANGUAGES } = require('./languages');
+const { publicTags } = require('./public-tags');
 
 /**
  * 分割クロール結果の結合スクリプト（多言語対応）
@@ -38,7 +39,7 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
       console.warn(`[${lang}] ${page}.json のdataが空のためスキップします。`);
       return false;
     }
-    results.push(...partial.data);
+    results.push(...partial.data.map(item => ({ ...item, tags: publicTags(item.tags) })));
     timestamps.push(partial.timestamp);
     totalDuration += partial.duration || 0;
     console.log(`[${lang}] ${page}: ${partial.data.length}件`);
@@ -130,6 +131,7 @@ function addTranslatedLanguages(baseOutputDir, languages) {
   for (const [lang, { filePath, catalog }] of catalogs) {
     catalog.data = (catalog.data || []).map(item => ({
       ...item,
+      tags: publicTags(item.tags),
       translatedLanguages: [...(translatedByItem.get(item.itemId) || [])],
     }));
     fs.writeFileSync(filePath, stringifyAsciiSafe(catalog), 'utf8');

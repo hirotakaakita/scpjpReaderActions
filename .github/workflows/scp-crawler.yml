@@ -47,6 +47,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Check public tag filtering
+        run: node --test test/public-tags.test.js
+
       - name: Generate matrix
         id: matrix
         run: echo "matrix=$(node print-matrix.js)" >> "$GITHUB_OUTPUT"
