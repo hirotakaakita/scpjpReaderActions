@@ -48,7 +48,10 @@ jobs:
           node-version: '20'
 
       - name: Check public tag filtering
-        run: node --test test/public-tags.test.js
+        run: node --test test/public-tags.test.js test/tag-dictionary.test.js
+
+      - name: Validate tag dictionary
+        run: node -e "require('./tag-dictionary').readDictionary('tag-dictionary.json')"
 
       - name: Generate matrix
         id: matrix
@@ -128,6 +131,12 @@ jobs:
           path: partial-data
           merge-multiple: true
 
+      - name: Test localized catalog generation
+        run: node --test test/tag-catalog.test.js
+
+      - name: Prepare tag dictionary before catalog generation
+        run: node prepare-tag-dictionary.js
+
       - name: Merge partial data into local-data
         run: node merge-data.js
 
@@ -148,7 +157,7 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git add local-data/
+          git add local-data/ tag-dictionary.json tag-translations-pending.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

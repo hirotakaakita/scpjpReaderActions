@@ -11,6 +11,7 @@ const excludedTags = new Set([
 function publicTags(values) {
   if (!Array.isArray(values)) return [];
   return [...new Set(values
+    .map(value => typeof value === 'string' ? value : value?.id)
     .filter(value => typeof value === 'string')
     .map(value => value.replace(/\u00a0/g, ' ').trim())
     .filter(value => value && !value.startsWith('_') &&

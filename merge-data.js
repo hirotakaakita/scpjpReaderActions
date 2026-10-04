@@ -3,6 +3,7 @@ const path = require('path');
 const { stringifyAsciiSafe } = require('./local-crawler');
 const { LANGUAGES } = require('./languages');
 const { publicTags } = require('./public-tags');
+const { readDictionary, indexDictionary, localizeTags } = require('./tag-dictionary');
 
 /**
  * 分割クロール結果の結合スクリプト（多言語対応）
@@ -173,10 +174,39 @@ function main() {
     process.exit(1);
   }
   addTranslatedLanguages(baseOutputDir, merged);
+  applyTagDictionary(baseOutputDir, readDictionary(path.join(__dirname, 'tag-dictionary.json')));
+}
+
+function applyTagDictionary(baseOutputDir, dictionary) {
+  const index = indexDictionary(dictionary);
+  const generatedAt = new Date().toISOString();
+  for (const lang of Object.keys(LANGUAGES)) {
+    const file = path.join(baseOutputDir, lang, 'scp-data.json');
+    if (!fs.existsSync(file)) continue;
+    const catalog = JSON.parse(fs.readFileSync(file, 'utf8'));
+    catalog.tagSchemaVersion = 2;
+    // Retained languages also need a new cache timestamp when labels are rebuilt.
+    catalog.timestamp = generatedAt;
+    for (const item of catalog.data || []) {
+      item.tags = localizeTags(item.tags, lang, dictionary, index);
+    }
+    const json = stringifyAsciiSafe(catalog);
+    fs.writeFileSync(file, json, 'utf8');
+    if (lang === 'jp') fs.writeFileSync(path.join(baseOutputDir, 'scp-data.json'), json, 'utf8');
+    const metaFile = path.join(baseOutputDir, lang, 'meta.json');
+    if (fs.existsSync(metaFile)) {
+      const meta = JSON.parse(fs.readFileSync(metaFile, 'utf8'));
+      meta.lastUpdated = generatedAt;
+      meta.tagSchemaVersion = 2;
+      const metaJson = stringifyAsciiSafe(meta);
+      fs.writeFileSync(metaFile, metaJson, 'utf8');
+      if (lang === 'jp') fs.writeFileSync(path.join(baseOutputDir, 'meta.json'), metaJson, 'utf8');
+    }
+  }
 }
 
 if (require.main === module) {
   main();
 }
 
-module.exports = { mergeLanguage, addTranslatedLanguages };
+module.exports = { mergeLanguage, addTranslatedLanguages, applyTagDictionary };
