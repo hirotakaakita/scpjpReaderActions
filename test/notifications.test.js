@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
-const { main: sendNotifications } = require('../send-scheduled-notifications');
+const { main: sendNotifications, deliveryWindow } = require('../send-scheduled-notifications');
 const { readLedger, gitPersistence } = require('../notification-state');
 const { recover } = require('../recover-notification');
 
@@ -179,7 +179,7 @@ test('missing credentials and outside schedule leave pending items unchanged', a
   const f = fixture(t); f.seed();
   const before = fs.readFileSync(f.queuePath, 'utf8');
   await sendNotifications({ ...f.options, secret: '', persist: noNetwork, getAccessToken: noNetwork });
-  await sendNotifications({ ...f.options, now: new Date('2026-10-05T11:00:00Z'), persist: noNetwork, getAccessToken: noNetwork });
+  await sendNotifications({ ...f.options, now: new Date('2026-10-05T10:59:00Z'), persist: noNetwork, getAccessToken: noNetwork });
   assert.equal(fs.readFileSync(f.queuePath, 'utf8'), before);
 });
 
@@ -206,4 +206,49 @@ test('stale checkout cannot overwrite a competing delivery reservation', async t
   await sendNotifications(f.options);
   await assert.rejects(sendNotifications({ ...stale, sendRequest: noNetwork }), /current origin\/master/);
   assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
+});
+
+test('missed Sunday delivery catches up Monday evening once for the weekly window', async t => {
+  const f = fixture(t); f.seed();
+  await sendNotifications({ ...f.options, now: new Date('2026-10-05T11:00:00Z') });
+  assert.equal(f.remoteLedger().deliveries[0].window, '2026-10-04');
+  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-04');
+  const queue = f.readQueue();
+  queue.pending.jp.items.push({ itemId: 'scp-series-3', titleJP: 'Later arrival' });
+  fs.writeFileSync(f.queuePath, JSON.stringify(queue));
+  f.git('add', 'local-data'); f.git('commit', '-m', 'Later arrival'); f.git('push', 'origin', 'master');
+  await sendNotifications({ ...f.options, now: new Date('2026-10-06T11:00:00Z'), sendRequest: noNetwork });
+  assert.equal(f.readQueue().pending.jp.items.length, 1);
+  await sendNotifications({ ...f.options, now: new Date('2026-10-11T11:00:00Z') });
+  assert.deepEqual(f.remoteLedger().deliveries.map(r => r.window), ['2026-10-04', '2026-10-11']);
+});
+
+test('catch-up windows use local dates and remain closed before 20:00', () => {
+  assert.equal(deliveryWindow(new Date('2026-10-04T10:59:59Z'), 'Asia/Tokyo'), null);
+  assert.equal(deliveryWindow(new Date('2026-10-04T11:00:00Z'), 'Asia/Tokyo'), '2026-10-04');
+  assert.equal(deliveryWindow(new Date('2026-10-04T15:00:00Z'), 'Asia/Tokyo'), null);
+  assert.equal(deliveryWindow(new Date('2026-10-10T14:59:59Z'), 'Asia/Tokyo'), '2026-10-04');
+  // New York switches to standard time on November 1, 2026.
+  assert.equal(deliveryWindow(new Date('2026-11-02T00:59:59Z'), 'America/New_York'), null);
+  assert.equal(deliveryWindow(new Date('2026-11-02T01:00:00Z'), 'America/New_York'), '2026-11-01');
+  assert.equal(deliveryWindow(new Date('2026-01-01T11:00:00Z'), 'Asia/Tokyo'), '2025-12-28');
+});
+
+test('publisher starting after a send preserves the sent ledger and appends only new arrivals', async t => {
+  const f = fixture(t); f.seed();
+  await sendNotifications(f.options);
+  // This checkout models acquisition of the publish lock after a long crawl.
+  const publisher = f.restart();
+  const cwd = path.dirname(path.dirname(publisher.queuePath));
+  const beforeLedger = fs.readFileSync(publisher.ledgerPath, 'utf8');
+  const catalog = { data: [
+    { itemId: 'scp-series-1', titleJP: 'Existing article' },
+    { itemId: 'scp-series-3', titleJP: 'Newly crawled article' },
+  ] };
+  fs.writeFileSync(path.join(cwd, 'local-data/jp/scp-data.json'), JSON.stringify(catalog));
+  execFileSync(process.execPath, ['prepare-notification-queue.js'], { cwd });
+  const queue = JSON.parse(fs.readFileSync(publisher.queuePath, 'utf8'));
+  assert.deepEqual(queue.pending.jp.items.map(item => item.itemId), ['scp-series-3']);
+  assert.equal(queue.pending.jp.lastSentWindow, '2026-10-04');
+  assert.equal(fs.readFileSync(publisher.ledgerPath, 'utf8'), beforeLedger);
 });

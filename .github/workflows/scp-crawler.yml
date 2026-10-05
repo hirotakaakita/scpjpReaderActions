@@ -28,8 +28,9 @@ on:
         type: boolean
 
 concurrency:
-  group: scp-data-update
+  group: scp-crawl
   cancel-in-progress: false
+  queue: max
 
 jobs:
   # languages.jsから全言語×全ページのmatrixを生成する
@@ -107,6 +108,10 @@ jobs:
   # 言語単位で全ページのクロールが成功した言語のみ結合・配備する
   # （ある言語で1ページでも失敗するとその言語はスキップされ、local-dataは前回のまま維持される）
   merge-and-deploy:
+    concurrency:
+      group: scp-data-update
+      cancel-in-progress: false
+      queue: max
     runs-on: ubuntu-latest
     needs: crawl
     if: always() && needs.crawl.result != 'cancelled'
@@ -117,6 +122,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          ref: master
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -146,10 +153,7 @@ jobs:
       - name: Apply manga availability flags
         run: node apply-manga-flags.js
 
-      # git HEAD(前回コミット時点)と今回のlocal-dataを比較して新着記事を検出し、
-      # 言語別FCMトピック(new_scp_<lang>)に通知を送る。commitより前に実行する
-      # 必要がある(commit後だとHEADが今回のデータになり差分が0件になるため)。
-      # Secret未設定時はスクリプト内で自動的にスキップされる。
+      # Compare against the latest master acquired after entering the publish lock.
       - name: Prepare notification queue
         run: node prepare-notification-queue.js
 
@@ -165,8 +169,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update SCP data - $(date -u +%Y%m%d%H%M%S)"
-            # 実行中に他のrunがデータをpushしていた場合、生成ファイル同士の
-            # rebaseは必ず衝突するため、今回のクロール結果（新しい方）を優先する
-            git pull --rebase -X theirs origin master
+            # Fail on competing writes; never overwrite notification state via rebase.
             git push origin master
           fi

@@ -19,12 +19,13 @@ on:
         required: false
         type: string
 
-concurrency:
-  group: scp-data-update
-  cancel-in-progress: false
-
 jobs:
   send:
+    timeout-minutes: 10
+    concurrency:
+      group: scp-data-update
+      cancel-in-progress: false
+      queue: max
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,7 +37,7 @@ jobs:
         with:
           node-version: '20'
       - name: Test notification lifecycle
-        run: node --test test/notifications.test.js test/notification-messages.test.js
+        run: node --test test/notifications.test.js test/notification-messages.test.js test/workflow-concurrency.test.js
       - name: Configure notification checkpoints
         run: |
           git config user.name 'SCP Notification Bot'
