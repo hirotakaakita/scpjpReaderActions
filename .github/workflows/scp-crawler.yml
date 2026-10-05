@@ -47,6 +47,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Check public tag filtering
         run: node --test test/public-tags.test.js test/tag-dictionary.test.js test/rufoundation-crawler.test.js
 
