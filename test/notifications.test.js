@@ -113,10 +113,20 @@ test('FCM failure between successful languages retains individual durable outcom
   const f = fixture(t); f.seed(['jp', 'ko', 'cn']);
   // Japan/Korea 21:00 and China 20:00.
   const now = new Date('2026-10-04T12:00:00Z');
+  const messages = [];
   await assert.rejects(sendNotifications({ ...f.options, now, sendRequest: async (h, p, m, payload) => {
-    if (JSON.parse(payload).message.topic.endsWith('_ko')) throw new Error('Connection lost');
+    const message = JSON.parse(payload).message;
+    messages.push(message);
+    const lang = message.topic.split('_').at(-1);
+    if (lang === 'ko') throw new Error('Connection lost');
     return JSON.stringify({ name: 'projects/test/messages/ok' });
   } }), /ko.*unknown/);
+  for (const message of messages) {
+    const lang = message.topic.split('_').at(-1);
+    const expected = { jp: '新着SCPのお知らせ', ko: '새 SCP 문서', cn: 'SCP新文章通知' };
+    assert.equal(message.notification.title, expected[lang]);
+    assert.ok(message.notification.body.includes({ jp: '新着記事：1件。', ko: '새 문서 1개:', cn: '新文章：1篇。' }[lang]));
+  }
   assert.deepEqual(f.remoteLedger().deliveries.map(r => [r.lang, r.status]), [['jp', 'sent'], ['ko', 'unknown'], ['cn', 'sent']]);
   await assert.rejects(sendNotifications({ ...f.restart(), now, sendRequest: noNetwork, getAccessToken: noNetwork }), /ko.*unresolved/);
 });
