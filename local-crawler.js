@@ -4,6 +4,7 @@ const { JSDOM, VirtualConsole } = require('jsdom');
 const axios = require('axios');
 const { publicTags } = require('./public-tags');
 const { LANGUAGES, DEFAULT_ENTRY_PATTERN } = require('./languages');
+const { articleUrl, deduplicateArticles } = require('./catalog-identity');
 
 const CRAWLER_USER_AGENT = 'Mozilla/5.0 (compatible; SCPCrawler/2.0; Multi-Language)';
 // 一部ページ（PLのlista-pl等）はクローラー系UAを503でブロックするため、
@@ -293,7 +294,8 @@ function variantSlugPart(href, pageType) {
 /**
  * 収集したリンク候補からエントリ一覧を組み立てる。
  * - 同一URLの重複掲載は1件に統合（タイトルが取れている出現を優先）
- * - 同一番号の別記事（バリアント）は、最短スラッグ（＝正規記事）が基本番号IDを持ち、
+ * - 通常シリーズはスラッグ全体をIDに使い、別ページ・単独掲載でも接尾辞を保持する。
+ * - その他の分類の同一番号の別記事は、最短スラッグが基本番号IDを持ち、
  *   残りはスラッグ由来のIDになる。ページの記載順に依存しない決定的な割り当てのため、
  *   サイト側で一覧の並びが変わってもitemIdの帰属は揺れない。
  */
@@ -319,10 +321,10 @@ function buildEntries(candidates, pageConfig) {
       a.href.length - b.href.length || a.href.localeCompare(b.href));
 
     articles.forEach((article, index) => {
-      const itemId = index === 0
-        ? `${pageConfig.pageType}-${scpNumber}`
-        : `${pageConfig.pageType}-${variantSlugPart(article.href, pageConfig.pageType)}`;
-      if (usedIds.has(itemId)) return;
+      const itemId = pageConfig.pageType === 'scp-series' || index !== 0
+        ? `${pageConfig.pageType}-${variantSlugPart(article.href, pageConfig.pageType)}`
+        : `${pageConfig.pageType}-${scpNumber}`;
+      if (usedIds.has(itemId)) throw new Error(`Conflicting extracted itemId: ${itemId}`);
       usedIds.add(itemId);
       entries.push({
         itemId: itemId,
@@ -612,7 +614,10 @@ class LocalSCPCrawler {
         const scpEntries = [];
 
         const processEntry = async (entry) => {
-          const existingItem = existingData.get(entry.itemId);
+          const cachedItem = existingData.get(entry.itemId);
+          const expectedUrl = `${entry.isUntranslated ? this.enBaseUrl : this.baseUrl}${entry.url}`;
+          const existingItem = cachedItem && articleUrl(cachedItem) === articleUrl({ urlEN: expectedUrl })
+            ? cachedItem : undefined;
           const isNewItem = !existingItem;
           const fullUrl = entry.url ? `${this.baseUrl}${entry.url}` : null;
 
@@ -766,7 +771,7 @@ class LocalSCPCrawler {
         const existingData = JSON.parse(existingContent);
         if (existingData.data && Array.isArray(existingData.data)) {
           const existingMap = new Map();
-          existingData.data.forEach(item => {
+          deduplicateArticles(existingData.data, dataFilePath).forEach(item => {
             existingMap.set(item.itemId, item);
           });
           console.log(`既存データを読み込み: ${dataFilePath} (${existingMap.size}件)`);
@@ -835,6 +840,8 @@ class LocalSCPCrawler {
     console.log(`\n=== 全URL処理完了 ===`);
     console.log(`総件数: ${this.results.length}`);
     console.log(`実行時間: ${Math.floor(duration / 60)}分${duration % 60}秒`);
+
+    this.results = deduplicateArticles(this.results, this.langCode);
 
     // 統計情報
     const withImage = this.results.filter(item => item.imageUrl).length;

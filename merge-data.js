@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { stringifyAsciiSafe } = require('./local-crawler');
 const { LANGUAGES } = require('./languages');
+const { deduplicateArticles, validateCatalogs } = require('./catalog-identity');
 const { publicTags } = require('./public-tags');
 const { readDictionary, indexDictionary, localizeTags } = require('./tag-dictionary');
 
@@ -30,7 +31,7 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
   }
 
   // クロール対象URLと同じ順序で結合
-  const results = [];
+  let results = [];
   const timestamps = [];
   let totalDuration = 0;
 
@@ -46,16 +47,8 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
     console.log(`[${lang}] ${page}: ${partial.data.length}件`);
   }
 
-  // itemIdの重複チェック（重複はデータ不整合のサイン）
-  const seen = new Set();
-  const duplicates = new Set();
-  for (const item of results) {
-    if (seen.has(item.itemId)) duplicates.add(item.itemId);
-    seen.add(item.itemId);
-  }
-  if (duplicates.size > 0) {
-    console.warn(`[${lang}] 警告: itemIdの重複が${duplicates.size}件あります: ${[...duplicates].slice(0, 10).join(', ')}`);
-  }
+  // Deduplicate repeated listings, but stop publication on different-article collisions.
+  results = deduplicateArticles(results, lang);
 
   const withImage = results.filter(item => item.imageUrl).length;
   const translated = results.filter(item => item.isTranslatedJP).length;
@@ -175,6 +168,8 @@ function main() {
   }
   addTranslatedLanguages(baseOutputDir, merged);
   applyTagDictionary(baseOutputDir, readDictionary(path.join(__dirname, 'tag-dictionary.json')));
+  // Include retained languages whose partial crawl did not finish.
+  validateCatalogs(baseOutputDir);
 }
 
 function applyTagDictionary(baseOutputDir, dictionary) {
