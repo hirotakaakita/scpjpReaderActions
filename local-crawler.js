@@ -545,6 +545,7 @@ class LocalSCPCrawler {
         });
 
         return withDom(response.data, document => ({
+          fetchSucceeded: true,
           objectClass: extractObjectClassFromDocument(document),
           rating: extractRatingFromDocument(document),
           imageUrl: extractImageUrlFromDocument(document, scpUrl),
@@ -552,11 +553,11 @@ class LocalSCPCrawler {
         }));
       } catch (error) {
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
-        if (attempt === maxRetries) return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: TAG_RULE_VERSION };
+        if (attempt === maxRetries) return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
     }
-    return { objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: TAG_RULE_VERSION };
+    return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };
   }
 
   /**
@@ -637,6 +638,7 @@ class LocalSCPCrawler {
           let rating = existingItem?.rating ?? null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
           let tagVersion = existingItem?.tagVersion ?? null;
+          let tagFetchStatus = existingItem?.tagFetchStatus ?? null;
           const forceRefreshDetails = process.env.FORCE_REFRESH_SCP_DETAILS === '1';
           const forceRefreshObjectClass = process.env.FORCE_REFRESH_OBJECT_CLASS === '1';
           const forceRefreshDescription = process.env.FORCE_REFRESH_DESCRIPTION === '1';
@@ -645,7 +647,11 @@ class LocalSCPCrawler {
           const storedClassTokens = objectClass ? [...objectClass.matchAll(OBJECT_CLASS_VALUE_PATTERN)] : [];
           const refreshObjectClass = forceRefreshObjectClass || !objectClass || storedClassTokens.length > 1 || objectClass.length > 80;
           const refreshDescription = forceRefreshDetails || forceRefreshDescription || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
-          const refreshTags = forceRefreshDetails || forceRefreshTags || tagVersion !== TAG_RULE_VERSION || !Array.isArray(existingItem?.tags);
+          // Retry failed refreshes, including forced refreshes at the current version.
+          // Legacy empty arrays lack a success marker and may be failed fetches.
+          const refreshTags = forceRefreshDetails || forceRefreshTags || tagVersion !== TAG_RULE_VERSION ||
+            !Array.isArray(existingItem?.tags) || tagFetchStatus === 'failed' ||
+            (existingItem.tags.length === 0 && tagFetchStatus !== 'success');
           let tags = existingItem?.tags || [];
           const skipImageFetch = process.env.SKIP_IMAGE_FETCH === '1';
           const urlForArticleExtraction = urlLocal || urlEn;
@@ -659,8 +665,14 @@ class LocalSCPCrawler {
             rating = details.rating ?? rating;
             if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
             if (refreshTags) {
-              tags = details.tags;
-              tagVersion = details.tagVersion ?? TAG_RULE_VERSION;
+              if (details.fetchSucceeded) {
+                tags = details.tags;
+                tagVersion = details.tagVersion;
+                tagFetchStatus = 'success';
+              } else {
+                // Keep cached tags and their version; never mark a failed fetch current.
+                tagFetchStatus = 'failed';
+              }
             }
             if (details.objectClass) console.log(`  ✓ オブジェクトクラス取得成功: ${details.objectClass}`);
             if (details.tags.length) console.log(`  ✓ 自動タグ取得成功: ${details.tags.join(', ')}`);
@@ -679,6 +691,7 @@ class LocalSCPCrawler {
             descriptionExcerpt: descriptionExcerpt,
             tags: publicTags(tags),
             tagVersion: tagVersion,
+            tagFetchStatus: tagFetchStatus,
             isTranslatedJP: !entry.isUntranslated,
             extractedFrom: path.basename(url),
             pageType: pageConfig.pageType,

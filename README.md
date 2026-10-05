@@ -139,6 +139,14 @@ raw.githubusercontent.com がcharset指定なし（`application/octet-stream`）
 └── package.json
 ```
 
+### 記事詳細取得に失敗した場合のタグ
+
+詳細取得が全リトライ失敗した場合、既存のタグと `tagVersion` を保持し、
+`tagFetchStatus: "failed"` を記録して次回クロールで再取得します。
+取得成功時はタグが空でも `"success"` と現在のバージョンを記録します。
+旧データの「成功記録のない空タグ」も再取得対象とし、過去の取得失敗による空タグを修復します。
+強制更新が失敗した場合も、次回は強制フラグなしで再取得します。
+
 ## 週次通知キューの運用
 
 `scp-crawler.yml` はデータ公開前に `prepare-notification-queue.js` を実行し、
