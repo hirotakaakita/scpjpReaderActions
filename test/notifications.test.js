@@ -5,6 +5,8 @@ const os = require('node:os');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
 const { main: sendNotifications } = require('../send-scheduled-notifications');
+const { readLedger, gitPersistence } = require('../notification-state');
+const { recover } = require('../recover-notification');
 
 const repository = path.resolve(__dirname, '..');
 const queueRelativePath = 'local-data/notification-queue.json';
@@ -42,114 +44,156 @@ function fixture(t) {
     cwd, stdio: ['ignore', 'pipe', 'pipe'],
   });
   const readQueue = () => JSON.parse(fs.readFileSync(queuePath, 'utf8'));
-  const commitState = () => {
-    // Execute the actual Actions commit block, including its missing-file guard.
-    const workflow = fs.readFileSync(path.join(repository, '.github/workflows/scheduled-notifications.yml'), 'utf8');
-    const block = workflow.split('      - name: Commit notification state')[1]
-      .split('        run: |')[1].split(/\r?\n/)
-      .map(line => line.replace(/^          /, '')).join('\n');
-    const bash = process.platform === 'win32'
-      ? path.resolve(git('--exec-path'), '../../../bin/bash.exe') : 'bash';
-    return execFileSync(bash, ['--noprofile', '--norc', '-eo', 'pipefail', '-c', block], {
-      cwd, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
-      env: gitEnv,
-    });
+  const remote = path.join(root, 'remote.git');
+  git('init', '--bare', remote);
+  git('remote', 'add', 'origin', remote);
+  git('push', '-u', 'origin', 'master');
+  const ledgerPath = path.join(cwd, 'local-data/notification-deliveries.json');
+  const persist = gitPersistence(queuePath, ledgerPath, cwd);
+  const remoteLedger = () => JSON.parse(git('--git-dir', remote, 'show', 'master:local-data/notification-deliveries.json'));
+  const options = { queuePath, ledgerPath, persist, secret, now: sundayEvening,
+    getAccessToken: async () => 'test-token', sendRequest: async () => JSON.stringify({ name: 'projects/test/messages/1' }) };
+  const seed = (langs = ['jp']) => {
+    fs.writeFileSync(queuePath, JSON.stringify({ version: 1, pending: Object.fromEntries(langs.map(lang => [lang, {
+      items: [{ itemId: 'scp-series-2', titleJP: 'New article' }], lastSentWindow: null,
+    }])) }));
+    git('add', 'local-data'); git('commit', '-m', 'Queue new articles'); git('push', 'origin', 'master');
   };
-  return { root, cwd, git, queuePath, writeCatalog, generate, readQueue, commitState };
+  const restart = () => {
+    const next = path.join(root, 'restart');
+    git('clone', remote, next);
+    execFileSync('git', ['config', 'user.name', 'Test'], { cwd: next });
+    execFileSync('git', ['config', 'user.email', 'test@example.invalid'], { cwd: next });
+    execFileSync('git', ['config', 'commit.gpgsign', 'false'], { cwd: next });
+    const nextQueue = path.join(next, queueRelativePath);
+    const nextLedger = path.join(next, 'local-data/notification-deliveries.json');
+    return { ...options, queuePath: nextQueue, ledgerPath: nextLedger,
+      persist: gitPersistence(nextQueue, nextLedger, next) };
+  };
+  return { root, cwd, git, queuePath, ledgerPath, writeCatalog, generate, readQueue, remoteLedger, options, seed, restart };
+
 }
 
 function noNetwork() {
   assert.fail('No authentication or FCM request should be made');
 }
 
-test('missing queue skips sending and the actual workflow commit block succeeds', async t => {
+test('missing and empty queues perform no network or persistence operations', async t => {
   const f = fixture(t);
-  const head = f.git('rev-parse', 'HEAD');
-  await sendNotifications({ queuePath: f.queuePath, secret, now: sundayEvening,
-    getAccessToken: noNetwork, sendRequest: noNetwork });
-  assert.match(f.commitState(), /No notification queue yet/);
+  const options = { ...f.options, getAccessToken: noNetwork, sendRequest: noNetwork, persist: noNetwork };
+  await sendNotifications(options);
   assert.equal(fs.existsSync(f.queuePath), false);
-  assert.equal(f.git('rev-parse', 'HEAD'), head);
-  assert.equal(f.git('status', '--porcelain'), '');
-});
-
-test('generation with no catalog changes creates an empty queue without sending', async t => {
-  const f = fixture(t);
   f.generate();
-  assert.ok(Object.values(f.readQueue().pending).every(state => state.items.length === 0));
-  const before = fs.readFileSync(f.queuePath, 'utf8');
-  await sendNotifications({ queuePath: f.queuePath, secret, now: sundayEvening,
-    getAccessToken: noNetwork, sendRequest: noNetwork });
-  assert.equal(fs.readFileSync(f.queuePath, 'utf8'), before);
-  f.git('add', queueRelativePath);
-  f.git('commit', '-m', 'Store empty queue');
-  const head = f.git('rev-parse', 'HEAD');
-  f.commitState(); // No remote: unchanged state must exit before pull/push.
-  assert.equal(f.git('rev-parse', 'HEAD'), head);
-});
-
-test('new catalog entries are queued once, sent, committed and not resent', async t => {
-  const f = fixture(t);
-  f.writeCatalog([
-    { itemId: 'scp-series-1', titleJP: 'Existing article' },
-    { itemId: 'scp-series-2', titleJP: 'New article' },
-  ]);
-  f.generate();
-  f.generate();
-  assert.deepEqual(f.readQueue().pending.jp.items, [
-    { itemId: 'scp-series-2', titleJP: 'New article' },
-  ]);
-  f.git('add', 'local-data');
-  f.git('commit', '-m', 'Publish catalog and queue');
-  // A local bare remote exercises the workflow push without contacting GitHub.
-  const remote = path.join(f.root, 'remote.git');
-  f.git('init', '--bare', remote);
-  f.git('remote', 'add', 'origin', remote);
-  f.git('push', '-u', 'origin', 'master');
-  const requests = [];
-  const options = { queuePath: f.queuePath, secret, now: sundayEvening,
-    getAccessToken: async account => {
-      assert.equal(account.project_id, 'test-project');
-      return 'test-token';
-    },
-    sendRequest: async (...args) => { requests.push(args); return '{}'; },
-  };
+  assert.ok(Object.values(f.readQueue().pending).every(state => !state.items.length));
   await sendNotifications(options);
-  assert.equal(requests.length, 1);
-  const [host, endpoint, method, payload, headers] = requests[0];
-  assert.equal(host, 'fcm.googleapis.com');
-  assert.equal(endpoint, '/v1/projects/test-project/messages:send');
-  assert.equal(method, 'POST');
-  assert.equal(JSON.parse(payload).message.topic, 'new_scp_jp');
-  assert.match(JSON.parse(payload).message.notification.body, /New article/);
-  assert.equal(headers.Authorization, 'Bearer test-token');
-  assert.deepEqual(f.readQueue().pending.jp, { items: [], lastSentWindow: '2026-10-04' });
-  f.commitState();
-  assert.equal(f.git('status', '--porcelain'), '');
-  assert.equal(f.git('rev-parse', 'HEAD'), f.git('--git-dir', remote, 'rev-parse', 'master'));
-  const head = f.git('rev-parse', 'HEAD');
-  await sendNotifications(options);
-  f.commitState();
-  assert.equal(requests.length, 1);
-  assert.equal(f.git('rev-parse', 'HEAD'), head);
 });
 
-test('missing credentials, outside delivery time, and FCM failure retain pending items', async t => {
+test('catalog diff -> remote reservation -> FCM -> remote receipt; rerun never resends', async t => {
   const f = fixture(t);
-  const queue = { version: 1, pending: { jp: {
-    items: [{ itemId: 'scp-series-2', titleJP: 'New article' }], lastSentWindow: null,
-  } } };
-  fs.writeFileSync(f.queuePath, JSON.stringify(queue));
+  f.writeCatalog([{ itemId: 'scp-series-1', titleJP: 'Old' }, { itemId: 'scp-series-2', titleJP: 'New article' }]);
+  f.generate(); f.generate();
+  assert.equal(f.readQueue().pending.jp.items.length, 1);
+  f.git('add', 'local-data'); f.git('commit', '-m', 'Publish catalog'); f.git('push', 'origin', 'master');
+  let sends = 0;
+  await sendNotifications({ ...f.options, sendRequest: async (host, endpoint, method, payload) => {
+    sends++;
+    assert.equal(f.remoteLedger().deliveries[0].status, 'sending');
+    assert.equal(JSON.parse(payload).message.topic, 'new_scp_jp');
+    assert.equal(JSON.parse(payload).message.data.delivery_id, 'jp/2026-10-04');
+    return JSON.stringify({ name: 'projects/test/messages/accepted' });
+  } });
+  assert.equal(sends, 1);
+  assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
+  assert.equal(f.remoteLedger().deliveries[0].messageName, 'projects/test/messages/accepted');
+  assert.equal(f.readQueue().pending.jp.items.length, 0);
+  await sendNotifications({ ...f.restart(), sendRequest: noNetwork, getAccessToken: noNetwork });
+});
+
+test('FCM failure between successful languages retains individual durable outcomes', async t => {
+  const f = fixture(t); f.seed(['jp', 'ko', 'cn']);
+  // Japan/Korea 21:00 and China 20:00.
+  const now = new Date('2026-10-04T12:00:00Z');
+  await assert.rejects(sendNotifications({ ...f.options, now, sendRequest: async (h, p, m, payload) => {
+    if (JSON.parse(payload).message.topic.endsWith('_ko')) throw new Error('Connection lost');
+    return JSON.stringify({ name: 'projects/test/messages/ok' });
+  } }), /ko.*unknown/);
+  assert.deepEqual(f.remoteLedger().deliveries.map(r => [r.lang, r.status]), [['jp', 'sent'], ['ko', 'unknown'], ['cn', 'sent']]);
+  await assert.rejects(sendNotifications({ ...f.restart(), now, sendRequest: noNetwork, getAccessToken: noNetwork }), /ko.*unresolved/);
+});
+
+test('reservation push failure prevents the FCM call', async t => {
+  const f = fixture(t); f.seed();
+  f.git('remote', 'set-url', '--push', 'origin', path.join(f.root, 'unavailable.git'));
+  await assert.rejects(sendNotifications({ ...f.options, sendRequest: noNetwork }), /git push/);
+});
+
+test('receipt push failure blocks resend from a fresh checkout, even next week', async t => {
+  const f = fixture(t); f.seed();
+  await assert.rejects(sendNotifications({ ...f.options, sendRequest: async () => {
+    f.git('remote', 'set-url', '--push', 'origin', path.join(f.root, 'unavailable.git'));
+    return JSON.stringify({ name: 'projects/test/messages/accepted' });
+  } }), /git push/);
+  assert.equal(f.remoteLedger().deliveries[0].status, 'sending');
+  assert.equal(readLedger(f.ledgerPath).deliveries[0].status, 'sent');
+  await assert.rejects(sendNotifications({ ...f.restart(), now: new Date('2026-10-11T11:00:00Z'),
+    sendRequest: noNetwork, getAccessToken: noNetwork }), /unresolved/);
+});
+
+test('interruption after reservation blocks sending; explicit retry preserves the snapshot', async t => {
+  const f = fixture(t); f.seed();
+  await assert.rejects(sendNotifications({ ...f.options, sendRequest: noNetwork, persist: async (q, l) => {
+    await f.options.persist(q, l); throw new Error('Runner stopped');
+  } }), /Runner stopped/);
+  const next = f.restart();
+  await assert.rejects(sendNotifications({ ...next, sendRequest: noNetwork }), /unresolved/);
+  await recover({ ...next, id: 'jp/2026-10-04', action: 'retry', reason: 'Confirmed interruption before FCM call' });
+  await sendNotifications(next);
+  assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
+  assert.equal(f.remoteLedger().deliveries[0].attempts, 2);
+  assert.equal(f.remoteLedger().deliveries[0].resolutions[0].action, 'retry');
+});
+
+test('manual sent recovery removes only delivered items and never calls FCM', async t => {
+  const f = fixture(t); f.seed();
+  await assert.rejects(sendNotifications({ ...f.options, sendRequest: async () => { throw new Error('Timeout'); } }), /unknown/);
+  await assert.rejects(recover({ ...f.options, id: 'jp/2026-10-04', action: 'sent', reason: '' }), /reason/);
+  const q = f.readQueue(); q.pending.jp.items.push({ itemId: 'scp-series-3', titleJP: 'Later arrival' });
+  fs.writeFileSync(f.queuePath, JSON.stringify(q));
+  await recover({ ...f.options, id: 'jp/2026-10-04', action: 'sent', reason: 'FCM acceptance ID confirmed in logs' });
+  assert.deepEqual(f.readQueue().pending.jp.items.map(i => i.itemId), ['scp-series-3']);
+  await sendNotifications({ ...f.options, sendRequest: noNetwork, getAccessToken: noNetwork });
+  await assert.rejects(recover({ ...f.options, id: 'jp/2026-10-04', action: 'retry', reason: 'Do not retry sent records' }), /unresolved/);
+});
+
+test('missing credentials and outside schedule leave pending items unchanged', async t => {
+  const f = fixture(t); f.seed();
   const before = fs.readFileSync(f.queuePath, 'utf8');
-  await sendNotifications({ queuePath: f.queuePath, secret: '', now: sundayEvening,
-    getAccessToken: noNetwork, sendRequest: noNetwork });
+  await sendNotifications({ ...f.options, secret: '', persist: noNetwork, getAccessToken: noNetwork });
+  await sendNotifications({ ...f.options, now: new Date('2026-10-05T11:00:00Z'), persist: noNetwork, getAccessToken: noNetwork });
   assert.equal(fs.readFileSync(f.queuePath, 'utf8'), before);
-  await sendNotifications({ queuePath: f.queuePath, secret, now: new Date('2026-10-05T11:00:00Z'),
-    getAccessToken: noNetwork, sendRequest: noNetwork });
-  assert.equal(fs.readFileSync(f.queuePath, 'utf8'), before);
-  await assert.rejects(sendNotifications({ queuePath: f.queuePath, secret, now: sundayEvening,
-    getAccessToken: async () => 'test-token',
-    sendRequest: async () => { throw new Error('FCM unavailable'); },
-  }), /FCM unavailable/);
-  assert.equal(fs.readFileSync(f.queuePath, 'utf8'), before);
+});
+
+test('corrupt ledger fails closed instead of sending without history', async t => {
+  const f = fixture(t); f.seed(); fs.writeFileSync(f.ledgerPath, '{}');
+  await assert.rejects(sendNotifications({ ...f.options, sendRequest: noNetwork, getAccessToken: noNetwork }), /Invalid notification ledger/);
+});
+
+test('sent ledger reconciles a stale queue without resending or dropping new arrivals', async t => {
+  const f = fixture(t); f.seed();
+  const stale = f.readQueue();
+  await sendNotifications(f.options);
+  stale.pending.jp.items.push({ itemId: 'scp-series-3', titleJP: 'Later arrival' });
+  fs.writeFileSync(f.queuePath, JSON.stringify(stale));
+  f.git('add', 'local-data'); f.git('commit', '-m', 'Simulate stale queue'); f.git('push', 'origin', 'master');
+  await sendNotifications({ ...f.options, sendRequest: noNetwork, getAccessToken: noNetwork });
+  assert.deepEqual(f.readQueue().pending.jp.items.map(item => item.itemId), ['scp-series-3']);
+  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-04');
+});
+
+test('stale checkout cannot overwrite a competing delivery reservation', async t => {
+  const f = fixture(t); f.seed();
+  const stale = f.restart();
+  await sendNotifications(f.options);
+  await assert.rejects(sendNotifications({ ...stale, sendRequest: noNetwork }), /current origin\/master/);
+  assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
 });
