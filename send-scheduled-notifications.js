@@ -34,6 +34,15 @@ function localParts(now, timeZone) {
   return Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone, weekday: 'short', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23' }).formatToParts(now).filter(part => part.type !== 'literal').map(part => [part.type, part.value]));
 }
 
+function deliveryWindow(now, timeZone) {
+  const parts = localParts(now, timeZone);
+  // Catch up on subsequent evenings, without sending overnight or waiting a week.
+  if (Number(parts.hour) < 20) return null;
+  const date = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day)));
+  date.setUTCDate(date.getUTCDate() - date.getUTCDay());
+  return date.toISOString().slice(0, 10); // Stable local Sunday key for this week.
+}
+
 async function main({
   queuePath = QUEUE_PATH,
   ledgerPath = path.join(path.dirname(queuePath), 'notification-deliveries.json'),
@@ -57,8 +66,8 @@ async function main({
   const due = [];
   for (const [lang, state] of Object.entries(queue.pending || {})) {
     if (!state.items?.length || !TIMEZONES[lang] || blocked.has(lang)) continue;
-    const parts = localParts(now, TIMEZONES[lang]); const window = `${parts.year}-${parts.month}-${parts.day}`;
-    if (parts.weekday === 'Sun' && Number(parts.hour) >= 20 && state.lastSentWindow !== window) due.push({ lang, state, window });
+    const window = deliveryWindow(now, TIMEZONES[lang]);
+    if (window && (!state.lastSentWindow || state.lastSentWindow < window)) due.push({ lang, state, window });
   }
   if (due.length) {
     const account = JSON.parse(secret); const token = await getAccessToken(account);
@@ -102,4 +111,4 @@ if (require.main === module) {
   main().catch(error => { console.error(error); process.exitCode = 1; });
 }
 
-module.exports = { main };
+module.exports = { main, deliveryWindow };
