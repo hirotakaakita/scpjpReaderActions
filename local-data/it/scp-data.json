@@ -1,12 +1,12 @@
 {
-  "totalCount": 9495,
+  "totalCount": 9493,
   "language": "it",
-  "timestamp": "2026-09-28T06:36:11.364Z",
+  "timestamp": "2026-10-05T13:13:22.068Z",
   "duration": 15137,
   "status": "completed",
   "statistics": {
     "translated": 1955,
-    "untranslated": 7540,
+    "untranslated": 7538,
     "withImage": 5094
   },
   "data": [
@@ -87733,10 +87733,10 @@
       "descriptionExcerpt": "SCP-4697 is a teaching facility located in Northern Ontario, Canada containing facilities for 525 students and faculty members with classrooms, a library, offices, and an ice hockey rink.1 It was constructed in 1905, as a boarding school for assimilating First Nations children. The building burned down in 1915, and was reconstructed in the same year as a private hospital and operated until 1946.\nThe interior of SCP-4697 is perceptibly similar to how it appeared when it was functioning. The speci",
       "tags": [],
       "isTranslatedJP": false,
-      "extractedFrom": "scp-series-5",
+      "extractedFrom": "scp-series-7",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-09-28T06:59:22.852Z",
+      "lastUpdated": "2026-09-28T07:14:54.261Z",
       "createdAt": "2026-08-01T11:24:36.060Z"
     },
     {
@@ -106295,24 +106295,6 @@
       "createdAt": "2026-08-01T11:16:13.474Z"
     },
     {
-      "itemId": "scp-series-4697",
-      "numericItemId": 4697,
-      "titleJP": "[DA TRADURRE]",
-      "urlEN": "http://scp-wiki.wikidot.com/scp-4697",
-      "urlJP": null,
-      "imageUrl": null,
-      "objectClass": "Safe",
-      "rating": 25,
-      "descriptionExcerpt": "SCP-4697 is a teaching facility located in Northern Ontario, Canada containing facilities for 525 students and faculty members with classrooms, a library, offices, and an ice hockey rink.1 It was constructed in 1905, as a boarding school for assimilating First Nations children. The building burned down in 1915, and was reconstructed in the same year as a private hospital and operated until 1946.\nThe interior of SCP-4697 is perceptibly similar to how it appeared when it was functioning. The speci",
-      "tags": [],
-      "isTranslatedJP": false,
-      "extractedFrom": "scp-series-6",
-      "pageType": "scp-series",
-      "contentType": "scp",
-      "lastUpdated": "2026-09-28T07:06:55.443Z",
-      "createdAt": "2026-08-01T11:24:36.060Z"
-    },
-    {
       "itemId": "scp-series-5698",
       "numericItemId": 5698,
       "titleJP": "[DA TRADURRE]",
@@ -124834,24 +124816,6 @@
       "objectClass": "Euclid",
       "rating": 80,
       "descriptionExcerpt": "SCP-6696 is the designation assigned to a Dental clinic located in Salesburg, Wyoming. On April 2nd, 2002, the building was affected by a sudden ontokinetic fluctuation that permanently altered the location, as well as the individuals who were occupying the building at the time. The event resulted in the transformation of 24 civilians into instances of SCP-6696-A.\nInvestigations performed by MTF Sigma-12 (\"Doctor Feelgoods\") have shown the interior of SCP-6696 to be larger than the exterior woul",
-      "tags": [],
-      "isTranslatedJP": false,
-      "extractedFrom": "scp-series-7",
-      "pageType": "scp-series",
-      "contentType": "scp",
-      "lastUpdated": "2026-09-28T07:14:54.261Z",
-      "createdAt": "2026-08-01T11:24:36.060Z"
-    },
-    {
-      "itemId": "scp-series-4697",
-      "numericItemId": 4697,
-      "titleJP": "[DA TRADURRE]",
-      "urlEN": "http://scp-wiki.wikidot.com/scp-4697",
-      "urlJP": null,
-      "imageUrl": null,
-      "objectClass": "Safe",
-      "rating": 25,
-      "descriptionExcerpt": "SCP-4697 is a teaching facility located in Northern Ontario, Canada containing facilities for 525 students and faculty members with classrooms, a library, offices, and an ice hockey rink.1 It was constructed in 1905, as a boarding school for assimilating First Nations children. The building burned down in 1915, and was reconstructed in the same year as a private hospital and operated until 1946.\nThe interior of SCP-4697 is perceptibly similar to how it appeared when it was functioning. The speci",
       "tags": [],
       "isTranslatedJP": false,
       "extractedFrom": "scp-series-7",

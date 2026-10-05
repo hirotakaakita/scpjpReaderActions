@@ -142,7 +142,7 @@ jobs:
           merge-multiple: true
 
       - name: Test localized catalog generation
-        run: node --test test/tag-catalog.test.js test/crawler-tag-refresh.test.js
+        run: node --test test/tag-catalog.test.js test/crawler-tag-refresh.test.js test/catalog-identity.test.js
 
       - name: Prepare tag dictionary before catalog generation
         run: node prepare-tag-dictionary.js
@@ -152,6 +152,9 @@ jobs:
 
       - name: Apply manga availability flags
         run: node apply-manga-flags.js
+
+      - name: Reject duplicate article IDs before publication
+        run: node catalog-identity.js
 
       # Compare against the latest master acquired after entering the publish lock.
       - name: Prepare notification queue
