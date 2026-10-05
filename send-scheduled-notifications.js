@@ -36,25 +36,34 @@ function body(items) {
   return items.length > labels.length ? `${labels.join(' / ')} など${items.length}件の新着SCPがあります` : `${labels.join(' / ')} が追加されました`;
 }
 
-async function main() {
-  if (!fs.existsSync(QUEUE_PATH)) return;
-  const secret = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+async function main({
+  queuePath = QUEUE_PATH,
+  secret = process.env.FIREBASE_SERVICE_ACCOUNT_JSON,
+  now = new Date(),
+  getAccessToken = accessToken,
+  sendRequest = request,
+} = {}) {
+  if (!fs.existsSync(queuePath)) { console.log('通知キュー未生成のため通知をスキップします'); return; }
   if (!secret) { console.log('Firebase Secret未設定のため通知をスキップします'); return; }
-  const queue = JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8'));
-  const now = new Date(); const due = [];
+  const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
+  const due = [];
   for (const [lang, state] of Object.entries(queue.pending || {})) {
     if (!state.items?.length || !TIMEZONES[lang]) continue;
     const parts = localParts(now, TIMEZONES[lang]); const window = `${parts.year}-${parts.month}-${parts.day}`;
     if (parts.weekday === 'Sun' && Number(parts.hour) >= 20 && state.lastSentWindow !== window) due.push({ lang, state, window });
   }
   if (!due.length) { console.log('現在送信時刻に該当する言語はありません'); return; }
-  const account = JSON.parse(secret); const token = await accessToken(account);
+  const account = JSON.parse(secret); const token = await getAccessToken(account);
   for (const { lang, state, window } of due) {
     const payload = JSON.stringify({ message: { topic: `new_scp_${lang}`, notification: { title: '新着SCPのお知らせ', body: body(state.items) } } });
-    await request('fcm.googleapis.com', `/v1/projects/${account.project_id}/messages:send`, 'POST', payload, { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` });
+    await sendRequest('fcm.googleapis.com', `/v1/projects/${account.project_id}/messages:send`, 'POST', payload, { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` });
     state.items = []; state.lastSentWindow = window; console.log(`[${lang}] 通知送信完了`);
   }
-  queue.updatedAt = now.toISOString(); fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`, 'utf8');
+  queue.updatedAt = now.toISOString(); fs.writeFileSync(queuePath, `${JSON.stringify(queue, null, 2)}\n`, 'utf8');
 }
 
-main().catch(error => { console.error(error); process.exitCode = 1; });
+if (require.main === module) {
+  main().catch(error => { console.error(error); process.exitCode = 1; });
+}
+
+module.exports = { main };

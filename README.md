@@ -139,6 +139,23 @@ raw.githubusercontent.com がcharset指定なし（`application/octet-stream`）
 └── package.json
 ```
 
+## 週次通知キューの運用
+
+`scp-crawler.yml` はデータ公開前に `prepare-notification-queue.js` を実行し、
+GitのHEADにある前回カタログとの差分を `local-data/notification-queue.json` に保存します。
+通知キューとカタログは同じコミットで公開されます。
+
+`scheduled-notifications.yml` は15分ごとにキューを確認し、各言語の現地時刻で
+日曜20時以降に未送信の新着記事を通知します。キュー未生成の初期状態では、
+送信・コミットとも正常にスキップします。次回クロールの公開成功時にキューが作られます。
+通知復旧のために過去の全記事をキューへ投入する必要はありません。
+キューが空、送信時刻外、またはFirebase Secret未設定の場合も送信しません。
+
+回帰テストは `node --test test/notifications.test.js` で実行できます。
+一時Gitリポジトリと模擬FCMを使って、初期状態、新着差分のキュー生成、送信後の保存、
+ワークフローのコミット・push処理、通常の再実行時の重複送信防止を確認します。
+実際のFirebaseやGitHubへの送信・pushは行いません。通知ワークフローでも送信前に実行します。
+
 ## 変更履歴
 
 - 2026-09-08: 強制アップデート・メンテナンス制御用の `app-status.json` を追加。アプリが
