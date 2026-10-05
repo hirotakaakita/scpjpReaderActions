@@ -19,11 +19,17 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
+      - name: Test notification lifecycle
+        run: node --test test/notifications.test.js
       - run: node send-scheduled-notifications.js
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
       - name: Commit notification state
         run: |
+          if [ ! -f local-data/notification-queue.json ]; then
+            echo "No notification queue yet; nothing to commit"
+            exit 0
+          fi
           git config user.name 'SCP Notification Bot'
           git config user.email 'scp-notifications@github-actions.bot'
           git add local-data/notification-queue.json
