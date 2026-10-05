@@ -4,6 +4,7 @@ const { execSync } = require('child_process');
 const https = require('https');
 const crypto = require('crypto');
 const { LANGUAGES } = require('./languages');
+const { buildNotification, formatDisplayId } = require('./notification-messages');
 
 const LOCAL_DATA_DIR = path.join(__dirname, 'local-data');
 
@@ -51,43 +52,9 @@ function extractItemsMap(jsonText) {
   }
 }
 
-// アプリ側 PageTypeUtils.formatDisplayId と同じ変換ルール(itemId -> 表示ID)。
-// 通知本文に「SCP-173」のような見慣れた表記で代表記事を出すために複製している。
-const DISPLAY_ID_PATTERNS = [
-  [/^scp-([a-z][a-z-]*)-ex-(\d+(?:-.+)?)$/, (m) => `SCP-EX-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
-  [/^scp-ex-(\d+(?:-.+)?)$/, (m) => `SCP-EX-${m[1].toUpperCase()}`],
-  [/^joke-scps-([a-z][a-z-]*)-(\d+(?:-.+)?)$/, (m) => `JOKE-SCP-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
-  [/^joke-scps-(\d+(?:-.+)?)$/, (m) => `JOKE-SCP-${m[1].toUpperCase()}`],
-  [/^scp-series-([a-z][a-z-]*)-(\d+(?:-.+)?)$/, (m) => `SCP-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
-  [/^scp-series-(\d+(?:-.+)?)$/, (m) => `SCP-${m[1].toUpperCase()}`],
-];
-
-function formatDisplayId(itemId) {
-  for (const [pattern, formatter] of DISPLAY_ID_PATTERNS) {
-    const match = itemId.match(pattern);
-    if (match) return formatter(match);
-  }
-  return itemId.toUpperCase();
-}
-
-function truncate(text, maxLength) {
-  if (!text || text.length <= maxLength) return text;
-  return `${text.slice(0, maxLength)}…`;
-}
-
-/** 新着記事のうち代表的な数件を挙げた通知本文を組み立てる */
-function buildNotificationBody(newItems) {
-  const REPRESENTATIVE_COUNT = 2;
-  const representatives = newItems.slice(0, REPRESENTATIVE_COUNT);
-  const labels = representatives.map(
-    (item) => `${formatDisplayId(item.itemId)}「${truncate(item.titleJP, 20)}」`,
-  );
-  const listText = labels.join('、');
-  const remaining = newItems.length - representatives.length;
-
-  return remaining > 0
-    ? `${listText}など、今週${newItems.length}件の新着記事が追加されました`
-    : `${listText}が追加されました`;
+// Keep the legacy exported helper while sharing localized text with the scheduler.
+function buildNotificationBody(newItems, language = 'jp') {
+  return buildNotification(language, newItems).body;
 }
 
 function httpsRequest(hostname, requestPath, method, body, headers) {
@@ -226,13 +193,13 @@ async function main() {
 
   for (const { lang, newItems } of langsToNotify) {
     const topic = `new_scp_${lang}`;
-    const body = buildNotificationBody(newItems);
+    const { title, body } = buildNotification(lang, newItems);
     try {
       await sendTopicNotification(
         accessToken,
         projectId,
         topic,
-        '新着SCPのお知らせ',
+        title,
         body,
       );
       console.log(`[${lang}] 通知送信完了 (トピック: ${topic}, ${newItems.length}件): ${body}`);

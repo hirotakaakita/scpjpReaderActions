@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const crypto = require('crypto');
+const { buildNotification } = require('./notification-messages');
 const { readLedger, reconcile, gitPersistence } = require('./notification-state');
 
 const QUEUE_PATH = path.join(__dirname, 'local-data', 'notification-queue.json');
@@ -31,11 +32,6 @@ async function accessToken(account) {
 
 function localParts(now, timeZone) {
   return Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone, weekday: 'short', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23' }).formatToParts(now).filter(part => part.type !== 'literal').map(part => [part.type, part.value]));
-}
-
-function body(items) {
-  const labels = items.slice(0, 2).map(item => `${item.itemId.toUpperCase()} ${item.titleJP.slice(0, 20)}`);
-  return items.length > labels.length ? `${labels.join(' / ')} など${items.length}件の新着SCPがあります` : `${labels.join(' / ')} が追加されました`;
 }
 
 async function main({
@@ -79,7 +75,7 @@ async function main({
       try {
         const payload = JSON.stringify({ message: { topic: `new_scp_${lang}`,
           data: { delivery_id: record.id },
-          notification: { title: '新着SCPのお知らせ', body: body(record.items) } } });
+          notification: buildNotification(lang, record.items) } });
         const response = JSON.parse(await sendRequest('fcm.googleapis.com', `/v1/projects/${account.project_id}/messages:send`, 'POST', payload,
           { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }));
         if (typeof response.name !== 'string' || !response.name) throw new Error('FCM response has no message ID');
