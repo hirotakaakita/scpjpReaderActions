@@ -15,7 +15,7 @@
  *
  * 注意（調査済みの制約）:
  *  - wikidotサイトの多くはHTTPS不可（httpへ301リダイレクトされループする）。baseUrlのスキームを変えないこと。
- *  - RU支部(scpfoundation.net)はアンチボット保護(Anubis, JS必須)のためクロール不可 → 未対応。
+ *  - RU branch uses the RuFoundation JSON API adapter.
  *  - INTは全体シリーズ一覧が無いため、INT独自記事(int-hub)のみ対応。
  *  - UAは全ページがul li構造でないため、専用のanyLinkモードで抽出する。
  *    国際版ミラーは「翻訳済み記事のみ掲載」のキュレーション型（newpage枠なし）で、
@@ -154,6 +154,13 @@ const LANGUAGES = {
       { path: 'joke-scps-ko', pageType: 'joke-scps-ko', skipUnwritten: true },
       { path: 'scp-ko-ex', pageType: 'scp-ko-ex', skipUnwritten: true },
     ],
+  },
+
+  ru: {
+    baseUrl: 'https://scpfoundation.net',
+    enBaseUrl: 'https://scp-wiki.wikidot.com',
+    crawler: 'rufoundation-api',
+    pages: [{ path: 'api', pageType: 'rufoundation-api', skipUnwritten: true }],
   },
 
   pl: {

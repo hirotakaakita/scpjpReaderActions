@@ -48,7 +48,7 @@ jobs:
           node-version: '20'
 
       - name: Check public tag filtering
-        run: node --test test/public-tags.test.js test/tag-dictionary.test.js
+        run: node --test test/public-tags.test.js test/tag-dictionary.test.js test/rufoundation-crawler.test.js
 
       - name: Validate tag dictionary
         run: node -e "require('./tag-dictionary').readDictionary('tag-dictionary.json')"

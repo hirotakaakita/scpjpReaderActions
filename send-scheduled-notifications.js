@@ -4,7 +4,7 @@ const https = require('https');
 const crypto = require('crypto');
 
 const QUEUE_PATH = path.join(__dirname, 'local-data', 'notification-queue.json');
-const TIMEZONES = { jp: 'Asia/Tokyo', en: 'America/New_York', cn: 'Asia/Shanghai', cs: 'Europe/Prague', de: 'Europe/Berlin', es: 'Europe/Madrid', fr: 'Europe/Paris', int: 'UTC', it: 'Europe/Rome', ko: 'Asia/Seoul', pl: 'Europe/Warsaw', pt: 'America/Sao_Paulo', th: 'Asia/Bangkok', ua: 'Europe/Kyiv', vn: 'Asia/Ho_Chi_Minh', 'zh-tr': 'Asia/Taipei' };
+const TIMEZONES = { jp: 'Asia/Tokyo', en: 'America/New_York', ru: 'Europe/Moscow', cn: 'Asia/Shanghai', cs: 'Europe/Prague', de: 'Europe/Berlin', es: 'Europe/Madrid', fr: 'Europe/Paris', int: 'UTC', it: 'Europe/Rome', ko: 'Asia/Seoul', pl: 'Europe/Warsaw', pt: 'America/Sao_Paulo', th: 'Asia/Bangkok', ua: 'Europe/Kyiv', vn: 'Asia/Ho_Chi_Minh', 'zh-tr': 'Asia/Taipei' };
 
 function request(hostname, requestPath, method, body, headers) {
   return new Promise((resolve, reject) => {

@@ -26,6 +26,13 @@ async function main() {
     process.exit(1);
   }
 
+  const config = LANGUAGES[lang];
+  if (config?.crawler === 'rufoundation-api' && page === 'api') {
+    const { crawlRussianApi } = require('./rufoundation-crawler');
+    await crawlRussianApi();
+    return;
+  }
+
   const crawler = new LocalSCPCrawler(lang);
   const validPages = crawler.config.pages.map(p => p.path);
   if (!validPages.includes(page)) {

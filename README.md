@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/hirotakaakita/scpjpReaderActions/refs/heads/ma
 | vn | Tiếng Việt | scp-vn.wikidot.com | |
 | zh-tr | 繁體中文 | scp-zh-tr.wikidot.com | 支部記事slugは scp-zh-XXX |
 
-**未対応**: Русский（scpfoundation.net）はアンチボット保護（Anubis、JSでのproof-of-work必須）のため通常のHTTP取得ではクロールできません。旧wikidotミラー（scp-ru.wikidot.com）もscpfoundation.netへリダイレクトされるため代替になりません。
+**Supported**: Russian uses the public RuFoundation JSON API; article pages are not crawled directly.
 
 ### クロール上の注意（調査済み）
 
