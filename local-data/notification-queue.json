@@ -117,25 +117,8 @@
       "lastSentWindow": "2026-10-04"
     },
     "fr": {
-      "items": [
-        {
-          "itemId": "scp-series-5363-d",
-          "titleJP": "Confinement contrôlé"
-        },
-        {
-          "itemId": "scp-series-5558-d",
-          "titleJP": "𝒫 et la Petite Fête"
-        },
-        {
-          "itemId": "scp-series-6159-arc",
-          "titleJP": "Primrose Fatish Von Trevil, anciennement le Démon Lié au Livre"
-        },
-        {
-          "itemId": "scp-series-7603-arc",
-          "titleJP": "P pour ''Pluton, Précédemment. Présentement Primrose.''"
-        }
-      ],
-      "lastSentWindow": null
+      "items": [],
+      "lastSentWindow": "2026-10-04"
     },
     "int": {
       "items": [],
