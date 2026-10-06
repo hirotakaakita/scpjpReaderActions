@@ -92,6 +92,20 @@
       "startedAt": "2026-10-06T20:24:46.201Z",
       "messageName": "projects/scpjp-reader/messages/-1728877317043862109",
       "sentAt": "2026-10-06T20:25:02.133Z"
+    },
+    {
+      "id": "it/2026-10-04",
+      "lang": "it",
+      "window": "2026-10-04",
+      "items": [
+        {
+          "itemId": "scp-series-4955-coltello",
+          "titleJP": "Un Coltello Visibile per Scherzo"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-06T20:24:46.201Z"
     }
   ]
 }
