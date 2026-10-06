@@ -60,8 +60,10 @@
         }
       ],
       "attempts": 1,
-      "status": "sending",
-      "startedAt": "2026-10-06T20:24:46.201Z"
+      "status": "sent",
+      "startedAt": "2026-10-06T20:24:46.201Z",
+      "messageName": "projects/scpjp-reader/messages/-7705426329332509544",
+      "sentAt": "2026-10-06T20:24:58.363Z"
     }
   ]
 }
