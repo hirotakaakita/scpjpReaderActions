@@ -56,17 +56,30 @@ function findScpDataFiles(dir) {
   return results;
 }
 
-/** 1ファイル分にmangaLanguagesを反映する。変更があった場合のみ書き戻してtrueを返す */
-function applyToFile(filePath, mangaMap) {
+function canonicalMangaNumber(item) {
+  if (item.pageType !== 'scp-series') return null;
+  const id = /^scp-series-(\d+)$/.exec(item.itemId || '');
+  if (!id || Number(id[1]) !== item.numericItemId) return null;
+  try {
+    const articlePath = new URL(item.urlJP || item.urlEN).pathname;
+    const slug = /^\/scp-(\d+)\/?$/.exec(articlePath);
+    return slug && Number(slug[1]) === item.numericItemId
+      ? item.numericItemId : null;
+  } catch {
+    return null;
+  }
+}
+
+/** 1ファイル分にmangaLanguagesを反映し、変更時はアプリのキャッシュ更新日時も揃える。 */
+function applyToFile(filePath, mangaMap, updatedAt = new Date().toISOString()) {
   const json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   if (!Array.isArray(json.data)) return false;
 
   let changed = false;
   for (const item of json.data) {
-    // 国際版の正規記事のみが対象。支部オリジナル記事（scp-series-jp等）は
-    // numericItemIdが衝突しても別記事なので除外する。
-    const isCanonicalSeries = item.pageType === 'scp-series';
-    const languages = isCanonicalSeries ? mangaMap[item.numericItemId] : undefined;
+    // 派生記事（scp-009-v等）もscp-seriesに含まれる。番号だけで紐づけない。
+    const number = canonicalMangaNumber(item);
+    const languages = number === null ? undefined : mangaMap[number];
     if (languages) {
       if (JSON.stringify(item.mangaLanguages) !== JSON.stringify(languages)) {
         item.mangaLanguages = languages;
@@ -80,7 +93,15 @@ function applyToFile(filePath, mangaMap) {
   }
 
   if (changed) {
+    const metaPath = path.join(path.dirname(filePath), 'meta.json');
+    const meta = fs.existsSync(metaPath)
+      ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : null;
+    json.timestamp = updatedAt;
     fs.writeFileSync(filePath, stringifyAsciiSafe(json), 'utf8');
+    if (meta) {
+      meta.lastUpdated = updatedAt;
+      fs.writeFileSync(metaPath, stringifyAsciiSafe(meta), 'utf8');
+    }
   }
   return changed;
 }
@@ -95,9 +116,10 @@ function main() {
   }
 
   const files = findScpDataFiles(LOCAL_DATA_DIR);
+  const updatedAt = new Date().toISOString();
   let updatedFiles = 0;
   for (const file of files) {
-    if (applyToFile(file, mangaMap)) {
+    if (applyToFile(file, mangaMap, updatedAt)) {
       updatedFiles++;
       console.log(`更新: ${path.relative(__dirname, file)}`);
     }

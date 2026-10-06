@@ -142,7 +142,7 @@ jobs:
           merge-multiple: true
 
       - name: Test localized catalog generation
-        run: node --test test/tag-catalog.test.js test/crawler-tag-refresh.test.js test/catalog-identity.test.js test/staging-catalogs.test.js test/rufoundation-crawler.test.js test/russian-labels-images.test.js
+        run: node --test test/tag-catalog.test.js test/crawler-tag-refresh.test.js test/catalog-identity.test.js test/apply-manga-flags.test.js test/staging-catalogs.test.js test/rufoundation-crawler.test.js test/russian-labels-images.test.js
 
       - name: Prepare tag dictionary before catalog generation
         run: node prepare-tag-dictionary.js
