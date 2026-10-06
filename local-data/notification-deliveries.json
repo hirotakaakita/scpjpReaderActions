@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "deliveries": [
+    {
+      "id": "zh-tr/2026-10-04",
+      "lang": "zh-tr",
+      "window": "2026-10-04",
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-06T15:15:24.626Z"
+    }
+  ]
+}
