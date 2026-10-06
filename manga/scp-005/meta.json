@@ -74,7 +74,8 @@
     "uk": "SCP-005: \u0412\u0456\u0434\u043c\u0438\u043a\u0430\u0447\u043a\u0430",
     "vi": "SCP-005: Ch\u00eca Kh\u00f3a X\u01b0\u01a1ng",
     "zh": "SCP-005\uff1a\u4e07\u80fd\u94a5\u5319",
-    "zh_Hant": "SCP-005\uff1a\u89e3\u69cb\u9470\u5319"
+    "zh_Hant": "SCP-005\uff1a\u89e3\u69cb\u9470\u5319",
+    "ru": "SCP-005: \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043b\u044e\u0447"
   },
   "created_at": "2026-09-20T21:24:51Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

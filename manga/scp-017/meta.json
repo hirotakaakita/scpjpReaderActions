@@ -74,7 +74,8 @@
     "uk": "SCP-017: \u0422\u0456\u043d\u044c\u043e\u0432\u0430 \u0456\u0441\u0442\u043e\u0442\u0430",
     "vi": "SCP-017: Ng\u01b0\u1eddi B\u00f3ng \u0110en",
     "zh": "SCP-017\uff1a\u5f71\u9b54",
-    "zh_Hant": "SCP-017\uff1a\u5f71\u4eba"
+    "zh_Hant": "SCP-017\uff1a\u5f71\u4eba",
+    "ru": "SCP-017: \u0422\u0435\u043d\u0435\u0432\u043e\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a"
   },
   "created_at": "2026-09-20T21:45:24Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

@@ -74,7 +74,8 @@
     "uk": "SCP-500: \u041f\u0430\u043d\u0430\u0446\u0435\u044f",
     "vi": "SCP-500: Thu\u1ed1c V\u1ea1n \u1ee8ng",
     "zh": "SCP-500\uff1a\u4e07\u80fd\u836f",
-    "zh_Hant": "SCP-500\uff1a\u842c\u9748\u85e5"
+    "zh_Hant": "SCP-500\uff1a\u842c\u9748\u85e5",
+    "ru": "SCP-500: \u041f\u0430\u043d\u0430\u0446\u0435\u044f"
   },
   "created_at": "2026-09-20T15:22:11Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

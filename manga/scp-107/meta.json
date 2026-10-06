@@ -74,7 +74,8 @@
     "uk": "SCP-107: \u041f\u0430\u043d\u0446\u0438\u0440 \u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0438",
     "vi": "SCP-107: Mai R\u00f9a",
     "zh": "SCP-107\uff1a\u7a7a\u9f9f\u58f3",
-    "zh_Hant": "SCP-107\uff1a\u9f9c\u7532"
+    "zh_Hant": "SCP-107\uff1a\u9f9c\u7532",
+    "ru": "SCP-107: \u0427\u0435\u0440\u0435\u043f\u0430\u0448\u0438\u0439 \u043f\u0430\u043d\u0446\u0438\u0440\u044c"
   },
   "created_at": "2026-09-20T15:21:54Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

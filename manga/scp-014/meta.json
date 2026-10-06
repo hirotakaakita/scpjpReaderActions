@@ -74,7 +74,8 @@
     "uk": "SCP-014: \u041a\u0430\u043c'\u044f\u043d\u0430 \u043b\u044e\u0434\u0438\u043d\u0430",
     "vi": "SCP-014: Ng\u01b0\u1eddi \u0110\u00e0n \u00d4ng B\u00ea T\u00f4ng",
     "zh": "SCP-014\uff1a\u6df7\u51dd\u571f\u4eba",
-    "zh_Hant": "SCP-014\uff1a\u6df7\u51dd\u571f\u96d5\u50cf\u4eba"
+    "zh_Hant": "SCP-014\uff1a\u6df7\u51dd\u571f\u96d5\u50cf\u4eba",
+    "ru": "SCP-014: \u0411\u0435\u0442\u043e\u043d\u043d\u044b\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a"
   },
   "created_at": "2026-09-20T21:25:28Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

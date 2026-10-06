@@ -74,7 +74,8 @@
     "uk": "SCP-008: \u0427\u0443\u043c\u0430 \u0437\u043e\u043c\u0431\u0456",
     "vi": "SCP-008: D\u1ecbch B\u1ec7nh Th\u00e2y Ma",
     "zh": "SCP-008\uff1a\u4e27\u5c38\u75c5\u6bd2",
-    "zh_Hant": "SCP-008\uff1a\u6bad\u5c4d\u761f\u75ab"
+    "zh_Hant": "SCP-008\uff1a\u6bad\u5c4d\u761f\u75ab",
+    "ru": "SCP-008: \u0427\u0443\u043c\u0430 \u0437\u043e\u043c\u0431\u0438"
   },
   "created_at": "2026-09-20T15:21:19Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

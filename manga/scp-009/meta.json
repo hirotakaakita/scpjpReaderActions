@@ -74,7 +74,8 @@
     "uk": "SCP-009: \u0427\u0435\u0440\u0432\u043e\u043d\u0438\u0439 \u043b\u0456\u0434",
     "vi": "SCP-009: Huy\u1ebft B\u0103ng",
     "zh": "SCP-009\uff1a\u7ea2\u51b0",
-    "zh_Hant": "SCP-009\uff1a\u8d64\u51b0"
+    "zh_Hant": "SCP-009\uff1a\u8d64\u51b0",
+    "ru": "SCP-009: \u041a\u0440\u0430\u0441\u043d\u044b\u0439 \u043b\u0451\u0434"
   },
   "created_at": "2026-09-20T21:25:06Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

@@ -74,7 +74,8 @@
     "uk": "SCP-447: \u041a\u0443\u043b\u044c\u043a\u0430 \u0437 \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0441\u043b\u0438\u0437\u0443",
     "vi": "SCP-447: B\u00f3ng Slime \u0110a D\u1ee5ng",
     "zh": "SCP-447\uff1a\u7eff\u8272\u9ecf\u6db2\u7403",
-    "zh_Hant": "SCP-447\uff1a\u7da0\u9ecf\u7403"
+    "zh_Hant": "SCP-447\uff1a\u7da0\u9ecf\u7403",
+    "ru": "SCP-447: \u0428\u0430\u0440 \u0437\u0435\u043b\u0451\u043d\u043e\u0439 \u0441\u043b\u0438\u0437\u0438"
   },
   "created_at": "2026-09-20T15:22:05Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

@@ -74,7 +74,8 @@
     "uk": "SCP-105: \"\u0410\u0439\u0440\u0456\u0441\"",
     "vi": "SCP-105: \"Iris\"",
     "zh": "SCP-105\uff1a\u201c\u9e22\u5a13\u201d",
-    "zh_Hant": "SCP-105\uff1a\u300cIris\u300d"
+    "zh_Hant": "SCP-105\uff1a\u300cIris\u300d",
+    "ru": "SCP-105: \u00ab\u0410\u0439\u0440\u0438\u0441\u00bb"
   },
   "created_at": "2026-09-20T15:21:48Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",
