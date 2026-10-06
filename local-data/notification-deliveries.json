@@ -108,6 +108,24 @@
       "startedAt": "2026-10-06T20:24:46.201Z",
       "messageName": "projects/scpjp-reader/messages/-6365810652722738373",
       "sentAt": "2026-10-06T20:25:07.271Z"
+    },
+    {
+      "id": "pl/2026-10-04",
+      "lang": "pl",
+      "window": "2026-10-04",
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        },
+        {
+          "itemId": "scp-series-pl-420",
+          "titleJP": "Mediaterapia koproinformacyjna"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-06T20:24:46.201Z"
     }
   ]
 }
