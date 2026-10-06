@@ -105,13 +105,8 @@
       "lastSentWindow": "2026-10-04"
     },
     "cs": {
-      "items": [
-        {
-          "itemId": "scp-series-2615-j",
-          "titleJP": "If You Believe"
-        }
-      ],
-      "lastSentWindow": null
+      "items": [],
+      "lastSentWindow": "2026-10-04"
     },
     "de": {
       "items": [
@@ -216,5 +211,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-10-06T15:15:24.626Z"
+  "updatedAt": "2026-10-06T20:24:46.201Z"
 }
