@@ -118,6 +118,17 @@ function numericId(pageId) {
   const match = String(pageId).match(/^scp-(\d+)/i);
   return match ? Number(match[1]) : null;
 }
+function normalizeRating(rating) {
+  if (!rating || rating.hidden) return null;
+  const value = Number(rating.value);
+  const votes = Number(rating.votes);
+  const popularity = Number(rating.popularity);
+  if (!Number.isFinite(value)) return null;
+  if (rating.mode === 'stars' && Number.isFinite(votes) && Number.isFinite(popularity)) {
+    return Math.round((2 * popularity / 100 - 1) * votes);
+  }
+  return Math.round(value);
+}
 function isScpArticle(article) {
   return /^scp-\d+/i.test(article.pageId || '') && /^scp-\d+/i.test(article.title || '');
 }
@@ -212,7 +223,7 @@ async function crawlRussianApi() {
       urlJP: localUrl(pageId),
       imageUrl: needsDetails ? (extractImageUrl(source) || old?.imageUrl || null) : (old?.imageUrl || null),
       objectClass,
-      rating: article.rating?.value ?? old?.rating ?? null,
+      rating: normalizeRating(article.rating) ?? old?.rating ?? null,
       descriptionExcerpt,
       tags,
       tagVersion: forceTags || !old?.tagVersion ? TAG_VERSION : Math.max(old.tagVersion, TAG_VERSION),
@@ -252,6 +263,6 @@ async function crawlRussianApi() {
   console.log(`[ru] API articles=${allArticles.length}, SCP=${articles.length}${apiLimit > 0 ? ` (limit ${apiLimit})` : ''}, output=${result.length}`);
 }
 
-module.exports = { crawlRussianApi, extractObjectClass, extractDescription, extractImageUrl, branchFromTags };
+module.exports = { crawlRussianApi, extractObjectClass, extractDescription, extractImageUrl, branchFromTags, normalizeRating };
 
 if (require.main === module) crawlRussianApi().catch(error => { console.error(error); process.exitCode = 1; });

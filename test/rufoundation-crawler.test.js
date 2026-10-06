@@ -4,11 +4,17 @@ const {
   extractObjectClass,
   extractDescription,
   branchFromTags,
+  normalizeRating,
 } = require('../rufoundation-crawler');
 
 test('RuFoundation object class uses the current non-struck value', () => {
   const source = '**\u041a\u043b\u0430\u0441\u0441 \u043e\u0431\u044a\u0435\u043a\u0442\u0430:** ~~\u0415\u0432\u043a\u043b\u0438\u0434~~ \u041a\u0435\u0442\u0435\u0440';
   assert.equal(extractObjectClass(source), 'Keter');
+});
+
+test('RuFoundation star ratings become integer vote-like scores', () => {
+  assert.equal(normalizeRating({ mode: 'stars', value: 3.9, votes: 13, popularity: 85 }), 9);
+  assert.equal(normalizeRating({ mode: 'stars', value: 1.4, votes: 18, popularity: 28 }), -8);
 });
 
 test('RuFoundation description excerpt is Unicode-limited to 500 characters', () => {
