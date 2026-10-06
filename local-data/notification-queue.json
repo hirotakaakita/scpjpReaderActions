@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "pending": {
+    "jp": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "信じるなら"
+        },
+        {
+          "itemId": "scp-series-jp-3347",
+          "titleJP": "寝取られ亭主の頭には角が生える"
+        },
+        {
+          "itemId": "scp-series-jp-3974",
+          "titleJP": "ハーベスト"
+        },
+        {
+          "itemId": "scp-series-jp-4023",
+          "titleJP": "忘れ物"
+        },
+        {
+          "itemId": "scp-series-jp-4949",
+          "titleJP": "お月見ず、うさぎは踊る"
+        },
+        {
+          "itemId": "scp-series-jp-4990",
+          "titleJP": "突撃！となりの次元のお呼び出し"
+        }
+      ],
+      "lastSentWindow": "2026-10-04"
+    },
+    "en": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        },
+        {
+          "itemId": "scp-series-8827",
+          "titleJP": "Whales With Rabies"
+        },
+        {
+          "itemId": "scp-series-9279",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9435",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9437",
+          "titleJP": "Qinhuangdao Summer"
+        },
+        {
+          "itemId": "scp-series-9438",
+          "titleJP": "Log of Sea Ghosts' Aestival Travels"
+        },
+        {
+          "itemId": "scp-series-9439",
+          "titleJP": "The Titmice Singer"
+        },
+        {
+          "itemId": "scp-series-9496",
+          "titleJP": "No Love Lost"
+        },
+        {
+          "itemId": "joke-scps-4321",
+          "titleJP": "This SCP is proudly brought to you by TemuTM"
+        }
+      ],
+      "lastSentWindow": "2026-10-04"
+    },
+    "cn": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "你要是信了"
+        },
+        {
+          "itemId": "scp-series-cn-4174",
+          "titleJP": "杀丁鱼"
+        },
+        {
+          "itemId": "scp-series-cn-4508",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4669",
+          "titleJP": "你的半日新péng友"
+        },
+        {
+          "itemId": "scp-series-cn-4895",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4908",
+          "titleJP": "在夜里偷走你x器官的神秘小偷"
+        },
+        {
+          "itemId": "joke-scps-cn-1001",
+          "titleJP": "神秘后室模因"
+        }
+      ],
+      "lastSentWindow": "2026-10-04"
+    },
+    "cs": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "de": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "es": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "Si tú Crees"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "fr": {
+      "items": [
+        {
+          "itemId": "scp-series-5363-d",
+          "titleJP": "Confinement contrôlé"
+        },
+        {
+          "itemId": "scp-series-5558-d",
+          "titleJP": "𝒫 et la Petite Fête"
+        },
+        {
+          "itemId": "scp-series-6159-arc",
+          "titleJP": "Primrose Fatish Von Trevil, anciennement le Démon Lié au Livre"
+        },
+        {
+          "itemId": "scp-series-7603-arc",
+          "titleJP": "P pour ''Pluton, Précédemment. Présentement Primrose.''"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "int": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "it": {
+      "items": [
+        {
+          "itemId": "scp-series-4955-coltello",
+          "titleJP": "Un Coltello Visibile per Scherzo"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "ko": {
+      "items": [
+        {
+          "itemId": "scp-series-3673",
+          "titleJP": "그러나 문이 닫힐 때…"
+        },
+        {
+          "itemId": "scp-series-5998",
+          "titleJP": "인간의 초월"
+        }
+      ],
+      "lastSentWindow": "2026-10-04"
+    },
+    "pl": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        },
+        {
+          "itemId": "scp-series-pl-420",
+          "titleJP": "Mediaterapia koproinformacyjna"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "pt": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "th": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "ua": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "vn": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "zh-tr": {
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        }
+      ],
+      "lastSentWindow": null
+    },
+    "ru": {
+      "items": [],
+      "lastSentWindow": null
+    }
+  },
+  "updatedAt": "2026-10-05T21:09:28.859Z"
+}
