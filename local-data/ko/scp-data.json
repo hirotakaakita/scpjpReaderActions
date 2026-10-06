@@ -1,7 +1,7 @@
 {
   "totalCount": 4066,
   "language": "ko",
-  "timestamp": "2026-10-05T21:09:00.384Z",
+  "timestamp": "2026-10-06T01:22:26.104Z",
   "duration": 2585,
   "status": "completed",
   "statistics": {
@@ -118,6 +118,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -348,6 +349,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -428,6 +430,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -571,6 +574,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -643,6 +647,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -782,6 +787,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -925,6 +931,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -993,6 +1000,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -1136,6 +1144,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -1212,6 +1221,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -1284,6 +1294,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -1360,6 +1371,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -1448,6 +1460,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -2514,6 +2527,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -2719,6 +2733,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -2925,6 +2940,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -3127,6 +3143,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -3211,6 +3228,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -3283,6 +3301,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -3562,6 +3581,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -3638,6 +3658,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -3722,6 +3743,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -4038,6 +4060,24 @@
         "ua",
         "vn",
         "zh-tr"
+      ],
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "ru",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
       ]
     },
     {
@@ -4105,6 +4145,24 @@
         "ua",
         "vn",
         "zh-tr"
+      ],
+      "mangaLanguages": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "ru",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
       ]
     },
     {
@@ -4373,6 +4431,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -7104,6 +7163,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -7243,6 +7303,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -7378,6 +7439,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -21561,6 +21623,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -22929,6 +22992,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -41771,6 +41835,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -62620,7 +62685,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-852db7b4581f6d50954572b4",
@@ -72767,7 +72832,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         }
       ],
       "tagVersion": 3,
@@ -73414,6 +73479,7 @@
         "ko",
         "pl",
         "pt",
+        "ru",
         "th",
         "uk",
         "vi",
@@ -76870,7 +76936,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-fe3f070c4765c3f084437ac0",
@@ -77857,7 +77923,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-f3310c449c523f82d6277e25",
@@ -83154,7 +83220,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-453ebe6e6b381547575adcd4",
@@ -84412,7 +84478,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-453ebe6e6b381547575adcd4",
@@ -87505,7 +87571,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-f3310c449c523f82d6277e25",
@@ -92543,7 +92609,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-27a9c9e1408b7ffbc7c5edb1",
@@ -93585,7 +93651,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-beff908259d22050120359bd",
@@ -97940,7 +98006,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-c739bd84aaebffd408a0604b",
@@ -102284,7 +102350,7 @@
       "tags": [
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-faea4ccff05881ea0287832e",
@@ -111992,7 +112058,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-3be6c3b6ab1f0083ca5bf9a3",
@@ -113761,7 +113827,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-03553a03276b159b3c082041",
@@ -123174,7 +123240,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-cf9ef5f1ef01d87a94a1a2b3",
@@ -125396,7 +125462,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-2e144916046c2a6fc7df9c7d",
@@ -125857,7 +125923,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-f3310c449c523f82d6277e25",
@@ -127873,7 +127939,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-e2cae5479f040a13ad7201b1",
@@ -132337,7 +132403,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-f3310c449c523f82d6277e25",
@@ -148858,7 +148924,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-597bb980404c8cc334fde5b5",
@@ -151524,7 +151590,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-27a9c9e1408b7ffbc7c5edb1",
@@ -174284,7 +174350,7 @@
         },
         {
           "id": "tag-7ecd93cd424c9eb2cbfc0025",
-          "label": "\ub3fc\uc9c0"
+          "label": "tag-7ecd93cd424c9eb2cbfc0025"
         },
         {
           "id": "tag-81c65445f0a992cc47c96f32",
@@ -182100,7 +182166,7 @@
       "tags": [
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-beff908259d22050120359bd",
@@ -183156,7 +183222,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-c739bd84aaebffd408a0604b",
@@ -189840,7 +189906,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-2e144916046c2a6fc7df9c7d",
@@ -194028,7 +194094,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-cd4e74d6bdb10c8d68c73c4c",
@@ -202164,7 +202230,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-6de8198202855452e99cc7b7",
@@ -215136,7 +215202,7 @@
         },
         {
           "id": "tag-fe047fb6c566f27712575718",
-          "label": "\uc2dd\ub2f9"
+          "label": "tag-fe047fb6c566f27712575718"
         },
         {
           "id": "tag-f3310c449c523f82d6277e25",

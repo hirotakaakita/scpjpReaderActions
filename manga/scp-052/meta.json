@@ -74,7 +74,8 @@
     "uk": "SCP-052: \u041f\u043e\u0442\u044f\u0433-\u043c\u0430\u043d\u0434\u0440\u0456\u0432\u043d\u0438\u043a \u0443 \u0447\u0430\u0441\u0456",
     "vi": "SCP-052: T\u00e0u Xuy\u00ean Th\u1eddi Gian",
     "zh": "SCP-052\uff1a\u65f6\u5149\u5217\u8f66",
-    "zh_Hant": "SCP-052\uff1a\u6642\u7a7a\u7a7f\u68ad\u5217\u8eca"
+    "zh_Hant": "SCP-052\uff1a\u6642\u7a7a\u7a7f\u68ad\u5217\u8eca",
+    "ru": "SCP-052: \u041f\u043e\u0435\u0437\u0434, \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439 \u0432\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438"
   },
   "created_at": "2026-09-20T15:21:36Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

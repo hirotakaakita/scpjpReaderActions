@@ -74,7 +74,8 @@
     "uk": "SCP-042: \u0420\u0430\u043d\u0456\u0448\u0435 \u043a\u0440\u0438\u043b\u0430\u0442\u0438\u0439 \u043a\u0456\u043d\u044c",
     "vi": "SCP-042: K\u00ec L\u00e2n G\u00e3y C\u00e1nh",
     "zh": "SCP-042\uff1a\u6614\u65e5\u5929\u9a6c",
-    "zh_Hant": "SCP-042\uff1a\u66fe\u70ba\u5929\u99ac"
+    "zh_Hant": "SCP-042\uff1a\u66fe\u70ba\u5929\u99ac",
+    "ru": "SCP-042: \u041d\u0435\u043a\u043e\u0433\u0434\u0430 \u043a\u0440\u044b\u043b\u0430\u0442\u044b\u0439 \u043a\u043e\u043d\u044c"
   },
   "created_at": "2026-09-29T23:57:54Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

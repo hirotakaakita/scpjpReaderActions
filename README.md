@@ -29,6 +29,7 @@ https://raw.githubusercontent.com/hirotakaakita/scpjpReaderActions/refs/heads/ma
 | ko | 한국어 | scpko.wikidot.com | |
 | pl | Polski | scp-pl.wikidot.com | プレフィックス型（scp-pl-XXX） |
 | pt | Português | scp-pt-br.wikidot.com | |
+| ru | Русский | scpfoundation.net | 公開JSON API。アプリ用ID・シリーズ分類を本家と共通化 |
 | th | ภาษาไทย | scp-th.wikidot.com | |
 | ua | Українська | scp-ukrainian.wikidot.com | 特殊構造のため支部独自リストのみ・anyLinkモード |
 | vn | Tiếng Việt | scp-vn.wikidot.com | |

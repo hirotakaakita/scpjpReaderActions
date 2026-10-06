@@ -74,7 +74,8 @@
     "uk": "SCP-051: \u042f\u043f\u043e\u043d\u0441\u044c\u043a\u0430 \u0430\u043a\u0443\u0448\u0435\u0440\u0441\u044c\u043a\u0430 \u043c\u043e\u0434\u0435\u043b\u044c",
     "vi": "SCP-051: M\u00f4 H\u00ecnh Thai Ph\u1ee5 Nh\u1eadt B\u1ea3n",
     "zh": "SCP-051\uff1a\u65e5\u672c\u5987\u4ea7\u4eba\u5076",
-    "zh_Hant": "SCP-051\uff1a\u65e5\u672c\u7522\u5a66\u4eba\u5076"
+    "zh_Hant": "SCP-051\uff1a\u65e5\u672c\u7522\u5a66\u4eba\u5076",
+    "ru": "SCP-051: \u042f\u043f\u043e\u043d\u0441\u043a\u0430\u044f \u0430\u043a\u0443\u0448\u0435\u0440\u0441\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c"
   },
   "created_at": "2026-09-30T03:26:46Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

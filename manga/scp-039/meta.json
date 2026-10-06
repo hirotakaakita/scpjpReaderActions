@@ -74,7 +74,8 @@
     "uk": "SCP-039: \u0406\u043d\u0436\u0435\u043d\u0435\u0440\u0438-\u043d\u043e\u0441\u0430\u0447\u0456",
     "vi": "SCP-039: N\u00e3o Kh\u1ec9",
     "zh": "SCP-039\uff1a\u7334\u8111",
-    "zh_Hant": "SCP-039\uff1a\u9577\u9f3b\u5de5\u7a0b\u5e2b"
+    "zh_Hant": "SCP-039\uff1a\u9577\u9f3b\u5de5\u7a0b\u5e2b",
+    "ru": "SCP-039: \u041e\u0431\u0435\u0437\u044c\u044f\u043d\u0438\u0439 \u043c\u043e\u0437\u0433"
   },
   "created_at": "2026-09-29T02:15:29Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

@@ -74,7 +74,8 @@
     "uk": "SCP-006: \u0424\u043e\u043d\u0442\u0430\u043d \u043c\u043e\u043b\u043e\u0434\u043e\u0441\u0442\u0456",
     "vi": "SCP-006: Su\u1ed1i Ngu\u1ed3n T\u01b0\u01a1i Tr\u1ebb",
     "zh": "SCP-006\uff1a\u4e0d\u8001\u6cc9",
-    "zh_Hant": "SCP-006\uff1a\u9752\u6625\u6e67\u6cc9"
+    "zh_Hant": "SCP-006\uff1a\u9752\u6625\u6e67\u6cc9",
+    "ru": "SCP-006: \u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u043c\u043e\u043b\u043e\u0434\u043e\u0441\u0442\u0438"
   },
   "created_at": "2026-09-20T21:24:59Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

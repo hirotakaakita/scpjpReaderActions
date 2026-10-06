@@ -74,7 +74,8 @@
     "uk": "SCP-019: \u0412\u0430\u0437\u0430 \u0437 \u0447\u0443\u0434\u043e\u0432\u0438\u0441\u044c\u043a\u0430\u043c\u0438",
     "vi": "SCP-019: B\u00ecnh Qu\u00e1i V\u1eadt",
     "zh": "SCP-019\uff1a\u517d\u4e4b\u74f6",
-    "zh_Hant": "SCP-019\uff1a\u602a\u7378\u74f6"
+    "zh_Hant": "SCP-019\uff1a\u602a\u7378\u74f6",
+    "ru": "SCP-019: \u0413\u043e\u0440\u0448\u043e\u043a \u0447\u0443\u0434\u043e\u0432\u0438\u0449"
   },
   "created_at": "2026-09-20T21:25:43Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

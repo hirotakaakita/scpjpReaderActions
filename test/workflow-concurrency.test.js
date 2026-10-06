@@ -35,7 +35,7 @@ test('writers load current master after acquiring the lock and never force confl
   const publisher = job(read('scp-crawler.yml'), 'merge-and-deploy');
   const sender = job(read('scheduled-notifications.yml'), 'send');
   for (const writer of [publisher, sender]) {
-    assert.match(writer, /uses: actions\/checkout@v5\n +with:\n +ref: master/);
+    assert.match(writer, /uses: actions\/checkout@v\d+\n +with:\n +ref: master/);
     assert.match(writer, /timeout-minutes: \d+/);
     assert.doesNotMatch(writer, /git pull|--force|--rebase|-X theirs/);
   }

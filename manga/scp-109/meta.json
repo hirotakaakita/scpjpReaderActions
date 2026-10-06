@@ -74,7 +74,8 @@
     "uk": "SCP-109: \u041d\u0435\u0441\u043a\u0456\u043d\u0447\u0435\u043d\u043d\u0430 \u0444\u043b\u044f\u0433\u0430",
     "vi": "SCP-109: B\u00ecnh N\u01b0\u1edbc V\u00f4 T\u1eadn",
     "zh": "SCP-109\uff1a\u65e0\u9650\u6c34\u58f6",
-    "zh_Hant": "SCP-109\uff1a\u7121\u9650\u6c34\u58fa"
+    "zh_Hant": "SCP-109\uff1a\u7121\u9650\u6c34\u58fa",
+    "ru": "SCP-109: \u0411\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u0430\u044f \u0444\u043b\u044f\u0433\u0430"
   },
   "created_at": "2026-09-20T15:21:59Z",
   "languages": [
@@ -88,6 +89,7 @@
     "ko",
     "pl",
     "pt",
+    "ru",
     "th",
     "uk",
     "vi",

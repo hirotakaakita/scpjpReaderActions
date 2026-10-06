@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const crypto = require('node:crypto');
 const { publicTags } = require('./public-tags');
 
-const locales = ['en', 'ja', 'zh', 'cs', 'de', 'es', 'fr', 'it', 'ko', 'pl', 'pt', 'th', 'uk', 'vi', 'zh-Hant'];
+const locales = ['ru', 'en', 'ja', 'zh', 'cs', 'de', 'es', 'fr', 'it', 'ko', 'pl', 'pt', 'th', 'uk', 'vi', 'zh-Hant'];
 const branchLocales = { jp: 'ja', cn: 'zh', ua: 'uk', vn: 'vi', 'zh-tr': 'zh-Hant', int: 'en' };
 function readDictionary(file) {
   const dictionary = JSON.parse(fs.readFileSync(file, 'utf8'));
