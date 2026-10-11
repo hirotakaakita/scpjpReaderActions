@@ -204,6 +204,24 @@
       "startedAt": "2026-10-11T13:26:37.799Z",
       "messageName": "projects/scpjp-reader/messages/1826658471357636489",
       "sentAt": "2026-10-11T13:26:46.034Z"
+    },
+    {
+      "id": "ko/2026-10-11",
+      "lang": "ko",
+      "window": "2026-10-11",
+      "items": [
+        {
+          "itemId": "scp-series-3673",
+          "titleJP": "그러나 문이 닫힐 때…"
+        },
+        {
+          "itemId": "scp-series-5998",
+          "titleJP": "인간의 초월"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-11T13:26:37.799Z"
     }
   ]
 }
