@@ -2,33 +2,8 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [
-        {
-          "itemId": "scp-series-2615-j",
-          "titleJP": "信じるなら"
-        },
-        {
-          "itemId": "scp-series-jp-3347",
-          "titleJP": "寝取られ亭主の頭には角が生える"
-        },
-        {
-          "itemId": "scp-series-jp-3974",
-          "titleJP": "ハーベスト"
-        },
-        {
-          "itemId": "scp-series-jp-4023",
-          "titleJP": "忘れ物"
-        },
-        {
-          "itemId": "scp-series-jp-4949",
-          "titleJP": "お月見ず、うさぎは踊る"
-        },
-        {
-          "itemId": "scp-series-jp-4990",
-          "titleJP": "突撃！となりの次元のお呼び出し"
-        }
-      ],
-      "lastSentWindow": "2026-10-04"
+      "items": [],
+      "lastSentWindow": "2026-10-11"
     },
     "en": {
       "items": [
@@ -170,5 +145,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-10-06T20:24:46.201Z"
+  "updatedAt": "2026-10-11T13:26:37.799Z"
 }
