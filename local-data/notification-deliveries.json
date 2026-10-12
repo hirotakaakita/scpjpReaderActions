@@ -224,6 +224,52 @@
       "startedAt": "2026-10-11T13:26:37.799Z",
       "messageName": "projects/scpjp-reader/messages/-6538225413703820722",
       "sentAt": "2026-10-11T13:26:48.773Z"
+    },
+    {
+      "id": "en/2026-10-11",
+      "lang": "en",
+      "window": "2026-10-11",
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        },
+        {
+          "itemId": "scp-series-8827",
+          "titleJP": "Whales With Rabies"
+        },
+        {
+          "itemId": "scp-series-9279",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9435",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9437",
+          "titleJP": "Qinhuangdao Summer"
+        },
+        {
+          "itemId": "scp-series-9438",
+          "titleJP": "Log of Sea Ghosts' Aestival Travels"
+        },
+        {
+          "itemId": "scp-series-9439",
+          "titleJP": "The Titmice Singer"
+        },
+        {
+          "itemId": "scp-series-9496",
+          "titleJP": "No Love Lost"
+        },
+        {
+          "itemId": "joke-scps-4321",
+          "titleJP": "This SCP is proudly brought to you by TemuTM"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-12T01:35:56.952Z"
     }
   ]
 }
