@@ -6,45 +6,8 @@
       "lastSentWindow": "2026-10-11"
     },
     "en": {
-      "items": [
-        {
-          "itemId": "scp-series-2615-j",
-          "titleJP": "If You Believe"
-        },
-        {
-          "itemId": "scp-series-8827",
-          "titleJP": "Whales With Rabies"
-        },
-        {
-          "itemId": "scp-series-9279",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9435",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9437",
-          "titleJP": "Qinhuangdao Summer"
-        },
-        {
-          "itemId": "scp-series-9438",
-          "titleJP": "Log of Sea Ghosts' Aestival Travels"
-        },
-        {
-          "itemId": "scp-series-9439",
-          "titleJP": "The Titmice Singer"
-        },
-        {
-          "itemId": "scp-series-9496",
-          "titleJP": "No Love Lost"
-        },
-        {
-          "itemId": "joke-scps-4321",
-          "titleJP": "This SCP is proudly brought to you by TemuTM"
-        }
-      ],
-      "lastSentWindow": "2026-10-04"
+      "items": [],
+      "lastSentWindow": "2026-10-11"
     },
     "cn": {
       "items": [],
@@ -107,5 +70,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-10-11T13:26:37.799Z"
+  "updatedAt": "2026-10-12T01:35:56.952Z"
 }
