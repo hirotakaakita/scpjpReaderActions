@@ -500,6 +500,44 @@
       "startedAt": "2026-10-18T13:34:56.263Z",
       "messageName": "projects/scpjp-reader/messages/5945154802282811533",
       "sentAt": "2026-10-18T13:35:18.408Z"
+    },
+    {
+      "id": "fr/2026-10-18",
+      "lang": "fr",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-fr-749",
+          "titleJP": "L'Herbe à Tigres"
+        },
+        {
+          "itemId": "scp-series-fr-751",
+          "titleJP": "[ACCÈS REFUSÉ]"
+        },
+        {
+          "itemId": "scp-series-fr-803",
+          "titleJP": "Kkokdus Purificateurs"
+        },
+        {
+          "itemId": "scp-series-fr-822",
+          "titleJP": "L'histoire est réécrite par ceux qui l'effacent"
+        },
+        {
+          "itemId": "scp-series-fr-842",
+          "titleJP": "Et impossible de voir leurs visages"
+        },
+        {
+          "itemId": "scp-series-fr-871",
+          "titleJP": "[ACCÈS REFUSÉ]"
+        },
+        {
+          "itemId": "scp-series-fr-880",
+          "titleJP": "Un endroit pour fumer"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T19:17:35.514Z"
     }
   ]
 }
