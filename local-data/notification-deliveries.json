@@ -480,6 +480,24 @@
       "startedAt": "2026-10-18T13:34:56.263Z",
       "messageName": "projects/scpjp-reader/messages/2210960980267171834",
       "sentAt": "2026-10-18T13:35:14.883Z"
+    },
+    {
+      "id": "zh-tr/2026-10-18",
+      "lang": "zh-tr",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-zh-721",
+          "titleJP": "根本不需要朋友，去死吧。"
+        },
+        {
+          "itemId": "scp-series-zh-917",
+          "titleJP": "讓我們「修好」你"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T13:34:56.263Z"
     }
   ]
 }
