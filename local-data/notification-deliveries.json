@@ -448,6 +448,20 @@
       "startedAt": "2026-10-18T13:34:56.263Z",
       "messageName": "projects/scpjp-reader/messages/1746703593499212493",
       "sentAt": "2026-10-18T13:35:07.825Z"
+    },
+    {
+      "id": "th/2026-10-18",
+      "lang": "th",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-9113",
+          "titleJP": "สิ่งเทพสรรค์มามิอาจล่วงเกินไปแตะต้อง"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T13:34:56.263Z"
     }
   ]
 }
