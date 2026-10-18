@@ -600,6 +600,20 @@
       "startedAt": "2026-10-18T19:17:35.514Z",
       "messageName": "projects/scpjp-reader/messages/682207494520491426",
       "sentAt": "2026-10-18T19:17:47.354Z"
+    },
+    {
+      "id": "pt/2026-10-18",
+      "lang": "pt",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-pt-149",
+          "titleJP": "[ACESSO BLOQUEADO]"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T23:42:51.550Z"
     }
   ]
 }
