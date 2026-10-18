@@ -464,6 +464,20 @@
       "startedAt": "2026-10-18T13:34:56.263Z",
       "messageName": "projects/scpjp-reader/messages/-5296613573901609996",
       "sentAt": "2026-10-18T13:35:11.625Z"
+    },
+    {
+      "id": "vn/2026-10-18",
+      "lang": "vn",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-vn-161",
+          "titleJP": "Câu Chuyện Về Việc Tổ Chức Ngăn Ngừa Rụng Tóc Trung Niên hoặc Cách Đấng Mày Râu Si Mê Bộ Tóc Của Osama Bin Russell"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T13:34:56.263Z"
     }
   ]
 }
