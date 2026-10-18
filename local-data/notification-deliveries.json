@@ -540,6 +540,20 @@
       "startedAt": "2026-10-18T19:17:35.514Z",
       "messageName": "projects/scpjp-reader/messages/5341088683862067941",
       "sentAt": "2026-10-18T19:17:39.347Z"
+    },
+    {
+      "id": "it/2026-10-18",
+      "lang": "it",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-it-206",
+          "titleJP": "S-Elfland"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T19:17:35.514Z"
     }
   ]
 }
