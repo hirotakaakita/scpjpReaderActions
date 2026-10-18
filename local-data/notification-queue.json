@@ -107,13 +107,8 @@
       "lastSentWindow": "2026-10-04"
     },
     "pt": {
-      "items": [
-        {
-          "itemId": "scp-series-pt-149",
-          "titleJP": "[ACESSO BLOQUEADO]"
-        }
-      ],
-      "lastSentWindow": null
+      "items": [],
+      "lastSentWindow": "2026-10-18"
     },
     "th": {
       "items": [],
@@ -136,5 +131,5 @@
       "lastSentWindow": "2026-10-18"
     }
   },
-  "updatedAt": "2026-10-18T19:17:35.514Z"
+  "updatedAt": "2026-10-18T23:42:51.550Z"
 }
