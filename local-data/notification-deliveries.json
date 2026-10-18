@@ -272,6 +272,40 @@
       "startedAt": "2026-10-12T01:35:56.952Z",
       "messageName": "projects/scpjp-reader/messages/-6781768641412557495",
       "sentAt": "2026-10-12T01:36:00.118Z"
+    },
+    {
+      "id": "jp/2026-10-18",
+      "lang": "jp",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-jp-3364",
+          "titleJP": "丸まる。"
+        },
+        {
+          "itemId": "scp-series-jp-3390",
+          "titleJP": "鏡自身は見られない"
+        },
+        {
+          "itemId": "scp-series-jp-4445",
+          "titleJP": "俺が1人分になる"
+        },
+        {
+          "itemId": "scp-series-jp-4703",
+          "titleJP": "再誕"
+        },
+        {
+          "itemId": "scp-series-jp-4860",
+          "titleJP": "契約の対価、あるいは如何にして金望舎シャロンが財団お嬢様となったか"
+        },
+        {
+          "itemId": "joke-scps-jp-173",
+          "titleJP": ""
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T13:34:56.263Z"
     }
   ]
 }
