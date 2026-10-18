@@ -2,33 +2,8 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [
-        {
-          "itemId": "scp-series-jp-3364",
-          "titleJP": "丸まる。"
-        },
-        {
-          "itemId": "scp-series-jp-3390",
-          "titleJP": "鏡自身は見られない"
-        },
-        {
-          "itemId": "scp-series-jp-4445",
-          "titleJP": "俺が1人分になる"
-        },
-        {
-          "itemId": "scp-series-jp-4703",
-          "titleJP": "再誕"
-        },
-        {
-          "itemId": "scp-series-jp-4860",
-          "titleJP": "契約の対価、あるいは如何にして金望舎シャロンが財団お嬢様となったか"
-        },
-        {
-          "itemId": "joke-scps-jp-173",
-          "titleJP": ""
-        }
-      ],
-      "lastSentWindow": "2026-10-11"
+      "items": [],
+      "lastSentWindow": "2026-10-18"
     },
     "en": {
       "items": [
@@ -365,5 +340,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-10-18T09:35:02.006Z"
+  "updatedAt": "2026-10-18T13:34:56.263Z"
 }
