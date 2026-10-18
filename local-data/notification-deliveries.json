@@ -308,6 +308,84 @@
       "startedAt": "2026-10-18T13:34:56.263Z",
       "messageName": "projects/scpjp-reader/messages/-6681858889987964696",
       "sentAt": "2026-10-18T13:34:59.488Z"
+    },
+    {
+      "id": "cn/2026-10-18",
+      "lang": "cn",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-ex-6161",
+          "titleJP": "嘘……"
+        },
+        {
+          "itemId": "scp-series-cn-3583",
+          "titleJP": "灰森林"
+        },
+        {
+          "itemId": "scp-series-cn-4155",
+          "titleJP": "肉食小黄鸭"
+        },
+        {
+          "itemId": "scp-series-cn-4172",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4309",
+          "titleJP": "二〇三九寻的追凶之旅"
+        },
+        {
+          "itemId": "scp-series-cn-4451",
+          "titleJP": "链式吸星大法"
+        },
+        {
+          "itemId": "scp-series-cn-4552",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4557",
+          "titleJP": "怪电梯间"
+        },
+        {
+          "itemId": "scp-series-cn-4694",
+          "titleJP": "你耳边的声音"
+        },
+        {
+          "itemId": "scp-series-cn-4706",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4806",
+          "titleJP": "开车时穿模"
+        },
+        {
+          "itemId": "scp-series-cn-4829",
+          "titleJP": "“匪”林试剂"
+        },
+        {
+          "itemId": "scp-series-cn-4861",
+          "titleJP": "《二十四孝·卧冰求鲤》"
+        },
+        {
+          "itemId": "scp-series-cn-4863",
+          "titleJP": "AWCY?的答案"
+        },
+        {
+          "itemId": "scp-series-cn-4867",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4918",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4933",
+          "titleJP": "锈雾"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-18T13:34:56.263Z"
     }
   ]
 }
