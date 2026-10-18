@@ -200206,5 +200206,245 @@
       "vi",
       "zh-Hant"
     ]
+  },
+  {
+    "id": "ambrose",
+    "aliases": [
+      "ambrose"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "auto-rigenerante",
+    "aliases": [
+      "auto-rigenerante"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "cfrko2026",
+    "aliases": [
+      "cfrko2026"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "dipartimento-di-dismissione",
+    "aliases": [
+      "dipartimento-di-dismissione"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "existential",
+    "aliases": [
+      "existential"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-469a363266223a837fd1a565",
+    "aliases": [
+      "romantické"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "trafigurazione",
+    "aliases": [
+      "trafigurazione"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "xmas2026",
+    "aliases": [
+      "xmas2026"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-b0385cfe4b424d835963f2ce",
+    "aliases": [
+      "历史"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-feec877ae6cc908ad315958f",
+    "aliases": [
+      "巡禮之年"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
   }
 ]

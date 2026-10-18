@@ -793,6 +793,12 @@
       ],
       "labels": {}
     },
+    "ambrose": {
+      "aliases": [
+        "ambrose"
+      ],
+      "labels": {}
+    },
     "ambrose-restaurant": {
       "aliases": [
         "ambrose-restaurant"
@@ -1606,6 +1612,12 @@
     "auto-replicazione": {
       "aliases": [
         "auto-replicazione"
+      ],
+      "labels": {}
+    },
+    "auto-rigenerante": {
+      "aliases": [
+        "auto-rigenerante"
       ],
       "labels": {}
     },
@@ -2830,6 +2842,12 @@
     "cfo": {
       "aliases": [
         "cfo"
+      ],
+      "labels": {}
+    },
+    "cfrko2026": {
+      "aliases": [
+        "cfrko2026"
       ],
       "labels": {}
     },
@@ -4534,6 +4552,12 @@
     "dipartimento-alchimia": {
       "aliases": [
         "dipartimento-alchimia"
+      ],
+      "labels": {}
+    },
+    "dipartimento-di-dismissione": {
+      "aliases": [
+        "dipartimento-di-dismissione"
       ],
       "labels": {}
     },
@@ -6652,6 +6676,12 @@
     "exchange": {
       "aliases": [
         "exchange"
+      ],
+      "labels": {}
+    },
+    "existential": {
+      "aliases": [
+        "existential"
       ],
       "labels": {}
     },
@@ -25202,6 +25232,12 @@
       ],
       "labels": {}
     },
+    "tag-469a363266223a837fd1a565": {
+      "aliases": [
+        "romantické"
+      ],
+      "labels": {}
+    },
     "tag-469a9f5f1e8774bd39e90d3a": {
       "aliases": [
         "ラッツネスト"
@@ -39080,6 +39116,12 @@
       ],
       "labels": {}
     },
+    "tag-b0385cfe4b424d835963f2ce": {
+      "aliases": [
+        "历史"
+      ],
+      "labels": {}
+    },
     "tag-b04085c732712f448efdc6a7": {
       "aliases": [
         "マッキンス管理官"
@@ -49616,6 +49658,12 @@
       ],
       "labels": {}
     },
+    "tag-feec877ae6cc908ad315958f": {
+      "aliases": [
+        "巡禮之年"
+      ],
+      "labels": {}
+    },
     "tag-fefe80c60d229b9ab391d5a0": {
       "aliases": [
         "sinh-sản"
@@ -50390,6 +50438,12 @@
     "traduzido": {
       "aliases": [
         "traduzido"
+      ],
+      "labels": {}
+    },
+    "trafigurazione": {
+      "aliases": [
+        "trafigurazione"
       ],
       "labels": {}
     },
@@ -51446,6 +51500,12 @@
     "xia-dynasty": {
       "aliases": [
         "xia-dynasty"
+      ],
+      "labels": {}
+    },
+    "xmas2026": {
+      "aliases": [
+        "xmas2026"
       ],
       "labels": {}
     },

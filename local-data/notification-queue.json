@@ -2,15 +2,170 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-jp-3364",
+          "titleJP": "丸まる。"
+        },
+        {
+          "itemId": "scp-series-jp-3390",
+          "titleJP": "鏡自身は見られない"
+        },
+        {
+          "itemId": "scp-series-jp-4445",
+          "titleJP": "俺が1人分になる"
+        },
+        {
+          "itemId": "scp-series-jp-4703",
+          "titleJP": "再誕"
+        },
+        {
+          "itemId": "scp-series-jp-4860",
+          "titleJP": "契約の対価、あるいは如何にして金望舎シャロンが財団お嬢様となったか"
+        },
+        {
+          "itemId": "joke-scps-jp-173",
+          "titleJP": ""
+        }
+      ],
       "lastSentWindow": "2026-10-11"
     },
     "en": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-9261",
+          "titleJP": "The Evergrowing Bush"
+        },
+        {
+          "itemId": "scp-series-9284",
+          "titleJP": "very picky computer files"
+        },
+        {
+          "itemId": "scp-series-9374",
+          "titleJP": "Fermi's Solution"
+        },
+        {
+          "itemId": "scp-series-9378",
+          "titleJP": "Baby Blue"
+        },
+        {
+          "itemId": "scp-series-9392",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9418",
+          "titleJP": "Mister Enigma the Wandering Candyman"
+        },
+        {
+          "itemId": "scp-series-9526",
+          "titleJP": "A Gift from Fear"
+        },
+        {
+          "itemId": "scp-series-9558",
+          "titleJP": "Thank You For Installing Windows 95"
+        },
+        {
+          "itemId": "scp-series-9656",
+          "titleJP": "Best Practices"
+        },
+        {
+          "itemId": "scp-series-9739",
+          "titleJP": "Family Annihilator."
+        },
+        {
+          "itemId": "scp-series-9756",
+          "titleJP": "Dotson's Inferno"
+        },
+        {
+          "itemId": "scp-series-9833",
+          "titleJP": "Ever Obstruction"
+        },
+        {
+          "itemId": "scp-series-9867",
+          "titleJP": "Baby Boomer Basking Shark"
+        },
+        {
+          "itemId": "scp-series-9937",
+          "titleJP": "A Better Path To Nowhere"
+        },
+        {
+          "itemId": "joke-scps-705",
+          "titleJP": "An Invisible Crocodile Takes Over Site-57's Low-Security Wing"
+        }
+      ],
       "lastSentWindow": "2026-10-11"
     },
     "cn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-ex-6161",
+          "titleJP": "嘘……"
+        },
+        {
+          "itemId": "scp-series-cn-3583",
+          "titleJP": "灰森林"
+        },
+        {
+          "itemId": "scp-series-cn-4155",
+          "titleJP": "肉食小黄鸭"
+        },
+        {
+          "itemId": "scp-series-cn-4172",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4309",
+          "titleJP": "二〇三九寻的追凶之旅"
+        },
+        {
+          "itemId": "scp-series-cn-4451",
+          "titleJP": "链式吸星大法"
+        },
+        {
+          "itemId": "scp-series-cn-4552",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4557",
+          "titleJP": "怪电梯间"
+        },
+        {
+          "itemId": "scp-series-cn-4694",
+          "titleJP": "你耳边的声音"
+        },
+        {
+          "itemId": "scp-series-cn-4706",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4806",
+          "titleJP": "开车时穿模"
+        },
+        {
+          "itemId": "scp-series-cn-4829",
+          "titleJP": "“匪”林试剂"
+        },
+        {
+          "itemId": "scp-series-cn-4861",
+          "titleJP": "《二十四孝·卧冰求鲤》"
+        },
+        {
+          "itemId": "scp-series-cn-4863",
+          "titleJP": "AWCY?的答案"
+        },
+        {
+          "itemId": "scp-series-cn-4867",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4918",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4933",
+          "titleJP": "锈雾"
+        }
+      ],
       "lastSentWindow": "2026-10-11"
     },
     "cs": {
@@ -26,7 +181,36 @@
       "lastSentWindow": "2026-10-04"
     },
     "fr": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-fr-749",
+          "titleJP": "L'Herbe à Tigres"
+        },
+        {
+          "itemId": "scp-series-fr-751",
+          "titleJP": "[ACCÈS REFUSÉ]"
+        },
+        {
+          "itemId": "scp-series-fr-803",
+          "titleJP": "Kkokdus Purificateurs"
+        },
+        {
+          "itemId": "scp-series-fr-822",
+          "titleJP": "L'histoire est réécrite par ceux qui l'effacent"
+        },
+        {
+          "itemId": "scp-series-fr-842",
+          "titleJP": "Et impossible de voir leurs visages"
+        },
+        {
+          "itemId": "scp-series-fr-871",
+          "titleJP": "[ACCÈS REFUSÉ]"
+        },
+        {
+          "itemId": "scp-series-fr-880",
+          "titleJP": "Un endroit pour fumer"
+        }
+      ],
       "lastSentWindow": "2026-10-04"
     },
     "int": {
@@ -34,11 +218,65 @@
       "lastSentWindow": null
     },
     "it": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-it-206",
+          "titleJP": "S-Elfland"
+        }
+      ],
       "lastSentWindow": "2026-10-04"
     },
     "ko": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-645",
+          "titleJP": "진실의 입"
+        },
+        {
+          "itemId": "scp-series-5185",
+          "titleJP": "다도네 멋쟁이 거미"
+        },
+        {
+          "itemId": "scp-series-ko-658",
+          "titleJP": "'ㄱ'은 고독이다"
+        },
+        {
+          "itemId": "scp-series-ko-734",
+          "titleJP": "도난"
+        },
+        {
+          "itemId": "scp-series-ko-758",
+          "titleJP": "'ㄴ'은 나례다"
+        },
+        {
+          "itemId": "scp-series-ko-786",
+          "titleJP": "'ㅁ'은 밀실이다"
+        },
+        {
+          "itemId": "scp-series-ko-1087",
+          "titleJP": "'ㄲ'은 끝이다"
+        },
+        {
+          "itemId": "scp-series-ko-1227",
+          "titleJP": "'ㅂ'은 바보다"
+        },
+        {
+          "itemId": "scp-series-ko-1336",
+          "titleJP": "[접근 거부]"
+        },
+        {
+          "itemId": "scp-series-ko-1344",
+          "titleJP": "'ㄸ'은 따라옴이다"
+        },
+        {
+          "itemId": "scp-series-ko-1818",
+          "titleJP": "'ㄹ'은 리버스다"
+        },
+        {
+          "itemId": "scp-series-ko-1983",
+          "titleJP": "어린 노예, 늙은 왕, 죽은 고래"
+        }
+      ],
       "lastSentWindow": "2026-10-11"
     },
     "pl": {
@@ -46,11 +284,21 @@
       "lastSentWindow": "2026-10-04"
     },
     "pt": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-pt-149",
+          "titleJP": "[ACESSO BLOQUEADO]"
+        }
+      ],
       "lastSentWindow": null
     },
     "th": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-9113",
+          "titleJP": "สิ่งเทพสรรค์มามิอาจล่วงเกินไปแตะต้อง"
+        }
+      ],
       "lastSentWindow": null
     },
     "ua": {
@@ -58,17 +306,64 @@
       "lastSentWindow": null
     },
     "vn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-vn-161",
+          "titleJP": "Câu Chuyện Về Việc Tổ Chức Ngăn Ngừa Rụng Tóc Trung Niên hoặc Cách Đấng Mày Râu Si Mê Bộ Tóc Của Osama Bin Russell"
+        }
+      ],
       "lastSentWindow": null
     },
     "zh-tr": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-zh-721",
+          "titleJP": "根本不需要朋友，去死吧。"
+        },
+        {
+          "itemId": "scp-series-zh-917",
+          "titleJP": "讓我們「修好」你"
+        }
+      ],
       "lastSentWindow": "2026-10-04"
     },
     "ru": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-2615-j",
+          "titleJP": "If You Believe"
+        },
+        {
+          "itemId": "scp-series-8827",
+          "titleJP": "Whales With Rabies"
+        },
+        {
+          "itemId": "scp-series-9279",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9435",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9437",
+          "titleJP": "Qinhuangdao Summer"
+        },
+        {
+          "itemId": "scp-series-9438",
+          "titleJP": "Log of Sea Ghosts' Aestival Travels"
+        },
+        {
+          "itemId": "scp-series-9439",
+          "titleJP": "The Titmice Singer"
+        },
+        {
+          "itemId": "scp-series-9496",
+          "titleJP": "No Love Lost"
+        }
+      ],
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-10-12T01:35:56.952Z"
+  "updatedAt": "2026-10-18T09:35:02.006Z"
 }
