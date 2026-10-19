@@ -616,6 +616,76 @@
       "startedAt": "2026-10-18T23:42:51.550Z",
       "messageName": "projects/scpjp-reader/messages/4933400173544980986",
       "sentAt": "2026-10-18T23:42:54.651Z"
+    },
+    {
+      "id": "en/2026-10-18",
+      "lang": "en",
+      "window": "2026-10-18",
+      "items": [
+        {
+          "itemId": "scp-series-9261",
+          "titleJP": "The Evergrowing Bush"
+        },
+        {
+          "itemId": "scp-series-9284",
+          "titleJP": "very picky computer files"
+        },
+        {
+          "itemId": "scp-series-9374",
+          "titleJP": "Fermi's Solution"
+        },
+        {
+          "itemId": "scp-series-9378",
+          "titleJP": "Baby Blue"
+        },
+        {
+          "itemId": "scp-series-9392",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9418",
+          "titleJP": "Mister Enigma the Wandering Candyman"
+        },
+        {
+          "itemId": "scp-series-9526",
+          "titleJP": "A Gift from Fear"
+        },
+        {
+          "itemId": "scp-series-9558",
+          "titleJP": "Thank You For Installing Windows 95"
+        },
+        {
+          "itemId": "scp-series-9656",
+          "titleJP": "Best Practices"
+        },
+        {
+          "itemId": "scp-series-9739",
+          "titleJP": "Family Annihilator."
+        },
+        {
+          "itemId": "scp-series-9756",
+          "titleJP": "Dotson's Inferno"
+        },
+        {
+          "itemId": "scp-series-9833",
+          "titleJP": "Ever Obstruction"
+        },
+        {
+          "itemId": "scp-series-9867",
+          "titleJP": "Baby Boomer Basking Shark"
+        },
+        {
+          "itemId": "scp-series-9937",
+          "titleJP": "A Better Path To Nowhere"
+        },
+        {
+          "itemId": "joke-scps-705",
+          "titleJP": "An Invisible Crocodile Takes Over Site-57's Low-Security Wing"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-10-19T01:47:41.164Z"
     }
   ]
 }
