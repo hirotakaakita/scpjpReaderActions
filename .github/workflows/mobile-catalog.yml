@@ -1,0 +1,43 @@
+name: Generate mobile catalogs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.repository == 'hirotakaakita/scpjpReaderActions' && github.ref == 'refs/heads/master'
+    concurrency:
+      group: scp-data-update
+      cancel-in-progress: false
+      queue: max
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: master
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Validate generation and source identities
+        run: |
+          node --test test/mobile-catalog.test.js test/workflow-concurrency.test.js
+          node catalog-identity.js
+      - name: Generate mobile catalogs without crawling or changing legacy data
+        run: node mobile-catalog.js
+      - name: Commit mobile catalogs only
+        run: |
+          git config user.name 'SCP Crawler Bot'
+          git config user.email 'scp-crawler@github-actions.bot'
+          git add local-data/mobile-v1/
+          if git diff --staged --quiet; then
+            echo "Mobile catalogs are already up to date"
+          else
+            git commit -m "Regenerate mobile catalogs - $(date -u +%Y%m%d%H%M%S)"
+            git push origin HEAD:master
+          fi
