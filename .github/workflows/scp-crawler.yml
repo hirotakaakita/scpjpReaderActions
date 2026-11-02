@@ -52,10 +52,8 @@ jobs:
         run: npm ci
 
       - name: Check public tag filtering
-        run: node --test test/public-tags.test.js test/tag-dictionary.test.js test/rufoundation-crawler.test.js test/relations.test.js test/semantic-survey.test.js test/semantic-review-policy.test.js
+        run: node --test test/public-tags.test.js test/tag-dictionary.test.js test/rufoundation-crawler.test.js
 
-      - name: Validate deterministic mobile packaging
-        run: python3 -m unittest discover -s test -p test_mobile_package.py
       - name: Validate tag dictionary
         run: node -e "require('./tag-dictionary').readDictionary('tag-dictionary.json')"
 
@@ -94,8 +92,6 @@ jobs:
           CRAWL_DELAY_MS: '1000'
           CRAWL_ENTRY_CONCURRENCY: '2'
           CRAWL_REQUEST_INTERVAL_MS: '500'
-          CAPTURE_RELATIONS: '1'
-          RELATIONS_CAPTURE_DIR: partial-data/relations/${{ matrix.lang }}
           FORCE_REFRESH_SCP_DETAILS: ${{ inputs.force_refresh_scp_details == true && '1' || '0' }}
           FORCE_REFRESH_OBJECT_CLASS: ${{ inputs.force_refresh_object_class == true && '1' || '0' }}
           FORCE_REFRESH_DESCRIPTION: ${{ inputs.force_refresh_description == true && '1' || '0' }}
@@ -179,87 +175,3 @@ jobs:
             # Fail on competing writes; never overwrite notification state via rebase.
             git push origin master
           fi
-
-  # Reuse the bodies already fetched above; graph generation is isolated from app catalog publication.
-  relation-graph:
-    concurrency:
-      group: relation-graph
-      cancel-in-progress: false
-    needs: [crawl, merge-and-deploy]
-    if: always() && needs.merge-and-deploy.result == 'success'
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    permissions:
-      contents: read
-      actions: read
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: master
-      - uses: actions/setup-node@v6
-        with:
-          node-version: '24'
-          cache: npm
-      - run: npm ci
-      - uses: ./.github/actions/relation-snapshots
-      - uses: actions/download-artifact@v7
-        with:
-          pattern: partial-*
-          path: partial-data
-          merge-multiple: true
-      - run: node relations/build.js
-      - run: node relations/validate.js
-      - run: node relations/preview.js
-      - name: Generate and validate mobile research board
-        run: |
-          node relations/mobile/export_research_board.cjs
-          node --test test/mobile-assets.test.js
-      - uses: actions/upload-artifact@v7
-        with:
-          name: research-board-mobile
-          path: relations/mobile-output/
-          retention-days: 14
-          if-no-files-found: error
-      - uses: actions/upload-artifact@v7
-        with:
-          name: relation-source-records
-          path: relations/.cache/records/
-          retention-days: 90
-          if-no-files-found: error
-      - uses: actions/upload-artifact@v7
-        with:
-          name: relation-graph
-          path: relations/output/
-          retention-days: 90
-          if-no-files-found: error
-
-
-  publish-research-board:
-    needs: relation-graph
-    if: github.ref == 'refs/heads/master' && needs.relation-graph.result == 'success'
-    concurrency:
-      group: scp-data-update
-      cancel-in-progress: false
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    permissions:
-      contents: write
-      actions: read
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: master
-      - uses: actions/setup-node@v6
-        with:
-          node-version: '24'
-      - uses: actions/download-artifact@v7
-        with:
-          name: research-board-mobile
-          path: relations/mobile-output
-      - uses: actions/download-artifact@v7
-        with:
-          name: relation-source-records
-          path: relations/.cache/records
-      - uses: ./.github/actions/publish-research-board
-        with:
-          directory: relations/mobile-output
