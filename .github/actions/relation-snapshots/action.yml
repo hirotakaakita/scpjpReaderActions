@@ -9,7 +9,7 @@ runs:
         GH_TOKEN: ${{ github.token }}
         GH_REPO: ${{ github.repository }}
       run: |
-        run_id="$(gh api --paginate --slurp "repos/$GH_REPO/actions/artifacts?per_page=100" --jq 'map(.artifacts[]) | map(select(.name == "relation-source-records" and .expired == false)) | sort_by(.created_at) | reverse | .[0].workflow_run.id // empty')"
+        run_id="$(gh api --paginate --slurp "repos/$GH_REPO/actions/artifacts?per_page=100" | jq -r 'map(.artifacts[]) | map(select(.name == "relation-source-records" and .expired == false)) | sort_by(.created_at) | reverse | .[0].workflow_run.id // empty')"
         if [ -n "$run_id" ]; then
           gh run download "$run_id" --name relation-source-records --dir relations/.cache/records
         elif [ -f research-board/latest.json ]; then
