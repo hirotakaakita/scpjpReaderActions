@@ -23,3 +23,11 @@ logs/
 *.log
 # Crawler outputs
 partial-data/
+relations/.cache/
+relations/output/
+
+relations/mobile-output/
+relations/release/
+relations/release-existing/
+
+__pycache__/

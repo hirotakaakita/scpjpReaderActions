@@ -1,0 +1,19 @@
+name: Restore relation source evidence
+description: Restore the most recent nonexpired source archive; fail instead of silently losing history.
+runs:
+  using: composite
+  steps:
+    - name: Restore previous source observations
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+        GH_REPO: ${{ github.repository }}
+      run: |
+        run_id="$(gh api --paginate --slurp "repos/$GH_REPO/actions/artifacts?per_page=100" --jq 'map(.artifacts[]) | map(select(.name == "relation-source-records" and .expired == false)) | sort_by(.created_at) | reverse | .[0].workflow_run.id // empty')"
+        if [ -n "$run_id" ]; then
+          gh run download "$run_id" --name relation-source-records --dir relations/.cache/records
+        elif [ -f research-board/latest.json ]; then
+          python3 relations/mobile/restore_source.py --pointer research-board/latest.json --repo "$GH_REPO" --output relations/.cache/records
+        else
+          echo "No previous relation evidence archive. Starting with explicit unknown coverage."
+        fi

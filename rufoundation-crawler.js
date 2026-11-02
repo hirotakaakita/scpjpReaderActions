@@ -212,11 +212,16 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     const old = existingMap.get(itemId) || existingMap.get(pageId);
     const branches = branchFromTags(article.tags, pageId);
     const sourceBranch = branches.includes('ru') ? 'ru' : branches[0];
-    const needsDetails = !old || forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt;
+    const needsDetails = !old || forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt || process.env.CAPTURE_RELATIONS === '1';
     let detail = null;
     if (needsDetails && !metadataOnly) {
-      await sleep(Number(process.env.RU_API_REQUEST_INTERVAL_MS || 150));
+      await sleep(Math.max(process.env.CAPTURE_RELATIONS === '1' ? 1000 : 0,
+        Number(process.env.RU_API_REQUEST_INTERVAL_MS || 150)));
       detail = await request(`${API_BASE_URL}/api/articles/${encodeURIComponent(pageId)}`);
+    }
+    if (detail && process.env.CAPTURE_RELATIONS === '1') {
+      try { require('./relations/store').capture(localUrl(pageId), JSON.stringify(detail), 'ftml'); }
+      catch (error) { console.warn(`Relation capture skipped: ${pageId}: ${error.message}`); }
     }
     const source = detail?.source || old?.source || '';
     // Repair previously cached attachment URLs without refetching every body.
@@ -257,7 +262,8 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       createdAt: old?.createdAt || article.createdAt || startedAt.toISOString(),
     };
   };
-  const concurrency = Math.max(1, Number(process.env.RU_API_DETAIL_CONCURRENCY || 3));
+  const concurrency = process.env.CAPTURE_RELATIONS === '1'
+    ? 1 : Math.max(1, Number(process.env.RU_API_DETAIL_CONCURRENCY || 3));
   const cursor = { value: 0 };
   const workers = Array.from({ length: Math.min(concurrency, articles.length) }, async () => {
     while (true) {

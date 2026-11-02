@@ -5,6 +5,7 @@ const axios = require('axios');
 const { publicTags } = require('./public-tags');
 const { LANGUAGES, DEFAULT_ENTRY_PATTERN } = require('./languages');
 const { articleUrl, deduplicateArticles } = require('./catalog-identity');
+const { capture: captureRelations, captureFailure: captureRelationsFailure } = require('./relations/store');
 
 const CRAWLER_USER_AGENT = 'Mozilla/5.0 (compatible; SCPCrawler/2.0; Multi-Language)';
 // 一部ページ（PLのlista-pl等）はクローラー系UAを503でブロックするため、
@@ -546,6 +547,13 @@ class LocalSCPCrawler {
           }
         });
 
+        if (process.env.CAPTURE_RELATIONS === '1') {
+          try { captureRelations(scpUrl, response.data); }
+          catch (error) {
+            captureRelationsFailure(scpUrl, 'parse_error');
+            console.warn(`Relation capture skipped: ${scpUrl}: ${error.message}`);
+          }
+        }
         return withDom(response.data, document => ({
           fetchSucceeded: true,
           objectClass: extractObjectClassFromDocument(document),
@@ -555,7 +563,10 @@ class LocalSCPCrawler {
         }));
       } catch (error) {
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
-        if (attempt === maxRetries) return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };
+        if (attempt === maxRetries) {
+          if (process.env.CAPTURE_RELATIONS === '1') captureRelationsFailure(scpUrl, 'fetch_error');
+          return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };
+        }
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
     }

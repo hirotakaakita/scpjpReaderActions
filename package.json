@@ -5,11 +5,21 @@
   "main": "local-crawler.js",
   "scripts": {
     "start": "node local-crawler.js",
-    "crawl": "node local-crawler.js"
+    "crawl": "node local-crawler.js",
+    "relations:refresh": "node relations/refresh.js",
+    "relations:build": "node relations/build.js",
+    "relations:validate": "node relations/validate.js",
+    "relations:preview": "node relations/preview.js",
+    "test:relations": "node --test test/relations.test.js",
+    "relations:survey": "node relations/survey-runner.js",
+    "relations:survey:status": "node relations/survey-status.js",
+    "test:semantic-survey": "node --test test/semantic-survey.test.js test/semantic-review-policy.test.js test/noai-survey.test.js",
+    "relations:survey:noai": "node relations/noai-survey.js"
   },
   "dependencies": {
     "axios": "^1.7.7",
-    "jsdom": "^25.0.1"
+    "jsdom": "^25.0.1",
+    "robots-parser": "^3.0.1"
   },
   "engines": {
     "node": ">=20"
