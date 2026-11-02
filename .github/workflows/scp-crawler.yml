@@ -156,6 +156,11 @@ jobs:
       - name: Reject duplicate article IDs before publication
         run: node catalog-identity.js
 
+      - name: Generate compatible mobile catalogs
+        run: |
+          node --test test/mobile-catalog.test.js
+          node mobile-catalog.js
+
       # Compare against the latest master acquired after entering the publish lock.
       - name: Prepare notification queue
         run: node prepare-notification-queue.js
