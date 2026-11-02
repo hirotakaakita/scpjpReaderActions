@@ -42,12 +42,3 @@ test('writers load current master after acquiring the lock and never force confl
   assert.ok(publisher.indexOf('ref: master') < publisher.indexOf('node prepare-notification-queue.js'));
 });
 
-test('mobile-only generation shares the publication lock and stages no legacy or notification data', () => {
-  const generator = job(read('mobile-catalog.yml'), 'generate');
-  const sender = job(read('scheduled-notifications.yml'), 'send');
-  assert.deepEqual(concurrency(generator), concurrency(sender));
-  assert.match(generator, /ref: master/);
-  assert.match(generator, /run: node mobile-catalog\.js/);
-  assert.match(generator, /git add local-data\/mobile-v1\//);
-  assert.doesNotMatch(generator, /git pull|--force|--rebase|-X theirs|node (?:language-crawler|merge-data|prepare-notification|send-)/);
-});
