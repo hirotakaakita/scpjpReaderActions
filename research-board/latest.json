@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "revision": "5624eba99022bedd5d2c",
+  "generatedAt": "2026-10-31T09:11:58.862Z",
+  "archive": {
+    "url": "https://github.com/hirotakaakita/scpjpReaderActions/releases/download/research-board-v1-5624eba99022bedd5d2c/research-board-v1.zip",
+    "bytes": 14738318,
+    "sha256": "c576656dda0292d5a31f1cfacfe4272552411bb4387b19bace3aa9faa53ee7c4"
+  },
+  "sourceArchive": {
+    "url": "https://github.com/hirotakaakita/scpjpReaderActions/releases/download/research-board-v1-5624eba99022bedd5d2c/source-records.zip",
+    "bytes": 61524724,
+    "sha256": "91c7a075e592c67bfca2ee33184921121a00443879734b9ad3ef39f5d3a4747c"
+  },
+  "manifestSha256": "1c00fd0357faa30610fefaeb1a8cb702b5891036d8c783ed3f9f83c4f580989c",
+  "pageCount": 81768,
+  "edgeCount": 490248
+}
