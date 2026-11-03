@@ -2,15 +2,246 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "joke-scps-405",
+          "titleJP": "ランダムページ"
+        },
+        {
+          "itemId": "joke-scps-1600",
+          "titleJP": "O5のみ閲覧可"
+        },
+        {
+          "itemId": "scp-series-jp-2383",
+          "titleJP": "不覚醒"
+        },
+        {
+          "itemId": "scp-series-jp-2532",
+          "titleJP": "貴腐"
+        },
+        {
+          "itemId": "scp-series-jp-3118",
+          "titleJP": "星天の光輪、あるいは神の肉片"
+        },
+        {
+          "itemId": "scp-series-jp-3534",
+          "titleJP": "闇寿司と学ぶドレミファソ または間抜けな殺人鬼"
+        },
+        {
+          "itemId": "scp-series-jp-3686",
+          "titleJP": "トリック・オア・トリート"
+        },
+        {
+          "itemId": "scp-series-jp-4026",
+          "titleJP": "いっしょおぶん てつぶん by dado"
+        },
+        {
+          "itemId": "scp-series-jp-4093",
+          "titleJP": "ドスケベレタスバトル"
+        },
+        {
+          "itemId": "scp-series-jp-4158",
+          "titleJP": "カエデの仔"
+        },
+        {
+          "itemId": "scp-series-jp-4380",
+          "titleJP": "膨腹"
+        },
+        {
+          "itemId": "scp-series-jp-4484",
+          "titleJP": "好洞穴性人型生物"
+        },
+        {
+          "itemId": "scp-series-jp-4577",
+          "titleJP": "かずねのかぞえうた"
+        },
+        {
+          "itemId": "scp-series-jp-4893",
+          "titleJP": "指定暴力団　永組／毘威組"
+        },
+        {
+          "itemId": "scp-jp-ex-2106",
+          "titleJP": "アムネストール"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "en": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-7063",
+          "titleJP": "Sometimes I Wish I Could Just Fly Away, and Leave This Place to the Woods."
+        },
+        {
+          "itemId": "scp-series-8731",
+          "titleJP": "Still Water Sea Lion"
+        },
+        {
+          "itemId": "scp-series-9283",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9352",
+          "titleJP": "Autopsy Anomaly"
+        },
+        {
+          "itemId": "scp-series-9358",
+          "titleJP": "Herbarium Sheets"
+        },
+        {
+          "itemId": "scp-series-9362",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9368",
+          "titleJP": "◁𖨆 THE IRON ENSEMBLE"
+        },
+        {
+          "itemId": "scp-series-9397",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9419",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9435",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9447",
+          "titleJP": "The Whistler of Los Llanos"
+        },
+        {
+          "itemId": "scp-series-9472",
+          "titleJP": "The Mad MiG"
+        },
+        {
+          "itemId": "scp-series-9608",
+          "titleJP": "Hard-to-Contain Gastropod"
+        },
+        {
+          "itemId": "scp-series-9638",
+          "titleJP": "A Sinful Beast of Terrifying Savagery"
+        },
+        {
+          "itemId": "scp-series-9674",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9683",
+          "titleJP": "This is the Dawning"
+        },
+        {
+          "itemId": "scp-series-9713",
+          "titleJP": "Hell Greco"
+        },
+        {
+          "itemId": "scp-series-9720",
+          "titleJP": "(DESCRIPTION OF THIS ENTRY IS STRICTLY PROHIBITED)"
+        },
+        {
+          "itemId": "scp-series-9738",
+          "titleJP": "Funeral for Every Butterfly"
+        },
+        {
+          "itemId": "scp-series-9796",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9823",
+          "titleJP": "The Empath"
+        },
+        {
+          "itemId": "scp-series-9840",
+          "titleJP": "The No-Punching Bag"
+        },
+        {
+          "itemId": "scp-series-9847",
+          "titleJP": "Blue Rasberry Lollipop"
+        },
+        {
+          "itemId": "scp-series-9855",
+          "titleJP": "Doubles DNI"
+        },
+        {
+          "itemId": "scp-series-9865",
+          "titleJP": "The Flag"
+        },
+        {
+          "itemId": "joke-scps-1730",
+          "titleJP": "What Happened to Site-1337?"
+        },
+        {
+          "itemId": "scp-ex-777",
+          "titleJP": "Non-Euclidian stairs"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "cn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "joke-scps-55555",
+          "titleJP": "我们得聊聊50+5了"
+        },
+        {
+          "itemId": "scp-ex-001-de-ex",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-3420",
+          "titleJP": "疼痒天下"
+        },
+        {
+          "itemId": "scp-series-cn-4175",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4295",
+          "titleJP": "慢速罚单"
+        },
+        {
+          "itemId": "scp-series-cn-4461",
+          "titleJP": "正中眉心"
+        },
+        {
+          "itemId": "scp-series-cn-4513",
+          "titleJP": "臭尸鬼影"
+        },
+        {
+          "itemId": "scp-series-cn-4532",
+          "titleJP": "Alex Thorley爱吹空调"
+        },
+        {
+          "itemId": "scp-series-cn-4564",
+          "titleJP": "湖走五行"
+        },
+        {
+          "itemId": "scp-series-cn-4585",
+          "titleJP": "臆想性创造"
+        },
+        {
+          "itemId": "scp-series-cn-4697",
+          "titleJP": "无言先生？"
+        },
+        {
+          "itemId": "scp-series-cn-4812",
+          "titleJP": "梦中杀手"
+        },
+        {
+          "itemId": "scp-series-cn-4858",
+          "titleJP": "空宅门监"
+        },
+        {
+          "itemId": "scp-series-cn-4868",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4896",
+          "titleJP": "骨熄之龙"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "cs": {
@@ -18,11 +249,33 @@
       "lastSentWindow": "2026-10-04"
     },
     "de": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-de-403",
+          "titleJP": "Der Stalker"
+        },
+        {
+          "itemId": "scp-series-de-408",
+          "titleJP": "FÜRCHTE MICH! … Bitte …"
+        },
+        {
+          "itemId": "scp-series-de-450",
+          "titleJP": "Das Wort bleibt stärker als das Schwert"
+        },
+        {
+          "itemId": "scp-series-de-496",
+          "titleJP": "BIG MISTER BIG"
+        }
+      ],
       "lastSentWindow": "2026-10-04"
     },
     "es": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-es-126",
+          "titleJP": ""
+        }
+      ],
       "lastSentWindow": "2026-10-04"
     },
     "fr": {
@@ -38,7 +291,172 @@
       "lastSentWindow": "2026-10-18"
     },
     "ko": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-211",
+          "titleJP": "종이로 덮인 건물"
+        },
+        {
+          "itemId": "scp-series-3682",
+          "titleJP": "파루시아"
+        },
+        {
+          "itemId": "scp-series-6128",
+          "titleJP": "오리너구리 자석"
+        },
+        {
+          "itemId": "scp-series-7777",
+          "titleJP": "일곱공포증"
+        },
+        {
+          "itemId": "scp-series-8106",
+          "titleJP": "살인미수 괴물"
+        },
+        {
+          "itemId": "scp-series-ko-687",
+          "titleJP": "ㅅ은 사별이다"
+        },
+        {
+          "itemId": "scp-series-ko-693",
+          "titleJP": "ㅆ은 쏟아짐이다"
+        },
+        {
+          "itemId": "scp-series-ko-761",
+          "titleJP": "ㅊ은 추락이다"
+        },
+        {
+          "itemId": "scp-series-ko-769",
+          "titleJP": "ㅈ은 자살이다"
+        },
+        {
+          "itemId": "scp-series-ko-1025",
+          "titleJP": "[접근 거부]"
+        },
+        {
+          "itemId": "scp-series-ko-1061",
+          "titleJP": "오일러 쇼크"
+        },
+        {
+          "itemId": "scp-series-ko-1062",
+          "titleJP": "https://scpko.wikidot.com/"
+        },
+        {
+          "itemId": "scp-series-ko-1068",
+          "titleJP": "[접근 거부]"
+        },
+        {
+          "itemId": "scp-series-ko-1080",
+          "titleJP": "콘크리트 균사체"
+        },
+        {
+          "itemId": "scp-series-ko-1117",
+          "titleJP": "ㅉ은 쪼가리이다"
+        },
+        {
+          "itemId": "scp-series-ko-1135",
+          "titleJP": "나는 일렉기타다"
+        },
+        {
+          "itemId": "scp-series-ko-1144",
+          "titleJP": "하차벨은 울리지 않는다"
+        },
+        {
+          "itemId": "scp-series-ko-1180",
+          "titleJP": "이 사람아, 세라믹파 텔레킬 골반도 잊은 건가?"
+        },
+        {
+          "itemId": "scp-series-ko-1368",
+          "titleJP": "'ㅃ'은 빵집(ㅃ+0)이다."
+        },
+        {
+          "itemId": "scp-series-ko-1403",
+          "titleJP": "무(無)용도실: 공간 자살"
+        },
+        {
+          "itemId": "scp-series-ko-1456",
+          "titleJP": "ㅿ는 ᅀᅡ귀이다"
+        },
+        {
+          "itemId": "scp-series-ko-1491",
+          "titleJP": "ㅋ은 코호트다"
+        },
+        {
+          "itemId": "scp-series-ko-1494",
+          "titleJP": "ㅌ은 특수문자다"
+        },
+        {
+          "itemId": "scp-series-ko-1509",
+          "titleJP": "이고양과 이고양의 그냥저냥 일상"
+        },
+        {
+          "itemId": "scp-series-ko-1533",
+          "titleJP": "ㅇ은 어둠이다"
+        },
+        {
+          "itemId": "scp-series-ko-1534",
+          "titleJP": "이젠 삽질도 철학적으로 해야되는 시대"
+        },
+        {
+          "itemId": "scp-series-ko-1589",
+          "titleJP": "멘헤라 왕의 무덤이 지금 열립니다"
+        },
+        {
+          "itemId": "scp-series-ko-1606",
+          "titleJP": "내 여자친구를 빼앗지 말아줘, 러브버그 군!"
+        },
+        {
+          "itemId": "scp-series-ko-1616",
+          "titleJP": "제09K기지가 당신의 어머니를 플레이 중입니다"
+        },
+        {
+          "itemId": "scp-series-ko-1621",
+          "titleJP": "기묘자사우르스 모사사우르스 전능 [하략]"
+        },
+        {
+          "itemId": "scp-series-ko-1623",
+          "titleJP": "대학수학능력시험 수리 영역 가형 31번 문제"
+        },
+        {
+          "itemId": "scp-series-ko-1661",
+          "titleJP": "내 소꿉친구가 우리 엄마의 남편이 되었다"
+        },
+        {
+          "itemId": "scp-series-ko-1716",
+          "titleJP": "\"ㆆ\"는 ᅙᅲ서다"
+        },
+        {
+          "itemId": "scp-series-ko-1761",
+          "titleJP": "고환(feat. 아킬레우스)"
+        },
+        {
+          "itemId": "scp-series-ko-1762",
+          "titleJP": "우리는 오늘 음지에서 죽습니다."
+        },
+        {
+          "itemId": "scp-series-ko-1765",
+          "titleJP": "넓디넓은 한강은 노벨상에게 무엇을 원하는가"
+        },
+        {
+          "itemId": "scp-series-ko-1766",
+          "titleJP": "농민 순애 인심 착장 센스"
+        },
+        {
+          "itemId": "scp-series-ko-1771",
+          "titleJP": "'ㅍ'은 패륜이다"
+        },
+        {
+          "itemId": "scp-series-ko-1806",
+          "titleJP": "ㅎ은 회의이다"
+        },
+        {
+          "itemId": "scp-series-ko-1831",
+          "titleJP": "ㆁ은 ᅌᅥᆸ이다"
+        },
+        {
+          "itemId": "scp-series-ko-1958",
+          "titleJP": "저는 그런 욕 한 적 없는데요"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "pl": {
@@ -50,25 +468,134 @@
       "lastSentWindow": "2026-10-18"
     },
     "th": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-3125",
+          "titleJP": "ผู้หลบหนี"
+        },
+        {
+          "itemId": "scp-series-4514",
+          "titleJP": "สิ่งที่ฆ่าคุณตายได้"
+        },
+        {
+          "itemId": "scp-series-th-042",
+          "titleJP": "สาวสำนึกบาป"
+        },
+        {
+          "itemId": "scp-series-th-044",
+          "titleJP": "กล่องสุ่มอวัยวะ"
+        },
+        {
+          "itemId": "scp-series-th-226",
+          "titleJP": "ม้าทะลุมิติ"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "ua": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-7819",
+          "titleJP": "Немає вільних кімнат"
+        }
+      ],
       "lastSentWindow": null
     },
     "vn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "joke-scps-705",
+          "titleJP": "Một Con Cá Sấu Tàng Hình Chiếm Lấy Phân Khu An Ninh Cấp Thấp Của Điểm-57"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "zh-tr": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-zh-318",
+          "titleJP": "狗螺"
+        },
+        {
+          "itemId": "scp-series-zh-325",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-335",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-415",
+          "titleJP": "花海"
+        },
+        {
+          "itemId": "scp-series-zh-827",
+          "titleJP": "[禁止訪問]"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     },
     "ru": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-9261",
+          "titleJP": "The Evergrowing Bush"
+        },
+        {
+          "itemId": "scp-series-9284",
+          "titleJP": "very picky computer files"
+        },
+        {
+          "itemId": "scp-series-9374",
+          "titleJP": "Fermi's Solution"
+        },
+        {
+          "itemId": "scp-series-9378",
+          "titleJP": "Baby Blue"
+        },
+        {
+          "itemId": "scp-series-9392",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9418",
+          "titleJP": "Mister Enigma the Wandering Candyman"
+        },
+        {
+          "itemId": "scp-series-9526",
+          "titleJP": "A Gift from Fear"
+        },
+        {
+          "itemId": "scp-series-9558",
+          "titleJP": "Thank You For Installing Windows 95"
+        },
+        {
+          "itemId": "scp-series-9656",
+          "titleJP": "Best Practices"
+        },
+        {
+          "itemId": "scp-series-9739",
+          "titleJP": "Family Annihilator."
+        },
+        {
+          "itemId": "scp-series-9756",
+          "titleJP": "Dotson's Inferno"
+        },
+        {
+          "itemId": "scp-series-9833",
+          "titleJP": "Ever Obstruction"
+        },
+        {
+          "itemId": "scp-series-9867",
+          "titleJP": "Baby Boomer Basking Shark"
+        },
+        {
+          "itemId": "scp-series-9937",
+          "titleJP": "A Better Path To Nowhere"
+        }
+      ],
       "lastSentWindow": "2026-10-18"
     }
   },
-  "updatedAt": "2026-10-19T01:47:41.164Z"
+  "updatedAt": "2026-11-03T12:49:02.405Z"
 }
