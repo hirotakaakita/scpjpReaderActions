@@ -44,7 +44,18 @@ function updateDictionary(dictionary, values) {
     // Unknown tags keep stable IDs. Do not guess cross-language equivalence.
     let id = /^[a-z][a-z0-9_-]*$/.test(value) ? value :
       `tag-${crypto.createHash('sha256').update(value).digest('hex').slice(0, 24)}`;
-    if (dictionary.tags[id]) throw new Error(`Tag ID collision: ${id}`);
+    if (dictionary.tags[id]) {
+      const entry = dictionary.tags[id];
+      // A retained schema-v2 catalog may seed a hash-only placeholder before
+      // the original text is observed. The exact derived ID identifies it;
+      // recover its alias without changing article IDs or saved translations.
+      if (id !== value && entry.aliases.length === 1 && entry.aliases[0] === id) {
+        entry.aliases.unshift(value);
+        index.set(value, id);
+        continue;
+      }
+      throw new Error(`Tag ID collision: ${id}`);
+    }
     dictionary.tags[id] = { aliases: [value], labels: {} };
     index.set(value, id);
     index.set(id, id);
