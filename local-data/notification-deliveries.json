@@ -804,6 +804,36 @@
       "startedAt": "2026-11-04T01:57:50.090Z",
       "messageName": "projects/scpjp-reader/messages/5792577125962421628",
       "sentAt": "2026-11-04T01:57:53.690Z"
+    },
+    {
+      "id": "th/2026-11-01",
+      "lang": "th",
+      "window": "2026-11-01",
+      "items": [
+        {
+          "itemId": "scp-series-3125",
+          "titleJP": "ผู้หลบหนี"
+        },
+        {
+          "itemId": "scp-series-4514",
+          "titleJP": "สิ่งที่ฆ่าคุณตายได้"
+        },
+        {
+          "itemId": "scp-series-th-042",
+          "titleJP": "สาวสำนึกบาป"
+        },
+        {
+          "itemId": "scp-series-th-044",
+          "titleJP": "กล่องสุ่มอวัยวะ"
+        },
+        {
+          "itemId": "scp-series-th-226",
+          "titleJP": "ม้าทะลุมิติ"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-04T16:57:58.526Z"
     }
   ]
 }
