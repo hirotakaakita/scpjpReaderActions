@@ -852,6 +852,32 @@
       "startedAt": "2026-11-04T16:57:58.526Z",
       "messageName": "projects/scpjp-reader/messages/2638163291872128763",
       "sentAt": "2026-11-04T16:58:08.703Z"
+    },
+    {
+      "id": "de/2026-11-01",
+      "lang": "de",
+      "window": "2026-11-01",
+      "items": [
+        {
+          "itemId": "scp-series-de-403",
+          "titleJP": "Der Stalker"
+        },
+        {
+          "itemId": "scp-series-de-408",
+          "titleJP": "FÜRCHTE MICH! … Bitte …"
+        },
+        {
+          "itemId": "scp-series-de-450",
+          "titleJP": "Das Wort bleibt stärker als das Schwert"
+        },
+        {
+          "itemId": "scp-series-de-496",
+          "titleJP": "BIG MISTER BIG"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-04T22:28:11.661Z"
     }
   ]
 }
