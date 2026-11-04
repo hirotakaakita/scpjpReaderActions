@@ -359,29 +359,8 @@
       "lastSentWindow": "2026-10-18"
     },
     "th": {
-      "items": [
-        {
-          "itemId": "scp-series-3125",
-          "titleJP": "ผู้หลบหนี"
-        },
-        {
-          "itemId": "scp-series-4514",
-          "titleJP": "สิ่งที่ฆ่าคุณตายได้"
-        },
-        {
-          "itemId": "scp-series-th-042",
-          "titleJP": "สาวสำนึกบาป"
-        },
-        {
-          "itemId": "scp-series-th-044",
-          "titleJP": "กล่องสุ่มอวัยวะ"
-        },
-        {
-          "itemId": "scp-series-th-226",
-          "titleJP": "ม้าทะลุมิติ"
-        }
-      ],
-      "lastSentWindow": "2026-10-18"
+      "items": [],
+      "lastSentWindow": "2026-11-01"
     },
     "ua": {
       "items": [
@@ -488,5 +467,5 @@
       "lastSentWindow": "2026-10-18"
     }
   },
-  "updatedAt": "2026-11-04T01:57:50.090Z"
+  "updatedAt": "2026-11-04T16:57:58.526Z"
 }
