@@ -67,113 +67,8 @@
       "lastSentWindow": "2026-10-18"
     },
     "en": {
-      "items": [
-        {
-          "itemId": "scp-series-7063",
-          "titleJP": "Sometimes I Wish I Could Just Fly Away, and Leave This Place to the Woods."
-        },
-        {
-          "itemId": "scp-series-8731",
-          "titleJP": "Still Water Sea Lion"
-        },
-        {
-          "itemId": "scp-series-9283",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9352",
-          "titleJP": "Autopsy Anomaly"
-        },
-        {
-          "itemId": "scp-series-9358",
-          "titleJP": "Herbarium Sheets"
-        },
-        {
-          "itemId": "scp-series-9362",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9368",
-          "titleJP": "◁𖨆 THE IRON ENSEMBLE"
-        },
-        {
-          "itemId": "scp-series-9397",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9419",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9447",
-          "titleJP": "The Whistler of Los Llanos"
-        },
-        {
-          "itemId": "scp-series-9472",
-          "titleJP": "The Mad MiG"
-        },
-        {
-          "itemId": "scp-series-9608",
-          "titleJP": "Hard-to-Contain Gastropod"
-        },
-        {
-          "itemId": "scp-series-9638",
-          "titleJP": "A Sinful Beast of Terrifying Savagery"
-        },
-        {
-          "itemId": "scp-series-9674",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9683",
-          "titleJP": "This is the Dawning"
-        },
-        {
-          "itemId": "scp-series-9713",
-          "titleJP": "Hell Greco"
-        },
-        {
-          "itemId": "scp-series-9720",
-          "titleJP": "(DESCRIPTION OF THIS ENTRY IS STRICTLY PROHIBITED)"
-        },
-        {
-          "itemId": "scp-series-9738",
-          "titleJP": "Funeral for Every Butterfly"
-        },
-        {
-          "itemId": "scp-series-9796",
-          "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9823",
-          "titleJP": "The Empath"
-        },
-        {
-          "itemId": "scp-series-9840",
-          "titleJP": "The No-Punching Bag"
-        },
-        {
-          "itemId": "scp-series-9847",
-          "titleJP": "Blue Rasberry Lollipop"
-        },
-        {
-          "itemId": "scp-series-9855",
-          "titleJP": "Doubles DNI"
-        },
-        {
-          "itemId": "scp-series-9865",
-          "titleJP": "The Flag"
-        },
-        {
-          "itemId": "joke-scps-1730",
-          "titleJP": "What Happened to Site-1337?"
-        },
-        {
-          "itemId": "scp-ex-777",
-          "titleJP": "Non-Euclidian stairs"
-        }
-      ],
-      "lastSentWindow": "2026-10-18"
+      "items": [],
+      "lastSentWindow": "2026-11-01"
     },
     "cn": {
       "items": [
@@ -593,5 +488,5 @@
       "lastSentWindow": "2026-10-18"
     }
   },
-  "updatedAt": "2026-11-03T12:49:02.405Z"
+  "updatedAt": "2026-11-04T01:57:50.090Z"
 }

@@ -800,8 +800,10 @@
         }
       ],
       "attempts": 1,
-      "status": "sending",
-      "startedAt": "2026-11-04T01:57:50.090Z"
+      "status": "sent",
+      "startedAt": "2026-11-04T01:57:50.090Z",
+      "messageName": "projects/scpjp-reader/messages/5792577125962421628",
+      "sentAt": "2026-11-04T01:57:53.690Z"
     }
   ]
 }
