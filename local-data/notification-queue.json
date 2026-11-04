@@ -140,25 +140,8 @@
       "lastSentWindow": "2026-10-04"
     },
     "de": {
-      "items": [
-        {
-          "itemId": "scp-series-de-403",
-          "titleJP": "Der Stalker"
-        },
-        {
-          "itemId": "scp-series-de-408",
-          "titleJP": "FÜRCHTE MICH! … Bitte …"
-        },
-        {
-          "itemId": "scp-series-de-450",
-          "titleJP": "Das Wort bleibt stärker als das Schwert"
-        },
-        {
-          "itemId": "scp-series-de-496",
-          "titleJP": "BIG MISTER BIG"
-        }
-      ],
-      "lastSentWindow": "2026-10-04"
+      "items": [],
+      "lastSentWindow": "2026-11-01"
     },
     "es": {
       "items": [
@@ -462,5 +445,5 @@
       "lastSentWindow": "2026-10-18"
     }
   },
-  "updatedAt": "2026-11-04T16:57:58.526Z"
+  "updatedAt": "2026-11-04T22:28:11.661Z"
 }
