@@ -115,13 +115,8 @@
       "lastSentWindow": "2026-11-01"
     },
     "ua": {
-      "items": [
-        {
-          "itemId": "scp-series-7819",
-          "titleJP": "Немає вільних кімнат"
-        }
-      ],
-      "lastSentWindow": null
+      "items": [],
+      "lastSentWindow": "2026-11-01"
     },
     "vn": {
       "items": [],
@@ -157,5 +152,5 @@
       "lastSentWindow": "2026-11-01"
     }
   },
-  "updatedAt": "2026-11-06T11:32:37.470Z"
+  "updatedAt": "2026-11-06T18:30:32.995Z"
 }
