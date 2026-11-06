@@ -2,69 +2,8 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [
-        {
-          "itemId": "joke-scps-405",
-          "titleJP": "ランダムページ"
-        },
-        {
-          "itemId": "joke-scps-1600",
-          "titleJP": "O5のみ閲覧可"
-        },
-        {
-          "itemId": "scp-series-jp-2383",
-          "titleJP": "不覚醒"
-        },
-        {
-          "itemId": "scp-series-jp-2532",
-          "titleJP": "貴腐"
-        },
-        {
-          "itemId": "scp-series-jp-3118",
-          "titleJP": "星天の光輪、あるいは神の肉片"
-        },
-        {
-          "itemId": "scp-series-jp-3534",
-          "titleJP": "闇寿司と学ぶドレミファソ または間抜けな殺人鬼"
-        },
-        {
-          "itemId": "scp-series-jp-3686",
-          "titleJP": "トリック・オア・トリート"
-        },
-        {
-          "itemId": "scp-series-jp-4026",
-          "titleJP": "いっしょおぶん てつぶん by dado"
-        },
-        {
-          "itemId": "scp-series-jp-4093",
-          "titleJP": "ドスケベレタスバトル"
-        },
-        {
-          "itemId": "scp-series-jp-4158",
-          "titleJP": "カエデの仔"
-        },
-        {
-          "itemId": "scp-series-jp-4380",
-          "titleJP": "膨腹"
-        },
-        {
-          "itemId": "scp-series-jp-4484",
-          "titleJP": "好洞穴性人型生物"
-        },
-        {
-          "itemId": "scp-series-jp-4577",
-          "titleJP": "かずねのかぞえうた"
-        },
-        {
-          "itemId": "scp-series-jp-4893",
-          "titleJP": "指定暴力団　永組／毘威組"
-        },
-        {
-          "itemId": "scp-jp-ex-2106",
-          "titleJP": "アムネストール"
-        }
-      ],
-      "lastSentWindow": "2026-10-18"
+      "items": [],
+      "lastSentWindow": "2026-11-01"
     },
     "en": {
       "items": [],
@@ -383,5 +322,5 @@
       "lastSentWindow": "2026-11-01"
     }
   },
-  "updatedAt": "2026-11-05T17:53:12.683Z"
+  "updatedAt": "2026-11-06T11:32:37.470Z"
 }
