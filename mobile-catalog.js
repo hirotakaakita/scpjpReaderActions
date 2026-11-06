@@ -3,6 +3,8 @@ const path = require('node:path');
 const zlib = require('node:zlib');
 const crypto = require('node:crypto');
 const { LANGUAGES } = require('./languages');
+const { readDictionary, updateDictionary, localizeTags, indexDictionary } = require('./tag-dictionary');
+const { normalize } = require('./related-documents');
 
 // This is a delivery format, never a replacement for the crawler's source data.
 const FIELDS = new Set([
@@ -35,8 +37,16 @@ function mobileCatalog(source, language) {
   return { schemaVersion: 1, language, timestamp: source.timestamp, totalCount: data.length, data };
 }
 
-function generateMobileCatalogs(input, output = path.join(input, 'mobile-v1')) {
+function generateCatalogChannel(input, output, includeAdditional) {
   const reports = [];
+  const additionalFile = path.join(input, 'related-documents', 'catalog.json');
+  const additional = !includeAdditional ? null : fs.existsSync(additionalFile) ? JSON.parse(fs.readFileSync(additionalFile)) :
+    fs.existsSync(`${additionalFile}.gz`) ? JSON.parse(zlib.gunzipSync(fs.readFileSync(`${additionalFile}.gz`))) : null;
+  if (additional && (additional.schemaVersion !== 1 || !Array.isArray(additional.data) || additional.totalCount !== additional.data.length || !Number.isFinite(Date.parse(additional.timestamp)))) throw Error('Invalid additional document catalog');
+  const dictionaryFile = path.join(input, '..', 'tag-dictionary.json');
+  const dictionary = fs.existsSync(dictionaryFile) ? readDictionary(dictionaryFile) : { version: 1, tags: {} };
+  if (additional) updateDictionary(dictionary, additional.data.flatMap(r => r.tags || []));
+  const tagIndex = indexDictionary(dictionary);
   for (const language of Object.keys(LANGUAGES)) {
     const file = path.join(input, language, 'scp-data.json');
     if (!fs.existsSync(file)) continue;
@@ -46,18 +56,36 @@ function generateMobileCatalogs(input, output = path.join(input, 'mobile-v1')) {
     if (meta.lastUpdated !== source.timestamp || meta.totalCount !== source.totalCount) {
       throw new Error(`Source/meta mismatch: ${language}`);
     }
-    const json = Buffer.from(JSON.stringify(mobileCatalog(source, language)), 'utf8');
+    const delivery = mobileCatalog(source, language);
+    const ids = new Set(delivery.data.map(r => r.itemId));
+    const pageUrls = new Set(source.data.map(r => normalize(r.isTranslatedJP !== false && r.urlJP ? r.urlJP : r.urlEN)?.url));
+    const documents = (additional?.data || []).filter(r => r.language === language && !pageUrls.has(r.url)).map(r => ({
+      itemId: r.itemId, titleJP: r.title, urlJP: r.url, isTranslatedJP: true,
+      extractedFrom: r.pageType, pageType: r.pageType, contentType: r.contentType,
+      lastUpdated: r.lastUpdated, descriptionExcerpt: r.descriptionExcerpt,
+      tags: localizeTags(r.tags || [], language, dictionary, tagIndex),
+    }));
+    for (const row of documents) {
+      if (!row.itemId.startsWith('document-') || ids.has(row.itemId) || REQUIRED_STRINGS.some(k => typeof row[k] !== 'string') || !row.titleJP || !Number.isFinite(Date.parse(row.lastUpdated)) || !normalize(row.urlJP)) throw Error(`Invalid additional article: ${row.itemId}`);
+      ids.add(row.itemId);
+    }
+    delivery.data.push(...documents);
+    delivery.totalCount = delivery.data.length;
+    if (additional && Date.parse(additional.timestamp) > Date.parse(delivery.timestamp)) delivery.timestamp = additional.timestamp;
+    const json = Buffer.from(JSON.stringify(delivery), 'utf8');
     const compressed = zlib.gzipSync(json, { level: 9 });
-    if (source.totalCount > 200000 || json.length > 128 * 1024 * 1024 || compressed.length > 32 * 1024 * 1024) {
+    if (delivery.totalCount > 200000 || json.length > 128 * 1024 * 1024 || compressed.length > 32 * 1024 * 1024) {
       throw new Error(`Mobile client limits exceeded: ${language}`);
     }
     const sha256 = crypto.createHash('sha256').update(compressed).digest('hex');
     const fileName = `catalog-${sha256}.json.gz`;
     const directory = path.join(output, language);
     fs.mkdirSync(directory, { recursive: true });
+    const pointer = path.join(directory, 'manifest.json');
+    const previousFile = fs.existsSync(pointer) ? JSON.parse(fs.readFileSync(pointer)).fileName : null;
     fs.writeFileSync(path.join(directory, fileName), compressed);
     const manifest = {
-      schemaVersion: 1, language, timestamp: source.timestamp, totalCount: source.totalCount,
+      schemaVersion: 1, language, timestamp: delivery.timestamp, totalCount: delivery.totalCount,
       fileName, bytes: compressed.length, decodedBytes: json.length, sha256,
     };
     // Publish the pointer last. Hash filenames prevent mixed CDN cache revisions.
@@ -65,14 +93,24 @@ function generateMobileCatalogs(input, output = path.join(input, 'mobile-v1')) {
     fs.writeFileSync(pending, JSON.stringify(manifest) + '\n', 'utf8');
     fs.renameSync(pending, path.join(directory, 'manifest.json'));
     for (const name of fs.readdirSync(directory)) {
-      if (/^catalog-[a-f0-9]{64}\.json\.gz$/.test(name) && name !== fileName) {
+      if (previousFile !== fileName && /^catalog-[a-f0-9]{64}\.json\.gz$/.test(name) && name !== fileName && name !== previousFile) {
         fs.unlinkSync(path.join(directory, name));
       }
     }
-    reports.push({ language, sourceBytes: sourceBytes.length, jsonBytes: json.length, gzipBytes: compressed.length });
+    reports.push({ language, additionalCount: documents.length, totalCount: delivery.totalCount, sourceBytes: sourceBytes.length, jsonBytes: json.length, gzipBytes: compressed.length });
   }
   if (!reports.length) throw new Error('No source catalogs found');
   return reports;
+}
+
+function generateMobileCatalogs(input, output = path.join(input, 'mobile-v1')) {
+  // Keep the released app's endpoint and metadata contract unchanged.
+  const legacy = generateCatalogChannel(input, output, false);
+  const extended = generateCatalogChannel(input, path.join(path.dirname(output), 'mobile-v2'), true);
+  return [
+    ...legacy.map(report => ({ channel: 'mobile-v1', ...report })),
+    ...extended.map(report => ({ channel: 'mobile-v2', ...report })),
+  ];
 }
 
 if (require.main === module) {

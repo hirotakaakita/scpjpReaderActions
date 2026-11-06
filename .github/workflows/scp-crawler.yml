@@ -156,7 +156,14 @@ jobs:
       - name: Reject duplicate article IDs before publication
         run: node catalog-identity.js
 
-      - name: Generate compatible mobile catalogs
+      - name: Build additional document catalog without generating a research board
+        run: |
+          node --test test/related-documents.test.js
+          node related-documents.js
+        env:
+          RELATED_DOCUMENT_MAX_REQUESTS: '300'
+
+      - name: Generate compatible mobile-v1 and extended mobile-v2 catalogs
         run: |
           node --test test/mobile-catalog.test.js
           node mobile-catalog.js

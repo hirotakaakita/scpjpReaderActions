@@ -5,6 +5,7 @@ const axios = require('axios');
 const { publicTags } = require('./public-tags');
 const { LANGUAGES, DEFAULT_ENTRY_PATTERN } = require('./languages');
 const { articleUrl, deduplicateArticles } = require('./catalog-identity');
+const { capture: captureRelatedDocument } = require('./related-documents');
 
 const CRAWLER_USER_AGENT = 'Mozilla/5.0 (compatible; SCPCrawler/2.0; Multi-Language)';
 // 一部ページ（PLのlista-pl等）はクローラー系UAを503でブロックするため、
@@ -546,13 +547,16 @@ class LocalSCPCrawler {
           }
         });
 
-        return withDom(response.data, document => ({
+        return withDom(response.data, document => {
+          captureRelatedDocument(scpUrl, response.data, 'html', undefined, document);
+          return {
           fetchSucceeded: true,
           objectClass: extractObjectClassFromDocument(document),
           rating: extractRatingFromDocument(document),
           imageUrl: extractImageUrlFromDocument(document, scpUrl),
           ...extractDescriptionAndTagsFromDocument(document),
-        }));
+          };
+        });
       } catch (error) {
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
         if (attempt === maxRetries) return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };

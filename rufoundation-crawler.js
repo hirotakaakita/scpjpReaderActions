@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const { deduplicateArticles } = require('./catalog-identity');
+const { capture: captureRelatedDocument } = require('./related-documents');
 
 const API_BASE_URL = 'https://scpfoundation.net';
 const EN_BASE_URL = 'https://scp-wiki.wikidot.com';
@@ -217,6 +218,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     if (needsDetails && !metadataOnly) {
       await sleep(Number(process.env.RU_API_REQUEST_INTERVAL_MS || 150));
       detail = await request(`${API_BASE_URL}/api/articles/${encodeURIComponent(pageId)}`);
+      captureRelatedDocument(localUrl(pageId), { ...article, ...detail }, 'ftml', path.join(outputDir, 'related-documents'));
     }
     const source = detail?.source || old?.source || '';
     // Repair previously cached attachment URLs without refetching every body.

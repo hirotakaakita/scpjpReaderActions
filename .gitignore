@@ -23,3 +23,7 @@ logs/
 *.log
 # Crawler outputs
 partial-data/
+
+# The additional catalog is persisted as gzip; JSON is a local intermediate.
+/local-data/related-documents/catalog.json
+/.task-logs/
