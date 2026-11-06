@@ -1212,6 +1212,20 @@
       "startedAt": "2026-11-06T11:32:37.470Z",
       "messageName": "projects/scpjp-reader/messages/-5187222864915810428",
       "sentAt": "2026-11-06T11:32:44.566Z"
+    },
+    {
+      "id": "ua/2026-11-01",
+      "lang": "ua",
+      "window": "2026-11-01",
+      "items": [
+        {
+          "itemId": "scp-series-7819",
+          "titleJP": "Немає вільних кімнат"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-06T18:30:32.995Z"
     }
   ]
 }
