@@ -128,9 +128,12 @@ function addTranslatedLanguages(baseOutputDir, languages) {
       tags: publicTags(item.tags),
       translatedLanguages: [...(translatedByItem.get(item.itemId) || [])],
     }));
-    fs.writeFileSync(filePath, stringifyAsciiSafe(catalog), 'utf8');
+    fs.writeFileSync(filePath + '.tmp', stringifyAsciiSafe(catalog), 'utf8');
+    fs.renameSync(filePath + '.tmp', filePath);
     if (lang === 'jp') {
-      fs.writeFileSync(path.join(baseOutputDir, 'scp-data.json'), stringifyAsciiSafe(catalog), 'utf8');
+      const mirror = path.join(baseOutputDir, 'scp-data.json');
+      fs.writeFileSync(mirror + '.tmp', stringifyAsciiSafe(catalog), 'utf8');
+      fs.renameSync(mirror + '.tmp', mirror);
     }
   }
 }

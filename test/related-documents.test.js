@@ -19,6 +19,16 @@ test('only publisher pages are candidates; aliases and tracking URLs normalize',
   assert.equal(normalize('/log?utm_source=a', seed).url, 'https://scp-wiki.wikidot.com/log');
 });
 
+test('article fetch accepts publisher pagination without widening discovery',()=>{
+  const {articleFetchTarget}=require('../related-documents');
+  for(const url of ['https://scp-jp.wikidot.com/story/offset/1/page13_limit/1/noredirect/true',
+    'http://www.lafundacionscp.wikidot.com/eventos-extranormales-es/p/999#24']){
+    assert(articleFetchTarget(url));assert.equal(normalize(url),null);
+  }
+  for(const url of ['https://example.com/story/p/1','https://scp-jp.wikidot.com/system:page-create/p/1',
+    'https://scp-jp.wikidot.com/story/p/1?action=edit','https://user:pass@scp-jp.wikidot.com/story/p/1'])assert.equal(articleFetchTarget(url),null);
+});
+
 test('extracts body links, author and explicit origin links without navigation or new pages', () => {
   const r = extractHtml(seed, html(`<a href="${log}">log</a><a href="#x">anchor</a><a class="newpage" href="/missing">missing</a>
     <nav role="navigation"><a href="/nav">nav</a></nav><div class="licensebox"><a href="https://www.wikidot.com/user:info/author">Author</a></div>
@@ -37,6 +47,12 @@ test('API captures linked documents without inventing translations', () => {
   }, date);
   assert.deepEqual(r.links, ['https://scpfoundation.net/document-1001-ru-1']);
   assert.deepEqual(r.translations, []);
+});
+
+test('an embedded module error does not hide an otherwise readable article',()=>{
+  const r=extractHtml(seed,html('<p>Actual narrative text.</p><div class="error-block">ListPages error: no such category</div>'),date);
+  assert.equal(r.descriptionExcerpt,'Actual narrative text.');
+  assert.throws(()=>extractHtml(seed,html('<div class="error-block">Temporary module error</div>')));
 });
 
 test('origin follows explicit evidence, not hosting site or a single referenced SCP', () => {

@@ -32,10 +32,10 @@ function fixture(t) {
   const extractDetails = crawler.extractScpDetailsFromPage.bind(crawler);
   // Most cases exercise the full catalog path with a single failed attempt.
   crawler.extractScpDetailsFromPage = url => extractDetails(url, 1);
-  const crawl = async existing => {
+  const crawl = async (existing, expectedCount = 1) => {
     const rows = await crawler.extractScpDataFromUrl(listingUrl,
       new Map(existing ? [[existing.itemId, existing]] : []), 1);
-    assert.equal(rows.length, 1);
+    assert.equal(rows.length, expectedCount);
     return rows[0];
   };
   return { crawler, extractDetails, crawl, setFailure: value => { failure = value; },
@@ -68,10 +68,8 @@ test('old tags and version survive failure and refresh on the next crawl', async
 
 test('new article failure stays pending; a successful empty tag list is valid', async t => {
   const f = fixture(t); f.setFailure(true);
-  const failed = await f.crawl();
-  assert.deepEqual(failed.tags, []);
-  assert.equal(failed.tagVersion, null);
-  assert.equal(failed.tagFetchStatus, 'failed');
+  const failed = await f.crawl(undefined, 0);
+  assert.equal(failed, undefined);
   f.setFailure(false);
   f.setHtml('<div id="page-content"><p>Article with no tags</p></div>');
   const empty = await f.crawl(failed);
@@ -95,7 +93,7 @@ test('failed forced refresh at current version retries without the force flag', 
   assert.equal(failed.tagFetchStatus, 'failed');
   delete process.env.FORCE_REFRESH_TAGS;
   f.setFailure(false);
-  f.setHtml('<div class="page-tags"><a>new-tag</a></div>');
+  f.setHtml('<div id="page-content">Real article</div><div class="page-tags"><a>new-tag</a></div>');
   const recovered = await f.crawl(failed);
   assert.deepEqual(recovered.tags, ['new-tag']);
   assert.equal(recovered.tagFetchStatus, 'success');

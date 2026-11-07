@@ -7,6 +7,7 @@ const zlib = require('node:zlib');
 const axios = require('axios');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const { LANGUAGES } = require('./languages');
+const { inspectArticlePage } = require('./article-page');
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
 const hosts = new Map(Object.entries(LANGUAGES).map(([language, config]) => [new URL(config.baseUrl).hostname, language]));
 hosts.set('scpfoundation.net', 'ru');
@@ -25,25 +26,51 @@ function normalize(value, base) {
   } catch { return null; }
 }
 
+// A published article may redirect to one of its paginated views. Accept that
+// view for fetching only; it is not a new catalog entry or a discovery source.
+function articleFetchTarget(value) {
+  try {
+    const u = new URL(value);
+    if (u.username || u.password || u.port || !['http:', 'https:'].includes(u.protocol)) return null;
+    if (u.hostname.startsWith('www.') && hosts.has(u.hostname.slice(4))) u.hostname = u.hostname.slice(4);
+    if (normalize(u.href)) return u.href;
+    if (u.search || !/^\/[^/]+(?:\/(?:p|offset|page\d+_limit)\/\d+)+(?:\/noredirect\/true)?$/.test(u.pathname)) return null;
+    return normalize(u.origin + '/' + u.pathname.split('/')[1]) ? u.href : null;
+  } catch { return null; }
+}
+
 function extractHtml(url, html, now = new Date().toISOString(), existingDocument = null) {
   const page = normalize(url);
   if (!page) throw Error('Unsupported document URL');
-  const dom = existingDocument ? null : new JSDOM(String(html), { url: page.url, virtualConsole: new VirtualConsole() });
+  const dom = existingDocument ? null : new JSDOM(String(html).replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, ''), { url: page.url, virtualConsole: new VirtualConsole() });
   try {
     const d = existingDocument || dom.window.document, root = d.querySelector('#page-content')?.cloneNode(true);
     const title = (d.querySelector('#page-title')?.textContent || d.title || '').trim();
-    if (!root || !title || d.querySelector('#page-content .error-block,.page-not-found') || /^(?:page not found|page does not exist|access denied|security check|just a moment)/i.test(title)) throw Error('Not an article page');
+    const availability = inspectArticlePage(d);
+    if (!availability.usable) {
+      const error=Error('Unavailable article: '+availability.reason);error.articleUnavailable=availability.terminal;throw error;
+    }
+    const block=d.querySelector('#page-content .error-block,.page-not-found');
+    const substantive = root?.cloneNode(true);
+    if (substantive) for (const n of substantive.querySelectorAll(excluded + ',.error-block')) n.remove();
+    const errorOnly = block && !substantive?.textContent.trim() && !substantive?.querySelector('img,svg,canvas,video,audio,iframe');
+    if(!root||!title||errorOnly){const error=Error('Unrecognized article structure');
+      error.articleUnavailable=!!block&&/not found|does not exist|no existe|存在しません/i.test(block.textContent);throw error;}
     const tags = [...d.querySelectorAll('.page-tags a')].map(a => a.textContent.trim()).filter(Boolean);
     const translations = [...d.querySelectorAll('a[rel~="alternate"][hreflang],link[rel~="alternate"][hreflang],.translation-source a[href],a[data-translation-source]')]
       .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(Boolean);
     const authors = [...d.querySelectorAll('.licensebox a,.credit a,#u-credit-view a')]
       .filter(a => /wikidot\.com\/user:info\//i.test(a.href)).map(a => ({ name: a.textContent.trim(), url: a.href }));
-    for (const n of root.querySelectorAll(excluded)) n.remove();
+    for (const n of root.querySelectorAll(excluded + ',.error-block')) n.remove();
     const links = [...new Set([...root.querySelectorAll('a[href]')].filter(a => !a.classList.contains('newpage') && !a.getAttribute('href').startsWith('#'))
       .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(v => v && v !== page.url))].sort();
+    // Lazy import: the ordinary crawler also calls this extractor with its DOM.
+    const metadata = require('./local-crawler');
     return { ...page, title, tags, translations: [...new Set(translations)].sort(), authors,
+      objectClass: metadata.extractObjectClassFromDocument(d), rating: metadata.extractRatingFromDocument(d),
+      imageUrl: metadata.extractImageUrlFromDocument(d,page.url),
       links, descriptionExcerpt: root.textContent.trim().replace(/\s+/g, ' ').slice(0, 250),
-      contentSha256: hash(String(html)), checkedAt: now, format: 'html' };
+      contentSha256: hash(String(html)), checkedAt: now, format: 'html', availabilityVersion: 1 };
   } finally { dom?.window.close(); }
 }
 
@@ -55,8 +82,10 @@ function extractApi(url, article, now = new Date().toISOString()) {
     const target = normalize(match[1].trim(), `${page.url}/../`);
     if (target && target.url !== page.url) links.add(target.url);
   }
+  const metadata = require('./rufoundation-crawler');
   return { ...page, title: article.title, tags: (article.tags || []).map(t => typeof t === 'string' ? t : t.name).filter(Boolean),
-    links: [...links].sort(), translations: [], authors: [], format: 'ftml', contentSha256: hash(source), checkedAt: now,
+    objectClass: metadata.extractObjectClass(source),rating:metadata.normalizeRating(article.rating),imageUrl:metadata.extractImageUrl(source,page.slug),
+    links: [...links].sort(), translations: [], authors: [], format: 'ftml', contentSha256: hash(source), checkedAt: now, availabilityVersion: 1,
     descriptionExcerpt: source.replace(/\[\[[\s\S]*?\]\]/g, ' ').replace(/\s+/g, ' ').slice(0, 250) };
 }
 
@@ -194,7 +223,8 @@ async function fetchRecord(url) {
   if (!page) throw Error('Unsupported URL');
   // Validate every redirect so an allowlisted link cannot redirect requests to arbitrary hosts.
   const request = async (target, depth = 0) => {
-    if (!normalize(target) || depth > 5) throw Error('Unsupported redirect');
+    target = articleFetchTarget(target);
+    if (!target || depth > 5) throw Error('Unsupported redirect');
     const response = await axios.get(target, { timeout: 20000, maxRedirects: 0, maxContentLength: 4 * 1024 * 1024,
       validateStatus: s => (s >= 200 && s < 400), headers: { 'User-Agent': 'SCPReaderCatalog/1.0', Accept: 'text/html,application/json' } });
     if (response.status >= 300) return request(new URL(response.headers.location, target).href, depth + 1);
@@ -205,10 +235,13 @@ async function fetchRecord(url) {
     const response = await axios.get(`https://scpfoundation.net/api/articles/${encodeURIComponent(page.slug)}`, {
       timeout: 20000, maxRedirects: 0, maxContentLength: 4 * 1024 * 1024, headers: { Accept: 'application/json' },
     });
-    return extractApi(url, response.data);
+    const record = extractApi(url, response.data);
+    return record;
   }
   const configuredScheme = new URL(LANGUAGES[page.language].baseUrl).protocol;
-  return extractHtml(url, await request(url.replace(/^https:/, configuredScheme)));
+  const html = await request(url.replace(/^https:/, configuredScheme));
+  const record = extractHtml(url, html);
+  return record;
 }
 
 async function run({ root = __dirname, maxRequests = 300, intervalMs = 500, maxDurationMs = 180000, request = fetchRecord, importDirectory = null, now = new Date().toISOString() } = {}) {
@@ -256,4 +289,4 @@ if (require.main === module) {
   if (!Number.isInteger(count) || count < 0 || count > 1000) throw Error('Invalid request limit');
   run({ maxRequests: count, importDirectory: process.env.RELATED_DOCUMENT_IMPORT_DIR || null }).catch(error => { console.error(error); process.exitCode = 1; });
 }
-module.exports = { normalize, extractHtml, extractApi, capture, classify, buildCatalogs, run };
+module.exports = { normalize, articleFetchTarget, extractHtml, extractApi, capture, classify, buildCatalogs, run, fetchRecord, readCatalogs, loadCache, saveCache };

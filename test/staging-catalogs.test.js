@@ -39,24 +39,24 @@ test('missing configured language still fails validation', t => {
   assert.throws(() => validate(root, ['en', 'ru']), /ENOENT/);
 });
 
-test('complete API index bootstrap satisfies app schema and preserves English fallback identities', async t => {
+test('verified API bootstrap satisfies app schema without untranslated fallback rows', async t => {
   const { root, output, timestamp } = fixture(t);
   const articles = [
     { pageId: 'scp-002', title: 'SCP-002 - Translation', tags: [], createdAt: timestamp, updatedAt: timestamp },
     { pageId: 'scp-002-ru', title: 'SCP-002-RU - Original', tags: [], createdAt: timestamp, updatedAt: timestamp },
   ];
-  const result = await crawlRussianApi({ root, metadataOnly: true, request: async url => {
-    assert.equal(url, 'https://scpfoundation.net/api/articles');
-    return articles;
+  const result = await crawlRussianApi({ root, request: async url => {
+    if (url === 'https://scpfoundation.net/api/articles') return articles;
+    return { source: '**Object Class:** Safe\n\n**Description:** Verified detail.' };
   } });
-  assert.equal(result.totalCount, 3);
+  assert.equal(result.totalCount, 2);
   const translated = result.data.find(item => item.itemId === 'scp-series-002');
   assert.equal(translated.isTranslatedJP, true);
   assert.equal(translated.createdAt, timestamp);
-  assert.equal(translated.detailFetchStatus, 'pending');
-  assert.equal(translated.descriptionExcerpt, null);
+  assert.equal(translated.detailFetchStatus, 'success');
+  assert.equal(translated.descriptionExcerpt, 'Verified detail.');
   assert.equal(translated.extractedFrom, 'scp-series');
-  assert.equal(result.data.find(item => item.itemId === 'scp-series-003').isTranslatedJP, false);
+  assert.equal(result.data.some(item => item.itemId === 'scp-series-003'), false);
   assert.ok(result.data.some(item => item.itemId === 'scp-series-002-ru'));
   assert.equal(mergeLanguage('ru', path.join(root, 'partial-data'), output), true);
   validate(root, ['en', 'ru']);
@@ -67,7 +67,7 @@ test('complete API index bootstrap satisfies app schema and preserves English fa
     if (url.endsWith('/api/articles')) return articles;
     return { source: '**Object Class:** Safe\n\n**Description:** Verified detail.' };
   } });
-  assert.equal(calls.length, 3);
+  assert.equal(calls.length, 1);
   assert.equal(refreshed.data.find(item => item.itemId === 'scp-series-002').detailFetchStatus, 'success');
 
   const file = path.join(output, 'ru', 'scp-data.json');

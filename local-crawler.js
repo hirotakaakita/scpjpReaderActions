@@ -1,3 +1,4 @@
+const { inspectArticlePage } = require('./article-page');
 const fs = require('fs');
 const path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
@@ -423,7 +424,7 @@ class LocalSCPCrawler {
 
       const isUnwritten = link.classList.contains('newpage');
       // 支部独自リストのnewpage=記事が存在しない枠のため除外する
-      if (isUnwritten && pageConfig.skipUnwritten) return;
+      if (isUnwritten) return;
 
       candidates.push({
         href: href,
@@ -451,7 +452,7 @@ class LocalSCPCrawler {
       if (!scpNumberMatch) return;
 
       const isUnwritten = link.classList.contains('newpage');
-      if (isUnwritten && pageConfig.skipUnwritten) return;
+      if (isUnwritten) return;
 
       const scpNumber = scpNumberMatch[1];
 
@@ -548,6 +549,8 @@ class LocalSCPCrawler {
         });
 
         return withDom(response.data, document => {
+          const availability = inspectArticlePage(document, response.status);
+          if (!availability.usable) return { fetchSucceeded: false, articleUnavailable: availability.terminal, unavailableReason: availability.reason, tags: [] };
           captureRelatedDocument(scpUrl, response.data, 'html', undefined, document);
           return {
           fetchSucceeded: true,
@@ -558,6 +561,7 @@ class LocalSCPCrawler {
           };
         });
       } catch (error) {
+        if ([404, 410].includes(error.response?.status)) return { fetchSucceeded: false, articleUnavailable: true, unavailableReason: 'not_found', tags: [] };
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
         if (attempt === maxRetries) return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };
         await new Promise(resolve => setTimeout(resolve, 2000));
@@ -669,6 +673,7 @@ class LocalSCPCrawler {
           if (urlForArticleExtraction && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
+            if (details.articleUnavailable || (!details.fetchSucceeded && isNewItem)) return null;
             if (urlForImageExtraction && !existingItem?.imageUrl) imageUrl = details.imageUrl || imageUrl;
             if (refreshObjectClass || forceRefreshDetails) objectClass = details.objectClass || objectClass;
             rating = details.rating ?? rating;
@@ -727,7 +732,7 @@ class LocalSCPCrawler {
           { length: Math.min(entryConcurrency, rawEntries.length) },
           () => worker()
         ));
-        scpEntries.push(...results);
+        scpEntries.push(...results.filter(Boolean));
 
         console.log(`${url}から${scpEntries.length}件のデータを抽出完了\n`);
         this.processedCount++;
@@ -932,4 +937,5 @@ if (require.main === module) {
   });
 }
 
-module.exports = { LocalSCPCrawler, stringifyAsciiSafe, variantSlugPart, buildEntries };
+module.exports = { LocalSCPCrawler, stringifyAsciiSafe, variantSlugPart, buildEntries,
+  extractObjectClassFromDocument, extractRatingFromDocument, extractImageUrlFromDocument };

@@ -96,7 +96,7 @@ test('crawler never inherits details from a different URL with the same old ID',
   crawler.displayProgress = () => {};
   t.mock.method(axios, 'get', async () => ({ status: 200,
     data: '<ul><li><a href="/scp-1380">SCP-1380</a> - Correct</li></ul>' }));
-  crawler.extractScpDetailsFromPage = async () => ({ fetchSucceeded: false, tags: [], tagVersion: null });
+  crawler.extractScpDetailsFromPage = async () => ({ fetchSucceeded: true, tags: [], tagVersion: null });
   const old = row('scp-series-1380', `${crawler.baseUrl}/scp-1380-ru`, {
     imageUrl: 'wrong-image', objectClass: 'wrong-class', descriptionExcerpt: 'wrong-excerpt', tags: ['wrong-tag'],
   });

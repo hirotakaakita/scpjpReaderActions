@@ -72,7 +72,8 @@ test('workflow generates mobile catalogs after final legacy updates and before p
   assert.ok(workflow.indexOf('node mobile-catalog.js') > workflow.indexOf('run: node apply-manga-flags.js'));
   assert.ok(workflow.indexOf('node mobile-catalog.js') > workflow.indexOf('run: node catalog-identity.js'));
   assert.ok(workflow.indexOf('node mobile-catalog.js') < workflow.indexOf('git add local-data/'));
-  assert.ok(workflow.indexOf('node related-documents.js') < workflow.indexOf('node mobile-catalog.js'));
+  assert.ok(workflow.includes('node merge-catalog-indexes.js'));
+  assert.ok(workflow.indexOf('node merge-catalog-indexes.js') < workflow.indexOf('node mobile-catalog.js'));
 });
 
 test('additional documents join the ordinary data array by language with a new delivery timestamp', t => {
@@ -96,9 +97,12 @@ test('additional documents join the ordinary data array by language with a new d
   const result = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(output, manifest.fileName))));
   assert.equal(result.timestamp, extra.timestamp); assert.equal(manifest.timestamp, extra.timestamp);
   assert.equal(result.totalCount, 2); assert.equal(manifest.totalCount, 2);
-  assert.deepEqual(result.data[0], mobileCatalog(source, 'jp').data[0]);
+  const expected = mobileCatalog(source, 'jp').data[0];
+  expected.translatedLanguages = [...expected.translatedLanguages].sort();
+  assert.deepEqual(result.data[0], expected);
   assert.equal(result.data[1].itemId, document.itemId);
   assert.equal(result.data[1].urlJP, document.url);
+  assert.deepEqual(result.data[1].translatedLanguages,['jp']);
   assert.deepEqual(result.data[1].tags, [{ id: 'experiment', label: 'experiment' }]);
   assert.equal(JSON.parse(fs.readFileSync(path.join(input, 'jp/scp-data.json'))).totalCount, 1);
   const oldOutput = path.join(input, 'mobile-v1/jp');

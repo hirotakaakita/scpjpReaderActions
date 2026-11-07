@@ -97,6 +97,14 @@ jobs:
           FORCE_REFRESH_DESCRIPTION: ${{ inputs.force_refresh_description == true && '1' || '0' }}
           FORCE_REFRESH_TAGS: ${{ inputs.force_refresh_tags == true && '1' || '0' }}
 
+      - name: Crawl official article indexes
+        continue-on-error: true
+        run: node catalog-indexes.js ${{ matrix.lang }}
+        env:
+          INDEX_MAX_REQUESTS: '600'
+          INDEX_MAX_DURATION_MS: '300000'
+          CRAWL_REQUEST_INTERVAL_MS: '500'
+
       - name: Upload partial data
         uses: actions/upload-artifact@v7
         with:
@@ -156,14 +164,13 @@ jobs:
       - name: Reject duplicate article IDs before publication
         run: node catalog-identity.js
 
-      - name: Build additional document catalog without generating a research board
+      - name: Merge catalogs collected from official article indexes
         run: |
-          node --test test/related-documents.test.js
-          node related-documents.js
-        env:
-          RELATED_DOCUMENT_MAX_REQUESTS: '300'
+          node --test test/catalog-indexes.test.js test/article-page.test.js
+          node merge-catalog-indexes.js
+          node validate-catalog-indexes.js
 
-      - name: Generate compatible mobile-v1 and extended mobile-v2 catalogs
+      - name: Generate combined compatible mobile catalogs
         run: |
           node --test test/mobile-catalog.test.js
           node mobile-catalog.js

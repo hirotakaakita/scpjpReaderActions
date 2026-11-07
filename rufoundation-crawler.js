@@ -213,11 +213,16 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     const old = existingMap.get(itemId) || existingMap.get(pageId);
     const branches = branchFromTags(article.tags, pageId);
     const sourceBranch = branches.includes('ru') ? 'ru' : branches[0];
-    const needsDetails = !old || forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt;
+    const needsDetails = !old || old.availabilityVersion !== 1 ||
+      (article.updatedAt && article.updatedAt !== old.sourceUpdatedAt) ||
+      forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt;
     let detail = null;
+    if(needsDetails && metadataOnly && old?.availabilityVersion !== 1)return null;
     if (needsDetails && !metadataOnly) {
       await sleep(Number(process.env.RU_API_REQUEST_INTERVAL_MS || 150));
-      detail = await request(`${API_BASE_URL}/api/articles/${encodeURIComponent(pageId)}`);
+      try{detail = await request(`${API_BASE_URL}/api/articles/${encodeURIComponent(pageId)}`);}catch(e){if([404,410].includes(e.response?.status))return null;throw e;}
+      if(typeof detail?.source !== 'string')throw Error('Unexpected RU article structure: '+pageId);
+      if(!detail.source.trim())return null;
       captureRelatedDocument(localUrl(pageId), { ...article, ...detail }, 'ftml', path.join(outputDir, 'related-documents'));
     }
     const source = detail?.source || old?.source || '';
@@ -248,6 +253,8 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       descriptionExcerpt,
       detailFetchStatus: detail ? 'success' : (old?.detailFetchStatus ||
         (objectClass && descriptionExcerpt ? 'success' : 'pending')),
+      availabilityVersion:detail ? 1 : old?.availabilityVersion,
+      sourceUpdatedAt:article.updatedAt || null,
       tags,
       tagVersion: forceTags || !old?.tagVersion ? TAG_VERSION : Math.max(old.tagVersion, TAG_VERSION),
       tagFetchStatus: 'success',
@@ -270,11 +277,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     }
   });
   await Promise.all(workers);
-  const translatedIds = new Set(result.map(item => item.itemId));
-  for (const item of english.data || []) {
-    if (!item.itemId || !/^scp-/.test(item.itemId) || translatedIds.has(item.itemId)) continue;
-    result.push(fallbackItem(item));
-  }
+  for(let i=result.length-1;i>=0;i--)if(!result[i])result.splice(i,1);
   result.sort((a, b) => String(a.itemId).localeCompare(String(b.itemId), 'en', { numeric: true }));
 
   const duration = Math.round((Date.now() - startedAt.getTime()) / 1000);

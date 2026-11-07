@@ -27,3 +27,18 @@ test('RuFoundation branch tags identify original and translated branches', () =>
   assert.deepEqual(branchFromTags(['\u0444\u0438\u043b\u0438\u0430\u043b:en'], 'scp-5538'), ['en']);
   assert.deepEqual(branchFromTags(['\u0444\u0438\u043b\u0438\u0430\u043b:en', '\u0444\u0438\u043b\u0438\u0430\u043b:ru'], 'scp-1001-ru'), ['en', 'ru']);
 });
+test('RuFoundation API excludes empty/404 pages and does not append untranslated English placeholders',async t=>{
+  const fs=require('fs'),path=require('path'),os=require('os');
+  const {crawlRussianApi}=require('../rufoundation-crawler');
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),'scp-ru-presence-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+  fs.mkdirSync(path.join(root,'local-data/en'),{recursive:true});
+  fs.writeFileSync(path.join(root,'local-data/en/scp-data.json'),JSON.stringify({data:[{itemId:'scp-series-9999',urlEN:'https://scp-wiki.wikidot.com/scp-9999',isTranslatedJP:true}]}));
+  const list=['scp-1001-ru','scp-1002-ru','scp-1003-ru'].map(pageId=>({pageId,title:pageId,tags:['филиал:ru'],rating:1}));
+  const request=async url=>{
+    if(url.endsWith('/api/articles'))return list;
+    if(url.endsWith('1001-ru'))return{source:''};
+    if(url.endsWith('1002-ru')){const e=Error('missing');e.response={status:404};throw e;}
+    return{source:'**Object Class:** Safe\n\nA real published description that is long enough to serve as prose.'};
+  };
+  const r=await crawlRussianApi({root,request});assert.equal(r.totalCount,1);assert(r.data[0].urlJP.endsWith('1003-ru'));assert.equal(r.data[0].availabilityVersion,1);
+});
