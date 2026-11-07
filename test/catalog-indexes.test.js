@@ -132,7 +132,7 @@ test('merge prunes missing and untranslated placeholders in legacy/v1 and adds i
   generateMobileCatalogs(baseDir);
   function delivery(channel){const dir=path.join(baseDir,channel,'jp'),m=JSON.parse(fs.readFileSync(path.join(dir,'manifest.json')));return JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,m.fileName))))}
   assert.equal(delivery('mobile-v1').totalCount,1);
-  const v2=delivery('mobile-v2');assert.equal(v2.totalCount,3);
+  const v2=delivery('mobile-v3');assert.equal(v2.totalCount,3);
   assert.equal(v2.data.find(r=>r.urlJP===scp).itemId,'scp-series-ru-006');
   assert.equal(v2.data.find(r=>r.urlJP===story).itemId,'document-jp--work-a');
 });

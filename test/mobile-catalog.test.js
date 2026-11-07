@@ -91,8 +91,16 @@ test('additional documents join the ordinary data array by language with a new d
   const extra = { schemaVersion: 1, timestamp: '2026-11-05T00:00:00Z', totalCount: 2,
     data: [document, { ...document, language: 'en', itemId: 'document-en--incident-log', url: 'https://scp-wiki.wikidot.com/incident-log' }] };
   fs.writeFileSync(path.join(input, 'related-documents/catalog.json'), JSON.stringify(extra));
+  fs.mkdirSync(path.join(input,'related-documents-v2'));
+  const oldDocument={...document,itemId:'document-jp--legacy-saved',url:'https://scp-jp.wikidot.com/legacy-saved'};
+  fs.writeFileSync(path.join(input,'related-documents-v2/catalog.json.gz'),zlib.gzipSync(JSON.stringify({...extra,totalCount:1,data:[oldDocument]})));
   generateMobileCatalogs(input);
-  const output = path.join(input, 'mobile-v2/jp');
+  const v2dir=path.join(input,'mobile-v2/jp');
+  const v2pointer=fs.readFileSync(path.join(v2dir,'manifest.json'));
+  const v2manifest=JSON.parse(v2pointer);
+  const v2data=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(v2dir,v2manifest.fileName))));
+  assert.deepEqual(v2data.data.map(r=>r.itemId),[source.data[0].itemId,oldDocument.itemId]);
+  const output = path.join(input, 'mobile-v3/jp');
   const manifest = JSON.parse(fs.readFileSync(path.join(output, 'manifest.json')));
   const result = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(output, manifest.fileName))));
   assert.equal(result.timestamp, extra.timestamp); assert.equal(manifest.timestamp, extra.timestamp);
@@ -120,6 +128,7 @@ test('additional documents join the ordinary data array by language with a new d
   assert.deepEqual(fs.readFileSync(path.join(oldOutput, 'manifest.json')), oldPointer);
   assert.deepEqual(fs.readFileSync(path.join(oldOutput, oldManifest.fileName)), oldPayload);
   const updated = JSON.parse(fs.readFileSync(path.join(output, 'manifest.json')));
+  assert.deepEqual(fs.readFileSync(path.join(v2dir,'manifest.json')),v2pointer);
   assert.notEqual(updated.fileName, manifest.fileName);
   assert.equal(updated.timestamp, extra.timestamp);
 });
