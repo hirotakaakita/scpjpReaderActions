@@ -1464,6 +1464,32 @@
       "startedAt": "2026-11-08T17:15:50.760Z",
       "messageName": "projects/scpjp-reader/messages/7318931977543361865",
       "sentAt": "2026-11-08T17:15:53.590Z"
+    },
+    {
+      "id": "cs/2026-11-08",
+      "lang": "cs",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-2412",
+          "titleJP": "Cassandra Bot"
+        },
+        {
+          "itemId": "scp-series-8557",
+          "titleJP": "Už zas, Narcisi?"
+        },
+        {
+          "itemId": "scp-series-9787",
+          "titleJP": "100,000 Vos Řídící 2014 Honda Civic"
+        },
+        {
+          "itemId": "scp-series-cs-128",
+          "titleJP": "Krásné nebe"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-08T21:19:17.884Z"
     }
   ]
 }
