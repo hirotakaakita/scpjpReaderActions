@@ -1612,6 +1612,36 @@
       "startedAt": "2026-11-08T21:19:17.884Z",
       "messageName": "projects/scpjp-reader/messages/-3669679131075233225",
       "sentAt": "2026-11-08T21:19:24.104Z"
+    },
+    {
+      "id": "es/2026-11-08",
+      "lang": "es",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-1760",
+          "titleJP": "Jardín de Ataúdes"
+        },
+        {
+          "itemId": "scp-series-5381",
+          "titleJP": "Gashadokuro de azúcar"
+        },
+        {
+          "itemId": "scp-series-7542",
+          "titleJP": "Arma Perdida de la Guerra Fría"
+        },
+        {
+          "itemId": "scp-series-9920",
+          "titleJP": "Tímida ante las cámaras"
+        },
+        {
+          "itemId": "scp-series-es-318",
+          "titleJP": "El Zeta-8 está maldito"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-08T21:19:17.884Z"
     }
   ]
 }
