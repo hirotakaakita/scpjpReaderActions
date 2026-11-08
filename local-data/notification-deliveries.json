@@ -1492,6 +1492,124 @@
       "startedAt": "2026-11-08T21:19:17.884Z",
       "messageName": "projects/scpjp-reader/messages/1509876010057523510",
       "sentAt": "2026-11-08T21:19:20.652Z"
+    },
+    {
+      "id": "de/2026-11-08",
+      "lang": "de",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-796",
+          "titleJP": "Flusskatze"
+        },
+        {
+          "itemId": "scp-series-828",
+          "titleJP": "ᖃᓪᓗᐱᓪᓗᐃᑦ"
+        },
+        {
+          "itemId": "scp-series-829",
+          "titleJP": "Überschalldosenöffner"
+        },
+        {
+          "itemId": "scp-series-830",
+          "titleJP": "Tintiger Treibsand"
+        },
+        {
+          "itemId": "scp-series-831",
+          "titleJP": "Tüftelkäfer"
+        },
+        {
+          "itemId": "scp-series-832",
+          "titleJP": "Buchhaltermünze"
+        },
+        {
+          "itemId": "scp-series-833",
+          "titleJP": "Benefizwürmer"
+        },
+        {
+          "itemId": "scp-series-836",
+          "titleJP": "Struktureller Krebs"
+        },
+        {
+          "itemId": "scp-series-853",
+          "titleJP": "Wetterkonserven"
+        },
+        {
+          "itemId": "scp-series-854",
+          "titleJP": "Traumbrücke"
+        },
+        {
+          "itemId": "scp-series-856",
+          "titleJP": "Leopotamus"
+        },
+        {
+          "itemId": "scp-series-857",
+          "titleJP": "Mensch-basiertes Ökosystem"
+        },
+        {
+          "itemId": "scp-series-859",
+          "titleJP": "Arachnophobische Kugel"
+        },
+        {
+          "itemId": "scp-series-862",
+          "titleJP": "Ratten"
+        },
+        {
+          "itemId": "scp-series-863",
+          "titleJP": "Patchwork-Krabben"
+        },
+        {
+          "itemId": "scp-series-868",
+          "titleJP": "Mnemonisches Meme"
+        },
+        {
+          "itemId": "scp-series-874",
+          "titleJP": "Abyssale Flüssigkeit"
+        },
+        {
+          "itemId": "scp-series-878",
+          "titleJP": "Der Schauspieler"
+        },
+        {
+          "itemId": "scp-series-885",
+          "titleJP": "Lebendes Vakuum"
+        },
+        {
+          "itemId": "scp-series-886",
+          "titleJP": "Nanny"
+        },
+        {
+          "itemId": "scp-series-897",
+          "titleJP": "Voodoo-Organtransplantation"
+        },
+        {
+          "itemId": "scp-series-923",
+          "titleJP": "Ein nützliches Werkzeug"
+        },
+        {
+          "itemId": "scp-series-3470",
+          "titleJP": "Harry Potter's Revenge"
+        },
+        {
+          "itemId": "scp-series-4030",
+          "titleJP": "It Wants to be Free"
+        },
+        {
+          "itemId": "scp-series-4033",
+          "titleJP": "The Easter Bunny is Dead"
+        },
+        {
+          "itemId": "scp-series-de-421",
+          "titleJP": "Mit den Löchern bist du nie allein"
+        },
+        {
+          "itemId": "scp-series-de-460",
+          "titleJP": "Myrrhenhexe"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-08T21:19:17.884Z"
     }
   ]
 }
