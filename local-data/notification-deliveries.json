@@ -1748,6 +1748,36 @@
       "startedAt": "2026-11-08T21:19:17.884Z",
       "messageName": "projects/scpjp-reader/messages/1931828615141942634",
       "sentAt": "2026-11-08T21:19:34.540Z"
+    },
+    {
+      "id": "pl/2026-11-08",
+      "lang": "pl",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-037",
+          "titleJP": "Gwiazda karłowata"
+        },
+        {
+          "itemId": "scp-series-2828",
+          "titleJP": "Antymemetyczna część ciała"
+        },
+        {
+          "itemId": "scp-series-6447",
+          "titleJP": "Symfonia grzeszników"
+        },
+        {
+          "itemId": "scp-series-8225",
+          "titleJP": "Podpałka"
+        },
+        {
+          "itemId": "joke-scps-2600",
+          "titleJP": "Najsłodsze Maleństwo"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-08T21:19:17.884Z"
     }
   ]
 }
