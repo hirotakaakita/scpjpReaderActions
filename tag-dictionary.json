@@ -637,6 +637,12 @@
       ],
       "labels": {}
     },
+    "alcur-hospital": {
+      "aliases": [
+        "alcur-hospital"
+      ],
+      "labels": {}
+    },
     "alda": {
       "aliases": [
         "alda"
@@ -652,6 +658,12 @@
     "aleph": {
       "aliases": [
         "aleph"
+      ],
+      "labels": {}
+    },
+    "aleph-series": {
+      "aliases": [
+        "aleph-series"
       ],
       "labels": {}
     },
@@ -1612,6 +1624,12 @@
     "auto-replicazione": {
       "aliases": [
         "auto-replicazione"
+      ],
+      "labels": {}
+    },
+    "auto-rigenerante": {
+      "aliases": [
+        "auto-rigenerante"
       ],
       "labels": {}
     },
@@ -2839,6 +2857,12 @@
       ],
       "labels": {}
     },
+    "cfrko2026": {
+      "aliases": [
+        "cfrko2026"
+      ],
+      "labels": {}
+    },
     "cgom": {
       "aliases": [
         "cgom"
@@ -3829,6 +3853,12 @@
       ],
       "labels": {}
     },
+    "cpp": {
+      "aliases": [
+        "cpp"
+      ],
+      "labels": {}
+    },
     "crackfic2022": {
       "aliases": [
         "crackfic2022"
@@ -4540,6 +4570,12 @@
     "dipartimento-alchimia": {
       "aliases": [
         "dipartimento-alchimia"
+      ],
+      "labels": {}
+    },
+    "dipartimento-di-dismissione": {
+      "aliases": [
+        "dipartimento-di-dismissione"
       ],
       "labels": {}
     },
@@ -7183,6 +7219,12 @@
       ],
       "labels": {}
     },
+    "foundation-gemacht": {
+      "aliases": [
+        "foundation-gemacht"
+      ],
+      "labels": {}
+    },
     "foundation-geschaffen": {
       "aliases": [
         "foundation-geschaffen"
@@ -7438,6 +7480,12 @@
     "geist-beeinflussend": {
       "aliases": [
         "geist-beeinflussend"
+      ],
+      "labels": {}
+    },
+    "geistbeeinflussend": {
+      "aliases": [
+        "geistbeeinflussend"
       ],
       "labels": {}
     },
@@ -7966,6 +8014,12 @@
     "halloween-25-de": {
       "aliases": [
         "halloween-25-de"
+      ],
+      "labels": {}
+    },
+    "halloween-26-de": {
+      "aliases": [
+        "halloween-26-de"
       ],
       "labels": {}
     },
@@ -12627,6 +12681,12 @@
       ],
       "labels": {}
     },
+    "parody": {
+      "aliases": [
+        "parody"
+      ],
+      "labels": {}
+    },
     "paryba": {
       "aliases": [
         "paryba"
@@ -15004,6 +15064,12 @@
       ],
       "labels": {}
     },
+    "scp-404-de": {
+      "aliases": [
+        "scp-404-de"
+      ],
+      "labels": {}
+    },
     "scp-964-jp": {
       "aliases": [
         "scp-964-jp"
@@ -16787,6 +16853,12 @@
       ],
       "labels": {}
     },
+    "tag-01fec23dc64627272924b163": {
+      "aliases": [
+        "ถ่ายโอน"
+      ],
+      "labels": {}
+    },
     "tag-0212ae78e247a2ba92858659": {
       "aliases": [
         "truyện-quân-sự"
@@ -17048,6 +17120,12 @@
     "tag-0486ef6756d444e287e83fa6": {
       "aliases": [
         "雾津"
+      ],
+      "labels": {}
+    },
+    "tag-048aac32902a4c4fac234bee": {
+      "aliases": [
+        "충동"
       ],
       "labels": {}
     },
@@ -17754,6 +17832,12 @@
     "tag-0a64f4a3d8bdfe7a70b54962": {
       "aliases": [
         "기적술"
+      ],
+      "labels": {}
+    },
+    "tag-0a6901fe47e1cff83ae92983": {
+      "aliases": [
+        "성-헤트비히"
       ],
       "labels": {}
     },
@@ -19371,6 +19455,12 @@
       ],
       "labels": {}
     },
+    "tag-17dfd6e22e32b84dd6a374bb": {
+      "aliases": [
+        "전술구해부"
+      ],
+      "labels": {}
+    },
     "tag-17f043954ccbfad2bb55e1cf": {
       "aliases": [
         "쇼팽교"
@@ -19941,6 +20031,12 @@
       ],
       "labels": {}
     },
+    "tag-1c54b46d019e82bd4233adde": {
+      "aliases": [
+        "не_здержується"
+      ],
+      "labels": {}
+    },
     "tag-1c66c1587c14bde8c2249f3c": {
       "aliases": [
         "禁黑"
@@ -20064,6 +20160,12 @@
       "labels": {
         "ru": "со_лпи:дети_ночи"
       }
+    },
+    "tag-1d2385a1bff8cb61993bab62": {
+      "aliases": [
+        "психологічний_горрор"
+      ],
+      "labels": {}
     },
     "tag-1d23a7e25a241be58d3f9f4a": {
       "aliases": [
@@ -20612,6 +20714,12 @@
       "labels": {
         "ru": "свойство:минерал"
       }
+    },
+    "tag-219515a4981bbc3172c472f5": {
+      "aliases": [
+        "에스테르베르크"
+      ],
+      "labels": {}
     },
     "tag-21ab4b943fb7935ca614a2a7": {
       "aliases": [
@@ -23015,6 +23123,12 @@
       ],
       "labels": {}
     },
+    "tag-346258500225e9271e58c15c": {
+      "aliases": [
+        "contrução"
+      ],
+      "labels": {}
+    },
     "tag-34653424024119ce489b9512": {
       "aliases": [
         "ритуал"
@@ -24293,6 +24407,12 @@
       ],
       "labels": {}
     },
+    "tag-3ea3ef4495f8b219833ff50e": {
+      "aliases": [
+        "горрор"
+      ],
+      "labels": {}
+    },
     "tag-3ea782b5bdaf367721a71071": {
       "aliases": [
         "無形"
@@ -25105,6 +25225,12 @@
       ],
       "labels": {}
     },
+    "tag-469a363266223a837fd1a565": {
+      "aliases": [
+        "romantické"
+      ],
+      "labels": {}
+    },
     "tag-469a9f5f1e8774bd39e90d3a": {
       "aliases": [
         "ラッツネスト"
@@ -25230,6 +25356,12 @@
       "labels": {
         "ru": "со_лпи:обскуракорпс"
       }
+    },
+    "tag-478e65259252cd119f62c706": {
+      "aliases": [
+        "загадковий"
+      ],
+      "labels": {}
     },
     "tag-479728f13c9cefe300ba9c55": {
       "aliases": [
@@ -25482,6 +25614,12 @@
     "tag-49bf0059151dc3c3ae859720": {
       "aliases": [
         "con-số-bị-mất"
+      ],
+      "labels": {}
+    },
+    "tag-49c825f0a6ba024741b485c7": {
+      "aliases": [
+        "해드필드-쌍둥이"
       ],
       "labels": {}
     },
@@ -27661,6 +27799,12 @@
       ],
       "labels": {}
     },
+    "tag-5979665c1e77ce347c562c8a": {
+      "aliases": [
+        "阿尔库尔医院"
+      ],
+      "labels": {}
+    },
     "tag-597bb980404c8cc334fde5b5": {
       "aliases": [
         "변칙-사건"
@@ -29361,6 +29505,12 @@
       ],
       "labels": {}
     },
+    "tag-65fb65cc4f5bc0bc620488ad": {
+      "aliases": [
+        "다섯째주의"
+      ],
+      "labels": {}
+    },
     "tag-6618d1bf68bd871edd7a1b57": {
       "aliases": [
         "ký-giả"
@@ -29543,6 +29693,12 @@
       ],
       "labels": {}
     },
+    "tag-678fe8acb3ac5f2ded050068": {
+      "aliases": [
+        "그레이엄-이사관"
+      ],
+      "labels": {}
+    },
     "tag-67aad02f4052d8a487a2107a": {
       "aliases": [
         "베로니카-피츠로이"
@@ -29636,6 +29792,12 @@
     "tag-6894cba30da152c7a93684e1": {
       "aliases": [
         "powieszony-król"
+      ],
+      "labels": {}
+    },
+    "tag-689864df8bc0945b667524a8": {
+      "aliases": [
+        "이매지내니멀"
       ],
       "labels": {}
     },
@@ -32259,6 +32421,12 @@
       ],
       "labels": {}
     },
+    "tag-7ccb38f3353d618ecfbf7cc9": {
+      "aliases": [
+        "공룡상목"
+      ],
+      "labels": {}
+    },
     "tag-7ccdb24fa4d5823fb27e5f89": {
       "aliases": [
         "死之兄弟"
@@ -33108,6 +33276,12 @@
       "labels": {
         "ru": "тематика:музыка"
       }
+    },
+    "tag-82dfd89f18100e6ec21381ac": {
+      "aliases": [
+        "แผนกแอนติมีม"
+      ],
+      "labels": {}
     },
     "tag-82e0a816bdffac37b915e147": {
       "aliases": [
@@ -35370,6 +35544,12 @@
     "tag-9539b76485ae9e6aff7966ac": {
       "aliases": [
         "гравіровка"
+      ],
+      "labels": {}
+    },
+    "tag-9540a9b40422fd8d6beda17b": {
+      "aliases": [
+        "แอนติมีม"
       ],
       "labels": {}
     },
@@ -38273,6 +38453,12 @@
       ],
       "labels": {}
     },
+    "tag-abd0a33ccd7e55eeb5fc7cee": {
+      "aliases": [
+        "셔먼-박사"
+      ],
+      "labels": {}
+    },
     "tag-abd263cd9c9da02cb8013f18": {
       "aliases": [
         "со_лпи:бос"
@@ -38826,6 +39012,12 @@
     "tag-b02eea27e0b5a8321ced7cf9": {
       "aliases": [
         "애덤스-요원"
+      ],
+      "labels": {}
+    },
+    "tag-b0385cfe4b424d835963f2ce": {
+      "aliases": [
+        "历史"
       ],
       "labels": {}
     },
@@ -39901,6 +40093,12 @@
       ],
       "labels": {}
     },
+    "tag-b8063b505283776ed1ea043d": {
+      "aliases": [
+        "ปริชานภัย"
+      ],
+      "labels": {}
+    },
     "tag-b81501c8da74f615f0c3b467": {
       "aliases": [
         "класс:списан"
@@ -40946,6 +41144,12 @@
     "tag-c030029e4603b1ca2471a1a6": {
       "aliases": [
         "เชิงพื้นที่"
+      ],
+      "labels": {}
+    },
+    "tag-c048f0fc3c0a7889df1482a4": {
+      "aliases": [
+        "레이너-밀러"
       ],
       "labels": {}
     },
@@ -43717,6 +43921,12 @@
         "ru": "объект:айрис"
       }
     },
+    "tag-d419c44978a49b2af6e635a4": {
+      "aliases": [
+        "插畫"
+      ],
+      "labels": {}
+    },
     "tag-d4325b851c2b6604d72d0cec": {
       "aliases": [
         "เอเวนเทอร์"
@@ -44172,6 +44382,12 @@
     "tag-d72ff0b58a399c5cbbd848be": {
       "aliases": [
         "性"
+      ],
+      "labels": {}
+    },
+    "tag-d74272023a99833fc3b37121": {
+      "aliases": [
+        "intagível"
       ],
       "labels": {}
     },
@@ -44727,6 +44943,12 @@
       ],
       "labels": {}
     },
+    "tag-db858b8f5a53b37dff634d94": {
+      "aliases": [
+        "โสคประสาท"
+      ],
+      "labels": {}
+    },
     "tag-db919242672ee1593e20675a": {
       "aliases": [
         "thù-xưa"
@@ -45095,6 +45317,12 @@
       ],
       "labels": {}
     },
+    "tag-ddf4ce7af95e15cd44e8c2f7": {
+      "aliases": [
+        "мурзей"
+      ],
+      "labels": {}
+    },
     "tag-ddfba6191cb6fa15f6fc3830": {
       "aliases": [
         "コズミックホラー"
@@ -45368,6 +45596,12 @@
     "tag-dfe86cc56760a1cce7995182": {
       "aliases": [
         "thu-nhỏ"
+      ],
+      "labels": {}
+    },
+    "tag-dfeafadb8bad922ad4c6cc82": {
+      "aliases": [
+        "ม้า"
       ],
       "labels": {}
     },
@@ -45747,6 +45981,12 @@
       ],
       "labels": {}
     },
+    "tag-e353df8e9c08acee8cd414ce": {
+      "aliases": [
+        "สปีชีย์"
+      ],
+      "labels": {}
+    },
     "tag-e357b7683aaf90b049640ad7": {
       "aliases": [
         "繁廣"
@@ -45965,6 +46205,12 @@
       ],
       "labels": {}
     },
+    "tag-e520a99533fb246b84bb91de": {
+      "aliases": [
+        "มาริออน-วีลเลอร์"
+      ],
+      "labels": {}
+    },
     "tag-e52f276ad643ea856061c1ad": {
       "aliases": [
         "만-박사"
@@ -46160,6 +46406,12 @@
     "tag-e6a904b5c74e96a291053243": {
       "aliases": [
         "großkarzist-ion"
+      ],
+      "labels": {}
+    },
+    "tag-e6afef209ed619bb984cc6ef": {
+      "aliases": [
+        "二十五号部门"
       ],
       "labels": {}
     },
@@ -46382,6 +46634,12 @@
       "labels": {
         "ru": "тематика:лавкрафтовские_ужасы"
       }
+    },
+    "tag-e832042973744e1a6273032b": {
+      "aliases": [
+        "올리비에-귀네스"
+      ],
+      "labels": {}
     },
     "tag-e83b5f9352a27152c2a87369": {
       "aliases": [
@@ -46632,6 +46890,12 @@
     "tag-e9da8c23ccff439ac92b159d": {
       "aliases": [
         "深红之王"
+      ],
+      "labels": {}
+    },
+    "tag-e9e61ac324683d1007e96f9f": {
+      "aliases": [
+        "ชีวภัย"
       ],
       "labels": {}
     },
@@ -46976,6 +47240,12 @@
     "tag-ecfb215526f83a88e61e77df": {
       "aliases": [
         "死体"
+      ],
+      "labels": {}
+    },
+    "tag-ed0f48cd95aa62bcb663ef30": {
+      "aliases": [
+        "สิ้นมรณา"
       ],
       "labels": {}
     },
@@ -47441,6 +47711,12 @@
       ],
       "labels": {}
     },
+    "tag-f08f67fba3cf234517135a76": {
+      "aliases": [
+        "2026-별칭경연"
+      ],
+      "labels": {}
+    },
     "tag-f09da1cae9f036420bf9bebd": {
       "aliases": [
         "stworzone-przez-fundację"
@@ -47830,6 +48106,12 @@
       "labels": {
         "ru": "отдел:дельта_т"
       }
+    },
+    "tag-f43eade740285f7ee6d115af": {
+      "aliases": [
+        "리베라-박사"
+      ],
+      "labels": {}
     },
     "tag-f44e3db2170198920aa49e82": {
       "aliases": [
@@ -48655,6 +48937,12 @@
       ],
       "labels": {}
     },
+    "tag-fa55f41eeee674115b8a334b": {
+      "aliases": [
+        "คณะกรรมการจริยธรรม"
+      ],
+      "labels": {}
+    },
     "tag-fa55fbb81e72aaf41f13024a": {
       "aliases": [
         "2019老掉牙竞赛"
@@ -49231,6 +49519,12 @@
       ],
       "labels": {}
     },
+    "tag-feec877ae6cc908ad315958f": {
+      "aliases": [
+        "巡禮之年"
+      ],
+      "labels": {}
+    },
     "tag-fefe80c60d229b9ab391d5a0": {
       "aliases": [
         "sinh-sản"
@@ -49344,6 +49638,12 @@
     "tag-ffea45ad5e812043a1b43cba": {
       "aliases": [
         "transfiguração"
+      ],
+      "labels": {}
+    },
+    "tag-fffe29f4c0d4f45ccb704ed7": {
+      "aliases": [
+        "여왕-마브"
       ],
       "labels": {}
     },
@@ -50679,6 +50979,12 @@
       ],
       "labels": {}
     },
+    "vn-zh-combat26": {
+      "aliases": [
+        "vn-zh-combat26"
+      ],
+      "labels": {}
+    },
     "vn-zh-xmas25": {
       "aliases": [
         "vn-zh-xmas25"
@@ -51066,6 +51372,12 @@
     "xia-dynasty": {
       "aliases": [
         "xia-dynasty"
+      ],
+      "labels": {}
+    },
+    "xmas2026": {
+      "aliases": [
+        "xmas2026"
       ],
       "labels": {}
     },

@@ -1,8 +1,8 @@
 {
   "totalCount": 24,
   "language": "int",
-  "timestamp": "2026-10-06T07:28:43.200Z",
-  "duration": 19,
+  "timestamp": "2026-11-08T05:57:02.319Z",
+  "duration": 18,
   "status": "completed",
   "statistics": {
     "translated": 24,
@@ -31,7 +31,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -45,7 +45,7 @@
       "urlJP": "http://scp-int.wikidot.com/scp-002-int",
       "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-002-int/CreativeCup.jpg",
       "objectClass": "Euclid",
-      "rating": 41,
+      "rating": 43,
       "descriptionExcerpt": "SCP-002-INT is an 8 cm high white porcelain teacup that normally does not present any anomalous nature. SCP-002-INT is matched by a white saucer measuring 10 cm in diameter. When a liquid substance is poured into SCP-002-INT, its anomalous properties will manifest within seconds, following the evaporation of the liquid. When the liquid is subtracted from SCP-002-INT, it returns to a non-anomalous state, then SCP-002-INT can be used again.\nWhen SCP-002-INT is filled with liquid, a miniaturized en",
       "tags": [
         "co-authored",
@@ -59,7 +59,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -100,7 +100,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -130,7 +130,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -169,7 +169,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -201,7 +201,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -238,7 +238,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -276,7 +276,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -312,7 +312,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -352,7 +352,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -385,7 +385,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -419,7 +419,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -451,7 +451,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -485,7 +485,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -515,7 +515,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -553,7 +553,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -585,7 +585,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -628,7 +628,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -663,7 +663,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -690,7 +690,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -704,7 +704,7 @@
       "urlJP": "http://scp-int.wikidot.com/scp-057-int",
       "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-057-int/map.jpg",
       "objectClass": "Keter",
-      "rating": 48,
+      "rating": 49,
       "descriptionExcerpt": "SCP-057-INT refers to the sudden manifestation of a mega-structure largely located beneath the Andes Mountains between the border of Chile and Argentina. SCP-057-INT contains multiple entities claiming membership in the Foundation.\nFurther investigation is pending.",
       "tags": [
         "blue-crab",
@@ -729,7 +729,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -777,7 +777,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -812,7 +812,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
@@ -845,7 +845,7 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-10-06T02:55:57.999Z",
+      "lastUpdated": "2026-11-08T04:28:27.552Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"

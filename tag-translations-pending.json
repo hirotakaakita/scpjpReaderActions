@@ -4776,6 +4776,30 @@
     ]
   },
   {
+    "id": "architekt",
+    "aliases": [
+      "architekt"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
     "id": "archived",
     "aliases": [
       "archived"
@@ -194920,6 +194944,30 @@
     ]
   },
   {
+    "id": "trafigurazione",
+    "aliases": [
+      "trafigurazione"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
     "id": "transfiguracja",
     "aliases": [
       "transfiguracja"
@@ -199816,9 +199864,9 @@
     ]
   },
   {
-    "id": "architekt",
+    "id": "tag-f08f67fba3cf234517135a76",
     "aliases": [
-      "architekt"
+      "2026-별칭경연"
     ],
     "missing": [
       "ru",
@@ -199840,9 +199888,1209 @@
     ]
   },
   {
-    "id": "trafigurazione",
+    "id": "alcur-hospital",
     "aliases": [
-      "trafigurazione"
+      "alcur-hospital"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "aleph-series",
+    "aliases": [
+      "aleph-series"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "auto-rigenerante",
+    "aliases": [
+      "auto-rigenerante"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "cfrko2026",
+    "aliases": [
+      "cfrko2026"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-346258500225e9271e58c15c",
+    "aliases": [
+      "contrução"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "cpp",
+    "aliases": [
+      "cpp"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "dipartimento-di-dismissione",
+    "aliases": [
+      "dipartimento-di-dismissione"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "foundation-gemacht",
+    "aliases": [
+      "foundation-gemacht"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "geistbeeinflussend",
+    "aliases": [
+      "geistbeeinflussend"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "halloween-26-de",
+    "aliases": [
+      "halloween-26-de"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-d74272023a99833fc3b37121",
+    "aliases": [
+      "intagível"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "parody",
+    "aliases": [
+      "parody"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-469a363266223a837fd1a565",
+    "aliases": [
+      "romantické"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "scp-404-de",
+    "aliases": [
+      "scp-404-de"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "vn-zh-combat26",
+    "aliases": [
+      "vn-zh-combat26"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "xmas2026",
+    "aliases": [
+      "xmas2026"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-3ea3ef4495f8b219833ff50e",
+    "aliases": [
+      "горрор"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-478e65259252cd119f62c706",
+    "aliases": [
+      "загадковий"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-ddf4ce7af95e15cd44e8c2f7",
+    "aliases": [
+      "мурзей"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-1c54b46d019e82bd4233adde",
+    "aliases": [
+      "не_здержується"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-1d2385a1bff8cb61993bab62",
+    "aliases": [
+      "психологічний_горрор"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-fa55f41eeee674115b8a334b",
+    "aliases": [
+      "คณะกรรมการจริยธรรม"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-e9e61ac324683d1007e96f9f",
+    "aliases": [
+      "ชีวภัย"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-01fec23dc64627272924b163",
+    "aliases": [
+      "ถ่ายโอน"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-b8063b505283776ed1ea043d",
+    "aliases": [
+      "ปริชานภัย"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-e520a99533fb246b84bb91de",
+    "aliases": [
+      "มาริออน-วีลเลอร์"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-dfeafadb8bad922ad4c6cc82",
+    "aliases": [
+      "ม้า"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-e353df8e9c08acee8cd414ce",
+    "aliases": [
+      "สปีชีย์"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-ed0f48cd95aa62bcb663ef30",
+    "aliases": [
+      "สิ้นมรณา"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-82dfd89f18100e6ec21381ac",
+    "aliases": [
+      "แผนกแอนติมีม"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-9540a9b40422fd8d6beda17b",
+    "aliases": [
+      "แอนติมีม"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-db858b8f5a53b37dff634d94",
+    "aliases": [
+      "โสคประสาท"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-e6afef209ed619bb984cc6ef",
+    "aliases": [
+      "二十五号部门"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-b0385cfe4b424d835963f2ce",
+    "aliases": [
+      "历史"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-feec877ae6cc908ad315958f",
+    "aliases": [
+      "巡禮之年"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-d419c44978a49b2af6e635a4",
+    "aliases": [
+      "插畫"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-5979665c1e77ce347c562c8a",
+    "aliases": [
+      "阿尔库尔医院"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-7ccb38f3353d618ecfbf7cc9",
+    "aliases": [
+      "공룡상목"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-678fe8acb3ac5f2ded050068",
+    "aliases": [
+      "그레이엄-이사관"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-65fb65cc4f5bc0bc620488ad",
+    "aliases": [
+      "다섯째주의"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-c048f0fc3c0a7889df1482a4",
+    "aliases": [
+      "레이너-밀러"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-f43eade740285f7ee6d115af",
+    "aliases": [
+      "리베라-박사"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-0a6901fe47e1cff83ae92983",
+    "aliases": [
+      "성-헤트비히"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-abd0a33ccd7e55eeb5fc7cee",
+    "aliases": [
+      "셔먼-박사"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-219515a4981bbc3172c472f5",
+    "aliases": [
+      "에스테르베르크"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-fffe29f4c0d4f45ccb704ed7",
+    "aliases": [
+      "여왕-마브"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-e832042973744e1a6273032b",
+    "aliases": [
+      "올리비에-귀네스"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-689864df8bc0945b667524a8",
+    "aliases": [
+      "이매지내니멀"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-17dfd6e22e32b84dd6a374bb",
+    "aliases": [
+      "전술구해부"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-048aac32902a4c4fac234bee",
+    "aliases": [
+      "충동"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant"
+    ]
+  },
+  {
+    "id": "tag-49c825f0a6ba024741b485c7",
+    "aliases": [
+      "해드필드-쌍둥이"
     ],
     "missing": [
       "ru",
