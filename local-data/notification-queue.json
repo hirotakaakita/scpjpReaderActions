@@ -324,29 +324,8 @@
       "lastSentWindow": "2026-11-08"
     },
     "es": {
-      "items": [
-        {
-          "itemId": "scp-series-1760",
-          "titleJP": "Jardín de Ataúdes"
-        },
-        {
-          "itemId": "scp-series-5381",
-          "titleJP": "Gashadokuro de azúcar"
-        },
-        {
-          "itemId": "scp-series-7542",
-          "titleJP": "Arma Perdida de la Guerra Fría"
-        },
-        {
-          "itemId": "scp-series-9920",
-          "titleJP": "Tímida ante las cámaras"
-        },
-        {
-          "itemId": "scp-series-es-318",
-          "titleJP": "El Zeta-8 está maldito"
-        }
-      ],
-      "lastSentWindow": "2026-11-01"
+      "items": [],
+      "lastSentWindow": "2026-11-08"
     },
     "fr": {
       "items": [
