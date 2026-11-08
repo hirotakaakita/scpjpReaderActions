@@ -132,14 +132,6 @@
           "titleJP": "🔴🟢🔴"
         },
         {
-          "itemId": "joke-scps-405",
-          "titleJP": "ランダムページ"
-        },
-        {
-          "itemId": "joke-scps-1600",
-          "titleJP": "O5のみ閲覧可"
-        },
-        {
           "itemId": "joke-scps-1730",
           "titleJP": "サイト-1337に何が起こったか？"
         },
@@ -152,26 +144,6 @@
           "titleJP": "ねえ、たかしくん。今日はいっしょにトクベツなことしない？♡」「トクベツなことって、何を？」「キミといっしょにアレがしたいんだよ♡」「アレって何だよ。もっと素直に言ってほしいな」「仕方ないね… 言っとくけど、パパとママに見せちゃダメなんだからね♡」「それってもしかして… ムフフなことだったり？」「よくわかったね。さあ、パンツをぬいで、キミの大切なモノをさらけ出して♡ ぼくがきみのためにしごいてあげるから」「分かったよ、仕方ないな。でも一回きりだからね」「おお～♡ いいモツ持ってるじゃん♡ 」「ありがとう。すっごい下らないことで褒めてくれて。でも、僕のアソコをそんなに激しく舐め回さないで欲しいな。だって、何だか、すごい、熱くなって」「キミがそんなに言うならぼくはもっとはげしくしちゃうぞ♡ せーの♡」「お゛ッ♡♡♡」"
         },
         {
-          "itemId": "scp-series-jp-2383",
-          "titleJP": "不覚醒"
-        },
-        {
-          "itemId": "scp-series-jp-2532",
-          "titleJP": "貴腐"
-        },
-        {
-          "itemId": "scp-series-jp-3118",
-          "titleJP": "星天の光輪、あるいは神の肉片"
-        },
-        {
-          "itemId": "scp-series-jp-3364",
-          "titleJP": "丸まる。"
-        },
-        {
-          "itemId": "scp-series-jp-3390",
-          "titleJP": "鏡自身は見られない"
-        },
-        {
           "itemId": "scp-series-jp-3916",
           "titleJP": "あかちゃん"
         },
@@ -180,16 +152,8 @@
           "titleJP": "吸血虫"
         },
         {
-          "itemId": "scp-series-jp-4026",
-          "titleJP": "いっしょおぶん てつぶん by dado"
-        },
-        {
           "itemId": "scp-series-jp-4089",
           "titleJP": "ペンギン宇宙飛行士"
-        },
-        {
-          "itemId": "scp-series-jp-4158",
-          "titleJP": "カエデの仔"
         },
         {
           "itemId": "scp-series-jp-4168",
@@ -198,56 +162,12 @@
         {
           "itemId": "scp-series-jp-4327",
           "titleJP": "布団の中には"
-        },
-        {
-          "itemId": "scp-series-jp-4445",
-          "titleJP": "俺が1人分になる"
-        },
-        {
-          "itemId": "scp-series-jp-4484",
-          "titleJP": "好洞穴性人型生物"
-        },
-        {
-          "itemId": "scp-series-jp-4577",
-          "titleJP": "かずねのかぞえうた"
-        },
-        {
-          "itemId": "scp-series-jp-4703",
-          "titleJP": "再誕"
-        },
-        {
-          "itemId": "scp-series-jp-4860",
-          "titleJP": "契約の対価、あるいは如何にして金望舎シャロンが財団お嬢様となったか"
-        },
-        {
-          "itemId": "scp-series-jp-4893",
-          "titleJP": "指定暴力団　永組／毘威組"
-        },
-        {
-          "itemId": "joke-scps-jp-173",
-          "titleJP": ""
-        },
-        {
-          "itemId": "scp-jp-ex-2106",
-          "titleJP": "アムネストール"
         }
       ],
       "lastSentWindow": "2026-11-01"
     },
     "en": {
       "items": [
-        {
-          "itemId": "scp-series-7063",
-          "titleJP": "Sometimes I Wish I Could Just Fly Away, and Leave This Place to the Woods."
-        },
-        {
-          "itemId": "scp-series-9261",
-          "titleJP": "GORGER'S PICKLES"
-        },
-        {
-          "itemId": "scp-series-9284",
-          "titleJP": "Chronolia"
-        },
         {
           "itemId": "scp-series-9287",
           "titleJP": "The Asclepian Serpent"
@@ -257,40 +177,12 @@
           "titleJP": "With A Heavy Heart"
         },
         {
-          "itemId": "scp-series-9352",
-          "titleJP": "Autopsy Anomaly"
-        },
-        {
           "itemId": "scp-series-9356",
           "titleJP": "Blood and Hemokinesis"
         },
         {
-          "itemId": "scp-series-9358",
-          "titleJP": "Herbarium Sheets"
-        },
-        {
-          "itemId": "scp-series-9378",
-          "titleJP": "Baby Blue"
-        },
-        {
           "itemId": "scp-series-9382",
           "titleJP": "[ACCESS DENIED]"
-        },
-        {
-          "itemId": "scp-series-9392",
-          "titleJP": "The Advisor"
-        },
-        {
-          "itemId": "scp-series-9418",
-          "titleJP": "Mister Enigma the Wandering Candyman"
-        },
-        {
-          "itemId": "scp-series-9447",
-          "titleJP": "The Whistler of Los Llanos"
-        },
-        {
-          "itemId": "scp-series-9472",
-          "titleJP": "The Mad MiG"
         },
         {
           "itemId": "scp-series-9488",
@@ -301,24 +193,12 @@
           "titleJP": "Well-Meaning but Confused Teeth"
         },
         {
-          "itemId": "scp-series-9558",
-          "titleJP": "Thank You For Installing Windows 95"
-        },
-        {
           "itemId": "scp-series-9579",
           "titleJP": "On Wednesday Morning, When the Truck Rolls In"
         },
         {
-          "itemId": "scp-series-9608",
-          "titleJP": "Hard-to-Contain Gastropod"
-        },
-        {
           "itemId": "scp-series-9623",
           "titleJP": "Gamer Box"
-        },
-        {
-          "itemId": "scp-series-9638",
-          "titleJP": "A Sinful Beast of Terrifying Savagery"
         },
         {
           "itemId": "scp-series-9644",
@@ -329,68 +209,20 @@
           "titleJP": "Certainty"
         },
         {
-          "itemId": "scp-series-9738",
-          "titleJP": "Funeral for Every Butterfly"
-        },
-        {
-          "itemId": "scp-series-9739",
-          "titleJP": "Family Annihilator."
-        },
-        {
-          "itemId": "scp-series-9756",
-          "titleJP": "Dotson's Inferno"
-        },
-        {
           "itemId": "scp-series-9821",
           "titleJP": "Let's Go Gambling!"
-        },
-        {
-          "itemId": "scp-series-9833",
-          "titleJP": "Ever Obstruction"
         },
         {
           "itemId": "scp-series-9837",
           "titleJP": "Plane-ly Ridiculous"
         },
         {
-          "itemId": "scp-series-9840",
-          "titleJP": "The No-Punching Bag"
-        },
-        {
-          "itemId": "scp-series-9855",
-          "titleJP": "Doubles DNI"
-        },
-        {
-          "itemId": "scp-series-9865",
-          "titleJP": "The Flag"
-        },
-        {
-          "itemId": "scp-series-9867",
-          "titleJP": "Baby Boomer Basking Shark"
-        },
-        {
-          "itemId": "scp-series-9937",
-          "titleJP": "A Better Path To Nowhere"
-        },
-        {
-          "itemId": "joke-scps-705",
-          "titleJP": "An Invisible Crocodile Takes Over Site-57's Low-Security Wing"
-        },
-        {
           "itemId": "joke-scps-1551",
           "titleJP": "Something Important"
         },
         {
-          "itemId": "joke-scps-1730",
-          "titleJP": "What Happened to Site-1337?"
-        },
-        {
           "itemId": "joke-scps-3278",
           "titleJP": "Wasn't Me"
-        },
-        {
-          "itemId": "scp-ex-777",
-          "titleJP": "Non-Euclidean stairs"
         },
         {
           "itemId": "scp-ex-900",
@@ -634,48 +466,8 @@
           "titleJP": ""
         },
         {
-          "itemId": "scp-ex-6161",
-          "titleJP": "嘘……"
-        },
-        {
-          "itemId": "scp-series-cn-4155",
-          "titleJP": "肉食小黄鸭"
-        },
-        {
-          "itemId": "scp-series-cn-4309",
-          "titleJP": "二〇三九寻的追凶之旅"
-        },
-        {
-          "itemId": "scp-series-cn-4451",
-          "titleJP": "链式吸星大法"
-        },
-        {
-          "itemId": "scp-series-cn-4552",
-          "titleJP": ""
-        },
-        {
-          "itemId": "scp-series-cn-4557",
-          "titleJP": "怪电梯间"
-        },
-        {
           "itemId": "scp-series-cn-4656",
           "titleJP": "成为"
-        },
-        {
-          "itemId": "scp-series-cn-4694",
-          "titleJP": "你耳边的声音"
-        },
-        {
-          "itemId": "scp-series-cn-4806",
-          "titleJP": "开车时穿模"
-        },
-        {
-          "itemId": "scp-series-cn-4861",
-          "titleJP": "《二十四孝·卧冰求鲤》"
-        },
-        {
-          "itemId": "scp-series-cn-4933",
-          "titleJP": "锈雾"
         },
         {
           "itemId": "joke-scps-cn-200",
@@ -808,28 +600,12 @@
           "titleJP": "The Easter Bunny is Dead"
         },
         {
-          "itemId": "scp-series-de-403",
-          "titleJP": "Der Stalker"
-        },
-        {
-          "itemId": "scp-series-de-408",
-          "titleJP": "FÜRCHTE MICH! … Bitte …"
-        },
-        {
           "itemId": "scp-series-de-421",
           "titleJP": "Mit den Löchern bist du nie allein"
         },
         {
-          "itemId": "scp-series-de-450",
-          "titleJP": "Das Wort bleibt stärker als das Schwert"
-        },
-        {
           "itemId": "scp-series-de-460",
           "titleJP": "Myrrhenhexe"
-        },
-        {
-          "itemId": "scp-series-de-496",
-          "titleJP": "BIG MISTER BIG"
         }
       ],
       "lastSentWindow": "2026-11-01"
@@ -851,10 +627,6 @@
         {
           "itemId": "scp-series-9920",
           "titleJP": "Tímida ante las cámaras"
-        },
-        {
-          "itemId": "scp-series-es-126",
-          "titleJP": ""
         },
         {
           "itemId": "scp-series-es-318",
@@ -924,30 +696,6 @@
         {
           "itemId": "joke-scps-100",
           "titleJP": "404 Not Found"
-        },
-        {
-          "itemId": "scp-series-fr-749",
-          "titleJP": "L'Herbe à Tigres"
-        },
-        {
-          "itemId": "scp-series-fr-803",
-          "titleJP": "Kkokdus Purificateurs"
-        },
-        {
-          "itemId": "scp-series-fr-822",
-          "titleJP": "L'histoire est réécrite par ceux qui l'effacent"
-        },
-        {
-          "itemId": "scp-series-fr-842",
-          "titleJP": "Et impossible de voir leurs visages"
-        },
-        {
-          "itemId": "scp-series-fr-871",
-          "titleJP": "L'armée de Yogwi"
-        },
-        {
-          "itemId": "scp-series-fr-880",
-          "titleJP": "Un endroit pour fumer"
         }
       ],
       "lastSentWindow": "2026-10-18"
@@ -984,20 +732,8 @@
     "ko": {
       "items": [
         {
-          "itemId": "scp-series-211",
-          "titleJP": "종이로 덮인 건물"
-        },
-        {
-          "itemId": "scp-series-645",
-          "titleJP": "진실의 입"
-        },
-        {
           "itemId": "scp-series-655",
           "titleJP": "직물의 스러짐"
-        },
-        {
-          "itemId": "scp-series-3682",
-          "titleJP": "파루시아"
         },
         {
           "itemId": "scp-series-3738",
@@ -1008,204 +744,16 @@
           "titleJP": "금을 차지하러 고 고!"
         },
         {
-          "itemId": "scp-series-5185",
-          "titleJP": "다도네 멋쟁이 거미"
-        },
-        {
-          "itemId": "scp-series-6128",
-          "titleJP": "오리너구리 자석"
-        },
-        {
           "itemId": "scp-series-7629",
           "titleJP": "하늘 수호자들의 성역"
-        },
-        {
-          "itemId": "scp-series-7777",
-          "titleJP": "일곱공포증"
-        },
-        {
-          "itemId": "scp-series-8106",
-          "titleJP": "살인미수 괴물"
-        },
-        {
-          "itemId": "scp-series-ko-658",
-          "titleJP": "'ㄱ'은 고독이다"
-        },
-        {
-          "itemId": "scp-series-ko-687",
-          "titleJP": "ㅅ은 사별이다"
-        },
-        {
-          "itemId": "scp-series-ko-693",
-          "titleJP": "ㅆ은 쏟아짐이다"
-        },
-        {
-          "itemId": "scp-series-ko-734",
-          "titleJP": "도난"
-        },
-        {
-          "itemId": "scp-series-ko-758",
-          "titleJP": "'ㄴ'은 나례다"
-        },
-        {
-          "itemId": "scp-series-ko-761",
-          "titleJP": "ㅊ은 추락이다"
-        },
-        {
-          "itemId": "scp-series-ko-769",
-          "titleJP": "ㅈ은 자살이다"
-        },
-        {
-          "itemId": "scp-series-ko-786",
-          "titleJP": "'ㅁ'은 밀실이다"
-        },
-        {
-          "itemId": "scp-series-ko-1025",
-          "titleJP": "[접근 거부]"
         },
         {
           "itemId": "scp-series-ko-1040",
           "titleJP": "죽이면 좋아하는 파충류"
         },
         {
-          "itemId": "scp-series-ko-1061",
-          "titleJP": "오일러 쇼크"
-        },
-        {
-          "itemId": "scp-series-ko-1062",
-          "titleJP": "https://scpko.wikidot.com/"
-        },
-        {
-          "itemId": "scp-series-ko-1068",
-          "titleJP": "[접근 거부]"
-        },
-        {
-          "itemId": "scp-series-ko-1080",
-          "titleJP": "콘크리트 균사체"
-        },
-        {
-          "itemId": "scp-series-ko-1087",
-          "titleJP": "'ㄲ'은 끝이다"
-        },
-        {
-          "itemId": "scp-series-ko-1117",
-          "titleJP": "ㅉ은 쪼가리이다"
-        },
-        {
-          "itemId": "scp-series-ko-1135",
-          "titleJP": "나는 일렉기타다"
-        },
-        {
-          "itemId": "scp-series-ko-1180",
-          "titleJP": "이 사람아, 세라믹파 텔레킬 골반도 잊은 건가?"
-        },
-        {
-          "itemId": "scp-series-ko-1227",
-          "titleJP": "'ㅂ'은 바보다"
-        },
-        {
           "itemId": "scp-series-ko-1246",
           "titleJP": "변증 고고학"
-        },
-        {
-          "itemId": "scp-series-ko-1344",
-          "titleJP": "'ㄸ'은 따라옴이다"
-        },
-        {
-          "itemId": "scp-series-ko-1368",
-          "titleJP": "'ㅃ'은 빵집(ㅃ+0)이다."
-        },
-        {
-          "itemId": "scp-series-ko-1403",
-          "titleJP": "무(無)용도실: 공간 자살"
-        },
-        {
-          "itemId": "scp-series-ko-1456",
-          "titleJP": "ㅿ는 ᅀᅡ귀이다"
-        },
-        {
-          "itemId": "scp-series-ko-1491",
-          "titleJP": "ㅋ은 코호트다"
-        },
-        {
-          "itemId": "scp-series-ko-1494",
-          "titleJP": "ㅌ은 특수문자다"
-        },
-        {
-          "itemId": "scp-series-ko-1509",
-          "titleJP": "이고양과 이고양의 그냥저냥 일상"
-        },
-        {
-          "itemId": "scp-series-ko-1533",
-          "titleJP": "ㅇ은 어둠이다"
-        },
-        {
-          "itemId": "scp-series-ko-1534",
-          "titleJP": "이젠 삽질도 철학적으로 해야되는 시대"
-        },
-        {
-          "itemId": "scp-series-ko-1589",
-          "titleJP": "멘헤라 왕의 무덤이 지금 열립니다"
-        },
-        {
-          "itemId": "scp-series-ko-1606",
-          "titleJP": "내 여자친구를 빼앗지 말아줘, 러브버그 군!"
-        },
-        {
-          "itemId": "scp-series-ko-1616",
-          "titleJP": "제09K기지가 당신의 어머니를 플레이 중입니다"
-        },
-        {
-          "itemId": "scp-series-ko-1621",
-          "titleJP": "기묘자사우르스 모사사우르스 전능 [하략]"
-        },
-        {
-          "itemId": "scp-series-ko-1623",
-          "titleJP": "대학수학능력시험 수리 영역 가형 31번 문제"
-        },
-        {
-          "itemId": "scp-series-ko-1661",
-          "titleJP": "내 소꿉친구가 우리 엄마의 남편이 되었다"
-        },
-        {
-          "itemId": "scp-series-ko-1716",
-          "titleJP": "\"ㆆ\"는 ᅙᅲ서다"
-        },
-        {
-          "itemId": "scp-series-ko-1761",
-          "titleJP": "고환(feat. 아킬레우스)"
-        },
-        {
-          "itemId": "scp-series-ko-1762",
-          "titleJP": "우리는 오늘 음지에서 죽습니다."
-        },
-        {
-          "itemId": "scp-series-ko-1765",
-          "titleJP": "넓디넓은 한강은 노벨상에게 무엇을 원하는가"
-        },
-        {
-          "itemId": "scp-series-ko-1766",
-          "titleJP": "농민 순애 인심 착장 센스"
-        },
-        {
-          "itemId": "scp-series-ko-1771",
-          "titleJP": "'ㅍ'은 패륜이다"
-        },
-        {
-          "itemId": "scp-series-ko-1806",
-          "titleJP": "ㅎ은 회의이다"
-        },
-        {
-          "itemId": "scp-series-ko-1818",
-          "titleJP": "'ㄹ'은 리버스다"
-        },
-        {
-          "itemId": "scp-series-ko-1831",
-          "titleJP": "ㆁ은 ᅌᅥᆸ이다"
-        },
-        {
-          "itemId": "scp-series-ko-1983",
-          "titleJP": "어린 노예, 늙은 왕, 죽은 고래"
         }
       ],
       "lastSentWindow": "2026-11-01"
@@ -1267,42 +815,14 @@
           "titleJP": "เฟิร์นจารกรรม"
         },
         {
-          "itemId": "scp-series-3125",
-          "titleJP": "ผู้หลบหนี"
-        },
-        {
-          "itemId": "scp-series-4514",
-          "titleJP": "สิ่งที่ฆ่าคุณตายได้"
-        },
-        {
-          "itemId": "scp-series-9113",
-          "titleJP": "สิ่งเทพสรรค์มามิอาจล่วงเกินไปแตะต้อง"
-        },
-        {
-          "itemId": "scp-series-th-042",
-          "titleJP": "สาวสำนึกบาป"
-        },
-        {
-          "itemId": "scp-series-th-044",
-          "titleJP": "กล่องสุ่มอวัยวะ"
-        },
-        {
           "itemId": "scp-series-th-045",
           "titleJP": "นิยายเชิงประสบการณ์"
-        },
-        {
-          "itemId": "scp-series-th-226",
-          "titleJP": "ม้าทะลุมิติ"
         }
       ],
       "lastSentWindow": "2026-11-01"
     },
     "ua": {
       "items": [
-        {
-          "itemId": "scp-series-7819",
-          "titleJP": "Немає вільних кімнат"
-        },
         {
           "itemId": "scp-series-ua-145",
           "titleJP": "Книги кривавих сліз"
@@ -1341,16 +861,8 @@
           "titleJP": "Chiếc Thìa Thất Bại Trong Việc Phát Huy Công Dụng Của Nó"
         },
         {
-          "itemId": "joke-scps-705",
-          "titleJP": "Một Con Cá Sấu Tàng Hình Chiếm Lấy Phân Khu An Ninh Cấp Thấp Của Điểm-57"
-        },
-        {
           "itemId": "scp-series-vn-110",
           "titleJP": "Esperanta"
-        },
-        {
-          "itemId": "scp-series-vn-161",
-          "titleJP": "Câu Chuyện Về Việc Tổ Chức Ngăn Ngừa Rụng Tóc Trung Niên hoặc Cách Đấng Mày Râu Si Mê Bộ Tóc Của Osama Bin Russell"
         }
       ],
       "lastSentWindow": "2026-11-01"
@@ -1400,14 +912,6 @@
         {
           "itemId": "joke-scps-173",
           "titleJP": ""
-        },
-        {
-          "itemId": "scp-series-zh-721",
-          "titleJP": "根本不需要朋友，去死吧。"
-        },
-        {
-          "itemId": "scp-series-zh-917",
-          "titleJP": "讓我們「修好」你"
         }
       ],
       "lastSentWindow": "2026-10-18"
