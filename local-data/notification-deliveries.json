@@ -1780,6 +1780,24 @@
       "startedAt": "2026-11-08T21:19:17.884Z",
       "messageName": "projects/scpjp-reader/messages/-6911424252121528795",
       "sentAt": "2026-11-08T21:19:38.022Z"
+    },
+    {
+      "id": "ua/2026-11-08",
+      "lang": "ua",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-ua-145",
+          "titleJP": "Книги кривавих сліз"
+        },
+        {
+          "itemId": "scp-series-ua-185",
+          "titleJP": "Гнівливі духи"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-08T21:19:17.884Z"
     }
   ]
 }
