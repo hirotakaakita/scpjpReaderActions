@@ -316,25 +316,8 @@
       "lastSentWindow": "2026-10-18"
     },
     "cs": {
-      "items": [
-        {
-          "itemId": "scp-series-2412",
-          "titleJP": "Cassandra Bot"
-        },
-        {
-          "itemId": "scp-series-8557",
-          "titleJP": "Už zas, Narcisi?"
-        },
-        {
-          "itemId": "scp-series-9787",
-          "titleJP": "100,000 Vos Řídící 2014 Honda Civic"
-        },
-        {
-          "itemId": "scp-series-cs-128",
-          "titleJP": "Krásné nebe"
-        }
-      ],
-      "lastSentWindow": "2026-10-04"
+      "items": [],
+      "lastSentWindow": "2026-11-08"
     },
     "de": {
       "items": [
@@ -735,5 +718,5 @@
       "lastSentWindow": "2026-11-08"
     }
   },
-  "updatedAt": "2026-11-08T17:15:50.760Z"
+  "updatedAt": "2026-11-08T21:19:17.884Z"
 }
