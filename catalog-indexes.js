@@ -70,7 +70,7 @@ function parseIndex(html, source, registry, { embedded = false } = {}) {
       if (e.classList.contains('newpage')) { if (page) missing.add(page.url); continue; }
       if (isPager(url, source.root || source.url)) { pages.add(url); continue; }
       if (isWorkIndex(url) && url !== source.url) { childIndexes.add(url); continue; }
-      if (registry.has(url) || url === source.url || !page || origin === 'id' || isExcluded(url)) continue;
+      if (registry.has(url) || url === source.url || !page || (source.language && page.language !== source.language) || origin === 'id' || isExcluded(url)) continue;
       if (source.kind === 'scp' && !/^scp-(?:[a-z]+-)?\d+(?:-[\p{L}\p{N}_-]+)?$/u.test(page.slug)) continue;
       // Support lists, tables, list-pages modules and flat div/br layouts. SCP
       // indexes already restrict by identifier; others require a listed item.

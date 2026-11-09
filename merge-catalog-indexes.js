@@ -13,7 +13,7 @@ function scpIdentity(page, record, origin, known) {
   const m = /^scp-(?:([a-z]+)-)?(\d+)(?:-(.*))?$/.exec(page.slug);
   if (!m) return null;
   const tokens = (m[3] || '').split('-').filter(Boolean);
-  const branches = new Set(['en','zh','sk',...Object.keys(LANGUAGES)]);
+  const branches = new Set(['en','zh','sk','nd',...Object.keys(LANGUAGES)]);
   const simple = !tokens.some(t => !branches.has(t) && !['j','ex'].includes(t));
   if (!simple && !(record.tags || []).includes('scp')) return null;
   const branch = m[1] || tokens.find(t => branches.has(t)) || 'en';

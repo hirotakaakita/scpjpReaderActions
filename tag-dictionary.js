@@ -4,6 +4,10 @@ const { publicTags } = require('./public-tags');
 
 const locales = ['ru', 'en', 'ja', 'zh', 'cs', 'de', 'es', 'fr', 'it', 'ko', 'pl', 'pt', 'th', 'uk', 'vi', 'zh-Hant'];
 const branchLocales = { jp: 'ja', cn: 'zh', ua: 'uk', vn: 'vi', 'zh-tr': 'zh-Hant', int: 'en' };
+for (const [code,site] of Object.entries(require('./additional-sites.json'))) {
+  branchLocales[code]=site.uiLocale;
+  if (!locales.includes(site.uiLocale)) locales.push(site.uiLocale);
+}
 function readDictionary(file) {
   const dictionary = JSON.parse(fs.readFileSync(file, 'utf8'));
   indexDictionary(dictionary);

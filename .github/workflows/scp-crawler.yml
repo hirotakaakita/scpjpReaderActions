@@ -57,6 +57,9 @@ jobs:
       - name: Validate tag dictionary
         run: node -e "require('./tag-dictionary').readDictionary('tag-dictionary.json')"
 
+      - name: Validate additional branch sites and namespace routing
+        run: node --test test/additional-sites.test.js
+
       - name: Generate matrix
         id: matrix
         run: echo "matrix=$(node print-matrix.js)" >> "$GITHUB_OUTPUT"

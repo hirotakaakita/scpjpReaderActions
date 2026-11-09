@@ -22,7 +22,12 @@ function normalize(value, base) {
     if (u.search && [...u.searchParams.keys()].some(k => !['utm_source', 'utm_medium', 'utm_campaign'].includes(k))) return null;
     const slug = decodeURIComponent(u.pathname).replace(/^\/+|\/+$/g, '').toLowerCase();
     if (!/^[\p{L}\p{N}][\p{L}\p{N}_:-]*$/u.test(slug) || /^(?:system|admin|forum|user|component|theme|nav|fragment|css|template|category):/.test(slug)) return null;
-    return { url: `https://${host}/${encodeURI(slug)}`, language: hosts.get(host), slug };
+    const language = host === 'scp-nd.wikidot.com'
+      ? Object.keys(LANGUAGES).find(code => LANGUAGES[code].namespace && slug.startsWith(LANGUAGES[code].namespace))
+      : hosts.get(host);
+    if (!language) return null;
+    const namespace = LANGUAGES[language].namespace || '';
+    return { url: `https://${host}/${encodeURI(slug)}`, language, slug: namespace ? slug.slice(namespace.length) : slug };
   } catch { return null; }
 }
 
@@ -66,10 +71,11 @@ function extractHtml(url, html, now = new Date().toISOString(), existingDocument
       .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(v => v && v !== page.url))].sort();
     // Lazy import: the ordinary crawler also calls this extractor with its DOM.
     const metadata = require('./local-crawler');
+    const description = metadata.extractDescriptionAndTagsFromDocument(d).descriptionExcerpt || root.textContent.trim().replace(/\s+/g, ' ');
     return { ...page, title, tags, translations: [...new Set(translations)].sort(), authors,
       objectClass: metadata.extractObjectClassFromDocument(d), rating: metadata.extractRatingFromDocument(d),
       imageUrl: metadata.extractImageUrlFromDocument(d,page.url),
-      links, descriptionExcerpt: root.textContent.trim().replace(/\s+/g, ' ').slice(0, 250),
+      links, descriptionExcerpt: Array.from(description).slice(0, 250).join(''),
       contentSha256: hash(String(html)), checkedAt: now, format: 'html', availabilityVersion: 1 };
   } finally { dom?.window.close(); }
 }
@@ -168,7 +174,7 @@ function classify(url, records, catalogByUrl, visited = new Set()) {
   const branches = [...new Set(entries.map(e => branchOfType(e.pageType)).filter(Boolean))];
   if (branches.length === 1) return { branch: branches[0], basis: 'catalog_page_type', evidence: entries.map(e => ({ itemId: e.itemId, pageType: e.pageType })) };
   if (branches.length > 1) return { branch: null, basis: 'conflicting_catalog_types', evidence: branches };
-  const r = records.get(url), known = new Set(['en', 'zh', ...Object.keys(LANGUAGES)]);
+  const r = records.get(url), known = new Set(['en', 'zh', 'nd', ...Object.keys(LANGUAGES)]);
   const tags = [...new Set((r?.tags || []).map(t => t.replace(/^филиал:/u, '')).map(t => t === 'zh-tr' ? 'zh' : t).filter(t => known.has(t)))];
   if (tags.length) return { branch: tags.length === 1 ? tags[0] : null, basis: tags.length === 1 ? 'publisher_origin_tag' : 'conflicting_origin_tags', evidence: tags };
   const translated = (r?.translations || []).map(target => ({ target, ...classify(target, records, catalogByUrl, next) })).filter(v => v.branch);

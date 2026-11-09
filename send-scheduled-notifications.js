@@ -8,6 +8,10 @@ const { readLedger, reconcile, gitPersistence } = require('./notification-state'
 const QUEUE_PATH = path.join(__dirname, 'local-data', 'notification-queue.json');
 const TIMEZONES = { jp: 'Asia/Tokyo', en: 'America/New_York', ru: 'Europe/Moscow', cn: 'Asia/Shanghai', cs: 'Europe/Prague', de: 'Europe/Berlin', es: 'Europe/Madrid', fr: 'Europe/Paris', int: 'UTC', it: 'Europe/Rome', ko: 'Asia/Seoul', pl: 'Europe/Warsaw', pt: 'America/Sao_Paulo', th: 'Asia/Bangkok', ua: 'Europe/Kyiv', vn: 'Asia/Ho_Chi_Minh', 'zh-tr': 'Asia/Taipei' };
 
+Object.assign(TIMEZONES, { ar:'Asia/Riyadh', cy:'Europe/London', da:'Europe/Copenhagen', el:'Europe/Athens', hu:'Europe/Budapest',
+  la:'UTC', nl:'Europe/Amsterdam', no:'Europe/Oslo', pig:'UTC', ro:'Europe/Bucharest', sga:'UTC', sh:'Europe/Zagreb',
+  sl:'Europe/Ljubljana', sv:'Europe/Stockholm', tok:'UTC', tr:'Europe/Istanbul' });
+
 function request(hostname, requestPath, method, body, headers) {
   return new Promise((resolve, reject) => {
     const req = https.request({ hostname, path: requestPath, method, headers: body ? { ...headers, 'Content-Length': Buffer.byteLength(body) } : headers }, res => {
