@@ -1800,6 +1800,76 @@
       "startedAt": "2026-11-08T21:19:17.884Z",
       "messageName": "projects/scpjp-reader/messages/763281769043698754",
       "sentAt": "2026-11-08T21:19:41.190Z"
+    },
+    {
+      "id": "en/2026-11-08",
+      "lang": "en",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-9287",
+          "titleJP": "The Asclepian Serpent"
+        },
+        {
+          "itemId": "scp-series-9297",
+          "titleJP": "With A Heavy Heart"
+        },
+        {
+          "itemId": "scp-series-9356",
+          "titleJP": "Blood and Hemokinesis"
+        },
+        {
+          "itemId": "scp-series-9382",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9488",
+          "titleJP": "Space Infection"
+        },
+        {
+          "itemId": "scp-series-9495",
+          "titleJP": "Well-Meaning but Confused Teeth"
+        },
+        {
+          "itemId": "scp-series-9579",
+          "titleJP": "On Wednesday Morning, When the Truck Rolls In"
+        },
+        {
+          "itemId": "scp-series-9623",
+          "titleJP": "Gamer Box"
+        },
+        {
+          "itemId": "scp-series-9644",
+          "titleJP": "The Perfect Straw"
+        },
+        {
+          "itemId": "scp-series-9704",
+          "titleJP": "Certainty"
+        },
+        {
+          "itemId": "scp-series-9821",
+          "titleJP": "Let's Go Gambling!"
+        },
+        {
+          "itemId": "scp-series-9837",
+          "titleJP": "Plane-ly Ridiculous"
+        },
+        {
+          "itemId": "joke-scps-1551",
+          "titleJP": "Something Important"
+        },
+        {
+          "itemId": "joke-scps-3278",
+          "titleJP": "Wasn't Me"
+        },
+        {
+          "itemId": "scp-ex-900",
+          "titleJP": "Lochlan Read"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-09T01:08:45.317Z"
     }
   ]
 }
