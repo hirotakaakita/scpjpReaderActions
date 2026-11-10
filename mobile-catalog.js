@@ -3,6 +3,7 @@ const path = require('node:path');
 const zlib = require('node:zlib');
 const crypto = require('node:crypto');
 const { LANGUAGES } = require('./languages');
+const { reclassifyScpArticle } = require('./article-category');
 const { readDictionary, updateDictionary, localizeTags, indexDictionary } = require('./tag-dictionary');
 const { normalize } = require('./related-documents');
 
@@ -86,11 +87,12 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
       tags: localizeTags(r.tags || [], language, dictionary, tagIndex),
     }));
     for (const row of documents) {
-      const validId = row.itemId.startsWith('document-') || (row.contentType === 'scp' && /^(?:scp-series|joke-scps|scp-(?:[a-z]+-)?ex)/.test(row.pageType) && /^scp-|^joke-scps-/.test(row.itemId));
+      const validId = row.itemId.startsWith('document-') || /^(?:scp-series-|joke-scps-|scp-(?:[a-z]+-)?ex-)[a-z0-9][a-z0-9_-]*$/.test(row.itemId);
       if (!validId || ids.has(row.itemId) || REQUIRED_STRINGS.some(k => typeof row[k] !== 'string') || !row.titleJP || !Number.isFinite(Date.parse(row.lastUpdated)) || !normalize(row.urlJP)) throw Error(`Invalid additional article: ${row.itemId}`);
       ids.add(row.itemId);
     }
     delivery.data.push(...documents);
+    if (includeAdditional && enrichTranslations) delivery.data = delivery.data.map(reclassifyScpArticle);
     if (includeAdditional && enrichTranslations) for (const row of delivery.data) {
       row.translatedLanguages = [...new Set([
         ...(row.translatedLanguages || []), ...(translations.get(row.itemId) || []),
