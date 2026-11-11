@@ -70,7 +70,8 @@ async function audit({root=path.join(__dirname,'..'),languages=Object.keys(LANGU
    if(!row.imageUrl)continue;
    stats.images++;const url=urlOf(row);if(!url)continue;
    const record=state.records[url],reasons=suspectReasons(row,variants);
-   const trusted=record?.contentSha256&&Object.hasOwn(record,'imageUrl')&&Number.isFinite(Date.parse(record.checkedAt))&&(!row.createdAt||Date.parse(record.checkedAt)>=Date.parse(row.createdAt));
+   const observedAt=Math.max(Date.parse(record?.imageCheckedAt)||0,Date.parse(record?.checkedAt)||0);
+   const trusted=record?.contentSha256&&Object.hasOwn(record,'imageUrl')&&observedAt>0&&(!record.url||urlOf(record)===url)&&(!row.createdAt||observedAt>=Date.parse(row.createdAt))&&(!row.imageCheckedAt||observedAt>=Date.parse(row.imageCheckedAt));
    if(trusted&&record.imageUrl&&!decorativeImageReason(record.imageUrl)){
     stats.cached++;patch(row,record.imageUrl,'same_url_body_cache',{checkedAt:record.checkedAt,sha256:record.contentSha256});continue;
    }
@@ -123,8 +124,8 @@ function apply(root,report,now=new Date().toISOString()){
    accepted.set(language+'\0'+p.url,p);
   }
   if(changed){
-   source.timestamp=now;write(file,source);
-   const metaFile=path.join(base,language,'meta.json'),meta=JSON.parse(fs.readFileSync(metaFile));meta.lastUpdated=now;write(metaFile,meta);
+   source.timestamp=now;source.statistics={...(source.statistics||{}),withImage:source.data.filter(r=>r.imageUrl).length};write(file,source);
+   const metaFile=path.join(base,language,'meta.json'),meta=JSON.parse(fs.readFileSync(metaFile));meta.lastUpdated=now;meta.statistics=source.statistics;write(metaFile,meta);
    if(language==='jp'){write(path.join(base,'scp-data.json'),source);write(path.join(base,'meta.json'),meta);}
   }
   const indexFile=path.join(base,'catalog-indexes',language+'.json.gz');let indexChanges=0;
