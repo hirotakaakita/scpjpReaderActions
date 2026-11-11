@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
-const { deduplicateArticles } = require('./catalog-identity');
+const { deduplicateArticles, articleUrl } = require('./catalog-identity');
 const { capture: captureRelatedDocument } = require('./related-documents');
 
 const API_BASE_URL = 'https://scpfoundation.net';
@@ -212,7 +212,8 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     const pageId = String(article.pageId).toLowerCase();
     const englishItem = englishByPage.get(pageId);
     const itemId = englishItem?.itemId || `scp-series-${pageId.replace(/^scp-/, '')}`;
-    const old = existingMap.get(itemId) || existingMap.get(pageId);
+    const cached = existingMap.get(itemId) || existingMap.get(pageId);
+    const old = cached && articleUrl(cached) === articleUrl({urlJP:localUrl(pageId)}) ? cached : undefined;
     const branches = branchFromTags(article.tags, pageId);
     const sourceBranch = branches.includes('ru') ? 'ru' : branches[0];
     const needsDetails = !old || old.availabilityVersion !== 1 ||

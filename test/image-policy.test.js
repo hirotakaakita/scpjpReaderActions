@@ -3,6 +3,21 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const {JSDOM}=require('jsdom'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),zlib=require('node:zlib');
 const {decorativeImageReason}=require('../image-policy'),{extractImageUrlFromDocument}=require('../local-crawler');
 const {extractImageUrl}=require('../rufoundation-crawler'),{audit,apply}=require('../tool/audit-image-metadata');
+test('Russian cached metadata is reused only for the exact article URL',async t=>{
+ const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),{crawlRussianApi}=require('../rufoundation-crawler');
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'scp-ru-image-identity-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const before=process.env.RU_API_REQUEST_INTERVAL_MS;process.env.RU_API_REQUEST_INTERVAL_MS='0';t.after(()=>{if(before===undefined)delete process.env.RU_API_REQUEST_INTERVAL_MS;else process.env.RU_API_REQUEST_INTERVAL_MS=before;});
+ for(const lang of ['en','ru'])fs.mkdirSync(path.join(root,'local-data',lang),{recursive:true});
+ fs.writeFileSync(path.join(root,'local-data/en/scp-data.json'),JSON.stringify({data:[{itemId:'joke-scps-001',pageType:'joke-scps',extractedFrom:'joke-scps',urlEN:'https://scp-wiki.wikidot.com/scp-001-j'}]}));
+ fs.writeFileSync(path.join(root,'local-data/ru/scp-data.json'),JSON.stringify({data:[{itemId:'joke-scps-001',urlJP:'https://scpfoundation.net/scp-001-ex-j',imageUrl:'https://scpfoundation.net/local--files/scp-001-ex-j/wrong.jpg',objectClass:'Safe',descriptionExcerpt:'Cached wrong article',availabilityVersion:1,sourceUpdatedAt:'2026-11-01'}]}));
+ let fetched=false;
+ const result=await crawlRussianApi({root,request:async url=>{
+  if(url.endsWith('/api/articles'))return [{pageId:'scp-001-j',title:'SCP-001-J - Button',tags:['филиал:en'],updatedAt:'2026-11-01'}];
+  fetched=true;assert(url.endsWith('/scp-001-j'));return {source:'**Object Class:** Safe\n\n**Description:** The original article and its own red button.\n[[image button.PNG]]'};
+ }});
+ assert(fetched);assert.equal(result.data[0].imageUrl,'https://scpfoundation.net/local--files/scp-001-j/button.PNG');
+ assert.equal(result.data[0].itemId,'joke-scps-001');
+});
 test('ordinary crawler reruns cannot restore a same-number variant thumbnail',async t=>{
  const axios=require('axios'),{LocalSCPCrawler}=require('../local-crawler');
  const crawler=new LocalSCPCrawler('jp');crawler.startTime=new Date();crawler.totalUrls=1;crawler.entryDelayMs=0;crawler.waitForArticleRequestSlot=async()=>{};crawler.displayProgress=()=>{};
