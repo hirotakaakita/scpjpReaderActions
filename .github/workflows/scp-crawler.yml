@@ -60,6 +60,9 @@ jobs:
       - name: Validate additional branch sites and namespace routing
         run: node --test test/additional-sites.test.js
 
+      - name: Check article metadata and series classification
+        run: node --test test/image-policy.test.js test/crawler-tag-refresh.test.js test/series-listing.test.js test/scp-archive-classification.test.js
+
       - name: Generate matrix
         id: matrix
         run: echo "matrix=$(node print-matrix.js)" >> "$GITHUB_OUTPUT"
