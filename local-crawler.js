@@ -262,6 +262,8 @@ function extractImageUrlFromDocument(document, scpUrl) {
   for (const selector of imageSelectors) {
     for (const image of contentArea.querySelectorAll(selector)) {
       let src = image.getAttribute('src');
+      // Unexpanded Wikidot include parameters are broken placeholders, not images.
+      if (src && /\{\$|%7b(?:\$|%24)/i.test(src)) continue;
       if (!src || excluded.some(pattern => src.toLowerCase().includes(pattern))) continue;
       if (src.startsWith('//')) src = `http:${src}`;
       else if (src.startsWith('/')) src = `${pageOrigin}${src}`;
