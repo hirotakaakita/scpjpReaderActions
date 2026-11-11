@@ -19,7 +19,7 @@ function fixture(t){
 test('targeted repair preserves IDs and creation times, updates metadata and is repeatable',async t=>{
  const f=fixture(t);
  const changed=await refresh({...f,captureSources:false,now:'2026-11-11T00:00:00Z'});
- assert.equal(changed.length,5);
+ assert.equal(changed.length,targets.length);
  const source=JSON.parse(fs.readFileSync(f.file));
  for(let i=0;i<source.data.length;i++){
   const row=source.data[i];assert.equal(row.itemId,f.data[i].itemId);assert.equal(row.createdAt,f.data[i].createdAt);

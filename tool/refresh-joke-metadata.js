@@ -5,6 +5,10 @@ const {LocalSCPCrawler,stringifyAsciiSafe}=require('../local-crawler');
 const {extractHtml,capture}=require('../related-documents');
 const {readState,writeState}=require('../catalog-indexes');
 const targets=[
+ ['joke-scps-001','scp-001-j','joke-scps'],
+ ['joke-scps-001-d-j','scp-001-d-j','joke-scps'],
+ ['joke-scps-001-ex-j','scp-001-ex-j','joke-scps'],
+ ['joke-scps-001-and-a-half-j','scp-001-and-a-half-j','joke-scps'],
  ['joke-scps-006','scp-006-j','joke-scps'],
  ['joke-scps-682','scp-682-j','joke-scps'],
  ['joke-scps-jp-3168','scp-3168-jp-j','joke-scps-jp'],
@@ -35,7 +39,7 @@ async function refresh({root=path.join(__dirname,'..'),request=async url=>(await
    updates.push({itemId:id,titleJP:next.titleJP,imageUrl:next.imageUrl});
   }
  }
- // Nothing is written to published inputs until all five requests succeed.
+ // Nothing is written to published inputs until all target requests succeed.
  const indexFile=path.join(base,'catalog-indexes/jp.json.gz');
  if(fs.existsSync(indexFile)){
   const state=readState(indexFile);
