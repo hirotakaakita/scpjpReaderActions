@@ -22,7 +22,8 @@ function candidates(image,baseUrl){
   const extension=/\.([a-z0-9]+)(?:\/|;|$)/ig;let match,format;
   while((match=extension.exec(pathname)))format=match[1].toLowerCase();
   const requestedFormat=url.searchParams.get('format')||url.searchParams.get('fm')||'';
-  if(/^(?:svg|svgz|avif|heic|heif|tif|tiff|ico|pdf|html?|css|js|json|xml|txt)$/i.test(format||requestedFormat))continue;
+  const unsupported=/^(?:svg|svgz|avif|heic|heif|tif|tiff|ico|pdf|html?|css|js|json|xml|txt)$/i;
+  if(unsupported.test(format||'')||unsupported.test(requestedFormat))continue;
   const rank=ranks[format]??7;
   if(seen.has(url.href))continue;seen.add(url.href);
   result.push({url:url.href,rank});
@@ -34,6 +35,8 @@ function extractArticleImage(document,baseUrl){
  if(!root)return null;
  const found=[];
  for(const image of root.querySelectorAll('img')){
+  if(['width','height'].some(name=>image.hasAttribute(name)&&Number(image.getAttribute(name))>0&&Number(image.getAttribute(name))<=2))continue;
+  if(/(?:display\s*:\s*none|visibility\s*:\s*hidden)/i.test(image.getAttribute('style')||''))continue;
   if(image.closest('nav,[role="navigation"],#header,#side-bar,#top-bar,.page-navigation,.footer-wikiwalk-nav,.page-tags,.licensebox,.credit,.credit-box,#u-credit-view,.page-rate-widget-box,.interwiki-box,.fa,.icon'))continue;
   found.push(...candidates(image,baseUrl));
  }

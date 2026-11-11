@@ -21,4 +21,5 @@ test('unsupported vectors, avatars, decorative images and non-HTTP sources do no
  assert.equal(extract('<img src="/figure.svg"><img src="/figure.avif"><img src="javascript:alert(1)"><img src="file:///tmp/photo.png"><img src="//user:pass@cdn.example/a.png"><img src="/avatar.php?id=1">'),null);
  assert.equal(extract('<div role="navigation"><img src="/navigation.jpg"></div><img src="/nav/help.png"><img src="/proper.WBMP">'),'https://scp-wiki.wikidot.com/proper.WBMP');
  assert.equal(extract('<img srcset="data:image/png;base64,AAAA 1x">'),null);
+ assert.equal(extract('<img src="https://gravatar.com/avatar/hash"><img src="/tracker" width="1" height="1"><img src="/preload.PNG" style="display:none"><img src="/otherwise.png?format=avif">'),null);
 });
