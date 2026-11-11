@@ -42,6 +42,29 @@ function fixture(t) {
     setHtml: value => { html = value; }, requests: () => requests };
 }
 
+test('successful article fetch repairs a cached image and clears removed images; failures retain it', async t => {
+  const f = fixture(t);
+  const original = await f.crawl();
+  const wrong = { ...original, imageUrl:'https://scp-jp.wdfiles.com/local--files/scp-002-cu/wrong.jpg' };
+  f.setHtml('<div id="page-content"><img src="/local--files/scp-002/correct.jpg"><p>Article</p></div>');
+  const repaired = await f.crawl(wrong);
+  assert.equal(repaired.imageUrl, 'http://scp-jp.wikidot.com/local--files/scp-002/correct.jpg');
+  f.setFailure(true);
+  assert.equal((await f.crawl(repaired)).imageUrl,repaired.imageUrl);
+  f.setFailure(false);
+  f.setHtml('<div id="page-content"><p>Article without an image</p></div>');
+  assert.equal((await f.crawl(repaired)).imageUrl,null);
+});
+
+test('named joke links and Unicode hyphens retain their actual titles', t => {
+  const { JSDOM } = require('jsdom');
+  const crawler = new LocalSCPCrawler('jp');
+  const dom = new JSDOM('<ul><li><a href="/scp-3168-jp-j">こゐぬ</a></li><li><a href="/scp-3434-jp-j">SCP-3434-JP-J</a> ‐ 靴の角度</li><li><a href="/scp-3482-jp-j">🍛からいッ</a></li><li><a href="/scp-099-jp-j">SCP-099-JP-J</a></li></ul>');
+  t.after(()=>dom.window.close());
+  const rows=crawler.extractFromScpSeries(dom.window.document,{pageType:'joke-scps-jp',skipUnwritten:true});
+  assert.deepEqual(rows.map(r=>r.title),['こゐぬ','靴の角度','🍛からいッ','']);
+});
+
 test('exhausted retries report failure without a current tag version', async t => {
   const f = fixture(t); f.setFailure(true);
   const result = await f.extractDetails('https://example.invalid/scp-002', 2);

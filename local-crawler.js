@@ -23,8 +23,8 @@ function escapeRegExp(text) {
  * 区切りはサイトによって - / – / — が使われる（PLは—、THの一部は–）。
  */
 function titleAfterLink(text, linkText) {
-  const match = text.match(new RegExp(escapeRegExp(linkText) + '\\s*[-–—]\\s*(.+)'));
-  return match ? match[1].trim() : '';
+  const match = text.match(new RegExp(escapeRegExp(linkText) + '\\s*[-\\u2010-\\u2015\\u2212]\\s*(.+)'));
+  return match ? match[1].trim() : !/^SCP(?:-|\s)/i.test(linkText) ? linkText.trim() : '';
 }
 
 /**
@@ -659,7 +659,7 @@ class LocalSCPCrawler {
             urlEn = `${this.enBaseUrl}${entry.url}`;
           }
 
-          // 画像URLを取得（新しいアイテムまたは既存の画像URLがない場合のみ）
+          // 本文取得が成功したら画像URLも更新し、過去の誤ったキャッシュを修復する。
           // 現地語版があればそれを、なければ英語版を使用
           // SKIP_IMAGE_FETCH=1で画像取得を省略できる（一覧抽出のみのテスト用）
           let imageUrl = existingItem?.imageUrl || null;
@@ -690,7 +690,9 @@ class LocalSCPCrawler {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
             if (details.articleUnavailable || (!details.fetchSucceeded && isNewItem)) return null;
-            if (urlForImageExtraction && !existingItem?.imageUrl) imageUrl = details.imageUrl || imageUrl;
+            // A successful observation replaces stale images, including removal.
+            // Never retain a thumbnail borrowed from another same-numbered work.
+            if (urlForImageExtraction && details.fetchSucceeded) imageUrl = details.imageUrl || null;
             if (refreshObjectClass || forceRefreshDetails) objectClass = details.objectClass || objectClass;
             rating = details.rating ?? rating;
             if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
