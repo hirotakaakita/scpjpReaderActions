@@ -85,3 +85,14 @@ test('network failures retain the old image; concurrent newer images are not ove
  const result=apply(f.root,report);assert(result.conflicts.some(c=>c.itemId==='six'));
  assert.equal(JSON.parse(fs.readFileSync(f.file)).data[1].imageUrl,'https://example.com/newer.png');
 });
+
+test('missing-image sampling can recover skipped formats without treating null caches as final',async t=>{
+ const f=fixture(t),source=JSON.parse(fs.readFileSync(f.file)),missing={...source.data[0],itemId:'missing',urlJP:'https://lafundacionscp.wikidot.com/scp-099-j',imageUrl:null};
+ source.data.push(missing);source.totalCount++;fs.writeFileSync(f.file,JSON.stringify(source));
+ const report=await audit({root:f.root,languages:['es'],missingSamplesPerLanguage:1,intervalMs:0,request:async url=>({imageUrl:url.endsWith('/scp-099-j')?'https://cdn.example/render?id=99':'https://cdn.example/one.PNG',sha256:'c'.repeat(64)})});
+ assert.equal(report.languages[0].missingSamples,1);
+ assert(report.patches.some(p=>p.itemId==='missing'&&p.method==='missing_image_recovered'));
+ apply(f.root,report);
+ assert.equal(JSON.parse(fs.readFileSync(f.file)).data.find(r=>r.itemId==='missing').imageUrl,'https://cdn.example/render?id=99');
+ await assert.rejects(audit({root:f.root,missingSamplesPerLanguage:101}),/sample budget/);
+});

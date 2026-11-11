@@ -61,7 +61,7 @@ jobs:
         run: node --test test/additional-sites.test.js
 
       - name: Check article metadata and series classification
-        run: node --test test/image-policy.test.js test/crawler-tag-refresh.test.js test/series-listing.test.js test/scp-archive-classification.test.js
+        run: node --test test/article-images.test.js test/image-policy.test.js test/crawler-tag-refresh.test.js test/series-listing.test.js test/scp-archive-classification.test.js
 
       - name: Generate matrix
         id: matrix

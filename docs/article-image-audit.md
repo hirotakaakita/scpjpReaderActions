@@ -10,6 +10,18 @@ unexpanded Wikidot parameters. Images in credit/navigation containers are not
 article illustrations. Successful RU API source fetches also clear removed images;
 failed requests preserve the cached image.
 
+Supported raster extensions are JPG/JPEG, PNG, GIF, WebP, BMP and WBMP,
+case-insensitively. Explicit img elements may also use extensionless/dynamic
+HTTP(S) URLs, lazy attributes (data-src/data-original/data-lazy-src), srcset,
+or picture source fallbacks. Non-network schemes and embedded credentials are
+rejected. SVG/AVIF/HEIC/TIFF and CSS/canvas/iframe-rendered illustrations are
+outside the current thumbnail contract.
+
+The STG audit's missing_samples_per_language input probes a deterministic sample
+of articles whose image URL is absent, up to 100 original pages per language.
+This is a sample audit, not proof that every missing image in every article has
+been recovered. Positive recoveries preserve article identities.
+
 `node tool/audit-image-metadata.js plan` writes a reviewable plan under
 `partial-data/image-audit.json` without network fetching or published-data edits.
 `audit` additionally checks unresolved candidates against original pages, using

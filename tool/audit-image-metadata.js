@@ -52,11 +52,14 @@ async function observeImage(url){
  }
  throw Error('Image-source redirect limit');
 }
-async function audit({root=path.join(__dirname,'..'),languages=Object.keys(LANGUAGES),request=observeImage,network=true,intervalMs=500,maxRequests=1200}={}){
+async function audit({root=path.join(__dirname,'..'),languages=Object.keys(LANGUAGES),request=observeImage,network=true,intervalMs=500,maxRequests=1200,missingSamplesPerLanguage=Number(process.env.IMAGE_AUDIT_MISSING_SAMPLE||0)}={}){
+ if(!Number.isInteger(missingSamplesPerLanguage)||missingSamplesPerLanguage<0||missingSamplesPerLanguage>100)throw Error('Invalid missing-image sample budget');
  const result={schemaVersion:1,checkedAt:new Date().toISOString(),languages:[],patches:[],failures:[],pending:[]},queue=[];
  for(const language of languages){
   const rows=loadRows(root,language),stats={language,articles:rows.length,images:0,cached:0,decorative:0,network:0,unchanged:0,changes:0};
   stats.identitySha256=identityDigest(rows);result.languages.push(stats);
+  const missing=new Set(rows.filter(r=>!r.imageUrl&&urlOf(r)).map(r=>({id:r.itemId,key:crypto.createHash('sha256').update(r.itemId).digest('hex')})).sort((a,b)=>a.key.localeCompare(b.key)).slice(0,missingSamplesPerLanguage).map(r=>r.id));
+  stats.missingSamples=missing.size;
   const groups=new Map();
   for(const row of rows)if(Number.isInteger(row.numericItemId)){const key=row.pageType+':'+row.numericItemId;if(!groups.has(key))groups.set(key,new Set());groups.get(key).add(urlOf(row));}
   const variants=new Set([...groups].filter(([,urls])=>urls.size>1).map(([key])=>key));
@@ -67,7 +70,7 @@ async function audit({root=path.join(__dirname,'..'),languages=Object.keys(LANGU
    result.patches.push({language,itemId:row.itemId,url:urlOf(row),beforeImage:row.imageUrl||null,afterImage,method,evidence});stats.changes++;
   }
   for(const row of rows){
-   if(!row.imageUrl)continue;
+   if(!row.imageUrl){if(missing.has(row.itemId))queue.push({row,url:urlOf(row),stats,reasons:['missing_image_sample']});continue;}
    stats.images++;const url=urlOf(row);if(!url)continue;
    const record=state.records[url],reasons=suspectReasons(row,variants);
    const observedAt=Math.max(Date.parse(record?.imageCheckedAt)||0,Date.parse(record?.checkedAt)||0);
@@ -100,7 +103,7 @@ async function audit({root=path.join(__dirname,'..'),languages=Object.keys(LANGU
    try{
     const observed=await request(url),image=cleanImage(observed.imageUrl);
     if(equivalent(row.imageUrl)!==equivalent(image)){
-     result.patches.push({language:stats.language,itemId:row.itemId,url,beforeImage:row.imageUrl,afterImage:image,method:'article_refetch',evidence:{sha256:observed.sha256}});stats.changes++;
+     result.patches.push({language:stats.language,itemId:row.itemId,url,beforeImage:row.imageUrl||null,afterImage:image,method:row.imageUrl?'article_refetch':'missing_image_recovered',evidence:{sha256:observed.sha256}});stats.changes++;
     }else stats.unchanged++;
    }catch(error){result.failures.push({language:stats.language,itemId:row.itemId,url,error:error.message});}
   }
