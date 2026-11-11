@@ -3,6 +3,29 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const {JSDOM}=require('jsdom'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),zlib=require('node:zlib');
 const {decorativeImageReason}=require('../image-policy'),{extractImageUrlFromDocument}=require('../local-crawler');
 const {extractImageUrl}=require('../rufoundation-crawler'),{audit,apply}=require('../tool/audit-image-metadata');
+test('ordinary crawler reruns cannot restore a same-number variant thumbnail',async t=>{
+ const axios=require('axios'),{LocalSCPCrawler}=require('../local-crawler');
+ const crawler=new LocalSCPCrawler('jp');crawler.startTime=new Date();crawler.totalUrls=1;crawler.entryDelayMs=0;crawler.waitForArticleRequestSlot=async()=>{};crawler.displayProgress=()=>{};
+ const previous=process.env.SKIP_IMAGE_FETCH;delete process.env.SKIP_IMAGE_FETCH;t.after(()=>{if(previous===undefined)delete process.env.SKIP_IMAGE_FETCH;else process.env.SKIP_IMAGE_FETCH=previous;});
+ let reversed=false;
+ const slugs=['scp-001-j','scp-001-d-j','scp-001-ex-j'];
+ t.mock.method(axios,'get',async url=>{
+  if(url.endsWith('/joke-scps'))return {status:200,data:'<ul>'+(reversed?[...slugs].reverse():slugs).map(s=>'<li><a href="/'+s+'">'+s.toUpperCase()+'</a> - Title '+s+'</li>').join('')+'</ul>'};
+  const slug=new URL(url).pathname.slice(1);
+  return {status:200,data:'<div id="page-title">'+slug+'</div><div id="page-content"><p>Real article content.</p><img src="https://scp-jp.wdfiles.com/local--files/'+slug+'/own.PNG"></div>'};
+ });
+ const first=await crawler.extractScpDataFromUrl(crawler.baseUrl+'/joke-scps',new Map(),1);
+ const cached=new Map(first.map(r=>[r.itemId,r]));
+ cached.get('joke-scps-001').imageUrl=cached.get('joke-scps-001-d-j').imageUrl;
+ reversed=true;
+ const second=await crawler.extractScpDataFromUrl(crawler.baseUrl+'/joke-scps',cached,1);
+ for(const row of second){
+  const slug=new URL(row.urlJP).pathname.slice(1);
+  assert(row.imageUrl.includes('/'+slug+'/own.PNG'));
+  assert.equal(row.itemId,first.find(r=>r.urlJP===row.urlJP).itemId);
+ }
+ assert.equal(new Set(second.map(r=>r.imageUrl)).size,3);
+});
 test('case-insensitive article images outrank excluded credits, warning templates and interface assets',()=>{
  const dom=new JSDOM('<div id="page-content"><img src="https://raw.githubusercontent.com/FondationSCP/module-de-credit/main/img/blank.png"><img src="/local--files/_template/Aviso%202.png"><img src="/local--files/nav%3Aside/blank.png"><div class="credit"><img src="/local--files/other/credit.jpg"></div><img src="/local--files/scp-001-j/red-button.PNG"></div>');
  try{assert.equal(extractImageUrlFromDocument(dom.window.document,'https://fondationscp.wikidot.com/scp-001-j'),'https://fondationscp.wikidot.com/local--files/scp-001-j/red-button.PNG');}finally{dom.window.close();}
