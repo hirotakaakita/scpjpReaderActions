@@ -98,10 +98,12 @@ function extractDescription(source) {
 }
 
 function extractImageUrl(source, pageId) {
-  const match = String(source || '').match(/\[\[image\s+([^\]|\s]+)[^\]]*\]\]/i)
-    || String(source || '').match(/(?:^|[|\n])\s*name\s*=\s*([^|\]\n]+?)(?:\s*[|\n])/i);
+  const {cleanImage}=require('./image-policy');
+  const images=[...String(source||'').matchAll(/\[\[[=<>]?image\s+([^\]|\s]+)[^\]]*\]\]/gi)];
+  const match = images.find(m=>cleanImage(m[1])) || String(source || '').match(/(?:^|[|\n])\s*name\s*=\s*([^|\]\n]+?)(?:\s*[|\n])/i);
   if (!match) return null;
   const value = match[1].trim();
+  if(!cleanImage(value))return null;
   if (/^https?:\/\//i.test(value)) return value;
   if (value.startsWith('//')) return `https:${value}`;
   if (value.startsWith('/')) return new URL(value, API_BASE_URL).href;
@@ -227,7 +229,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     }
     const source = detail?.source || old?.source || '';
     // Repair previously cached attachment URLs without refetching every body.
-    let cachedImageUrl = old?.imageUrl || null;
+    let cachedImageUrl = require('./image-policy').cleanImage(old?.imageUrl);
     if (cachedImageUrl && /^https:\/\/scpfoundation\.net\/local--files\/[^/]+$/.test(cachedImageUrl)) {
       cachedImageUrl = cachedImageUrl.replace('/local--files/', `/local--files/${encodeURIComponent(pageId)}/`);
     }
@@ -247,7 +249,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       titleJP: article.title || old?.titleJP || pageId,
       urlEN: branches.includes('en') ? englishUrl(pageId) : (old?.urlEN || ''),
       urlJP: localUrl(pageId),
-      imageUrl: needsDetails ? (extractImageUrl(source, pageId) || cachedImageUrl) : cachedImageUrl,
+      imageUrl: detail ? extractImageUrl(source, pageId) : cachedImageUrl,
       objectClass,
       rating: normalizeRating(article.rating) ?? old?.rating ?? null,
       descriptionExcerpt,

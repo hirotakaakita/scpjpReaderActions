@@ -6,6 +6,7 @@ const axios = require('axios');
 const { publicTags } = require('./public-tags');
 const { LANGUAGES, DEFAULT_ENTRY_PATTERN } = require('./languages');
 const { articleUrl, deduplicateArticles } = require('./catalog-identity');
+const { decorativeImageReason } = require('./image-policy');
 const { capture: captureRelatedDocument } = require('./related-documents');
 
 const CRAWLER_USER_AGENT = 'Mozilla/5.0 (compatible; SCPCrawler/2.0; Multi-Language)';
@@ -256,12 +257,14 @@ function extractImageUrlFromDocument(document, scpUrl) {
   const contentArea = contentSelectors.map(selector => document.querySelector(selector)).find(Boolean);
   if (!contentArea) return null;
 
-  const excluded = ['/files/util/', '/common/media/', 'nav/', 'side/', 'help.png', 'icon', 'button', 'logo', 'heritage-rating', 'scp-heritage', 'component:'];
-  const imageSelectors = ['img[src*=".jpg"]', 'img[src*=".jpeg"]', 'img[src*=".png"]', 'img[src*=".gif"]', 'img[src*=".webp"]'];
+  const excluded = ['/files/util/', '/common/media/', 'nav/', 'side/', 'help.png', 'heritage-rating', 'scp-heritage', 'component:'];
+  const images=[...contentArea.querySelectorAll('img[src]')];
+  const imageTypes=[/\.jpg(?:[?#]|$)/i,/\.jpeg(?:[?#]|$)/i,/\.png(?:[?#]|$)/i,/\.gif(?:[?#]|$)/i,/\.webp(?:[?#]|$)/i];
   const pageOrigin = new URL(scpUrl).origin;
-  for (const selector of imageSelectors) {
-    for (const image of contentArea.querySelectorAll(selector)) {
+  for (const type of imageTypes) {
+    for (const image of images.filter(image=>type.test(image.getAttribute('src')))) {
       let src = image.getAttribute('src');
+      if (decorativeImageReason(src) || image.closest('nav,#side-bar,#top-bar,.page-tags,.licensebox,.credit,.credit-box,#u-credit-view,.page-rate-widget-box,.interwiki-box')) continue;
       // Unexpanded Wikidot include parameters are broken placeholders, not images.
       if (src && /\{\$|%7b(?:\$|%24)/i.test(src)) continue;
       if (!src || excluded.some(pattern => src.toLowerCase().includes(pattern))) continue;
