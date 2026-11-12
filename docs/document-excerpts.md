@@ -28,6 +28,8 @@ object classes remain part of the prose.
 Normal crawler jobs also run `tool/repair-catalog-excerpts.js <language>`.
 Recognizable cached voting widgets can be removed without another request.
 Header-only or truncated excerpts are fetched again, with bounded retries.
+If an unambiguous clean excerpt is already available for the exact same URL,
+reuse that prose instead of fetching it again. Never match by SCP number alone.
 Repairs contain the original excerpt and apply only while that value still
 matches, so they cannot overwrite a newer observation. Source catalogs, index
 records, retained document caches and legacy document catalogs are repaired
@@ -44,3 +46,6 @@ Obsolete cache records outside the current delivery/index scope are not fetched
 again. Only explicit 404/410 responses or confirmed empty/missing articles retire
 a page; temporary failures retain their error and prevent a complete repair
 publication. Retired URLs are listed in the report.
+Image/CSS articles without extractable prose keep their articles and receive an
+empty excerpt. Legacy checkpoints without explicit absence evidence also clear
+only the excerpt; they cannot retire an article.

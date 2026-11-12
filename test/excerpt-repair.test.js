@@ -38,3 +38,24 @@ test('unpublished removed cache records do not trigger refetches; confirmed miss
  assert.equal(requests,1);assert.equal(report.failed.length,0);assert.deepEqual(report.unavailable,[live]);
  const result=apply({root});assert.deepEqual(result.retiredUrls,[live]);assert.equal(readState(index).records[live],undefined);assert.equal(readState(index).attempts[live].status,'unavailable');assert(readState(index).records[old]);
 });
+
+test('a CSS/image article with no extractable prose keeps its identity and clears only the polluted excerpt',async t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'excerpt-no-prose-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const url='https://scp-jp.wikidot.com/image-story',file=path.join(root,'local-data/catalog-indexes/jp.json.gz');
+ writeState(file,{schemaVersion:1,records:{[url]:{url,language:'jp',descriptionExcerpt:'評価: +12+–x'}},attempts:{},indexes:{x:{members:[{url}]}}});
+ const report=await repair({root,language:'jp',intervalMs:0,request:async()=>{throw Object.assign(Error('Unavailable article: empty_body'),{articleUnavailable:true});}});
+ assert.equal(report.failed.length,0);assert.equal(report.edits[0].method,'no_prose');
+ assert.deepEqual(apply({root}).retiredUrls,[]);assert.equal(readState(file).records[url].descriptionExcerpt,'');
+ assert.notEqual(readState(file).attempts[url]?.status,'unavailable');
+});
+
+test('an already clean excerpt repairs only the exact same URL without borrowing from a same-numbered variant',async t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'excerpt-exact-url-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const url='https://scp-jp.wikidot.com/scp-173',variant=url+'-j',dir=path.join(root,'local-data/jp');fs.mkdirSync(dir,{recursive:true});
+ fs.writeFileSync(path.join(dir,'scp-data.json'),JSON.stringify({data:[{urlJP:url,descriptionExcerpt:'The correct description of the original article.'}]}));
+ const file=path.join(root,'local-data/catalog-indexes/jp.json.gz');
+ writeState(file,{schemaVersion:1,records:Object.fromEntries([url,variant].map(u=>[u,{url:u,descriptionExcerpt:'Item #: SCP-173 Object Class: Safe'}])),attempts:{},indexes:{x:{members:[{url},{url:variant}]}}});
+ let requests=0;const report=await repair({root,language:'jp',intervalMs:0,request:async requested=>{requests++;assert.equal(requested,variant);return{url:requested,descriptionExcerpt:'The separate Joke article.'};}});
+ assert.equal(requests,1);assert.equal(report.edits.find(e=>e.url===url).method,'matching_article');assert.equal(report.edits.find(e=>e.url===url).text,'The correct description of the original article.');
+ assert.equal(report.edits.find(e=>e.url===variant).text,'The separate Joke article.');
+});

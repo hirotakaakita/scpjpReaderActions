@@ -15,7 +15,9 @@ function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new 
   reports.push({...report,edits:report.edits.length});
   for(const edit of report.edits)edits.set(edit.url+':'+hash(edit.before),{...edit,at:report.at});
  }
- const retired=new Set([...edits.values()].filter(e=>e.method==='unavailable').map(e=>e.url));
+ // Old checkpoints did not distinguish an empty CSS/image article from a
+ // missing page. Without explicit absence evidence, clear only the excerpt.
+ const retired=new Set([...edits.values()].filter(e=>e.method==='unavailable'&&([404,410].includes(e.statusCode)||e.reason==='not_found')).map(e=>e.url));
  const retiredRow=row=>retired.has(normalize(row.urlJP||row.urlEN||row.url)?.url);
  function patch(row,kind){
   const url=normalize(row.urlJP||row.urlEN||row.url)?.url;if(!url||typeof row.descriptionExcerpt!=='string')return false;
