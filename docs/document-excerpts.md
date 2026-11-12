@@ -38,3 +38,9 @@ audited, every required refetch must complete, and publication checks the
 entire mobile-v3 catalog for remaining voting controls or report headers.
 This mode preserves the normal incremental acquisition model and does not
 prepare notifications. The report is `local-data/excerpt-repair-report.json`.
+
+`excerpt_repair_run` can reuse validated checkpoints from an earlier run.
+Obsolete cache records outside the current delivery/index scope are not fetched
+again. Only explicit 404/410 responses or confirmed empty/missing articles retire
+a page; temporary failures retain their error and prevent a complete repair
+publication. Retired URLs are listed in the report.

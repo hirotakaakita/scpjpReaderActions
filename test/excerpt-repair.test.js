@@ -27,3 +27,14 @@ test('bulk repair strips widgets without requests, refetches missing prose, and 
  const current=JSON.parse(fs.readFileSync(path.join(dir,'scp-data.json')));current.data[0].descriptionExcerpt='A newer observation.';fs.writeFileSync(path.join(dir,'scp-data.json'),JSON.stringify(current));apply({root});
  assert.equal(JSON.parse(fs.readFileSync(path.join(dir,'scp-data.json'))).data[0].descriptionExcerpt,'A newer observation.');
 });
+
+test('unpublished removed cache records do not trigger refetches; confirmed missing published pages are retired',async t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'excerpt-retired-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const live='https://scp-jp.wikidot.com/removed-story',old='https://scp-jp.wikidot.com/old-removed-story';
+ const record=url=>({url,language:'jp',descriptionExcerpt:'アイテム番号: SCP-173',checkedAt:'2026-11-01T00:00:00Z'});
+ const index=path.join(root,'local-data/catalog-indexes/jp.json.gz');
+ writeState(index,{schemaVersion:1,records:{[live]:record(live),[old]:record(old)},attempts:{},indexes:{x:{at:'2026-11-12T00:00:00Z',members:[{url:live}],missing:[old]}}});
+ let requests=0;const report=await repair({root,language:'jp',intervalMs:0,request:async url=>{requests++;assert.equal(url,live);const e=Error('missing');e.response={status:404};throw e;}});
+ assert.equal(requests,1);assert.equal(report.failed.length,0);assert.deepEqual(report.unavailable,[live]);
+ const result=apply({root});assert.deepEqual(result.retiredUrls,[live]);assert.equal(readState(index).records[live],undefined);assert.equal(readState(index).attempts[live].status,'unavailable');assert(readState(index).records[old]);
+});

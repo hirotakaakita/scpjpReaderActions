@@ -6,7 +6,7 @@ const {readState,writeState}=require('../catalog-indexes');
 const {read,hash}=require('./repair-catalog-excerpts');
 const {VERSION,repairStoredExcerpt}=require('../article-excerpts');
 function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new Date().toISOString()}={}){
- const reports=[],edits=new Map(),counts={primary:0,index:0,cache:0,additional:0};
+ const reports=[],edits=new Map(),counts={primary:0,index:0,cache:0,additional:0,removedPrimary:0,removedIndex:0,removedAdditional:0};
  for(const language of Object.keys(LANGUAGES)){
   const file=path.join(root,'partial-data/excerpt-repairs',language+'.json.gz');
   if(!fs.existsSync(file)){if(requireComplete)throw Error('Missing excerpt repair: '+language);continue;}
@@ -15,6 +15,8 @@ function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new 
   reports.push({...report,edits:report.edits.length});
   for(const edit of report.edits)edits.set(edit.url+':'+hash(edit.before),{...edit,at:report.at});
  }
+ const retired=new Set([...edits.values()].filter(e=>e.method==='unavailable').map(e=>e.url));
+ const retiredRow=row=>retired.has(normalize(row.urlJP||row.urlEN||row.url)?.url);
  function patch(row,kind){
   const url=normalize(row.urlJP||row.urlEN||row.url)?.url;if(!url||typeof row.descriptionExcerpt!=='string')return false;
   const edit=edits.get(url+':'+hash(row.descriptionExcerpt));if(!edit)return false;
@@ -26,25 +28,30 @@ function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new 
  for(const language of Object.keys(LANGUAGES)){
   const file=path.join(root,'local-data',language,'scp-data.json');
   if(fs.existsSync(file)){
-   const source=read(file);let changed=false;for(const row of source.data)changed=patch(row,'primary')||changed;
-   if(changed){source.timestamp=now;save(file,source);const metaFile=path.join(path.dirname(file),'meta.json'),meta=read(metaFile);meta.lastUpdated=now;save(metaFile,meta);
+   const source=read(file),oldCount=source.data.length;source.data=source.data.filter(row=>!retiredRow(row));counts.removedPrimary+=oldCount-source.data.length;
+   let changed=oldCount!==source.data.length;for(const row of source.data)changed=patch(row,'primary')||changed;
+   if(changed){source.timestamp=now;source.totalCount=source.data.length;if(source.statistics){source.statistics.translated=source.data.filter(r=>r.isTranslatedJP!==false).length;source.statistics.untranslated=source.data.length-source.statistics.translated;source.statistics.withImage=source.data.filter(r=>r.imageUrl).length;}
+    save(file,source);const metaFile=path.join(path.dirname(file),'meta.json'),meta=read(metaFile);meta.lastUpdated=now;meta.totalCount=source.totalCount;if(source.statistics)meta.statistics=source.statistics;save(metaFile,meta);
     if(language==='jp'){save(path.join(root,'local-data/scp-data.json'),source);save(path.join(root,'local-data/meta.json'),meta);}
    }
   }
   for(const base of ['local-data','partial-data']){
    const file=path.join(root,base,'catalog-indexes',language+'.json.gz');if(!fs.existsSync(file))continue;
-   const state=readState(file);let changed=false;for(const row of Object.values(state.records))changed=patch(row,'index')||changed;
+   const state=readState(file);let changed=false;for(const url of retired)if(normalize(url)?.language===language){if(state.records[url]){delete state.records[url];counts.removedIndex++;}state.attempts[url]={status:'unavailable',at:now,reason:'Confirmed missing during excerpt repair'};changed=true;}
+   for(const row of Object.values(state.records))changed=patch(row,'index')||changed;
    if(changed)writeState(file,state);
   }
  }
  for(const dir of ['related-documents','related-documents-v2'])for(const suffix of ['.json','.json.gz']){
   const file=path.join(root,'local-data',dir,'catalog'+suffix);if(!fs.existsSync(file))continue;
-  const catalog=read(file);let changed=false;for(const row of catalog.data)changed=patch(row,'additional')||changed;
-  if(changed){catalog.timestamp=now;save(file,catalog);}
+  const catalog=read(file),oldCount=catalog.data.length;catalog.data=catalog.data.filter(row=>!retiredRow(row));counts.removedAdditional+=oldCount-catalog.data.length;
+  let changed=oldCount!==catalog.data.length;for(const row of catalog.data)changed=patch(row,'additional')||changed;
+  if(changed){catalog.timestamp=now;catalog.totalCount=catalog.data.length;save(file,catalog);}
  }
  const cacheDirectory=path.join(root,'local-data/related-document-cache'),cache=loadCache(cacheDirectory);let changed=false;
+ for(const url of retired)if(cache.records.has(url)){cache.records.delete(url);cache.attempts.set(url,{status:'unavailable',at:now});changed=true;}
  for(const row of cache.records.values())changed=patch(row,'cache')||changed;if(changed)saveCache(cacheDirectory,cache.records,cache.attempts);
- const report={version:VERSION,at:now,counts,languages:reports};
+ const report={version:VERSION,at:now,counts,retiredUrls:[...retired],languages:reports};
  save(path.join(root,'local-data/excerpt-repair-report.json'),report);console.log(JSON.stringify({counts,languages:reports.length}));return report;
 }
 function auditMobile({root=path.resolve(__dirname,'..')}={}){
