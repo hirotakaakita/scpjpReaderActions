@@ -31,6 +31,29 @@ test('delivery projection preserves reader fields without mutating crawler state
   assert.throws(() => mobileCatalog({ ...source, data: [source.data[0], source.data[0]], totalCount: 2 }, 'jp'));
 });
 
+test('mobile-v3 repairs retained ID-only tag labels and keeps legacy channels and reader keys stable', t => {
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),'mobile-tag-labels-'));
+  t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+  const input=path.join(root,'local-data'), directory=path.join(input,'cn');
+  fs.mkdirSync(directory,{recursive:true});
+  const id='tag-7f558808845f404857963c5b';
+  fs.writeFileSync(path.join(root,'tag-dictionary.json'),JSON.stringify({version:1,tags:{[id]:{aliases:['人造物品'],labels:{}}}}));
+  const source=catalog();source.language='cn';source.data[0].tags=[id];
+  const saved=JSON.stringify(source);
+  fs.writeFileSync(path.join(directory,'scp-data.json'),saved);
+  fs.writeFileSync(path.join(directory,'meta.json'),JSON.stringify({lastUpdated:source.timestamp,totalCount:1}));
+  generateMobileCatalogs(input);
+  const read=channel=>{const dir=path.join(input,channel,'cn'),m=JSON.parse(fs.readFileSync(path.join(dir,'manifest.json')));return JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,m.fileName)))).data[0];};
+  const current=read('mobile-v3');
+  assert.deepEqual(current.tags,[{id,label:'人造物品'}]);
+  for(const key of ['itemId','createdAt','lastUpdated'])assert.equal(current[key],source.data[0][key]);
+  for(const channel of ['mobile-v1','mobile-v2'])assert.deepEqual(read(channel).tags,[id]);
+  assert.equal(fs.readFileSync(path.join(directory,'scp-data.json'),'utf8'),saved);
+  const manifest=fs.readFileSync(path.join(input,'mobile-v3/cn/manifest.json'),'utf8');
+  generateMobileCatalogs(input);
+  assert.equal(fs.readFileSync(path.join(input,'mobile-v3/cn/manifest.json'),'utf8'),manifest);
+});
+
 test('gzip manifest is deterministic, verifiable and leaves legacy files byte-identical', t => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'mobile-catalog-'));
   t.after(() => fs.rmSync(directory, { recursive: true, force: true }));

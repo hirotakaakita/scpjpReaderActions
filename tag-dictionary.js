@@ -68,6 +68,23 @@ function localizeTags(values, branch, dictionary, index = indexDictionary(dictio
   }
   return [...result.values()];
 }
+// Retained primary catalogs can contain ID-only tags. Rehydrate their display
+// labels at delivery time without changing tag IDs or explicit source labels.
+function restoreTagLabels(values, branch, dictionary, index = indexDictionary(dictionary), storedLabels = {}) {
+  const locale = branchLocales[branch] || branch;
+  return values.map(value => {
+    const id = typeof value === 'string' ? value : value?.id;
+    if (typeof id !== 'string') return value;
+    const embedded = typeof value === 'object' ? value.label : null;
+    if (typeof embedded === 'string' && embedded.trim() &&
+        !(embedded === id && /^tag-[a-f0-9]{24}$/.test(id))) return value;
+    const entry = dictionary.tags[index.get(id)];
+    const stored = storedLabels?.[id];
+    const label = typeof stored === 'string' && stored.trim() ? stored :
+      entry?.labels[locale] || entry?.aliases[0] || id;
+    return typeof value === 'string' ? { id, label } : { ...value, label };
+  });
+}
 function pendingTranslations(dictionary) {
   return Object.entries(dictionary.tags).flatMap(([id, entry]) => {
     const missing = locales.filter(locale => !entry.labels[locale]);
@@ -81,4 +98,4 @@ function saveDictionary(file, dictionary) {
   fs.writeFileSync(file, JSON.stringify(sorted, null, 2) + '\n');
 }
 module.exports = { locales, readDictionary, indexDictionary, updateDictionary,
-  localizeTags, pendingTranslations, saveDictionary };
+  localizeTags, restoreTagLabels, pendingTranslations, saveDictionary };
