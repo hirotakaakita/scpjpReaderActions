@@ -7,7 +7,7 @@ const {saveCache,loadCache}=require('../related-documents');
 test('bulk repair strips widgets without requests, refetches missing prose, and repairs all matching stores',async t=>{
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'excerpt-repair-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  const date='2026-11-01T00:00:00Z',url='https://scp-jp.wikidot.com/scp-173',story='https://scp-jp.wikidot.com/story';
- const row={itemId:'scp-series-173',urlJP:url,descriptionExcerpt:'アイテム番号: SCP-173 オブジェクトクラス: Euclid',imageUrl:'same.png',tags:['scp'],lastUpdated:date};
+ const row={itemId:'scp-series-173',titleJP:'日本語のタイトル',urlJP:url,descriptionExcerpt:'アイテム番号: SCP-173 オブジェクトクラス: Euclid',imageUrl:'same.png',tags:['scp'],lastUpdated:date};
  const dir=path.join(root,'local-data/jp');fs.mkdirSync(dir,{recursive:true});
  fs.writeFileSync(path.join(dir,'scp-data.json'),JSON.stringify({language:'jp',timestamp:date,totalCount:1,data:[row]}));
  fs.writeFileSync(path.join(dir,'meta.json'),JSON.stringify({lastUpdated:date,totalCount:1}));
@@ -20,6 +20,7 @@ test('bulk repair strips widgets without requests, refetches missing prose, and 
  assert.equal(resumed.requests,0);assert.equal(resumed.edits.length,report.edits.length);
  const applied=apply({root});assert.equal(applied.counts.primary,1);assert.equal(applied.counts.index,2);assert.equal(applied.counts.cache,2);
  const next=JSON.parse(fs.readFileSync(path.join(dir,'scp-data.json'))).data[0];
+ assert.equal(next.titleJP,row.titleJP);assert(/^[\x00-\x7f]*$/.test(fs.readFileSync(path.join(dir,'scp-data.json'),'utf8')));
  assert.equal(next.descriptionExcerpt,'SCP-173 is a statue.');for(const k of ['itemId','urlJP','imageUrl','tags','lastUpdated'])assert.deepEqual(next[k],row[k]);
  assert.equal(readState(index).records[story].descriptionExcerpt,'The actual story.');assert.equal(loadCache(cache).records.get(story).descriptionExcerpt,'The actual story.');
  assert.equal(apply({root}).counts.primary,0);

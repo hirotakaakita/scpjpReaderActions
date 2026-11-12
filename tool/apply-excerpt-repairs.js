@@ -26,7 +26,7 @@ function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new 
   if(edit.sourceHash)row.descriptionContentSha256=edit.sourceHash;
   counts[kind]++;return true;
  }
- function save(file,value){fs.writeFileSync(file+'.tmp',file.endsWith('.gz')?z.gzipSync(JSON.stringify(value),{level:9}):JSON.stringify(value));fs.renameSync(file+'.tmp',file);}
+ function save(file,value){fs.writeFileSync(file+'.tmp',file.endsWith('.gz')?z.gzipSync(JSON.stringify(value),{level:9}):require('../local-crawler').stringifyAsciiSafe(value));fs.renameSync(file+'.tmp',file);}
  for(const language of Object.keys(LANGUAGES)){
   const file=path.join(root,'local-data',language,'scp-data.json');
   if(fs.existsSync(file)){
