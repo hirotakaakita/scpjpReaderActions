@@ -11,12 +11,13 @@ const { deduplicateArticles } = require('./catalog-identity');
 function identity(slug, pageType) { return pageType + ':' + variantSlugPart('/' + slug, pageType); }
 function scpIdentity(page, record, origin, known) {
   if (require('./article-category').scpArticleCategory(record, page.url || '', page.slug) !== 'other') return null;
-  const m = /^scp-(?:([a-z]+)-)?(\d+)(?:-(.*))?$/.exec(page.slug);
-  if (!m) return null;
-  const tokens = (m[3] || '').split('-').filter(Boolean);
+  const russianJoke = require('./russian-joke-identity').russianJokeIdentity(page.url || '', record.tags || [], origin);
   const branches = new Set(['en','zh','sk','nd',...Object.keys(LANGUAGES), ...Object.keys(require('./additional-origins.json'))]);
+  const m = /^scp-(?:([a-z]+)-)?(\d+)(?:-(.*))?$/.exec(page.slug);
+  if (!m || (m[1] && !branches.has(m[1]))) return russianJoke;
+  const tokens = (m[3] || '').split('-').filter(Boolean);
   const simple = !tokens.some(t => !branches.has(t) && !['j','ex'].includes(t));
-  if (!simple && !(record.tags || []).includes('scp')) return null;
+  if (!simple && !(record.tags || []).includes('scp')) return russianJoke;
   const branch = m[1] || tokens.find(t => branches.has(t)) || 'en';
   if (branch === 'id' || !branches.has(branch)) return null;
   const family = tokens.includes('j') ? 'joke-scps' : tokens.includes('ex') ? 'scp-ex' : 'scp-series';

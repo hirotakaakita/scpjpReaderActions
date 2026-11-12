@@ -50,6 +50,10 @@ function reclassifyScpArticle(row) {
   if (!url || !branchForPageType(row.pageType)) return row;
   const existingBranch = branchForPageType(row.pageType);
   const category = scpArticleCategory(row, url);
+  const joke = category === 'other' && !['archive','tale','goi','record','setting','hub'].includes(row.contentType) && !row.pageType.startsWith('joke-scps')
+    ? require('./russian-joke-identity').russianJokeIdentity(url, row.tags || [], existingBranch) : null;
+  if (joke) return { ...row, itemId:joke.itemId, numericItemId:joke.numericItemId,
+    pageType:joke.pageType, extractedFrom:joke.pageType, contentType:'scp' };
   if (row.pageType.startsWith('related-document-')) {
     return category === 'archive' ? { ...row, contentType: category } : row;
   }

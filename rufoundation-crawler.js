@@ -3,6 +3,8 @@ const path = require('path');
 const axios = require('axios');
 const { deduplicateArticles, articleUrl } = require('./catalog-identity');
 const { capture: captureRelatedDocument } = require('./related-documents');
+const { russianJokeIdentity } = require('./russian-joke-identity');
+const { articleCategory } = require('./article-category');
 
 const API_BASE_URL = 'https://scpfoundation.net';
 const EN_BASE_URL = 'https://scp-wiki.wikidot.com';
@@ -139,7 +141,10 @@ function normalizeRating(rating) {
   return Math.round(value);
 }
 function isScpArticle(article) {
-  return /^scp-\d+/i.test(article.pageId || '') && /^scp-\d+/i.test(article.title || '');
+  return /^scp-/i.test(article.title || '') &&
+    (/^scp-\d+/i.test(article.pageId || '') ||
+      (articleCategory(article, [], localUrl(article.pageId || '')) === 'other' &&
+       !!russianJokeIdentity(localUrl(article.pageId || ''), article.tags || [])));
 }
 function localUrl(pageId) { return `${API_BASE_URL}/${encodeURIComponent(pageId).replace(/%2F/gi, '/')}`; }
 function englishUrl(pageId) { return `${EN_BASE_URL}/${encodeURIComponent(pageId).replace(/%2F/gi, '/')}`; }
@@ -193,6 +198,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
   fs.mkdirSync(outputDir, { recursive: true });
   const existing = readCatalog(path.join(root, 'local-data', 'ru', 'scp-data.json'));
   const existingMap = new Map((existing.data || []).map(item => [item.itemId, item]));
+  const existingByUrl = new Map((existing.data || []).filter(item => item.urlJP).map(item => [articleUrl(item), item]));
   const english = readCatalog(path.join(root, 'local-data', 'en', 'scp-data.json'));
   const englishByPage = new Map((english.data || []).filter(item => item.urlEN).map(item =>
     [new URL(item.urlEN).pathname.replace(/^\//, ''), item]));
@@ -211,11 +217,15 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
   const processArticle = async article => {
     const pageId = String(article.pageId).toLowerCase();
     const englishItem = englishByPage.get(pageId);
-    const itemId = englishItem?.itemId || `scp-series-${pageId.replace(/^scp-/, '')}`;
-    const cached = existingMap.get(itemId) || existingMap.get(pageId);
-    const old = cached && articleUrl(cached) === articleUrl({urlJP:localUrl(pageId)}) ? cached : undefined;
     const branches = branchFromTags(article.tags, pageId);
     const sourceBranch = branches.includes('ru') ? 'ru' : branches[0];
+    const joke = articleCategory(article, [], localUrl(pageId)) === 'other'
+      ? russianJokeIdentity(localUrl(pageId), article.tags || [], sourceBranch) : null;
+    const knownJoke = englishItem?.pageType?.startsWith('joke-scps') ? englishItem : null;
+    const itemId = knownJoke?.itemId || joke?.itemId || englishItem?.itemId || `scp-series-${pageId.replace(/^scp-/, '')}`;
+    const key = articleUrl({urlJP:localUrl(pageId)});
+    const cached = existingByUrl.get(key) || existingMap.get(itemId) || existingMap.get(pageId);
+    const old = cached && articleUrl(cached) === key ? cached : undefined;
     const needsDetails = !old || old.availabilityVersion !== 1 ||
       (article.updatedAt && article.updatedAt !== old.sourceUpdatedAt) ||
       forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt;
@@ -240,13 +250,13 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       ? article.tags.filter(tag => !/^\u0444\u0438\u043b\u0438\u0430\u043b:/iu.test(String(tag)))
       : (old?.tags || []);
     const now = startedAt.toISOString();
-    const pageType = englishItem?.pageType || (sourceBranch === 'en' ? 'scp-series' : `scp-series-${sourceBranch}`);
+    const pageType = knownJoke?.pageType || joke?.pageType || englishItem?.pageType || (sourceBranch === 'en' ? 'scp-series' : `scp-series-${sourceBranch}`);
     const seriesNumber = Math.floor((numericId(pageId) || 0) / 1000) + 1;
-    const extractedFrom = englishItem?.extractedFrom ||
+    const extractedFrom = joke ? pageType : englishItem?.extractedFrom ||
       (seriesNumber === 1 ? pageType : `${pageType}-${seriesNumber}`);
     return {
       itemId,
-      numericItemId: numericId(pageId),
+      numericItemId: joke ? joke.numericItemId : numericId(pageId),
       titleJP: article.title || old?.titleJP || pageId,
       urlEN: branches.includes('en') ? englishUrl(pageId) : (old?.urlEN || ''),
       urlJP: localUrl(pageId),
