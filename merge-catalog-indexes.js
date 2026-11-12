@@ -90,7 +90,10 @@ function buildIndexedCatalog(catalogs, states, previous = { data: [] }, now = ne
       const scp = scpIdentity(page,record,branch,known);
       const contentType = scp ? 'scp' : articleCategory(record,evidence,url);
       const prior = previousByUrl.get(url);
-      data.push({ itemId:prior?.itemId || scp?.itemId || `document-${language}--${page.slug}`, url,language,title:record.title,
+      // Former document placeholders use the shared Joke identity once the
+      // article is classified. Do not keep a document ID for a known Joke SCP.
+      const canonicalJoke = scp?.pageType.startsWith('joke-scps') && prior?.itemId?.startsWith('document-');
+      data.push({ itemId:canonicalJoke ? scp.itemId : prior?.itemId || scp?.itemId || `document-${language}--${page.slug}`, url,language,title:record.title,
         contentType,pageType:scp?.pageType || (branch ? `related-document-${branch}` : 'related-document-unclassified'),
         numericItemId:scp?.numericItemId,originBranch:scp?.originBranch || branch,
         classification:{branch:scp?.originBranch || branch,basis:origins.length ? 'official_index_section' : fallback.basis,evidence:origins},

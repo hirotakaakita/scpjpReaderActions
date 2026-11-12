@@ -50,8 +50,19 @@ all 28 UI locales. Archived works remain grouped by original branch.
 Native list aliases such as `serie-scp-es`, `liste-fr`, `scp-it-serie-i`,
 `lista-pl` and explicit first-page names (`scp-series-ko-1`) are normalized
 with additional indexed articles to a single series key. ES uses 100-number
-series; other configured numbered branches use 1000-number series.
+series, as does PT; other configured numbered branches use 1000-number series.
 Physical wiki index names do not create duplicate HOME sections.
+
+PT's physical `series-1-pt` / `series-2-pt` indexes map to `scp-series-pt` /
+`scp-series-pt-2`: Series I contains 001–099 and Series II contains 100–199.
+Sources: https://scp-pt-br.wikidot.com/series-1-pt and
+https://scp-pt-br.wikidot.com/series-2-pt .
+
+Joke SCPs previously published under a `document-<language>--...` placeholder
+are assigned their canonical Joke ID during official-index merging. For example,
+PT's `document-pt--scp-pl-2021-j` becomes `joke-scps-pl-2021`, shared with PL and
+other translations, and displays as `JOKE-SCP-PL-2021`. This intentional ID repair
+does not add an old-ID compatibility layer or migrate existing user state.
 
 The French `scp-021821135-fr` page is a separate Tale titled
 `SCP-0███-FR`; it is not an alias of SCP-543-FR. The app uses the published

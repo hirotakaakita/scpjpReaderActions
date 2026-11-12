@@ -94,6 +94,22 @@ test('reclassifying a published document as SCP preserves its reading identity',
   assert.equal(row.pageType,'scp-series');
   assert.equal(row.contentType,'scp');
 });
+
+test('classified Joke documents use the native canonical ID rather than the old placeholder',()=>{
+ const url='https://scp-pt-br.wikidot.com/scp-pl-2021-j';
+ const state={indexes:{x:{members:[{url,kind:'scp',source:'https://scp-pt-br.wikidot.com/scp-international'}]}},records:{[url]:rec(url,['scp','piada'])},attempts:{}};
+ const native={language:'pl',itemId:'joke-scps-pl-2021',pageType:'joke-scps-pl',urlJP:'https://scp-pl.wikidot.com/scp-pl-2021-j',isTranslatedJP:true};
+ const previous={data:[{url,itemId:'document-pt--scp-pl-2021-j',language:'pt',pageType:'joke-scps-pl'}]};
+ const first=buildIndexedCatalog([native],{pt:state},previous,date);
+ const row=first.data.find(r=>r.url===url);
+ assert.equal(row.itemId,'joke-scps-pl-2021');assert.equal(row.pageType,'joke-scps-pl');
+ assert.equal(row.numericItemId,2021);assert.equal(row.url,url);
+ assert.equal(buildIndexedCatalog([native],{pt:state},first,date).data[0].itemId,row.itemId);
+ // Archives and Tales retain their own categories, even when the URL ends -J.
+ state.records[url]=rec(url,['scp','archived']);
+ const archive=buildIndexedCatalog([native],{pt:state},previous,date).data[0];
+ assert.equal(archive.contentType,'archive');assert.equal(archive.itemId,previous.data[0].itemId);
+});
 test('old one-hop-only rows are not retained after a successful scope migration',()=>{
   const linked=base+'only-linked-from-an-article',listed=base+'listed-in-index';
   const state={indexes:{x:{members:[{url:listed,kind:'tale',source:source.url}]}},records:{},attempts:{},failures:{'unrelated-index':{reason:'timeout'}}};
