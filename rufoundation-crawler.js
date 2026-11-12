@@ -41,6 +41,7 @@ function cleanWikiText(value) {
     .replace(/\[\[(?:\/|>|<|div\b|span\b|table\b|row\b|col\b|collapsible\b)[^\]]*\]\]/gi, ' ')
     .replace(/\[\[image\s+[^\]]+\]\]/gi, ' ')
     .replace(/\[\[include\s+[^\]]+\]\]/gi, ' ')
+    .replace(/\[\[module\s+[^\]]+\]\]/gi, ' ')
     .replace(/\[\[[^\]|]+\|([^\]]+)\]\]/g, '$1')
     .replace(/\[\[([^\]]+)\]\]/g, '$1')
     .replace(/\[https?:\/\/\S+\s+([^\]]+)\]/g, '$1')
@@ -92,7 +93,7 @@ function extractDescription(source) {
   }
   // ACS/structured articles may omit an explicit Description label. Use the first
   // meaningful prose paragraph after removing the FTML header in that case.
-  const paragraphs = cleanWikiText(text).split(/\n{2,}/)
+  const paragraphs = cleanWikiText(text).split('\n').filter(line => !require('./article-excerpts').HEADER.test(line.trim())).join('\n').split(/\n{2,}/)
     .map(value => value.trim())
     .filter(value => value.length >= 40 && !/^[-=]{3,}$/.test(value));
   const fallback = paragraphs.find(value => !/^(?:scp-number|scp-class|linefirst|linesecond|linethird)\s*=/i.test(value));
@@ -228,7 +229,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     const old = cached && articleUrl(cached) === key ? cached : undefined;
     const needsDetails = !old || old.availabilityVersion !== 1 ||
       (article.updatedAt && article.updatedAt !== old.sourceUpdatedAt) ||
-      forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt;
+      forceDetails || forceObjectClass || forceDescription || old?.descriptionVersion !== require('./article-excerpts').VERSION || !old.objectClass || !old.descriptionExcerpt;
     let detail = null;
     if(needsDetails && metadataOnly && old?.availabilityVersion !== 1)return null;
     if (needsDetails && !metadataOnly) {
@@ -245,7 +246,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       cachedImageUrl = cachedImageUrl.replace('/local--files/', `/local--files/${encodeURIComponent(pageId)}/`);
     }
     const objectClass = needsDetails ? (extractObjectClass(source) || old?.objectClass || null) : old.objectClass;
-    const descriptionExcerpt = needsDetails ? (extractDescription(source) || old?.descriptionExcerpt || null) : old.descriptionExcerpt;
+    const descriptionExcerpt = detail ? extractDescription(source) : old?.descriptionExcerpt || null;
     const tags = Array.isArray(article.tags)
       ? article.tags.filter(tag => !/^\u0444\u0438\u043b\u0438\u0430\u043b:/iu.test(String(tag)))
       : (old?.tags || []);
@@ -264,6 +265,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       objectClass,
       rating: normalizeRating(article.rating) ?? old?.rating ?? null,
       descriptionExcerpt,
+      descriptionVersion:detail ? require('./article-excerpts').VERSION : old?.descriptionVersion,
       detailFetchStatus: detail ? 'success' : (old?.detailFetchStatus ||
         (objectClass && descriptionExcerpt ? 'success' : 'pending')),
       availabilityVersion:detail ? 1 : old?.availabilityVersion,

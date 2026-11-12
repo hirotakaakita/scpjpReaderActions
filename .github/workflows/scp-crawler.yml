@@ -61,7 +61,7 @@ jobs:
         run: node --test test/additional-sites.test.js
 
       - name: Check article metadata and series classification
-        run: node --test test/article-images.test.js test/image-policy.test.js test/crawler-tag-refresh.test.js test/series-listing.test.js test/scp-archive-classification.test.js test/russian-joke-classification.test.js test/russian-archive-classification.test.js test/scp-document-identity.test.js test/related-documents.test.js test/refresh-document-metadata.test.js
+        run: node --test test/article-images.test.js test/image-policy.test.js test/crawler-tag-refresh.test.js test/series-listing.test.js test/scp-archive-classification.test.js test/russian-joke-classification.test.js test/russian-archive-classification.test.js test/scp-document-identity.test.js test/related-documents.test.js test/refresh-document-metadata.test.js test/article-excerpts.test.js test/excerpt-repair.test.js
 
       - name: Generate matrix
         id: matrix
@@ -109,6 +109,12 @@ jobs:
         env:
           INDEX_MAX_REQUESTS: '600'
           INDEX_MAX_DURATION_MS: '300000'
+          CRAWL_REQUEST_INTERVAL_MS: '500'
+
+      - name: Repair cached article excerpts
+        run: node tool/repair-catalog-excerpts.js ${{ matrix.lang }}
+        env:
+          EXCERPT_MAX_REQUESTS: '200'
           CRAWL_REQUEST_INTERVAL_MS: '500'
 
       - name: Upload partial data
@@ -166,6 +172,9 @@ jobs:
 
       - name: Apply manga availability flags
         run: node apply-manga-flags.js
+
+      - name: Apply excerpt repairs to sources and retained caches
+        run: node tool/apply-excerpt-repairs.js
 
       - name: Reject duplicate article IDs before publication
         run: node catalog-identity.js

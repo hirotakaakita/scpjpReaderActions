@@ -71,11 +71,11 @@ function extractHtml(url, html, now = new Date().toISOString(), existingDocument
       .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(v => v && v !== page.url))].sort();
     // Lazy import: the ordinary crawler also calls this extractor with its DOM.
     const metadata = require('./local-crawler');
-    const description = metadata.extractDescriptionAndTagsFromDocument(root).descriptionExcerpt || root.textContent.trim().replace(/\s+/g, ' ');
+    const description = metadata.extractDescriptionAndTagsFromDocument(root).descriptionExcerpt || '';
     return { ...page, title, tags, translations: [...new Set(translations)].sort(), authors,
       objectClass: metadata.extractObjectClassFromDocument(d), rating: metadata.extractRatingFromDocument(d),
       imageUrl: metadata.extractImageUrlFromDocument(d,page.url),
-      links, descriptionExcerpt: Array.from(description).slice(0, 250).join(''),
+      links, descriptionExcerpt: Array.from(description).slice(0, 250).join(''), descriptionVersion:require('./article-excerpts').VERSION,
       contentSha256: hash(String(html)), checkedAt: now, format: 'html', availabilityVersion: 1 };
   } finally { dom?.window.close(); }
 }
@@ -92,7 +92,7 @@ function extractApi(url, article, now = new Date().toISOString()) {
   return { ...page, title: article.title, tags: (article.tags || []).map(t => typeof t === 'string' ? t : t.name).filter(Boolean),
     objectClass: metadata.extractObjectClass(source),rating:metadata.normalizeRating(article.rating),imageUrl:metadata.extractImageUrl(source,page.slug),
     links: [...links].sort(), translations: [], authors: [], format: 'ftml', contentSha256: hash(source), checkedAt: now, availabilityVersion: 1,
-    descriptionExcerpt: source.replace(/\[\[[\s\S]*?\]\]/g, ' ').replace(/\s+/g, ' ').slice(0, 250) };
+    descriptionExcerpt: metadata.extractDescription(source) || '', descriptionVersion:require('./article-excerpts').VERSION };
 }
 
 function capture(url, body, format = 'html', directory = path.join(__dirname, 'partial-data/related-documents'), existingDocument = null) {

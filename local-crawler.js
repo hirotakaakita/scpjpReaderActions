@@ -202,6 +202,9 @@ function extractPageTagsFromDocument(document) {
 }
 
 function extractDescriptionAndTagsFromDocument(document) {
+  const originalDocument = document;
+  const excerpts = require('./article-excerpts');
+  document = excerpts.cleanExcerptRoot(document);
   let excerpt = '';
   let descriptionText = '';
   for (const label of document.querySelectorAll('strong, b, h1, h2, h3, h4, h5, h6')) {
@@ -240,8 +243,11 @@ function extractDescriptionAndTagsFromDocument(document) {
 
   // Wikidot?????????????????????????
   // ????????????????????????????????????
-  const tags = extractPageTagsFromDocument(document);
-  return { descriptionExcerpt: excerpt || null, tags, tagVersion: TAG_RULE_VERSION };
+  if (!excerpt) excerpt = excerpts.inlineDescription(document) || document.textContent.trim().replace(/\s+/g, ' ');
+  const cleaned = excerpts.repairStoredExcerpt(excerpt);
+  const tags = extractPageTagsFromDocument(originalDocument);
+  return { descriptionExcerpt: cleaned.needsFetch ? null : Array.from(cleaned.text).slice(0,500).join('') || null,
+    descriptionVersion:excerpts.VERSION, tags, tagVersion: TAG_RULE_VERSION };
 }
 
 function extractRatingFromDocument(document) {
@@ -649,6 +655,7 @@ class LocalSCPCrawler {
           let objectClass = existingItem?.objectClass || null;
           let rating = existingItem?.rating ?? null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
+          let descriptionVersion = existingItem?.descriptionVersion;
           let tagVersion = existingItem?.tagVersion ?? null;
           let tagFetchStatus = existingItem?.tagFetchStatus ?? null;
           const forceRefreshDetails = process.env.FORCE_REFRESH_SCP_DETAILS === '1';
@@ -658,7 +665,7 @@ class LocalSCPCrawler {
           OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
           const storedClassTokens = objectClass ? [...objectClass.matchAll(OBJECT_CLASS_VALUE_PATTERN)] : [];
           const refreshObjectClass = forceRefreshObjectClass || !objectClass || storedClassTokens.length > 1 || objectClass.length > 80;
-          const refreshDescription = forceRefreshDetails || forceRefreshDescription || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
+          const refreshDescription = forceRefreshDetails || forceRefreshDescription || existingItem?.descriptionVersion !== require('./article-excerpts').VERSION || !descriptionExcerpt || Array.from(descriptionExcerpt).length === 250;
           // Retry failed refreshes, including forced refreshes at the current version.
           // Legacy empty arrays lack a success marker and may be failed fetches.
           const refreshTags = forceRefreshDetails || forceRefreshTags || tagVersion !== TAG_RULE_VERSION ||
@@ -678,7 +685,10 @@ class LocalSCPCrawler {
             if (urlForImageExtraction && details.fetchSucceeded) imageUrl = details.imageUrl || null;
             if (refreshObjectClass || forceRefreshDetails) objectClass = details.objectClass || objectClass;
             rating = details.rating ?? rating;
-            if (refreshDescription) descriptionExcerpt = details.descriptionExcerpt || descriptionExcerpt;
+            if (refreshDescription && details.fetchSucceeded) {
+              descriptionExcerpt = details.descriptionExcerpt || null;
+              descriptionVersion = details.descriptionVersion;
+            }
             if (refreshTags) {
               if (details.fetchSucceeded) {
                 tags = details.tags;
@@ -704,6 +714,7 @@ class LocalSCPCrawler {
             objectClass: objectClass,
             rating: rating,
             descriptionExcerpt: descriptionExcerpt,
+            descriptionVersion,
             tags: publicTags(tags),
             tagVersion: tagVersion,
             tagFetchStatus: tagFetchStatus,
