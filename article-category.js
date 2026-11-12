@@ -45,14 +45,14 @@ function articleCategory(record, evidence = [], url = record.url || '') {
   if (kinds.has('setting')) return 'setting';
   return 'other';
 }
-// Correct delivery metadata without replacing IDs used by bookmarks/read state.
+// Correct delivery metadata and replace document placeholders for identified SCPs.
 function scpArticleCategory(record, url = record.url || '', slug = '') {
   const category = articleCategory(record, [], url);
   // SCP-001 entry pages are intentionally hubs inside their numbered series.
   const identifier = slug || decodeURIComponent(new URL(url).pathname).split(':').at(-1).replace(/^\//, '');
   return category === 'hub' && /^scp-(?:[a-z]+-)?001(?:-[a-z]+)?$/i.test(identifier) ? 'other' : category;
 }
-function reclassifyScpArticle(row) {
+function reclassifyScpArticle(row, reservedIds) {
   const { branchForPageType } = require('./article-origin');
   const known = new Set(['en', 'zh', 'sk', 'nd', ...Object.keys(require('./languages').LANGUAGES), ...Object.keys(require('./additional-origins.json'))]);
   const validOrigin = value => known.has(value) ? value : null;
@@ -77,7 +77,14 @@ function reclassifyScpArticle(row) {
   }
   if (branch !== existingBranch && row.pageType.startsWith('scp-series')) {
     const pageType = branch === 'en' ? 'scp-series' : 'scp-series-' + branch;
-    return { ...row, pageType, extractedFrom: pageType };
+    row = { ...row, pageType, extractedFrom: pageType };
+  }
+  if (row.contentType === 'scp' && row.itemId.startsWith('document-')) {
+    const scp = require('./merge-catalog-indexes').scpIdentity({ slug, url }, row, branch, new Map());
+    // Distinct published URLs can share a printed SCP number.
+    if (scp?.pageType === row.pageType && !(reservedIds instanceof Set && reservedIds.has(scp.itemId))) {
+      return { ...row, itemId:scp.itemId, numericItemId:scp.numericItemId };
+    }
   }
   return row;
 }

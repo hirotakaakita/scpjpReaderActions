@@ -22,8 +22,9 @@ function scpIdentity(page, record, origin, known) {
   if (branch === 'id' || !branches.has(branch)) return null;
   const family = tokens.includes('j') ? 'joke-scps' : tokens.includes('ex') ? 'scp-ex' : 'scp-series';
   const pageType = branch === 'en' ? family : family === 'scp-ex' ? `scp-${branch}-ex` : `${family}-${branch}`;
-  const ids = known.get(identity(page.slug,pageType));
-  const native=[...(ids?.nativeIds||[])];
+  const existing = known.get(identity(page.slug,pageType));
+  const ids = new Set([...(existing || [])].filter(id => !id.startsWith('document-')));
+  const native=[...(existing?.nativeIds||[])].filter(id => !id.startsWith('document-'));
   const canonical=[...(ids||[])].filter(id=>id.startsWith(pageType+'-'));
   if (ids?.size > 1 && native.length !== 1 && canonical.length !== 1) throw Error('Ambiguous existing SCP identity: '+page.slug);
   const itemId = native.length===1 ? native[0] : canonical.length===1 ? canonical[0] : ids?.size ? [...ids][0] : !simple ? `${pageType}-${variantSlugPart('/'+page.slug,pageType)}` :
@@ -31,12 +32,15 @@ function scpIdentity(page, record, origin, known) {
   return { itemId, pageType, numericItemId:Number(m[2]), originBranch:branch };
 }
 function buildIndexedCatalog(catalogs, states, previous = { data: [] }, now = new Date().toISOString()) {
-  const seeds = new Map(), known = new Map();
+  const seeds = new Map(), known = new Map(), reserved = new Map();
   for (const row of catalogs) {
     const page = normalize(row.isTranslatedJP !== false && row.urlJP ? row.urlJP : row.urlEN);
     if (!page) continue;
     if (!seeds.has(page.url)) seeds.set(page.url,[]);
     seeds.get(page.url).push(row);
+    const reservation = row.language + ':' + row.itemId;
+    if (!reserved.has(reservation)) reserved.set(reservation, new Set());
+    reserved.get(reservation).add(page.url);
     if (!row.itemId || !branchForPageType(row.pageType)) continue;
     const key = identity(page.slug,row.pageType);
     if (!known.has(key)) known.set(key,new Set()); known.get(key).add(row.itemId);
@@ -91,10 +95,10 @@ function buildIndexedCatalog(catalogs, states, previous = { data: [] }, now = ne
       const scp = scpIdentity(page,record,branch,known);
       const contentType = scp ? 'scp' : articleCategory(record,evidence,url);
       const prior = previousByUrl.get(url);
-      // Former document placeholders use the shared Joke identity once the
-      // article is classified. Do not keep a document ID for a known Joke SCP.
-      const canonicalJoke = scp?.pageType.startsWith('joke-scps') && prior?.itemId?.startsWith('document-');
-      data.push({ itemId:canonicalJoke ? scp.itemId : prior?.itemId || scp?.itemId || `document-${language}--${page.slug}`, url,language,title:record.title,
+      // Classified SCPs use their shared identity instead of a document placeholder.
+      const occupied = scp && [...(reserved.get(language + ':' + scp.itemId) || [])].some(other => other !== url);
+      const canonicalScp = scp && prior?.itemId?.startsWith('document-') && !occupied;
+      data.push({ itemId:canonicalScp ? scp.itemId : prior?.itemId || scp?.itemId || `document-${language}--${page.slug}`, url,language,title:record.title,
         contentType,pageType:scp?.pageType || (branch ? `related-document-${branch}` : 'related-document-unclassified'),
         numericItemId:scp?.numericItemId,originBranch:scp?.originBranch || branch,
         classification:{branch:scp?.originBranch || branch,basis:origins.length ? 'official_index_section' : fallback.basis,evidence:origins},

@@ -50,20 +50,28 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
   if (additional) updateDictionary(dictionary, additional.data.flatMap(r => r.tags || []));
   const tagIndex = indexDictionary(dictionary);
   const translations = new Map();
+  const reservedByLanguage = new Map();
   function addTranslation(id, language) {
     if (!translations.has(id)) translations.set(id, new Set());
     translations.get(id).add(language);
   }
   if (includeAdditional && enrichTranslations) {
+    const translationRows = [];
     for (const language of Object.keys(LANGUAGES)) {
       const file = path.join(input, language, 'scp-data.json');
       if (!fs.existsSync(file)) continue;
-      for (const row of JSON.parse(fs.readFileSync(file)).data) {
-        if (row.isTranslatedJP !== false) addTranslation(row.itemId, language);
-        for (const code of row.translatedLanguages || []) addTranslation(row.itemId, code);
-      }
+      for (const row of JSON.parse(fs.readFileSync(file)).data) translationRows.push({ row, language });
     }
-    for (const row of additional?.data || []) addTranslation(row.itemId, row.language);
+    for (const row of additional?.data || []) translationRows.push({ row, language:row.language });
+    for (const {row,language} of translationRows) {
+      if (!reservedByLanguage.has(language)) reservedByLanguage.set(language, new Set());
+      reservedByLanguage.get(language).add(row.itemId);
+    }
+    for (const {row,language} of translationRows) {
+      const id = reclassifyScpArticle(row, reservedByLanguage.get(language)).itemId;
+      if (row.isTranslatedJP !== false) addTranslation(id, language);
+      for (const code of row.translatedLanguages || []) addTranslation(id, code);
+    }
   }
   for (const language of Object.keys(LANGUAGES)) {
     const file = path.join(input, language, 'scp-data.json');
@@ -94,7 +102,7 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
     }
     delivery.data.push(...documents);
     if (includeAdditional && enrichTranslations) delivery.data = delivery.data.map(row => {
-      const corrected = reclassifyScpArticle(row);
+      const corrected = reclassifyScpArticle(row, reservedByLanguage.get(language));
       return {...corrected,
         tags:restoreTagLabels(corrected.tags || [], language, dictionary, tagIndex, corrected.tagLabels),
         extractedFrom:normalizedSourceListing(corrected)};
