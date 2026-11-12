@@ -2,11 +2,20 @@
 
 // Article type and original branch are independent. A canon's member is not
 // necessarily a hub, and a translated work keeps its original branch.
+function isFrenchArchivedTranslation(url) {
+  try {
+    const page = new URL(url);
+    // -T is a retired translation on the French publisher, not a branch code
+    // or a universal suffix on other Wikis. Tags remain the primary evidence.
+    return page.hostname === 'fondationscp.wikidot.com' &&
+      /^\/scp-(?:[a-z]+-)?\d+(?:-[a-z\d]+)*-t\/?$/i.test(decodeURIComponent(page.pathname));
+  } catch { return false; }
+}
 function articleCategory(record, evidence = [], url = record.url || '') {
-  const tags = new Set((record.tags || []).flatMap(t => typeof t === 'string' ? [t.toLowerCase()] : [t.id, t.label].filter(Boolean).map(v => v.toLowerCase())));
+  const tags = new Set((record.tags || []).flatMap(t => typeof t === 'string' ? [t] : [t.id, t.label].filter(Boolean)).map(v => v.normalize('NFC').toLowerCase()));
   const has = values => values.some(t => tags.has(t));
-  if (has(['archived','archive','archived-page','アーカイブ済み']) ||
-      /(?:-arc(?:$|[?#])|\/archived:)/i.test(url)) return 'archive';
+  if (has(['archived','archive','archived-page','archivé','アーカイブ済み']) ||
+      /(?:-arc(?:$|[?#])|\/archived:)/i.test(url) || isFrenchArchivedTranslation(url)) return 'archive';
   if (has(['hub','ハブ','中心','结构','структура:хаб','허브','centrum','concentrador','centre','portalseite','hub-vn'])) return 'hub';
   if (has(['goi-format','goiフォーマット','goi格式','формат-goi','format-goi','format-goi-fr','goi-格式','goi서식','структура:свор_формат'])) return 'goi';
   if (has(['experiment-log','exploration-log','interview','incident-report','supplement','実験','実験記録','探査','探査記録','インタビュー','補足','実験ログ'])) return 'record';

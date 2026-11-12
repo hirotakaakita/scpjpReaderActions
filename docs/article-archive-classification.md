@@ -5,6 +5,19 @@ An explicit archived tag, a terminal `-ARC` URL suffix, or the `archived:`
 namespace identifies an archived article. A word such as "archive" in the title
 or in an ordinary URL is insufficient.
 
+French `archivé` tags (including localized tag labels and decomposed Unicode)
+also identify archives. On `fondationscp.wikidot.com`, numbered SCP URLs ending
+in `-T`, including `scp-007-it-t`, identify retired translations even if their
+saved tags are missing. This suffix rule is restricted to the French publisher;
+it does not interpret `-T` on other Wikis as an archive or a country code.
+The same shared classification runs during index merging and mobile-v3 delivery
+generation, so rebuilding saved data repairs existing entries as well as future
+crawls. IDs, URLs and the original branch (such as IT) remain unchanged.
+
+French source example: https://fondationscp.wikidot.com/scp-039-t explicitly
+marks the translation as outdated and no longer official, links its replacement,
+and carries the `archivé` tag.
+
 Article type is checked before assigning an SCP-shaped URL to a numbered series.
 For example, SCP-2 is a Tale, distinct from SCP-002. SCP-002-KZ belongs to the
 Kazakh original branch; KZ is origin metadata, not a newly enabled viewing language
