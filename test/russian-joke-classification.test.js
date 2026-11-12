@@ -6,7 +6,7 @@ const {reclassifyScpArticle}=require('../article-category');
 const {scpIdentity}=require('../merge-catalog-indexes');
 const {crawlRussianApi}=require('../rufoundation-crawler');
 const base='https://scpfoundation.net/',tags=['тип:шуточный','структура:объект'];
-const examples=[['scp-1d6-j','joke-scps-1d6','joke-scps',null],['scp-3v1l-j','joke-scps-3v1l','joke-scps',null],['scp-008-de-j','joke-scps-de-008','joke-scps-de',8],['scp-1733-ru-j','joke-scps-ru-1733','joke-scps-ru',1733],['scp-1121-ru-j-v','joke-scps-ru-1121-j-v','joke-scps-ru',1121],['scp-minus-1-j','joke-scps-minus-1-j','joke-scps',null]];
+const examples=[['scp-1d6-j','joke-scps-1d6','joke-scps',null],['scp-3v1l-j','joke-scps-3v1l','joke-scps',null],['scp-008-de-j','joke-scps-de-008','joke-scps-de',8],['scp-1733-ru-j','joke-scps-ru-1733','joke-scps-ru',1733],['scp-3112-ru-j-d','joke-scps-ru-3112-j-d','joke-scps-ru',3112],['scp-minus-1-j','joke-scps-minus-1-j','joke-scps',null]];
 
 test('Russian Joke identity supports alphanumeric identifiers, origin branches and variants',()=>{
  for(const [slug,id,type,n] of examples){

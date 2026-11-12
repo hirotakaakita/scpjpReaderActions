@@ -5,6 +5,16 @@
 function isPublisherArchive(url, tags) {
   try {
     const page = new URL(url);
+    if (page.hostname === 'scpfoundation.net') {
+      const markers = new Set(['тип:архив', 'тип:-v']);
+      // Retained API catalogs may contain only hashed tag IDs. Resolve their
+      // source aliases as well as embedded labels before deciding the type.
+      const marked = [...tags].some(tag => markers.has(tag) ||
+        (/^tag-[a-f0-9]{24}$/.test(tag) &&
+          (require('./tag-dictionary.json').tags[tag]?.aliases || [])
+            .some(alias => markers.has(alias.normalize('NFC').toLowerCase()))));
+      return marked || /^\/[^/]+-v(?:-\d+)?\/?$/i.test(decodeURIComponent(page.pathname));
+    }
     // The Spanish VO category preserves original versions of rewritten works,
     // including Tales, supplements and Joke SCPs, not just numbered articles.
     if (page.hostname === 'lafundacionscp.wikidot.com') {

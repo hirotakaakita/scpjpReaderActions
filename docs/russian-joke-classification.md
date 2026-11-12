@@ -23,6 +23,12 @@ SPC-172-J remain SPC GoI formats. The suffix alone is not applied to arbitrary
 non-SCP documents or other publishers. Existing frozen delivery channels keep
 their previous contracts.
 
+Russian `тип:архив` / `тип:-v` tags and the `-V` / `-V-1` archive suffixes
+are checked before Joke identity. This includes hashed tag IDs in retained
+primary catalogs. A `-J-V` article therefore belongs to Archive even if it also
+has `тип:шуточный`. Regenerated archived rows use their source/index IDs;
+no old-ID compatibility or user-state migration is introduced.
+
 Sources: https://scpfoundation.net/scp-1d6-j ,
 https://scpfoundation.net/scp-3v1l-j ,
 https://scpfoundation.net/scp-008-de-j .
