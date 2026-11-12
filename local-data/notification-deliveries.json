@@ -2216,6 +2216,60 @@
       "startedAt": "2026-11-12T13:06:48.716Z",
       "messageName": "projects/scpjp-reader/messages/4076898229243389191",
       "sentAt": "2026-11-12T13:06:56.991Z"
+    },
+    {
+      "id": "zh-tr/2026-11-08",
+      "lang": "zh-tr",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-zh-318",
+          "titleJP": "狗螺"
+        },
+        {
+          "itemId": "scp-series-zh-325",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-335",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-415",
+          "titleJP": "花海"
+        },
+        {
+          "itemId": "scp-series-zh-827",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-9506",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9996",
+          "titleJP": "The Middleman"
+        },
+        {
+          "itemId": "joke-scps-3",
+          "titleJP": "帶小孩上班日！"
+        },
+        {
+          "itemId": "joke-scps-005",
+          "titleJP": "「不，因為她認為他是在說……」"
+        },
+        {
+          "itemId": "joke-scps-2600",
+          "titleJP": "最 可愛 的小東西"
+        },
+        {
+          "itemId": "joke-scps-173",
+          "titleJP": ""
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-12T13:06:48.716Z"
     }
   ]
 }
