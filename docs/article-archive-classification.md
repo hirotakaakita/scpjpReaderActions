@@ -18,6 +18,17 @@ French source example: https://fondationscp.wikidot.com/scp-039-t explicitly
 marks the translation as outdated and no longer official, links its replacement,
 and carries the `archivé` tag.
 
+Spanish `-VO` versions and pages tagged `vo` on `lafundacionscp.wikidot.com`
+are archives too. VO means "Versión Original": versions preserved after a rewrite.
+The rule includes numbered SCPs, Joke/decommissioned SCPs, Tales, hubs and
+supplements. A `vo` tag is sufficient on this publisher even without a `-vo` URL;
+the suffix is sufficient when saved tags are absent. Neither marker is applied
+to other publishers (for example, INT's Volapük translations).
+Live replacements keep their existing classification. Original branches, stable
+IDs, URLs, timestamps and legacy mobile-v1/v2 contracts are preserved on rebuild.
+
+Spanish source: https://scp-wiki.wikidot.com/news-02-2025 (Project Torquemada).
+
 Article type is checked before assigning an SCP-shaped URL to a numbered series.
 For example, SCP-2 is a Tale, distinct from SCP-002. SCP-002-KZ belongs to the
 Kazakh original branch; KZ is origin metadata, not a newly enabled viewing language
