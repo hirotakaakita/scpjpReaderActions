@@ -16,6 +16,8 @@ test('bulk repair strips widgets without requests, refetches missing prose, and 
  const cache=path.join(root,'local-data/related-document-cache');saveCache(cache,new Map(Object.entries(records)),new Map());
  let requests=0;const report=await repair({root,language:'jp',intervalMs:0,request:async requested=>{requests++;assert.equal(requested,url);return {url,descriptionExcerpt:'SCP-173 is a statue.',contentSha256:'a'.repeat(64)};}});
  assert.equal(requests,1);assert.equal(report.failed.length,0);assert.equal(report.pending.length,0);
+ const resumed=await repair({root,language:'jp',intervalMs:0,previousFile:path.join(root,'partial-data/excerpt-repairs/jp.json.gz'),request:async()=>{throw Error('Completed repairs should not be fetched again');}});
+ assert.equal(resumed.requests,0);assert.equal(resumed.edits.length,report.edits.length);
  const applied=apply({root});assert.equal(applied.counts.primary,1);assert.equal(applied.counts.index,2);assert.equal(applied.counts.cache,2);
  const next=JSON.parse(fs.readFileSync(path.join(dir,'scp-data.json'))).data[0];
  assert.equal(next.descriptionExcerpt,'SCP-173 is a statue.');for(const k of ['itemId','urlJP','imageUrl','tags','lastUpdated'])assert.deepEqual(next[k],row[k]);

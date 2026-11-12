@@ -10,6 +10,8 @@ test('stored widgets are removed precisely while prose, SCP references and evalu
  assert.equal(repairStoredExcerpt('rating: +12+–x rating: +12+–x SCP-173 is a statue.').text,'SCP-173 is a statue.');
  assert.equal(repairStoredExcerpt('notation: +12+–x fermer Crédits close Actual narrative.').text,'Actual narrative.');
  assert.equal(repairStoredExcerpt('Rating: 评分: +8+–x Actual narrative.').text,'Actual narrative.');
+ for(const label of ['avaliação','рейтинг','đánh giá','คะแนน'])assert.equal(repairStoredExcerpt(label+': +12+–x Actual narrative.').text,'Actual narrative.');
+ assert.equal(repairStoredExcerpt('Author panel rating: +12+–x Actual narrative.').needsFetch,true);
  for(const text of ['The rating: +12 is part of the experiment.','Item numbers are mentioned in this story.','项目编号未被分配给任何项目。','SCP-173 is classified as Euclid.'])assert.equal(repairStoredExcerpt(text).needsFetch,false);
  for(const text of ['Item #: SCP-173 Object Class: Euclid','アイテム番号: SCP-173','項目編號：SCP-173','Object Class: Euclid','Objet # : SCP-173','Elemento #: SCP-003-IT','rating: +12+–x'])assert.equal(repairStoredExcerpt(text).needsFetch,true);
 });

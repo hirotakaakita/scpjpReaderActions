@@ -26,12 +26,18 @@ function collect(root,language){
  }
  return {inspected,targets:[...targets.values()]};
 }
-async function repair({root=path.resolve(__dirname,'..'),language,maxRequests=10000,intervalMs=500,request=fetchRecord,now=new Date().toISOString()}={}){
+async function repair({root=path.resolve(__dirname,'..'),language,maxRequests=10000,intervalMs=500,request=fetchRecord,previousFile=null,now=new Date().toISOString()}={}){
  if(!LANGUAGES[language]||!Number.isInteger(maxRequests)||maxRequests<0||intervalMs<0)throw Error('Invalid excerpt repair options');
  const file=path.join(root,'partial-data/excerpt-repairs',language+'.json.gz');
- const collected=collect(root,language),edits=[],failed=[],pending=[],fetched=new Map();let attempts=0,last=0;
+ const collected=collect(root,language),edits=[],failed=[],pending=[],fetched=new Map(),previous=new Map();let attempts=0,last=0;
+ if(previousFile&&fs.existsSync(previousFile)){
+  const prior=read(previousFile);if(prior.language!==language||prior.version>VERSION)throw Error('Invalid previous excerpt repairs');
+  for(const edit of prior.edits){const clean=repairStoredExcerpt(edit.text);if(!clean.needsFetch&&clean.text===edit.text)previous.set(edit.url+':'+hash(edit.before),edit);}
+ }
  const report={language,version:VERSION,at:now,inspected:collected.inspected,targets:collected.targets.length,requests:0,edits,failed,pending};
  for(const [index,target]of collected.targets.entries()){
+  const resumed=previous.get(target.url+':'+hash(target.before));
+  if(resumed){edits.push(resumed);continue;}
   let text=target.text,method='remove_widget',sourceHash=null;
   if(target.needsFetch){
    method='refetch';
@@ -51,10 +57,10 @@ async function repair({root=path.resolve(__dirname,'..'),language,maxRequests=10
    text=result.text;sourceHash=result.sourceHash;
   }
   edits.push({url:target.url,before:target.before,text,method,sourceHash});
-  if(index%100===0)write(file,report);
+  if(index%100===0){write(file,report);console.log(`[${language}] excerpt repairs ${index+1}/${collected.targets.length}, requests=${report.requests}, failures=${failed.length}`);}
  }
  write(file,report);console.log(JSON.stringify({language,inspected:report.inspected,targets:report.targets,repaired:edits.length,requests:report.requests,failed:failed.length,pending:pending.length}));
  return report;
 }
-if(require.main===module)repair({language:process.argv[2],maxRequests:Number(process.env.EXCERPT_MAX_REQUESTS||10000),intervalMs:Number(process.env.CRAWL_REQUEST_INTERVAL_MS||500)}).then(report=>{if(process.env.EXCERPT_REQUIRE_COMPLETE==='1'&&(report.failed.length||report.pending.length))process.exitCode=1;}).catch(e=>{console.error(e);process.exitCode=1;});
+if(require.main===module)repair({language:process.argv[2],maxRequests:Number(process.env.EXCERPT_MAX_REQUESTS||10000),intervalMs:Number(process.env.CRAWL_REQUEST_INTERVAL_MS||500),previousFile:process.env.EXCERPT_PREVIOUS_REPAIRS||null}).then(report=>{if(process.env.EXCERPT_REQUIRE_COMPLETE==='1'&&(report.failed.length||report.pending.length))process.exitCode=1;}).catch(e=>{console.error(e);process.exitCode=1;});
 module.exports={repair,collect,read,write,hash};
