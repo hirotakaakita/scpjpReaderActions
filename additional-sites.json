@@ -1,0 +1,18 @@
+{
+  "ar": {"host":"scp-ar.wikidot.com","nativeName":"العربية","uiLocale":"ar","nativeIndex":"scp-ar-series","nativePrefix":"ar","series":[1,2]},
+  "cy": {"host":"scp-cy.wikidot.com","nativeName":"Cymraeg","uiLocale":"cy","nativeIndex":"scp-series-cy","series":[1,2]},
+  "da": {"host":"scp-nd.wikidot.com","nativeName":"Dansk","uiLocale":"da","namespace":"da:","nativeIndex":"da:scp-series-nd","origin":"nd","series":[1]},
+  "el": {"host":"scp-el.wikidot.com","nativeName":"Ελληνικά","uiLocale":"el","nativeIndex":"scp-el-series","series":[1,2]},
+  "hu": {"host":"scp-hu.wikidot.com","nativeName":"Magyar","uiLocale":"hu","nativeIndex":"scp-series-hu","series":[1,2]},
+  "la": {"host":"scp-la.wikidot.com","nativeName":"Latina","uiLocale":"en","nativeIndex":"scp-series-la","nativePrefix":"la","series":[1]},
+  "nl": {"host":"scp-nl.wikidot.com","nativeName":"Nederlands","uiLocale":"nl","nativeIndex":"scp-nl","nativePrimary":false,"series":[1]},
+  "no": {"host":"scp-nd.wikidot.com","nativeName":"Norsk bokmål","uiLocale":"nb","namespace":"no:","nativeIndex":"no:scp-series-nd","origin":"nd","series":[]},
+  "pig": {"host":"scp-pig.wikidot.com","nativeName":"Igpay Atinlay","uiLocale":"en","nativeIndex":"scp-erissay-pig","series":[1,2]},
+  "ro": {"host":"scp-romanian.wikidot.com","nativeName":"Română","uiLocale":"ro","nativeIndex":"scp-series-ro","nativePrefix":"ro","series":[1]},
+  "sga": {"host":"scp-sga.wikidot.com","nativeName":"Standard Galactic Alphabet","uiLocale":"en","nativeIndex":"scp-sga-series","nativePrefix":"sga","series":[1]},
+  "sh": {"host":"scp-sh.wikidot.com","nativeName":"Bosanski / Hrvatski / Srpski","uiLocale":"hr","nativeIndex":"scp-bcms-series","nativePrefix":"sh","series":[1,2]},
+  "sl": {"host":"scp-slovenija.wikidot.com","nativeName":"Slovenščina","uiLocale":"sl","nativeIndex":"scp-series-sl","series":[1,2]},
+  "sv": {"host":"scp-nd.wikidot.com","nativeName":"Svenska","uiLocale":"sv","namespace":"sv:","nativeIndex":"sv:scp-series-nd","origin":"nd","series":[1]},
+  "tok": {"host":"scp-tok.wikidot.com","nativeName":"toki pona","uiLocale":"en","nativeIndex":"lipu-scp","series":[1]},
+  "tr": {"host":"scpvakfi.wikidot.com","nativeName":"Türkçe","uiLocale":"tr","nativeIndex":"scp-series-tr","nativePrefix":"tr","series":[1,2]}
+}

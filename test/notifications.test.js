@@ -30,7 +30,7 @@ function fixture(t) {
   git('config', 'user.email', 'test@example.invalid');
   git('config', 'commit.gpgsign', 'false');
   git('config', 'core.autocrlf', 'false');
-  for (const file of ['prepare-notification-queue.js', 'languages.js']) {
+  for (const file of ['prepare-notification-queue.js', 'languages.js', 'additional-sites.js', 'additional-sites.json']) {
     fs.copyFileSync(path.join(repository, file), path.join(cwd, file));
   }
   const catalogPath = path.join(cwd, 'local-data/jp/scp-data.json');

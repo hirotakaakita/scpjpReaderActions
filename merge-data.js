@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { stringifyAsciiSafe } = require('./local-crawler');
 const { LANGUAGES } = require('./languages');
+const { partialFileName } = require('./partial-file');
 const { deduplicateArticles, validateCatalogs } = require('./catalog-identity');
 const { publicTags } = require('./public-tags');
 const { readDictionary, indexDictionary, localizeTags } = require('./tag-dictionary');
@@ -23,7 +24,7 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
   const pages = config.pages.map(page => page.path);
 
   // 全ページ分の部分ファイルが揃っているか検証
-  const missing = pages.filter(page => !fs.existsSync(path.join(partialDir, `${lang}--${page}.json`)));
+  const missing = pages.filter(page => !fs.existsSync(path.join(partialDir, partialFileName(lang,page))));
   if (missing.length > 0) {
     console.warn(`[${lang}] 部分ファイルが不足 (${missing.length}件): ${missing.join(', ')}`);
     console.warn(`[${lang}] 欠損したままマージすると配信データから記事が消えるためスキップします（前回データを維持）。`);
@@ -36,7 +37,7 @@ function mergeLanguage(lang, partialDir, baseOutputDir) {
   let totalDuration = 0;
 
   for (const page of pages) {
-    const partial = JSON.parse(fs.readFileSync(path.join(partialDir, `${lang}--${page}.json`), 'utf8'));
+    const partial = JSON.parse(fs.readFileSync(path.join(partialDir, partialFileName(lang,page)), 'utf8'));
     if (!Array.isArray(partial.data) || partial.data.length === 0) {
       console.warn(`[${lang}] ${page}.json のdataが空のためスキップします。`);
       return false;

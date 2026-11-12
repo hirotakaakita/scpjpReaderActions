@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
-const { deduplicateArticles } = require('./catalog-identity');
+const { deduplicateArticles, articleUrl } = require('./catalog-identity');
 const { capture: captureRelatedDocument } = require('./related-documents');
+const { russianJokeIdentity } = require('./russian-joke-identity');
+const { articleCategory } = require('./article-category');
 
 const API_BASE_URL = 'https://scpfoundation.net';
 const EN_BASE_URL = 'https://scp-wiki.wikidot.com';
@@ -39,6 +41,7 @@ function cleanWikiText(value) {
     .replace(/\[\[(?:\/|>|<|div\b|span\b|table\b|row\b|col\b|collapsible\b)[^\]]*\]\]/gi, ' ')
     .replace(/\[\[image\s+[^\]]+\]\]/gi, ' ')
     .replace(/\[\[include\s+[^\]]+\]\]/gi, ' ')
+    .replace(/\[\[module\s+[^\]]+\]\]/gi, ' ')
     .replace(/\[\[[^\]|]+\|([^\]]+)\]\]/g, '$1')
     .replace(/\[\[([^\]]+)\]\]/g, '$1')
     .replace(/\[https?:\/\/\S+\s+([^\]]+)\]/g, '$1')
@@ -90,7 +93,7 @@ function extractDescription(source) {
   }
   // ACS/structured articles may omit an explicit Description label. Use the first
   // meaningful prose paragraph after removing the FTML header in that case.
-  const paragraphs = cleanWikiText(text).split(/\n{2,}/)
+  const paragraphs = cleanWikiText(text).split('\n').filter(line => !require('./article-excerpts').HEADER.test(line.trim())).join('\n').split(/\n{2,}/)
     .map(value => value.trim())
     .filter(value => value.length >= 40 && !/^[-=]{3,}$/.test(value));
   const fallback = paragraphs.find(value => !/^(?:scp-number|scp-class|linefirst|linesecond|linethird)\s*=/i.test(value));
@@ -98,10 +101,12 @@ function extractDescription(source) {
 }
 
 function extractImageUrl(source, pageId) {
-  const match = String(source || '').match(/\[\[image\s+([^\]|\s]+)[^\]]*\]\]/i)
-    || String(source || '').match(/(?:^|[|\n])\s*name\s*=\s*([^|\]\n]+?)(?:\s*[|\n])/i);
+  const {cleanImage}=require('./image-policy');
+  const images=[...String(source||'').matchAll(/\[\[[=<>]?image\s+([^\]|\s]+)[^\]]*\]\]/gi)];
+  const match = images.find(m=>cleanImage(m[1])) || String(source || '').match(/(?:^|[|\n])\s*name\s*=\s*([^|\]\n]+?)(?:\s*[|\n])/i);
   if (!match) return null;
   const value = match[1].trim();
+  if(!cleanImage(value))return null;
   if (/^https?:\/\//i.test(value)) return value;
   if (value.startsWith('//')) return `https:${value}`;
   if (value.startsWith('/')) return new URL(value, API_BASE_URL).href;
@@ -137,7 +142,10 @@ function normalizeRating(rating) {
   return Math.round(value);
 }
 function isScpArticle(article) {
-  return /^scp-\d+/i.test(article.pageId || '') && /^scp-\d+/i.test(article.title || '');
+  return /^scp-/i.test(article.title || '') &&
+    (/^scp-\d+/i.test(article.pageId || '') ||
+      (articleCategory(article, [], localUrl(article.pageId || '')) === 'other' &&
+       !!russianJokeIdentity(localUrl(article.pageId || ''), article.tags || [])));
 }
 function localUrl(pageId) { return `${API_BASE_URL}/${encodeURIComponent(pageId).replace(/%2F/gi, '/')}`; }
 function englishUrl(pageId) { return `${EN_BASE_URL}/${encodeURIComponent(pageId).replace(/%2F/gi, '/')}`; }
@@ -191,6 +199,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
   fs.mkdirSync(outputDir, { recursive: true });
   const existing = readCatalog(path.join(root, 'local-data', 'ru', 'scp-data.json'));
   const existingMap = new Map((existing.data || []).map(item => [item.itemId, item]));
+  const existingByUrl = new Map((existing.data || []).filter(item => item.urlJP).map(item => [articleUrl(item), item]));
   const english = readCatalog(path.join(root, 'local-data', 'en', 'scp-data.json'));
   const englishByPage = new Map((english.data || []).filter(item => item.urlEN).map(item =>
     [new URL(item.urlEN).pathname.replace(/^\//, ''), item]));
@@ -209,13 +218,18 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
   const processArticle = async article => {
     const pageId = String(article.pageId).toLowerCase();
     const englishItem = englishByPage.get(pageId);
-    const itemId = englishItem?.itemId || `scp-series-${pageId.replace(/^scp-/, '')}`;
-    const old = existingMap.get(itemId) || existingMap.get(pageId);
     const branches = branchFromTags(article.tags, pageId);
     const sourceBranch = branches.includes('ru') ? 'ru' : branches[0];
+    const joke = articleCategory(article, [], localUrl(pageId)) === 'other'
+      ? russianJokeIdentity(localUrl(pageId), article.tags || [], sourceBranch) : null;
+    const knownJoke = englishItem?.pageType?.startsWith('joke-scps') ? englishItem : null;
+    const itemId = knownJoke?.itemId || joke?.itemId || englishItem?.itemId || `scp-series-${pageId.replace(/^scp-/, '')}`;
+    const key = articleUrl({urlJP:localUrl(pageId)});
+    const cached = existingByUrl.get(key) || existingMap.get(itemId) || existingMap.get(pageId);
+    const old = cached && articleUrl(cached) === key ? cached : undefined;
     const needsDetails = !old || old.availabilityVersion !== 1 ||
       (article.updatedAt && article.updatedAt !== old.sourceUpdatedAt) ||
-      forceDetails || forceObjectClass || forceDescription || !old.objectClass || !old.descriptionExcerpt;
+      forceDetails || forceObjectClass || forceDescription || old?.descriptionVersion !== require('./article-excerpts').VERSION || !old.objectClass || !old.descriptionExcerpt;
     let detail = null;
     if(needsDetails && metadataOnly && old?.availabilityVersion !== 1)return null;
     if (needsDetails && !metadataOnly) {
@@ -227,30 +241,31 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
     }
     const source = detail?.source || old?.source || '';
     // Repair previously cached attachment URLs without refetching every body.
-    let cachedImageUrl = old?.imageUrl || null;
+    let cachedImageUrl = require('./image-policy').cleanImage(old?.imageUrl);
     if (cachedImageUrl && /^https:\/\/scpfoundation\.net\/local--files\/[^/]+$/.test(cachedImageUrl)) {
       cachedImageUrl = cachedImageUrl.replace('/local--files/', `/local--files/${encodeURIComponent(pageId)}/`);
     }
     const objectClass = needsDetails ? (extractObjectClass(source) || old?.objectClass || null) : old.objectClass;
-    const descriptionExcerpt = needsDetails ? (extractDescription(source) || old?.descriptionExcerpt || null) : old.descriptionExcerpt;
+    const descriptionExcerpt = detail ? extractDescription(source) : old?.descriptionExcerpt || null;
     const tags = Array.isArray(article.tags)
       ? article.tags.filter(tag => !/^\u0444\u0438\u043b\u0438\u0430\u043b:/iu.test(String(tag)))
       : (old?.tags || []);
     const now = startedAt.toISOString();
-    const pageType = englishItem?.pageType || (sourceBranch === 'en' ? 'scp-series' : `scp-series-${sourceBranch}`);
+    const pageType = knownJoke?.pageType || joke?.pageType || englishItem?.pageType || (sourceBranch === 'en' ? 'scp-series' : `scp-series-${sourceBranch}`);
     const seriesNumber = Math.floor((numericId(pageId) || 0) / 1000) + 1;
-    const extractedFrom = englishItem?.extractedFrom ||
+    const extractedFrom = joke ? pageType : englishItem?.extractedFrom ||
       (seriesNumber === 1 ? pageType : `${pageType}-${seriesNumber}`);
     return {
       itemId,
-      numericItemId: numericId(pageId),
+      numericItemId: joke ? joke.numericItemId : numericId(pageId),
       titleJP: article.title || old?.titleJP || pageId,
       urlEN: branches.includes('en') ? englishUrl(pageId) : (old?.urlEN || ''),
       urlJP: localUrl(pageId),
-      imageUrl: needsDetails ? (extractImageUrl(source, pageId) || cachedImageUrl) : cachedImageUrl,
+      imageUrl: detail ? extractImageUrl(source, pageId) : cachedImageUrl,
       objectClass,
       rating: normalizeRating(article.rating) ?? old?.rating ?? null,
       descriptionExcerpt,
+      descriptionVersion:detail ? require('./article-excerpts').VERSION : old?.descriptionVersion,
       detailFetchStatus: detail ? 'success' : (old?.detailFetchStatus ||
         (objectClass && descriptionExcerpt ? 'success' : 'pending')),
       availabilityVersion:detail ? 1 : old?.availabilityVersion,

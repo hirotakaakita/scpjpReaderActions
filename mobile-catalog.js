@@ -3,7 +3,9 @@ const path = require('node:path');
 const zlib = require('node:zlib');
 const crypto = require('node:crypto');
 const { LANGUAGES } = require('./languages');
-const { readDictionary, updateDictionary, localizeTags, indexDictionary } = require('./tag-dictionary');
+const { reclassifyScpArticle } = require('./article-category');
+const { normalizedSourceListing } = require('./series-listing');
+const { readDictionary, updateDictionary, localizeTags, restoreTagLabels, indexDictionary } = require('./tag-dictionary');
 const { normalize } = require('./related-documents');
 
 // This is a delivery format, never a replacement for the crawler's source data.
@@ -48,20 +50,28 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
   if (additional) updateDictionary(dictionary, additional.data.flatMap(r => r.tags || []));
   const tagIndex = indexDictionary(dictionary);
   const translations = new Map();
+  const reservedByLanguage = new Map();
   function addTranslation(id, language) {
     if (!translations.has(id)) translations.set(id, new Set());
     translations.get(id).add(language);
   }
   if (includeAdditional && enrichTranslations) {
+    const translationRows = [];
     for (const language of Object.keys(LANGUAGES)) {
       const file = path.join(input, language, 'scp-data.json');
       if (!fs.existsSync(file)) continue;
-      for (const row of JSON.parse(fs.readFileSync(file)).data) {
-        if (row.isTranslatedJP !== false) addTranslation(row.itemId, language);
-        for (const code of row.translatedLanguages || []) addTranslation(row.itemId, code);
-      }
+      for (const row of JSON.parse(fs.readFileSync(file)).data) translationRows.push({ row, language });
     }
-    for (const row of additional?.data || []) addTranslation(row.itemId, row.language);
+    for (const row of additional?.data || []) translationRows.push({ row, language:row.language });
+    for (const {row,language} of translationRows) {
+      if (!reservedByLanguage.has(language)) reservedByLanguage.set(language, new Set());
+      reservedByLanguage.get(language).add(row.itemId);
+    }
+    for (const {row,language} of translationRows) {
+      const id = reclassifyScpArticle(row, reservedByLanguage.get(language)).itemId;
+      if (row.isTranslatedJP !== false) addTranslation(id, language);
+      for (const code of row.translatedLanguages || []) addTranslation(id, code);
+    }
   }
   for (const language of Object.keys(LANGUAGES)) {
     const file = path.join(input, language, 'scp-data.json');
@@ -86,11 +96,17 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
       tags: localizeTags(r.tags || [], language, dictionary, tagIndex),
     }));
     for (const row of documents) {
-      const validId = row.itemId.startsWith('document-') || (row.contentType === 'scp' && /^(?:scp-series|joke-scps|scp-(?:[a-z]+-)?ex)/.test(row.pageType) && /^scp-|^joke-scps-/.test(row.itemId));
+      const validId = row.itemId.startsWith('document-') || /^(?:scp-series-|joke-scps-|scp-(?:[a-z]+-)?ex-)[a-z0-9][a-z0-9_-]*$/.test(row.itemId);
       if (!validId || ids.has(row.itemId) || REQUIRED_STRINGS.some(k => typeof row[k] !== 'string') || !row.titleJP || !Number.isFinite(Date.parse(row.lastUpdated)) || !normalize(row.urlJP)) throw Error(`Invalid additional article: ${row.itemId}`);
       ids.add(row.itemId);
     }
     delivery.data.push(...documents);
+    if (includeAdditional && enrichTranslations) delivery.data = delivery.data.map(row => {
+      const corrected = reclassifyScpArticle(row, reservedByLanguage.get(language));
+      return {...corrected,
+        tags:restoreTagLabels(corrected.tags || [], language, dictionary, tagIndex, corrected.tagLabels),
+        extractedFrom:normalizedSourceListing(corrected)};
+    });
     if (includeAdditional && enrichTranslations) for (const row of delivery.data) {
       row.translatedLanguages = [...new Set([
         ...(row.translatedLanguages || []), ...(translations.get(row.itemId) || []),
