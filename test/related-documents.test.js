@@ -49,6 +49,19 @@ test('API captures linked documents without inventing translations', () => {
   assert.deepEqual(r.translations, []);
 });
 
+test('GoI excerpts omit voting and credit controls while preserving rating metadata and narrative evaluations',()=>{
+ for(const label of ['rating','notation','\u8a55\u4fa1']){
+  const controls=`<div class="page-rate-widget-box"><span class="rate-points">${label}: <span class="number">+26</span></span><a href="/vote">+</a><a>-</a><a>x</a></div>`;
+  const credits='<div class="creditRate"><a href="/credit">fermer Credits close</a><strong>Description:</strong>Credit-only description</div>';
+  const body='<p><strong>Name:</strong> Gilles Perret</p><p>Evaluation of the proposal: +5 points remain part of the story.</p>';
+  const record=extractHtml(seed,html(controls+credits+body),date);
+  assert.equal(record.descriptionExcerpt,'Name: Gilles PerretEvaluation of the proposal: +5 points remain part of the story.');
+  assert.equal(record.rating,26);assert(!record.links.some(url=>/\/(vote|credit)$/.test(url)));
+  const structured=extractHtml(seed,html(`<div><strong>Description:</strong>Actual story ${controls} continues.</div>`),date);
+  assert.equal(structured.descriptionExcerpt,'Actual story continues.');assert.equal(structured.rating,26);
+ }
+});
+
 test('an embedded module error does not hide an otherwise readable article',()=>{
   const r=extractHtml(seed,html('<p>Actual narrative text.</p><div class="error-block">ListPages error: no such category</div>'),date);
   assert.equal(r.descriptionExcerpt,'Actual narrative text.');

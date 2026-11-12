@@ -13,7 +13,7 @@ const hosts = new Map(Object.entries(LANGUAGES).map(([language, config]) => [new
 hosts.set('scpfoundation.net', 'ru');
 const aliases = new Map(['scp-wiki.net', 'www.scp-wiki.net', 'scpwiki.com', 'www.scpwiki.com'].map(h => [h, 'scp-wiki.wikidot.com']));
 aliases.set('www.scpfoundation.net', 'scpfoundation.net');
-const excluded = 'script,style,iframe,noscript,.page-tags,.licensebox,.license-box,.credit,.credit-box,#u-credit-view,.footer-wikiwalk-nav,.page-navigation,.interwiki-box,[role="navigation"],#toc,.toc';
+const excluded = 'script,style,iframe,noscript,.page-tags,.page-rate-widget-box,.creditRate,.licensebox,.license-box,.credit,.credit-box,#u-credit-view,.footer-wikiwalk-nav,.page-navigation,.interwiki-box,[role="navigation"],#toc,.toc';
 
 function normalize(value, base) {
   try {
@@ -71,7 +71,7 @@ function extractHtml(url, html, now = new Date().toISOString(), existingDocument
       .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(v => v && v !== page.url))].sort();
     // Lazy import: the ordinary crawler also calls this extractor with its DOM.
     const metadata = require('./local-crawler');
-    const description = metadata.extractDescriptionAndTagsFromDocument(d).descriptionExcerpt || root.textContent.trim().replace(/\s+/g, ' ');
+    const description = metadata.extractDescriptionAndTagsFromDocument(root).descriptionExcerpt || root.textContent.trim().replace(/\s+/g, ' ');
     return { ...page, title, tags, translations: [...new Set(translations)].sort(), authors,
       objectClass: metadata.extractObjectClassFromDocument(d), rating: metadata.extractRatingFromDocument(d),
       imageUrl: metadata.extractImageUrlFromDocument(d,page.url),
