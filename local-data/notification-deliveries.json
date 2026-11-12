@@ -2156,6 +2156,24 @@
       "startedAt": "2026-11-12T13:06:48.716Z",
       "messageName": "projects/scpjp-reader/messages/8915425621228309263",
       "sentAt": "2026-11-12T13:06:51.055Z"
+    },
+    {
+      "id": "th/2026-11-08",
+      "lang": "th",
+      "window": "2026-11-08",
+      "items": [
+        {
+          "itemId": "scp-series-199",
+          "titleJP": "เฟิร์นจารกรรม"
+        },
+        {
+          "itemId": "scp-series-th-045",
+          "titleJP": "นิยายเชิงประสบการณ์"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-12T13:06:48.716Z"
     }
   ]
 }
