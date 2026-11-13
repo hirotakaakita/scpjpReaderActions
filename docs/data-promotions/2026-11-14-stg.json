@@ -1,0 +1,56 @@
+{
+  "sourceRepository": "hirotakaakita/scpjpReaderActions-stg",
+  "sourceCommit": "e2642a9cab41274b61860778e676afe7adb6f2d7",
+  "productionBaseCommit": "c152b60643e20c74ad17a385fd6d693fb0c75598",
+  "verifiedGooglePlayRelease": {
+    "track": "production",
+    "versionCode": 30,
+    "versionName": "1.7.1",
+    "status": "completed"
+  },
+  "aabSha256": "a93b87e7d202258cb322b00bd350b05be6881f829697652acba0f9726f5bc864",
+  "unchangedNativeLibraryCount": 12,
+  "catalogCompatibility": {
+    "languages": 33,
+    "articles": 124860,
+    "releasedDecoder": "passed",
+    "modelDatabaseRoundTrip": "passed",
+    "strictTextAuditProblems": 0
+  },
+  "releaseApkRuntime": {
+    "method": "APK generated directly from the existing AAB with bundletool; original native libraries unchanged. A local proxy supplied pinned Stg catalogs at the original production URLs. No app code rebuild.",
+    "device": "SCPReader_16KB x86_64 emulator",
+    "databaseVersion": 13,
+    "languages": [
+      {
+        "language": "jp",
+        "count": 16929,
+        "deliveryChannel": "mobile-v3",
+        "timestamp": "2026-11-13T18:00:09.360Z",
+        "seconds": 123.43,
+        "samplesMatched": 8
+      },
+      {
+        "language": "en",
+        "count": 18945,
+        "deliveryChannel": "mobile-v3",
+        "timestamp": "2026-11-13T18:00:09.360Z",
+        "seconds": 147.15,
+        "samplesMatched": 8
+      }
+    ],
+    "uiChecks": [
+      "home",
+      "search SCP-173",
+      "open a Tale article in WebView"
+    ],
+    "productionTelemetry": "disabled using Firebase Test Lab flag"
+  },
+  "productionNodeTests": 92,
+  "protectedOperationalFiles": {
+    "app-status.json": "695c06bc1d469ff562a49cb638916fa6ac9d9a5c91bc70296c8d89ab0b36302a",
+    "local-data/notification-queue.json": "9ef11b38e12cc037d6b874543da3b434d5f9b5a0320716dd53ddaa62ba8b07f8",
+    "local-data/notification-deliveries.json": "087f5a72c894d1b7010d1f1fa12b9e0101bfc513ca71cdfa7765602bc7e4dd25"
+  },
+  "scope": "Catalog data and tag dictionary only; production notifications, app status, manga assets, crawler workflows and app code preserved."
+}

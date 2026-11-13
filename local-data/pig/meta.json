@@ -1,0 +1,14 @@
+{
+  "lastUpdated": "2026-11-13T17:59:08.589Z",
+  "language": "pig",
+  "totalCount": 71,
+  "status": "completed",
+  "duration": 45,
+  "statistics": {
+    "translated": 71,
+    "untranslated": 0,
+    "withImage": 30
+  },
+  "dataFile": "scp-data.json",
+  "tagSchemaVersion": 2
+}

@@ -1,13 +1,13 @@
 {
   "totalCount": 24,
   "language": "int",
-  "timestamp": "2026-11-08T05:57:02.319Z",
+  "timestamp": "2026-11-13T17:59:08.589Z",
   "duration": 18,
   "status": "completed",
   "statistics": {
     "translated": 24,
     "untranslated": 0,
-    "withImage": 17
+    "withImage": 18
   },
   "data": [
     {
@@ -19,7 +19,8 @@
       "imageUrl": "https://www.publicdomainpictures.net/pictures/420000/velka/abstract-reflected-pattern.jpg",
       "objectClass": null,
       "rating": null,
-      "descriptionExcerpt": null,
+      "descriptionExcerpt": "THE FOLLOWING FILES HAVE BEEN CLASSIFIED TOP SECRET BY ORDER OF THE ADMINISTRATOR GENERAL NOTICE 001-Alpha: In order to prevent knowledge of SCP-001-INT from being leaked, several/no false SCP-001-INT files have been created alongside the true file/files. All files concerning the nature of SCP-001-INT, including the decoy/decoys, are protected by a memetic kill agent designed to immediately cause cardiac arrest in any nonauthorized personnel attempting to access the file. Revealing the true natu",
+      "descriptionVersion": 3,
       "tags": [
         "tag-b0b1b194b35bb2a402da8b30",
         "hub",
@@ -31,11 +32,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "ca43d290269da73e5219c71502e52e14a78095a143167e67a3586e667c4b0d04"
     },
     {
       "itemId": "scp-series-int-002",
@@ -43,10 +46,11 @@
       "titleJP": "The Creative Cup",
       "urlEN": "http://scp-int.wikidot.com/scp-002-int",
       "urlJP": "http://scp-int.wikidot.com/scp-002-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-002-int/CreativeCup.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-002-int/CreativeCup.jpg",
       "objectClass": "Euclid",
       "rating": 43,
       "descriptionExcerpt": "SCP-002-INT is an 8 cm high white porcelain teacup that normally does not present any anomalous nature. SCP-002-INT is matched by a white saucer measuring 10 cm in diameter. When a liquid substance is poured into SCP-002-INT, its anomalous properties will manifest within seconds, following the evaporation of the liquid. When the liquid is subtracted from SCP-002-INT, it returns to a non-anomalous state, then SCP-002-INT can be used again.\nWhen SCP-002-INT is filled with liquid, a miniaturized en",
+      "descriptionVersion": 3,
       "tags": [
         "co-authored",
         "euclid",
@@ -59,11 +63,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "3db62a8b7c578e6385cbf3838c85c347221ef9d3ba39330c57b1dfcd71fa2673"
     },
     {
       "itemId": "scp-series-int-003",
@@ -71,10 +77,11 @@
       "titleJP": "Wishful Chocolate",
       "urlEN": "http://scp-int.wikidot.com/scp-003-int",
       "urlJP": "http://scp-int.wikidot.com/scp-003-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-003-int/SCP-003-INT-P.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-003-int/SCP-003-INT-P.jpg",
       "objectClass": "Safe",
       "rating": 25,
       "descriptionExcerpt": "SCP-003-INT is a package of filled chocolates. The words \"Dr. Wondertainment's Wonderland chocolate bank of true sweetness\u2122\" are written in cursive font on the package. A star in the upper right corner bears the seal: \"Made with Ms Mirabilis\u00a9 original recipe!\".\nThe back of the package contains the following inscription:",
+      "descriptionVersion": 3,
       "tags": [
         "autonomous",
         "co-authored",
@@ -100,11 +107,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "b39248b62d9a1a6a1e1e2086e6b2df13f37c737d0ad1d9fc04bacaee0d787f14"
     },
     {
       "itemId": "scp-series-int-004",
@@ -116,6 +125,7 @@
       "objectClass": "Safe",
       "rating": 16,
       "descriptionExcerpt": "SCP-004-INT is a pear-cut Phosphophyllite gemstone measuring 3.5 x 2.5 x 2 cm that despite irradiating a pale luminescence, its geological characteristics do not differ from its common counterparts. 004-INT may be bejewelled into any piece of equipment fit for its shape but it must be visible3 for its anomalous effects to be manifested. The object will present a sanguine-red colour when its effects are activated outside of a Ley Area.\nWhen activated, SCP-004-INT will grant to its wearer pseudo-t",
+      "descriptionVersion": 3,
       "tags": [
         "co-authored",
         "jewelry",
@@ -130,11 +140,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "58b63eab210445e0970e731f181cda59ec21072872d7c06950faff2cad524b59"
     },
     {
       "itemId": "scp-series-int-005",
@@ -146,6 +158,7 @@
       "objectClass": "Thaumiel",
       "rating": 36,
       "descriptionExcerpt": "SCP-005-INT is a submarine that is 960 meters in length, 180 meters at its widest point, and 80 meters in height, excluding its 30-meter high sail. Its weight is estimated to be twenty gigatons. Its hull is completely black and consists of a metal similar to steel, the components of which, until now, could not be completely identified. The craft is propelled by six turbines located on the stern and the sides, that can be controlled independently from each other. SCP-005-INT can reach speeds from",
+      "descriptionVersion": 3,
       "tags": [
         "aquatic",
         "co-authored",
@@ -169,11 +182,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "d3d23ab4868044867809b9b7d554b3a990ed95b349acaba278d9b611ae2a6410"
     },
     {
       "itemId": "scp-series-int-006",
@@ -185,11 +200,11 @@
       "objectClass": "Safe",
       "rating": 25,
       "descriptionExcerpt": "SCP-006-INT is the designation of a group of structures resulting from an anomalous restructuring phenomenon. This phenomenon affects soil on the sea floor at different points of the Mediterranean Sea. At irregular intervals, the ground changes shape to take the form of buildings of Islamic architecture. The level of detail of each building differs; in some cases, elements that are not part of the ground, such as anemones or remains of wrecks, are present on the structures as decoration.\nMany sp",
+      "descriptionVersion": 3,
       "tags": [
         "aquatic",
         "cadaver",
         "co-authored",
-        "el",
         "green",
         "location",
         "o",
@@ -201,11 +216,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "2cfdd125790bdccc05ac967928b50375c3b8b350dadcccf9d05fba26d9bd46bc"
     },
     {
       "itemId": "scp-series-int-007",
@@ -217,6 +234,7 @@
       "objectClass": "Thaumiel",
       "rating": 26,
       "descriptionExcerpt": "SCP-007-INT designates an intelligent, highly adaptable, translucent, perpetually congealed substance that exhibits extraordinary plastic malleability. The object exists in the form of four (4) individual instances (\u03b1 (4.5 kilograms), \u03b2 (8.5 kilograms), \u03b3 (6.5 kilograms), and \u03b4 (15.5 kilograms) completely comprised thereof. These constructs are capable of complex movement, and can reach speeds of ~25 kilometres per hour4. Additionally, the object acts as a superacid5 when interacting with animal",
+      "descriptionVersion": 3,
       "tags": [
         "adaptive",
         "alive",
@@ -238,11 +256,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "e166dad489f5f7fb02e00f553ca2f2f00a3e2062b1dde27fdd2f79dc5217584f"
     },
     {
       "itemId": "scp-series-int-008",
@@ -250,10 +270,11 @@
       "titleJP": "Shouldermounted Maw",
       "urlEN": "http://scp-int.wikidot.com/scp-008-int",
       "urlJP": "http://scp-int.wikidot.com/scp-008-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-008-int/Denture_de_baudroie_commune_(5).jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-008-int/Denture_de_baudroie_commune_(5).jpg",
       "objectClass": "Euclid",
       "rating": 14,
-      "descriptionExcerpt": "SCP-008-INT is a shouldermounted living intelligent weapon incorporating biotechnological elements that mimic biological life. It is comprised of a wormlike structure analogous in function to a head, measuring 1 meter of length per .3 meter of diameter; four thin tentacles with 1.5 meter of length per .03 meter of diameter protruding from the base of its head; a flat, cloth-like body with several microscopic proboscides on its bottom-most side. The object displays several cavities in its sides, ",
+      "descriptionExcerpt": "SCP-008-INT is a shouldermounted living intelligent weapon incorporating biotechnological elements that mimic biological life. It is comprised of a wormlike structure analogous in function to a head, measuring 1 meter of length per .3 meter of diameter; four thin tentacles with 1.5 meter of length per .03 meter of diameter protruding from the base of its head; a flat, cloth-like body with several microscopic proboscides on its bottom-most side. The object displays several cavities in its sides,",
+      "descriptionVersion": 3,
       "tags": [
         "alive",
         "co-authored",
@@ -276,11 +297,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "a6399aa08841a40548bb22ea88e50b7a30bba3ae46a96c5e3cb6b7de1589bc64"
     },
     {
       "itemId": "scp-series-int-009",
@@ -288,10 +311,11 @@
       "titleJP": "What would I do for a cereal bar?",
       "urlEN": "http://scp-int.wikidot.com/scp-009-int",
       "urlJP": "http://scp-int.wikidot.com/scp-009-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-009-int/photo-182799.jpg!d.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-009-int/photo-182799.jpg!d.jpg",
       "objectClass": "Safe",
       "rating": 17,
       "descriptionExcerpt": "SCP-009-INT is an industrial machine made of stainless steel, measuring approximately 4 m x 3 m x 3 m. Amongst its several components, tanks and pipes comprehend the majority of its structure; However, the sheer amount of components makes the process of nomination and identification extremely complicated.\nSCP-009-INT, appears to require no energy to function. Engineers have found close similarities between SCP-009-INT and designs from Group of Interest Beyond Entropy. These correlations are curr",
+      "descriptionVersion": 3,
       "tags": [
         "aquatic",
         "beyond-entropy",
@@ -312,11 +336,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "dcb6314f5765d5a15df292c62da47251d5648c1967db822a5afc3e5534207f05"
     },
     {
       "itemId": "scp-series-int-010",
@@ -324,10 +350,11 @@
       "titleJP": "Become One in the Light",
       "urlEN": "http://scp-int.wikidot.com/scp-010-int",
       "urlJP": "http://scp-int.wikidot.com/scp-010-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-010-int/Turris_Babel_by_Athanasius_Kircher_Cropped.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-010-int/Turris_Babel_by_Athanasius_Kircher_Cropped.jpg",
       "objectClass": "Safe",
       "rating": 27,
       "descriptionExcerpt": "SCP-010-INT designates a building involved with the global MALINA-Event and the para-religious assembly Les Enfants de la Lumi\u00e8re1, a splinter organisation of the Group of Interest Order of the Light.2, which started in a non-governmental compound located in the South Pole.",
+      "descriptionVersion": 3,
       "tags": [
         "building",
         "co-authored",
@@ -352,11 +379,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "847c773279bfd148649adb29ee4497d60e5c220c696bbd29407f3ef083f18824"
     },
     {
       "itemId": "scp-series-int-011",
@@ -364,10 +393,11 @@
       "titleJP": "A Damned Hero",
       "urlEN": "http://scp-int.wikidot.com/scp-011-int",
       "urlJP": "http://scp-int.wikidot.com/scp-011-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-011-int/c5CGbuz.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-011-int/c5CGbuz.jpg",
       "objectClass": "Thaumiel",
       "rating": 6,
       "descriptionExcerpt": "SCP-011-INT is a collection of anomalous phenomena associated with a sophisticated set of heavy power armour that affects relative time and space in this observable dimension. Several years can elapse without SCP-011-INT manifesting itself, and it is currently unknown how the object operates or resides in these intermediary periods.\nSCP-011-INT-B is a human male of unknown age. Current investigations into the identity of the individual yielded no result. It is hypothesised that this individual i",
+      "descriptionVersion": 3,
       "tags": [
         "co-authored",
         "foundation-made",
@@ -385,11 +415,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "05ce2763021621bfbfa67a911f3eae42792cf0e830654529e3aa669ab3a66e24"
     },
     {
       "itemId": "scp-series-int-012",
@@ -401,6 +433,7 @@
       "objectClass": "Keter",
       "rating": 13,
       "descriptionExcerpt": "SCP-012-INT designates a group of 6 human women of varied phenotypes. Notably, however, is that they exhibit several inhuman animalistic physical attributes that are commonly found in common household cat breeds (Felis Silvestris Catus); namely, a furred tail, slit pupils, elongated fangs, retractable nails (by ~5 millimetres), and an additional set of perfectly-functional feline ears on their heads; every subject seems to emulate a different cat breed, as can be inferred from the shape of the e",
+      "descriptionVersion": 3,
       "tags": [
         "alive",
         "co-authored",
@@ -419,11 +452,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "597110f80d326d6f99c4a1fbacfbb02b8ac82f5379426b9ab0a2bd77947f8085"
     },
     {
       "itemId": "scp-series-int-013",
@@ -435,6 +470,7 @@
       "objectClass": "Neutralized",
       "rating": 7,
       "descriptionExcerpt": "SCP-013-INT is a village located in northern Italy, founded in 1765 by Giovanni Matt\u00e9 and his family. It is unknown whether the first inhabitants of the anomaly were aware of its anomalous properties, with little information existing about the beginnings of the village. It is known, however, that the anomalous properties of SCP-013-INT are partially understood by the anomaly\u2019s current population.\nSeveral events occur within SCP-013-INT daily, which have been deemed to be thaumaturgical in nature",
+      "descriptionVersion": 3,
       "tags": [
         "city",
         "co-authored",
@@ -451,11 +487,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "86ebae8cbe66273568ea343d9de39eb6ee09d6c38dc760ad399da535215bb1d7"
     },
     {
       "itemId": "scp-series-int-014",
@@ -467,6 +505,7 @@
       "objectClass": null,
       "rating": 8,
       "descriptionExcerpt": "SCP-014-INT is a vehicle similar to a Fiat Marengo, shiny black in colour, with several dents and bullet holes. The windscreen is shattered, probably from an armed collision.\nInside SCP-014-INT is a small laboratory that was used to anomalously create amnestics. This is possible due to an anomalous effect of SCP-014-INT ; in fact, the boot of the vehicle is a Non-Euclidean space, tripling the measurements of a non-anomalous boot.\nThe anomaly is dated 1991, as can be read from a document found in",
+      "descriptionVersion": 3,
       "tags": [
         "backdoor-soho",
         "children-of-the-night",
@@ -485,11 +524,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "1749b44cd6db16d6505815161135f385198be395ffdfbfd908fdfb359a7f1f67"
     },
     {
       "itemId": "scp-series-int-015",
@@ -501,6 +542,7 @@
       "objectClass": null,
       "rating": 21,
       "descriptionExcerpt": "SCP-015-INT was an anomalous entity witnessed by French, German, and ANZAC soldiers during and after the Battle of Mons. Eye witness reports vary wildly, although some imply credibility. Most witnesses reported sending scouts out to No Man's Land after hearing a canine howling. None returned, and autopsies revealed bite marks as the cause of death. The origin of the anomaly is currently unknown. Some believed it to be a creature of Belgian folklore, others believed it to be a loose war experimen",
+      "descriptionVersion": 3,
       "tags": [
         "animal",
         "canine",
@@ -515,11 +557,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "fed778c88558b69af666c8b35d3be340e24d0396156dea026af386f3e2d9382f"
     },
     {
       "itemId": "scp-series-int-021",
@@ -530,7 +574,8 @@
       "imageUrl": null,
       "objectClass": "-niveau-de-menace]",
       "rating": 23,
-      "descriptionExcerpt": null,
+      "descriptionExcerpt": "Warning, unrecognised credentials. Please enter your ID. . . . . . . CON 0001 0000 A5 667 99 . . . . . . Does the Black Moon Howl? . . . . . . \uc544\ub2c8\uc694. S\u00f3lo pregunta \"Quelle heure est-il ?\" \u043d\u0456\u043c\u0435\u0446\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e. . . . . . . Personal files being decoded\u2026 INTERNATIONAL SCP INTEL NETWORK Personal files and ongoing cases Welcome back, Director. You have Zero (0) ongoing International breaches under you supervision. You have Zero (0) unread Level 5 messages. You have Seventy-three (73) Level 4\u2212 messages unrea",
+      "descriptionVersion": 3,
       "tags": [
         "cadaver",
         "co-authored",
@@ -553,11 +598,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "c1b6e3726ef4c7ddeab98fd4daf79414ac473afc6342dc628fbc144bc1948f33"
     },
     {
       "itemId": "scp-series-int-042",
@@ -569,6 +616,7 @@
       "objectClass": "Keter",
       "rating": 24,
       "descriptionExcerpt": "SCP-042-INT is an anomalous device in the form of a spheroid contained within a 0.3 m by 0.2m rectangular housing. A 0.6 meter rope has been fitted to SCP-042-INT with an adjustable loop on the free end that allows it to be tethered to an object. Based on recovered documents the addition of the tether appears to have been an afterthought.\nUtilizing Technothaumaturgy2 it is capable of provoking discontinuous spatial dislocation.3 of its user or other objects with a vocal command. This command con",
+      "descriptionVersion": 3,
       "tags": [
         "co-authored",
         "electronic",
@@ -585,11 +633,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "88f9fc266520a25508ba88aa5b5060f289fa93a72e24b04cdcadd7bf8694e7b4"
     },
     {
       "itemId": "scp-series-int-045",
@@ -601,6 +651,7 @@
       "objectClass": "D",
       "rating": 53,
       "descriptionExcerpt": "SCP-045-INT was the system managing D-Class Criminals of the Asia-Pacific War, initially established to counter the lack of workforce, particularly in Eastern Asia, for normalcy maintenance and restoration after the Second World War and the Seventh Occult War. Eastern Asia had been a region where the Foundation could barely exert its influence before the war. The condition worsened as Imperial Japan expelled the Foundation from Eastern Asia, and a significant number of human resources with paran",
+      "descriptionVersion": 3,
       "tags": [
         "agent-kurusu",
         "co-authored",
@@ -628,11 +679,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "adbe72e9041788b0f8cf484657349e8227f4cd5d6f20308a4f04cdfd5db571eb"
     },
     {
       "itemId": "scp-series-int-050",
@@ -640,10 +693,11 @@
       "titleJP": "Keep Calm and Babble On",
       "urlEN": "http://scp-int.wikidot.com/scp-050-int",
       "urlJP": "http://scp-int.wikidot.com/scp-050-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/fragment:scp-050-int-0/yoooooo.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/fragment:scp-050-int-0/yoooooo.jpg",
       "objectClass": "Thaumiel",
       "rating": 29,
       "descriptionExcerpt": "SCP-050-INT is an anomalous language created by the Foundation as part of Project Polyglot. Following a variety of incidents stemming from a lack of inter-organizational efficiency1, Project Polyglot was conceived as an effort to improve cooperation between different Foundation branches, and focused on several guiding principles.",
+      "descriptionVersion": 3,
       "tags": [
         "antimemetic",
         "co-authored",
@@ -663,11 +717,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "00c90a4ea37f948aa57da1a104fdfd657521fa0e8e1a7b1b6e73edd4d694b187"
     },
     {
       "itemId": "scp-series-int-055",
@@ -679,6 +735,7 @@
       "objectClass": "Keter",
       "rating": 6,
       "descriptionExcerpt": "SCP-055-INT, also known as a AE-K-Class \"Atlantis-Alethia 'Amnestics Absolution' Event Escalation\" Scenario, is the current drastic decrease of the effectiveness of amnestics and other memory-affecting drugs on all conscious minds.",
+      "descriptionVersion": 3,
       "tags": [
         "co-authored",
         "intcon2023",
@@ -690,11 +747,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "658af4f85afbdd65e539dec9ab445c2ddd14a90242d6d98ff0588c1d3a7b380e"
     },
     {
       "itemId": "scp-series-int-057",
@@ -702,10 +761,11 @@
       "titleJP": "Detective Marw and the Case of the Extra Facility",
       "urlEN": "http://scp-int.wikidot.com/scp-057-int",
       "urlJP": "http://scp-int.wikidot.com/scp-057-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-057-int/map.jpg",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-057-int/map.jpg",
       "objectClass": "Keter",
       "rating": 49,
       "descriptionExcerpt": "SCP-057-INT refers to the sudden manifestation of a mega-structure largely located beneath the Andes Mountains between the border of Chile and Argentina. SCP-057-INT contains multiple entities claiming membership in the Foundation.\nFurther investigation is pending.",
+      "descriptionVersion": 3,
       "tags": [
         "blue-crab",
         "borja-dowell",
@@ -729,11 +789,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "c7f2482dd095a8942296c2c1387b7bd8ce6faaee31d1599e728527f9f3407de8"
     },
     {
       "itemId": "scp-series-int-075",
@@ -741,10 +803,11 @@
       "titleJP": "The Grand Esoteric Cooking Tournament (WITH MECHAS)",
       "urlEN": "http://scp-int.wikidot.com/scp-075-int",
       "urlJP": "http://scp-int.wikidot.com/scp-075-int",
-      "imageUrl": "http://scp-int.wdfiles.com/local--files/scp-075-int/robot.png",
+      "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-075-int/robot.png",
       "objectClass": "Safe",
       "rating": 26,
       "descriptionExcerpt": "SCP-075-INT is a collection of massive, highly advanced robots and/or vehicles comprised of diverse anomalous technologies and cooking utensils. Their appearance, size and inner workings are highly variable, but all SCP-075-INT instances appear to be designed for retrieving fragile items from dangerous locations, storing them and transporting them back to a base of operations. While some instances require the presence of a pilot or pilots, others are remote controlled or entirely autonomous. Mos",
+      "descriptionVersion": 3,
       "tags": [
         "agent-adams",
         "artifact",
@@ -777,11 +840,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "80d64c3248d52e0c7eb8b4d6a6ff66d7def7e482f7d02c951b11cf722f8a42d1"
     },
     {
       "itemId": "scp-series-int-097",
@@ -789,10 +854,11 @@
       "titleJP": "The Radiomancer's Curse",
       "urlEN": "http://scp-int.wikidot.com/scp-097-int",
       "urlJP": "http://scp-int.wikidot.com/scp-097-int",
-      "imageUrl": null,
+      "imageUrl": "http://fondationscp.wdfiles.com/local--files/scp-097-int/well",
       "objectClass": "Eparch",
       "rating": 30,
       "descriptionExcerpt": "SCP-097-INT is a temple of an unknown pre-Hispanic culture located inside a cave in the state of Puebla, Mexico. Every person who enters SCP-097-INT will be affected by an unknown illness, whose effects worsen during the stay at the site. In the worst cases, the disease is transmitted to individuals exposed to infected patients.\nDue to the effect of SCP-097-INT, three zones have been established within the anomaly (for more details, read the Addendum-A).\nSymptoms of the SCP-097-INT curse include",
+      "descriptionVersion": 3,
       "tags": [
         "co-authored",
         "esoteric-class",
@@ -812,11 +878,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "11e9d814ec5f735259c72dad58570059798742faa2627e846432c3dfcda6143d"
     },
     {
       "itemId": "scp-series-int-099",
@@ -828,6 +896,7 @@
       "objectClass": "Keter",
       "rating": 32,
       "descriptionExcerpt": "SCP-099-INT is a migratory atmospheric phenomenon that affects clouds by giving them anomalous characteristics (classified as SCP-099-INT-1, SCP-099-INT-2, etc.). The main visible change in clouds is their coloration, and a correlation of this with their anomalous capabilities has been confirmed. The appearance of SCP-099-INT additionally causes a change in the electromagnetic spectrum of light, manifesting a color related to the cloud. SCP-099-INT has a certain behavior and its migration patter",
+      "descriptionVersion": 3,
       "tags": [
         "airborne",
         "biohazard",
@@ -845,11 +914,13 @@
       "extractedFrom": "int-hub",
       "pageType": "scp-series-int",
       "contentType": "scp",
-      "lastUpdated": "2026-11-08T04:28:27.552Z",
+      "lastUpdated": "2026-11-13T11:04:45.261Z",
       "createdAt": "2026-08-01T10:55:17.661Z",
       "translatedLanguages": [
         "int"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:43:08.999Z",
+      "descriptionContentSha256": "48cd479a03172aa6d3f2d55896d7790e2fa053011f0f40c10879b145f5ee5c28"
     }
   ],
   "tagSchemaVersion": 2
