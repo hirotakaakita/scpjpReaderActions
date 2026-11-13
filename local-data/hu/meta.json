@@ -1,0 +1,14 @@
+{
+  "lastUpdated": "2026-11-13T17:59:08.589Z",
+  "language": "hu",
+  "totalCount": 162,
+  "status": "completed",
+  "duration": 101,
+  "statistics": {
+    "translated": 162,
+    "untranslated": 0,
+    "withImage": 69
+  },
+  "dataFile": "scp-data.json",
+  "tagSchemaVersion": 2
+}

@@ -1,0 +1,73 @@
+{
+  "totalCount": 2,
+  "language": "no",
+  "timestamp": "2026-11-13T17:59:08.589Z",
+  "duration": 2,
+  "status": "completed",
+  "statistics": {
+    "translated": 2,
+    "untranslated": 0,
+    "withImage": 2
+  },
+  "data": [
+    {
+      "itemId": "scp-series-nd-001",
+      "numericItemId": 1,
+      "titleJP": "Venter p\u00e5 offentliggj\u00f8ring [Blokkert]",
+      "urlEN": "https://scp-wiki.wikidot.com/no:scp-001-nd",
+      "urlJP": "https://scp-nd.wikidot.com/no:scp-001-nd",
+      "imageUrl": "https://i.kym-cdn.com/photos/images/newsfeed/001/475/324/52b",
+      "objectClass": null,
+      "rating": null,
+      "descriptionExcerpt": "F\u00d8LGENDE FILER HAR V\u00c6RT KLASSIFISERT SOM TOPP HEMMELIG P\u00c5 BESTILLING FRA DE O5 ADMINISTRASJON GENERELT MERKNAD 001-Alpha: For \u00e5 forhindre at kunnskap om SCP-001-ND lekker, er det blitt opprettet flere falske SCP-001-ND-filer sammen med den ekte filen. Alle filer relatert til SCP-001-ND, inkludert falske filer, er beskyttet av en memetic killer designet for \u00f8yeblikkelig \u00e5 p\u00e5f\u00f8re hjerteinfarkt p\u00e5 alt uautorisert personell som pr\u00f8ver \u00e5 f\u00e5 tilgang til filen. Offentliggj\u00f8ring av den sanne naturen til",
+      "descriptionVersion": 3,
+      "tags": [],
+      "tagVersion": 3,
+      "tagFetchStatus": "success",
+      "isTranslatedJP": true,
+      "extractedFrom": "no:scp-series-nd",
+      "pageType": "scp-series-nd",
+      "contentType": "scp",
+      "lastUpdated": "2026-11-13T12:34:10.085Z",
+      "createdAt": "2026-11-10T00:35:48.310Z",
+      "translatedLanguages": [
+        "da",
+        "no",
+        "sv"
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:54:57.271Z",
+      "descriptionContentSha256": "1644dff1d54bd3de3825e66877d3c54869aabd791bad471afac9274527032fd8"
+    },
+    {
+      "itemId": "scp-series-nd-007",
+      "numericItemId": 7,
+      "titleJP": "En \u00d8y i Himmelen",
+      "urlEN": "https://scp-wiki.wikidot.com/no:scp-007-nd",
+      "urlJP": "https://scp-nd.wikidot.com/no:scp-007-nd",
+      "imageUrl": "https://scp-nd.wdfiles.com/local--files/fragment:no:scp-007-nd-1/Temple_of_Isis,_Delos_03.jpg",
+      "objectClass": "Safe",
+      "rating": null,
+      "descriptionExcerpt": "SCP-007-ND er en kopi av den greske \u00f8yen D\u00edlos som svever i midten av Troposf\u00e6ren rett over Egeerhavet og har som observert mer religi\u00f8st motiverte bygninger enn den virkelige versjonen av D\u00edlos som er festet til havbunnen i samme hav. \u00d8yen er tilsynelatende usynlig til de som ikke er bak Sl\u00f8ret ettersom at ingen som er utenfor Sl\u00f8ret har rapportert at de har sett \u00f8yen. \u00d8yen ble f\u00f8rst observert av Stiftelsen i 1945, rett f\u00f8r den Syvende Okkult-krigen avsluttet med alliert seier.\n\n\nBilde fra den",
+      "descriptionVersion": 3,
+      "tags": [
+        "norsk",
+        "scp-nd-no",
+        "sikker"
+      ],
+      "tagVersion": 3,
+      "tagFetchStatus": "success",
+      "isTranslatedJP": true,
+      "extractedFrom": "no:scp-series-nd",
+      "pageType": "scp-series-nd",
+      "contentType": "scp",
+      "lastUpdated": "2026-11-13T12:34:10.085Z",
+      "createdAt": "2026-11-10T00:35:48.310Z",
+      "translatedLanguages": [
+        "no"
+      ],
+      "descriptionCheckedAt": "2026-11-13T17:54:57.271Z",
+      "descriptionContentSha256": "e319877be0fcb441a9300ba5d878f438d23f629ec9b7e6c595bd66b340b224b3"
+    }
+  ],
+  "tagSchemaVersion": 2
+}
