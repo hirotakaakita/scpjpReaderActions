@@ -48,9 +48,35 @@
   },
   "productionNodeTests": 92,
   "protectedOperationalFiles": {
-    "app-status.json": "695c06bc1d469ff562a49cb638916fa6ac9d9a5c91bc70296c8d89ab0b36302a",
-    "local-data/notification-queue.json": "9ef11b38e12cc037d6b874543da3b434d5f9b5a0320716dd53ddaa62ba8b07f8",
-    "local-data/notification-deliveries.json": "087f5a72c894d1b7010d1f1fa12b9e0101bfc513ca71cdfa7765602bc7e4dd25"
+    "app-status.json": {
+      "gitBlob": "802e298d62c9034bb2c584b148e635fe340738db",
+      "sha256": "8c5ba202906a021d368025b67e393bae1b1a5bb534b627bfe0e338ed599b187d"
+    },
+    "local-data/notification-queue.json": {
+      "gitBlob": "2a5d53049d82e3e8f63057dfbc01de69c24426a3",
+      "sha256": "48184fa43422c8f703874e4540ce49e7196b05463bf58f3614a0bacade73406e"
+    },
+    "local-data/notification-deliveries.json": {
+      "gitBlob": "d0b015aec81979802f753a64f7b475adf0018001",
+      "sha256": "75709dfc3819c1be8d29f21c79cdb28277db0765f92f0e5f30308dffab7e1422"
+    }
   },
-  "scope": "Catalog data and tag dictionary only; production notifications, app status, manga assets, crawler workflows and app code preserved."
+  "scope": "Catalog data and tag dictionary only; production notifications, app status, manga assets, crawler workflows and app code preserved.",
+  "publication": {
+    "dataCommit": "099eff3641586255a0592c438b41c21d697d0c47",
+    "publicUrlVerification": {
+      "languages": 33,
+      "articles": 124860,
+      "allChecksumsMatchStaging": true
+    },
+    "directProductionReleaseApk": {
+      "versionCode": 30,
+      "mode": "direct production network, no proxy redirection",
+      "count": 16929,
+      "pending": 0,
+      "languageCode": "jp",
+      "timestamp": "2026-11-13T18:00:09.360Z",
+      "deliveryChannel": "mobile-v3"
+    }
+  }
 }
