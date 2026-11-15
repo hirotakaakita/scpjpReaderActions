@@ -12,12 +12,14 @@
       "publishedAt": "2027-07-21T10:00:00.000Z",
       "title": "Biologie",
       "introduction": "Verken het thema ‘Biologie’ en vergelijk de overeenkomsten en verschillen tussen deze anomalieën.",
+      "coverImage": "features/images/weekly-037-v1.png",
       "articles": [
         {
           "itemId": "scp-series-002",
           "title": "De levende Kamer",
-          "blurb": "Biologie — SCP-002 lijkt op een tumor-achtig, vlezig groeisel met een volume van ongeveer 60 m3 (of 2000 ft3).",
+          "blurb": "SCP-002 lijkt op een tumor-achtig, vlezig groeisel met een volume van ongeveer 60 m3 (of 2000 ft3).",
           "url": "https://scp-nl.wikidot.com/scp-002",
+          "imageUrl": "https://scp-nl.wdfiles.com/local--resized-images/scp-002/800px-SCP002-new.jpeg/medium.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -25,8 +27,9 @@
         {
           "itemId": "scp-series-239",
           "title": "Het heksenkind",
-          "blurb": "Biologie — SCP-239 lijkt een 8-jarig meisje te zijn, 1 meter in de hoogte en 20 kilo in gewicht.",
+          "blurb": "SCP-239 lijkt een 8-jarig meisje te zijn, 1 meter in de hoogte en 20 kilo in gewicht.Onderwerp heeft schouderlengte blond haar.",
           "url": "https://scp-nl.wikidot.com/scp-239",
+          "imageUrl": "https://scp-nl.wdfiles.com/local--files/scp-239/SCP-239.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -34,8 +37,9 @@
         {
           "itemId": "scp-series-003",
           "title": "Organisch moederbord",
-          "blurb": "Biologie — SCP-003 bestaat uit twee verwante componenten van afzonderlijke oorsprong, aangeduid als SCP-003-1 en SCP-003-2.",
+          "blurb": "SCP-003-1 lijkt te bestaan uit chitine, haar en nagels van onbekende biologie, gerangschikt in een configuratie die lijkt op die van een computermotherboard.",
           "url": "https://scp-nl.wikidot.com/scp-003",
+          "imageUrl": "https://scp-nl.wdfiles.com/local--files/scp-003/SCP-003a.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -43,8 +47,9 @@
         {
           "itemId": "scp-series-169",
           "title": "De leviathan",
-          "blurb": "Biologie — Er wordt aangenomen dat SCP-169 een enorme zee-hagedis is, die al generaties lang bekend is bij zeevarenden en in de vol…",
+          "blurb": "Er wordt aangenomen dat SCP-169 een enorme zee-hagedis is, die al generaties lang bekend is bij zeevarenden en in de volksmond bekend staat als \"Leviathan\".Tijdens Ɣ-6s-onderzoeken ontdekte Dr.",
           "url": "https://scp-nl.wikidot.com/scp-169",
+          "imageUrl": "http://scp-wiki-de.wdfiles.com/local--files/scp-169/scp169spectograph.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -52,17 +57,9 @@
         {
           "itemId": "scp-series-031",
           "title": "Wat is Liefde",
-          "blurb": "Biologie — SCP-031 is een amorf organisme, met een massa van 75 kilogram.",
+          "blurb": "SCP-031 is een amorf organisme, met een massa van 75 kilogram.",
           "url": "https://scp-nl.wikidot.com/scp-031",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-096",
-          "title": "De verlegen man",
-          "blurb": "Biologie — SCP-096 is een mensachtige wezen die ongeveer 2,38 meter lang is.",
-          "url": "https://scp-nl.wikidot.com/scp-096",
+          "imageUrl": "http://fondationscp.wdfiles.com/local--files/scp-031/039.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -70,8 +67,9 @@
         {
           "itemId": "scp-series-008",
           "title": "Zombieplaag",
-          "blurb": "Biologie — SCP-008 is een complexe prion waarvan samples op elke G2-site te vinden zijn.",
+          "blurb": "De studie van SCP-008 is zeer geclassificeerd en is primair gericht op het voorkomen van onderzoek dat zou kunnen leiden tot de synthese van SCP-008 in de verre toekomst.",
           "url": "https://scp-nl.wikidot.com/scp-008",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-008/Scp008.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -79,8 +77,18 @@
         {
           "itemId": "scp-series-049",
           "title": "De Dokter van de Pest",
-          "blurb": "Biologie — SCP-049 is een humanoïde entiteit, ongeveer 1,9 meter hoog, die het uiterlijk heeft van een middeleeuwse pestdoctor/snav…",
+          "blurb": "SCP-049 is een humanoïde entiteit, ongeveer 1,9 meter hoog, die het uiterlijk heeft van een middeleeuwse pestdoctor/snaveldocter/pestarts.",
           "url": "https://scp-nl.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-049/SCP-049D",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "De verlegen man",
+          "blurb": "SCP-096 is een mensachtige wezen die ongeveer 2,38 meter lang is.Object vertoont zeer weinig spiermassa, waarbij voorlopige analyse van lichaamsgewicht duidt op milde ondervoeding.",
+          "url": "https://scp-nl.wikidot.com/scp-096",
           "sourceTags": [
             "biological"
           ]

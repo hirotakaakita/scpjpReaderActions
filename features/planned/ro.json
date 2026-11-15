@@ -12,12 +12,14 @@
       "publishedAt": "2027-07-21T10:00:00.000Z",
       "title": "Biologie",
       "introduction": "Explorează tema „Biologie” și compară asemănările și diferențele dintre aceste anomalii.",
+      "coverImage": "features/images/weekly-037-v1.png",
       "articles": [
         {
           "itemId": "scp-series-003",
           "title": "Placă de bază biologică",
-          "blurb": "Biologie — SCP-003 este compus din două componente înrudite de origine separată, denumite SCP-003-1 și SCP-003-2.",
+          "blurb": "SCP-003-1 pare să fie alcătuit din chitină, păr și unghii de biologie necunoscută, dispuse într-o configurație similară cu cea a unei plăci de bază de computer.",
           "url": "https://scp-romanian.wikidot.com/scp-003",
+          "imageUrl": "https://scp-romanian.wdfiles.com/local--resized-images/scp-003/SCP-003/medium.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -25,8 +27,9 @@
         {
           "itemId": "scp-series-002",
           "title": "Camera Vie",
-          "blurb": "Biologie — SCP-002 seamănă cu o creștere tumorală, cărnoasă, cu un volum de aproximativ 60 m³ (sau 2000 ft³).",
+          "blurb": "Camera conține mobilier care, la o examinare atentă, pare a fi sculptat din oase, păr țesut și alte substanțe biologice produse de corpul uman.",
           "url": "https://scp-romanian.wikidot.com/scp-002",
+          "imageUrl": "https://scp-romanian.wdfiles.com/local--resized-images/scp-002/SCP-002/medium.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -34,8 +37,9 @@
         {
           "itemId": "scp-series-007",
           "title": "Planeta abdominală",
-          "blurb": "Biologie — SCP-007 se află într-o cavitate situată în abdomenul Subiectului.",
+          "blurb": "SCP-007 se află într-o cavitate situată în abdomenul Subiectului.Subiectul este un bărbat caucazian, aparent în vârstă de aproximativ 25 de ani (deși susține că are 28) și cu o înălțime de 176 cm.",
           "url": "https://scp-romanian.wikidot.com/scp-007",
+          "imageUrl": "https://scp-romanian.wdfiles.com/local--files/scp-007/SCP-007.png",
           "sourceTags": [
             "biological"
           ]
@@ -43,8 +47,9 @@
         {
           "itemId": "scp-series-096",
           "title": "„Tipul Timid”",
-          "blurb": "Biologie — SCP-096 este o creatură umanoidă, măsurând aproximativ 2,38 metri înălțime.",
+          "blurb": "SCP-096 este o creatură umanoidă, măsurând aproximativ 2,38 metri înălțime.Subiectul prezintă o masă musculară foarte mică, analiza preliminară a masei corporale sugerând o malnutriție ușoară.",
           "url": "https://scp-romanian.wikidot.com/scp-096",
+          "imageUrl": "https://scp-romanian.wdfiles.com/local--files/scp-096/SCP-096.png",
           "sourceTags": [
             "biological"
           ]
@@ -52,8 +57,9 @@
         {
           "itemId": "scp-series-008",
           "title": "Prionul Zombi",
-          "blurb": "Biologie — SCP-008 este un prion complex, ale cărui probe sunt stocate în fiecare dintre unitățile G2 cunoscute.",
+          "blurb": "Cercetările privind SCP-008 sunt clasificate având ca scop principal prevenirea unor studii care ar putea duce la sintetizarea SCP-008 într-un viitor îndepărtat.",
           "url": "https://scp-romanian.wikidot.com/scp-008",
+          "imageUrl": "https://scp-romanian.wdfiles.com/local--files/scp-008/SCP-008.png",
           "sourceTags": [
             "biological"
           ]

@@ -12,21 +12,14 @@
       "publishedAt": "2026-11-11T10:00:00.000Z",
       "title": "بشري الشكل",
       "introduction": "استكشف موضوع «بشري الشكل» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/humanoid-v1.png",
       "articles": [
         {
           "itemId": "scp-series-106",
           "title": "الرجل العجوز",
-          "blurb": "بشري الشكل — يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.",
+          "blurb": "يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.قد يختلف هذا المظهر ، لكن الجودة \"المتعفنة\" تُلاحظ في جميع الأشكال.",
           "url": "https://scp-ar.wikidot.com/scp-106",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-321",
-          "title": "طفل الانسان",
-          "blurb": "بشري الشكل — SCP-321 أنثى بشرية ولدت في 4 يوليو 18.",
-          "url": "https://scp-ar.wikidot.com/scp-321",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-106/106emergenceklay.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -34,8 +27,28 @@
         {
           "itemId": "scp-series-017",
           "title": "الشخص الظل",
-          "blurb": "بشري الشكل — SCP-017 هو عبارة عن شكل بشري يبلغ ارتفاعه حوالي 80 سم ، وهو مشابه من الناحية التشريحية لطفل صغير ، ولكن بدون ميزات تعريف…",
+          "blurb": "هو عبارة عن شكل بشري يبلغ ارتفاعه حوالي 80 سم ، وهو مشابه من الناحية التشريحية لطفل صغير ، ولكن بدون ميزات تعريف يمكن تمييزها.يتكون من كفن غامض يشبه الدخان.",
           "url": "https://scp-ar.wikidot.com/scp-017",
+          "imageUrl": "https://www5.0zz0.com/2022/09/24/12/779001497.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "فتاة صغيرة",
+          "blurb": "يجب توفير الألعاب والكتب والألعاب وغيرها من الأجهزة الترفيهية بشكل كبير ويتم تدويرها كل ثلاثة (3) أشهر.",
+          "url": "https://scp-ar.wikidot.com/scp-053",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-053/SCP-0053.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-321",
+          "title": "طفل الانسان",
+          "blurb": "SCP-321 أنثى بشرية ولدت في 4 يوليو 18.يبلغ ارتفاع SCP-321 حاليًا 3.1 مترًا ، ويزن حوالي 110 كجم.",
+          "url": "https://scp-ar.wikidot.com/scp-321",
           "sourceTags": [
             "humanoid"
           ]
@@ -43,7 +56,7 @@
         {
           "itemId": "scp-series-073",
           "title": "\"قابيل\"",
-          "blurb": "بشري الشكل — يبدو أن SCP-073 هو ذكر ذو سمرة كثيفة من أصل عربي أو شرق أوسطي في أوائل الثلاثينيات من عمره ، وطوله 185 سم (6 أقدام و 1 ب…",
+          "blurb": "يبدو أن الحبل الشوكي وشفرات الكتف للموضوع قد تم استبدالها بنسخ اصطناعية من صنع ومعدن غير معروفين.",
           "url": "https://scp-ar.wikidot.com/scp-073",
           "sourceTags": [
             "humanoid"
@@ -52,7 +65,7 @@
         {
           "itemId": "scp-series-203",
           "title": "الروح الحديدية المعذبة",
-          "blurb": "بشري الشكل — يبدو أن SCP-203 كان في وقت ما ذكرًا بشريًا قوقازيًا في عمر غير محدد.",
+          "blurb": "يبدو أن SCP-203 كان في وقت ما ذكرًا بشريًا قوقازيًا في عمر غير محدد.",
           "url": "https://scp-ar.wikidot.com/scp-203",
           "sourceTags": [
             "humanoid"
@@ -61,17 +74,8 @@
         {
           "itemId": "scp-series-076",
           "title": "\"هابيل\"",
-          "blurb": "بشري الشكل — يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
+          "blurb": "يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
           "url": "https://scp-ar.wikidot.com/scp-076",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-053",
-          "title": "فتاة صغيرة",
-          "blurb": "بشري الشكل — SCP-053 رقم الصنف: SCP-053 فئة الكائن: إقليدس إجراءات الاحتواء الخاصة: يجب احتواء SCP-053 في مساحة لا تقل عن 5 م × 5 م (…",
-          "url": "https://scp-ar.wikidot.com/scp-053",
           "sourceTags": [
             "humanoid"
           ]
@@ -79,7 +83,7 @@
         {
           "itemId": "scp-series-069",
           "title": "فرصة ثانية",
-          "blurb": "بشري الشكل — SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.",
+          "blurb": "SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.من خلال قدرة غير معروفة ، كلما تُرك SCP-069 بمفرده مع جسد بشري متوفى مؤخرًا ، سيختفي الجسم وسيتخذ SCP-069 مظهرًا وسلوكيات ومعرفة الشخص المتوفى مؤخرًا.",
           "url": "https://scp-ar.wikidot.com/scp-069",
           "sourceTags": [
             "humanoid"
@@ -93,21 +97,14 @@
       "publishedAt": "2026-12-09T10:00:00.000Z",
       "title": "ذكي",
       "introduction": "استكشف موضوع «ذكي» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/weekly-005-v1.png",
       "articles": [
         {
           "itemId": "scp-series-043",
           "title": "البيتلز",
-          "blurb": "ذكي — يبدو أن SCP-043 هو نسخة فينيل من \"The White Album\" لفرقة البيتلز ؛ ومع ذلك ، عند الفحص الدقيق ، لا يحتوي السجل على أخادي…",
+          "blurb": "لفرقة البيتلز ؛ ومع ذلك ، عند الفحص الدقيق ، لا يحتوي السجل على أخاديد.على الرغم من ذلك ، سيتم تشغيل السجل من البداية إلى النهاية بغض النظر عن موضع بداية الإبرة.",
           "url": "https://scp-ar.wikidot.com/scp-043",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-1370",
-          "title": "بيستيربوت",
-          "blurb": "ذكي — SCP-1370 عبارة عن كائن اصطناعي مدرك للذات يتم إنشاؤه من أجهزة وأدوات كهربائية مختلفة.",
-          "url": "https://scp-ar.wikidot.com/scp-1370",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-043/whitealbum-new.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -115,8 +112,9 @@
         {
           "itemId": "scp-series-005",
           "title": "مفتاح الهيكل العظمي",
-          "blurb": "ذكي — في المظهر، يشبه إس.",
+          "blurb": "يبدو أن إس.سي.بي-005 يتمتع بقدرة فريدة على فتح جميع أشكال الأقفال (انظر الملحق أ)، الميكانيكية أو الرقمية، بسهولة نسبية.",
           "url": "https://scp-ar.wikidot.com/scp-005",
+          "imageUrl": "https://scp-ar.wdfiles.com/local--files/scp-005/SCP-005.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -124,8 +122,9 @@
         {
           "itemId": "scp-series-035",
           "title": "قناع التملك",
-          "blurb": "ذكي — يبدو أن SCP-035 هو قناع كوميدي من البورسلين الأبيض ، على الرغم من أنه في بعض الأحيان سيتحول إلى مأساة.",
+          "blurb": "في هذه الأحداث ، تتغير جميع السجلات المرئية الموجودة ، مثل الصور الفوتوغرافية ولقطات الفيديو وحتى الرسوم التوضيحية لـ SCP-035 تلقائيًا لتعكس مظهرها الجديد.",
           "url": "https://scp-ar.wikidot.com/scp-035",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-035/scp--035--002-new.gif",
           "sourceTags": [
             "sentient"
           ]
@@ -133,8 +132,9 @@
         {
           "itemId": "scp-series-914",
           "title": "كلوكوركس",
-          "blurb": "ذكي — SCP-914 عبارة عن جهاز كبير يعمل على مدار الساعة يزن عدة أطنان ويغطي مساحة ثمانية عشر مترًا مربعًا ، ويتألف من محركات لول…",
+          "blurb": "إنه معقد بشكل لا يصدق ، ويتألف من أكثر من ثمانية ملايين قطعة متحركة تتكون في الغالب من القصدير والنحاس ، مع ملاحظة بعض العناصر الخشبية والقماشية.",
           "url": "https://scp-ar.wikidot.com/scp-914",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-914/gears.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -142,17 +142,28 @@
         {
           "itemId": "scp-series-106",
           "title": "الرجل العجوز",
-          "blurb": "ذكي — يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.",
+          "blurb": "يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.قد يختلف هذا المظهر ، لكن الجودة \"المتعفنة\" تُلاحظ في جميع الأشكال.",
           "url": "https://scp-ar.wikidot.com/scp-106",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-106/106emergenceklay.jpg",
           "sourceTags": [
             "sentient"
           ]
         },
         {
-          "itemId": "scp-series-203",
-          "title": "الروح الحديدية المعذبة",
-          "blurb": "ذكي — يبدو أن SCP-203 كان في وقت ما ذكرًا بشريًا قوقازيًا في عمر غير محدد.",
-          "url": "https://scp-ar.wikidot.com/scp-203",
+          "itemId": "scp-series-053",
+          "title": "فتاة صغيرة",
+          "blurb": "يجب توفير الألعاب والكتب والألعاب وغيرها من الأجهزة الترفيهية بشكل كبير ويتم تدويرها كل ثلاثة (3) أشهر.",
+          "url": "https://scp-ar.wikidot.com/scp-053",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-053/SCP-0053.jpg",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1370",
+          "title": "بيستيربوت",
+          "blurb": "SCP-1370 عبارة عن كائن اصطناعي مدرك للذات يتم إنشاؤه من أجهزة وأدوات كهربائية مختلفة.يبلغ ارتفاعها حوالي متر واحد وهي قادرة على تحريك مفاصلها على الرغم من عدم وجود أي مصدر طاقة أو محركات.",
+          "url": "https://scp-ar.wikidot.com/scp-1370",
           "sourceTags": [
             "sentient"
           ]
@@ -160,7 +171,7 @@
         {
           "itemId": "scp-series-073",
           "title": "\"قابيل\"",
-          "blurb": "ذكي — يبدو أن SCP-073 هو ذكر ذو سمرة كثيفة من أصل عربي أو شرق أوسطي في أوائل الثلاثينيات من عمره ، وطوله 185 سم (6 أقدام و 1 ب…",
+          "blurb": "يبدو أن الحبل الشوكي وشفرات الكتف للموضوع قد تم استبدالها بنسخ اصطناعية من صنع ومعدن غير معروفين.",
           "url": "https://scp-ar.wikidot.com/scp-073",
           "sourceTags": [
             "sentient"
@@ -174,32 +185,24 @@
       "publishedAt": "2027-01-06T10:00:00.000Z",
       "title": "بشري الشكل × الأحياء",
       "introduction": "استكشف موضوع «بشري الشكل × الأحياء» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/weekly-009-v1.png",
       "articles": [
+        {
+          "itemId": "scp-series-053",
+          "title": "فتاة صغيرة",
+          "blurb": "يجب توفير الألعاب والكتب والألعاب وغيرها من الأجهزة الترفيهية بشكل كبير ويتم تدويرها كل ثلاثة (3) أشهر.",
+          "url": "https://scp-ar.wikidot.com/scp-053",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-053/SCP-0053.jpg",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
         {
           "itemId": "scp-series-321",
           "title": "طفل الانسان",
-          "blurb": "بشري الشكل × الأحياء — SCP-321 أنثى بشرية ولدت في 4 يوليو 18.",
+          "blurb": "SCP-321 أنثى بشرية ولدت في 4 يوليو 18.يبلغ ارتفاع SCP-321 حاليًا 3.1 مترًا ، ويزن حوالي 110 كجم.",
           "url": "https://scp-ar.wikidot.com/scp-321",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-073",
-          "title": "\"قابيل\"",
-          "blurb": "بشري الشكل × الأحياء — يبدو أن SCP-073 هو ذكر ذو سمرة كثيفة من أصل عربي أو شرق أوسطي في أوائل الثلاثينيات من عمره ، وطوله 185 سم (6 أقدام و 1 ب…",
-          "url": "https://scp-ar.wikidot.com/scp-073",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-076",
-          "title": "\"هابيل\"",
-          "blurb": "بشري الشكل × الأحياء — يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
-          "url": "https://scp-ar.wikidot.com/scp-076",
           "sourceTags": [
             "humanoid",
             "biological"
@@ -208,7 +211,7 @@
         {
           "itemId": "scp-series-069",
           "title": "فرصة ثانية",
-          "blurb": "بشري الشكل × الأحياء — SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.",
+          "blurb": "SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.من خلال قدرة غير معروفة ، كلما تُرك SCP-069 بمفرده مع جسد بشري متوفى مؤخرًا ، سيختفي الجسم وسيتخذ SCP-069 مظهرًا وسلوكيات ومعرفة الشخص المتوفى مؤخرًا.",
           "url": "https://scp-ar.wikidot.com/scp-069",
           "sourceTags": [
             "humanoid",
@@ -216,10 +219,20 @@
           ]
         },
         {
-          "itemId": "scp-series-053",
-          "title": "فتاة صغيرة",
-          "blurb": "بشري الشكل × الأحياء — SCP-053 رقم الصنف: SCP-053 فئة الكائن: إقليدس إجراءات الاحتواء الخاصة: يجب احتواء SCP-053 في مساحة لا تقل عن 5 م × 5 م (…",
-          "url": "https://scp-ar.wikidot.com/scp-053",
+          "itemId": "scp-series-076",
+          "title": "\"هابيل\"",
+          "blurb": "يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
+          "url": "https://scp-ar.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"قابيل\"",
+          "blurb": "يبدو أن الحبل الشوكي وشفرات الكتف للموضوع قد تم استبدالها بنسخ اصطناعية من صنع ومعدن غير معروفين.",
+          "url": "https://scp-ar.wikidot.com/scp-073",
           "sourceTags": [
             "humanoid",
             "biological"
@@ -233,21 +246,14 @@
       "publishedAt": "2027-03-03T10:00:00.000Z",
       "title": "تأثير عقلي",
       "introduction": "استكشف موضوع «تأثير عقلي» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/weekly-017-v1.png",
       "articles": [
         {
           "itemId": "scp-series-004",
           "title": "12 مفتاحًا صدئًا والباب",
-          "blurb": "تأثير عقلي — يتكون SCP-004 من باب حظيرة خشبي قديم (SCP-004-1) ومجموعة من اثني عشر مفتاحًا من الصلب الصدأ (SCP-004-2 حتى SCP-004-13).",
+          "blurb": "يتكون SCP-004 من باب حظيرة خشبي قديم (SCP-004-1) ومجموعة من اثني عشر مفتاحًا من الصلب الصدأ (SCP-004-2 حتى SCP-004-13).الباب نفسه هو مدخل مصنع مهجور في [DATA EXPUNGED].",
           "url": "https://scp-ar.wikidot.com/scp-004",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-1129",
-          "title": "استجابة مفرطة",
-          "blurb": "تأثير عقلي — SCP-1129 هو كائن كبير من أصل بيولوجي على ما يبدو.",
-          "url": "https://scp-ar.wikidot.com/scp-1129",
+          "imageUrl": "https://www9.0zz0.com/2022/09/25/09/256655488.jpg",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -255,8 +261,9 @@
         {
           "itemId": "scp-series-1535",
           "title": "المطهر",
-          "blurb": "تأثير عقلي — SCP-1535 عبارة عن جرة ماسون زجاجية صنعتها شركة Ball في عام 1946.",
+          "blurb": "SCP-1535 عبارة عن جرة ماسون زجاجية صنعتها شركة Ball في عام 1946.SCP-1535 تشبه ماديًا جرة ماسون زجاجية نموذجية.",
           "url": "https://scp-ar.wikidot.com/scp-1535",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1535/1535.png",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -264,8 +271,9 @@
         {
           "itemId": "scp-series-035",
           "title": "قناع التملك",
-          "blurb": "تأثير عقلي — يبدو أن SCP-035 هو قناع كوميدي من البورسلين الأبيض ، على الرغم من أنه في بعض الأحيان سيتحول إلى مأساة.",
+          "blurb": "في هذه الأحداث ، تتغير جميع السجلات المرئية الموجودة ، مثل الصور الفوتوغرافية ولقطات الفيديو وحتى الرسوم التوضيحية لـ SCP-035 تلقائيًا لتعكس مظهرها الجديد.",
           "url": "https://scp-ar.wikidot.com/scp-035",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-035/scp--035--002-new.gif",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -273,8 +281,18 @@
         {
           "itemId": "scp-series-053",
           "title": "فتاة صغيرة",
-          "blurb": "تأثير عقلي — SCP-053 رقم الصنف: SCP-053 فئة الكائن: إقليدس إجراءات الاحتواء الخاصة: يجب احتواء SCP-053 في مساحة لا تقل عن 5 م × 5 م (…",
+          "blurb": "يجب توفير الألعاب والكتب والألعاب وغيرها من الأجهزة الترفيهية بشكل كبير ويتم تدويرها كل ثلاثة (3) أشهر.",
           "url": "https://scp-ar.wikidot.com/scp-053",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-053/SCP-0053.jpg",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1129",
+          "title": "استجابة مفرطة",
+          "blurb": "SCP-1129 هو كائن كبير من أصل بيولوجي على ما يبدو.تكوينه غير معروف إلى حد كبير ، حيث يبدو أنه “ يتدفق ” عبر أي وجميع الأشياء التي تقترب منه ، ويتفكك مؤقتًا ويغير أبعاده حسب الحاجة.",
+          "url": "https://scp-ar.wikidot.com/scp-1129",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -287,21 +305,14 @@
       "publishedAt": "2027-07-21T10:00:00.000Z",
       "title": "الأحياء",
       "introduction": "استكشف موضوع «الأحياء» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/weekly-037-v1.png",
       "articles": [
         {
           "itemId": "scp-series-002",
           "title": "\"غرفة \"المعيشة",
-          "blurb": "الأحياء — بي-002 عبارة عن نمو لحمي يشبه الورم حجمه حوالي 60 م 3 .",
+          "blurb": "يبدو أن إس.سي.بي-002 عبارة عن نمو لحمي يشبه الورم حجمه حوالي 60 م 3 .تؤدي فتحة الصمام الحديدي على جانب واحد إلى الجزء الداخلي، والذي يبدو وكأنه شقة عادية منخفضة الإيجار ذات حجم متواضع.",
           "url": "https://scp-ar.wikidot.com/scp-002",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-1784",
-          "title": "الكسلان Skywriter",
-          "blurb": "الأحياء — SCP-1784 هو نوع من الكسلان المعدل وراثيًا ، متشعب ومتميز عن الكسلان الشاحب الحنجرة ثلاثي الأصابع (// Bradypus tridactylu…",
-          "url": "https://scp-ar.wikidot.com/scp-1784",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-002/800px-SCP002-new.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -309,8 +320,28 @@
         {
           "itemId": "scp-series-008",
           "title": "طاعون الزومبي",
-          "blurb": "الأحياء — SCP-008 عبارة عن بريون معقد ، يتم تخزين عينات منه في كل موقع من مواقع G2 المعروفة.",
+          "blurb": "SCP-008 عبارة عن بريون معقد ، يتم تخزين عينات منه في كل موقع من مواقع G2 المعروفة.تم تصنيف البحث في SCP-008 بدرجة عالية ويهدف بشكل أساسي إلى منع الأبحاث التي قد تؤدي إلى تخليق SCP-008 في المستقبل البعيد.",
           "url": "https://scp-ar.wikidot.com/scp-008",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-008/scp-008.png",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "فتاة صغيرة",
+          "blurb": "يجب توفير الألعاب والكتب والألعاب وغيرها من الأجهزة الترفيهية بشكل كبير ويتم تدويرها كل ثلاثة (3) أشهر.",
+          "url": "https://scp-ar.wikidot.com/scp-053",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-053/SCP-0053.jpg",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1784",
+          "title": "الكسلان Skywriter",
+          "blurb": "يتمثل الاختلاف الأكثر أهمية بين SCP-1784 والأنواع الأم في إضافة مثانة غازية مجزأة وممزقة تبرز من البطن الظهري.",
+          "url": "https://scp-ar.wikidot.com/scp-1784",
           "sourceTags": [
             "biological"
           ]
@@ -318,7 +349,7 @@
         {
           "itemId": "scp-series-1129",
           "title": "استجابة مفرطة",
-          "blurb": "الأحياء — SCP-1129 هو كائن كبير من أصل بيولوجي على ما يبدو.",
+          "blurb": "SCP-1129 هو كائن كبير من أصل بيولوجي على ما يبدو.تكوينه غير معروف إلى حد كبير ، حيث يبدو أنه “ يتدفق ” عبر أي وجميع الأشياء التي تقترب منه ، ويتفكك مؤقتًا ويغير أبعاده حسب الحاجة.",
           "url": "https://scp-ar.wikidot.com/scp-1129",
           "sourceTags": [
             "biological"
@@ -327,7 +358,7 @@
         {
           "itemId": "scp-series-321",
           "title": "طفل الانسان",
-          "blurb": "الأحياء — SCP-321 أنثى بشرية ولدت في 4 يوليو 18.",
+          "blurb": "SCP-321 أنثى بشرية ولدت في 4 يوليو 18.يبلغ ارتفاع SCP-321 حاليًا 3.1 مترًا ، ويزن حوالي 110 كجم.",
           "url": "https://scp-ar.wikidot.com/scp-321",
           "sourceTags": [
             "biological"
@@ -336,7 +367,7 @@
         {
           "itemId": "scp-series-069",
           "title": "فرصة ثانية",
-          "blurb": "الأحياء — SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.",
+          "blurb": "SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.من خلال قدرة غير معروفة ، كلما تُرك SCP-069 بمفرده مع جسد بشري متوفى مؤخرًا ، سيختفي الجسم وسيتخذ SCP-069 مظهرًا وسلوكيات ومعرفة الشخص المتوفى مؤخرًا.",
           "url": "https://scp-ar.wikidot.com/scp-069",
           "sourceTags": [
             "biological"
@@ -345,17 +376,8 @@
         {
           "itemId": "scp-series-076",
           "title": "\"هابيل\"",
-          "blurb": "الأحياء — يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
+          "blurb": "يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
           "url": "https://scp-ar.wikidot.com/scp-076",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-073",
-          "title": "\"قابيل\"",
-          "blurb": "الأحياء — يبدو أن SCP-073 هو ذكر ذو سمرة كثيفة من أصل عربي أو شرق أوسطي في أوائل الثلاثينيات من عمره ، وطوله 185 سم (6 أقدام و 1 ب…",
-          "url": "https://scp-ar.wikidot.com/scp-073",
           "sourceTags": [
             "biological"
           ]
@@ -368,12 +390,25 @@
       "publishedAt": "2027-08-18T10:00:00.000Z",
       "title": "بشري الشكل × ذكي",
       "introduction": "استكشف موضوع «بشري الشكل × ذكي» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/weekly-041-v1.png",
       "articles": [
         {
           "itemId": "scp-series-106",
           "title": "الرجل العجوز",
-          "blurb": "بشري الشكل × ذكي — يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.",
+          "blurb": "يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.قد يختلف هذا المظهر ، لكن الجودة \"المتعفنة\" تُلاحظ في جميع الأشكال.",
           "url": "https://scp-ar.wikidot.com/scp-106",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-106/106emergenceklay.jpg",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "فتاة صغيرة",
+          "blurb": "يجب توفير الألعاب والكتب والألعاب وغيرها من الأجهزة الترفيهية بشكل كبير ويتم تدويرها كل ثلاثة (3) أشهر.",
+          "url": "https://scp-ar.wikidot.com/scp-053",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-053/SCP-0053.jpg",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -382,7 +417,7 @@
         {
           "itemId": "scp-series-203",
           "title": "الروح الحديدية المعذبة",
-          "blurb": "بشري الشكل × ذكي — يبدو أن SCP-203 كان في وقت ما ذكرًا بشريًا قوقازيًا في عمر غير محدد.",
+          "blurb": "يبدو أن SCP-203 كان في وقت ما ذكرًا بشريًا قوقازيًا في عمر غير محدد.",
           "url": "https://scp-ar.wikidot.com/scp-203",
           "sourceTags": [
             "humanoid",
@@ -392,28 +427,8 @@
         {
           "itemId": "scp-series-073",
           "title": "\"قابيل\"",
-          "blurb": "بشري الشكل × ذكي — يبدو أن SCP-073 هو ذكر ذو سمرة كثيفة من أصل عربي أو شرق أوسطي في أوائل الثلاثينيات من عمره ، وطوله 185 سم (6 أقدام و 1 ب…",
+          "blurb": "يبدو أن الحبل الشوكي وشفرات الكتف للموضوع قد تم استبدالها بنسخ اصطناعية من صنع ومعدن غير معروفين.",
           "url": "https://scp-ar.wikidot.com/scp-073",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-053",
-          "title": "فتاة صغيرة",
-          "blurb": "بشري الشكل × ذكي — SCP-053 رقم الصنف: SCP-053 فئة الكائن: إقليدس إجراءات الاحتواء الخاصة: يجب احتواء SCP-053 في مساحة لا تقل عن 5 م × 5 م (…",
-          "url": "https://scp-ar.wikidot.com/scp-053",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-076",
-          "title": "\"هابيل\"",
-          "blurb": "بشري الشكل × ذكي — يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
-          "url": "https://scp-ar.wikidot.com/scp-076",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -422,8 +437,18 @@
         {
           "itemId": "scp-series-069",
           "title": "فرصة ثانية",
-          "blurb": "بشري الشكل × ذكي — SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.",
+          "blurb": "SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.من خلال قدرة غير معروفة ، كلما تُرك SCP-069 بمفرده مع جسد بشري متوفى مؤخرًا ، سيختفي الجسم وسيتخذ SCP-069 مظهرًا وسلوكيات ومعرفة الشخص المتوفى مؤخرًا.",
           "url": "https://scp-ar.wikidot.com/scp-069",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"هابيل\"",
+          "blurb": "يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
+          "url": "https://scp-ar.wikidot.com/scp-076",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -437,12 +462,14 @@
       "publishedAt": "2027-09-15T10:00:00.000Z",
       "title": "العداء",
       "introduction": "استكشف موضوع «العداء» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "coverImage": "features/images/weekly-045-v1.png",
       "articles": [
         {
           "itemId": "scp-series-173",
           "title": "النحت -",
-          "blurb": "العداء — تم النقل إلى الموقع-19 في عام 1993.",
+          "blurb": "تم النقل إلى الموقع-19 في عام 1993.الأصل غير معروف حتى الآن.",
           "url": "https://scp-ar.wikidot.com/scp-173",
+          "imageUrl": "https://www12.0zz0.com/2022/09/23/15/153559492.jpg",
           "sourceTags": [
             "hostile"
           ]
@@ -450,17 +477,9 @@
         {
           "itemId": "scp-series-017",
           "title": "الشخص الظل",
-          "blurb": "العداء — SCP-017 هو عبارة عن شكل بشري يبلغ ارتفاعه حوالي 80 سم ، وهو مشابه من الناحية التشريحية لطفل صغير ، ولكن بدون ميزات تعريف…",
+          "blurb": "هو عبارة عن شكل بشري يبلغ ارتفاعه حوالي 80 سم ، وهو مشابه من الناحية التشريحية لطفل صغير ، ولكن بدون ميزات تعريف يمكن تمييزها.يتكون من كفن غامض يشبه الدخان.",
           "url": "https://scp-ar.wikidot.com/scp-017",
-          "sourceTags": [
-            "hostile"
-          ]
-        },
-        {
-          "itemId": "scp-series-1370",
-          "title": "بيستيربوت",
-          "blurb": "العداء — SCP-1370 عبارة عن كائن اصطناعي مدرك للذات يتم إنشاؤه من أجهزة وأدوات كهربائية مختلفة.",
-          "url": "https://scp-ar.wikidot.com/scp-1370",
+          "imageUrl": "https://www5.0zz0.com/2022/09/24/12/779001497.jpg",
           "sourceTags": [
             "hostile"
           ]
@@ -468,8 +487,18 @@
         {
           "itemId": "scp-series-106",
           "title": "الرجل العجوز",
-          "blurb": "العداء — يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.",
+          "blurb": "يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.قد يختلف هذا المظهر ، لكن الجودة \"المتعفنة\" تُلاحظ في جميع الأشكال.",
           "url": "https://scp-ar.wikidot.com/scp-106",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-106/106emergenceklay.jpg",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1370",
+          "title": "بيستيربوت",
+          "blurb": "SCP-1370 عبارة عن كائن اصطناعي مدرك للذات يتم إنشاؤه من أجهزة وأدوات كهربائية مختلفة.يبلغ ارتفاعها حوالي متر واحد وهي قادرة على تحريك مفاصلها على الرغم من عدم وجود أي مصدر طاقة أو محركات.",
+          "url": "https://scp-ar.wikidot.com/scp-1370",
           "sourceTags": [
             "hostile"
           ]
@@ -477,7 +506,7 @@
         {
           "itemId": "scp-series-076",
           "title": "\"هابيل\"",
-          "blurb": "العداء — يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
+          "blurb": "يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
           "url": "https://scp-ar.wikidot.com/scp-076",
           "sourceTags": [
             "hostile"

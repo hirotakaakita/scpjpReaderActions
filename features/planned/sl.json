@@ -12,30 +12,14 @@
       "publishedAt": "2026-11-11T10:00:00.000Z",
       "title": "Človeku podobni",
       "introduction": "Raziščite temo »Človeku podobni« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/humanoid-v1.png",
       "articles": [
-        {
-          "itemId": "scp-series-sl-006",
-          "title": "Poslušalec",
-          "blurb": "Človeku podobni — SCP-006-SL je humanoid, Hunchback, merjenje 2.",
-          "url": "https://scp-slovenija.wikidot.com/scp-006-sl",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
         {
           "itemId": "scp-series-1002",
           "title": "Pokojni",
-          "blurb": "Človeku podobni — SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.",
+          "blurb": "SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.Vsak od teh predmetov ima senco humanoidnega posameznika, oblečenega v policijsko uniformo.",
           "url": "https://scp-slovenija.wikidot.com/scp-1002",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-343",
-          "title": "\"Dio\"",
-          "blurb": "Človeku podobni — SCP-343 je moški, navidezno manj rasist, humanoid z navidezno vsemogočnostjo.",
-          "url": "https://scp-slovenija.wikidot.com/scp-343",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpdemiser.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -43,8 +27,9 @@
         {
           "itemId": "scp-series-049",
           "title": "Doktor od kuga",
-          "blurb": "Človeku podobni — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
           "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -52,8 +37,9 @@
         {
           "itemId": "scp-series-039",
           "title": "Inženirji Proboscis",
-          "blurb": "Človeku podobni — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
           "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -61,17 +47,9 @@
         {
           "itemId": "scp-series-014",
           "title": "Betonski Mož",
-          "blurb": "Človeku podobni — SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.",
+          "blurb": "SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.Azil se je zaprl leta 1937, bolnike pa so premestili v različne druge ustanove.",
           "url": "https://scp-slovenija.wikidot.com/scp-014",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-007",
-          "title": "Abdominalni Planet",
-          "blurb": "Človeku podobni — SCP-007 je v trebušni votlini subjekta.",
-          "url": "https://scp-slovenija.wikidot.com/scp-007",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-014/3241597616_e47326fc1a.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -79,8 +57,38 @@
         {
           "itemId": "scp-series-017",
           "title": "Oseba V Senci",
-          "blurb": "Človeku podobni — SCP-017 je humanoidna slika višine približno 80 cm, anatomsko podobna majhnemu otroku, vendar brez prepoznavnih znakov.",
+          "blurb": "SCP-017 je humanoidna slika višine približno 80 cm, anatomsko podobna majhnemu otroku, vendar brez prepoznavnih znakov.",
           "url": "https://scp-slovenija.wikidot.com/scp-017",
+          "imageUrl": "https://cdn.discordapp.com/attachments/581863610020528252/598555142559891475/15627770561476431353.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-011",
+          "title": "Spomenik Čuteče Državljanske Vojne",
+          "blurb": "SCP-011 je spomenik državljanske vojne v Woodstocku v Vermontu.Kipec je podoba mladega vojaka, ki drži mušketo ob sebi in je izklesan iz granita, razčetverjen na tem območju.",
+          "url": "https://scp-slovenija.wikidot.com/scp-011",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-011/SCP011.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1003",
+          "title": "Trakulja otrok",
+          "blurb": "Tako kot druge vrste SCP-1003-1 naseljuje drobovje mesojedih živali (običajno kanidi), kjer proizvaja jajca, ki se prenašajo z gostiteljevim blatom.",
+          "url": "https://scp-slovenija.wikidot.com/scp-1003",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1003/SCP-1003.png",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-sl-006",
+          "title": "Poslušalec",
+          "blurb": "SCP-006-SL je humanoid, Hunchback, merjenje 2.█1 m, vitek, s kožo, rdeče barve z odtenki █████, se zdi, valovite, poleg tega je suho in viskozne na dotik.",
+          "url": "https://scp-slovenija.wikidot.com/scp-006-sl",
           "sourceTags": [
             "humanoid"
           ]
@@ -93,21 +101,14 @@
       "publishedAt": "2026-11-25T10:00:00.000Z",
       "title": "Predmeti",
       "introduction": "Raziščite temo »Predmeti« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/everyday-v1.png",
       "articles": [
-        {
-          "itemId": "scp-series-063",
-          "title": "\"Najboljša čopič na svetu\"",
-          "blurb": "Predmeti — SCP-063 je povprečna, bledo modra ščetka.",
-          "url": "https://scp-slovenija.wikidot.com/scp-063",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
         {
           "itemId": "scp-series-005",
           "title": "Passe-Partout",
-          "blurb": "Predmeti — Po videzu SCP-005 spominja na okrašen ključ in ima značilnosti tipičnega množično izdelanega ključa, ki se je uporabljal…",
+          "blurb": "Ključ so odkrili, ko ga je civilist uporabil za vdor v strogo varovani objekt.",
           "url": "https://scp-slovenija.wikidot.com/scp-005",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
           "sourceTags": [
             "artifact"
           ]
@@ -115,35 +116,9 @@
         {
           "itemId": "scp-series-013",
           "title": "Cigarete Blue Lady",
-          "blurb": "Predmeti — SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.",
+          "blurb": "SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.Najbolj pogosta zunanja podrobnost med primeri je prisotnost besed \"Modra Dama\", napisanih na vsaki cigareti z modrim črnilom.",
           "url": "https://scp-slovenija.wikidot.com/scp-013",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-316",
-          "title": "Vpijanje Svetlobe-Barva",
-          "blurb": "Predmeti — SCP-316 je bronasta svetilka s starim karbidom.",
-          "url": "https://scp-slovenija.wikidot.com/scp-316",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-010",
-          "title": "Ovratniki nadzora",
-          "blurb": "Predmeti — SCP-010 je sestavljen iz serije šestih (6) očitno enakih ovratnikov iz litega železa z oštevilčenimi kovinskimi značkami…",
-          "url": "https://scp-slovenija.wikidot.com/scp-010",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-004",
-          "title": "12 zarjavelih tipk in vrata",
-          "blurb": "Predmeti — SCP-004 obsega stara lesena vrata skednja (SCP-004-1) in sklop dvanajstih zarjavelih jeklenih ključev (SCP-004-2 do SCP-…",
-          "url": "https://scp-slovenija.wikidot.com/scp-004",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-013/medium.jpg",
           "sourceTags": [
             "artifact"
           ]
@@ -151,8 +126,47 @@
         {
           "itemId": "scp-series-019",
           "title": "Pošastna Vaza",
-          "blurb": "Predmeti — SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.",
+          "blurb": "SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.Če se odkrije uspešna metoda, je treba SCP-019 uničiti brez predsodkov.",
           "url": "https://scp-slovenija.wikidot.com/scp-019",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-019/scp-019.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 zarjavelih tipk in vrata",
+          "blurb": "SCP-004 obsega stara lesena vrata skednja (SCP-004-1) in sklop dvanajstih zarjavelih jeklenih ključev (SCP-004-2 do SCP-004-13).Vrata sama so vhod v zapuščeno tovarno v [PODATKI IZBRISANI].",
+          "url": "https://scp-slovenija.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-316",
+          "title": "Vpijanje Svetlobe-Barva",
+          "blurb": "SCP-316 je bronasta svetilka s starim karbidom.Ohišje se ne ujema z nobenim izdelanim modelom in zdi se, da je bilo zgrajeno v hiši.",
+          "url": "https://scp-slovenija.wikidot.com/scp-316",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-316/SCP-316.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-063",
+          "title": "\"Najboljša čopič na svetu\"",
+          "blurb": "SCP-063 je povprečna, bledo modra ščetka.Na tej strani objekta so označene besede\"najboljša krtača na svetu [sic]\".",
+          "url": "https://scp-slovenija.wikidot.com/scp-063",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-010",
+          "title": "Ovratniki nadzora",
+          "blurb": "SCP-010 je sestavljen iz serije šestih (6) očitno enakih ovratnikov iz litega železa z oštevilčenimi kovinskimi značkami in enim (1) daljinskim upravljalnikom.Kontrola je SCP-010-1.",
+          "url": "https://scp-slovenija.wikidot.com/scp-010",
           "sourceTags": [
             "artifact"
           ]
@@ -165,42 +179,14 @@
       "publishedAt": "2026-12-02T10:00:00.000Z",
       "title": "Inteligenca × Biologija",
       "introduction": "Raziščite temo »Inteligenca × Biologija« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-004-v1.png",
       "articles": [
-        {
-          "itemId": "scp-series-999",
-          "title": "Žgečkljiva Pošast",
-          "blurb": "Inteligenca × Biologija — SCP-999 se zdi, da je velik, amorfne, želatinasta masa oranžna prosojno sluzi, tehta približno 54 kg (120 kg), z dosledn…",
-          "url": "https://scp-slovenija.wikidot.com/scp-999",
-          "sourceTags": [
-            "sentient",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-019",
-          "title": "Pošastna Vaza",
-          "blurb": "Inteligenca × Biologija — SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.",
-          "url": "https://scp-slovenija.wikidot.com/scp-019",
-          "sourceTags": [
-            "sentient",
-            "biological"
-          ]
-        },
         {
           "itemId": "scp-series-031",
           "title": "Kaj je ljubezen?",
-          "blurb": "Inteligenca × Biologija — SCP-031 je amorfni organizem, z maso 75 kg.",
+          "blurb": "SCP-031 je amorfni organizem, z maso 75 kg.SCP-031 je sposoben reproducirati človeškega govora v vsakem igrišču ali ton, čeprav je trenutno ni znano, kako SCP-031 biologijo proizvaja njih.",
           "url": "https://scp-slovenija.wikidot.com/scp-031",
-          "sourceTags": [
-            "sentient",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-016",
-          "title": "Čuteči Mikroorganizem",
-          "blurb": "Inteligenca × Biologija — SCP-016 je patogen, ki se prenaša s krvjo in je okreval od delavca v rudniku v ██████, ki se je poškodoval med delom v p…",
-          "url": "https://scp-slovenija.wikidot.com/scp-016",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-031/medium.jpg",
           "sourceTags": [
             "sentient",
             "biological"
@@ -209,8 +195,20 @@
         {
           "itemId": "scp-series-745",
           "title": "Žarometi",
-          "blurb": "Inteligenca × Biologija — SCP-745 je dvonožni nočni plenilec.",
+          "blurb": "SCP-745 je dvonožni nočni plenilec.Glava je napihnjena vreča čiste kože, ki nima vidnih senzoričnih organov ali lobanje.",
           "url": "https://scp-slovenija.wikidot.com/scp-745",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-745/745.jpg",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Pošastna Vaza",
+          "blurb": "SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.Če se odkrije uspešna metoda, je treba SCP-019 uničiti brez predsodkov.",
+          "url": "https://scp-slovenija.wikidot.com/scp-019",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-019/scp-019.jpg",
           "sourceTags": [
             "sentient",
             "biological"
@@ -219,8 +217,9 @@
         {
           "itemId": "scp-series-039",
           "title": "Inženirji Proboscis",
-          "blurb": "Inteligenca × Biologija — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
           "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
           "sourceTags": [
             "sentient",
             "biological"
@@ -229,8 +228,29 @@
         {
           "itemId": "scp-series-049",
           "title": "Doktor od kuga",
-          "blurb": "Inteligenca × Biologija — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
           "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-999",
+          "title": "Žgečkljiva Pošast",
+          "blurb": "SCP-999 se zdi, da je velik, amorfne, želatinasta masa oranžna prosojno sluzi, tehta približno 54 kg (120 kg), z doslednostjo, ki je podoben arašidovo maslo.",
+          "url": "https://scp-slovenija.wikidot.com/scp-999",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Čuteči Mikroorganizem",
+          "blurb": "Rana se je okužila s premogovim prahom iz rudnika, morda je okužila delavca s spečimi sporami.",
+          "url": "https://scp-slovenija.wikidot.com/scp-016",
           "sourceTags": [
             "sentient",
             "biological"
@@ -244,12 +264,14 @@
       "publishedAt": "2026-12-09T10:00:00.000Z",
       "title": "Inteligenca",
       "introduction": "Raziščite temo »Inteligenca« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-005-v1.png",
       "articles": [
         {
           "itemId": "scp-series-sl-005",
           "title": "SCP-005-SL",
-          "blurb": "Inteligenca — SCP-005-SL je kopensko letalo, ki mu poveljujejo Neznani viri.",
+          "blurb": "SCP-005-SL je kopensko letalo, ki mu poveljujejo Neznani viri.SCP-005-SL ima eno veliko anomalijo, in sicer, da lahko snema 5 6 različnih vrst žarkov z drugačnim učinkom (glej dodatek-005-SL-1).",
           "url": "https://scp-slovenija.wikidot.com/scp-005-sl",
+          "imageUrl": "https://cdn.pixabay.com/photo/2017/03/04/13/52/robot-2116089_960_720.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -257,26 +279,9 @@
         {
           "itemId": "scp-series-043",
           "title": "v \"Beatle\"",
-          "blurb": "Inteligenca — SCP-043 se zdi, da vinil kopijo Beatles ' \"Beli Album\"; vendar pa je pri podrobnejšem pregledu, je lahko ugotovil, da ni…",
+          "blurb": "Vendar pa se disk predvaja od začetka do konca, ne glede na začetno postavitev točke.",
           "url": "https://scp-slovenija.wikidot.com/scp-043",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-005",
-          "title": "Passe-Partout",
-          "blurb": "Inteligenca — Po videzu SCP-005 spominja na okrašen ključ in ima značilnosti tipičnega množično izdelanega ključa, ki se je uporabljal…",
-          "url": "https://scp-slovenija.wikidot.com/scp-005",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-079",
-          "title": "Stari Al",
-          "blurb": "Inteligenca — SCP-079 je mikroračunalnik Eksidije čarovnika, zgrajen leta 1978.",
-          "url": "https://scp-slovenija.wikidot.com/scp-079",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-043/whitealbum",
           "sourceTags": [
             "sentient"
           ]
@@ -284,17 +289,9 @@
         {
           "itemId": "scp-series-131",
           "title": "\"Očesni Stroki\"",
-          "blurb": "Inteligenca — SCP-131-A in SCP-131-B (ljubeče vzdevek \"Oči Stroki\", ki ga osebje) so par solze v obliki bitja približno 30 cm (1 ft) v…",
+          "blurb": "SCP-131-A je oranžne barve, SCP-131-B pa gorčična rumena.",
           "url": "https://scp-slovenija.wikidot.com/scp-131",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-245",
-          "title": "SCP-RPG",
-          "blurb": "Inteligenca — Za informacije v zvezi s SCP-245.",
-          "url": "https://scp-slovenija.wikidot.com/scp-245",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-131/2689941721_73645ede38_m.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -302,17 +299,49 @@
         {
           "itemId": "scp-series-015",
           "title": "Nočna Mora Pipe",
-          "blurb": "Inteligenca — SCP-015 je masa cevi, ventilatorjev, bojlerjev in drugih različnih vodovodne aparat popolnoma polnjenje skladišča v ████…",
+          "blurb": "Zdi se, da cevi rastejo, ko niso pod nadzorom, in se poskušajo povezati z bližnjimi strukturami prek kanalizacijskih sistemov in podzemnih vodovodnih napeljav.",
           "url": "https://scp-slovenija.wikidot.com/scp-015",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--resized-images/scp-015/SCP-015New/medium.jpg",
           "sourceTags": [
             "sentient"
           ]
         },
         {
-          "itemId": "scp-series-999",
-          "title": "Žgečkljiva Pošast",
-          "blurb": "Inteligenca — SCP-999 se zdi, da je velik, amorfne, želatinasta masa oranžna prosojno sluzi, tehta približno 54 kg (120 kg), z dosledn…",
-          "url": "https://scp-slovenija.wikidot.com/scp-999",
+          "itemId": "scp-series-005",
+          "title": "Passe-Partout",
+          "blurb": "Ključ so odkrili, ko ga je civilist uporabil za vdor v strogo varovani objekt.",
+          "url": "https://scp-slovenija.wikidot.com/scp-005",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1002",
+          "title": "Pokojni",
+          "blurb": "SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.Vsak od teh predmetov ima senco humanoidnega posameznika, oblečenega v policijsko uniformo.",
+          "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpdemiser.jpg",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-014",
+          "title": "Betonski Mož",
+          "blurb": "SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.Azil se je zaprl leta 1937, bolnike pa so premestili v različne druge ustanove.",
+          "url": "https://scp-slovenija.wikidot.com/scp-014",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-014/3241597616_e47326fc1a.jpg",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Kaj je ljubezen?",
+          "blurb": "SCP-031 je amorfni organizem, z maso 75 kg.SCP-031 se lahko premika s hitrostjo 3 km/h in pusti sled olja, ko se premika.",
+          "url": "https://scp-slovenija.wikidot.com/scp-031",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-031/medium.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -325,22 +354,14 @@
       "publishedAt": "2027-01-06T10:00:00.000Z",
       "title": "Človeku podobni × Biologija",
       "introduction": "Raziščite temo »Človeku podobni × Biologija« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-009-v1.png",
       "articles": [
         {
           "itemId": "scp-series-1003",
           "title": "Trakulja otrok",
-          "blurb": "Človeku podobni × Biologija — SCP-1003-1 je odrasla trakulja vrste Echinococcus granulosus, znano po povzročanju hidatidne bolezni.",
+          "blurb": "Tako kot druge vrste SCP-1003-1 naseljuje drobovje mesojedih živali (običajno kanidi), kjer proizvaja jajca, ki se prenašajo z gostiteljevim blatom.",
           "url": "https://scp-slovenija.wikidot.com/scp-1003",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-343",
-          "title": "\"Dio\"",
-          "blurb": "Človeku podobni × Biologija — SCP-343 je moški, navidezno manj rasist, humanoid z navidezno vsemogočnostjo.",
-          "url": "https://scp-slovenija.wikidot.com/scp-343",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1003/SCP-1003.png",
           "sourceTags": [
             "humanoid",
             "biological"
@@ -349,8 +370,9 @@
         {
           "itemId": "scp-series-039",
           "title": "Inženirji Proboscis",
-          "blurb": "Človeku podobni × Biologija — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
           "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
           "sourceTags": [
             "humanoid",
             "biological"
@@ -359,8 +381,19 @@
         {
           "itemId": "scp-series-049",
           "title": "Doktor od kuga",
-          "blurb": "Človeku podobni × Biologija — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
           "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Dio\"",
+          "blurb": "SCP-343 je moški, navidezno manj rasist, humanoid z navidezno vsemogočnostjo.",
+          "url": "https://scp-slovenija.wikidot.com/scp-343",
           "sourceTags": [
             "humanoid",
             "biological"
@@ -369,7 +402,7 @@
         {
           "itemId": "scp-series-007",
           "title": "Abdominalni Planet",
-          "blurb": "Človeku podobni × Biologija — SCP-007 je v trebušni votlini subjekta.",
+          "blurb": "SCP-007 je v trebušni votlini subjekta.Osebek je Belec, telesno približno 25 let (subjekt trdi, da je star 28 let) in 176 cm v višini.",
           "url": "https://scp-slovenija.wikidot.com/scp-007",
           "sourceTags": [
             "humanoid",
@@ -384,21 +417,14 @@
       "publishedAt": "2027-03-03T10:00:00.000Z",
       "title": "Vpliv na um",
       "introduction": "Raziščite temo »Vpliv na um« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-017-v1.png",
       "articles": [
         {
           "itemId": "scp-series-sl-007",
           "title": "Kit oprema za fotografiranje",
-          "blurb": "Vpliv na um — SCP-007-SL je sklop 31 delov, zasnovanih za profesionalnega fotografa, nenormalne značilnosti SCP-007-SL se pojavijo, ko…",
+          "blurb": "Edini način, da ustavimo to vedenje je, da fotografiramo s (z SCP-007-SL) SCP-007-SL-1 in ponovimo krog, dokler predvidena žrtev ne umre.Za več informacij glejte dnevnik preskusov na SCP-007-SL.",
           "url": "https://scp-slovenija.wikidot.com/scp-007-sl",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-013",
-          "title": "Cigarete Blue Lady",
-          "blurb": "Vpliv na um — SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.",
-          "url": "https://scp-slovenija.wikidot.com/scp-013",
+          "imageUrl": "https://cdn.pixabay.com/photo/2015/04/20/13/09/equipment-731132_960_720.jpg",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -406,35 +432,9 @@
         {
           "itemId": "scp-series-003",
           "title": "Biološka Matična Plošča",
-          "blurb": "Vpliv na um — SCP-003 je sestavljen iz dveh povezanih komponent ločenega izvora, imenovanih SCP-003-1 in SCP-003-2.",
+          "blurb": "Zdi se, da je SCP-003-1 sestavljen iz hitina, las in nohtov neznane biologije, ki so razporejeni v konfiguraciji, podobni računalniški matični plošči.",
           "url": "https://scp-slovenija.wikidot.com/scp-003",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-012",
-          "title": "Slaba zasnova",
-          "blurb": "Vpliv na um — SCP-012 je izkopal arheolog K.",
-          "url": "https://scp-slovenija.wikidot.com/scp-012",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-004",
-          "title": "12 zarjavelih tipk in vrata",
-          "blurb": "Vpliv na um — SCP-004 obsega stara lesena vrata skednja (SCP-004-1) in sklop dvanajstih zarjavelih jeklenih ključev (SCP-004-2 do SCP-…",
-          "url": "https://scp-slovenija.wikidot.com/scp-004",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-010",
-          "title": "Ovratniki nadzora",
-          "blurb": "Vpliv na um — SCP-010 je sestavljen iz serije šestih (6) očitno enakih ovratnikov iz litega železa z oštevilčenimi kovinskimi značkami…",
-          "url": "https://scp-slovenija.wikidot.com/scp-010",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-003/SCP-003a-new.jpg",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -442,8 +442,49 @@
         {
           "itemId": "scp-series-1004",
           "title": "Tovarniška Pornografija",
-          "blurb": "Vpliv na um — SCP-1004 je računalniški program, najdete na CD-ju (SCP-1004-2) ali 3,5\" diskete (SCP-1004-1), bodisi ki bodo strani, ki…",
+          "blurb": "Program deluje brezhibno na vseh platformah.",
           "url": "https://scp-slovenija.wikidot.com/scp-1004",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-1004/Factoryporncd.jpg",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Nevidna Plesen",
+          "blurb": "Vzorci SCP-020 kažejo na neznan učinek, zaradi česar so dejansko nevidni za neposredno opazovanje, tudi če pod mikroskopom.",
+          "url": "https://scp-slovenija.wikidot.com/scp-020",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-020/scp020.jpg",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-207",
+          "title": "steklenice kola",
+          "blurb": "SCP-207 se nanaša na zaboj, ki vsebuje 24 Coca-Cola brand cola pijač.Steklenice so namenjene SCP-207-A do -X.",
+          "url": "https://scp-slovenija.wikidot.com/scp-207",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-207/SCP207.jpg",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Cigarete Blue Lady",
+          "blurb": "SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.Najbolj pogosta zunanja podrobnost med primeri je prisotnost besed \"Modra Dama\", napisanih na vsaki cigareti z modrim črnilom.",
+          "url": "https://scp-slovenija.wikidot.com/scp-013",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-013/medium.jpg",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 zarjavelih tipk in vrata",
+          "blurb": "SCP-004 obsega stara lesena vrata skednja (SCP-004-1) in sklop dvanajstih zarjavelih jeklenih ključev (SCP-004-2 do SCP-004-13).Vrata sama so vhod v zapuščeno tovarno v [PODATKI IZBRISANI].",
+          "url": "https://scp-slovenija.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -451,8 +492,9 @@
         {
           "itemId": "scp-series-316",
           "title": "Vpijanje Svetlobe-Barva",
-          "blurb": "Vpliv na um — SCP-316 je bronasta svetilka s starim karbidom.",
+          "blurb": "SCP-316 je bronasta svetilka s starim karbidom.Ohišje se ne ujema z nobenim izdelanim modelom in zdi se, da je bilo zgrajeno v hiši.",
           "url": "https://scp-slovenija.wikidot.com/scp-316",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-316/SCP-316.jpg",
           "sourceTags": [
             "mind_affecting"
           ]
@@ -465,21 +507,14 @@
       "publishedAt": "2027-04-21T10:00:00.000Z",
       "title": "Inteligenca × Euclid",
       "introduction": "Raziščite temo »Inteligenca × Euclid« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-024-v1.png",
       "articles": [
         {
           "itemId": "scp-series-sl-005",
           "title": "SCP-005-SL",
-          "blurb": "Inteligenca × Euclid — SCP-005-SL je kopensko letalo, ki mu poveljujejo Neznani viri.",
+          "blurb": "SCP-005-SL je kopensko letalo, ki mu poveljujejo Neznani viri.SCP-005-SL ima eno veliko anomalijo, in sicer, da lahko snema 5 6 različnih vrst žarkov z drugačnim učinkom (glej dodatek-005-SL-1).",
           "url": "https://scp-slovenija.wikidot.com/scp-005-sl",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-079",
-          "title": "Stari Al",
-          "blurb": "Inteligenca × Euclid — SCP-079 je mikroračunalnik Eksidije čarovnika, zgrajen leta 1978.",
-          "url": "https://scp-slovenija.wikidot.com/scp-079",
+          "imageUrl": "https://cdn.pixabay.com/photo/2017/03/04/13/52/robot-2116089_960_720.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -487,8 +522,9 @@
         {
           "itemId": "scp-series-015",
           "title": "Nočna Mora Pipe",
-          "blurb": "Inteligenca × Euclid — SCP-015 je masa cevi, ventilatorjev, bojlerjev in drugih različnih vodovodne aparat popolnoma polnjenje skladišča v ████…",
+          "blurb": "Zdi se, da cevi rastejo, ko niso pod nadzorom, in se poskušajo povezati z bližnjimi strukturami prek kanalizacijskih sistemov in podzemnih vodovodnih napeljav.",
           "url": "https://scp-slovenija.wikidot.com/scp-015",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--resized-images/scp-015/SCP-015New/medium.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -496,8 +532,9 @@
         {
           "itemId": "scp-series-1002",
           "title": "Pokojni",
-          "blurb": "Inteligenca × Euclid — SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.",
+          "blurb": "SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.Vsak od teh predmetov ima senco humanoidnega posameznika, oblečenega v policijsko uniformo.",
           "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpdemiser.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -505,8 +542,9 @@
         {
           "itemId": "scp-series-039",
           "title": "Inženirji Proboscis",
-          "blurb": "Inteligenca × Euclid — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
           "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -514,8 +552,18 @@
         {
           "itemId": "scp-series-049",
           "title": "Doktor od kuga",
-          "blurb": "Inteligenca × Euclid — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
           "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-079",
+          "title": "Stari Al",
+          "blurb": "SCP-079 je mikroračunalnik Eksidije čarovnika, zgrajen leta 1978.Leta 1981 se je njegov lastnik, █████ ██████ (pokojni), kolegij letniku obiskovali ███, si ga je ob sebi, da bi poskušali kodo na AI.",
+          "url": "https://scp-slovenija.wikidot.com/scp-079",
           "sourceTags": [
             "sentient"
           ]
@@ -528,11 +576,42 @@
       "publishedAt": "2027-05-12T10:00:00.000Z",
       "title": "Človeku podobni × Euclid",
       "introduction": "Raziščite temo »Človeku podobni × Euclid« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-027-v1.png",
       "articles": [
+        {
+          "itemId": "scp-series-1002",
+          "title": "Pokojni",
+          "blurb": "SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.Vsak od teh predmetov ima senco humanoidnega posameznika, oblečenega v policijsko uniformo.",
+          "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpdemiser.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Doktor od kuga",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
+          "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-039",
+          "title": "Inženirji Proboscis",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
+          "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
         {
           "itemId": "scp-series-022",
           "title": "Mrtvašnica",
-          "blurb": "Človeku podobni × Euclid — SCP-022 je mrtvašnica v kleti bolnišnice [CENZURIRANO] v Veliki Britaniji.",
+          "blurb": "SCP-022 je mrtvašnica v kleti bolnišnice [CENZURIRANO] v Veliki Britaniji.Do leta 198█ ni bilo nobenih nenavadnih dogodkov v mrtvašnici.",
           "url": "https://scp-slovenija.wikidot.com/scp-022",
           "sourceTags": [
             "humanoid"
@@ -541,7 +620,7 @@
         {
           "itemId": "scp-series-sl-006",
           "title": "Poslušalec",
-          "blurb": "Človeku podobni × Euclid — SCP-006-SL je humanoid, Hunchback, merjenje 2.",
+          "blurb": "SCP-006-SL je humanoid, Hunchback, merjenje 2.█1 m, vitek, s kožo, rdeče barve z odtenki █████, se zdi, valovite, poleg tega je suho in viskozne na dotik.",
           "url": "https://scp-slovenija.wikidot.com/scp-006-sl",
           "sourceTags": [
             "humanoid"
@@ -550,35 +629,8 @@
         {
           "itemId": "scp-series-007",
           "title": "Abdominalni Planet",
-          "blurb": "Človeku podobni × Euclid — SCP-007 je v trebušni votlini subjekta.",
+          "blurb": "SCP-007 je v trebušni votlini subjekta.Osebek je Belec, telesno približno 25 let (subjekt trdi, da je star 28 let) in 176 cm v višini.",
           "url": "https://scp-slovenija.wikidot.com/scp-007",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-1002",
-          "title": "Pokojni",
-          "blurb": "Človeku podobni × Euclid — SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.",
-          "url": "https://scp-slovenija.wikidot.com/scp-1002",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-049",
-          "title": "Doktor od kuga",
-          "blurb": "Človeku podobni × Euclid — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
-          "url": "https://scp-slovenija.wikidot.com/scp-049",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-039",
-          "title": "Inženirji Proboscis",
-          "blurb": "Človeku podobni × Euclid — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
-          "url": "https://scp-slovenija.wikidot.com/scp-039",
           "sourceTags": [
             "humanoid"
           ]
@@ -591,21 +643,14 @@
       "publishedAt": "2027-05-19T10:00:00.000Z",
       "title": "Biologija × Euclid",
       "introduction": "Raziščite temo »Biologija × Euclid« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-028-v1.png",
       "articles": [
         {
           "itemId": "scp-series-002",
           "title": "\"Dnevna\" Soba",
-          "blurb": "Biologija × Euclid — SCP-002 spominja tumorous, mesnate rast s prostornino približno 60 m3 (ali 2000 ft3).",
+          "blurb": "SCP-002 spominja tumorous, mesnate rast s prostornino približno 60 m3 (ali 2000 ft3).LŽelezna loputa z ventilom na eni strani vodi v notranjost, ki je videti kot standardno skromno stanovanje z nizkimi najemninami.",
           "url": "https://scp-slovenija.wikidot.com/scp-002",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-023",
-          "title": "Črni šok",
-          "blurb": "Biologija × Euclid — SCP-023 je velik, moški brez dlake na dlaki (1,5 metra ob rami) s črnim kožuhom.",
-          "url": "https://scp-slovenija.wikidot.com/scp-023",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-002/800px-SCP002.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -613,8 +658,9 @@
         {
           "itemId": "scp-series-008",
           "title": "Zombi Kuga",
-          "blurb": "Biologija × Euclid — Politika vpeh G2 bi morala biti, da se ne pribravi postopek evakuacije.",
+          "blurb": "Politika vpeh G2 bi morala biti, da se ne pribravi postopek evakuacije.Raziskave SCP-008 so zelo razvrščene in so namenjene predvsem preprečevanju raziskav, ki bi lahko povzročile sintezo SCP-008 v daljni prihodnosti.",
           "url": "https://scp-slovenija.wikidot.com/scp-008",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-008/Scp008.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -622,17 +668,9 @@
         {
           "itemId": "scp-series-003",
           "title": "Biološka Matična Plošča",
-          "blurb": "Biologija × Euclid — SCP-003 je sestavljen iz dveh povezanih komponent ločenega izvora, imenovanih SCP-003-1 in SCP-003-2.",
+          "blurb": "Zdi se, da je SCP-003-1 sestavljen iz hitina, las in nohtov neznane biologije, ki so razporejeni v konfiguraciji, podobni računalniški matični plošči.",
           "url": "https://scp-slovenija.wikidot.com/scp-003",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-007",
-          "title": "Abdominalni Planet",
-          "blurb": "Biologija × Euclid — SCP-007 je v trebušni votlini subjekta.",
-          "url": "https://scp-slovenija.wikidot.com/scp-007",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-003/SCP-003a-new.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -640,8 +678,9 @@
         {
           "itemId": "scp-series-049",
           "title": "Doktor od kuga",
-          "blurb": "Biologija × Euclid — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
           "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -649,8 +688,27 @@
         {
           "itemId": "scp-series-039",
           "title": "Inženirji Proboscis",
-          "blurb": "Biologija × Euclid — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
           "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-023",
+          "title": "Črni šok",
+          "blurb": "Vsakič, ko posameznik vzpostavi očesni stik z SCP-023, ta oseba ali član njene ožje družine umre natanko eno (1) leto po prekinitvi očesnega stika.",
+          "url": "https://scp-slovenija.wikidot.com/scp-023",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Abdominalni Planet",
+          "blurb": "SCP-007 je v trebušni votlini subjekta.Osebek je Belec, telesno približno 25 let (subjekt trdi, da je star 28 let) in 176 cm v višini.",
+          "url": "https://scp-slovenija.wikidot.com/scp-007",
           "sourceTags": [
             "biological"
           ]
@@ -663,21 +721,14 @@
       "publishedAt": "2027-07-21T10:00:00.000Z",
       "title": "Biologija",
       "introduction": "Raziščite temo »Biologija« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-037-v1.png",
       "articles": [
         {
           "itemId": "scp-series-021",
           "title": "Kožni Wyrm",
-          "blurb": "Biologija — SCP-021 v obliki velikih in zapletenih tattoo a serpentine zmaj v orientalski stil, ki zajema približno 0.",
+          "blurb": "Ta tetovaža je popolnoma animirana v mejah kože gostitelja in se obnaša kot normalna žival, čeprav le v dveh dimenzijah.",
           "url": "https://scp-slovenija.wikidot.com/scp-021",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-020",
-          "title": "Nevidna Plesen",
-          "blurb": "Biologija — SCP-020 je hitro širi glivični organizem, ki je sposoben vplivati na čute in obnašanje živih bitij, vključno z ljudmi.",
-          "url": "https://scp-slovenija.wikidot.com/scp-020",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-021/021.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -685,35 +736,9 @@
         {
           "itemId": "scp-series-002",
           "title": "\"Dnevna\" Soba",
-          "blurb": "Biologija — SCP-002 spominja tumorous, mesnate rast s prostornino približno 60 m3 (ali 2000 ft3).",
+          "blurb": "SCP-002 spominja tumorous, mesnate rast s prostornino približno 60 m3 (ali 2000 ft3).LŽelezna loputa z ventilom na eni strani vodi v notranjost, ki je videti kot standardno skromno stanovanje z nizkimi najemninami.",
           "url": "https://scp-slovenija.wikidot.com/scp-002",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-019",
-          "title": "Pošastna Vaza",
-          "blurb": "Biologija — SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.",
-          "url": "https://scp-slovenija.wikidot.com/scp-019",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-031",
-          "title": "Kaj je ljubezen?",
-          "blurb": "Biologija — SCP-031 je amorfni organizem, z maso 75 kg.",
-          "url": "https://scp-slovenija.wikidot.com/scp-031",
-          "sourceTags": [
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-023",
-          "title": "Črni šok",
-          "blurb": "Biologija — SCP-023 je velik, moški brez dlake na dlaki (1,5 metra ob rami) s črnim kožuhom.",
-          "url": "https://scp-slovenija.wikidot.com/scp-023",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-002/800px-SCP002.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -721,17 +746,59 @@
         {
           "itemId": "scp-series-745",
           "title": "Žarometi",
-          "blurb": "Biologija — SCP-745 je dvonožni nočni plenilec.",
+          "blurb": "SCP-745 je dvonožni nočni plenilec.Glava je napihnjena vreča čiste kože, ki nima vidnih senzoričnih organov ali lobanje.",
           "url": "https://scp-slovenija.wikidot.com/scp-745",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-745/745.jpg",
           "sourceTags": [
             "biological"
           ]
         },
         {
-          "itemId": "scp-series-1003",
-          "title": "Trakulja otrok",
-          "blurb": "Biologija — SCP-1003-1 je odrasla trakulja vrste Echinococcus granulosus, znano po povzročanju hidatidne bolezni.",
-          "url": "https://scp-slovenija.wikidot.com/scp-1003",
+          "itemId": "scp-series-020",
+          "title": "Nevidna Plesen",
+          "blurb": "Vzorci SCP-020 kažejo na neznan učinek, zaradi česar so dejansko nevidni za neposredno opazovanje, tudi če pod mikroskopom.",
+          "url": "https://scp-slovenija.wikidot.com/scp-020",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-020/scp020.jpg",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-008",
+          "title": "Zombi Kuga",
+          "blurb": "Politika vpeh G2 bi morala biti, da se ne pribravi postopek evakuacije.Raziskave SCP-008 so zelo razvrščene in so namenjene predvsem preprečevanju raziskav, ki bi lahko povzročile sintezo SCP-008 v daljni prihodnosti.",
+          "url": "https://scp-slovenija.wikidot.com/scp-008",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-008/Scp008.jpg",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-003",
+          "title": "Biološka Matična Plošča",
+          "blurb": "Zdi se, da je SCP-003-1 sestavljen iz hitina, las in nohtov neznane biologije, ki so razporejeni v konfiguraciji, podobni računalniški matični plošči.",
+          "url": "https://scp-slovenija.wikidot.com/scp-003",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-003/SCP-003a-new.jpg",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Pošastna Vaza",
+          "blurb": "SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.Če se odkrije uspešna metoda, je treba SCP-019 uničiti brez predsodkov.",
+          "url": "https://scp-slovenija.wikidot.com/scp-019",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-019/scp-019.jpg",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Kaj je ljubezen?",
+          "blurb": "SCP-031 je amorfni organizem, z maso 75 kg.SCP-031 je sposoben reproducirati človeškega govora v vsakem igrišču ali ton, čeprav je trenutno ni znano, kako SCP-031 biologijo proizvaja njih.",
+          "url": "https://scp-slovenija.wikidot.com/scp-031",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-031/medium.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -744,22 +811,14 @@
       "publishedAt": "2027-08-18T10:00:00.000Z",
       "title": "Človeku podobni × Inteligenca",
       "introduction": "Raziščite temo »Človeku podobni × Inteligenca« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-041-v1.png",
       "articles": [
         {
           "itemId": "scp-series-011",
           "title": "Spomenik Čuteče Državljanske Vojne",
-          "blurb": "Človeku podobni × Inteligenca — SCP-011 je spomenik državljanske vojne v Woodstocku v Vermontu.",
+          "blurb": "SCP-011 je spomenik državljanske vojne v Woodstocku v Vermontu.Kipec je podoba mladega vojaka, ki drži mušketo ob sebi in je izklesan iz granita, razčetverjen na tem območju.",
           "url": "https://scp-slovenija.wikidot.com/scp-011",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-1002",
-          "title": "Pokojni",
-          "blurb": "Človeku podobni × Inteligenca — SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.",
-          "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-011/SCP011.jpg",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -768,8 +827,20 @@
         {
           "itemId": "scp-series-014",
           "title": "Betonski Mož",
-          "blurb": "Človeku podobni × Inteligenca — SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.",
+          "blurb": "SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.Azil se je zaprl leta 1937, bolnike pa so premestili v različne druge ustanove.",
           "url": "https://scp-slovenija.wikidot.com/scp-014",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-014/3241597616_e47326fc1a.jpg",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1002",
+          "title": "Pokojni",
+          "blurb": "SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.Vsak od teh predmetov ima senco humanoidnega posameznika, oblečenega v policijsko uniformo.",
+          "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpdemiser.jpg",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -778,8 +849,9 @@
         {
           "itemId": "scp-series-049",
           "title": "Doktor od kuga",
-          "blurb": "Človeku podobni × Inteligenca — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "blurb": "SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.Rentgenski posnetki kažejo, da ima SCP-049 pod zunanjo plastjo humanoidno okostje.",
           "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-049/SCP-049/medium.jpg",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -788,8 +860,9 @@
         {
           "itemId": "scp-series-039",
           "title": "Inženirji Proboscis",
-          "blurb": "Človeku podobni × Inteligenca — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "blurb": "SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anatomske spremembe.Oči in usta SCP-039 so odsotna, obraz pa ostane gol, razen nosu in nosnih kanalov.",
           "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
           "sourceTags": [
             "humanoid",
             "sentient"
@@ -803,12 +876,14 @@
       "publishedAt": "2027-09-15T10:00:00.000Z",
       "title": "Sovražnost",
       "introduction": "Raziščite temo »Sovražnost« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/weekly-045-v1.png",
       "articles": [
         {
           "itemId": "scp-series-173",
           "title": "Skulptura",
-          "blurb": "Sovražnost — Premeščen na lokacijo-19 1993.",
+          "blurb": "Premeščen na lokacijo-19 1993.Zgrajen je iz betona in reber s sledovi barv znamke Krylon.",
           "url": "https://scp-slovenija.wikidot.com/scp-173",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-173/SCP-173.jpg",
           "sourceTags": [
             "hostile"
           ]
@@ -816,8 +891,9 @@
         {
           "itemId": "scp-series-017",
           "title": "Oseba V Senci",
-          "blurb": "Sovražnost — SCP-017 je humanoidna slika višine približno 80 cm, anatomsko podobna majhnemu otroku, vendar brez prepoznavnih znakov.",
+          "blurb": "SCP-017 je humanoidna slika višine približno 80 cm, anatomsko podobna majhnemu otroku, vendar brez prepoznavnih znakov.SCP-017 je sestavljen iz senčnega, dimnega prta.",
           "url": "https://scp-slovenija.wikidot.com/scp-017",
+          "imageUrl": "https://cdn.discordapp.com/attachments/581863610020528252/598555142559891475/15627770561476431353.jpg",
           "sourceTags": [
             "hostile"
           ]
@@ -825,8 +901,9 @@
         {
           "itemId": "scp-series-031",
           "title": "Kaj je ljubezen?",
-          "blurb": "Sovražnost — SCP-031 je amorfni organizem, z maso 75 kg.",
+          "blurb": "SCP-031 je amorfni organizem, z maso 75 kg.SCP-031 se lahko premika s hitrostjo 3 km/h in pusti sled olja, ko se premika.",
           "url": "https://scp-slovenija.wikidot.com/scp-031",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-031/medium.jpg",
           "sourceTags": [
             "hostile"
           ]
@@ -834,8 +911,9 @@
         {
           "itemId": "scp-series-019",
           "title": "Pošastna Vaza",
-          "blurb": "Sovražnost — SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.",
+          "blurb": "SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.Če se odkrije uspešna metoda, je treba SCP-019 uničiti brez predsodkov.",
           "url": "https://scp-slovenija.wikidot.com/scp-019",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-019/scp-019.jpg",
           "sourceTags": [
             "hostile"
           ]
@@ -843,217 +921,11 @@
         {
           "itemId": "scp-series-1002",
           "title": "Pokojni",
-          "blurb": "Sovražnost — SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.",
+          "blurb": "SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.Vsak od teh predmetov ima senco humanoidnega posameznika, oblečenega v policijsko uniformo.",
           "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpdemiser.jpg",
           "sourceTags": [
             "hostile"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weekly-109",
-      "themeId": "artifact-safe",
-      "publishedAt": "2028-12-06T10:00:00.000Z",
-      "title": "Predmeti × Safe",
-      "introduction": "Raziščite temo »Predmeti × Safe« in primerjajte podobnosti ter razlike med temi anomalijami.",
-      "articles": [
-        {
-          "itemId": "scp-series-063",
-          "title": "\"Najboljša čopič na svetu\"",
-          "blurb": "Predmeti × Safe — SCP-063 je povprečna, bledo modra ščetka.",
-          "url": "https://scp-slovenija.wikidot.com/scp-063",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-005",
-          "title": "Passe-Partout",
-          "blurb": "Predmeti × Safe — Po videzu SCP-005 spominja na okrašen ključ in ima značilnosti tipičnega množično izdelanega ključa, ki se je uporabljal…",
-          "url": "https://scp-slovenija.wikidot.com/scp-005",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-316",
-          "title": "Vpijanje Svetlobe-Barva",
-          "blurb": "Predmeti × Safe — SCP-316 je bronasta svetilka s starim karbidom.",
-          "url": "https://scp-slovenija.wikidot.com/scp-316",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-010",
-          "title": "Ovratniki nadzora",
-          "blurb": "Predmeti × Safe — SCP-010 je sestavljen iz serije šestih (6) očitno enakih ovratnikov iz litega železa z oštevilčenimi kovinskimi značkami…",
-          "url": "https://scp-slovenija.wikidot.com/scp-010",
-          "sourceTags": [
-            "artifact"
-          ]
-        },
-        {
-          "itemId": "scp-series-013",
-          "title": "Cigarete Blue Lady",
-          "blurb": "Predmeti × Safe — SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.",
-          "url": "https://scp-slovenija.wikidot.com/scp-013",
-          "sourceTags": [
-            "artifact"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weekly-111",
-      "themeId": "sentient-safe",
-      "publishedAt": "2028-12-20T10:00:00.000Z",
-      "title": "Inteligenca × Safe",
-      "introduction": "Raziščite temo »Inteligenca × Safe« in primerjajte podobnosti ter razlike med temi anomalijami.",
-      "articles": [
-        {
-          "itemId": "scp-series-043",
-          "title": "v \"Beatle\"",
-          "blurb": "Inteligenca × Safe — SCP-043 se zdi, da vinil kopijo Beatles ' \"Beli Album\"; vendar pa je pri podrobnejšem pregledu, je lahko ugotovil, da ni…",
-          "url": "https://scp-slovenija.wikidot.com/scp-043",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-011",
-          "title": "Spomenik Čuteče Državljanske Vojne",
-          "blurb": "Inteligenca × Safe — SCP-011 je spomenik državljanske vojne v Woodstocku v Vermontu.",
-          "url": "https://scp-slovenija.wikidot.com/scp-011",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-131",
-          "title": "\"Očesni Stroki\"",
-          "blurb": "Inteligenca × Safe — SCP-131-A in SCP-131-B (ljubeče vzdevek \"Oči Stroki\", ki ga osebje) so par solze v obliki bitja približno 30 cm (1 ft) v…",
-          "url": "https://scp-slovenija.wikidot.com/scp-131",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-245",
-          "title": "SCP-RPG",
-          "blurb": "Inteligenca × Safe — Za informacije v zvezi s SCP-245.",
-          "url": "https://scp-slovenija.wikidot.com/scp-245",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-999",
-          "title": "Žgečkljiva Pošast",
-          "blurb": "Inteligenca × Safe — SCP-999 se zdi, da je velik, amorfne, želatinasta masa oranžna prosojno sluzi, tehta približno 54 kg (120 kg), z dosledn…",
-          "url": "https://scp-slovenija.wikidot.com/scp-999",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-014",
-          "title": "Betonski Mož",
-          "blurb": "Inteligenca × Safe — SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.",
-          "url": "https://scp-slovenija.wikidot.com/scp-014",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-005",
-          "title": "Passe-Partout",
-          "blurb": "Inteligenca × Safe — Po videzu SCP-005 spominja na okrašen ključ in ima značilnosti tipičnega množično izdelanega ključa, ki se je uporabljal…",
-          "url": "https://scp-slovenija.wikidot.com/scp-005",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-031",
-          "title": "Kaj je ljubezen?",
-          "blurb": "Inteligenca × Safe — SCP-031 je amorfni organizem, z maso 75 kg.",
-          "url": "https://scp-slovenija.wikidot.com/scp-031",
-          "sourceTags": [
-            "sentient"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weekly-114",
-      "themeId": "mind_affecting-safe",
-      "publishedAt": "2029-01-10T10:00:00.000Z",
-      "title": "Vpliv na um × Safe",
-      "introduction": "Raziščite temo »Vpliv na um × Safe« in primerjajte podobnosti ter razlike med temi anomalijami.",
-      "articles": [
-        {
-          "itemId": "scp-series-207",
-          "title": "steklenice kola",
-          "blurb": "Vpliv na um × Safe — SCP-207 se nanaša na zaboj, ki vsebuje 24 Coca-Cola brand cola pijač.",
-          "url": "https://scp-slovenija.wikidot.com/scp-207",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-sl-007",
-          "title": "Kit oprema za fotografiranje",
-          "blurb": "Vpliv na um × Safe — SCP-007-SL je sklop 31 delov, zasnovanih za profesionalnega fotografa, nenormalne značilnosti SCP-007-SL se pojavijo, ko…",
-          "url": "https://scp-slovenija.wikidot.com/scp-007-sl",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-1004",
-          "title": "Tovarniška Pornografija",
-          "blurb": "Vpliv na um × Safe — SCP-1004 je računalniški program, najdete na CD-ju (SCP-1004-2) ali 3,5\" diskete (SCP-1004-1), bodisi ki bodo strani, ki…",
-          "url": "https://scp-slovenija.wikidot.com/scp-1004",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-343",
-          "title": "\"Dio\"",
-          "blurb": "Vpliv na um × Safe — SCP-343 je moški, navidezno manj rasist, humanoid z navidezno vsemogočnostjo.",
-          "url": "https://scp-slovenija.wikidot.com/scp-343",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-010",
-          "title": "Ovratniki nadzora",
-          "blurb": "Vpliv na um × Safe — SCP-010 je sestavljen iz serije šestih (6) očitno enakih ovratnikov iz litega železa z oštevilčenimi kovinskimi značkami…",
-          "url": "https://scp-slovenija.wikidot.com/scp-010",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-013",
-          "title": "Cigarete Blue Lady",
-          "blurb": "Vpliv na um × Safe — SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.",
-          "url": "https://scp-slovenija.wikidot.com/scp-013",
-          "sourceTags": [
-            "mind_affecting"
-          ]
-        },
-        {
-          "itemId": "scp-series-316",
-          "title": "Vpijanje Svetlobe-Barva",
-          "blurb": "Vpliv na um × Safe — SCP-316 je bronasta svetilka s starim karbidom.",
-          "url": "https://scp-slovenija.wikidot.com/scp-316",
-          "sourceTags": [
-            "mind_affecting"
           ]
         }
       ]

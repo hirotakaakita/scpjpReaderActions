@@ -12,12 +12,24 @@
       "publishedAt": "2026-11-11T10:00:00.000Z",
       "title": "Čovjekoliki",
       "introduction": "Istražite temu „Čovjekoliki” i usporedite sličnosti i razlike ovih anomalija.",
+      "coverImage": "features/images/humanoid-v1.png",
       "articles": [
         {
           "itemId": "scp-series-011",
           "title": "Samosvesni spomenik Građanskom ratu",
-          "blurb": "Čovjekoliki — SCP-011 je spomenik Američkog građanskom ratu koji se nalazi u Vudstoku,Vermont.",
+          "blurb": "SCP-011 je spomenik Američkog građanskom ratu koji se nalazi u Vudstoku,Vermont.Statua izgleda kao mladi muški vojnik koji drži musketu pored sebe, a isklesana je od granita lomljenog u toj oblasti.",
           "url": "https://scp-sh.wikidot.com/scp-011",
+          "imageUrl": "https://scp-sh.wdfiles.com/local--files/scp-011/SCP-011.PNG",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1471",
+          "title": "MalO ver1.0.0",
+          "blurb": "SCP-1471 nema navedenog izdavača i nekako uspeva da zaobiđe proces odobravanja aplikacija i direktno ode u distribuciju.",
+          "url": "https://scp-sh.wikidot.com/scp-1471",
+          "imageUrl": "https://scp-sh.wdfiles.com/local--files/scp-1471/scp1471.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -25,7 +37,7 @@
         {
           "itemId": "scp-series-007",
           "title": "Trbušna planeta",
-          "blurb": "Čovjekoliki — SCP-007 se nalazi u šupljini u trbuhu Subjekta.",
+          "blurb": "SCP-007 se nalazi u šupljini u trbuhu Subjekta.Subjekat je belac, fizičke starosti oko 25 godina (Subjekat tvrdi da ima 28 godina) i visok 176 centimetara.",
           "url": "https://scp-sh.wikidot.com/scp-007",
           "sourceTags": [
             "humanoid"
@@ -34,17 +46,8 @@
         {
           "itemId": "scp-series-029",
           "title": "Ćerka senki",
-          "blurb": "Čovjekoliki — SCP-029 izgleda kao devojka u pubertetu, Azijsko-indijskog porekla.",
+          "blurb": "SCP-029 izgleda kao devojka u pubertetu, Azijsko-indijskog porekla.Izgleda kao da pati od alopecije universalis.",
           "url": "https://scp-sh.wikidot.com/scp-029",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-1471",
-          "title": "MalO ver1.0.0",
-          "blurb": "Čovjekoliki — SCP-1471 je besplatna aplikacija za mobilne uređaje, veličine 9,8 MB, nazvana \"MalO ver1.",
-          "url": "https://scp-sh.wikidot.com/scp-1471",
           "sourceTags": [
             "humanoid"
           ]
@@ -52,7 +55,7 @@
         {
           "itemId": "scp-series-054",
           "title": "Vodena nimfa",
-          "blurb": "Čovjekoliki — Izvan vode, subjekat se najčešće prikazuje kao ženski humanoid sa prosečnom zapreminom od 90 L sačinjen u potpunosti od …",
+          "blurb": "Izvan vode, subjekat se najčešće prikazuje kao ženski humanoid sa prosečnom zapreminom od 90 L sačinjen u potpunosti od vode (druge forme su moguće, često geometrijski oblici).",
           "url": "https://scp-sh.wikidot.com/scp-054",
           "sourceTags": [
             "humanoid"
@@ -66,12 +69,14 @@
       "publishedAt": "2027-07-21T10:00:00.000Z",
       "title": "Biologija",
       "introduction": "Istražite temu „Biologija” i usporedite sličnosti i razlike ovih anomalija.",
+      "coverImage": "features/images/weekly-037-v1.png",
       "articles": [
         {
           "itemId": "scp-series-002",
           "title": "„Živa” soba",
-          "blurb": "Biologija — SCP-002 izgleda kao tumorski, mesnat izrast zapremine približno 60 m³.",
+          "blurb": "SCP-002 izgleda kao tumorski, mesnat izrast zapremine približno 60 m³.Gvozdeni otvor na ventilu s jedne strane vodi do njegove unutrašnjosti, koja izgleda kao standardni stan niže novčane vrednosti, skromne veličine.",
           "url": "https://scp-sh.wikidot.com/scp-002",
+          "imageUrl": "https://scp-sh.wdfiles.com/local--files/scp-002/800px-SCP002-new.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -79,8 +84,9 @@
         {
           "itemId": "scp-series-003",
           "title": "Biološka matična ploča",
-          "blurb": "Biologija — SCP-003 se sastoji iz dve povezane komponente različitog porekla, označene kao SCP-003-1 i SCP-003-2.",
+          "blurb": "Čini se da je SCP-003-1 sastavljena od hitina, dlaka i noktiju nepoznate biologije, raspoređenih u konfiguraciju sličnu kompjuterskoj matičnoj ploči.",
           "url": "https://scp-sh.wikidot.com/scp-003",
+          "imageUrl": "https://scp-sh.wdfiles.com/local--files/scp-003/SCP-003a-new.jpg",
           "sourceTags": [
             "biological"
           ]
@@ -88,7 +94,7 @@
         {
           "itemId": "scp-series-682",
           "title": "Težko-Uništiv Reptil",
-          "blurb": "Biologija — SCP-682 je velika kreatura koja ima sličnost sa jednim reptilom.",
+          "blurb": "SCP-682 je velika kreatura koja ima sličnost sa jednim reptilom.Izgleda da je mnogo inteligentna i primećeno je kako je komplexno komuniciralo sa SCP-079 tokom njihovog ograničenog vremena izlaganja.",
           "url": "https://scp-sh.wikidot.com/scp-682",
           "sourceTags": [
             "biological"
@@ -97,7 +103,7 @@
         {
           "itemId": "scp-series-008",
           "title": "Zombi pandemija",
-          "blurb": "Biologija — SCP-008 je složen prion, čiji se uzorci čuvaju u svim poznatim G2 institucijama.",
+          "blurb": "SCP-008 je složen prion, čiji se uzorci čuvaju u svim poznatim G2 institucijama.Istraživanje SCP-008 je strogo poverljivo i prvenstveno cilja da spreči istraživanje koje bi dovelo do sinteze SCP-008 u daljoj budućnosti.",
           "url": "https://scp-sh.wikidot.com/scp-008",
           "sourceTags": [
             "biological"
@@ -106,7 +112,7 @@
         {
           "itemId": "scp-series-029",
           "title": "Ćerka senki",
-          "blurb": "Biologija — SCP-029 izgleda kao devojka u pubertetu, Azijsko-indijskog porekla.",
+          "blurb": "SCP-029 izgleda kao devojka u pubertetu, Azijsko-indijskog porekla.Izgleda kao da pati od alopecije universalis.",
           "url": "https://scp-sh.wikidot.com/scp-029",
           "sourceTags": [
             "biological"
@@ -115,7 +121,7 @@
         {
           "itemId": "scp-series-007",
           "title": "Trbušna planeta",
-          "blurb": "Biologija — SCP-007 se nalazi u šupljini u trbuhu Subjekta.",
+          "blurb": "SCP-007 se nalazi u šupljini u trbuhu Subjekta.Subjekat je belac, fizičke starosti oko 25 godina (Subjekat tvrdi da ima 28 godina) i visok 176 centimetara.",
           "url": "https://scp-sh.wikidot.com/scp-007",
           "sourceTags": [
             "biological"

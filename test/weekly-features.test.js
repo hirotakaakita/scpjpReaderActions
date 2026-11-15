@@ -1,7 +1,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),os=require('node:os'),path=require('node:path');
 const {LANGUAGES}=require('../languages');
-const {loadCatalogs,matches}=require('../generate-weekly-features');
+const {loadCatalogs,matches,featureExcerpt,usableImage,FEATURE_WEEKS}=require('../generate-weekly-features');
 const {publish,selectFeature}=require('../publish-weekly-features');
 const {sendFeatures,featureWindow}=require('../send-feature-notifications');
 const root=path.resolve(__dirname,'..');
@@ -20,12 +20,13 @@ test('the reviewed humanoid prototype contains six illustrated articles and keep
  assert(editorial.articles.find(a=>a.itemId==='scp-series-jp-1374').blurb.includes('顔'));
 });
 
-test('156 common Wednesday themes have valid 5–10 article language editions with source-backed introductions',{skip:process.env.FEATURE_PUBLICATION_RUN==='1'},()=>{
+test('104 common Wednesday themes have valid 5–10 article language editions with source-backed introductions',{skip:process.env.FEATURE_PUBLICATION_RUN==='1'},()=>{
  const schedule=JSON.parse(fs.readFileSync(path.join(root,'features/schedule.json')));
  const catalogs=loadCatalogs(path.join(root,'local-data'));
- assert.equal(schedule.weeks.length,156);
- assert.equal(new Set(schedule.weeks.map(w=>w.themeId)).size,156);
- for(let i=0;i<156;i++){
+ assert.equal(schedule.weeks.length,FEATURE_WEEKS);
+ assert.equal(FEATURE_WEEKS,104);
+ assert.equal(new Set(schedule.weeks.map(w=>w.themeId)).size,FEATURE_WEEKS);
+ for(let i=0;i<FEATURE_WEEKS;i++){
   const time=new Date(schedule.weeks[i].publishedAt);assert.equal(time.getUTCDay(),3);assert.equal(time.getUTCHours(),10);
   if(i)assert.equal(time-new Date(schedule.weeks[i-1].publishedAt),7*86400000);
  }
@@ -40,11 +41,39 @@ test('156 common Wednesday themes have valid 5–10 article language editions wi
    if(editorial)assert.deepEqual(feature,editorial);
    const theme=schedule.weeks.find(w=>w.id===feature.id);assert(theme);
    assert.equal(theme.publishedAt,feature.publishedAt);assert.equal(theme.themeId,feature.themeId);
+   assert(feature.coverImage);
+   assert(!/[0-9０-９]+つの報告書/.test(feature.introduction));
    assert(feature.articles.length>=5&&feature.articles.length<=10);
    assert.equal(new Set(feature.articles.map(a=>a.itemId)).size,feature.articles.length);
    for(const article of feature.articles){const row=source.get(article.itemId);assert(row,language+'/'+article.itemId);if(!editorial)assert(matches(row,theme));assert.equal(article.url,row.urlJP);assert.equal(article.title,row.titleJP);assert(article.blurb.length>20);}
   }
  }
+});
+
+test('two years use 104 distinct original covers and individual Japanese titles',()=>{
+ const catalog=JSON.parse(fs.readFileSync(path.join(root,'features/planned/jp.json')));
+ assert.equal(catalog.features.length,104);
+ assert.equal(new Set(catalog.features.map(f=>f.title)).size,104);
+ assert.equal(new Set(catalog.features.map(f=>f.coverImage)).size,104);
+ const hashes=new Set();
+ for(const feature of catalog.features){
+  const image=fs.readFileSync(path.join(root,feature.coverImage));
+  assert.equal(image.subarray(1,4).toString(),'PNG');
+  assert(image.readUInt32BE(16)/image.readUInt32BE(20)>=2);
+  hashes.add(require('crypto').createHash('sha256').update(image).digest('hex'));
+ }
+ assert.equal(hashes.size,104);
+});
+
+test('thematic excerpts select source evidence and retain decimal values',()=>{
+ const camera={descriptionExcerpt:'SCP-978は普通のカメラのように見えます。被験者が撮影されると、写真にはその人物の欲望が写ります。'};
+ assert(featureExcerpt(camera,{keys:['mind_affecting']}).includes('欲望'));
+ const machine={descriptionExcerpt:'この機械の部品は直径5.5cmの円柱で構成されており、通常の構造とは異なります。'};
+ assert(featureExcerpt(machine,{keys:['mechanical']}).includes('5.5cm'));
+ assert(!usableImage({imageUrl:'https://example.com/scp-blank.png'}));
+ assert(!usableImage({imageUrl:'https://example.com/local--files/component:header/logo.png'}));
+ assert(!usableImage({imageUrl:'https://example.com/diagram.svg'}));
+ assert(usableImage({imageUrl:'https://example.com/scp-978/camera.jpg'}));
 });
 
 function fixture(t){

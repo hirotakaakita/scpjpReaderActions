@@ -1,0 +1,1046 @@
+{
+  "version": 1,
+  "mode": "built-in image_gen",
+  "images": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "path": "features/images/humanoid-v1.png",
+      "reusedApprovedPrototype": true,
+      "width": 1774,
+      "height": 887,
+      "bytes": 2257511,
+      "sha256": "3fc1ba9eb7571bc2bd36aee6090e21dfb08ead1c56d64c3a3ab10d021111da1b"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "path": "features/images/spatial-v1.png",
+      "reusedApprovedPrototype": true,
+      "width": 2172,
+      "height": 724,
+      "bytes": 2288840,
+      "sha256": "15cd605c5ad64c5ed883beb981d58fdfe06f3a2970e839a30b07b6ceaedf84c2"
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "path": "features/images/everyday-v1.png",
+      "reusedApprovedPrototype": true,
+      "width": 2172,
+      "height": 724,
+      "bytes": 2232245,
+      "sha256": "c35bb3aac2e368f2ad95757e39ff0392e1d99c9c514bf1efbd140981985a7822"
+    },
+    {
+      "id": "weekly-004",
+      "themeId": "sentient-biological",
+      "path": "features/images/weekly-004-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-biological. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-004; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2049911,
+      "sha256": "177aca6f5269b0580176039a071920f98418b7d4f94cdc0e8d1f639a461af11f"
+    },
+    {
+      "id": "weekly-005",
+      "themeId": "sentient",
+      "path": "features/images/weekly-005-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-005; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2110885,
+      "sha256": "cc790228a5cba1b649e168b62b1f517fa5e21e5f7a36022a52c2001ec1901dfe"
+    },
+    {
+      "id": "weekly-006",
+      "themeId": "mind_affecting-biological",
+      "path": "features/images/weekly-006-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-biological. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-006; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2064708,
+      "sha256": "d2c0962f076e5d7c56c80f0b5a3e28ad0bb0e5dd8247dfc8fd23706d13efd6bd"
+    },
+    {
+      "id": "weekly-007",
+      "themeId": "humanoid-mind_affecting",
+      "path": "features/images/weekly-007-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-mind_affecting. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-007; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2120145,
+      "sha256": "99be6d720af11ae0876028e856f8986c04a386e650248b43a7d11744f09430e5"
+    },
+    {
+      "id": "weekly-008",
+      "themeId": "sentient-hostile",
+      "path": "features/images/weekly-008-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-hostile. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-008; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1980627,
+      "sha256": "99ffbcdceeb93ded989747edaa18448b78a5a6f98217e94dc14ec02c4477177a"
+    },
+    {
+      "id": "weekly-009",
+      "themeId": "humanoid-biological",
+      "path": "features/images/weekly-009-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-biological. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-009; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2008757,
+      "sha256": "62cd47f07b002ab451d7be1b59b2ea1cafe6906bf2cd5786f18e702c8340c0fa"
+    },
+    {
+      "id": "weekly-010",
+      "themeId": "humanoid-hostile",
+      "path": "features/images/weekly-010-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-hostile. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-010; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2285331,
+      "sha256": "b817e884aae6a7ddd3df79fa12e98985aa5c9a4b7e84cd2298c9d8bc5b41a4f2"
+    },
+    {
+      "id": "weekly-011",
+      "themeId": "biological-infectious",
+      "path": "features/images/weekly-011-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-infectious. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. Integrate this secondary thematic clue naturally into the same scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-011; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2253658,
+      "sha256": "e98435a2caf6c680c9e88732fa8f5c0aae00b67089868ef1df0857ce04e0f5ef"
+    },
+    {
+      "id": "weekly-012",
+      "themeId": "sentient-mind_affecting",
+      "path": "features/images/weekly-012-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-mind_affecting. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-012; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2077272,
+      "sha256": "6854328212554a5fec39f5394504fd300fa2331bdcf748eb9d024f2a78dfc926"
+    },
+    {
+      "id": "weekly-013",
+      "themeId": "temporal",
+      "path": "features/images/weekly-013-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: temporal. Create one coherent evocative scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-013; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2177412,
+      "sha256": "c9e63ca4d3b9d124d0d3d73432aab00df774bca5ddab085ba9dffbac518598bc"
+    },
+    {
+      "id": "weekly-014",
+      "themeId": "mind_affecting-artifact",
+      "path": "features/images/weekly-014-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-artifact. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-014; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2062388,
+      "sha256": "5c9f86e361403d88818a4c35c28b8d832402864495e2137c55cfbdcb93dafeeb"
+    },
+    {
+      "id": "weekly-015",
+      "themeId": "biological-hostile",
+      "path": "features/images/weekly-015-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-hostile. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. Integrate this secondary thematic clue naturally into the same scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-015; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2060858,
+      "sha256": "90893698a51d0594f4357d01d56e5b75da46445731b77559cb96ca59a4a1fc1e"
+    },
+    {
+      "id": "weekly-016",
+      "themeId": "hostile-keter",
+      "path": "features/images/weekly-016-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: hostile-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-016; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2024918,
+      "sha256": "d67ffba37bd3ffb25e12f33ef8cb5d843f952a4f4039fbc03f99df7166f49986"
+    },
+    {
+      "id": "weekly-017",
+      "themeId": "mind_affecting",
+      "path": "features/images/weekly-017-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-017; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2197691,
+      "sha256": "2ec557161a82654ba64d9932c0167a9a6bab66a58f8f2b8fa8c617e404429148"
+    },
+    {
+      "id": "weekly-018",
+      "themeId": "biological-keter",
+      "path": "features/images/weekly-018-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-018; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2030058,
+      "sha256": "24e41907145d90ea533007f137bb31a333a438a0625b730fd6588cdfc243812a"
+    },
+    {
+      "id": "weekly-019",
+      "themeId": "sentient-keter",
+      "path": "features/images/weekly-019-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-019; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2009938,
+      "sha256": "b62d36320c700f88a9166e364cbd3804b1044974b199166b70ae8dee37a05cea"
+    },
+    {
+      "id": "weekly-020",
+      "themeId": "humanoid-keter",
+      "path": "features/images/weekly-020-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-020; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2118363,
+      "sha256": "a554d5ed8ccf6495e8eddda35c711e86ea3970ac68f8340ae256b5e11a68c264"
+    },
+    {
+      "id": "weekly-021",
+      "themeId": "reality_altering",
+      "path": "features/images/weekly-021-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: reality_altering. Create one coherent evocative scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-021; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2060221,
+      "sha256": "0f7e25e7fe3a25b831aa8eff484ac2c0574cbe61d7e4e3fd07723204b0723fe7"
+    },
+    {
+      "id": "weekly-022",
+      "themeId": "sentient-artifact",
+      "path": "features/images/weekly-022-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-artifact. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-022; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2063108,
+      "sha256": "2eaf2756387832b73ee5293542ba4b053fd9bbbdd67341a1b25c5a5150ddc18f"
+    },
+    {
+      "id": "weekly-023",
+      "themeId": "plant-biological",
+      "path": "features/images/weekly-023-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: plant-biological. Create one coherent evocative scene: Unfamiliar leaves and pale roots quietly escaping an abandoned greenhouse specimen enclosure. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-023; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2337261,
+      "sha256": "265549a7aaa9a5f94760bd97e47d254f12dbd7f6e7fd11f7c72d062b739fe9aa"
+    },
+    {
+      "id": "weekly-024",
+      "themeId": "sentient-euclid",
+      "path": "features/images/weekly-024-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-024; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1731091,
+      "sha256": "5dcaa9c0f2b9c9653c81c7c7103c0f170696c8d48c62f86e2ff3ce8cbf3c477b"
+    },
+    {
+      "id": "weekly-025",
+      "themeId": "mechanical",
+      "path": "features/images/weekly-025-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mechanical. Create one coherent evocative scene: An unbranded dismantled mechanical device with unfamiliar gears and disconnected wiring on an institutional workbench. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-025; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2166485,
+      "sha256": "cadd6da84bbc81388e2057de57501192d8d0b01313847e571ce68f32872771a0"
+    },
+    {
+      "id": "weekly-026",
+      "themeId": "liquid-artifact",
+      "path": "features/images/weekly-026-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: liquid-artifact. Create one coherent evocative scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-026; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1884930,
+      "sha256": "5b3099abd7a8f24486b374589d524e7dc945c7ded622849fe2126acc6fe8351c"
+    },
+    {
+      "id": "weekly-027",
+      "themeId": "humanoid-euclid",
+      "path": "features/images/weekly-027-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-027; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2102049,
+      "sha256": "80048efb00bab837f85cf2f8b19cef9a221d72610b4b9952eb0515caacd4206d"
+    },
+    {
+      "id": "weekly-028",
+      "themeId": "biological-euclid",
+      "path": "features/images/weekly-028-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-028; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1917305,
+      "sha256": "746881bac09da43e71c1a9b856aa8d46e1605a8faf7019b22901e1184816f06b"
+    },
+    {
+      "id": "weekly-029",
+      "themeId": "plant",
+      "path": "features/images/weekly-029-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: plant. Create one coherent evocative scene: Unfamiliar leaves and pale roots quietly escaping an abandoned greenhouse specimen enclosure. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-029; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2452246,
+      "sha256": "c337b278b98df65093c3327d426df56af2d82b66f2997a9073c90908d682174d"
+    },
+    {
+      "id": "weekly-030",
+      "themeId": "mind_affecting-keter",
+      "path": "features/images/weekly-030-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-030; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2100737,
+      "sha256": "45bf7dc4acb7679dde2b261effdc3e6734288e06805628d08f15fb02a32062aa"
+    },
+    {
+      "id": "weekly-031",
+      "themeId": "biological-self_replicating",
+      "path": "features/images/weekly-031-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-self_replicating. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. Integrate this secondary thematic clue naturally into the same scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-031; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2173605,
+      "sha256": "5c8273b9e6a97d4aea721cba67942ebe969491f4a56d9efb3a37414538a253bd"
+    },
+    {
+      "id": "weekly-032",
+      "themeId": "humanoid-infectious",
+      "path": "features/images/weekly-032-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-infectious. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-032; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1983316,
+      "sha256": "0faa26c9cf0159753c1f84b49dcd1ee581500c57b25033e7169b292b104b563e"
+    },
+    {
+      "id": "weekly-033",
+      "themeId": "liquid",
+      "path": "features/images/weekly-033-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: liquid. Create one coherent evocative scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-033; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1938059,
+      "sha256": "27397447786c6b5eff8cfca63eca9239b2a1d7f3229c0b17e2588caac2340e84"
+    },
+    {
+      "id": "weekly-034",
+      "themeId": "spatial-artifact",
+      "path": "features/images/weekly-034-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-artifact. Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-034; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2093622,
+      "sha256": "f108be9b7e7232900d40c8ec340525c5543729fc5c09808152414b98bfe0119d"
+    },
+    {
+      "id": "weekly-035",
+      "themeId": "sentient-mechanical",
+      "path": "features/images/weekly-035-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-mechanical. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: An unbranded dismantled mechanical device with unfamiliar gears and disconnected wiring on an institutional workbench. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-035; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2310255,
+      "sha256": "617a12f3de7e5cdbb0651c10e316a9a101cc11036b332fd0c9d0d911824f3849"
+    },
+    {
+      "id": "weekly-036",
+      "themeId": "biological-regenerative",
+      "path": "features/images/weekly-036-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-regenerative. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. Integrate this secondary thematic clue naturally into the same scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-036; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1959652,
+      "sha256": "3aa228db58f37a3ab3f2adfa2bd7ad784fe170628f345911a3a9366ea804ea73"
+    },
+    {
+      "id": "weekly-037",
+      "themeId": "biological",
+      "path": "features/images/weekly-037-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-037; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2050092,
+      "sha256": "582edf29dfb32b49a3f65085dfbf4890e625b1f9b05fa4d96a44042613045f08"
+    },
+    {
+      "id": "weekly-038",
+      "themeId": "mind_affecting-hostile",
+      "path": "features/images/weekly-038-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-hostile. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-038; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1915372,
+      "sha256": "f339466300331b8ddd4c250dbd0b962f1441631cecb34b7e36fb45fdc30afb8b"
+    },
+    {
+      "id": "weekly-039",
+      "themeId": "infectious-keter",
+      "path": "features/images/weekly-039-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: infectious-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-039; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2172980,
+      "sha256": "752f45edad28834b57ad61f44b7a31819122ba393ab04855b68b086b4dccc9bd"
+    },
+    {
+      "id": "weekly-040",
+      "themeId": "sentient-regenerative",
+      "path": "features/images/weekly-040-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-regenerative. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-040; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1969228,
+      "sha256": "2b4ae5b4573ca5eaeb92614f56e3d8fdf9a13f3ec1891c4fb83a4c1fdb432685"
+    },
+    {
+      "id": "weekly-041",
+      "themeId": "humanoid-sentient",
+      "path": "features/images/weekly-041-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-sentient. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-041; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2064830,
+      "sha256": "946635c7f96e74727836bd277bfd97d289a68a3eb78dd5a6a2ac64c54c40aee6"
+    },
+    {
+      "id": "weekly-042",
+      "themeId": "mind_affecting-self_replicating",
+      "path": "features/images/weekly-042-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-self_replicating. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-042; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2097879,
+      "sha256": "f2aa518f112587550c77ebbd243710bc84be491966afa58058ebdc4ff8bef6f2"
+    },
+    {
+      "id": "weekly-043",
+      "themeId": "humanoid-self_replicating",
+      "path": "features/images/weekly-043-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-self_replicating. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-043; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2122197,
+      "sha256": "7da25c0f641d98b4e2e5b1ae16d9d0a680f9f1ec526f7b54e416f1b625c7ed51"
+    },
+    {
+      "id": "weekly-044",
+      "themeId": "mind_affecting-euclid",
+      "path": "features/images/weekly-044-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-044; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2004727,
+      "sha256": "cd7c65428026029a61feaade21764b0d3736f89f07d638d197f47fae9bf3d2d1"
+    },
+    {
+      "id": "weekly-045",
+      "themeId": "hostile",
+      "path": "features/images/weekly-045-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: hostile. Create one coherent evocative scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-045; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1961637,
+      "sha256": "1124c8c9f9ff46480391f39f8f51f56ad5c8bd659b8d2776b37ea9e87c0b9219"
+    },
+    {
+      "id": "weekly-046",
+      "themeId": "sentient-reality_altering",
+      "path": "features/images/weekly-046-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-reality_altering. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-046; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2179,
+      "height": 722,
+      "bytes": 2057436,
+      "sha256": "0d63747f392e1c0de505864bec88b3b37e1100213d734c2a648f58e7ad84a03a"
+    },
+    {
+      "id": "weekly-047",
+      "themeId": "humanoid-regenerative",
+      "path": "features/images/weekly-047-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-regenerative. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-047; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2053846,
+      "sha256": "ad208711d7f98236dbfb1cbdc133610f23c22c01d1b0b830c800645d0cc4d75b"
+    },
+    {
+      "id": "weekly-048",
+      "themeId": "sentient-plant",
+      "path": "features/images/weekly-048-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-plant. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: Unfamiliar leaves and pale roots quietly escaping an abandoned greenhouse specimen enclosure. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-048; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2241441,
+      "sha256": "80886865a31ef2db9f46a235e29e8243fee0d457b22e8d4f3cbbcdffe90c4654"
+    },
+    {
+      "id": "weekly-049",
+      "themeId": "infectious",
+      "path": "features/images/weekly-049-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: infectious. Create one coherent evocative scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-049; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2251470,
+      "sha256": "42dc7410aa565a8df2a78d4cd3f8cdc19d3bba72923960625e592c6b6de0fd41"
+    },
+    {
+      "id": "weekly-050",
+      "themeId": "humanoid-mechanical",
+      "path": "features/images/weekly-050-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-mechanical. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: An unbranded dismantled mechanical device with unfamiliar gears and disconnected wiring on an institutional workbench. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-050; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1997906,
+      "sha256": "0110fd979cf2cb5b30cb2eda8fa72d8eef9122e7aa830141a25a426f8398a948"
+    },
+    {
+      "id": "weekly-051",
+      "themeId": "mind_affecting-infohazard",
+      "path": "features/images/weekly-051-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-infohazard. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-051; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1928590,
+      "sha256": "43827b5951e7b76511d103e6200c5a1df4eda7b0ffa3f89de7dda8368ae0f506"
+    },
+    {
+      "id": "weekly-052",
+      "themeId": "humanoid-reality_altering",
+      "path": "features/images/weekly-052-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-reality_altering. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-052; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2047148,
+      "sha256": "0fcf772ab46614bb6a1edaf931f8f52d41eda74bc1e77a79c419afb76caacb58"
+    },
+    {
+      "id": "weekly-053",
+      "themeId": "infohazard",
+      "path": "features/images/weekly-053-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: infohazard. Create one coherent evocative scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-053; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2096809,
+      "sha256": "7d4d927dc8f0660c9a6f9362eb14746e3b2bb161aefbfe790ad43dd68c6846a7"
+    },
+    {
+      "id": "weekly-054",
+      "themeId": "temporal-mind_affecting",
+      "path": "features/images/weekly-054-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: temporal-mind_affecting. Create one coherent evocative scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. Integrate this secondary thematic clue naturally into the same scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-054; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2192984,
+      "sha256": "9863ff78eae1a1030db7bbd9b89742fe20d29bd2313da9dfafb46781befaf8a6"
+    },
+    {
+      "id": "weekly-055",
+      "themeId": "sentient-self_replicating",
+      "path": "features/images/weekly-055-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-self_replicating. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-055; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2109953,
+      "sha256": "f495c5fa14468de1a22a863f0e1972c646d6d56906eeb78f53005ebf43e1e59e"
+    },
+    {
+      "id": "weekly-056",
+      "themeId": "humanoid-artifact",
+      "path": "features/images/weekly-056-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-artifact. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-056; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2092219,
+      "sha256": "5143ec6d829bfdb29a5a093dad576e624bd09e196b01eaa584981d093a6eb89e"
+    },
+    {
+      "id": "weekly-057",
+      "themeId": "regenerative",
+      "path": "features/images/weekly-057-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: regenerative. Create one coherent evocative scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-057; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1905148,
+      "sha256": "0c4937243ca9883c1c3e302fe19a9e8248e137173aea82e5d168a6aec26f46b6"
+    },
+    {
+      "id": "weekly-058",
+      "themeId": "humanoid-plant",
+      "path": "features/images/weekly-058-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-plant. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: Unfamiliar leaves and pale roots quietly escaping an abandoned greenhouse specimen enclosure. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-058; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2377924,
+      "sha256": "7fa7bc0b53161b9ce68fa63031846549fd7751e449143a4f04e65323a45e681e"
+    },
+    {
+      "id": "weekly-059",
+      "themeId": "humanoid-temporal",
+      "path": "features/images/weekly-059-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-temporal. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-059; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2050873,
+      "sha256": "855dde4911ddb6bf960883017e6c33e9e30f12c926ad2152ecfdc5f8b3f391de"
+    },
+    {
+      "id": "weekly-060",
+      "themeId": "sentient-infectious",
+      "path": "features/images/weekly-060-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-infectious. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-060; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2031342,
+      "sha256": "7bf435932f90a1003b5dd6a946237c611bfff09c3ba663b36b1370057ee4ff78"
+    },
+    {
+      "id": "weekly-061",
+      "themeId": "self_replicating",
+      "path": "features/images/weekly-061-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: self_replicating. Create one coherent evocative scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-061; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2104602,
+      "sha256": "ad1263087d24e77b52629bebf5ec4fbfc383b275de6a2969aeafac6c3d91db1b"
+    },
+    {
+      "id": "weekly-062",
+      "themeId": "temporal-biological",
+      "path": "features/images/weekly-062-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: temporal-biological. Create one coherent evocative scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-062; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1893505,
+      "sha256": "5e19afcdaf56e939766ae226199d176f803ff705367e7c9373b3dfb4755b8d93"
+    },
+    {
+      "id": "weekly-063",
+      "themeId": "sentient-temporal",
+      "path": "features/images/weekly-063-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-temporal. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-063; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2076071,
+      "sha256": "54a6d33525a03307592344fbb4731d5ee960ee76c9a134c722364ed473084d81"
+    },
+    {
+      "id": "weekly-064",
+      "themeId": "artifact-euclid",
+      "path": "features/images/weekly-064-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: artifact-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-064; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1970378,
+      "sha256": "3373a424cd4566fb09b6927bbbf4c80be4292f9f22808a7ff90eacdfc0a6451a"
+    },
+    {
+      "id": "weekly-065",
+      "themeId": "mechanical-biological",
+      "path": "features/images/weekly-065-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mechanical-biological. Create one coherent evocative scene: An unbranded dismantled mechanical device with unfamiliar gears and disconnected wiring on an institutional workbench. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-065; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2109181,
+      "sha256": "787b568e3cff5d42e77812a0d94a2797871bb9ef7a33645e94fe889ca70f9667"
+    },
+    {
+      "id": "weekly-066",
+      "themeId": "temporal-artifact",
+      "path": "features/images/weekly-066-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: temporal-artifact. Create one coherent evocative scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-066; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1992342,
+      "sha256": "4a2db69a9012b23d2d2d08e70b9979d574f846668e434c998dcf4c350924c9f8"
+    },
+    {
+      "id": "weekly-067",
+      "themeId": "biological-artifact",
+      "path": "features/images/weekly-067-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-artifact. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. Integrate this secondary thematic clue naturally into the same scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-067; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2106868,
+      "sha256": "011401b19fa4251bf207d369aa7f30635f35362c20ae402971a171b79af8077d"
+    },
+    {
+      "id": "weekly-068",
+      "themeId": "biological-infohazard",
+      "path": "features/images/weekly-068-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: biological-infohazard. Create one coherent evocative scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. Integrate this secondary thematic clue naturally into the same scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-068; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1956189,
+      "sha256": "d9a65729513d3fb626f151f0efbaad412a37da88f2719502e030e621fb78887b"
+    },
+    {
+      "id": "weekly-069",
+      "themeId": "artifact-self_replicating",
+      "path": "features/images/weekly-069-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: artifact-self_replicating. Create one coherent evocative scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. Integrate this secondary thematic clue naturally into the same scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-069; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1860409,
+      "sha256": "50144dbd7e0de77fd790bfdd66a501aa3050338b441deeee32caf0877ab38f5c"
+    },
+    {
+      "id": "weekly-070",
+      "themeId": "self_replicating-keter",
+      "path": "features/images/weekly-070-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: self_replicating-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-070; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1946123,
+      "sha256": "25dc5b8be129d6414d90e88aa0c8196a7fdfb1cb6bcdd559961dfabccf0a01ac"
+    },
+    {
+      "id": "weekly-071",
+      "themeId": "spatial-temporal",
+      "path": "features/images/weekly-071-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-temporal. Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. Integrate this secondary thematic clue naturally into the same scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-071; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2233652,
+      "sha256": "5558af1eadc698bbd6b4176e7dd1f1561c55ebc80734c0b8b46996d98fc1723d"
+    },
+    {
+      "id": "weekly-072",
+      "themeId": "mind_affecting-infectious",
+      "path": "features/images/weekly-072-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-infectious. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-072; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2091155,
+      "sha256": "336a7c09c0f667a1835fcbb1ad470f84c7a3d320fefb564e0325c1d90649bd28"
+    },
+    {
+      "id": "weekly-073",
+      "themeId": "liquid-biological",
+      "path": "features/images/weekly-073-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: liquid-biological. Create one coherent evocative scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-073; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2030867,
+      "sha256": "65b72ca82abcbbb777634c04d2756e208d9c19620db142d605590c417ff71647"
+    },
+    {
+      "id": "weekly-074",
+      "themeId": "mind_affecting-plant",
+      "path": "features/images/weekly-074-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-plant. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: Unfamiliar leaves and pale roots quietly escaping an abandoned greenhouse specimen enclosure. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-074; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2038340,
+      "sha256": "60f4ae04c4233fd1cd58c015e8ec2584c9286e115a0961d8c993ee497ad7b91f"
+    },
+    {
+      "id": "weekly-075",
+      "themeId": "reality_altering-biological",
+      "path": "features/images/weekly-075-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: reality_altering-biological. Create one coherent evocative scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-075; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1988515,
+      "sha256": "d0c1b184b69789562c120d0c54b7bb30b24e9e47383c4b29488614af8b541a65"
+    },
+    {
+      "id": "weekly-076",
+      "themeId": "humanoid-infohazard",
+      "path": "features/images/weekly-076-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-infohazard. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-076; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2098377,
+      "sha256": "717830af4c83f8480e302e0a99caea0e55893377672a176597cbed881ce706e8"
+    },
+    {
+      "id": "weekly-077",
+      "themeId": "humanoid-spatial",
+      "path": "features/images/weekly-077-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-spatial. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-077; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2093013,
+      "sha256": "3d5ca13af50c50aa20630310c8759f8789d3f510870af2c270a073903081f627"
+    },
+    {
+      "id": "weekly-078",
+      "themeId": "sentient-infohazard",
+      "path": "features/images/weekly-078-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-infohazard. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-078; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2029946,
+      "sha256": "b7746d74a1b576207ae4579c20b64193d3c8bd814d65f3b6319237168f40cc0b"
+    },
+    {
+      "id": "weekly-079",
+      "themeId": "humanoid-liquid",
+      "path": "features/images/weekly-079-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: humanoid-liquid. Create one coherent evocative scene: An anonymous human silhouette behind frosted observation glass, its reflected outline subtly different from its body. Integrate this secondary thematic clue naturally into the same scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-079; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2301798,
+      "sha256": "6b2ad5a3ab28903ebefd355ac4a710902f689854199f398726890e0e02950483"
+    },
+    {
+      "id": "weekly-080",
+      "themeId": "sentient-liquid",
+      "path": "features/images/weekly-080-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-liquid. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-080; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1926633,
+      "sha256": "f3ed2a9c4ee65d73cd1e363a392686b16c7a840703c27a5ad052c1890b29316e"
+    },
+    {
+      "id": "weekly-081",
+      "themeId": "plant-euclid",
+      "path": "features/images/weekly-081-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: plant-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: Unfamiliar leaves and pale roots quietly escaping an abandoned greenhouse specimen enclosure. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-081; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2209157,
+      "sha256": "c167ea5a6359ee502f0d8d0308fc5ffbce0be655fa189a86a1d166f0b32a7076"
+    },
+    {
+      "id": "weekly-082",
+      "themeId": "sentient-spatial",
+      "path": "features/images/weekly-082-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: sentient-spatial. Create one coherent evocative scene: An empty interview room with two chairs, one slightly turned toward an unseen observer, an old communication instrument resting on a table. Integrate this secondary thematic clue naturally into the same scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-082; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2059142,
+      "sha256": "49313ca82c6a15fb7450b5e571f7bcbec784e216710ab68cac32e380c8699b38"
+    },
+    {
+      "id": "weekly-083",
+      "themeId": "temporal-euclid",
+      "path": "features/images/weekly-083-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: temporal-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-083; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2148033,
+      "sha256": "3e8cd0251ef16383cc14f74c4e002fa190a4b2c38807fec6e08ac0bebd42e8dd"
+    },
+    {
+      "id": "weekly-084",
+      "themeId": "infectious-euclid",
+      "path": "features/images/weekly-084-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: infectious-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A deserted quarantine antechamber with gloves behind glass and branching traces spreading across a sealed partition. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-084; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2199561,
+      "sha256": "2f463b1d4642b11d894a589f03e8ce102f137541e210b8b3c4fba0bfffae4b4a"
+    },
+    {
+      "id": "weekly-085",
+      "themeId": "spatial-euclid",
+      "path": "features/images/weekly-085-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-085; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2149473,
+      "sha256": "4fbdd345178b03949fa96f6e49cd1ccd7718ebe5902858d66819ab15c5a42751"
+    },
+    {
+      "id": "weekly-086",
+      "themeId": "mind_affecting-liquid",
+      "path": "features/images/weekly-086-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-liquid. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-086; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2019033,
+      "sha256": "eb98d0f2bb1de793ac320320eb5759dcb202ad1038e5e9fbbcecc2df8c21704a"
+    },
+    {
+      "id": "weekly-087",
+      "themeId": "mind_affecting-reality_altering",
+      "path": "features/images/weekly-087-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-reality_altering. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-087; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2092682,
+      "sha256": "73678b77d5cdc21c2df07928a0b4b2647055443d3f2fbcfc191366da8686abd3"
+    },
+    {
+      "id": "weekly-088",
+      "themeId": "mechanical-euclid",
+      "path": "features/images/weekly-088-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mechanical-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: An unbranded dismantled mechanical device with unfamiliar gears and disconnected wiring on an institutional workbench. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-088; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2151429,
+      "sha256": "837c755f34ee7ee2eda2af9680491230c2e1c0cde391515b2a5e260a08e92d53"
+    },
+    {
+      "id": "weekly-089",
+      "themeId": "infohazard-keter",
+      "path": "features/images/weekly-089-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: infohazard-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-089; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1979630,
+      "sha256": "796379c8d1e71ea89b0e290b963edd098233cfbc123cf5aa9730858e9b35a3d0"
+    },
+    {
+      "id": "weekly-090",
+      "themeId": "spatial-keter",
+      "path": "features/images/weekly-090-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-090; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2157044,
+      "sha256": "3e16dd32a7148d3dc8a482cdc24908d26f299bfe79cd0199271cd2841c887bc3"
+    },
+    {
+      "id": "weekly-091",
+      "themeId": "artifact-keter",
+      "path": "features/images/weekly-091-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: artifact-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A sealed evidence cabinet holding ordinary unbranded objects whose arrangement and reflections feel subtly wrong. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-091; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2044010,
+      "sha256": "6b867d999ea1a09f524e5b1821a33426691060554fffbce93430c806bee4f9a9"
+    },
+    {
+      "id": "weekly-092",
+      "themeId": "spatial-reality_altering",
+      "path": "features/images/weekly-092-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-reality_altering. Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. Integrate this secondary thematic clue naturally into the same scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-092; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1974063,
+      "sha256": "c2ee739902001d87764def499679abe8fdde4a405d0ec2f39d316752b100b7d7"
+    },
+    {
+      "id": "weekly-093",
+      "themeId": "liquid-euclid",
+      "path": "features/images/weekly-093-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: liquid-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: Unmarked glass vessels containing dark liquid with an unnaturally level surface and a displaced reflection. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-093; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1819247,
+      "sha256": "e686e0aaefce9f05eb2769b854b79f07376e3827fc96e18e90647854a4ef63b8"
+    },
+    {
+      "id": "weekly-094",
+      "themeId": "spatial-mind_affecting",
+      "path": "features/images/weekly-094-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-mind_affecting. Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. Integrate this secondary thematic clue naturally into the same scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-094; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2157506,
+      "sha256": "c1ba70276b597c264d7a2200df90fa04bd76c0f4a03700281f13709f33401a5f"
+    },
+    {
+      "id": "weekly-095",
+      "themeId": "self_replicating-euclid",
+      "path": "features/images/weekly-095-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: self_replicating-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: Identical unmarked small geometric objects appearing in an impossible growing sequence across a laboratory table. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-095; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2052612,
+      "sha256": "1eca36723ba07a75048b37c204477fb98391d6509739df87f20e553a76d09dad"
+    },
+    {
+      "id": "weekly-096",
+      "themeId": "reality_altering-keter",
+      "path": "features/images/weekly-096-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: reality_altering-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A concrete laboratory where the same ordinary object appears in slightly incompatible physical states across glass reflections. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-096; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2020523,
+      "sha256": "d34d3b5e8c13dba35756ae8f2691c3fa1e49a08a32f15ae7b55579ae408c35b0"
+    },
+    {
+      "id": "weekly-097",
+      "themeId": "hostile-euclid",
+      "path": "features/images/weekly-097-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: hostile-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-097; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1999845,
+      "sha256": "f79619e2d557cc683f9908c64b0065b107f903745a579f446800e9cb7dfa69de"
+    },
+    {
+      "id": "weekly-098",
+      "themeId": "regenerative-keter",
+      "path": "features/images/weekly-098-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: regenerative-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-098; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1947012,
+      "sha256": "354e892601eeb8406c70c07dc15964bbda03d7a29299deab85bbd9d98b05beb5"
+    },
+    {
+      "id": "weekly-099",
+      "themeId": "temporal-keter",
+      "path": "features/images/weekly-099-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: temporal-keter, containment classification Keter (containment difficulty, not a danger ranking). Create one coherent evocative scene: A deserted clock repair room with unnumbered analog clock faces, their hands pointing to inconsistent moments. viewed from an adjoining dark observation room. faded burgundy and slate. This is image weekly-099; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1932417,
+      "sha256": "ec3a8593debaa7c84201686081fe2917eb32e54d9b11081d2cbd9235ffc0c1f2"
+    },
+    {
+      "id": "weekly-100",
+      "themeId": "mind_affecting-mechanical",
+      "path": "features/images/weekly-100-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: mind_affecting-mechanical. Create one coherent evocative scene: A vacant psychological observation room, translucent glass layers producing subtly contradictory shadows. Integrate this secondary thematic clue naturally into the same scene: An unbranded dismantled mechanical device with unfamiliar gears and disconnected wiring on an institutional workbench. lit by one low overhead fluorescent fixture. cold blue-grey and dim warm white. This is image weekly-100; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2153112,
+      "sha256": "640938fe43d1f73fe023c2c2d9f73b5e1dac2c7be1225e5c6adb589e1930ad81"
+    },
+    {
+      "id": "weekly-101",
+      "themeId": "hostile-regenerative",
+      "path": "features/images/weekly-101-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: hostile-regenerative. Create one coherent evocative scene: A heavy empty containment doorway with fresh pressure marks and a warped metal threshold, suggesting an unseen presence. Integrate this secondary thematic clue naturally into the same scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. arranged in an abandoned archival examination bay. desaturated ochre and deep green. This is image weekly-101; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2132699,
+      "sha256": "2b6949d3133e50f2ea0798f724a57199647fdc9bd26aafaab9efa1b21d451dee"
+    },
+    {
+      "id": "weekly-102",
+      "themeId": "spatial-biological",
+      "path": "features/images/weekly-102-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: spatial-biological. Create one coherent evocative scene: An impossible interior corridor with repeating doors and landings that extend farther than the building should allow. Integrate this secondary thematic clue naturally into the same scene: A dim specimen examination room containing sealed translucent vessels and ambiguous nonhuman organic forms. viewed along an asymmetrical institutional doorway. silver grey and restrained rust. This is image weekly-102; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2150277,
+      "sha256": "00b9a72604f06c8a01f02270bd845a9474bdc5504205095d089f1f72d7eff0fe"
+    },
+    {
+      "id": "weekly-103",
+      "themeId": "infohazard-euclid",
+      "path": "features/images/weekly-103-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: infohazard-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: Closed archival folders and a covered optical viewing device, with no readable writing, arranged behind smoked glass. seen obliquely through thick observation glass. muted teal and amber. This is image weekly-103; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1909725,
+      "sha256": "222a4f58be3f2550b3d0ae4ffe2b97f0dd761a2ebaa0103046a21ebf568a1d3e"
+    },
+    {
+      "id": "weekly-104",
+      "themeId": "regenerative-euclid",
+      "path": "features/images/weekly-104-v1.png",
+      "prompt": "Use case: stylized-concept. Final original editorial cover for an SCP reading app. Theme: regenerative-euclid, containment classification Euclid (containment difficulty, not a danger ranking). Create one coherent evocative scene: A broken unmarked ceramic specimen with fine fragments apparently rejoining into a subtly imperfect whole inside a containment display. partially obscured by an out-of-focus metal partition. dusty olive and charcoal. This is image weekly-104; create an individual composition, not a collage or a copy of another cover. A quiet, unsettling, photographic institutional archive atmosphere, tactile concrete, glass and brushed metal, subtle analog grain. Extremely wide horizontal banner, intended final display 4:1; request 2048x512 pixels. Place the main visual interest in the right two thirds, keep the left third dark and simple for a white Japanese title added by the app. Essential clues must remain readable in a shallow horizontal center band at 360x90 logical pixels. No readable text, numbers, symbols, SCP logo, labels, watermark, UI, border, gore or explicit violence. A thematic fictional illustration, never a literal evidence photograph of a specific named SCP.",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1831739,
+      "sha256": "210cae14a0a04f20e7fee2421b77e3a771234f2829e088a326a1cbd08c42884c"
+    }
+  ]
+}

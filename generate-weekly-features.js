@@ -3,6 +3,7 @@ const fs = require('node:fs'), path = require('node:path'), crypto = require('no
 const { LANGUAGES } = require('./languages');
 const sites = require('./additional-sites.json');
 const dictionary = require('./tag-dictionary.json').tags;
+const FEATURE_WEEKS = 104;
 const KEYS = ['humanoid','sentient','spatial','temporal','mind_affecting','reality_altering','mechanical','plant','liquid','biological','artifact','hostile','infectious','infohazard','regenerative','self_replicating'];
 const EXTRA = { biological:['生物学','生命','生物'], artifact:['物品','人工','道具'], hostile:['敵対的','敵対性'], regenerative:['再生','自己修復'] };
 const LOCALES = {jp:'ja',cn:'zh','zh-tr':'zh-Hant',ua:'uk',vn:'vi',int:'en',...Object.fromEntries(Object.entries(sites).map(([code,site])=>[code,site.uiLocale]))};
@@ -63,11 +64,43 @@ function groups(row) {
 }
 function excerpt(row) {
  const text=(row.descriptionExcerpt||'').replace(/<[^>]*>/g,' ').replace(/https?:\/\/\S+/g,'').replace(/\s+/g,' ').trim();
- const sentences=text.split(/(?<=[。！？.!?])\s*|\n/u).map(s=>s.trim()).filter(s=>s.length>=18);
+ const sentences=text.split(/(?<=[。！？])\s*|(?<=[.!?])\s+(?=\p{L})|\n/u).map(s=>s.trim()).filter(s=>s.length>20&&s.replace(/\[[^\]]*\]|[●|█:]/g,'').trim().length>20);
  const first=sentences.find(s=>!/^\s*(?:特別収容|収容手順|クレジット|著作|copyright|license|special containment|процедур)/iu.test(s));
- if(!first || /(?:javascript|window\.|cookie|captcha|access denied|Cloudflare|Verify you are human)/iu.test(first))return null;
+ if(!first || /(?:javascript|window\.|cookie|captcha|access denied|Cloudflare|Verify you are human|John Doe ログイン|プログラム起動中|ログイン.*データベースへのアクセス|アイテムばんごう|とじこめかた)/iu.test(first))return null;
  return [...first].slice(0,120).join('')+([...first].length>120?'…':'');
 }
+const themeSignals={
+ humanoid:/人間|人型|人の|人類|男性|女性|human|humanoid|person/iu,
+ sentient:/知性|知能|意識|会話|意思|思考|自我|目的|望ん|コミュニケーション|intelligen|sentien|conscious|communicat/iu,
+ spatial:/空間|内部|部屋|扉|空洞|距離|寸法|広さ|階段|space|spatial|interior|room|door/iu,
+ temporal:/時間|時刻|未来|過去|年代|経過|年齢|time|temporal|future|past/iu,
+ mind_affecting:/精神|感情|記憶|認識|衝動|欲望|心理|気分|心|memory|mental|mind|desire|emotion/iu,
+ reality_altering:/現実|改変|法則|変化|変容|reality|alter|transform/iu,
+ mechanical:/機械|装置|回路|部品|動作|電気|歯車|機構|machine|mechanic|device|motor/iu,
+ plant:/植物|花|木|葉|根|種子|樹|成長|plant|tree|flower|seed/iu,
+ liquid:/液体|溶液|流体|液状|水|液|liquid|fluid|water/iu,
+ biological:/生物|生命|動物|細胞|体内|組織|繁殖|生態|biolog|organism|animal|living/iu,
+ artifact:/物品|道具|装置|製造|作られ|使用|利用|object|artifact|artefact|device|use/iu,
+ hostile:/敵対|敵意|攻撃|捕食|殺害|憎悪|襲|hostil|attack|aggress/iu,
+ infectious:/感染|伝染|伝播|拡散|接触|広が|infect|contagio|transmi|spread/iu,
+ infohazard:/情報|知識|認識|知る|閲覧|読|見た|見る|理解|info|knowledge|read|view|cognit/iu,
+ regenerative:/再生|回復|治癒|修復|復元|傷|破壊|regenerat|heal|repair|recover/iu,
+ self_replicating:/自己複製|複製|増殖|繁殖|増加|増え|産卵|replicat|reproduc|multiply/iu
+};
+function featureExcerpt(row,theme){
+ const text=(row.descriptionExcerpt||'').replace(/<[^>]*>/g,' ').replace(/https?:\/\/\S+/g,'');
+ const sentences=text.split(/(?<=[。！？])\s*|(?<=[.!?])\s+(?=\p{L})|\n+/u).map(s=>s.replace(/\s+/g,' ').trim()).filter(s=>s.length>20&&s.length<=300&&/[。！？.!?]$/.test(s)&&!/(?:特別収容|補遺.*参照|クレジット|copyright|license|javascript|ログイン|セキュリティクリアランス|データベースへのアクセス|以下の(?:通り|とおり|よう)|下記|as follows)/iu.test(s));
+ if(!sentences.length)return excerpt(row);
+ const scored=sentences.map((text,index)=>({text,index,score:theme.keys.reduce((n,key)=>n+(themeSignals[key].test(text)?3:0),0)+(/異常|効果|能力|変化|しかし|一方|anomal|effect|ability/iu.test(text)?2:0)+(index>0?1:0)-(text.length>170?2:0)}));
+ scored.sort((a,b)=>b.score-a.score||a.index-b.index);
+ const chosen=scored[0];
+ // Retain a short identifying sentence when the thematic sentence otherwise
+ // starts halfway through a description. Never invent an article's behavior.
+ const limit=/[ぁ-んァ-ヶ\u3400-\u9fff]/u.test(text)?120:220;
+ const lead=sentences[0],joined=chosen.index>0&&lead.length+chosen.text.length<=limit?lead+chosen.text:chosen.text;
+ return [...joined].length>limit?[...joined].slice(0,limit-1).join('')+'…':joined;
+}
+function usableImage(row){return Boolean(row.imageUrl)&&!/(?:scp-blank|classified|component|favicon|\{\$|logo\.|\/waku\.png|\/header|\/banner|\.svg(?:[?#]|$))/iu.test(row.imageUrl);}
 function loadCatalogs(root) {
  const catalogs=Object.fromEntries(Object.keys(LANGUAGES).map(code=>{
   const file=path.join(root,code,'scp-data.json');
@@ -90,15 +123,16 @@ function createPlan(catalogs, start='2026-11-11T10:00:00.000Z') {
  // Interleave broad topics and narrower combinations rather than grouping a year's themes by one tag.
  const singles=valid.filter(t=>t.keys.length===1&&!t.objectClass), rest=valid.filter(t=>t.keys.length>1||t.objectClass);
  rest.sort((a,b)=>b.coverage-a.coverage||hash(a.id).localeCompare(hash(b.id)));
- const ordered=[];while(ordered.length<156&&(singles.length||rest.length)){if(ordered.length%4===0&&singles.length)ordered.push(singles.shift());else if(rest.length)ordered.push(rest.shift());else ordered.push(singles.shift());}
- if(ordered.length!==156)throw Error('Insufficient distinct supported themes');
+ const ordered=[];while(ordered.length<FEATURE_WEEKS&&(singles.length||rest.length)){if(ordered.length%4===0&&singles.length)ordered.push(singles.shift());else if(rest.length)ordered.push(rest.shift());else ordered.push(singles.shift());}
+ if(ordered.length!==FEATURE_WEEKS)throw Error('Insufficient distinct supported themes');
  return ordered.map((theme,i)=>({id:`weekly-${String(i+1).padStart(3,'0')}`,themeId:theme.id,keys:theme.keys,...(theme.objectClass?{objectClass:theme.objectClass}:{}),publishedAt:new Date(Date.parse(start)+i*7*86400000).toISOString()}));
 }
 function hash(value){return crypto.createHash('sha256').update(value).digest('hex');}
 function matches(row,theme){return theme.keys.every(key=>row.groups.has(key))&&(!theme.objectClass||String(row.objectClass).toLowerCase()===theme.objectClass.toLowerCase());}
 function generate(root,output,{start,plan:fixedPlan}={}) {
  const scheduleFile=path.join(output,'schedule.json');
- const catalogs=loadCatalogs(root),plan=fixedPlan||(!start&&fs.existsSync(scheduleFile)?JSON.parse(fs.readFileSync(scheduleFile)).weeks:createPlan(catalogs,start)),report={};fs.mkdirSync(output,{recursive:true});
+ const catalogs=loadCatalogs(root),plan=(fixedPlan||(!start&&fs.existsSync(scheduleFile)?JSON.parse(fs.readFileSync(scheduleFile)).weeks:createPlan(catalogs,start))).slice(0,FEATURE_WEEKS),report={};fs.mkdirSync(output,{recursive:true});
+ const japaneseEditorial=JSON.parse(fs.readFileSync(path.join(output,'theme-editorial-ja.json')));
  fs.writeFileSync(path.join(output,'schedule.json'),JSON.stringify({schemaVersion:1,timeZone:'Asia/Tokyo',updateDay:'Wednesday',updateHour:19,weeks:plan},null,2)+'\n');
  for(const [language,rows]of Object.entries(catalogs)){
   const locale=LOCALES[language]||language,used=new Map(),features=[];
@@ -113,12 +147,15 @@ function generate(root,output,{start,plan:fixedPlan}={}) {
     continue;
    }
    const candidates=rows.filter(row=>matches(row,theme));if(candidates.length<5)continue;
-   candidates.sort((a,b)=>Number(Boolean(b.imageUrl))-Number(Boolean(a.imageUrl))||(used.get(a.itemId)||0)-(used.get(b.itemId)||0)||(b.rating||0)-(a.rating||0)||hash(theme.id+a.itemId).localeCompare(hash(theme.id+b.itemId)));
+   candidates.sort((a,b)=>Number(usableImage(b))-Number(usableImage(a))||(used.get(a.itemId)||0)-(used.get(b.itemId)||0)||(b.rating||0)-(a.rating||0)||hash(theme.id+a.itemId).localeCompare(hash(theme.id+b.itemId)));
    const picked=candidates.slice(0,8);if(picked.some(r=>r.itemId===undefined))throw Error('Missing identity');
    const focus=[...theme.keys.map(key=>label(key,locale)),...(theme.objectClass?[theme.objectClass]:[])].join(' × ');
-   const title=locale==='ja'?(theme.objectClass?`${theme.objectClass}に分類された${label(theme.keys[0],locale)}`:theme.keys.length===1?japaneseTitles[KEYS.indexOf(theme.keys[0])]:`「${focus}」の交差点`):focus;
-   const articles=picked.map(row=>{used.set(row.itemId,(used.get(row.itemId)||0)+1);return {itemId:row.itemId,title:row.titleJP,blurb:`${focus} — ${excerpt(row)}`,url:row.urlJP,...(row.imageUrl?{imageUrl:row.imageUrl}:{}),sourceTags:theme.keys};});
-   features.push({id:theme.id,themeId:theme.themeId,publishedAt:theme.publishedAt,title,introduction:(intros[locale]||intros.en).replace('{theme}',focus),articles});
+   const title=locale==='ja'?japaneseEditorial[theme.id]?.[0]||japaneseTitles[KEYS.indexOf(theme.keys[0])]:focus;
+   const introduction=locale==='ja'?japaneseEditorial[theme.id]?.[1]:(intros[locale]||intros.en).replace('{theme}',focus);
+   if(!title||!introduction)throw Error('Missing feature editorial '+theme.id);
+   const articles=picked.map(row=>{used.set(row.itemId,(used.get(row.itemId)||0)+1);return {itemId:row.itemId,title:row.titleJP,blurb:featureExcerpt(row,theme),url:row.urlJP,...(usableImage(row)?{imageUrl:row.imageUrl}:{}),sourceTags:theme.keys};});
+   const coverImage=theme.id==='weekly-001'?'features/images/humanoid-v1.png':theme.id==='weekly-002'?'features/images/spatial-v1.png':theme.id==='weekly-003'?'features/images/everyday-v1.png':`features/images/${theme.id}-v1.png`;
+   features.push({id:theme.id,themeId:theme.themeId,publishedAt:theme.publishedAt,title,introduction,coverImage,articles});
   }
   const dir=path.join(output,language);fs.mkdirSync(dir,{recursive:true});
   const catalog={schemaVersion:1,language,timeZone:'Asia/Tokyo',license:'CC BY-SA 3.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/3.0/',attribution:'Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.',features};
@@ -130,4 +167,4 @@ function generate(root,output,{start,plan:fixedPlan}={}) {
  fs.writeFileSync(path.join(output,'generation-report.json'),JSON.stringify(report,null,2)+'\n');return report;
 }
 if(require.main===module)console.log(JSON.stringify(generate(process.argv[2]||'local-data',process.argv[3]||'features'),null,2));
-module.exports={generate,matches,groups,excerpt,createPlan,loadCatalogs};
+module.exports={generate,matches,groups,excerpt,featureExcerpt,usableImage,createPlan,loadCatalogs,FEATURE_WEEKS};

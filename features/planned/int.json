@@ -12,12 +12,14 @@
       "publishedAt": "2026-11-11T10:00:00.000Z",
       "title": "Humanoid",
       "introduction": "Explore Humanoid: compare what these SCPs have in common and how their anomalies differ.",
+      "coverImage": "features/images/humanoid-v1.png",
       "articles": [
         {
           "itemId": "scp-series-int-075",
           "title": "The Grand Esoteric Cooking Tournament (WITH MECHAS)",
-          "blurb": "Humanoid — SCP-075-INT is a collection of massive, highly advanced robots and/or vehicles comprised of diverse anomalous technologi…",
+          "blurb": "SCP-075-INT is a collection of massive, highly advanced robots and/or vehicles comprised of diverse anomalous technologies and cooking utensils.",
           "url": "http://scp-int.wikidot.com/scp-075-int",
+          "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-075-int/robot.png",
           "sourceTags": [
             "humanoid"
           ]
@@ -25,8 +27,9 @@
         {
           "itemId": "scp-series-int-003",
           "title": "Wishful Chocolate",
-          "blurb": "Humanoid — SCP-003-INT is a package of filled chocolates.",
+          "blurb": "SCP-003-INT is a package of filled chocolates.Wondertainment's Wonderland chocolate bank of true sweetness™\" are written in cursive font on the package.",
           "url": "http://scp-int.wikidot.com/scp-003-int",
+          "imageUrl": "https://scp-int.wdfiles.com/local--files/scp-003-int/SCP-003-INT-P.jpg",
           "sourceTags": [
             "humanoid"
           ]
@@ -34,7 +37,7 @@
         {
           "itemId": "scp-series-int-021",
           "title": "The Courier",
-          "blurb": "Humanoid — Warning, unrecognised credentials.",
+          "blurb": "Warning, unrecognised credentials.Personal files being decoded… INTERNATIONAL SCP INTEL NETWORK Personal files and ongoing cases Welcome back, Director.",
           "url": "http://scp-int.wikidot.com/scp-021-int",
           "sourceTags": [
             "humanoid"
@@ -43,7 +46,7 @@
         {
           "itemId": "scp-series-int-012",
           "title": "Magical Catgirls",
-          "blurb": "Humanoid — SCP-012-INT designates a group of 6 human women of varied phenotypes.",
+          "blurb": "SCP-012-INT designates a group of 6 human women of varied phenotypes.",
           "url": "http://scp-int.wikidot.com/scp-012-int",
           "sourceTags": [
             "humanoid"
@@ -52,7 +55,7 @@
         {
           "itemId": "scp-series-int-013",
           "title": "Matté's Village",
-          "blurb": "Humanoid — SCP-013-INT is a village located in northern Italy, founded in 1765 by Giovanni Matté and his family.",
+          "blurb": "It is unknown whether the first inhabitants of the anomaly were aware of its anomalous properties, with little information existing about the beginnings of the village.",
           "url": "http://scp-int.wikidot.com/scp-013-int",
           "sourceTags": [
             "humanoid"
