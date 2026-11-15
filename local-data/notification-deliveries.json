@@ -2288,6 +2288,136 @@
       "startedAt": "2026-11-15T14:40:42.858Z",
       "messageName": "projects/scpjp-reader/messages/-3242601747886565194",
       "sentAt": "2026-11-15T14:40:48.076Z"
+    },
+    {
+      "id": "cn/2026-11-15",
+      "lang": "cn",
+      "window": "2026-11-15",
+      "items": [
+        {
+          "itemId": "scp-series-7638",
+          "titleJP": "Anubis."
+        },
+        {
+          "itemId": "scp-series-7866",
+          "titleJP": "故障处理"
+        },
+        {
+          "itemId": "scp-series-cn-3272",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4156",
+          "titleJP": "全部伦理学的基础"
+        },
+        {
+          "itemId": "scp-series-cn-4177",
+          "titleJP": "旧站点"
+        },
+        {
+          "itemId": "scp-series-cn-4191",
+          "titleJP": "语义紊乱"
+        },
+        {
+          "itemId": "scp-series-cn-4192",
+          "titleJP": "天上的街市"
+        },
+        {
+          "itemId": "scp-series-cn-4228",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4276",
+          "titleJP": "单向引导机器"
+        },
+        {
+          "itemId": "scp-series-cn-4279",
+          "titleJP": "\"逃逸档案\""
+        },
+        {
+          "itemId": "scp-series-cn-4352",
+          "titleJP": "绝无宽恕"
+        },
+        {
+          "itemId": "scp-series-cn-4380",
+          "titleJP": "非现实，非现实部，Alex Thorley"
+        },
+        {
+          "itemId": "scp-series-cn-4427",
+          "titleJP": "可塔西维得枪击案"
+        },
+        {
+          "itemId": "scp-series-cn-4534",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4574",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4655",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4661",
+          "titleJP": "稳定限制连接套装"
+        },
+        {
+          "itemId": "scp-series-cn-4672",
+          "titleJP": "听闻中的酒馆"
+        },
+        {
+          "itemId": "scp-series-cn-4683",
+          "titleJP": "养一只远古生物"
+        },
+        {
+          "itemId": "scp-series-cn-4737",
+          "titleJP": "饮鸩"
+        },
+        {
+          "itemId": "scp-series-cn-4740",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4741",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4742",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4743",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4805",
+          "titleJP": "超深源异常体"
+        },
+        {
+          "itemId": "scp-series-cn-4873",
+          "titleJP": "我自地狱归来"
+        },
+        {
+          "itemId": "scp-series-cn-4907",
+          "titleJP": "此地黯然无色"
+        },
+        {
+          "itemId": "scp-series-cn-4923",
+          "titleJP": "命定之殇轻舟已过"
+        },
+        {
+          "itemId": "scp-series-cn-4927",
+          "titleJP": "奶奶的电梯"
+        },
+        {
+          "itemId": "scp-series-cn-4948",
+          "titleJP": "却尘犀角"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-15T14:40:42.858Z"
     }
   ]
 }
