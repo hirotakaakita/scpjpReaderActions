@@ -92,16 +92,12 @@ function fixture(t){
  const read=()=>JSON.parse(fs.readFileSync(queuePath));return {dir,first,next,queuePath,ledgerPath,read};
 }
 
-test('three reviewed editions are available through explicit previews without early publication',()=>{
+test('the live feed has no test previews and retains the two-year publication plan',()=>{
  const feed=JSON.parse(fs.readFileSync(path.join(root,'features/jp/index.json')));
- assert.equal(feed.previewFeatures.length,2);
- assert.equal(new Set(feed.previewFeatures.map(f=>f.id)).size,2);
- for(const feature of feed.previewFeatures){
-  assert.deepEqual(feature,JSON.parse(fs.readFileSync(path.join(root,'features/editorial/jp',feature.id+'.json'))));
-  assert(feature.articles.every(a=>a.imageUrl&&a.blurb.length>25));
-  const png=fs.readFileSync(path.join(root,feature.coverImage));
-  assert(png.readUInt32BE(16)/png.readUInt32BE(20)>=3);
- }
+ const planned=JSON.parse(fs.readFileSync(path.join(root,'features/planned/jp.json')));
+ assert.equal((feed.previewFeatures||[]).length,0);
+ assert.equal(planned.features.length,104);
+ for(const id of ['weekly-002','weekly-003'])assert(planned.features.some(f=>f.id===id));
  assert.equal(selectFeature(feed,new Date('2026-11-15T10:00:00Z')).id,'weekly-001');
 });
 
