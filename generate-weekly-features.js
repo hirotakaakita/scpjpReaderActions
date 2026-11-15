@@ -102,12 +102,19 @@ function generate(root,output,{start,plan:fixedPlan}={}) {
  for(const [language,rows]of Object.entries(catalogs)){
   const locale=LOCALES[language]||language,used=new Map(),features=[];
   for(const theme of plan){
+   const editorialFile=path.join(output,'editorial',language,theme.id+'.json');
+   if(fs.existsSync(editorialFile)){
+    const feature=JSON.parse(fs.readFileSync(editorialFile));
+    if(feature.themeId!==theme.themeId||feature.publishedAt!==theme.publishedAt||feature.articles.length<5||feature.articles.length>10||feature.articles.some(a=>!rows.some(r=>r.itemId===a.itemId&&matches(r,theme))))throw Error('Invalid editorial override '+language+'/'+theme.id);
+    features.push(feature);for(const article of feature.articles)used.set(article.itemId,(used.get(article.itemId)||0)+1);
+    continue;
+   }
    const candidates=rows.filter(row=>matches(row,theme));if(candidates.length<5)continue;
-   candidates.sort((a,b)=>(used.get(a.itemId)||0)-(used.get(b.itemId)||0)||(b.rating||0)-(a.rating||0)||hash(theme.id+a.itemId).localeCompare(hash(theme.id+b.itemId)));
+   candidates.sort((a,b)=>Number(Boolean(b.imageUrl))-Number(Boolean(a.imageUrl))||(used.get(a.itemId)||0)-(used.get(b.itemId)||0)||(b.rating||0)-(a.rating||0)||hash(theme.id+a.itemId).localeCompare(hash(theme.id+b.itemId)));
    const picked=candidates.slice(0,8);if(picked.some(r=>r.itemId===undefined))throw Error('Missing identity');
    const focus=[...theme.keys.map(key=>label(key,locale)),...(theme.objectClass?[theme.objectClass]:[])].join(' × ');
    const title=locale==='ja'?(theme.objectClass?`${theme.objectClass}に分類された${label(theme.keys[0],locale)}`:theme.keys.length===1?japaneseTitles[KEYS.indexOf(theme.keys[0])]:`「${focus}」の交差点`):focus;
-   const articles=picked.map(row=>{used.set(row.itemId,(used.get(row.itemId)||0)+1);return {itemId:row.itemId,title:row.titleJP,blurb:`${focus} — ${excerpt(row)}`,url:row.urlJP,sourceTags:theme.keys};});
+   const articles=picked.map(row=>{used.set(row.itemId,(used.get(row.itemId)||0)+1);return {itemId:row.itemId,title:row.titleJP,blurb:`${focus} — ${excerpt(row)}`,url:row.urlJP,...(row.imageUrl?{imageUrl:row.imageUrl}:{}),sourceTags:theme.keys};});
    features.push({id:theme.id,themeId:theme.themeId,publishedAt:theme.publishedAt,title,introduction:(intros[locale]||intros.en).replace('{theme}',focus),articles});
   }
   const dir=path.join(output,language);fs.mkdirSync(dir,{recursive:true});

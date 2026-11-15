@@ -6,6 +6,20 @@ const {publish,selectFeature}=require('../publish-weekly-features');
 const {sendFeatures,featureWindow}=require('../send-feature-notifications');
 const root=path.resolve(__dirname,'..');
 
+test('the reviewed humanoid prototype contains six illustrated articles and keeps notification state unchanged',()=>{
+ const editorial=JSON.parse(fs.readFileSync(path.join(root,'features/editorial/jp/weekly-001.json')));
+ const feed=JSON.parse(fs.readFileSync(path.join(root,'features/jp/index.json')));
+ const planned=JSON.parse(fs.readFileSync(path.join(root,'features/planned/jp.json')));
+ assert.equal(editorial.articles.length,6);
+ assert(editorial.articles.every(a=>a.imageUrl&&a.blurb.length>=25&&!a.blurb.startsWith('人間型 —')));
+ assert.equal(editorial.coverImage,'features/images/humanoid-v1.png');
+ assert.deepEqual(feed.features.find(f=>f.id===editorial.id),editorial);
+ assert.deepEqual(planned.features.find(f=>f.id===editorial.id),editorial);
+ const png=fs.readFileSync(path.join(root,editorial.coverImage));
+ assert.equal(png.readUInt32BE(16)/png.readUInt32BE(20),2);
+ assert(editorial.articles.find(a=>a.itemId==='scp-series-jp-1374').blurb.includes('顔'));
+});
+
 test('156 common Wednesday themes have valid 5–10 article language editions with source-backed introductions',{skip:process.env.FEATURE_PUBLICATION_RUN==='1'},()=>{
  const schedule=JSON.parse(fs.readFileSync(path.join(root,'features/schedule.json')));
  const catalogs=loadCatalogs(path.join(root,'local-data'));

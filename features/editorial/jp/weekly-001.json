@@ -1,0 +1,72 @@
+{
+  "id": "weekly-001",
+  "themeId": "humanoid",
+  "publishedAt": "2026-11-11T10:00:00.000Z",
+  "title": "人間に似たものたち",
+  "introduction": "話しかければ返事がある。笑い、食べ、誰かと暮らしている。けれど、その顔や体、何気ない仕草をよく見ると——。人間との小さな違いから読み始める、6つの報告書。",
+  "coverImage": "features/images/humanoid-v1.png",
+  "editorialVersion": 2,
+  "articles": [
+    {
+      "itemId": "scp-series-jp-650",
+      "title": "人でなし、でく人形",
+      "blurb": "会話も動作も、普通の男性と変わらない。けれど、その体からは生命反応が見つからない。",
+      "url": "http://scp-jp.wikidot.com/scp-650-jp",
+      "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-650-jp/SCP-650-JP.jpg",
+      "sourceTags": [
+        "humanoid"
+      ]
+    },
+    {
+      "itemId": "scp-series-105",
+      "title": "\"アイリス\"",
+      "blurb": "見た目は、ごく普通の少女。ただ、写真に触れるその指先は、写っている場所のものまで動かしてしまう。",
+      "url": "http://scp-jp.wikidot.com/scp-105",
+      "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-105/2014-07-18%2022.41.47-new.jpg",
+      "sourceTags": [
+        "humanoid"
+      ]
+    },
+    {
+      "itemId": "scp-series-049",
+      "title": "ペスト医師",
+      "blurb": "仮面とローブをまとった、礼儀正しい医師。その服装は、着ているものではないらしい。",
+      "url": "http://scp-jp.wikidot.com/scp-049",
+      "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:2278897-36-9hq5/049xray.jpg",
+      "sourceTags": [
+        "humanoid"
+      ]
+    },
+    {
+      "itemId": "scp-series-085",
+      "title": "手描きの\"キャシー\"",
+      "blurb": "着替えを楽しみ、絵の中の車で出かける女性。でも、彼女がこちら側へ歩いてくることはない。",
+      "url": "http://scp-jp.wikidot.com/scp-085",
+      "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-085/scp085-03.png",
+      "sourceTags": [
+        "humanoid"
+      ]
+    },
+    {
+      "itemId": "scp-series-jp-1374",
+      "title": "大団円",
+      "blurb": "楽しそうに笑う人々。近づいてみると、その顔には人間にあるはずのものが足りない。",
+      "url": "http://scp-jp.wikidot.com/scp-1374-jp",
+      "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:2859452-7-87nu/Independent.jpg",
+      "imageSourceUrl": "https://scp-jp.wikidot.com/scp-1374-jp",
+      "sourceTags": [
+        "humanoid"
+      ]
+    },
+    {
+      "itemId": "scp-series-082",
+      "title": "食人鬼フェルナンド",
+      "blurb": "気さくに食事へ誘ってくる、歌好きの大男。ただし、その食卓で「客」でいられるとは限らない。",
+      "url": "http://scp-jp.wikidot.com/scp-082",
+      "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:2375337-1610-jpwd/SCP-082-new.png",
+      "sourceTags": [
+        "humanoid"
+      ]
+    }
+  ]
+}

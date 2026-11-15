@@ -11,22 +11,46 @@
       "themeId": "humanoid",
       "publishedAt": "2026-11-11T10:00:00.000Z",
       "title": "人間に似たものたち",
-      "introduction": "「人間型」を手がかりに、異常の共通点と違いを読み比べる特集です。",
+      "introduction": "話しかければ返事がある。笑い、食べ、誰かと暮らしている。けれど、その顔や体、何気ない仕草をよく見ると——。人間との小さな違いから読み始める、6つの報告書。",
+      "coverImage": "features/images/humanoid-v1.png",
+      "editorialVersion": 2,
       "articles": [
         {
           "itemId": "scp-series-jp-650",
           "title": "人でなし、でく人形",
-          "blurb": "人間型 — SCP-650-JPは、観測される上では通常の人間と同様に会話・動作・意思疎通が可能な、身長176cm、体重69kgの成人男性の姿をした一体の肉体です。",
+          "blurb": "会話も動作も、普通の男性と変わらない。けれど、その体からは生命反応が見つからない。",
           "url": "http://scp-jp.wikidot.com/scp-650-jp",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-650-jp/SCP-650-JP.jpg",
           "sourceTags": [
             "humanoid"
           ]
         },
         {
-          "itemId": "scp-series-jp-1970",
-          "title": "13",
-          "blurb": "人間型 — SCP-1970-JPは宇宙空間上に出現するアポロ13号の月着陸船\"アクエリアス\"の複製 (SCP-1970-JP-D-1に指定) と、それに乗船している3名の人型実体 (SCP-1970-JP-A～-Cに指定) の総称です。",
-          "url": "http://scp-jp.wikidot.com/scp-1970-jp",
+          "itemId": "scp-series-105",
+          "title": "\"アイリス\"",
+          "blurb": "見た目は、ごく普通の少女。ただ、写真に触れるその指先は、写っている場所のものまで動かしてしまう。",
+          "url": "http://scp-jp.wikidot.com/scp-105",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-105/2014-07-18%2022.41.47-new.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "ペスト医師",
+          "blurb": "仮面とローブをまとった、礼儀正しい医師。その服装は、着ているものではないらしい。",
+          "url": "http://scp-jp.wikidot.com/scp-049",
+          "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:2278897-36-9hq5/049xray.jpg",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-085",
+          "title": "手描きの\"キャシー\"",
+          "blurb": "着替えを楽しみ、絵の中の車で出かける女性。でも、彼女がこちら側へ歩いてくることはない。",
+          "url": "http://scp-jp.wikidot.com/scp-085",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-085/scp085-03.png",
           "sourceTags": [
             "humanoid"
           ]
@@ -34,53 +58,20 @@
         {
           "itemId": "scp-series-jp-1374",
           "title": "大団円",
-          "blurb": "人間型 — SCP-1374-JPは異常な精神汚染能力を持つ情報です。",
+          "blurb": "楽しそうに笑う人々。近づいてみると、その顔には人間にあるはずのものが足りない。",
           "url": "http://scp-jp.wikidot.com/scp-1374-jp",
+          "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:2859452-7-87nu/Independent.jpg",
+          "imageSourceUrl": "https://scp-jp.wikidot.com/scp-1374-jp",
           "sourceTags": [
             "humanoid"
           ]
         },
         {
-          "itemId": "scp-series-jp-4000",
-          "title": "忌名",
-          "blurb": "人間型 — SCP-4000-JPは、\"管理者(The Administrator)\"として知られる称号に紐づく意識体です。",
-          "url": "http://scp-jp.wikidot.com/scp-4000-jp",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-jp-374",
-          "title": "秘密結社キャッチ&リリース",
-          "blurb": "人間型 — SCP-374-JPはサイト-81██内で一ヶ月毎に発生する財団職員誘拐事件です。",
-          "url": "http://scp-jp.wikidot.com/scp-374-jp",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-jp-1134",
-          "title": "爆転ニギリ スシブレード",
-          "blurb": "人間型 — SCP-1134-JPは50代の日本人男性のような外見的特徴を持つ人型実体です。",
-          "url": "http://scp-jp.wikidot.com/scp-1134-jp",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-1983",
-          "title": "先の無い扉",
-          "blurb": "人間型 — SCP-1983-1はワイオミング州███████郡にある平屋の農家です。",
-          "url": "http://scp-jp.wikidot.com/scp-1983",
-          "sourceTags": [
-            "humanoid"
-          ]
-        },
-        {
-          "itemId": "scp-series-jp-646",
-          "title": "過去改変協力者",
-          "blurb": "人間型 — SCP-646-JPは██████社によって運営されていた19██年製のデジタル公衆電話です。",
-          "url": "http://scp-jp.wikidot.com/scp-646-jp",
+          "itemId": "scp-series-082",
+          "title": "食人鬼フェルナンド",
+          "blurb": "気さくに食事へ誘ってくる、歌好きの大男。ただし、その食卓で「客」でいられるとは限らない。",
+          "url": "http://scp-jp.wikidot.com/scp-082",
+          "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:2375337-1610-jpwd/SCP-082-new.png",
           "sourceTags": [
             "humanoid"
           ]
