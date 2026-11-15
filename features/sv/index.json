@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Människoliknande",
+      "introduction": "Utforska temat Människoliknande och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Människoliknande — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Den Hängda Kungens Tragedi",
+          "blurb": "Människoliknande — SCP-701 är ett teatermanuskript med titeln Tragedin om den Hängde Kungen.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-701",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Skuggperson",
+          "blurb": "Människoliknande — SCP-017 är en humanoid varelse cirkar 80 cm hög, som anomatomiskt liknar ett litet barn, men utan märkbara identifierand…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-990",
+          "title": "Drömmannen",
+          "blurb": "Människoliknande — SCP-990 är generellt en man klädd i en kostym från Kalla Kriget som visar sig för stiftelsepersonal genom drömmar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-990",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-178",
+          "title": "\"3-D\" Specs",
+          "blurb": "Människoliknande — SCP-178 är ett par vita stereoskopiska (\"3-D\") glasögon med en rektangulär vit kartongram och linser av transparent blå …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-178",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-913",
+          "title": "Herr Hungrig",
+          "blurb": "Människoliknande — SCP-913 verkar vara en medelålders afroamerikansk man med en extremt snabb ämnesomsättning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-913",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Den \"Blyga Killen\"",
+          "blurb": "Människoliknande — SCP-096 är en humanoid varelse som mäts cirka 2.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Människoliknande — SCP-105 (tidigare känd som Iris Thompson) är en kvinnlig människa av europeisk härkomst.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-105",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

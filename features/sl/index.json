@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "sl",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Človeku podobni",
+      "introduction": "Raziščite temo »Človeku podobni« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "articles": [
+        {
+          "itemId": "scp-series-sl-006",
+          "title": "Poslušalec",
+          "blurb": "Človeku podobni — SCP-006-SL je humanoid, Hunchback, merjenje 2.",
+          "url": "https://scp-slovenija.wikidot.com/scp-006-sl",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1002",
+          "title": "Pokojni",
+          "blurb": "Človeku podobni — SCP-1002 je abnormalna senca skupine šestih (6) predmetov, ki so trenutno v skrbništvu fundacije.",
+          "url": "https://scp-slovenija.wikidot.com/scp-1002",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Dio\"",
+          "blurb": "Človeku podobni — SCP-343 je moški, navidezno manj rasist, humanoid z navidezno vsemogočnostjo.",
+          "url": "https://scp-slovenija.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Doktor od kuga",
+          "blurb": "Človeku podobni — SCP-049 je humanoidno bitje, približno 1,9 metra višine, ki nosi videz srednjeveškega zdravnika kuge.",
+          "url": "https://scp-slovenija.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-039",
+          "title": "Inženirji Proboscis",
+          "blurb": "Človeku podobni — SCP-039 je sestavljen iz triindvajset (23) primerov Nasalis larvatus, ali sura opica, ki so bili predmet radikalno anato…",
+          "url": "https://scp-slovenija.wikidot.com/scp-039",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-014",
+          "title": "Betonski Mož",
+          "blurb": "Človeku podobni — SCP-014 je Belec, star približno 30 let, s črnimi lasmi, rjavimi očmi in nekoliko okroglim obrazom.",
+          "url": "https://scp-slovenija.wikidot.com/scp-014",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Abdominalni Planet",
+          "blurb": "Človeku podobni — SCP-007 je v trebušni votlini subjekta.",
+          "url": "https://scp-slovenija.wikidot.com/scp-007",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Oseba V Senci",
+          "blurb": "Človeku podobni — SCP-017 je humanoidna slika višine približno 80 cm, anatomsko podobna majhnemu otroku, vendar brez prepoznavnih znakov.",
+          "url": "https://scp-slovenija.wikidot.com/scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

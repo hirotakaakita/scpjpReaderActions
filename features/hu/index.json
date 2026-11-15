@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Emberalak",
+      "introduction": "Fedezze fel a(z) „Emberalak” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-hu-056",
+          "title": "A Művészi Látás",
+          "blurb": "Emberalak — SCP-056-HU egy pszichológiai betegség, melyet először a főként magyar lakta ██████ területen leltek fel.",
+          "url": "https://scp-hu.wikidot.com/scp-056-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-012",
+          "title": "Acélkirálynő",
+          "blurb": "Emberalak — SCP-012-HU Wittelsbach Erzsébet magyar királyné és osztrák császárné gépi másolata.",
+          "url": "https://scp-hu.wikidot.com/scp-012-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-026",
+          "title": "Egy Kemény Férfi",
+          "blurb": "Emberalak — SCP-026-HU, korábbi nevén Szabadfi Krisztián passzív állapotban egy átlagos ember férfi.",
+          "url": "https://scp-hu.wikidot.com/scp-026-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-090",
+          "title": "A Szürreális ember",
+          "blurb": "Emberalak — SCP-090-HU egy 1,8 méter magas és 35 év körüli kaukázusi férfi.",
+          "url": "https://scp-hu.wikidot.com/scp-090-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-990",
+          "title": "Álom Ember",
+          "blurb": "Emberalak — SCP-990 általában egy hidegháborús időszakban viselt üzleti öltönybe öltözött férfi, aki álmokban jelenik meg az Alapítv…",
+          "url": "https://scp-hu.wikidot.com/scp-990",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "\"Írisz\"",
+          "blurb": "Emberalak — SCP-105 (korábban Iris Thompson) egy európai származású emberi nő.",
+          "url": "https://scp-hu.wikidot.com/scp-105",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-020",
+          "title": "Nevess és a világ veled nevet majd",
+          "blurb": "Emberalak — SCP-020-HU egy emberszerű entitás, amely ████████ területén lett felfedezve.",
+          "url": "https://scp-hu.wikidot.com/scp-020-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Emberalak — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

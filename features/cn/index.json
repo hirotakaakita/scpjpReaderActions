@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "cn",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "人形",
+      "introduction": "围绕“人形”，对比这些异常的共同点与差异。",
+      "articles": [
+        {
+          "itemId": "scp-series-8980",
+          "title": "工作恐惧症：无动于衷",
+          "blurb": "人形 — SCP-8980是Lillian Marley Lillian Marley是一名3级收容专家，当前受雇于SCP基金会。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-8980",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-8141",
+          "title": "沙之女巫",
+          "blurb": "人形 — SCP-8141是Udo Amara Okorie博士，一名3级（“贤者”）蓝型，Site-43应用神秘学部部长（暂时停职）。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-8141",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-9341",
+          "title": "收容失效：容量",
+          "blurb": "人形 — SCP-9341是Site-CB1，为Site-19的隶属设施。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9341",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-6064",
+          "title": "无偿加班",
+          "blurb": "人形 — SCP-6064是对数量不定的人形异常个体的统称。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-6064",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-6456",
+          "title": "她就此搁笔。",
+          "blurb": "人形 — SCP-6456是47岁的白人男性Taylor Reeves，拥有炎能促动能力。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-6456",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-7955",
+          "title": "病弱的普罗透斯之子",
+          "blurb": "人形 — 在2020年10月13日之前，SCP-7955是一名38岁的人形男性，所有常规生物学测试均显示其为人类。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-7955",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-6052",
+          "title": "悬案",
+          "blurb": "人形 — SCP-6052是一名外貌无显著特征的男性个体，具有改变附近人员记忆与感知的能力，常使其无法回忆起SCP-6052的存在。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-6052",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-9920",
+          "title": "镜头恐惧",
+          "blurb": "人形 — SCP-9920-1是一卷无标签的35毫米黑白电影胶片，已出现轻微的降解迹象。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9920",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

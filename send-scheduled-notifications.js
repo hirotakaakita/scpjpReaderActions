@@ -55,6 +55,10 @@ async function main({
   getAccessToken = accessToken,
   sendRequest = request,
   persist = gitPersistence(queuePath, ledgerPath),
+  windowFor = deliveryWindow,
+  notificationBuilder = buildNotification,
+  dataBuilder = record => ({ delivery_id: record.id }),
+  topicPrefix = 'new_scp_',
 } = {}) {
   if (!fs.existsSync(queuePath)) { console.log('通知キュー未生成のため通知をスキップします'); return; }
   const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
@@ -70,7 +74,7 @@ async function main({
   const due = [];
   for (const [lang, state] of Object.entries(queue.pending || {})) {
     if (!state.items?.length || !TIMEZONES[lang] || blocked.has(lang)) continue;
-    const window = deliveryWindow(now, TIMEZONES[lang]);
+    const window = windowFor(now, TIMEZONES[lang]);
     if (window && (!state.lastSentWindow || state.lastSentWindow < window)) due.push({ lang, state, window });
   }
   if (due.length) {
@@ -86,9 +90,9 @@ async function main({
       record.status = 'sending'; record.attempts++; record.startedAt = now.toISOString();
       await persist(queue, ledger); // No FCM call until this push succeeds.
       try {
-        const payload = JSON.stringify({ message: { topic: `new_scp_${lang}`,
-          data: { delivery_id: record.id },
-          notification: buildNotification(lang, record.items) } });
+        const payload = JSON.stringify({ message: { topic: `${topicPrefix}${lang}`,
+          data: dataBuilder(record),
+          notification: notificationBuilder(lang, record.items) } });
         const response = JSON.parse(await sendRequest('fcm.googleapis.com', `/v1/projects/${account.project_id}/messages:send`, 'POST', payload,
           { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }));
         if (typeof response.name !== 'string' || !response.name) throw new Error('FCM response has no message ID');

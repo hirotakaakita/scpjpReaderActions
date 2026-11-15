@@ -1,0 +1,2380 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Människoliknande",
+      "introduction": "Utforska temat Människoliknande och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Människoliknande — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Den Hängda Kungens Tragedi",
+          "blurb": "Människoliknande — SCP-701 är ett teatermanuskript med titeln Tragedin om den Hängde Kungen.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-701",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Skuggperson",
+          "blurb": "Människoliknande — SCP-017 är en humanoid varelse cirkar 80 cm hög, som anomatomiskt liknar ett litet barn, men utan märkbara identifierand…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-990",
+          "title": "Drömmannen",
+          "blurb": "Människoliknande — SCP-990 är generellt en man klädd i en kostym från Kalla Kriget som visar sig för stiftelsepersonal genom drömmar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-990",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-178",
+          "title": "\"3-D\" Specs",
+          "blurb": "Människoliknande — SCP-178 är ett par vita stereoskopiska (\"3-D\") glasögon med en rektangulär vit kartongram och linser av transparent blå …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-178",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-913",
+          "title": "Herr Hungrig",
+          "blurb": "Människoliknande — SCP-913 verkar vara en medelålders afroamerikansk man med en extremt snabb ämnesomsättning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-913",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Den \"Blyga Killen\"",
+          "blurb": "Människoliknande — SCP-096 är en humanoid varelse som mäts cirka 2.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Människoliknande — SCP-105 (tidigare känd som Iris Thompson) är en kvinnlig människa av europeisk härkomst.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-105",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "humanoid-biological",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Människoliknande × Biologi",
+      "introduction": "Utforska temat Människoliknande × Biologi och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-108",
+          "title": "Extradimensionell Näshåla",
+          "blurb": "Människoliknande × Biologi — SCP-108 är åtkomlig genom näsborrarna på Subjekt-108-1.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-108",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-030",
+          "title": "Homunculus",
+          "blurb": "Människoliknande × Biologi — SCP-030 framstår som en hårlös, könslös, gråtonad människa, 71 centimeter lång och väger 12,70 kilogram (två brittiska s…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-030",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-135",
+          "title": "Universell Karcinogen",
+          "blurb": "Människoliknande × Biologi — SCP-135 är en människa, kvinnlig, mellan █ och ██ år gammal, som främjar snabb, okontrollerad celltillväxt inom en radie…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-135",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Människoliknande × Biologi — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Ödlekungen",
+          "blurb": "Människoliknande × Biologi — SCP-088 är en humanoid med reptil liknande drag som verkar ha mumifierats i en slö hållning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-088",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-208",
+          "title": "\"Bes\"",
+          "blurb": "Människoliknande × Biologi — SCP-208 verkar vara en kort, kraftig man av egyptiskt arv, med mycket hår över stora delar av kroppen.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-208",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Kain\"",
+          "blurb": "Människoliknande × Biologi — SCP-073 verkar vara en kraftigt solbränd man av arabisk eller mellanöstlig härkomst i början av trettioårsåldern, 185 cm…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-073",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Människoliknande × Biologi — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "humanoid-sentient",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Människoliknande × Intelligens",
+      "introduction": "Utforska temat Människoliknande × Intelligens och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-202",
+          "title": "Tillbakaspolningsmannen",
+          "blurb": "Människoliknande × Intelligens — SCP-202 är en asiatisk-brittisk man, 41 år gammal, som utför alla handlingar i omvänd ordning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-202",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Ung Tjej",
+          "blurb": "Människoliknande × Intelligens — SCP-053 verkar vara en liten treårig flicka.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-053",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-011",
+          "title": "Kännande Minnesstaty Från Inbördeskriget",
+          "blurb": "Människoliknande × Intelligens — SCP-011 är en minnesstaty över inbördeskriget belägen i Woodstock, Vermont.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-011",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-014",
+          "title": "Betongmannen",
+          "blurb": "Människoliknande × Intelligens — SCP-014 är en kaukasisk man, som verkar vara cirka 30 år gammal, med svart hår, bruna ögon och ett något rundaktigt ansi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-014",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-172",
+          "title": "Kugghjulmannen",
+          "blurb": "Människoliknande × Intelligens — SCP-172 verkar vara en människa, 34 år gammal, 185 cm lång, svart hår och mustasch, 175,5 kg, och av rysk härkomst.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-172",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-134",
+          "title": "Stjärnögt Barn",
+          "blurb": "Människoliknande × Intelligens — SCP-134 verkar vara en asiatisk flicka mellan åldrarna █ och █, med kort svart hår och liten kroppsbyggnad.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-134",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-085",
+          "title": "Handritad ''Cassy''",
+          "blurb": "Människoliknande × Intelligens — SCP-085 är resultatet av ett experiment som utfördes mellan SCP-067 och SCP-914.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-085",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-040",
+          "title": "Evolutionens Barn",
+          "blurb": "Människoliknande × Intelligens — SCP-040 är ett mänskligt barn som kan manipulera levande organismers fysiska egenskaper efter egen vilja.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-040",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-004",
+      "themeId": "sentient-biological",
+      "publishedAt": "2026-12-02T10:00:00.000Z",
+      "title": "Intelligens × Biologi",
+      "introduction": "Utforska temat Intelligens × Biologi och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-607",
+          "title": "Dorian den Grå Katten",
+          "blurb": "Intelligens × Biologi — SCP-607 är en stor, grå hankatt av okänd ålder och rasen Amerikansk Korthår bärandes ett halsband med texten \"Dorian\".",
+          "url": "https://scp-nd.wikidot.com/sv:scp-607",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-181",
+          "title": "\"Lucky\"",
+          "blurb": "Intelligens × Biologi — G████ O██████, tidigare LvD-87465, hade varit fängslad för upprepade brott av bedrägeri mot Nevada Gaming Commission.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-181",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-527",
+          "title": "Herr Fisk",
+          "blurb": "Intelligens × Biologi — SCP-527 är en manlig humanoid, 1,67m lång, som är biologiskt icke-anomal, med undantag för dess huvud, som är av en Punt…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-527",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-284",
+          "title": "Tvillingarna",
+          "blurb": "Intelligens × Biologi — SCP-284-1 och SCP-284-2 är tvillingar födda ██/█/████ i ████████, Illinois.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-284",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Kännande Mikro-Organism",
+          "blurb": "Intelligens × Biologi — SCP-016 är en blodburen patogen återhämtad från en gruvarbetare i █████ som skadade sig arbetades i en djup kolsöm.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-016",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Intelligens × Biologi — SCP-019 verkar vara en mycket stor keramisk vas, 1,8 m i diameter vid mynningen och 2,4 m hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-138",
+          "title": "Den Ständigt Levande mannen",
+          "blurb": "Intelligens × Biologi — SCP-138 är en mänsklig man, misstänkt att vara över fyra tusen (4000) år gammal.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-138",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Häxbarnet",
+          "blurb": "Intelligens × Biologi — SCP-239 verkar vara en 8-årig flicka, 1 meter lång och väger 20 kilogram.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-239",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-005",
+      "themeId": "sentient",
+      "publishedAt": "2026-12-09T10:00:00.000Z",
+      "title": "Intelligens",
+      "introduction": "Utforska temat Intelligens och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-005",
+          "title": "Huvudnyckel",
+          "blurb": "Intelligens — I utseende liknar SCP-005 en utsmyckad nyckel, och visar egenskaperna hos en typisk massproducerad nyckel som användes p…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-005",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-015",
+          "title": "Rör-mardröm",
+          "blurb": "Intelligens — SCP-015 är en samling rör, ventiler, värmepannor och andra olika VVS-apparater som helt och hållet fyller ett varuhus i …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-015",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-043",
+          "title": "Beatlen",
+          "blurb": "Intelligens — SCP-043 är en vinylkopia av \"The White Album\" av Beatles; Efter närmare granskning har dock posten inga spår.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-043",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-266",
+          "title": "Will o' the Wisp",
+          "blurb": "Intelligens — SCP-266 är ett antal fritt svävande massor av gasformigt material, som har en naturlig luminescens som visar sig som ett…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-266",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-999",
+          "title": "Kittelmonstret",
+          "blurb": "Intelligens — SCP-999 verkar vara en stor amorf gelatinös massa utav genomskinligt orangefärgat slem, som väger cirka 54 kg (120 lbs) …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-999",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-250",
+          "title": "Större Delen av en Allosaurus",
+          "blurb": "Intelligens — SCP-250 är det levande fossila skelettet av en allosaur (ursprungligen identifierad som Allosaurus fragilis; dock indike…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-250",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-131",
+          "title": "\"Ögonkapslarna\"",
+          "blurb": "Intelligens — SCP-131-A och SCP-131-B (vänligt kallade \"Ögonkapslarna\" av personalen) är ett par tårformade varelser, ungefär 30 cm (1…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-131",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-598",
+          "title": "Kännande Färg",
+          "blurb": "Intelligens — SCP-598 är en intelligent gul nyans som täcker hela insidan av dess cell.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-598",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-006",
+      "themeId": "mind_affecting-biological",
+      "publishedAt": "2026-12-16T10:00:00.000Z",
+      "title": "Sinnespåverkan × Biologi",
+      "introduction": "Utforska temat Sinnespåverkan × Biologi och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-042",
+          "title": "En Tidigare Bevingad Häst",
+          "blurb": "Sinnespåverkan × Biologi — SCP-042 är ett djur som tros vara medlem av släktet Equus.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-042",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-003",
+          "title": "Biologiskt Moderkort",
+          "blurb": "Sinnespåverkan × Biologi — SCP-003 består av två relaterade komponenter med separat ursprung, kallade SCP-003-1 och SCP-003-2.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-003",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-081",
+          "title": "Spontan Förbränningsvirus",
+          "blurb": "Sinnespåverkan × Biologi — SCP-081 är ett smittsamt virus som verkar vara en muterad version av ███████-viruset, men med █-segment i sitt RNA istäl…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-081",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Osedd Mögel",
+          "blurb": "Sinnespåverkan × Biologi — SCP-020 är en snabbt spridande svamporganism som kan påverka sinnena och beteendet hos levande varelser, inklusive männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-020",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Ung Tjej",
+          "blurb": "Sinnespåverkan × Biologi — SCP-053 verkar vara en liten treårig flicka.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-053",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Ödlekungen",
+          "blurb": "Sinnespåverkan × Biologi — SCP-088 är en humanoid med reptil liknande drag som verkar ha mumifierats i en slö hållning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-088",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-007",
+      "themeId": "humanoid-mind_affecting",
+      "publishedAt": "2026-12-23T10:00:00.000Z",
+      "title": "Människoliknande × Sinnespåverkan",
+      "introduction": "Utforska temat Människoliknande × Sinnespåverkan och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-026",
+          "title": "Fasthållande Efter Skolan",
+          "blurb": "Människoliknande × Sinnespåverkan — SCP-026 är en offentlig skolbyggnad med tre (3) våningar byggd år ████.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-026",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-356",
+          "title": "Figurer På Stranden",
+          "blurb": "Människoliknande × Sinnespåverkan — 356 är en grupp figurer som går upp ur havet på East Point Beach vid solnedgång varje natt.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-356",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Den Hängda Kungens Tragedi",
+          "blurb": "Människoliknande × Sinnespåverkan — SCP-701 är ett teatermanuskript med titeln Tragedin om den Hängde Kungen.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-701",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Ung Tjej",
+          "blurb": "Människoliknande × Sinnespåverkan — SCP-053 verkar vara en liten treårig flicka.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-053",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Ödlekungen",
+          "blurb": "Människoliknande × Sinnespåverkan — SCP-088 är en humanoid med reptil liknande drag som verkar ha mumifierats i en slö hållning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-088",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-008",
+      "themeId": "sentient-hostile",
+      "publishedAt": "2026-12-30T10:00:00.000Z",
+      "title": "Intelligens × Fientlighet",
+      "introduction": "Utforska temat Intelligens × Fientlighet och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-682",
+          "title": "Svårförintad Reptil",
+          "blurb": "Intelligens × Fientlighet — SCP-682 är en stor, vagt reptilliknande varelse av okänt ursprung.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-682",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Intelligens × Fientlighet — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Intelligens × Fientlighet — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Intelligens × Fientlighet — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Intelligens × Fientlighet — SCP-019 verkar vara en mycket stor keramisk vas, 1,8 m i diameter vid mynningen och 2,4 m hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-009",
+      "themeId": "spatial",
+      "publishedAt": "2027-01-06T10:00:00.000Z",
+      "title": "Rum",
+      "introduction": "Utforska temat Rum och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "Trapphuset",
+          "blurb": "Rum — SCP-087 är en enhetplatformstrappa.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-087",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-123",
+          "title": "Säkrat Miniatyrt Svart Hål",
+          "blurb": "Rum — Objektet är en grå geodetisk sfär med en diameter på 65 cm, bestående av sextio trianglar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-123",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "De 12 Rostiga Nycklarna och Dörren",
+          "blurb": "Rum — SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-004",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-084",
+          "title": "Statisk Torn",
+          "blurb": "Rum — SCP-084 verkar vara ett stort radiotorn placerat i mitten av ett stort, öppet fält med två små uthus.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-084",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-094",
+          "title": "Miniatyr Händelsehorisont",
+          "blurb": "Rum — SCP-094 verkar vara en perfekt svart sfär, 163 cm i diameter, upphängd ungefär 3 m ovanför marken utan något synligt stö…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-094",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-010",
+      "themeId": "humanoid-hostile",
+      "publishedAt": "2027-01-13T10:00:00.000Z",
+      "title": "Människoliknande × Fientlighet",
+      "introduction": "Utforska temat Människoliknande × Fientlighet och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-280",
+          "title": "Ögonen i Mörkret",
+          "blurb": "Människoliknande × Fientlighet — SCP-280 är en svart människoliknande massa med två stora vita ögon på huvudet och två händer med mycket långa och smala …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-280",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Skuggperson",
+          "blurb": "Människoliknande × Fientlighet — SCP-017 är en humanoid varelse cirkar 80 cm hög, som anomatomiskt liknar ett litet barn, men utan märkbara identifierand…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-017",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Människoliknande × Fientlighet — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Människoliknande × Fientlighet — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Människoliknande × Fientlighet — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-011",
+      "themeId": "biological-infectious",
+      "publishedAt": "2027-01-20T10:00:00.000Z",
+      "title": "Biologi × Smitta",
+      "introduction": "Utforska temat Biologi × Smitta och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-149",
+          "title": "Blodflugorna",
+          "blurb": "Biologi × Smitta — SCP-149 är en sorts mygga som bär på en stam av retrovirus (hädanefter kallad SCP-149-A) som muterar regenererande männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-149",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-008",
+          "title": "Zombiepest",
+          "blurb": "Biologi × Smitta — SCP-008 är en komplex prion, vars prover förvaras i varenda känd G2 anläggning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-008",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "Skadedjursguden",
+          "blurb": "Biologi × Smitta — SCP-027 verkar vara ett fenomen av okänd källa som verkar vara kopplat till en mänsklig varelse (för närvarande 027-02) …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-027",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Kännande Mikro-Organism",
+          "blurb": "Biologi × Smitta — SCP-016 är en blodburen patogen återhämtad från en gruvarbetare i █████ som skadade sig arbetades i en djup kolsöm.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-016",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Osedd Mögel",
+          "blurb": "Biologi × Smitta — SCP-020 är en snabbt spridande svamporganism som kan påverka sinnena och beteendet hos levande varelser, inklusive männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-020",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-081",
+          "title": "Spontan Förbränningsvirus",
+          "blurb": "Biologi × Smitta — SCP-081 är ett smittsamt virus som verkar vara en muterad version av ███████-viruset, men med █-segment i sitt RNA istäl…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-081",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-013",
+      "themeId": "temporal",
+      "publishedAt": "2027-02-03T10:00:00.000Z",
+      "title": "Tid",
+      "introduction": "Utforska temat Tid och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-434",
+          "title": "Ett Möte med Mig Själv",
+          "blurb": "Tid — SCP-434 är ett antikt konferensbord.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-434",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-185",
+          "title": "Radion",
+          "blurb": "Tid — SCP-185 verkar vara en rysk R-105M-radio som användes under kalla kriget, förutom att den har en grovt tillagd knappsats…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-185",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-119",
+          "title": "Tidkrovågsugn",
+          "blurb": "Tid — SCP-119 är en Panasonic [REVIDERAD] mikrovågsugn.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-119",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "De 12 Rostiga Nycklarna och Dörren",
+          "blurb": "Tid — SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-004",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-202",
+          "title": "Tillbakaspolningsmannen",
+          "blurb": "Tid — SCP-202 är en asiatisk-brittisk man, 41 år gammal, som utför alla handlingar i omvänd ordning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-202",
+          "sourceTags": [
+            "temporal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-014",
+      "themeId": "mind_affecting-artifact",
+      "publishedAt": "2027-02-10T10:00:00.000Z",
+      "title": "Sinnespåverkan × Föremål",
+      "introduction": "Utforska temat Sinnespåverkan × Föremål och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-013",
+          "title": "Blue Lady-Cigaretter",
+          "blurb": "Sinnespåverkan × Föremål — SCP-013 är den samlade beteckningen på 242 cigaretter vilka visar liknande anomala egenskaper.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-013",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-251",
+          "title": "Den Missvisande Snögloben",
+          "blurb": "Sinnespåverkan × Föremål — Ursprunget är okänt.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-251",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-091",
+          "title": "Nostalgi",
+          "blurb": "Sinnespåverkan × Föremål — SCP-091 är en näsdukslåda av märket 'Scotties', för närvarande tom.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-091",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-010",
+          "title": "Kontrollhalsband",
+          "blurb": "Sinnespåverkan × Föremål — SCP-010 utgörs av sex (6) till synes identiska gjutjärnshalsband med numrerade metallbrickor samt en (1) fjärrkontroll.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-010",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-162",
+          "title": "Boll av vasst",
+          "blurb": "Sinnespåverkan × Föremål — SCP-162 är en massa av fiskkrokar, fiskelinor, nålar, saxar och andra vassa föremål i en grov bollform med en bredd på n…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-162",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "De 12 Rostiga Nycklarna och Dörren",
+          "blurb": "Sinnespåverkan × Föremål — SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-004",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-016",
+      "themeId": "hostile-keter",
+      "publishedAt": "2027-02-24T10:00:00.000Z",
+      "title": "Fientlighet × Keter",
+      "introduction": "Utforska temat Fientlighet × Keter och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-682",
+          "title": "Svårförintad Reptil",
+          "blurb": "Fientlighet × Keter — SCP-682 är en stor, vagt reptilliknande varelse av okänt ursprung.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-682",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-280",
+          "title": "Ögonen i Mörkret",
+          "blurb": "Fientlighet × Keter — SCP-280 är en svart människoliknande massa med två stora vita ögon på huvudet och två händer med mycket långa och smala …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-280",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Skuggperson",
+          "blurb": "Fientlighet × Keter — SCP-017 är en humanoid varelse cirkar 80 cm hög, som anomatomiskt liknar ett litet barn, men utan märkbara identifierand…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-017",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Fientlighet × Keter — SCP-019 verkar vara en mycket stor keramisk vas, 1,8 m i diameter vid mynningen och 2,4 m hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Fientlighet × Keter — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Fientlighet × Keter — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Fientlighet × Keter — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-017",
+      "themeId": "mind_affecting",
+      "publishedAt": "2027-03-03T10:00:00.000Z",
+      "title": "Sinnespåverkan",
+      "introduction": "Utforska temat Sinnespåverkan och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-640",
+          "title": "Lucenta Strålar",
+          "blurb": "Sinnespåverkan — SCP-640 är en fritt vandrande, kännande, elektromagnetiskt fenomen som vanligtvis manifesterar sig som flera cirkulära f…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-640",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Ett Dåligt Upplägg",
+          "blurb": "Sinnespåverkan — SCP-012 återfanns av arkeologen K.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-012",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-426",
+          "title": "Jag är en Brödrost",
+          "blurb": "Sinnespåverkan — Hej, jag är SCP-426.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-426",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-072",
+          "title": "Vid Kanten På Sängen",
+          "blurb": "Sinnespåverkan — Instanser på SCP-072 upptäcktes först i ett lägenhetshus i ████████, Michigan, efter att två lokala medierapporter om SC…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-072",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-028",
+          "title": "Kunskap",
+          "blurb": "Sinnespåverkan — SCP-028 är belägen i en övergiven lagringsgård utanför en koppargruva i norra Michigan.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-028",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-955",
+          "title": "Herr Sillybug",
+          "blurb": "Sinnespåverkan — SCP-955 är en art leddjur-lika landboende varelse infödd i Nordamerikas tempererade områden.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-955",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-099",
+          "title": "Porträttet",
+          "blurb": "Sinnespåverkan — SCP-099 är en målning på 73 x 50 cm med titeln \"Porträttet\".",
+          "url": "https://scp-nd.wikidot.com/sv:scp-099",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-035",
+          "title": "Possessiv Mask",
+          "blurb": "Sinnespåverkan — SCP-035 ser ut att vara en vit porslinskomedimask, även om den ibland förändras till tragedi.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-035",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-018",
+      "themeId": "biological-keter",
+      "publishedAt": "2027-03-10T10:00:00.000Z",
+      "title": "Biologi × Keter",
+      "introduction": "Utforska temat Biologi × Keter och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-169",
+          "title": "Leviatan",
+          "blurb": "Biologi × Keter — SCP-169 antas vara ett marint leddjur av enorm storlek, känt som \"Leviatan\" av generationer av sjömän och muntlig tradit…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-169",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Häxbarnet",
+          "blurb": "Biologi × Keter — SCP-239 verkar vara en 8-årig flicka, 1 meter lång och väger 20 kilogram.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-239",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-149",
+          "title": "Blodflugorna",
+          "blurb": "Biologi × Keter — SCP-149 är en sorts mygga som bär på en stam av retrovirus (hädanefter kallad SCP-149-A) som muterar regenererande männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-149",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Osedd Mögel",
+          "blurb": "Biologi × Keter — SCP-020 är en snabbt spridande svamporganism som kan påverka sinnena och beteendet hos levande varelser, inklusive männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-020",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Svårförintad Reptil",
+          "blurb": "Biologi × Keter — SCP-682 är en stor, vagt reptilliknande varelse av okänt ursprung.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-682",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Kännande Mikro-Organism",
+          "blurb": "Biologi × Keter — SCP-016 är en blodburen patogen återhämtad från en gruvarbetare i █████ som skadade sig arbetades i en djup kolsöm.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-016",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Biologi × Keter — SCP-019 verkar vara en mycket stor keramisk vas, 1,8 m i diameter vid mynningen och 2,4 m hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Biologi × Keter — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-019",
+      "themeId": "sentient-keter",
+      "publishedAt": "2027-03-17T10:00:00.000Z",
+      "title": "Intelligens × Keter",
+      "introduction": "Utforska temat Intelligens × Keter och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-990",
+          "title": "Drömmannen",
+          "blurb": "Intelligens × Keter — SCP-990 är generellt en man klädd i en kostym från Kalla Kriget som visar sig för stiftelsepersonal genom drömmar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-990",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-035",
+          "title": "Possessiv Mask",
+          "blurb": "Intelligens × Keter — SCP-035 ser ut att vara en vit porslinskomedimask, även om den ibland förändras till tragedi.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-035",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Häxbarnet",
+          "blurb": "Intelligens × Keter — SCP-239 verkar vara en 8-årig flicka, 1 meter lång och väger 20 kilogram.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-239",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Svårförintad Reptil",
+          "blurb": "Intelligens × Keter — SCP-682 är en stor, vagt reptilliknande varelse av okänt ursprung.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-682",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Kännande Mikro-Organism",
+          "blurb": "Intelligens × Keter — SCP-016 är en blodburen patogen återhämtad från en gruvarbetare i █████ som skadade sig arbetades i en djup kolsöm.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-016",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Intelligens × Keter — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Intelligens × Keter — SCP-019 verkar vara en mycket stor keramisk vas, 1,8 m i diameter vid mynningen och 2,4 m hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Intelligens × Keter — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-020",
+      "themeId": "humanoid-keter",
+      "publishedAt": "2027-03-24T10:00:00.000Z",
+      "title": "Människoliknande × Keter",
+      "introduction": "Utforska temat Människoliknande × Keter och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-689",
+          "title": "Hemsökare i Mörkret",
+          "blurb": "Människoliknande × Keter — SCP-689 verkar vara en liten grön täljstens staty, 30 cm hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-689",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-990",
+          "title": "Drömmannen",
+          "blurb": "Människoliknande × Keter — SCP-990 är generellt en man klädd i en kostym från Kalla Kriget som visar sig för stiftelsepersonal genom drömmar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-990",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-280",
+          "title": "Ögonen i Mörkret",
+          "blurb": "Människoliknande × Keter — SCP-280 är en svart människoliknande massa med två stora vita ögon på huvudet och två händer med mycket långa och smala …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-280",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Skuggperson",
+          "blurb": "Människoliknande × Keter — SCP-017 är en humanoid varelse cirkar 80 cm hög, som anomatomiskt liknar ett litet barn, men utan märkbara identifierand…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Häxbarnet",
+          "blurb": "Människoliknande × Keter — SCP-239 verkar vara en 8-årig flicka, 1 meter lång och väger 20 kilogram.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-239",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Människoliknande × Keter — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Människoliknande × Keter — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Människoliknande × Keter — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-024",
+      "themeId": "sentient-euclid",
+      "publishedAt": "2027-04-21T10:00:00.000Z",
+      "title": "Intelligens × Euclid",
+      "introduction": "Utforska temat Intelligens × Euclid och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-079",
+          "title": "Gammal AI",
+          "blurb": "Intelligens × Euclid — SCP-079 är en Exidy Sorcerer mikrodator byggd år 1978.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-079",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-015",
+          "title": "Rör-mardröm",
+          "blurb": "Intelligens × Euclid — SCP-015 är en samling rör, ventiler, värmepannor och andra olika VVS-apparater som helt och hållet fyller ett varuhus i …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-015",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-607",
+          "title": "Dorian den Grå Katten",
+          "blurb": "Intelligens × Euclid — SCP-607 är en stor, grå hankatt av okänd ålder och rasen Amerikansk Korthår bärandes ett halsband med texten \"Dorian\".",
+          "url": "https://scp-nd.wikidot.com/sv:scp-607",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-172",
+          "title": "Kugghjulmannen",
+          "blurb": "Intelligens × Euclid — SCP-172 verkar vara en människa, 34 år gammal, 185 cm lång, svart hår och mustasch, 175,5 kg, och av rysk härkomst.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-172",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-135",
+          "title": "Universell Karcinogen",
+          "blurb": "Intelligens × Euclid — SCP-135 är en människa, kvinnlig, mellan █ och ██ år gammal, som främjar snabb, okontrollerad celltillväxt inom en radie…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-135",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-913",
+          "title": "Herr Hungrig",
+          "blurb": "Intelligens × Euclid — SCP-913 verkar vara en medelålders afroamerikansk man med en extremt snabb ämnesomsättning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-913",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-266",
+          "title": "Will o' the Wisp",
+          "blurb": "Intelligens × Euclid — SCP-266 är ett antal fritt svävande massor av gasformigt material, som har en naturlig luminescens som visar sig som ett…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-266",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Kain\"",
+          "blurb": "Intelligens × Euclid — SCP-073 verkar vara en kraftigt solbränd man av arabisk eller mellanöstlig härkomst i början av trettioårsåldern, 185 cm…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-073",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-025",
+      "themeId": "mechanical",
+      "publishedAt": "2027-04-28T10:00:00.000Z",
+      "title": "Maskiner",
+      "introduction": "Utforska temat Maskiner och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-044",
+          "title": "Molekulär-Fission Kanon från Andra Världskriget",
+          "blurb": "Maskiner — SCP-044 är en haubits, hemligt tillverkad under de sista skedena av andra världskriget av Krupp-ingenjörer, personligen …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-044",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-536",
+          "title": "Testkammare för Fysikens Lagar",
+          "blurb": "Maskiner — SCP-536 är en ██ gånger █ gånger █ meter stor kammare med ett 50-centimers, fyrkantigt fönster, 6 inställbara rattar med…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-536",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-278",
+          "title": "En Stor Mekanisk Spindel",
+          "blurb": "Maskiner — SCP-278 är en stor mekanisk robot tillverkad av stål, järn och banyanträ, starkt lik Idiops barkudensis, en typ av indis…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-278",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-160",
+          "title": "Rovdjursdrönare",
+          "blurb": "Maskiner — SCP-160 verkar vara ett fyrvingat obemannat luftfartyg (OLF) med en diameter på cirka 1,1 m vid dess bredaste punkt, lik…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-160",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Kain\"",
+          "blurb": "Maskiner — SCP-073 verkar vara en kraftigt solbränd man av arabisk eller mellanöstlig härkomst i början av trettioårsåldern, 185 cm…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-073",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-172",
+          "title": "Kugghjulmannen",
+          "blurb": "Maskiner — SCP-172 verkar vara en människa, 34 år gammal, 185 cm lång, svart hår och mustasch, 175,5 kg, och av rysk härkomst.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-172",
+          "sourceTags": [
+            "mechanical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-027",
+      "themeId": "humanoid-euclid",
+      "publishedAt": "2027-05-12T10:00:00.000Z",
+      "title": "Människoliknande × Euclid",
+      "introduction": "Utforska temat Människoliknande × Euclid och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-007",
+          "title": "Bukplanet",
+          "blurb": "Människoliknande × Euclid — SCP-007 är beläget inom en hålighet i buken på Subjektet.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-007",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-022",
+          "title": "Bårhuset",
+          "blurb": "Människoliknande × Euclid — SCP-022 är ett bårhus i källaren på [REVIDERAT] sjukhuset i Storbritannien.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-022",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-499",
+          "title": "Gammal Sol Man",
+          "blurb": "Människoliknande × Euclid — SCP-499 är en mänsklig man av obestämd etnicitet, 1,75 meter lång och minst åttio år gammal.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-499",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-178",
+          "title": "\"3-D\" Specs",
+          "blurb": "Människoliknande × Euclid — SCP-178 är ett par vita stereoskopiska (\"3-D\") glasögon med en rektangulär vit kartongram och linser av transparent blå …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-178",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "Skadedjursguden",
+          "blurb": "Människoliknande × Euclid — SCP-027 verkar vara ett fenomen av okänd källa som verkar vara kopplat till en mänsklig varelse (för närvarande 027-02) …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-027",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Den \"Blyga Killen\"",
+          "blurb": "Människoliknande × Euclid — SCP-096 är en humanoid varelse som mäts cirka 2.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-026",
+          "title": "Fasthållande Efter Skolan",
+          "blurb": "Människoliknande × Euclid — SCP-026 är en offentlig skolbyggnad med tre (3) våningar byggd år ████.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-026",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Den Hängda Kungens Tragedi",
+          "blurb": "Människoliknande × Euclid — SCP-701 är ett teatermanuskript med titeln Tragedin om den Hängde Kungen.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-701",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-028",
+      "themeId": "biological-euclid",
+      "publishedAt": "2027-05-19T10:00:00.000Z",
+      "title": "Biologi × Euclid",
+      "introduction": "Utforska temat Biologi × Euclid och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-074",
+          "title": "Kvant Gråsugga",
+          "blurb": "Biologi × Euclid — SCP-074 är en anomal organism som använder olika kvant egenskaper i makroskopisk skala och på andra sätt modifierar fysi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-074",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-124",
+          "title": "Grogrund",
+          "blurb": "Biologi × Euclid — SCP-124 är en jordlott som är ungefär 9 m2 i yta och 14 m3 i storlek.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-124",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-002",
+          "title": "Det \"Levande\" Rummet",
+          "blurb": "Biologi × Euclid — SCP-002 liknar en tumöraktig, köttig tillväxt med en volym på ungefär 60 m³ (eller 2000 ft³).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-002",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-023",
+          "title": "Svart Hölje",
+          "blurb": "Biologi × Euclid — SCP-023 är en stor, könlös, lurvig hund (1,5 meter vid axeln) med svart päls.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-023",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-153",
+          "title": "Avloppsmaskar",
+          "blurb": "Biologi × Euclid — SCP-153 verkar vara en art av nematod (rundmask) som kan bli upp till ██ m lång och ██ cm i diameter.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-153",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-548",
+          "title": "Isspindel",
+          "blurb": "Biologi × Euclid — SCP-548 är en hona av kobolt färgad tarantel (Cyriopagopus lividus), 7,3 cm lång.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-548",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-439",
+          "title": "Benkupa",
+          "blurb": "Biologi × Euclid — SCP-439 är en insekt av okänt ursprung, som något liknar en gråaktig, halvgenomskinlig Forficula auricularia (vanlig tve…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-439",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-101",
+          "title": "Hungrig Väska",
+          "blurb": "Biologi × Euclid — SCP-101 framstår som en skolväska eller väska av intermittent storlek, med observationer som sträcker sig från en öppnin…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-101",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-033",
+      "themeId": "liquid",
+      "publishedAt": "2027-06-23T10:00:00.000Z",
+      "title": "Vätskor",
+      "introduction": "Utforska temat Vätskor och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-258",
+          "title": "Gråtande Groda",
+          "blurb": "Vätskor — SCP-258 återvanns från ██████████, Maine efter att föräldrar till lokala skolelever rapporterat att berättelser om en 'l…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-258",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-009",
+          "title": "Röd Is",
+          "blurb": "Vätskor — SCP-009 är ungefär ███ liter av ett ämne som ytligt sett liknar destillerat vatten (H2O), förutom med en distinkt klarrö…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-009",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-365",
+          "title": "Poolnudel",
+          "blurb": "Vätskor — SCP-365 är en grön poolnudel gjord av polyetenskum.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-365",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-151",
+          "title": "Tavlan",
+          "blurb": "Vätskor — SCP-151 är en oljemålning på 1 m x 1,3 m (3 ft x 4 ft), uppenbarligen från perspektivet av någon under vatten.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-151",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-210",
+          "title": "Översvämmat Hus",
+          "blurb": "Vätskor — SCP-210 är en tvåvåningsherrgård som är översvämmad till ett djup av 4,35 meter med ett okänt flytande ämne.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-210",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-686",
+          "title": "Smittsam Mjölkavsöndring",
+          "blurb": "Vätskor — SCP-686 är en opak vit vätska bestående av en suspension av lipider och proteiner som är oskiljbar från vanlig högkvalit…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-686",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-006",
+          "title": "Ungdomens Källa",
+          "blurb": "Vätskor — SCP-006 är en mycket liten källa belägen 60 km väster om Astrakhan.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-006",
+          "sourceTags": [
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-037",
+      "themeId": "biological",
+      "publishedAt": "2027-07-21T10:00:00.000Z",
+      "title": "Biologi",
+      "introduction": "Utforska temat Biologi och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-437",
+          "title": "Sommaren '91",
+          "blurb": "Biologi — SCP-437 är en stor träddunge belägen i Camp Lakewood, Illinois (USA).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-437",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-127",
+          "title": "Den Levande Pistolen",
+          "blurb": "Biologi — SCP-127, vid första anblicken, verkar vara en standard MP5K-PDW kulsprutepistol.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-127",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-075",
+          "title": "Frätande Snigel",
+          "blurb": "Biologi — SCP-075 liknar en stor snigel som är 20 cm lång, 13 cm bred och 15 cm hög, med en muskulös fot som liknar en sexfingrad,…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-075",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-529",
+          "title": "Halvkatten Josie",
+          "blurb": "Biologi — SCP-529 är en liten tamkatt (Felis catus) med grå tabby-mönster.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-529",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-021",
+          "title": "Lindorm av Hud",
+          "blurb": "Biologi — SCP-021 tar formen av en stor och utsmyckad tatuering av en orm-liknande drake i orientalisk stil, som täcker ungefär 0,…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-021",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-553",
+          "title": "Kristallina Fjärilar",
+          "blurb": "Biologi — SCP-553 är en koloni av cirka 140 000 bevingade organismer som ytligt sett liknar fjärilar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-553",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-098",
+          "title": "Kirurgikrabbor",
+          "blurb": "Biologi — SCP-098 är en tidigare okänd kräftdjursart.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-098",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-038",
+          "title": "All-trädet",
+          "blurb": "Biologi — SCP-038 hittades på en övergiven gård i █████████████, New York, år 19██.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-038",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-041",
+      "themeId": "artifact",
+      "publishedAt": "2027-08-18T10:00:00.000Z",
+      "title": "Föremål",
+      "introduction": "Utforska temat Föremål och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-500",
+          "title": "Universalmedel",
+          "blurb": "Föremål — SCP-500 är en liten plastburk som i skrivande stund innehåller fyrtiosju (47) röda piller.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-500",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-436",
+          "title": "Fellås",
+          "blurb": "Föremål — SCP-436 är ett litet medaljong, tydligen gjort av guld.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-436",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-063",
+          "title": "\"Världens Bästa TanBorste\"",
+          "blurb": "Föremål — SCP-063 verkar vara en genomsnittlig, ljusblå tandborste.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-063",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-067",
+          "title": "Konstnärens Penna",
+          "blurb": "Föremål — SCP-067 är en fyllpenn gjord av ett tyskt leverantörsföretag som heter Pelikan någon gång mellan första och andra världs…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-067",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-093",
+          "title": "Rött Sjö-Föremål",
+          "blurb": "Föremål — SCP-093 är en huvudsakligen rödfärgad skiva med en diameter på 7,62 cm och är uthuggen ur ett stenslag som liknar cinnob…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-093",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-025",
+          "title": "En Väl Använd Garderob",
+          "blurb": "Föremål — SCP-025 är en garderob i trä som mäter 0,97 m x 0,62 m x 1,95 m, full av kläder från ett antal tidsperioder.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-025",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-037",
+          "title": "Dvärgstjärna",
+          "blurb": "Föremål — SCP-037 verkar vara en stjärna med en diameter på ungefär 5 cm (2 tum), med en ljusstyrka på cirka 1*10-12 gånger vår so…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-037",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-064",
+          "title": "Bristfällig von Neumann Struktur",
+          "blurb": "Föremål — SCP-064 är en ljusbrun lergodstegel som huvudsakligen består av kiseloxider och en del organiskt material.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-064",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-044",
+      "themeId": "mind_affecting-euclid",
+      "publishedAt": "2027-09-08T10:00:00.000Z",
+      "title": "Sinnespåverkan × Euclid",
+      "introduction": "Utforska temat Sinnespåverkan × Euclid och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-078",
+          "title": "Skuld",
+          "blurb": "Sinnespåverkan × Euclid — SCP-078 är en rosa neonskylt ungefär en och en halv meter lång som visar frasen \"FÖR SENT ATT DÖ UNG\".",
+          "url": "https://scp-nd.wikidot.com/sv:scp-078",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Ett Dåligt Upplägg",
+          "blurb": "Sinnespåverkan × Euclid — SCP-012 återfanns av arkeologen K.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-012",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-426",
+          "title": "Jag är en Brödrost",
+          "blurb": "Sinnespåverkan × Euclid — Hej, jag är SCP-426.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-426",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-640",
+          "title": "Lucenta Strålar",
+          "blurb": "Sinnespåverkan × Euclid — SCP-640 är en fritt vandrande, kännande, elektromagnetiskt fenomen som vanligtvis manifesterar sig som flera cirkulära f…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-640",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-162",
+          "title": "Boll av vasst",
+          "blurb": "Sinnespåverkan × Euclid — SCP-162 är en massa av fiskkrokar, fiskelinor, nålar, saxar och andra vassa föremål i en grov bollform med en bredd på n…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-162",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-251",
+          "title": "Den Missvisande Snögloben",
+          "blurb": "Sinnespåverkan × Euclid — Ursprunget är okänt.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-251",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-003",
+          "title": "Biologiskt Moderkort",
+          "blurb": "Sinnespåverkan × Euclid — SCP-003 består av två relaterade komponenter med separat ursprung, kallade SCP-003-1 och SCP-003-2.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-003",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-081",
+          "title": "Spontan Förbränningsvirus",
+          "blurb": "Sinnespåverkan × Euclid — SCP-081 är ett smittsamt virus som verkar vara en muterad version av ███████-viruset, men med █-segment i sitt RNA istäl…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-081",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-045",
+      "themeId": "hostile",
+      "publishedAt": "2027-09-15T10:00:00.000Z",
+      "title": "Fientlighet",
+      "introduction": "Utforska temat Fientlighet och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-173",
+          "title": "Skulpturen -",
+          "blurb": "Fientlighet — Flyttad till Anläggning-19 år 1993.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-173",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-280",
+          "title": "Ögonen i Mörkret",
+          "blurb": "Fientlighet — SCP-280 är en svart människoliknande massa med två stora vita ögon på huvudet och två händer med mycket långa och smala …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-280",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Skuggperson",
+          "blurb": "Fientlighet — SCP-017 är en humanoid varelse cirkar 80 cm hög, som anomatomiskt liknar ett litet barn, men utan märkbara identifierand…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-017",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Svårförintad Reptil",
+          "blurb": "Fientlighet — SCP-682 är en stor, vagt reptilliknande varelse av okänt ursprung.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-682",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Fientlighet — SCP-019 verkar vara en mycket stor keramisk vas, 1,8 m i diameter vid mynningen och 2,4 m hög.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Den Gamla Mannen",
+          "blurb": "Fientlighet — SCP-106 verkar vara en åldrad humanoid med ett förruttnatt utseende.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-106",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Fientlighet — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Fientlighet — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "sourceTags": [
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-049",
+      "themeId": "infectious",
+      "publishedAt": "2027-10-13T10:00:00.000Z",
+      "title": "Smitta",
+      "introduction": "Utforska temat Smitta och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-637",
+          "title": "Viral Katt",
+          "blurb": "Smitta — SCP-637-2 är en äldre vit kvinna på ungefär sextiofem (65) år som kallar sig \"Margie\".",
+          "url": "https://scp-nd.wikidot.com/sv:scp-637",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-444",
+          "title": "Den Globala Harmonins Språk",
+          "blurb": "Smitta — SCP-444 är ett språkligt förmedlat memetiskt virus.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-444",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-686",
+          "title": "Smittsam Mjölkavsöndring",
+          "blurb": "Smitta — SCP-686 är en opak vit vätska bestående av en suspension av lipider och proteiner som är oskiljbar från vanlig högkvalit…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-686",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-008",
+          "title": "Zombiepest",
+          "blurb": "Smitta — SCP-008 är en komplex prion, vars prover förvaras i varenda känd G2 anläggning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-008",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-149",
+          "title": "Blodflugorna",
+          "blurb": "Smitta — SCP-149 är en sorts mygga som bär på en stam av retrovirus (hädanefter kallad SCP-149-A) som muterar regenererande männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-149",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "Skadedjursguden",
+          "blurb": "Smitta — SCP-027 verkar vara ett fenomen av okänd källa som verkar vara kopplat till en mänsklig varelse (för närvarande 027-02) …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-027",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-081",
+          "title": "Spontan Förbränningsvirus",
+          "blurb": "Smitta — SCP-081 är ett smittsamt virus som verkar vara en muterad version av ███████-viruset, men med █-segment i sitt RNA istäl…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-081",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Osedd Mögel",
+          "blurb": "Smitta — SCP-020 är en snabbt spridande svamporganism som kan påverka sinnena och beteendet hos levande varelser, inklusive männi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-020",
+          "sourceTags": [
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-053",
+      "themeId": "infohazard",
+      "publishedAt": "2027-11-10T10:00:00.000Z",
+      "title": "Informationsfara",
+      "introduction": "Utforska temat Informationsfara och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-055",
+          "title": "SCP-055",
+          "blurb": "Informationsfara — SCP-055 är en “självbevarande hemlighet” eller “antimem”.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-055",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-074",
+          "title": "Kvant Gråsugga",
+          "blurb": "Informationsfara — SCP-074 är en anomal organism som använder olika kvant egenskaper i makroskopisk skala och på andra sätt modifierar fysi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-074",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-436",
+          "title": "Fellås",
+          "blurb": "Informationsfara — SCP-436 är ett litet medaljong, tydligen gjort av guld.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-436",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Ett Dåligt Upplägg",
+          "blurb": "Informationsfara — SCP-012 återfanns av arkeologen K.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-012",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-426",
+          "title": "Jag är en Brödrost",
+          "blurb": "Informationsfara — Hej, jag är SCP-426.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-426",
+          "sourceTags": [
+            "infohazard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-057",
+      "themeId": "regenerative",
+      "publishedAt": "2027-12-08T10:00:00.000Z",
+      "title": "Återbildning",
+      "introduction": "Utforska temat Återbildning och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-104",
+          "title": "Den Ensamma Bollen",
+          "blurb": "Återbildning — SCP-104 är en sfär, 35,5 cm (14 tum) runt och väger 2,3 kg (5 pund).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-104",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-127",
+          "title": "Den Levande Pistolen",
+          "blurb": "Återbildning — SCP-127, vid första anblicken, verkar vara en standard MP5K-PDW kulsprutepistol.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-127",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-006",
+          "title": "Ungdomens Källa",
+          "blurb": "Återbildning — SCP-006 är en mycket liten källa belägen 60 km väster om Astrakhan.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-006",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-135",
+          "title": "Universell Karcinogen",
+          "blurb": "Återbildning — SCP-135 är en människa, kvinnlig, mellan █ och ██ år gammal, som främjar snabb, okontrollerad celltillväxt inom en radie…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-135",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Svårförintad Reptil",
+          "blurb": "Återbildning — SCP-682 är en stor, vagt reptilliknande varelse av okänt ursprung.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-682",
+          "sourceTags": [
+            "regenerative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-061",
+      "themeId": "self_replicating",
+      "publishedAt": "2028-01-05T10:00:00.000Z",
+      "title": "Självreplikation",
+      "introduction": "Utforska temat Självreplikation och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-068",
+          "title": "Trådfiguren",
+          "blurb": "Självreplikation — SCP-068 är en streckfigur av ståltråd, 9,8 cm hög, gjord av en okänd metall.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-068",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-064",
+          "title": "Bristfällig von Neumann Struktur",
+          "blurb": "Självreplikation — SCP-064 är en ljusbrun lergodstegel som huvudsakligen består av kiseloxider och en del organiskt material.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-064",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-356",
+          "title": "Figurer På Stranden",
+          "blurb": "Självreplikation — 356 är en grupp figurer som går upp ur havet på East Point Beach vid solnedgång varje natt.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-356",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-072",
+          "title": "Vid Kanten På Sängen",
+          "blurb": "Självreplikation — Instanser på SCP-072 upptäcktes först i ett lägenhetshus i ████████, Michigan, efter att två lokala medierapporter om SC…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-072",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-009",
+          "title": "Röd Is",
+          "blurb": "Självreplikation — SCP-009 är ungefär ███ liter av ett ämne som ytligt sett liknar destillerat vatten (H2O), förutom med en distinkt klarrö…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-009",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-015",
+          "title": "Rör-mardröm",
+          "blurb": "Självreplikation — SCP-015 är en samling rör, ventiler, värmepannor och andra olika VVS-apparater som helt och hållet fyller ett varuhus i …",
+          "url": "https://scp-nd.wikidot.com/sv:scp-015",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-003",
+          "title": "Biologiskt Moderkort",
+          "blurb": "Självreplikation — SCP-003 består av två relaterade komponenter med separat ursprung, kallade SCP-003-1 och SCP-003-2.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-003",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Ödlekungen",
+          "blurb": "Självreplikation — SCP-088 är en humanoid med reptil liknande drag som verkar ha mumifierats i en slö hållning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-088",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-064",
+      "themeId": "artifact-euclid",
+      "publishedAt": "2028-01-26T10:00:00.000Z",
+      "title": "Föremål × Euclid",
+      "introduction": "Utforska temat Föremål × Euclid och jämför likheter och skillnader mellan dessa anomalier.",
+      "articles": [
+        {
+          "itemId": "scp-series-093",
+          "title": "Rött Sjö-Föremål",
+          "blurb": "Föremål × Euclid — SCP-093 är en huvudsakligen rödfärgad skiva med en diameter på 7,62 cm och är uthuggen ur ett stenslag som liknar cinnob…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-093",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-365",
+          "title": "Poolnudel",
+          "blurb": "Föremål × Euclid — SCP-365 är en grön poolnudel gjord av polyetenskum.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-365",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-101",
+          "title": "Hungrig Väska",
+          "blurb": "Föremål × Euclid — SCP-101 framstår som en skolväska eller väska av intermittent storlek, med observationer som sträcker sig från en öppnin…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-101",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-037",
+          "title": "Dvärgstjärna",
+          "blurb": "Föremål × Euclid — SCP-037 verkar vara en stjärna med en diameter på ungefär 5 cm (2 tum), med en ljusstyrka på cirka 1*10-12 gånger vår so…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-037",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-162",
+          "title": "Boll av vasst",
+          "blurb": "Föremål × Euclid — SCP-162 är en massa av fiskkrokar, fiskelinor, nålar, saxar och andra vassa föremål i en grov bollform med en bredd på n…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-162",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-251",
+          "title": "Den Missvisande Snögloben",
+          "blurb": "Föremål × Euclid — Ursprunget är okänt.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-251",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-436",
+          "title": "Fellås",
+          "blurb": "Föremål × Euclid — SCP-436 är ett litet medaljong, tydligen gjort av guld.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-436",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "De 12 Rostiga Nycklarna och Dörren",
+          "blurb": "Föremål × Euclid — SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-004",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
+    }
+  ]
+}

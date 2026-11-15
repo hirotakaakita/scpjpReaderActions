@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "th",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "รูปร่างมนุษย์",
+      "introduction": "สำรวจหัวข้อ รูปร่างมนุษย์ และเปรียบเทียบความเหมือนและความแตกต่างของสิ่งผิดปกติเหล่านี้",
+      "articles": [
+        {
+          "itemId": "scp-series-th-901",
+          "title": "เศียรยักษ์",
+          "blurb": "รูปร่างมนุษย์ — SCP-901-TH คือเศียรหัวยักษ์ที่มักเอาไว้ใช้สวมใส่ในการแสดงศิลปะ ทำจากกระดาษแข็งและทองเหลือง SCP-901-TH นั้นจะมีขนาดพอดีกั…",
+          "url": "http://scp-th.wikidot.com/scp-901-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-111",
+          "title": "นรก",
+          "blurb": "รูปร่างมนุษย์ — SCP-111-TH เป็นประตูที่ทำจากเหล็กที่ไม่ทราบชนิด สูงประมาณ 4.",
+          "url": "http://scp-th.wikidot.com/scp-111-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-996",
+          "title": "ไข่โลหิต",
+          "blurb": "รูปร่างมนุษย์ — SCP-996-TH ประกอบด้วยหลายส่วน คือ SCP-996-TH-1 เป็นศพชาวคอเคย์ซอย อายุ 38 สูง 169 ซม.",
+          "url": "http://scp-th.wikidot.com/scp-996-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-122",
+          "title": "เทพพิทักษ์เด็ก",
+          "blurb": "รูปร่างมนุษย์ — ตัวตนที่แท้จริงของ SCP-122-TH มีลักษณะเป็นหุ่นขี้ผึ้งที่เป็นเพียงรูปร่าง (ไม่มีหน้าตา ทรงผม เสื้อผ้า หรือเฉดสี) และอาจจะ…",
+          "url": "http://scp-th.wikidot.com/scp-122-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-655",
+          "title": "สาวหมวกแดง ยังคงสูญหายจนถึงปัจจุบัน",
+          "blurb": "รูปร่างมนุษย์ — SCP-655-TH เป็นเด็กวัยรุ่นเพศหญิงชาวเยอรมันอายุประมาณ ██ ถึง ██ ปี ผมสีบรอนทองสว่าง รูปร่างค่อนข้างผอม มีนัยน์ตาสีแดง จา…",
+          "url": "http://scp-th.wikidot.com/scp-655-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-222",
+          "title": "การพัฒนาสายพันธุ์มนุษย์",
+          "blurb": "รูปร่างมนุษย์ — SCP-222-TH เป็นอุโมงค์ใต้ดินขนาด ██ กิโลเมตร เมื่อเดินเข้าไปในอุโมงค์ได้ ██ กิโลเมตร จะพบกับเส้นทางไปห้องทดลองใต้ดินขนาด…",
+          "url": "http://scp-th.wikidot.com/scp-222-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-100",
+          "title": "ขุมนรกเรียลทาม",
+          "blurb": "รูปร่างมนุษย์ — SCP-100-TH เป็นภาพจิตรกรรมฝาผนังเก่าแก่ภายในอุโบสถร้างที่ตั้งอยู่ภายในป่าลึกในจังหวัด████████ ที่เล่าถึงเรื่องราวของขุมน…",
+          "url": "http://scp-th.wikidot.com/scp-100-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-798",
+          "title": "โศกนาฏกรรมในงานเลี้ยง",
+          "blurb": "รูปร่างมนุษย์ — SCP-798-TH เป็นชายชาวอังกฤษ อายุประมาณ 3█ ปี แต่งกายด้วยชุดสีดำทั้วตัว สวมหมวกปีก เสื้อคลุมสีดำ และถุงมือสีขาว ไม่มีข้อม…",
+          "url": "http://scp-th.wikidot.com/scp-798-th",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "ko",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "인간형",
+      "introduction": "「인간형」를 주제로 이 변칙들의 공통점과 차이점을 비교해 보세요.",
+      "articles": [
+        {
+          "itemId": "scp-series-ko-074",
+          "title": "너는 내가 아니야",
+          "blurb": "인간형 — SCP-074-KO는 20대 초반으로 보이는 아시아계 남성이다.",
+          "url": "https://scpko.wikidot.com/scp-074-ko",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-444",
+          "title": "무간지옥",
+          "blurb": "인간형 — 경고: SCP-444-KO는 치명적인 정보재해입니다.",
+          "url": "https://scpko.wikidot.com/scp-444-ko",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-174",
+          "title": "세종 mk.2",
+          "blurb": "인간형 — SCP-174-KO는 신장 7m, 무게 약 20t가량의 거대 인간형 개체와 그 부속품의 총칭이다.",
+          "url": "https://scpko.wikidot.com/scp-174-ko",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-529",
+          "title": "알루미늄맨의 마음은 언제나 분진화재로 뜨겁다",
+          "blurb": "인간형 — SCP-529-KO는 기원이 불분명한 인간형 독립체다.",
+          "url": "https://scpko.wikidot.com/scp-529-ko",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-1884",
+          "title": "미친ㅋㅋ 광릉왕모기 콘서트 직캠;;;",
+          "blurb": "인간형 — SCP-1884-KO는 변칙적 개조가 이루어진 광릉왕모기 (Toxorhynchites christophi) 3마리로, 각 개체는 SCP-1884-KO-1, -2, -3으로 지정되어 있다.",
+          "url": "https://scpko.wikidot.com/scp-1884-ko",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-1953",
+          "title": "마지막 요호",
+          "blurb": "인간형 — SCP-1953-KO는 신체의 일부(특히 귀와 꼬리뼈 부근)가 붉은 여우(Vulpes vulpes)의 특성을 가지고 있는 (본 문서 작성 시점 기준) 생후 1개월이 지난 여아이다.",
+          "url": "https://scpko.wikidot.com/scp-1953-ko",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-5031",
+          "title": "또 살인 괴물이야",
+          "blurb": "인간형 — SCP-5031은 기원이 알려지지 않은, 지성이 없는 유사 인간형 생물체이다.",
+          "url": "https://scpko.wikidot.com/scp-5031",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "흑사병 의사",
+          "blurb": "인간형 — SCP-049는 인간형 독립체로, 키는 대략 1.",
+          "url": "https://scpko.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

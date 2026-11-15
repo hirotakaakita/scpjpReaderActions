@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "ua",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Гуманоїд",
+      "introduction": "Дослідіть тему «Гуманоїд» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-3008",
+          "title": "Цілком нормальна звичайна стара \"IKEA\"",
+          "blurb": "Гуманоїд — SCP-3008 — це великий торговий центр, який належав \"IKEA\", популярній торговій мережі меблів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3008",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-078",
+          "title": "Homo charta rex animalium",
+          "blurb": "Гуманоїд — SCP-078-UA становить собою вид аномальним чином модифікованих гуманоїдів на основі Homo Sapiens Sapiens, наразі зафіксов…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-078-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-097",
+          "title": "Фантомний вчитель",
+          "blurb": "Гуманоїд — SCP-097-UA є гуманоїдною істотою, яка схожа на чоловіка віком 50-60 років.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-097-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-4999",
+          "title": "Той, хто спостерігає за тобою",
+          "blurb": "Гуманоїд — SCP-4999 - це гуманоїдна сутність невідомого походження, яка зовні нагадує чоловіка середнього віку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4999",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-113",
+          "title": "Сажотрус",
+          "blurb": "Гуманоїд — SCP-113-UA – це гуманоїдна істота, тіло якої сформоване з вигорілих решток та сажі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-113-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-080",
+          "title": "Свинособака",
+          "blurb": "Гуманоїд — SCP-080-UA являє собою хірургічно утворену химеру людини, Sus domestica та Canis lupus familiaris.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-080-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-049",
+          "title": "Здається… бог?…",
+          "blurb": "Гуманоїд — SCP-049-UA — це чоловік-європеоїд віком 40-50 років, хоча дехто описує його як монголоїда того ж віку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-049-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-039",
+          "title": "Бог допоможе",
+          "blurb": "Гуманоїд — SCP-039-UA — комплексна аномалія, що складається з двох елементів: спонтанно виникаючих оголошень про збір пожертв на лі…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-039-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

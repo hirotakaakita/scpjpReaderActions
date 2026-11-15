@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "el",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Ανθρωπόμορφα",
+      "introduction": "Εξερευνήστε το θέμα «Ανθρωπόμορφα» και συγκρίνετε τις ομοιότητες και τις διαφορές αυτών των ανωμαλιών.",
+      "articles": [
+        {
+          "itemId": "scp-series-014",
+          "title": "Ο Τσιμεντένιος Άνθρωπος",
+          "blurb": "Ανθρωπόμορφα — Το SCP-014 είναι ένας Καυκάσιος άντρας, που φαίνεται να είναι περίπου 30 ετών, με μαύρα μαλλιά, καφέ μάτια, και κάπως στ…",
+          "url": "https://scp-el.wikidot.com/scp-014",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Ο γέρος",
+          "blurb": "Ανθρωπόμορφα — Το SCP-106 φαίνεται να είναι ένα ηλικιωμένο ανθρωποειδές ον, με γενική εμφάνιση προχωρημένης αποσύνθεσης.",
+          "url": "https://scp-el.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1471",
+          "title": "MalO ver1.0.0",
+          "blurb": "Ανθρωπόμορφα — Το SCP-1471 είναι μια δωρεάν εφαρμογή μεγέθους 9.",
+          "url": "https://scp-el.wikidot.com/scp-1471",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-026",
+          "title": "Κράτηση σχολείου",
+          "blurb": "Ανθρωπόμορφα — Το SCP-026 είναι ένα τριώροφο (3) κτίριο δημόσιου σχολείου που χτίστηκε το ████.",
+          "url": "https://scp-el.wikidot.com/scp-026",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-011",
+          "title": "Το ζωντανό άγαλμα του Εμφυλίου Πολέμου",
+          "blurb": "Ανθρωπόμορφα — Το SCP-011 είναι το αναμνηστικό άγαλμα του Αμερικανικού Εμφυλίου πολέμου, που βρίσκεται στο Γούντστοκ, στο Βερμόντ.",
+          "url": "https://scp-el.wikidot.com/scp-011",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Ο Ντροπαλός",
+          "blurb": "Ανθρωπόμορφα — Το SCP-096 είναι ένα ανθρωποειδές πλάσμα με ύψος περίπου 2,38 μέτρα.",
+          "url": "https://scp-el.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-069",
+          "title": "Δεύτερη ευκαιρία",
+          "blurb": "Ανθρωπόμορφα — Το SCP-069 είναι μια υποθετικά ανθρωποειδής οντότητα με ποικίλα χαρακτηριστικά και φύλο.",
+          "url": "https://scp-el.wikidot.com/scp-069",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Ο Γιατρός της Πανούκλας",
+          "blurb": "Ανθρωπόμορφα — Το SCP-049 είναι μια ανθρωποειδής οντότητα, ύψους περίπου 1,9 μέτρων, που έχει την εμφάνιση ενός μεσαιωνικού γιατρού παν…",
+          "url": "https://scp-el.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

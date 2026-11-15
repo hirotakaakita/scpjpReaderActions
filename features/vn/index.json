@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "vn",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Hình người",
+      "introduction": "Khám phá chủ đề «Hình người» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "articles": [
+        {
+          "itemId": "scp-series-5935",
+          "title": "Máu và Cách Trái Tim Tôi Vụn Vỡ",
+          "blurb": "Hình người — SCP-5935 là một địa điểm ngoại không gian nằm bên trong một vùng có kích thước khoảng 0.",
+          "url": "https://scp-vn.wikidot.com/scp-5935",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-7000",
+          "title": "Kẻ Thất Bại",
+          "blurb": "Hình người — SCP-7000 là tình trạng tăng mức độ ngẫu nhiên của các nhân tố xác suất thông thường và các sự kiện bất ngờ dị thường thu…",
+          "url": "https://scp-vn.wikidot.com/scp-7000",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Bigfoot",
+          "blurb": "Hình người — SCP-1000 là một loài linh trưởng ăn tạp, sống về đêm, thuộc Tông Người cùng với các chi Người và Tinh tinh.",
+          "url": "https://scp-vn.wikidot.com/scp-1000",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-7987",
+          "title": "Game Thủ Cay Dái",
+          "blurb": "Hình người — SCP-7987 là một nam giới, 31 tuổi, thường xuyên stream chơi các game khác nhau trên nền tảng Twitch dưới tên người dùng …",
+          "url": "https://scp-vn.wikidot.com/scp-7987",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-5031",
+          "title": "Lại Một Con Quái Vật Giết Chóc Khác",
+          "blurb": "Hình người — SCP-5031 là một sinh vật nửa dạng người không có trí khôn và không rõ nguồn gốc.",
+          "url": "https://scp-vn.wikidot.com/scp-5031",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "\"Gã Ngại Ngùng\"",
+          "blurb": "Hình người — SCP-096 là một sinh vật dạng người có chiều cao khoảng 2.",
+          "url": "https://scp-vn.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-3213",
+          "title": "Con đĩ mẹ mày, Carl!",
+          "blurb": "Hình người — SCP-3213 là một người đàn ông 44 tuổi tên Carl Prosser.",
+          "url": "https://scp-vn.wikidot.com/scp-3213",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-6101",
+          "title": "SCP Mạnh Nhất",
+          "blurb": "Hình người — SCP-6101 là SCP mạnh nhất.",
+          "url": "https://scp-vn.wikidot.com/scp-6101",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

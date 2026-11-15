@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "ar",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "بشري الشكل",
+      "introduction": "استكشف موضوع «بشري الشكل» وقارن أوجه التشابه والاختلاف بين هذه الظواهر الشاذة.",
+      "articles": [
+        {
+          "itemId": "scp-series-106",
+          "title": "الرجل العجوز",
+          "blurb": "بشري الشكل — يبدو أن SCP-106 هو إنسان مسن ، مع مظهر عام للتحلل المتقدم.",
+          "url": "https://scp-ar.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-321",
+          "title": "طفل الانسان",
+          "blurb": "بشري الشكل — SCP-321 أنثى بشرية ولدت في 4 يوليو 18.",
+          "url": "https://scp-ar.wikidot.com/scp-321",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "الشخص الظل",
+          "blurb": "بشري الشكل — SCP-017 هو عبارة عن شكل بشري يبلغ ارتفاعه حوالي 80 سم ، وهو مشابه من الناحية التشريحية لطفل صغير ، ولكن بدون ميزات تعريف…",
+          "url": "https://scp-ar.wikidot.com/scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"قابيل\"",
+          "blurb": "بشري الشكل — يبدو أن SCP-073 هو ذكر ذو سمرة كثيفة من أصل عربي أو شرق أوسطي في أوائل الثلاثينيات من عمره ، وطوله 185 سم (6 أقدام و 1 ب…",
+          "url": "https://scp-ar.wikidot.com/scp-073",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-203",
+          "title": "الروح الحديدية المعذبة",
+          "blurb": "بشري الشكل — يبدو أن SCP-203 كان في وقت ما ذكرًا بشريًا قوقازيًا في عمر غير محدد.",
+          "url": "https://scp-ar.wikidot.com/scp-203",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"هابيل\"",
+          "blurb": "بشري الشكل — يتكون SCP-076 من مكونين: مكعب حجري (SCP-076-1) وكيان بشري موجود داخل (SCP-076-2).",
+          "url": "https://scp-ar.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "فتاة صغيرة",
+          "blurb": "بشري الشكل — SCP-053 رقم الصنف: SCP-053 فئة الكائن: إقليدس إجراءات الاحتواء الخاصة: يجب احتواء SCP-053 في مساحة لا تقل عن 5 م × 5 م (…",
+          "url": "https://scp-ar.wikidot.com/scp-053",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-069",
+          "title": "فرصة ثانية",
+          "blurb": "بشري الشكل — SCP-069 هو كيان بشري مفترض ذو مظهر وجنس متغيرين.",
+          "url": "https://scp-ar.wikidot.com/scp-069",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+name: Weekly Features
+on:
+  schedule:
+    # Wednesday 19:00 JST. Follow-up runs recover pre-send failures without duplicates.
+    - cron: '0,15,30,45 10 * * 3'
+  workflow_dispatch:
+    inputs:
+      recovery_delivery:
+        description: 'Unresolved feature delivery ID; blank for normal publication'
+        type: string
+        default: ''
+      recovery_action:
+        type: choice
+        options: [sent, retry]
+        default: sent
+      recovery_reason:
+        type: string
+        default: ''
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: scp-data-update
+      cancel-in-progress: false
+      queue: max
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: master
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: node --test test/weekly-features.test.js test/notifications.test.js test/notification-branches.test.js
+        env:
+          FEATURE_PUBLICATION_RUN: '1'
+      - name: Configure checkpoints
+        run: |
+          git config user.name 'SCP Feature Bot'
+          git config user.email 'scp-features@github-actions.bot'
+      - name: Publish updated features and queue only changed languages
+        if: inputs.recovery_delivery == ''
+        run: |
+          node publish-weekly-features.js
+          git add features/ local-data/feature-notification-queue.json
+          if ! git diff --staged --quiet; then
+            git commit -m 'Publish weekly features'
+            git push origin HEAD:master
+          fi
+      - name: Recover unresolved feature notification
+        if: inputs.recovery_delivery != ''
+        env:
+          RECOVERY_DELIVERY: ${{ inputs.recovery_delivery }}
+          RECOVERY_ACTION: ${{ inputs.recovery_action }}
+          RECOVERY_REASON: ${{ inputs.recovery_reason }}
+        run: |
+          node -e "const p=require('path');require('./recover-notification').recover({queuePath:p.resolve('local-data/feature-notification-queue.json'),ledgerPath:p.resolve('local-data/feature-notification-deliveries.json'),id:process.env.RECOVERY_DELIVERY,action:process.env.RECOVERY_ACTION,reason:process.env.RECOVERY_REASON}).catch(e=>{console.error(e);process.exitCode=1})"
+      - name: Deliver feature notifications with durable receipts
+        if: inputs.recovery_delivery == ''
+        run: node send-feature-notifications.js
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+      - uses: actions/upload-artifact@v7
+        if: failure()
+        with:
+          name: feature-notification-recovery-${{ github.run_id }}
+          path: local-data/feature-notification-deliveries.json
+          if-no-files-found: ignore

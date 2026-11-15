@@ -1,0 +1,2186 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Emberalak",
+      "introduction": "Fedezze fel a(z) „Emberalak” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-hu-056",
+          "title": "A Művészi Látás",
+          "blurb": "Emberalak — SCP-056-HU egy pszichológiai betegség, melyet először a főként magyar lakta ██████ területen leltek fel.",
+          "url": "https://scp-hu.wikidot.com/scp-056-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-012",
+          "title": "Acélkirálynő",
+          "blurb": "Emberalak — SCP-012-HU Wittelsbach Erzsébet magyar királyné és osztrák császárné gépi másolata.",
+          "url": "https://scp-hu.wikidot.com/scp-012-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-026",
+          "title": "Egy Kemény Férfi",
+          "blurb": "Emberalak — SCP-026-HU, korábbi nevén Szabadfi Krisztián passzív állapotban egy átlagos ember férfi.",
+          "url": "https://scp-hu.wikidot.com/scp-026-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-090",
+          "title": "A Szürreális ember",
+          "blurb": "Emberalak — SCP-090-HU egy 1,8 méter magas és 35 év körüli kaukázusi férfi.",
+          "url": "https://scp-hu.wikidot.com/scp-090-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-990",
+          "title": "Álom Ember",
+          "blurb": "Emberalak — SCP-990 általában egy hidegháborús időszakban viselt üzleti öltönybe öltözött férfi, aki álmokban jelenik meg az Alapítv…",
+          "url": "https://scp-hu.wikidot.com/scp-990",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "\"Írisz\"",
+          "blurb": "Emberalak — SCP-105 (korábban Iris Thompson) egy európai származású emberi nő.",
+          "url": "https://scp-hu.wikidot.com/scp-105",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-020",
+          "title": "Nevess és a világ veled nevet majd",
+          "blurb": "Emberalak — SCP-020-HU egy emberszerű entitás, amely ████████ területén lett felfedezve.",
+          "url": "https://scp-hu.wikidot.com/scp-020-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Emberalak — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "humanoid-biological",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Emberalak × Biológia",
+      "introduction": "Fedezze fel a(z) „Emberalak × Biológia” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-030",
+          "title": "A Homunkulusz",
+          "blurb": "Emberalak × Biológia — SCP-030 ránézésre egy szőrtelen, nemtelen, szürke színű emberként jellemezhető, mi 71 centiméter magas és 12,70 kilogram…",
+          "url": "https://scp-hu.wikidot.com/scp-030",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-082",
+          "title": "\"Fernand\" A Kannibál",
+          "blurb": "Emberalak × Biológia — SCP-082 genetikailag ember; azonban valamilyen (kémiai, hormonális, daganatos vagy természetfeletti) folyamat révén SCP-…",
+          "url": "https://scp-hu.wikidot.com/scp-082",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Emberalak × Biológia — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Emberalak × Biológia — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Káin\"",
+          "blurb": "Emberalak × Biológia — SCP-073 arab vagy közel-keleti származású, erősen cserzett férfinak tűnik a harmincas évei elején, 185 cm (6'1\") magas é…",
+          "url": "https://scp-hu.wikidot.com/scp-073",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-507",
+          "title": "Visszatérő Dimenzió Ugró",
+          "blurb": "Emberalak × Biológia — SCP-507 egy kaukázusi, szőke hajú és zöld szemű férfi, aki a némi túlsúlyon és vitatható eredetű akcentuson kívül, más k…",
+          "url": "https://scp-hu.wikidot.com/scp-507",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Isten\"",
+          "blurb": "Emberalak × Biológia — SCP-343 egy kinézetre rassz nélküli férfi humanoid, aki látszólag mindenható képességekkel rendelkezik.",
+          "url": "https://scp-hu.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Emberalak × Biológia — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "humanoid-sentient",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Emberalak × Értelem",
+      "introduction": "Fedezze fel a(z) „Emberalak × Értelem” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-053",
+          "title": "Fiatal Lány",
+          "blurb": "Emberalak × Értelem — SCP-053 külseje megegyezik egy 3 éves kislányéval.",
+          "url": "https://scp-hu.wikidot.com/scp-053",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-011",
+          "title": "Érző Polgárháborús Emlékmű",
+          "blurb": "Emberalak × Értelem — SCP-011 egy polgárháborús emlékszobor Woodstock-ban,Vermont államban.",
+          "url": "https://scp-hu.wikidot.com/scp-011",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Pestisdoktor",
+          "blurb": "Emberalak × Értelem — SCP-049 egy 1,9 méter magas humanoid lény, mely külalakja hasonlít egy középkori pestisdoktoréhoz.",
+          "url": "https://scp-hu.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-014",
+          "title": "A Beton Ember",
+          "blurb": "Emberalak × Értelem — SCP-014 egy fehérbőrű férfi, az életkora körülbelül 30.",
+          "url": "https://scp-hu.wikidot.com/scp-014",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-056",
+          "title": "Egy Gyönyörű Személy",
+          "blurb": "Emberalak × Értelem — SCP-056 változó méretű, nemű, és kinézetű lény, mely ezen tulajdonságai a környezetétől, különösen a körülötte lévő érző…",
+          "url": "https://scp-hu.wikidot.com/scp-056",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-032",
+          "title": "Testvér Menyasszonya",
+          "blurb": "Emberalak × Értelem — SCP-032 jelenleg egy ismeretlen eredetű F típusú (tökéletlen külső hasonlóságú, belsőleg inkonzisztens) emberi hasonmás.",
+          "url": "https://scp-hu.wikidot.com/scp-032",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-114",
+          "title": "Konfliktushozó",
+          "blurb": "Emberalak × Értelem — SCP-114 egy afgán származású Pashtun nő, ki körülbelül 40 éves és 160 cm magas.",
+          "url": "https://scp-hu.wikidot.com/scp-114",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Nagyláb",
+          "blurb": "Emberalak × Értelem — SCP-1000 egy éjszakai, mindenevő majom, amely a Hominini ágba tartozik, a Pan és Homo nemzetségekkel együtt.",
+          "url": "https://scp-hu.wikidot.com/scp-1000",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-004",
+      "themeId": "sentient-biological",
+      "publishedAt": "2026-12-02T10:00:00.000Z",
+      "title": "Értelem × Biológia",
+      "introduction": "Fedezze fel a(z) „Értelem × Biológia” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-016",
+          "title": "Értelmes Mikroorganizmus",
+          "blurb": "Értelem × Biológia — SCP-016 egy vérrel terjedő patogén, melyet egy █████-beli bányászból mutattak ki, aki egy mélyművelésű szénbányában munk…",
+          "url": "https://scp-hu.wikidot.com/scp-016",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "A Szörnyfazék",
+          "blurb": "Értelem × Biológia — SCP-019 egy nagy agyagváza kinézetével rendelkezik, szájának átmérője 1.",
+          "url": "https://scp-hu.wikidot.com/scp-019",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "A Sötétség Szíve",
+          "blurb": "Értelem × Biológia — SCP-058 egy szarvasmarhaszívhez hasonlító lény, amely négy nagyméretű, főleg járásra használt ízelt lábbal, valamint nég…",
+          "url": "https://scp-hu.wikidot.com/scp-058",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Nehezen Elpusztítható Hüllő",
+          "blurb": "Értelem × Biológia — SCP-682 egy nagy, hüllőszerű, ismeretlen eredetű lény.",
+          "url": "https://scp-hu.wikidot.com/scp-682",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Mi a Szerelem?",
+          "blurb": "Értelem × Biológia — SCP-031 egy amorf organizmus, ami több mint 7500 kilogrammnyi tömeggel bír, és beépült az épület csővezetékhálózatába, i…",
+          "url": "https://scp-hu.wikidot.com/scp-031",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-999",
+          "title": "A Csikiszörny",
+          "blurb": "Értelem × Biológia — SCP-999 amorf, zselés, áttetsző narancssárga masszából áll.",
+          "url": "https://scp-hu.wikidot.com/scp-999",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "\"Írisz\"",
+          "blurb": "Értelem × Biológia — SCP-105 (korábban Iris Thompson) egy európai származású emberi nő.",
+          "url": "https://scp-hu.wikidot.com/scp-105",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-082",
+          "title": "\"Fernand\" A Kannibál",
+          "blurb": "Értelem × Biológia — SCP-082 genetikailag ember; azonban valamilyen (kémiai, hormonális, daganatos vagy természetfeletti) folyamat révén SCP-…",
+          "url": "https://scp-hu.wikidot.com/scp-082",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-005",
+      "themeId": "sentient",
+      "publishedAt": "2026-12-09T10:00:00.000Z",
+      "title": "Értelem",
+      "introduction": "Fedezze fel a(z) „Értelem” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-050",
+          "title": "A Legokosabbnak",
+          "blurb": "Értelem — SCP-050 egy könyvet olvasó majom szobornak tűnik ami, körülbelül 1 láb3magas.",
+          "url": "https://scp-hu.wikidot.com/scp-050",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-250",
+          "title": "Egy Allosaurus Nagy Része",
+          "blurb": "Értelem — SCP-250 egy allosaurus élő, fosszilis csontváza (eredetileg Allosaurus fragilis-ként lett beazonosítva; azonban Dr █████…",
+          "url": "https://scp-hu.wikidot.com/scp-250",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-131",
+          "title": "A \"Szemgolyók\"",
+          "blurb": "Értelem — SCP-131-A és SCP-131-B (személyzet által \"Szemgolyóknak\" becézve) egy pár, könnycsepp-alakú előlények, nagyjából 30 cm (…",
+          "url": "https://scp-hu.wikidot.com/scp-131",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1503",
+          "title": "Agórafóbiás Szikla",
+          "blurb": "Értelem — SCP-1503 egy teljesen kőből készült tudatos entitás, amit az Ungaran-hegy déli oldalán Közép-Jávában, Indonéziában fedez…",
+          "url": "https://scp-hu.wikidot.com/scp-1503",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-015",
+          "title": "Cső Rémálom",
+          "blurb": "Értelem — SCP-015 egy csövekből, szellőzőkből, bojlerekből és egyéb vízvezeték-technikai elemekből álló massza, amely teljesen meg…",
+          "url": "https://scp-hu.wikidot.com/scp-015",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Ahová A Sárkányok Mentek",
+          "blurb": "Értelem — SCP-1762-1 egy közönséges kartonpapír doboz, melynek méretei 32 cm x 20 cm x 26 cm.",
+          "url": "https://scp-hu.wikidot.com/scp-1762",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-079",
+          "title": "Régi MI",
+          "blurb": "Értelem — SCP-079 egy 1978-ban készült Exidy Sorcerer típusú mikroszámítógép.",
+          "url": "https://scp-hu.wikidot.com/scp-079",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-043",
+          "title": "A Beatles",
+          "blurb": "Értelem — Úgy tűnik, hogy SCP-043 a Beatles \"A Fehér Album\" bakelit másolata; közelebbről megvizsgálva azonban a lemezen nincsenek…",
+          "url": "https://scp-hu.wikidot.com/scp-043",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-006",
+      "themeId": "mind_affecting-biological",
+      "publishedAt": "2026-12-16T10:00:00.000Z",
+      "title": "Elmebefolyásolás × Biológia",
+      "introduction": "Fedezze fel a(z) „Elmebefolyásolás × Biológia” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-003",
+          "title": "Biológiai Alaplap",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-003 kettő különböző eredetű, egymáshoz kapcsolt tárgyból áll, melyekre SCP-003-1-ként, illetve SCP-003-2-ként hivatk…",
+          "url": "https://scp-hu.wikidot.com/scp-003",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Észrevétlen Penész",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-020 egy gyorsan szaporodó gombafaj, mely képes befolyásolni más élőlények érzékelését és viselkedését, beleértve az …",
+          "url": "https://scp-hu.wikidot.com/scp-020",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-610",
+          "title": "A Hús mely Gyűlöl",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-610-ről a kezdeti jelentések közvetlenül az orosz kormánytól érkeztek lekövethetetlen csatornákon keresztül.",
+          "url": "https://scp-hu.wikidot.com/scp-610",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Fiatal Lány",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-053 külseje megegyezik egy 3 éves kislányéval.",
+          "url": "https://scp-hu.wikidot.com/scp-053",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Isten\"",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-343 egy kinézetre rassz nélküli férfi humanoid, aki látszólag mindenható képességekkel rendelkezik.",
+          "url": "https://scp-hu.wikidot.com/scp-343",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-114",
+          "title": "Konfliktushozó",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-114 egy afgán származású Pashtun nő, ki körülbelül 40 éves és 160 cm magas.",
+          "url": "https://scp-hu.wikidot.com/scp-114",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Elmebefolyásolás × Biológia — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-007",
+      "themeId": "humanoid-mind_affecting",
+      "publishedAt": "2026-12-23T10:00:00.000Z",
+      "title": "Emberalak × Elmebefolyásolás",
+      "introduction": "Fedezze fel a(z) „Emberalak × Elmebefolyásolás” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-026",
+          "title": "Iskolautáni Visszatérés",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-026 egy háromszintes állami iskolaépület ami ████████ lett építve.",
+          "url": "https://scp-hu.wikidot.com/scp-026",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1348",
+          "title": "Belső Szentély",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-1348 egy módosított barlangkomplexum, amely 81 kilométerré található a szíriai El Taebahtól, a Jabal al-Druze hegysé…",
+          "url": "https://scp-hu.wikidot.com/scp-1348",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Az Akasztott Király Tragédiája",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-701, Az Akasztott Király Tragédiája, egy I.",
+          "url": "https://scp-hu.wikidot.com/scp-701",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-056",
+          "title": "Egy Gyönyörű Személy",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-056 változó méretű, nemű, és kinézetű lény, mely ezen tulajdonságai a környezetétől, különösen a körülötte lévő érző…",
+          "url": "https://scp-hu.wikidot.com/scp-056",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Isten\"",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-343 egy kinézetre rassz nélküli férfi humanoid, aki látszólag mindenható képességekkel rendelkezik.",
+          "url": "https://scp-hu.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-114",
+          "title": "Konfliktushozó",
+          "blurb": "Emberalak × Elmebefolyásolás — SCP-114 egy afgán származású Pashtun nő, ki körülbelül 40 éves és 160 cm magas.",
+          "url": "https://scp-hu.wikidot.com/scp-114",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-008",
+      "themeId": "sentient-hostile",
+      "publishedAt": "2026-12-30T10:00:00.000Z",
+      "title": "Értelem × Ellenségesség",
+      "introduction": "Fedezze fel a(z) „Értelem × Ellenségesség” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Értelem × Ellenségesség — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Értelem × Ellenségesség — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Nehezen Elpusztítható Hüllő",
+          "blurb": "Értelem × Ellenségesség — SCP-682 egy nagy, hüllőszerű, ismeretlen eredetű lény.",
+          "url": "https://scp-hu.wikidot.com/scp-682",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "A Sötétség Szíve",
+          "blurb": "Értelem × Ellenségesség — SCP-058 egy szarvasmarhaszívhez hasonlító lény, amely négy nagyméretű, főleg járásra használt ízelt lábbal, valamint nég…",
+          "url": "https://scp-hu.wikidot.com/scp-058",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Mi a Szerelem?",
+          "blurb": "Értelem × Ellenségesség — SCP-031 egy amorf organizmus, ami több mint 7500 kilogrammnyi tömeggel bír, és beépült az épület csővezetékhálózatába, i…",
+          "url": "https://scp-hu.wikidot.com/scp-031",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "A Szörnyfazék",
+          "blurb": "Értelem × Ellenségesség — SCP-019 egy nagy agyagváza kinézetével rendelkezik, szájának átmérője 1.",
+          "url": "https://scp-hu.wikidot.com/scp-019",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-010",
+      "themeId": "humanoid-hostile",
+      "publishedAt": "2027-01-13T10:00:00.000Z",
+      "title": "Emberalak × Ellenségesség",
+      "introduction": "Fedezze fel a(z) „Emberalak × Ellenségesség” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-1111",
+          "title": "A Fehér Kutya",
+          "blurb": "Emberalak × Ellenségesség — SCP-1111-1 egy Canis familiaris megjelenéséhez hasonló entitás, mely közismertebb nevén a házi kutya.",
+          "url": "https://scp-hu.wikidot.com/scp-1111",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Árny Ember",
+          "blurb": "Emberalak × Ellenségesség — 80cm magas humanoid lény, mely anatómiailag hasonlít egy kisgyermekhez, azonban nem rendelkezik megfigyelhető külső jegy…",
+          "url": "https://scp-hu.wikidot.com/scp-017",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Emberalak × Ellenségesség — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Emberalak × Ellenségesség — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Emberalak × Ellenségesség — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-011",
+      "themeId": "biological-infectious",
+      "publishedAt": "2027-01-20T10:00:00.000Z",
+      "title": "Biológia × Fertőzés",
+      "introduction": "Fedezze fel a(z) „Biológia × Fertőzés” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-008",
+          "title": "Zombi Pestis",
+          "blurb": "Biológia × Fertőzés — SCP-008 egy összetett prion, melyből minden egyes ismert G2-es telephelyen tárolnak mintákat.",
+          "url": "https://scp-hu.wikidot.com/scp-008",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "A Csúszómászó Isten",
+          "blurb": "Biológia × Fertőzés — Úgy tűnik, hogy SCP-027 egy ismeretlen forrásból származó jelenség, mely egyszerre csak egy emberi alanyhoz (jelenleg 02…",
+          "url": "https://scp-hu.wikidot.com/scp-027",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-1801",
+          "title": "Megosztott Betegség",
+          "blurb": "Biológia × Fertőzés — SCP-1801 egy fertőző szindróma, amely úgy tűnik, hogy olyan ágens komplexumokon keresztül terjed, amelyek elszigetelten …",
+          "url": "https://scp-hu.wikidot.com/scp-1801",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Értelmes Mikroorganizmus",
+          "blurb": "Biológia × Fertőzés — SCP-016 egy vérrel terjedő patogén, melyet egy █████-beli bányászból mutattak ki, aki egy mélyművelésű szénbányában munk…",
+          "url": "https://scp-hu.wikidot.com/scp-016",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Pestisdoktor",
+          "blurb": "Biológia × Fertőzés — SCP-049 egy 1,9 méter magas humanoid lény, mely külalakja hasonlít egy középkori pestisdoktoréhoz.",
+          "url": "https://scp-hu.wikidot.com/scp-049",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-610",
+          "title": "A Hús mely Gyűlöl",
+          "blurb": "Biológia × Fertőzés — SCP-610-ről a kezdeti jelentések közvetlenül az orosz kormánytól érkeztek lekövethetetlen csatornákon keresztül.",
+          "url": "https://scp-hu.wikidot.com/scp-610",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Észrevétlen Penész",
+          "blurb": "Biológia × Fertőzés — SCP-020 egy gyorsan szaporodó gombafaj, mely képes befolyásolni más élőlények érzékelését és viselkedését, beleértve az …",
+          "url": "https://scp-hu.wikidot.com/scp-020",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-012",
+      "themeId": "sentient-mind_affecting",
+      "publishedAt": "2027-01-27T10:00:00.000Z",
+      "title": "Értelem × Elmebefolyásolás",
+      "introduction": "Fedezze fel a(z) „Értelem × Elmebefolyásolás” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-955",
+          "title": "Mr. Butusbogár",
+          "blurb": "Értelem × Elmebefolyásolás — SCP-955 egy ízeltlábúakhoz hasonló szárazföldi élőlényfaj, amely az Észak-Amerikai mérsékelt övi területeken őshonos.",
+          "url": "https://scp-hu.wikidot.com/scp-955",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-035",
+          "title": "Megszálló Maszk",
+          "blurb": "Értelem × Elmebefolyásolás — SCP-035 egy fehér színű porcelán maszk ami egy komikus és egy tragikus arc között váltogat.",
+          "url": "https://scp-hu.wikidot.com/scp-035",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Fiatal Lány",
+          "blurb": "Értelem × Elmebefolyásolás — SCP-053 külseje megegyezik egy 3 éves kislányéval.",
+          "url": "https://scp-hu.wikidot.com/scp-053",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-056",
+          "title": "Egy Gyönyörű Személy",
+          "blurb": "Értelem × Elmebefolyásolás — SCP-056 változó méretű, nemű, és kinézetű lény, mely ezen tulajdonságai a környezetétől, különösen a körülötte lévő érző…",
+          "url": "https://scp-hu.wikidot.com/scp-056",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-114",
+          "title": "Konfliktushozó",
+          "blurb": "Értelem × Elmebefolyásolás — SCP-114 egy afgán származású Pashtun nő, ki körülbelül 40 éves és 160 cm magas.",
+          "url": "https://scp-hu.wikidot.com/scp-114",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Értelem × Elmebefolyásolás — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-015",
+      "themeId": "biological-hostile",
+      "publishedAt": "2027-02-17T10:00:00.000Z",
+      "title": "Biológia × Ellenségesség",
+      "introduction": "Fedezze fel a(z) „Biológia × Ellenségesség” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-682",
+          "title": "Nehezen Elpusztítható Hüllő",
+          "blurb": "Biológia × Ellenségesség — SCP-682 egy nagy, hüllőszerű, ismeretlen eredetű lény.",
+          "url": "https://scp-hu.wikidot.com/scp-682",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "A Szörnyfazék",
+          "blurb": "Biológia × Ellenségesség — SCP-019 egy nagy agyagváza kinézetével rendelkezik, szájának átmérője 1.",
+          "url": "https://scp-hu.wikidot.com/scp-019",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Mi a Szerelem?",
+          "blurb": "Biológia × Ellenségesség — SCP-031 egy amorf organizmus, ami több mint 7500 kilogrammnyi tömeggel bír, és beépült az épület csővezetékhálózatába, i…",
+          "url": "https://scp-hu.wikidot.com/scp-031",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "A Sötétség Szíve",
+          "blurb": "Biológia × Ellenségesség — SCP-058 egy szarvasmarhaszívhez hasonlító lény, amely négy nagyméretű, főleg járásra használt ízelt lábbal, valamint nég…",
+          "url": "https://scp-hu.wikidot.com/scp-058",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Biológia × Ellenségesség — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Biológia × Ellenségesség — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-016",
+      "themeId": "hostile-keter",
+      "publishedAt": "2027-02-24T10:00:00.000Z",
+      "title": "Ellenségesség × Keter",
+      "introduction": "Fedezze fel a(z) „Ellenségesség × Keter” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-017",
+          "title": "Árny Ember",
+          "blurb": "Ellenségesség × Keter — 80cm magas humanoid lény, mely anatómiailag hasonlít egy kisgyermekhez, azonban nem rendelkezik megfigyelhető külső jegy…",
+          "url": "https://scp-hu.wikidot.com/scp-017",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Ellenségesség × Keter — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Nehezen Elpusztítható Hüllő",
+          "blurb": "Ellenségesség × Keter — SCP-682 egy nagy, hüllőszerű, ismeretlen eredetű lény.",
+          "url": "https://scp-hu.wikidot.com/scp-682",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "A Szörnyfazék",
+          "blurb": "Ellenségesség × Keter — SCP-019 egy nagy agyagváza kinézetével rendelkezik, szájának átmérője 1.",
+          "url": "https://scp-hu.wikidot.com/scp-019",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "A Sötétség Szíve",
+          "blurb": "Ellenségesség × Keter — SCP-058 egy szarvasmarhaszívhez hasonlító lény, amely négy nagyméretű, főleg járásra használt ízelt lábbal, valamint nég…",
+          "url": "https://scp-hu.wikidot.com/scp-058",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Ellenségesség × Keter — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Ellenségesség × Keter — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-017",
+      "themeId": "mind_affecting",
+      "publishedAt": "2027-03-03T10:00:00.000Z",
+      "title": "Elmebefolyásolás",
+      "introduction": "Fedezze fel a(z) „Elmebefolyásolás” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-1890",
+          "title": "A Családi Fotó Album",
+          "blurb": "Elmebefolyásolás — SCP-1890 egy kis fotóalbum, amely úgy tűnik, mintha a 19.",
+          "url": "https://scp-hu.wikidot.com/scp-1890",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-475",
+          "title": "A Pápa Szappanja",
+          "blurb": "Elmebefolyásolás — SCP-475 egy díszes szappanszobor, amely egy azonosítatlan pápát ábrázol.",
+          "url": "https://scp-hu.wikidot.com/scp-475",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-061",
+          "title": "Hangalapú Agykontroll",
+          "blurb": "Elmebefolyásolás — SCP-061 egy akusztikus számítógépes program, melyet az SCP Alapítvány kutatói fejlesztenek a világszerte különböző kormá…",
+          "url": "https://scp-hu.wikidot.com/scp-061",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Blue Lady Cigaretták",
+          "blurb": "Elmebefolyásolás — SCP-013 egy kollektív elnevezés, mely 242 cigarettát jelöl.",
+          "url": "https://scp-hu.wikidot.com/scp-013",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-028",
+          "title": "Tudás",
+          "blurb": "Elmebefolyásolás — SCP-028 egy elhagyatott raktár udvarában található, egy rézbánya mellett, Észak-Michiganben.",
+          "url": "https://scp-hu.wikidot.com/scp-028",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Egy Rossz Szerzemény",
+          "blurb": "Elmebefolyásolás — Sandoval nevű archeológus egy vihar által nemrég elpusztított észak-itáliai kripta feltárása során találta.",
+          "url": "https://scp-hu.wikidot.com/scp-012",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "A 12 Rozsdás Kulcs és az Ajtó",
+          "blurb": "Elmebefolyásolás — SCP-004 egy régi fa istállóajtóból(SCP-004-1), és tizenkettő rozsdás kulcsból áll(SCP-004-2-től SCP-004-13-ig).",
+          "url": "https://scp-hu.wikidot.com/scp-004",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-010",
+          "title": "Az Irányitás Nyakörvei",
+          "blurb": "Elmebefolyásolás — SCP-010 hat (6) egyező küllemű öntöttvas nyakörv, számozott fém címkékkel, és egy (1) távirányítóval.",
+          "url": "https://scp-hu.wikidot.com/scp-010",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-018",
+      "themeId": "biological-keter",
+      "publishedAt": "2027-03-10T10:00:00.000Z",
+      "title": "Biológia × Keter",
+      "introduction": "Fedezze fel a(z) „Biológia × Keter” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-1512",
+          "title": "Irracionális Gyök(ér)",
+          "blurb": "Biológia × Keter — SCP-1512 egy jelenleg nagyjából 80000 tonna tömegű, gyökérszerű szerves képződmény.",
+          "url": "https://scp-hu.wikidot.com/scp-1512",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Nagyláb",
+          "blurb": "Biológia × Keter — SCP-1000 egy éjszakai, mindenevő majom, amely a Hominini ágba tartozik, a Pan és Homo nemzetségekkel együtt.",
+          "url": "https://scp-hu.wikidot.com/scp-1000",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1801",
+          "title": "Megosztott Betegség",
+          "blurb": "Biológia × Keter — SCP-1801 egy fertőző szindróma, amely úgy tűnik, hogy olyan ágens komplexumokon keresztül terjed, amelyek elszigetelten …",
+          "url": "https://scp-hu.wikidot.com/scp-1801",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-610",
+          "title": "A Hús mely Gyűlöl",
+          "blurb": "Biológia × Keter — SCP-610-ről a kezdeti jelentések közvetlenül az orosz kormánytól érkeztek lekövethetetlen csatornákon keresztül.",
+          "url": "https://scp-hu.wikidot.com/scp-610",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Észrevétlen Penész",
+          "blurb": "Biológia × Keter — SCP-020 egy gyorsan szaporodó gombafaj, mely képes befolyásolni más élőlények érzékelését és viselkedését, beleértve az …",
+          "url": "https://scp-hu.wikidot.com/scp-020",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Értelmes Mikroorganizmus",
+          "blurb": "Biológia × Keter — SCP-016 egy vérrel terjedő patogén, melyet egy █████-beli bányászból mutattak ki, aki egy mélyművelésű szénbányában munk…",
+          "url": "https://scp-hu.wikidot.com/scp-016",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "A Sötétség Szíve",
+          "blurb": "Biológia × Keter — SCP-058 egy szarvasmarhaszívhez hasonlító lény, amely négy nagyméretű, főleg járásra használt ízelt lábbal, valamint nég…",
+          "url": "https://scp-hu.wikidot.com/scp-058",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Biológia × Keter — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-019",
+      "themeId": "sentient-keter",
+      "publishedAt": "2027-03-17T10:00:00.000Z",
+      "title": "Értelem × Keter",
+      "introduction": "Fedezze fel a(z) „Értelem × Keter” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-990",
+          "title": "Álom Ember",
+          "blurb": "Értelem × Keter — SCP-990 általában egy hidegháborús időszakban viselt üzleti öltönybe öltözött férfi, aki álmokban jelenik meg az Alapítv…",
+          "url": "https://scp-hu.wikidot.com/scp-990",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-035",
+          "title": "Megszálló Maszk",
+          "blurb": "Értelem × Keter — SCP-035 egy fehér színű porcelán maszk ami egy komikus és egy tragikus arc között váltogat.",
+          "url": "https://scp-hu.wikidot.com/scp-035",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Nagyláb",
+          "blurb": "Értelem × Keter — SCP-1000 egy éjszakai, mindenevő majom, amely a Hominini ágba tartozik, a Pan és Homo nemzetségekkel együtt.",
+          "url": "https://scp-hu.wikidot.com/scp-1000",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Értelmes Mikroorganizmus",
+          "blurb": "Értelem × Keter — SCP-016 egy vérrel terjedő patogén, melyet egy █████-beli bányászból mutattak ki, aki egy mélyművelésű szénbányában munk…",
+          "url": "https://scp-hu.wikidot.com/scp-016",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Értelem × Keter — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Nehezen Elpusztítható Hüllő",
+          "blurb": "Értelem × Keter — SCP-682 egy nagy, hüllőszerű, ismeretlen eredetű lény.",
+          "url": "https://scp-hu.wikidot.com/scp-682",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "A Szörnyfazék",
+          "blurb": "Értelem × Keter — SCP-019 egy nagy agyagváza kinézetével rendelkezik, szájának átmérője 1.",
+          "url": "https://scp-hu.wikidot.com/scp-019",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Értelem × Keter — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-020",
+      "themeId": "humanoid-keter",
+      "publishedAt": "2027-03-24T10:00:00.000Z",
+      "title": "Emberalak × Keter",
+      "introduction": "Fedezze fel a(z) „Emberalak × Keter” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-hu-056",
+          "title": "A Művészi Látás",
+          "blurb": "Emberalak × Keter — SCP-056-HU egy pszichológiai betegség, melyet először a főként magyar lakta ██████ területen leltek fel.",
+          "url": "https://scp-hu.wikidot.com/scp-056-hu",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1348",
+          "title": "Belső Szentély",
+          "blurb": "Emberalak × Keter — SCP-1348 egy módosított barlangkomplexum, amely 81 kilométerré található a szíriai El Taebahtól, a Jabal al-Druze hegysé…",
+          "url": "https://scp-hu.wikidot.com/scp-1348",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-990",
+          "title": "Álom Ember",
+          "blurb": "Emberalak × Keter — SCP-990 általában egy hidegháborús időszakban viselt üzleti öltönybe öltözött férfi, aki álmokban jelenik meg az Alapítv…",
+          "url": "https://scp-hu.wikidot.com/scp-990",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Árny Ember",
+          "blurb": "Emberalak × Keter — 80cm magas humanoid lény, mely anatómiailag hasonlít egy kisgyermekhez, azonban nem rendelkezik megfigyelhető külső jegy…",
+          "url": "https://scp-hu.wikidot.com/scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Nagyláb",
+          "blurb": "Emberalak × Keter — SCP-1000 egy éjszakai, mindenevő majom, amely a Hominini ágba tartozik, a Pan és Homo nemzetségekkel együtt.",
+          "url": "https://scp-hu.wikidot.com/scp-1000",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Emberalak × Keter — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Emberalak × Keter — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Emberalak × Keter — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-024",
+      "themeId": "sentient-euclid",
+      "publishedAt": "2027-04-21T10:00:00.000Z",
+      "title": "Értelem × Euclid",
+      "introduction": "Fedezze fel a(z) „Értelem × Euclid” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-372",
+          "title": "Peripheral Jumper",
+          "blurb": "Értelem × Euclid — SCP-372 egy ismeretlen fajtájú lény, körülbelül 2 méter hosszú a fejtől a farokig, súlya 45 kg.",
+          "url": "https://scp-hu.wikidot.com/scp-372",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-015",
+          "title": "Cső Rémálom",
+          "blurb": "Értelem × Euclid — SCP-015 egy csövekből, szellőzőkből, bojlerekből és egyéb vízvezeték-technikai elemekből álló massza, amely teljesen meg…",
+          "url": "https://scp-hu.wikidot.com/scp-015",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-050",
+          "title": "A Legokosabbnak",
+          "blurb": "Értelem × Euclid — SCP-050 egy könyvet olvasó majom szobornak tűnik ami, körülbelül 1 láb3magas.",
+          "url": "https://scp-hu.wikidot.com/scp-050",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Káin\"",
+          "blurb": "Értelem × Euclid — SCP-073 arab vagy közel-keleti származású, erősen cserzett férfinak tűnik a harmincas évei elején, 185 cm (6'1\") magas é…",
+          "url": "https://scp-hu.wikidot.com/scp-073",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-079",
+          "title": "Régi MI",
+          "blurb": "Értelem × Euclid — SCP-079 egy 1978-ban készült Exidy Sorcerer típusú mikroszámítógép.",
+          "url": "https://scp-hu.wikidot.com/scp-079",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-032",
+          "title": "Testvér Menyasszonya",
+          "blurb": "Értelem × Euclid — SCP-032 jelenleg egy ismeretlen eredetű F típusú (tökéletlen külső hasonlóságú, belsőleg inkonzisztens) emberi hasonmás.",
+          "url": "https://scp-hu.wikidot.com/scp-032",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-250",
+          "title": "Egy Allosaurus Nagy Része",
+          "blurb": "Értelem × Euclid — SCP-250 egy allosaurus élő, fosszilis csontváza (eredetileg Allosaurus fragilis-ként lett beazonosítva; azonban Dr █████…",
+          "url": "https://scp-hu.wikidot.com/scp-250",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Pestisdoktor",
+          "blurb": "Értelem × Euclid — SCP-049 egy 1,9 méter magas humanoid lény, mely külalakja hasonlít egy középkori pestisdoktoréhoz.",
+          "url": "https://scp-hu.wikidot.com/scp-049",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-027",
+      "themeId": "humanoid-euclid",
+      "publishedAt": "2027-05-12T10:00:00.000Z",
+      "title": "Emberalak × Euclid",
+      "introduction": "Fedezze fel a(z) „Emberalak × Euclid” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-650",
+          "title": "Ijesztegető Szobor",
+          "blurb": "Emberalak × Euclid — SCP-650 egy fekete színű, 167 cm magas stilizált humanoid szobor.",
+          "url": "https://scp-hu.wikidot.com/scp-650",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Hasi Bolygó",
+          "blurb": "Emberalak × Euclid — SCP-007 az alany altestén a hasüregben helyezkedik el.",
+          "url": "https://scp-hu.wikidot.com/scp-007",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "A \"Félénk Fickó\"",
+          "blurb": "Emberalak × Euclid — 38 m magas, humanoid jellemzőkkel rendelkező lény.",
+          "url": "https://scp-hu.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-022",
+          "title": "A Hullaház",
+          "blurb": "Emberalak × Euclid — SCP-022 egy hullaház ami [ADAT KITAKARVA] Kórház alagsorában, Nagy-Britanniában található.",
+          "url": "https://scp-hu.wikidot.com/scp-022",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-973",
+          "title": "Smokey",
+          "blurb": "Emberalak × Euclid — Az SCP-973 két entitásból áll.",
+          "url": "https://scp-hu.wikidot.com/scp-973",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1111",
+          "title": "A Fehér Kutya",
+          "blurb": "Emberalak × Euclid — SCP-1111-1 egy Canis familiaris megjelenéséhez hasonló entitás, mely közismertebb nevén a házi kutya.",
+          "url": "https://scp-hu.wikidot.com/scp-1111",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "A Csúszómászó Isten",
+          "blurb": "Emberalak × Euclid — Úgy tűnik, hogy SCP-027 egy ismeretlen forrásból származó jelenség, mely egyszerre csak egy emberi alanyhoz (jelenleg 02…",
+          "url": "https://scp-hu.wikidot.com/scp-027",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Az Akasztott Király Tragédiája",
+          "blurb": "Emberalak × Euclid — SCP-701, Az Akasztott Király Tragédiája, egy I.",
+          "url": "https://scp-hu.wikidot.com/scp-701",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-028",
+      "themeId": "biological-euclid",
+      "publishedAt": "2027-05-19T10:00:00.000Z",
+      "title": "Biológia × Euclid",
+      "introduction": "Fedezze fel a(z) „Biológia × Euclid” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-002",
+          "title": "Az \"Élő\" Szoba",
+          "blurb": "Biológia × Euclid — SCP-002 egy tumorszerű, húsos kinövésre hasonlító entitás, melynek térfogata körülbelül 60m³ (vagy 2000 láb³).",
+          "url": "https://scp-hu.wikidot.com/scp-002",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-023",
+          "title": "Fekete Rém",
+          "blurb": "Biológia × Euclid — SCP-023 egy nagy, nemi jelleggel nem rendelkező, bozontos kutyaféle (1.",
+          "url": "https://scp-hu.wikidot.com/scp-023",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-075",
+          "title": "Korrozív Csiga",
+          "blurb": "Biológia × Euclid — SCP-075 egy 20 cm hosszú, 13 cm széles és 15 cm magas nagyméretű csigára hasonlít, izmos lábai pedig egy hatujjú, karmos…",
+          "url": "https://scp-hu.wikidot.com/scp-075",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Hasi Bolygó",
+          "blurb": "Biológia × Euclid — SCP-007 az alany altestén a hasüregben helyezkedik el.",
+          "url": "https://scp-hu.wikidot.com/scp-007",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "A \"Félénk Fickó\"",
+          "blurb": "Biológia × Euclid — 38 m magas, humanoid jellemzőkkel rendelkező lény.",
+          "url": "https://scp-hu.wikidot.com/scp-096",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-008",
+          "title": "Zombi Pestis",
+          "blurb": "Biológia × Euclid — SCP-008 egy összetett prion, melyből minden egyes ismert G2-es telephelyen tárolnak mintákat.",
+          "url": "https://scp-hu.wikidot.com/scp-008",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "A Csúszómászó Isten",
+          "blurb": "Biológia × Euclid — Úgy tűnik, hogy SCP-027 egy ismeretlen forrásból származó jelenség, mely egyszerre csak egy emberi alanyhoz (jelenleg 02…",
+          "url": "https://scp-hu.wikidot.com/scp-027",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Káin\"",
+          "blurb": "Biológia × Euclid — SCP-073 arab vagy közel-keleti származású, erősen cserzett férfinak tűnik a harmincas évei elején, 185 cm (6'1\") magas é…",
+          "url": "https://scp-hu.wikidot.com/scp-073",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-030",
+      "themeId": "mind_affecting-keter",
+      "publishedAt": "2027-06-02T10:00:00.000Z",
+      "title": "Elmebefolyásolás × Keter",
+      "introduction": "Fedezze fel a(z) „Elmebefolyásolás × Keter” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-035",
+          "title": "Megszálló Maszk",
+          "blurb": "Elmebefolyásolás × Keter — SCP-035 egy fehér színű porcelán maszk ami egy komikus és egy tragikus arc között váltogat.",
+          "url": "https://scp-hu.wikidot.com/scp-035",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1348",
+          "title": "Belső Szentély",
+          "blurb": "Elmebefolyásolás × Keter — SCP-1348 egy módosított barlangkomplexum, amely 81 kilométerré található a szíriai El Taebahtól, a Jabal al-Druze hegysé…",
+          "url": "https://scp-hu.wikidot.com/scp-1348",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Észrevétlen Penész",
+          "blurb": "Elmebefolyásolás × Keter — SCP-020 egy gyorsan szaporodó gombafaj, mely képes befolyásolni más élőlények érzékelését és viselkedését, beleértve az …",
+          "url": "https://scp-hu.wikidot.com/scp-020",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-610",
+          "title": "A Hús mely Gyűlöl",
+          "blurb": "Elmebefolyásolás × Keter — SCP-610-ről a kezdeti jelentések közvetlenül az orosz kormánytól érkeztek lekövethetetlen csatornákon keresztül.",
+          "url": "https://scp-hu.wikidot.com/scp-610",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Elmebefolyásolás × Keter — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Elmebefolyásolás × Keter — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-037",
+      "themeId": "biological",
+      "publishedAt": "2027-07-21T10:00:00.000Z",
+      "title": "Biológia",
+      "introduction": "Fedezze fel a(z) „Biológia” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-529",
+          "title": "Josie a Fél-Macska",
+          "blurb": "Biológia — SCP-529 egy kis házi macska (Felis Catus) szürke vonalakkal.",
+          "url": "https://scp-hu.wikidot.com/scp-529",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-107",
+          "title": "A Teknőspáncél",
+          "blurb": "Biológia — SCP-107 egy üreges teknőspáncél felső részéhez hasonlít.",
+          "url": "https://scp-hu.wikidot.com/scp-107",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-021",
+          "title": "Sárkánybőr",
+          "blurb": "Biológia — SCP-021 egy nagy és kidolgozott keleti stílusú tetoválás formáját veszi, amely egy kígyózó sárkányra hasonlít, ellepve a…",
+          "url": "https://scp-hu.wikidot.com/scp-021",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-098",
+          "title": "Sebész Rákok",
+          "blurb": "Biológia — SCP-098 korábban egy ismeretlen rákfajtaként lett azonosítva.",
+          "url": "https://scp-hu.wikidot.com/scp-098",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-038",
+          "title": "A Mindenes Fa",
+          "blurb": "Biológia — SCP-038-at 19██-ben egy elhagyott farmon találták a █████████████-i, New York államban.",
+          "url": "https://scp-hu.wikidot.com/scp-038",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-030",
+          "title": "A Homunkulusz",
+          "blurb": "Biológia — SCP-030 ránézésre egy szőrtelen, nemtelen, szürke színű emberként jellemezhető, mi 71 centiméter magas és 12,70 kilogram…",
+          "url": "https://scp-hu.wikidot.com/scp-030",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-999",
+          "title": "A Csikiszörny",
+          "blurb": "Biológia — SCP-999 amorf, zselés, áttetsző narancssárga masszából áll.",
+          "url": "https://scp-hu.wikidot.com/scp-999",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-023",
+          "title": "Fekete Rém",
+          "blurb": "Biológia — SCP-023 egy nagy, nemi jelleggel nem rendelkező, bozontos kutyaféle (1.",
+          "url": "https://scp-hu.wikidot.com/scp-023",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-039",
+      "themeId": "infectious-keter",
+      "publishedAt": "2027-08-04T10:00:00.000Z",
+      "title": "Fertőzés × Keter",
+      "introduction": "Fedezze fel a(z) „Fertőzés × Keter” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-047",
+          "title": "Mikróbiális Mutagén",
+          "blurb": "Fertőzés × Keter — SCP-047 egy erősen rozsdás, átlyukadt gázpalack amely vas-[KITAKARVA] ötvözetből készült.",
+          "url": "https://scp-hu.wikidot.com/scp-047",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-056",
+          "title": "A Művészi Látás",
+          "blurb": "Fertőzés × Keter — SCP-056-HU egy pszichológiai betegség, melyet először a főként magyar lakta ██████ területen leltek fel.",
+          "url": "https://scp-hu.wikidot.com/scp-056-hu",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-1801",
+          "title": "Megosztott Betegség",
+          "blurb": "Fertőzés × Keter — SCP-1801 egy fertőző szindróma, amely úgy tűnik, hogy olyan ágens komplexumokon keresztül terjed, amelyek elszigetelten …",
+          "url": "https://scp-hu.wikidot.com/scp-1801",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Értelmes Mikroorganizmus",
+          "blurb": "Fertőzés × Keter — SCP-016 egy vérrel terjedő patogén, melyet egy █████-beli bányászból mutattak ki, aki egy mélyművelésű szénbányában munk…",
+          "url": "https://scp-hu.wikidot.com/scp-016",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-610",
+          "title": "A Hús mely Gyűlöl",
+          "blurb": "Fertőzés × Keter — SCP-610-ről a kezdeti jelentések közvetlenül az orosz kormánytól érkeztek lekövethetetlen csatornákon keresztül.",
+          "url": "https://scp-hu.wikidot.com/scp-610",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Észrevétlen Penész",
+          "blurb": "Fertőzés × Keter — SCP-020 egy gyorsan szaporodó gombafaj, mely képes befolyásolni más élőlények érzékelését és viselkedését, beleértve az …",
+          "url": "https://scp-hu.wikidot.com/scp-020",
+          "sourceTags": [
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-041",
+      "themeId": "artifact",
+      "publishedAt": "2027-08-18T10:00:00.000Z",
+      "title": "Tárgyak",
+      "introduction": "Fedezze fel a(z) „Tárgyak” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-063",
+          "title": "\"A Világ Legjobb fokeféje\"",
+          "blurb": "Tárgyak — SCP-063 megjelenése identikus egy átlagos, világoskék fogkeféjével.",
+          "url": "https://scp-hu.wikidot.com/scp-063",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-093",
+          "title": "Vörös Tengeri Objektum",
+          "blurb": "Tárgyak — SCP-093 egy alapvetően vörös, cinóberre emlékeztető kőből faragott korong, melynek teljes kerületét körkörös vésetek és …",
+          "url": "https://scp-hu.wikidot.com/scp-093",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-361",
+          "title": "Bronz Máj",
+          "blurb": "Tárgyak — SCP-361 egy bronz Etruszk műtárgy, mi báránymáj alakú.",
+          "url": "https://scp-hu.wikidot.com/scp-361",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-025",
+          "title": "Az Elnyűtt Ruhásszekrény",
+          "blurb": "Tárgyak — SCP-025 egy fából készült ruhásszekrény, melynek méretei 0.",
+          "url": "https://scp-hu.wikidot.com/scp-025",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-034",
+          "title": "Rituális Obszidián Kés",
+          "blurb": "Tárgyak — SCP-034 egy primitív kés, amely színtiszta obszidiánból készült.",
+          "url": "https://scp-hu.wikidot.com/scp-034",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Mesterkulcs",
+          "blurb": "Tárgyak — Az SCP-005 megjelenésében egy díszes kulcsra hasonlít, kinézetre teljesen megegyezik az 1920-as években tömeggyártott ku…",
+          "url": "https://scp-hu.wikidot.com/scp-005",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-037",
+          "title": "Törpe Csillag",
+          "blurb": "Tárgyak — SCP-037 ránézésre egy körülbelül 5 cm átmérőjű csillag, amelynek fényereje körülbelül 1*10-12-szerese a napunkénak, fels…",
+          "url": "https://scp-hu.wikidot.com/scp-037",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-500",
+          "title": "Csodaszer",
+          "blurb": "Tárgyak — SCP-500 egy kis műanyagdoboz, melyben jelenleg negyvenhét (47) piros pirula található.",
+          "url": "https://scp-hu.wikidot.com/scp-500",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-044",
+      "themeId": "mind_affecting-euclid",
+      "publishedAt": "2027-09-08T10:00:00.000Z",
+      "title": "Elmebefolyásolás × Euclid",
+      "introduction": "Fedezze fel a(z) „Elmebefolyásolás × Euclid” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-162",
+          "title": "Egy Golyónyi Él",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-162 egy horgokból, damilból, szögekből, ollókból és egyéb éles tárgyakból álló, közel 2,4 m széles és 2.",
+          "url": "https://scp-hu.wikidot.com/scp-162",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-963",
+          "title": "Halhatatlanság",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-963-1 egy fehér aranyból készült, körülbelül 15 centiméter kerületű diszes amulett, egy ███k oválisan csiszolt rubin…",
+          "url": "https://scp-hu.wikidot.com/scp-963",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "A 12 Rozsdás Kulcs és az Ajtó",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-004 egy régi fa istállóajtóból(SCP-004-1), és tizenkettő rozsdás kulcsból áll(SCP-004-2-től SCP-004-13-ig).",
+          "url": "https://scp-hu.wikidot.com/scp-004",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Egy Rossz Szerzemény",
+          "blurb": "Elmebefolyásolás × Euclid — Sandoval nevű archeológus egy vihar által nemrég elpusztított észak-itáliai kripta feltárása során találta.",
+          "url": "https://scp-hu.wikidot.com/scp-012",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-026",
+          "title": "Iskolautáni Visszatérés",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-026 egy háromszintes állami iskolaépület ami ████████ lett építve.",
+          "url": "https://scp-hu.wikidot.com/scp-026",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-701",
+          "title": "Az Akasztott Király Tragédiája",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-701, Az Akasztott Király Tragédiája, egy I.",
+          "url": "https://scp-hu.wikidot.com/scp-701",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-056",
+          "title": "Egy Gyönyörű Személy",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-056 változó méretű, nemű, és kinézetű lény, mely ezen tulajdonságai a környezetétől, különösen a körülötte lévő érző…",
+          "url": "https://scp-hu.wikidot.com/scp-056",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Fiatal Lány",
+          "blurb": "Elmebefolyásolás × Euclid — SCP-053 külseje megegyezik egy 3 éves kislányéval.",
+          "url": "https://scp-hu.wikidot.com/scp-053",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-045",
+      "themeId": "hostile",
+      "publishedAt": "2027-09-15T10:00:00.000Z",
+      "title": "Ellenségesség",
+      "introduction": "Fedezze fel a(z) „Ellenségesség” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-173",
+          "title": "A Szobor -",
+          "blurb": "Ellenségesség — A 19-es létesítménybe költöztették 1993-ban.",
+          "url": "https://scp-hu.wikidot.com/scp-173",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1111",
+          "title": "A Fehér Kutya",
+          "blurb": "Ellenségesség — SCP-1111-1 egy Canis familiaris megjelenéséhez hasonló entitás, mely közismertebb nevén a házi kutya.",
+          "url": "https://scp-hu.wikidot.com/scp-1111",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Mi a Szerelem?",
+          "blurb": "Ellenségesség — SCP-031 egy amorf organizmus, ami több mint 7500 kilogrammnyi tömeggel bír, és beépült az épület csővezetékhálózatába, i…",
+          "url": "https://scp-hu.wikidot.com/scp-031",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Árny Ember",
+          "blurb": "Ellenségesség — 80cm magas humanoid lény, mely anatómiailag hasonlít egy kisgyermekhez, azonban nem rendelkezik megfigyelhető külső jegy…",
+          "url": "https://scp-hu.wikidot.com/scp-017",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Nehezen Elpusztítható Hüllő",
+          "blurb": "Ellenségesség — SCP-682 egy nagy, hüllőszerű, ismeretlen eredetű lény.",
+          "url": "https://scp-hu.wikidot.com/scp-682",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "A Szörnyfazék",
+          "blurb": "Ellenségesség — SCP-019 egy nagy agyagváza kinézetével rendelkezik, szájának átmérője 1.",
+          "url": "https://scp-hu.wikidot.com/scp-019",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "A Sötétség Szíve",
+          "blurb": "Ellenségesség — SCP-058 egy szarvasmarhaszívhez hasonlító lény, amely négy nagyméretű, főleg járásra használt ízelt lábbal, valamint nég…",
+          "url": "https://scp-hu.wikidot.com/scp-058",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Az Öregember",
+          "blurb": "Ellenségesség — SCP-106 látszólag egy idős humanoid, mely teste jelentősen rothadt.",
+          "url": "https://scp-hu.wikidot.com/scp-106",
+          "sourceTags": [
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-049",
+      "themeId": "infectious",
+      "publishedAt": "2027-10-13T10:00:00.000Z",
+      "title": "Fertőzés",
+      "introduction": "Fedezze fel a(z) „Fertőzés” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-hu-013",
+          "title": "Becsavarodott Ördög",
+          "blurb": "Fertőzés — SCP-013-HU egy fizikailag érzékelhetetlen, testetlen entitás, melynek természete és lénye, leginkább SCP-024-hez hasonla…",
+          "url": "https://scp-hu.wikidot.com/scp-013-hu",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-1173",
+          "title": "A Kelet-Samothrace-i Iszlám Állami Köztársaság",
+          "blurb": "Fertőzés — SCP-1173 egy memetikai jelenség, amely a Kelet-Samothrace-i Iszlám Állami Köztársasága (Ισλαμική Δημοκρατία της Ανατολικ…",
+          "url": "https://scp-hu.wikidot.com/scp-1173",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-029",
+          "title": "A Fene",
+          "blurb": "Fertőzés — SCP-029-HU kinézete leginkább egy nemi jegyekkel nem rendelkező, kifejlett Canis Lupus1 egyedre hasonlít, azon eltérésse…",
+          "url": "https://scp-hu.wikidot.com/scp-029-hu",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-047",
+          "title": "Mikróbiális Mutagén",
+          "blurb": "Fertőzés — SCP-047 egy erősen rozsdás, átlyukadt gázpalack amely vas-[KITAKARVA] ötvözetből készült.",
+          "url": "https://scp-hu.wikidot.com/scp-047",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-008",
+          "title": "Zombi Pestis",
+          "blurb": "Fertőzés — SCP-008 egy összetett prion, melyből minden egyes ismert G2-es telephelyen tárolnak mintákat.",
+          "url": "https://scp-hu.wikidot.com/scp-008",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-hu-056",
+          "title": "A Művészi Látás",
+          "blurb": "Fertőzés — SCP-056-HU egy pszichológiai betegség, melyet először a főként magyar lakta ██████ területen leltek fel.",
+          "url": "https://scp-hu.wikidot.com/scp-056-hu",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "A Csúszómászó Isten",
+          "blurb": "Fertőzés — Úgy tűnik, hogy SCP-027 egy ismeretlen forrásból származó jelenség, mely egyszerre csak egy emberi alanyhoz (jelenleg 02…",
+          "url": "https://scp-hu.wikidot.com/scp-027",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Pestisdoktor",
+          "blurb": "Fertőzés — SCP-049 egy 1,9 méter magas humanoid lény, mely külalakja hasonlít egy középkori pestisdoktoréhoz.",
+          "url": "https://scp-hu.wikidot.com/scp-049",
+          "sourceTags": [
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-064",
+      "themeId": "artifact-euclid",
+      "publishedAt": "2028-01-26T10:00:00.000Z",
+      "title": "Tárgyak × Euclid",
+      "introduction": "Fedezze fel a(z) „Tárgyak × Euclid” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-201",
+          "title": "Az Üres Világ",
+          "blurb": "Tárgyak × Euclid — SCP-201 egy nagyon régi orvosi eszköznek tűnik, amely felületesen egy infúziós állványra hasonlít, amelyhez azonban sok …",
+          "url": "https://scp-hu.wikidot.com/scp-201",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-093",
+          "title": "Vörös Tengeri Objektum",
+          "blurb": "Tárgyak × Euclid — SCP-093 egy alapvetően vörös, cinóberre emlékeztető kőből faragott korong, melynek teljes kerületét körkörös vésetek és …",
+          "url": "https://scp-hu.wikidot.com/scp-093",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-162",
+          "title": "Egy Golyónyi Él",
+          "blurb": "Tárgyak × Euclid — SCP-162 egy horgokból, damilból, szögekből, ollókból és egyéb éles tárgyakból álló, közel 2,4 m széles és 2.",
+          "url": "https://scp-hu.wikidot.com/scp-162",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-037",
+          "title": "Törpe Csillag",
+          "blurb": "Tárgyak × Euclid — SCP-037 ránézésre egy körülbelül 5 cm átmérőjű csillag, amelynek fényereje körülbelül 1*10-12-szerese a napunkénak, fels…",
+          "url": "https://scp-hu.wikidot.com/scp-037",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "A 12 Rozsdás Kulcs és az Ajtó",
+          "blurb": "Tárgyak × Euclid — SCP-004 egy régi fa istállóajtóból(SCP-004-1), és tizenkettő rozsdás kulcsból áll(SCP-004-2-től SCP-004-13-ig).",
+          "url": "https://scp-hu.wikidot.com/scp-004",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
+    }
+  ]
+}

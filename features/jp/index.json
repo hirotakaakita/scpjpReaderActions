@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "jp",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "人間に似たものたち",
+      "introduction": "「人間型」を手がかりに、異常の共通点と違いを読み比べる特集です。",
+      "articles": [
+        {
+          "itemId": "scp-series-jp-650",
+          "title": "人でなし、でく人形",
+          "blurb": "人間型 — SCP-650-JPは、観測される上では通常の人間と同様に会話・動作・意思疎通が可能な、身長176cm、体重69kgの成人男性の姿をした一体の肉体です。",
+          "url": "http://scp-jp.wikidot.com/scp-650-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-jp-1970",
+          "title": "13",
+          "blurb": "人間型 — SCP-1970-JPは宇宙空間上に出現するアポロ13号の月着陸船\"アクエリアス\"の複製 (SCP-1970-JP-D-1に指定) と、それに乗船している3名の人型実体 (SCP-1970-JP-A～-Cに指定) の総称です。",
+          "url": "http://scp-jp.wikidot.com/scp-1970-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-jp-1374",
+          "title": "大団円",
+          "blurb": "人間型 — SCP-1374-JPは異常な精神汚染能力を持つ情報です。",
+          "url": "http://scp-jp.wikidot.com/scp-1374-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-jp-4000",
+          "title": "忌名",
+          "blurb": "人間型 — SCP-4000-JPは、\"管理者(The Administrator)\"として知られる称号に紐づく意識体です。",
+          "url": "http://scp-jp.wikidot.com/scp-4000-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-jp-374",
+          "title": "秘密結社キャッチ&リリース",
+          "blurb": "人間型 — SCP-374-JPはサイト-81██内で一ヶ月毎に発生する財団職員誘拐事件です。",
+          "url": "http://scp-jp.wikidot.com/scp-374-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-jp-1134",
+          "title": "爆転ニギリ スシブレード",
+          "blurb": "人間型 — SCP-1134-JPは50代の日本人男性のような外見的特徴を持つ人型実体です。",
+          "url": "http://scp-jp.wikidot.com/scp-1134-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1983",
+          "title": "先の無い扉",
+          "blurb": "人間型 — SCP-1983-1はワイオミング州███████郡にある平屋の農家です。",
+          "url": "http://scp-jp.wikidot.com/scp-1983",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-jp-646",
+          "title": "過去改変協力者",
+          "blurb": "人間型 — SCP-646-JPは██████社によって運営されていた19██年製のデジタル公衆電話です。",
+          "url": "http://scp-jp.wikidot.com/scp-646-jp",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

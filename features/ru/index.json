@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "ru",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Гуманоид",
+      "introduction": "Изучите тему «Гуманоид» и сравните общие черты и различия этих аномалий.",
+      "articles": [
+        {
+          "itemId": "scp-series-096",
+          "title": "SCP-096 - «Скромник»",
+          "blurb": "Гуманоид — SCP-096 – гуманоидное существо ростом приблизительно 2,38 метра.",
+          "url": "https://scpfoundation.net/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "SCP-049 - Чумной доктор",
+          "blurb": "Гуманоид — SCP-049 — гуманоидное существо ростом около 190 см, внешне схожее со средневековым чумным доктором.",
+          "url": "https://scpfoundation.net/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "SCP-106 - Старик",
+          "blurb": "Гуманоид — SCP-106 выглядит как пожилой гуманоид на поздней стадии разложения.",
+          "url": "https://scpfoundation.net/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-5031",
+          "title": "SCP-5031 - Очередной опасный монстр",
+          "blurb": "Гуманоид — SCP-5031 -- это неразумное квази-гуманоидное существо неизвестного происхождения.",
+          "url": "https://scpfoundation.net/scp-5031",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-3008",
+          "title": "SCP-3008 - Абсолютно нормальная старая добрая Икея",
+          "blurb": "Гуманоид — SCP-3008 - крупная розничная торговая точка, ранее принадлежавшая \"IKEA\", популярной мебельной торговой сети, и носящая …",
+          "url": "https://scpfoundation.net/scp-3008",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "SCP-076 - «Авель»",
+          "blurb": "Гуманоид — SCP-076 состоит из двух частей: каменного куба (SCP-076-1) и гуманоида, находящегося внутри (SCP-076-2).",
+          "url": "https://scpfoundation.net/scp-076",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "SCP-105 - «Айрис»",
+          "blurb": "Гуманоид — SCP-105 (ранее известная под именем Айрис Томпсон) является женщиной европеоидной расы.",
+          "url": "https://scpfoundation.net/scp-105",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-122",
+          "title": "SCP-122 - Больше никаких монɔтqоʚ",
+          "blurb": "Гуманоид — SCP-122 представляет собой пластиковый ночник в форме звезды, произведенный предположительно в период между 1960 и 1980 …",
+          "url": "https://scpfoundation.net/scp-122",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

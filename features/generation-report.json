@@ -1,0 +1,134 @@
+{
+  "jp": {
+    "features": 156,
+    "articles": 1190
+  },
+  "en": {
+    "features": 156,
+    "articles": 1209
+  },
+  "cn": {
+    "features": 156,
+    "articles": 1200
+  },
+  "cs": {
+    "features": 116,
+    "articles": 508
+  },
+  "de": {
+    "features": 124,
+    "articles": 766
+  },
+  "es": {
+    "features": 140,
+    "articles": 927
+  },
+  "fr": {
+    "features": 137,
+    "articles": 855
+  },
+  "int": {
+    "features": 1,
+    "articles": 5
+  },
+  "it": {
+    "features": 136,
+    "articles": 739
+  },
+  "ko": {
+    "features": 101,
+    "articles": 646
+  },
+  "ru": {
+    "features": 147,
+    "articles": 985
+  },
+  "pl": {
+    "features": 113,
+    "articles": 619
+  },
+  "pt": {
+    "features": 105,
+    "articles": 575
+  },
+  "th": {
+    "features": 108,
+    "articles": 499
+  },
+  "ua": {
+    "features": 59,
+    "articles": 301
+  },
+  "vn": {
+    "features": 135,
+    "articles": 770
+  },
+  "zh-tr": {
+    "features": 136,
+    "articles": 754
+  },
+  "ar": {
+    "features": 7,
+    "articles": 20
+  },
+  "cy": {
+    "features": 0,
+    "articles": 0
+  },
+  "da": {
+    "features": 0,
+    "articles": 0
+  },
+  "el": {
+    "features": 68,
+    "articles": 299
+  },
+  "hu": {
+    "features": 28,
+    "articles": 90
+  },
+  "la": {
+    "features": 0,
+    "articles": 0
+  },
+  "nl": {
+    "features": 1,
+    "articles": 8
+  },
+  "no": {
+    "features": 0,
+    "articles": 0
+  },
+  "pig": {
+    "features": 9,
+    "articles": 36
+  },
+  "ro": {
+    "features": 1,
+    "articles": 5
+  },
+  "sga": {
+    "features": 0,
+    "articles": 0
+  },
+  "sh": {
+    "features": 2,
+    "articles": 9
+  },
+  "sl": {
+    "features": 15,
+    "articles": 39
+  },
+  "sv": {
+    "features": 32,
+    "articles": 120
+  },
+  "tok": {
+    "features": 0,
+    "articles": 0
+  },
+  "tr": {
+    "features": 44,
+    "articles": 207
+  }
+}

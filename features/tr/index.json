@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "tr",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "İnsansı",
+      "introduction": "“İnsansı” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
+      "articles": [
+        {
+          "itemId": "scp-series-049",
+          "title": "Veba Doktoru",
+          "blurb": "İnsansı — 9 metre civarında, ortaçağ veba doktoru görünümünü taşıyan insansı bir varlıktır.",
+          "url": "https://scpvakfi.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "\"Utangaç Adam\"",
+          "blurb": "İnsansı — SCP-096, yaklaşık 2.",
+          "url": "https://scpvakfi.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Yaşlı Adam",
+          "blurb": "İnsansı — SCP-106, gelişmiş ayrışma genel bir görünüme sahip, yaşlı bir insan gibi görünmektedir.",
+          "url": "https://scpvakfi.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Tanrı\"",
+          "blurb": "İnsansı — SCP-343, görünüşte ırkı olmayan, insansı, bariz bir şekilde her şeye gücü yeten bir erkektir.",
+          "url": "https://scpvakfi.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Gölge Kişi",
+          "blurb": "İnsansı — SCP-017, yaklaşık olarak 80 santimetre boyunda, anatomik olarak küçük bir çocuğa benzeyen, fakat tanımlanabilecek fark e…",
+          "url": "https://scpvakfi.wikidot.com/scp-017",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Habil\"",
+          "blurb": "İnsansı — SCP-076 iki şeyden oluşur: taştan bir küp (SCP-076-1) ve içinde saklanan insanımsı varlık (SCP-076-2).",
+          "url": "https://scpvakfi.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Abdominal Gezegen",
+          "blurb": "İnsansı — SCP-007, Deneğin karın boşluğunda bulunmaktadır.",
+          "url": "https://scpvakfi.wikidot.com/scp-007",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1471",
+          "title": "MalO ver1.0.0",
+          "blurb": "İnsansı — SCP-1471 \"MalO ver1.",
+          "url": "https://scpvakfi.wikidot.com/scp-1471",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1396 @@
+{
+  "schemaVersion": 1,
+  "timeZone": "Asia/Tokyo",
+  "updateDay": "Wednesday",
+  "updateHour": 19,
+  "weeks": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "keys": [
+        "humanoid"
+      ],
+      "publishedAt": "2026-11-11T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "humanoid-biological",
+      "keys": [
+        "humanoid",
+        "biological"
+      ],
+      "publishedAt": "2026-11-18T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "humanoid-sentient",
+      "keys": [
+        "humanoid",
+        "sentient"
+      ],
+      "publishedAt": "2026-11-25T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-004",
+      "themeId": "sentient-biological",
+      "keys": [
+        "sentient",
+        "biological"
+      ],
+      "publishedAt": "2026-12-02T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-005",
+      "themeId": "sentient",
+      "keys": [
+        "sentient"
+      ],
+      "publishedAt": "2026-12-09T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-006",
+      "themeId": "mind_affecting-biological",
+      "keys": [
+        "mind_affecting",
+        "biological"
+      ],
+      "publishedAt": "2026-12-16T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-007",
+      "themeId": "humanoid-mind_affecting",
+      "keys": [
+        "humanoid",
+        "mind_affecting"
+      ],
+      "publishedAt": "2026-12-23T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-008",
+      "themeId": "sentient-hostile",
+      "keys": [
+        "sentient",
+        "hostile"
+      ],
+      "publishedAt": "2026-12-30T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-009",
+      "themeId": "spatial",
+      "keys": [
+        "spatial"
+      ],
+      "publishedAt": "2027-01-06T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-010",
+      "themeId": "humanoid-hostile",
+      "keys": [
+        "humanoid",
+        "hostile"
+      ],
+      "publishedAt": "2027-01-13T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-011",
+      "themeId": "biological-infectious",
+      "keys": [
+        "biological",
+        "infectious"
+      ],
+      "publishedAt": "2027-01-20T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-012",
+      "themeId": "sentient-mind_affecting",
+      "keys": [
+        "sentient",
+        "mind_affecting"
+      ],
+      "publishedAt": "2027-01-27T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-013",
+      "themeId": "temporal",
+      "keys": [
+        "temporal"
+      ],
+      "publishedAt": "2027-02-03T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-014",
+      "themeId": "mind_affecting-artifact",
+      "keys": [
+        "mind_affecting",
+        "artifact"
+      ],
+      "publishedAt": "2027-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-015",
+      "themeId": "biological-hostile",
+      "keys": [
+        "biological",
+        "hostile"
+      ],
+      "publishedAt": "2027-02-17T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-016",
+      "themeId": "hostile-keter",
+      "keys": [
+        "hostile"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2027-02-24T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-017",
+      "themeId": "mind_affecting",
+      "keys": [
+        "mind_affecting"
+      ],
+      "publishedAt": "2027-03-03T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-018",
+      "themeId": "biological-keter",
+      "keys": [
+        "biological"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2027-03-10T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-019",
+      "themeId": "sentient-keter",
+      "keys": [
+        "sentient"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2027-03-17T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-020",
+      "themeId": "humanoid-keter",
+      "keys": [
+        "humanoid"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2027-03-24T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-021",
+      "themeId": "reality_altering",
+      "keys": [
+        "reality_altering"
+      ],
+      "publishedAt": "2027-03-31T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-022",
+      "themeId": "sentient-artifact",
+      "keys": [
+        "sentient",
+        "artifact"
+      ],
+      "publishedAt": "2027-04-07T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-023",
+      "themeId": "plant-biological",
+      "keys": [
+        "plant",
+        "biological"
+      ],
+      "publishedAt": "2027-04-14T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-024",
+      "themeId": "sentient-euclid",
+      "keys": [
+        "sentient"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2027-04-21T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-025",
+      "themeId": "mechanical",
+      "keys": [
+        "mechanical"
+      ],
+      "publishedAt": "2027-04-28T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-026",
+      "themeId": "liquid-artifact",
+      "keys": [
+        "liquid",
+        "artifact"
+      ],
+      "publishedAt": "2027-05-05T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-027",
+      "themeId": "humanoid-euclid",
+      "keys": [
+        "humanoid"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2027-05-12T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-028",
+      "themeId": "biological-euclid",
+      "keys": [
+        "biological"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2027-05-19T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-029",
+      "themeId": "plant",
+      "keys": [
+        "plant"
+      ],
+      "publishedAt": "2027-05-26T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-030",
+      "themeId": "mind_affecting-keter",
+      "keys": [
+        "mind_affecting"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2027-06-02T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-031",
+      "themeId": "biological-self_replicating",
+      "keys": [
+        "biological",
+        "self_replicating"
+      ],
+      "publishedAt": "2027-06-09T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-032",
+      "themeId": "humanoid-infectious",
+      "keys": [
+        "humanoid",
+        "infectious"
+      ],
+      "publishedAt": "2027-06-16T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-033",
+      "themeId": "liquid",
+      "keys": [
+        "liquid"
+      ],
+      "publishedAt": "2027-06-23T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-034",
+      "themeId": "spatial-artifact",
+      "keys": [
+        "spatial",
+        "artifact"
+      ],
+      "publishedAt": "2027-06-30T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-035",
+      "themeId": "sentient-mechanical",
+      "keys": [
+        "sentient",
+        "mechanical"
+      ],
+      "publishedAt": "2027-07-07T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-036",
+      "themeId": "biological-regenerative",
+      "keys": [
+        "biological",
+        "regenerative"
+      ],
+      "publishedAt": "2027-07-14T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-037",
+      "themeId": "biological",
+      "keys": [
+        "biological"
+      ],
+      "publishedAt": "2027-07-21T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-038",
+      "themeId": "mind_affecting-hostile",
+      "keys": [
+        "mind_affecting",
+        "hostile"
+      ],
+      "publishedAt": "2027-07-28T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-039",
+      "themeId": "infectious-keter",
+      "keys": [
+        "infectious"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2027-08-04T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-040",
+      "themeId": "sentient-regenerative",
+      "keys": [
+        "sentient",
+        "regenerative"
+      ],
+      "publishedAt": "2027-08-11T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-041",
+      "themeId": "artifact",
+      "keys": [
+        "artifact"
+      ],
+      "publishedAt": "2027-08-18T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-042",
+      "themeId": "mind_affecting-self_replicating",
+      "keys": [
+        "mind_affecting",
+        "self_replicating"
+      ],
+      "publishedAt": "2027-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-043",
+      "themeId": "humanoid-self_replicating",
+      "keys": [
+        "humanoid",
+        "self_replicating"
+      ],
+      "publishedAt": "2027-09-01T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-044",
+      "themeId": "mind_affecting-euclid",
+      "keys": [
+        "mind_affecting"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2027-09-08T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-045",
+      "themeId": "hostile",
+      "keys": [
+        "hostile"
+      ],
+      "publishedAt": "2027-09-15T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-046",
+      "themeId": "sentient-reality_altering",
+      "keys": [
+        "sentient",
+        "reality_altering"
+      ],
+      "publishedAt": "2027-09-22T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-047",
+      "themeId": "humanoid-regenerative",
+      "keys": [
+        "humanoid",
+        "regenerative"
+      ],
+      "publishedAt": "2027-09-29T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-048",
+      "themeId": "sentient-plant",
+      "keys": [
+        "sentient",
+        "plant"
+      ],
+      "publishedAt": "2027-10-06T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-049",
+      "themeId": "infectious",
+      "keys": [
+        "infectious"
+      ],
+      "publishedAt": "2027-10-13T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-050",
+      "themeId": "humanoid-mechanical",
+      "keys": [
+        "humanoid",
+        "mechanical"
+      ],
+      "publishedAt": "2027-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-051",
+      "themeId": "mind_affecting-infohazard",
+      "keys": [
+        "mind_affecting",
+        "infohazard"
+      ],
+      "publishedAt": "2027-10-27T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-052",
+      "themeId": "humanoid-reality_altering",
+      "keys": [
+        "humanoid",
+        "reality_altering"
+      ],
+      "publishedAt": "2027-11-03T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-053",
+      "themeId": "infohazard",
+      "keys": [
+        "infohazard"
+      ],
+      "publishedAt": "2027-11-10T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-054",
+      "themeId": "temporal-mind_affecting",
+      "keys": [
+        "temporal",
+        "mind_affecting"
+      ],
+      "publishedAt": "2027-11-17T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-055",
+      "themeId": "sentient-self_replicating",
+      "keys": [
+        "sentient",
+        "self_replicating"
+      ],
+      "publishedAt": "2027-11-24T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-056",
+      "themeId": "humanoid-artifact",
+      "keys": [
+        "humanoid",
+        "artifact"
+      ],
+      "publishedAt": "2027-12-01T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-057",
+      "themeId": "regenerative",
+      "keys": [
+        "regenerative"
+      ],
+      "publishedAt": "2027-12-08T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-058",
+      "themeId": "humanoid-plant",
+      "keys": [
+        "humanoid",
+        "plant"
+      ],
+      "publishedAt": "2027-12-15T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-059",
+      "themeId": "humanoid-temporal",
+      "keys": [
+        "humanoid",
+        "temporal"
+      ],
+      "publishedAt": "2027-12-22T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-060",
+      "themeId": "sentient-infectious",
+      "keys": [
+        "sentient",
+        "infectious"
+      ],
+      "publishedAt": "2027-12-29T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-061",
+      "themeId": "self_replicating",
+      "keys": [
+        "self_replicating"
+      ],
+      "publishedAt": "2028-01-05T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-062",
+      "themeId": "temporal-biological",
+      "keys": [
+        "temporal",
+        "biological"
+      ],
+      "publishedAt": "2028-01-12T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-063",
+      "themeId": "sentient-temporal",
+      "keys": [
+        "sentient",
+        "temporal"
+      ],
+      "publishedAt": "2028-01-19T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-064",
+      "themeId": "artifact-euclid",
+      "keys": [
+        "artifact"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-01-26T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-065",
+      "themeId": "mechanical-biological",
+      "keys": [
+        "mechanical",
+        "biological"
+      ],
+      "publishedAt": "2028-02-02T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-066",
+      "themeId": "temporal-artifact",
+      "keys": [
+        "temporal",
+        "artifact"
+      ],
+      "publishedAt": "2028-02-09T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-067",
+      "themeId": "biological-artifact",
+      "keys": [
+        "biological",
+        "artifact"
+      ],
+      "publishedAt": "2028-02-16T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-068",
+      "themeId": "biological-infohazard",
+      "keys": [
+        "biological",
+        "infohazard"
+      ],
+      "publishedAt": "2028-02-23T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-069",
+      "themeId": "artifact-self_replicating",
+      "keys": [
+        "artifact",
+        "self_replicating"
+      ],
+      "publishedAt": "2028-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-070",
+      "themeId": "self_replicating-keter",
+      "keys": [
+        "self_replicating"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-03-08T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-071",
+      "themeId": "spatial-temporal",
+      "keys": [
+        "spatial",
+        "temporal"
+      ],
+      "publishedAt": "2028-03-15T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-072",
+      "themeId": "mind_affecting-infectious",
+      "keys": [
+        "mind_affecting",
+        "infectious"
+      ],
+      "publishedAt": "2028-03-22T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-073",
+      "themeId": "liquid-biological",
+      "keys": [
+        "liquid",
+        "biological"
+      ],
+      "publishedAt": "2028-03-29T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-074",
+      "themeId": "mind_affecting-plant",
+      "keys": [
+        "mind_affecting",
+        "plant"
+      ],
+      "publishedAt": "2028-04-05T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-075",
+      "themeId": "reality_altering-biological",
+      "keys": [
+        "reality_altering",
+        "biological"
+      ],
+      "publishedAt": "2028-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-076",
+      "themeId": "humanoid-infohazard",
+      "keys": [
+        "humanoid",
+        "infohazard"
+      ],
+      "publishedAt": "2028-04-19T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-077",
+      "themeId": "humanoid-spatial",
+      "keys": [
+        "humanoid",
+        "spatial"
+      ],
+      "publishedAt": "2028-04-26T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-078",
+      "themeId": "sentient-infohazard",
+      "keys": [
+        "sentient",
+        "infohazard"
+      ],
+      "publishedAt": "2028-05-03T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-079",
+      "themeId": "humanoid-liquid",
+      "keys": [
+        "humanoid",
+        "liquid"
+      ],
+      "publishedAt": "2028-05-10T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-080",
+      "themeId": "sentient-liquid",
+      "keys": [
+        "sentient",
+        "liquid"
+      ],
+      "publishedAt": "2028-05-17T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-081",
+      "themeId": "plant-euclid",
+      "keys": [
+        "plant"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-05-24T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-082",
+      "themeId": "sentient-spatial",
+      "keys": [
+        "sentient",
+        "spatial"
+      ],
+      "publishedAt": "2028-05-31T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-083",
+      "themeId": "temporal-euclid",
+      "keys": [
+        "temporal"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-06-07T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-084",
+      "themeId": "infectious-euclid",
+      "keys": [
+        "infectious"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-06-14T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-085",
+      "themeId": "spatial-euclid",
+      "keys": [
+        "spatial"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-06-21T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-086",
+      "themeId": "mind_affecting-liquid",
+      "keys": [
+        "mind_affecting",
+        "liquid"
+      ],
+      "publishedAt": "2028-06-28T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-087",
+      "themeId": "mind_affecting-reality_altering",
+      "keys": [
+        "mind_affecting",
+        "reality_altering"
+      ],
+      "publishedAt": "2028-07-05T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-088",
+      "themeId": "mechanical-euclid",
+      "keys": [
+        "mechanical"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-07-12T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-089",
+      "themeId": "infohazard-keter",
+      "keys": [
+        "infohazard"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-07-19T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-090",
+      "themeId": "spatial-keter",
+      "keys": [
+        "spatial"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-07-26T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-091",
+      "themeId": "artifact-keter",
+      "keys": [
+        "artifact"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-08-02T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-092",
+      "themeId": "spatial-reality_altering",
+      "keys": [
+        "spatial",
+        "reality_altering"
+      ],
+      "publishedAt": "2028-08-09T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-093",
+      "themeId": "liquid-euclid",
+      "keys": [
+        "liquid"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-08-16T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-094",
+      "themeId": "spatial-mind_affecting",
+      "keys": [
+        "spatial",
+        "mind_affecting"
+      ],
+      "publishedAt": "2028-08-23T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-095",
+      "themeId": "self_replicating-euclid",
+      "keys": [
+        "self_replicating"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-08-30T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-096",
+      "themeId": "reality_altering-keter",
+      "keys": [
+        "reality_altering"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-09-06T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-097",
+      "themeId": "hostile-euclid",
+      "keys": [
+        "hostile"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-09-13T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-098",
+      "themeId": "regenerative-keter",
+      "keys": [
+        "regenerative"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-09-20T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-099",
+      "themeId": "temporal-keter",
+      "keys": [
+        "temporal"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-09-27T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-100",
+      "themeId": "mind_affecting-mechanical",
+      "keys": [
+        "mind_affecting",
+        "mechanical"
+      ],
+      "publishedAt": "2028-10-04T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-101",
+      "themeId": "hostile-regenerative",
+      "keys": [
+        "hostile",
+        "regenerative"
+      ],
+      "publishedAt": "2028-10-11T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-102",
+      "themeId": "spatial-biological",
+      "keys": [
+        "spatial",
+        "biological"
+      ],
+      "publishedAt": "2028-10-18T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-103",
+      "themeId": "infohazard-euclid",
+      "keys": [
+        "infohazard"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-104",
+      "themeId": "regenerative-euclid",
+      "keys": [
+        "regenerative"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-11-01T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-105",
+      "themeId": "mechanical-artifact",
+      "keys": [
+        "mechanical",
+        "artifact"
+      ],
+      "publishedAt": "2028-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-106",
+      "themeId": "spatial-hostile",
+      "keys": [
+        "spatial",
+        "hostile"
+      ],
+      "publishedAt": "2028-11-15T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-107",
+      "themeId": "reality_altering-euclid",
+      "keys": [
+        "reality_altering"
+      ],
+      "objectClass": "Euclid",
+      "publishedAt": "2028-11-22T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-108",
+      "themeId": "plant-keter",
+      "keys": [
+        "plant"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-11-29T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-109",
+      "themeId": "artifact-safe",
+      "keys": [
+        "artifact"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2028-12-06T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-110",
+      "themeId": "temporal-reality_altering",
+      "keys": [
+        "temporal",
+        "reality_altering"
+      ],
+      "publishedAt": "2028-12-13T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-111",
+      "themeId": "sentient-safe",
+      "keys": [
+        "sentient"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2028-12-20T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-112",
+      "themeId": "liquid-keter",
+      "keys": [
+        "liquid"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2028-12-27T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-113",
+      "themeId": "artifact-hostile",
+      "keys": [
+        "artifact",
+        "hostile"
+      ],
+      "publishedAt": "2029-01-03T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-114",
+      "themeId": "mind_affecting-safe",
+      "keys": [
+        "mind_affecting"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-115",
+      "themeId": "artifact-infohazard",
+      "keys": [
+        "artifact",
+        "infohazard"
+      ],
+      "publishedAt": "2029-01-17T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-116",
+      "themeId": "artifact-regenerative",
+      "keys": [
+        "artifact",
+        "regenerative"
+      ],
+      "publishedAt": "2029-01-24T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-117",
+      "themeId": "biological-safe",
+      "keys": [
+        "biological"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-01-31T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-118",
+      "themeId": "mind_affecting-regenerative",
+      "keys": [
+        "mind_affecting",
+        "regenerative"
+      ],
+      "publishedAt": "2029-02-07T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-119",
+      "themeId": "self_replicating-safe",
+      "keys": [
+        "self_replicating"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-02-14T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-120",
+      "themeId": "infectious-self_replicating",
+      "keys": [
+        "infectious",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-02-21T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-121",
+      "themeId": "humanoid-safe",
+      "keys": [
+        "humanoid"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-02-28T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-122",
+      "themeId": "plant-self_replicating",
+      "keys": [
+        "plant",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-03-07T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-123",
+      "themeId": "liquid-safe",
+      "keys": [
+        "liquid"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-03-14T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-124",
+      "themeId": "regenerative-safe",
+      "keys": [
+        "regenerative"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-03-21T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-125",
+      "themeId": "temporal-safe",
+      "keys": [
+        "temporal"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-03-28T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-126",
+      "themeId": "spatial-mechanical",
+      "keys": [
+        "spatial",
+        "mechanical"
+      ],
+      "publishedAt": "2029-04-04T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-127",
+      "themeId": "spatial-safe",
+      "keys": [
+        "spatial"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-04-11T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-128",
+      "themeId": "temporal-hostile",
+      "keys": [
+        "temporal",
+        "hostile"
+      ],
+      "publishedAt": "2029-04-18T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-129",
+      "themeId": "mechanical-keter",
+      "keys": [
+        "mechanical"
+      ],
+      "objectClass": "Keter",
+      "publishedAt": "2029-04-25T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-130",
+      "themeId": "hostile-infohazard",
+      "keys": [
+        "hostile",
+        "infohazard"
+      ],
+      "publishedAt": "2029-05-02T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-131",
+      "themeId": "plant-safe",
+      "keys": [
+        "plant"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-05-09T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-132",
+      "themeId": "mechanical-safe",
+      "keys": [
+        "mechanical"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-05-16T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-133",
+      "themeId": "hostile-self_replicating",
+      "keys": [
+        "hostile",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-05-23T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-134",
+      "themeId": "reality_altering-artifact",
+      "keys": [
+        "reality_altering",
+        "artifact"
+      ],
+      "publishedAt": "2029-05-30T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-135",
+      "themeId": "reality_altering-safe",
+      "keys": [
+        "reality_altering"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-06-06T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-136",
+      "themeId": "spatial-infohazard",
+      "keys": [
+        "spatial",
+        "infohazard"
+      ],
+      "publishedAt": "2029-06-13T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-137",
+      "themeId": "liquid-self_replicating",
+      "keys": [
+        "liquid",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-06-20T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-138",
+      "themeId": "reality_altering-hostile",
+      "keys": [
+        "reality_altering",
+        "hostile"
+      ],
+      "publishedAt": "2029-06-27T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-139",
+      "themeId": "hostile-safe",
+      "keys": [
+        "hostile"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-07-04T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-140",
+      "themeId": "infectious-infohazard",
+      "keys": [
+        "infectious",
+        "infohazard"
+      ],
+      "publishedAt": "2029-07-11T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-141",
+      "themeId": "temporal-mechanical",
+      "keys": [
+        "temporal",
+        "mechanical"
+      ],
+      "publishedAt": "2029-07-18T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-142",
+      "themeId": "regenerative-self_replicating",
+      "keys": [
+        "regenerative",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-07-25T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-143",
+      "themeId": "infohazard-safe",
+      "keys": [
+        "infohazard"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-08-01T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-144",
+      "themeId": "plant-hostile",
+      "keys": [
+        "plant",
+        "hostile"
+      ],
+      "publishedAt": "2029-08-08T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-145",
+      "themeId": "infectious-safe",
+      "keys": [
+        "infectious"
+      ],
+      "objectClass": "Safe",
+      "publishedAt": "2029-08-15T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-146",
+      "themeId": "spatial-liquid",
+      "keys": [
+        "spatial",
+        "liquid"
+      ],
+      "publishedAt": "2029-08-22T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-147",
+      "themeId": "mechanical-self_replicating",
+      "keys": [
+        "mechanical",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-08-29T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-148",
+      "themeId": "plant-liquid",
+      "keys": [
+        "plant",
+        "liquid"
+      ],
+      "publishedAt": "2029-09-05T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-149",
+      "themeId": "temporal-infohazard",
+      "keys": [
+        "temporal",
+        "infohazard"
+      ],
+      "publishedAt": "2029-09-12T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-150",
+      "themeId": "plant-regenerative",
+      "keys": [
+        "plant",
+        "regenerative"
+      ],
+      "publishedAt": "2029-09-19T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-151",
+      "themeId": "reality_altering-infohazard",
+      "keys": [
+        "reality_altering",
+        "infohazard"
+      ],
+      "publishedAt": "2029-09-26T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-152",
+      "themeId": "plant-artifact",
+      "keys": [
+        "plant",
+        "artifact"
+      ],
+      "publishedAt": "2029-10-03T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-153",
+      "themeId": "liquid-infectious",
+      "keys": [
+        "liquid",
+        "infectious"
+      ],
+      "publishedAt": "2029-10-10T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-154",
+      "themeId": "temporal-self_replicating",
+      "keys": [
+        "temporal",
+        "self_replicating"
+      ],
+      "publishedAt": "2029-10-17T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-155",
+      "themeId": "mechanical-hostile",
+      "keys": [
+        "mechanical",
+        "hostile"
+      ],
+      "publishedAt": "2029-10-24T10:00:00.000Z"
+    },
+    {
+      "id": "weekly-156",
+      "themeId": "reality_altering-mechanical",
+      "keys": [
+        "reality_altering",
+        "mechanical"
+      ],
+      "publishedAt": "2029-10-31T10:00:00.000Z"
+    }
+  ]
+}

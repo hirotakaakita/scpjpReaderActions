@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "de",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoid",
+      "introduction": "Entdecke das Thema „Humanoid“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
+      "articles": [
+        {
+          "itemId": "scp-series-2521",
+          "title": "●●|●●●●●|●●|●",
+          "blurb": "Humanoid — Vertonungen -#: ●●|●●●●●|●●|●",
+          "url": "http://scp-wiki-de.wikidot.com/scp-2521",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Der Schüchterne Mann",
+          "blurb": "Humanoid — SCP-096 ist eine ungefähr 2,38 Meter große Kreatur mit menschlicher Erscheinung.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Der Seuchendoktor",
+          "blurb": "Humanoid — SCP-049 ist eine etwa 1,90 Meter hohe humanoide Entität, die das Erscheinungsbild eines mittelalterlichen Seuchendoktors…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-125",
+          "title": "Der gefangene Regent",
+          "blurb": "Humanoid — SCP-125-DE beschreibt eine humanoide Entität, die sich derzeit in einer Kaverne unter dem Burgberg im Kyffhäusergebirge …",
+          "url": "http://scp-wiki-de.wikidot.com/scp-125-de",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Der alte Mann",
+          "blurb": "Humanoid — SCP-106 hat die Erscheinung eines älteren Mannes und weist fortgeschrittene Zersetzungsmerkmale auf.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-190",
+          "title": "Thor, Gott des Döners",
+          "blurb": "Humanoid — SCP-190-DE sind zwei Entitäten mit einem menschlichen Aussehen.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-190-de",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-040",
+          "title": "Seine Puppe",
+          "blurb": "Humanoid — SCP-040-DE beschreibt eine Frau mit einer Größe von 1,78 m und einem Gewicht von 60 Kilogramm.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-040-de",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-092",
+          "title": "Jäger/Gejagter",
+          "blurb": "Humanoid — SCP-092-DE ist ein etwa 30 Jahre alter Mann von durchschnittlicher Statur und Größe, der stets eine Maske trägt und mit …",
+          "url": "http://scp-wiki-de.wikidot.com/scp-092-de",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

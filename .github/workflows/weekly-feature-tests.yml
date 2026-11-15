@@ -1,0 +1,28 @@
+name: Weekly Feature Tests
+on:
+  push:
+    branches: [master, feature/weekly-features]
+    paths:
+      - '*features*.js'
+      - 'send-feature-notifications.js'
+      - 'send-scheduled-notifications.js'
+      - 'feature-notification-messages.json'
+      - 'features/**'
+      - 'test/weekly-features.test.js'
+      - '.github/workflows/weekly-feature*.yml'
+  pull_request:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: node --test test/weekly-features.test.js test/notifications.test.js test/notification-branches.test.js test/workflow-concurrency.test.js
+        env:
+          FEATURE_PUBLICATION_RUN: ${{ github.ref == 'refs/heads/master' && '1' || '0' }}

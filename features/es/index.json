@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "es",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoide",
+      "introduction": "Explora el tema «Humanoide» y compara las semejanzas y diferencias de estas anomalías.",
+      "articles": [
+        {
+          "itemId": "scp-series-es-169",
+          "title": "El Sueño Hentai Hecho Realidad",
+          "blurb": "Humanoide — SCP-ES-169 es la designación colectiva de entidades que poseen una apariencia similar a la de los dibujos característico…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-169",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-004",
+          "title": "El Rey del Árbol",
+          "blurb": "Humanoide — SCP-ES-004 es una entidad humanoide de aspecto variable.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-004",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Médico de la Peste",
+          "blurb": "Humanoide — SCP-049 es un ente humanoide de unos 1.",
+          "url": "http://lafundacionscp.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-026",
+          "title": "Sauelsuesor",
+          "blurb": "Humanoide — SCP-ES-026 es un ente humanoide ubicado a una distancia constante de unos 40.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-026",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-300",
+          "title": "Aberración Dérmica",
+          "blurb": "Humanoide — [Inicio de la llamada - Comienza la transcripción] El civil fue identificado como ███████ ████, de ██ años.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-300",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-193",
+          "title": "El 13 de Abril de 2013, un Tren Cayó del Cielo",
+          "blurb": "Humanoide — SCP-ES-193 es un ferrocarril de cinco vagones y una locomotora que se manifestaron a 14 metros de altura por sobre el pa…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-193",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-2317",
+          "title": "Una Puerta a Otro Mundo",
+          "blurb": "Humanoide — SCP-2317 es una puerta de madera y su marco originalmente construida como una puerta de sótano para una casa de piedra r…",
+          "url": "http://lafundacionscp.wikidot.com/scp-2317",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-5031",
+          "title": "Otro Monstruo Asesino Más",
+          "blurb": "Humanoide — SCP-5031 es una criatura cuasi humana no inteligente de origen desconocido.",
+          "url": "http://lafundacionscp.wikidot.com/scp-5031",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

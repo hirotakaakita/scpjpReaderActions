@@ -1,0 +1,4643 @@
+{
+  "schemaVersion": 1,
+  "language": "ua",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Гуманоїд",
+      "introduction": "Дослідіть тему «Гуманоїд» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-3008",
+          "title": "Цілком нормальна звичайна стара \"IKEA\"",
+          "blurb": "Гуманоїд — SCP-3008 — це великий торговий центр, який належав \"IKEA\", популярній торговій мережі меблів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3008",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-078",
+          "title": "Homo charta rex animalium",
+          "blurb": "Гуманоїд — SCP-078-UA становить собою вид аномальним чином модифікованих гуманоїдів на основі Homo Sapiens Sapiens, наразі зафіксов…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-078-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-097",
+          "title": "Фантомний вчитель",
+          "blurb": "Гуманоїд — SCP-097-UA є гуманоїдною істотою, яка схожа на чоловіка віком 50-60 років.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-097-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-4999",
+          "title": "Той, хто спостерігає за тобою",
+          "blurb": "Гуманоїд — SCP-4999 - це гуманоїдна сутність невідомого походження, яка зовні нагадує чоловіка середнього віку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4999",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-113",
+          "title": "Сажотрус",
+          "blurb": "Гуманоїд — SCP-113-UA – це гуманоїдна істота, тіло якої сформоване з вигорілих решток та сажі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-113-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-080",
+          "title": "Свинособака",
+          "blurb": "Гуманоїд — SCP-080-UA являє собою хірургічно утворену химеру людини, Sus domestica та Canis lupus familiaris.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-080-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-049",
+          "title": "Здається… бог?…",
+          "blurb": "Гуманоїд — SCP-049-UA — це чоловік-європеоїд віком 40-50 років, хоча дехто описує його як монголоїда того ж віку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-049-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-039",
+          "title": "Бог допоможе",
+          "blurb": "Гуманоїд — SCP-039-UA — комплексна аномалія, що складається з двох елементів: спонтанно виникаючих оголошень про збір пожертв на лі…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-039-ua",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "humanoid-biological",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Гуманоїд × Біологічне",
+      "introduction": "Дослідіть тему «Гуманоїд × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-096",
+          "title": "Сором'язливий",
+          "blurb": "Гуманоїд × Біологічне — SCP-096 – гуманоїдна істота зростом приблизно 2,38 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Чумний лікар",
+          "blurb": "Гуманоїд × Біологічне — SCP-049 — це гуманоїд, приблизно 1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Авель\"",
+          "blurb": "Гуманоїд × Біологічне — SCP-076 складається з двох частин: кам'яний куб, далі - SCP-076-1, та гуманоїд, який знаходиться всередині SCP-076-1 - д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-105",
+          "title": "\"Айріс\"",
+          "blurb": "Гуманоїд × Біологічне — SCP-105 (раніше відома як Айріс Томпсон) є жінкою європеоїдної зовнішності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-105",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-231",
+          "title": "Особливі вимоги до персоналу",
+          "blurb": "Гуманоїд × Біологічне — SCP-231-7 - це █████ жіночого роду віком між █ та ██ років, З [ДАНІ ВИДАЛЕНО].",
+          "url": "http://scp-ukrainian.wikidot.com/scp-231",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-082",
+          "title": "\"Фернанд\", людожер",
+          "blurb": "Гуманоїд × Біологічне — Генетично SCP-082 є людиною; проте через невідомий процес (хімічний, гормональний, раковий або надприродний) він виріс д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-082",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-2133",
+          "title": "Наша земля, Наша неволя",
+          "blurb": "Гуманоїд × Біологічне — SCP-2133 — це безіменне село на Північному Уралі, у якому, за оцінками, проживає близько п'ятдесяти осіб, хоча точну циф…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2133",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1440",
+          "title": "Старий нізвідки",
+          "blurb": "Гуманоїд × Біологічне — SCP-1440 – це чоловік невідомого етносу і віку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1440",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "humanoid-sentient",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Гуманоїд × Розумне",
+      "introduction": "Дослідіть тему «Гуманоїд × Розумне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-106",
+          "title": "Старий",
+          "blurb": "Гуманоїд × Розумне — SCP-106 виглядає як гуманоїд, схожий на людину похилого віку з загальними ознаками гниття.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-2669",
+          "title": "Кебтеул 1",
+          "blurb": "Гуманоїд × Розумне — SCP-2669 - це космічний зонд Кебтеул 1, розроблений, сконструйований і запущений Фондом у 2004 році в якості частини про…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-179",
+          "title": "Сестра Сонця",
+          "blurb": "Гуманоїд × Розумне — SCP-179 являє собою гуманоїдну істоту, яка знаходиться на постійній відстані близько 40 000 км від південної полярної об…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-179",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-085",
+          "title": "Намальована \"Кассі\"",
+          "blurb": "Гуманоїд × Розумне — SCP-085 є результатом експерименту між SCP-067 і SCP-914.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-085",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Маленька відьма",
+          "blurb": "Гуманоїд × Розумне — SCP-239 виглядає, як 8-річна дівчинка зростом 1 метр і вагою 20 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-239",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Снігова людина",
+          "blurb": "Гуманоїд × Розумне — SCP-1000 це нічна всеїдна тварина, відноситься до триби Hominini, до якої також відносяться роди Pan та Homo.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1000",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-507",
+          "title": "Вимушений мандрівник світами",
+          "blurb": "Гуманоїд × Розумне — SCP-507 виглядає як чоловік європеоїдної зовнішності з білявим волоссям та зеленими очима, без особливих прикмет, окрім …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-507",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-208",
+          "title": "\"Бес\"",
+          "blurb": "Гуманоїд × Розумне — SCP-208 виглядає як невисокий огрядний чоловік єгипетської зовнішності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-208",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-004",
+      "themeId": "sentient-biological",
+      "publishedAt": "2026-12-02T10:00:00.000Z",
+      "title": "Розумне × Біологічне",
+      "introduction": "Дослідіть тему «Розумне × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-682",
+          "title": "Незнищенна рептилія",
+          "blurb": "Розумне × Біологічне — SCP-682 – це велике створіння рептильної зовнішності та невідомого походження.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-682",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "Серце темряви",
+          "blurb": "Розумне × Біологічне — SCP-058 нагадує бичаче серце з чотирма (4) членистими лапками, які об'єкт використовує в першу чергу для руху, та чотирм…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-058",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-999",
+          "title": "Монстр-лоскотунчик",
+          "blurb": "Розумне × Біологічне — SCP-999 являє собою велику аморфну желатиноподібну масу напівпрозорого слизу, яка має оранжевий колір, вагу близько 54 к…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-999",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1867",
+          "title": "Джентльмен",
+          "blurb": "Розумне × Біологічне — SCP-1867 – особина голозябрового молюску виду Nembrotha kubaryana (мінливий неоновий слизняк) довжиною 11,7 см (4,6 дюйм…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1867",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-3082",
+          "title": "Хлопці та дівчата, загублені у Небувалії",
+          "blurb": "Розумне × Біологічне — SCP-3082 - це хатинка на дереві, яка має розміри 2x2x2 метри, розташована на центральному заході Сполучених Штатів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3082",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-590",
+          "title": "Він відчуває твій біль",
+          "blurb": "Розумне × Біологічне — SCP-590 виглядає, як чоловік віком приблизно 16 років.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-590",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-134",
+          "title": "Дитина з зоряними очима",
+          "blurb": "Розумне × Біологічне — SCP-134 виглядає, як дівчинка приблизно █-█ років, азійської зовнішності, з коротким чорним волоссям та худорлявої стату…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-134",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-2317",
+          "title": "Двері до іншого світу",
+          "blurb": "Розумне × Біологічне — SCP-2317 - це дерев'яні двері в рамці, які спочатку були побудовані як двері до підвального приміщення в особняку у Масс…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2317",
+          "sourceTags": [
+            "sentient",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-005",
+      "themeId": "sentient",
+      "publishedAt": "2026-12-09T10:00:00.000Z",
+      "title": "Розумне",
+      "introduction": "Дослідіть тему «Розумне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-914",
+          "title": "Годинниковий механізм",
+          "blurb": "Розумне — SCP-914 – це великий пристрій з часовим механізмом, що важить декілька тонн, займає площу у вісімнадцять квадратних метр…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-914",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Куди поділися дракони?",
+          "blurb": "Розумне — SCP-1762-1 — це звичайна картонна коробка розмірами 32 cм x 20 cм x 26 cм.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1762",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1522",
+          "title": "Кораблі, що йдуть крізь ніч",
+          "blurb": "Розумне — SCP-1522 – позначення двох риболовецьких траулерів (SCP-1522-1 та SCP-1522-2), кожен довжиною 39 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1522",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-2006",
+          "title": "Надто страшний",
+          "blurb": "Розумне — SCP-2006 – це аномальна істота, яка в початковому стані має вигляд сфери діаметром приблизно 50 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2006",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-035",
+          "title": "Маска одержимості",
+          "blurb": "Розумне — SCP-035 виглядає як біла порцелянова маска коміка, хоча часом воно змінює вигляд на маску трагіка.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-035",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-732",
+          "title": "Чума з фанфіків",
+          "blurb": "Розумне — SCP-732 це сила або сутність, яка#%^&@Суб'єкт неймовірно привабливий і розумний^&*(%мінює наші записи на якусь гидоту з …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-732",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-1370",
+          "title": "НудоБот",
+          "blurb": "Розумне — SCP-1370 – це самосвідоме штучне створіння, побудоване з різних електричних пристроїв та інструментів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1370",
+          "sourceTags": [
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-131",
+          "title": "Зінички",
+          "blurb": "Розумне — SCP-131-A та SCP-131-B (яких персонал любляче назвав \"Зінички\") — це пара істот, краплеподібної форми, з одним блакитним…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-131",
+          "sourceTags": [
+            "sentient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-006",
+      "themeId": "mind_affecting-biological",
+      "publishedAt": "2026-12-16T10:00:00.000Z",
+      "title": "Вплив на психіку × Біологічне",
+      "introduction": "Дослідіть тему «Вплив на психіку × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-003",
+          "title": "Біологічна материнська плата",
+          "blurb": "Вплив на психіку × Біологічне — SCP-003 складається з двох взаємопов'язаних компонентів окремого походження, які далі позначаються як SCP-003-1 та SCP-0…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-003",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Бог\"",
+          "blurb": "Вплив на психіку × Біологічне — SCP-343 – чоловік невстановленої раси, гуманоїдної зовнішності, який, очевидно, є всемогутнім.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-343",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-610",
+          "title": "Плоть, що ненавидить",
+          "blurb": "Вплив на психіку × Біологічне — Початкові повідомлення SCP-610 надійшли безпосередньо від російського уряду через секретні канали.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-610",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Маленька дівчинка",
+          "blurb": "Вплив на психіку × Біологічне — SCP-053 виглядає як маленька 3-річна дівчинка.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-053",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-020",
+          "title": "Невидима цвіль",
+          "blurb": "Вплив на психіку × Біологічне — SCP-020 — це грибковий організм, що швидко розповсюджується та здатний впливати на органи чуття та поведінку живих істот…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-020",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-186",
+          "title": "Покласти кінець війнам",
+          "blurb": "Вплив на психіку × Біологічне — SCP-186 – позначення території, де з 24.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-186",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1659",
+          "title": "Директорат К",
+          "blurb": "Вплив на психіку × Біологічне — SCP-1659 – це квазіурядова організація, яка виходить за рамки усіх відомих політичних кордонів та інституцій.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1659",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1460",
+          "title": "Сновида",
+          "blurb": "Вплив на психіку × Біологічне — SCP-1460 – 32-річний чоловік азійсько-американського походження, ідентифікований як [ВИДАЛЕНО], колишній житель міста ██…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1460",
+          "sourceTags": [
+            "mind_affecting",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-007",
+      "themeId": "humanoid-mind_affecting",
+      "publishedAt": "2026-12-23T10:00:00.000Z",
+      "title": "Гуманоїд × Вплив на психіку",
+      "introduction": "Дослідіть тему «Гуманоїд × Вплив на психіку» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-701",
+          "title": "\"Трагедія про Повішеного Короля\"",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-701 – \"трагедія помсти\", видана за часів Каролінської епохи2, у п'яти діях, під назвою \"Трагедія про Повішеного Коро…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-701",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-3033",
+          "title": "Люди-зброя",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-3033-1 – позначення окремих суб'єктів, що входили до програми \"Майк\" Повстанців Хаосу.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3033",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1011",
+          "title": "Процес гуманізації",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-1011 — це статуя приблизно 2 м висотою та вагою близько 4200 кг, яка зображує робітника, голову якого замінено на на…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1011",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-4626",
+          "title": "Єдине, чого нам треба боятися…",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-4626 – це невеликий полірований камінь овальної форми.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4626",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-352",
+          "title": "\"Баба-Яга\"",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-352 виглядає, як дуже стара, виснажена жінка невизначеного віку й раси.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-352",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-122",
+          "title": "Більше ніяких монɔтрів",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-122 — це пластиковий нічник у формі зірки; припускаємо, що він був виготовлений між 1960 і 1980 роками.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-122",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-5998",
+          "title": "Чоловік, Асцендент",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-5998 — це висохлий труп, заморожений у позі стоячи на колінах, який розташований південніше від Північного полюса на…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5998",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-182",
+          "title": "\"Наїзник\"",
+          "blurb": "Гуманоїд × Вплив на психіку — SCP-182 – чоловік європеоїдної зовнішності, середньої статури, віком приблизно 45 років, на животі та черепі має глибокі…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-182",
+          "sourceTags": [
+            "humanoid",
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-008",
+      "themeId": "sentient-hostile",
+      "publishedAt": "2026-12-30T10:00:00.000Z",
+      "title": "Розумне × Вороже",
+      "introduction": "Дослідіть тему «Розумне × Вороже» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-2851",
+          "title": "Червоний",
+          "blurb": "Розумне × Вороже — SCP-2851 є аномальним явищем, яке впливає на Крило № 9 Зони 47, як і на всю документацію стосовно SCP-2851, яка не є чер…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2851",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1360",
+          "title": "ГУАП №31",
+          "blurb": "Розумне × Вороже — SCP-1360 являє собою свідомого, повністю завершеного андроїда.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1360",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-3560",
+          "title": "Усі роботи відправляються в лімб",
+          "blurb": "Розумне × Вороже — SCP-3560 - це міжвимірний портал 3-го класу, який знаходиться всередині лісопарку в Портленді, штат Орегон.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3560",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Що таке любов?",
+          "blurb": "Розумне × Вороже — SCP-031 - це аморфний організм масою 75 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-031",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Ваза з чудовиськами",
+          "blurb": "Розумне × Вороже — SCP-019 виглядає як дуже велика керамічна ваза, з діаметром горлечка 1,8 м і висотою 2,4 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-019",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-2439",
+          "title": "[НЕ ЗАЙНЯТО]",
+          "blurb": "Розумне × Вороже — Отже це така ідея, яка заражає людей, які знають про неї, і повільно захавує їм мозки.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2439",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1637",
+          "title": "Армія майбутнього",
+          "blurb": "Розумне × Вороже — SCP-1637 – це фабрично-лабораторний комплекс, побудований на глибині від 50 до 100 м нижче поверхні пустелі Сахара, в із…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1637",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Пекельний окультний скелет",
+          "blurb": "Розумне × Вороже — SCP-060 – це гай, що складається з 17 білих дубів (Quercus alba).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-060",
+          "sourceTags": [
+            "sentient",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-009",
+      "themeId": "spatial",
+      "publishedAt": "2027-01-06T10:00:00.000Z",
+      "title": "Просторове",
+      "introduction": "Дослідіть тему «Просторове» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "Сходи",
+          "blurb": "Просторове — SCP-087 являє собою неосвітлену сходову кліть.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-087",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "Багряний Став",
+          "blurb": "Просторове — SCP-354 – це невелика водойма червоної рідини, виявлена на півночі Канади.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-354",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3001",
+          "title": "Червона реальність",
+          "blurb": "Просторове — SCP-3001 - це гіпотетичний парадоксальний паралельний/кишеньковий \"не вимір\", доступний через створення короткочасної кр…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3001",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 іржавих ключів і двері",
+          "blurb": "Просторове — SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1322",
+          "title": "Шпаринка",
+          "blurb": "Просторове — SCP-1322 – це стабільна просторово-часова аномалія, яка, згідно з поточною гіпотезою, є міжпросторовим порталом, що веде…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1322",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6000",
+          "title": "Змій, Мус та Бібліотека Мандрівників",
+          "blurb": "Просторове — A ROUNDERHOUSE Joint ЗА НАКАЗОМ РАДИ НАГЛЯДАЧІВ Наступний документ потребує рівня допуску 4/6000.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-6000",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1437",
+          "title": "Діра в інше місце",
+          "blurb": "Просторове — SCP-1437 – це, судячи з усього, бездонний отвір розмірами 3 x 3 м, розташований у пустелі ██████.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1437",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3379",
+          "title": "D-11424 та Арктична М'ясна діра нескінчених див",
+          "blurb": "Просторове — SCP-3379 - це прямокутний портал, який знаходиться на відстані приблизно в 8 метрів під водною поверхнею в арктичному ок…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3379",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-010",
+      "themeId": "humanoid-hostile",
+      "publishedAt": "2027-01-13T10:00:00.000Z",
+      "title": "Гуманоїд × Вороже",
+      "introduction": "Дослідіть тему «Гуманоїд × Вороже» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-2490",
+          "title": "Оперативник Повстанців Хаосу Альфа-19",
+          "blurb": "Гуманоїд × Вороже — SCP-2490 – це позначення модифікованої людської істоти (яка, як вважається, є спеціальним оперативником Альфа-19 Повстан…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2490",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-4666",
+          "title": "Йольський дід",
+          "blurb": "Гуманоїд × Вороже — Наразі прийнято вважати, що SCP-4666 — це один винятково довгоживучий гуманоїд невідомого походження.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4666",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-017",
+          "title": "Тіньова істота",
+          "blurb": "Гуманоїд × Вороже — SCP-017 - гуманоїдна фігура приблизно 80 сантиметрів у висоту, анатомічно схожа на маленьку дитину, але без виявлених ри…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-017",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1111",
+          "title": "Білий пес",
+          "blurb": "Гуманоїд × Вороже — SCP-1111-1 – істота, зовні подібна до Canis familiaris (свійський собака).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1111",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-3166",
+          "title": "Ти навіть не уявляєш, наскільки ти самотній, Гарфілде",
+          "blurb": "Гуманоїд × Вороже — SCP-3166 — це гуманоїдна істота, 2,1 метра заввишки, яка за своєю природою вважається патафізичною, і, як відомо, проявл…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3166",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1285",
+          "title": "Дерев'яний кіношний реквізит",
+          "blurb": "Гуманоїд × Вороже — SCP-1285 — це дерев'яна скульптура, яка зображує безрукого та безголового гуманоїда, що сидить на бетонному постаменті.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1285",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-3105",
+          "title": "Подорож додому",
+          "blurb": "Гуманоїд × Вороже — SCP-3105 - це сильно пошкоджений труп людини чоловічої статі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3105",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "Дочка тіней",
+          "blurb": "Гуманоїд × Вороже — SCP-029 виглядає як статево зріла жінка, азіатсько-індійського походження, та страждає від повного облисіння.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-011",
+      "themeId": "biological-infectious",
+      "publishedAt": "2027-01-20T10:00:00.000Z",
+      "title": "Біологічне × Заразне",
+      "introduction": "Дослідіть тему «Біологічне × Заразне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-008",
+          "title": "Чума зомбі",
+          "blurb": "Біологічне × Заразне — SCP-008 — це складний пріон, зразок якого зберігається в кожній з відомих зон G2.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-008",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Розумний вірус",
+          "blurb": "Біологічне × Заразне — SCP-016 - це патоген крові, вперше виявлений у гірника в █████, пораненого під час роботи у вугільній шахті.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-016",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "Живий магніт для шкідників",
+          "blurb": "Біологічне × Заразне — SCP-027 - це явище невідомого походження, яке пов'язано з однією людиною (наразі це суб'єкт 027-02) за раз.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-027",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-059",
+          "title": "Радіоактивний мінерал",
+          "blurb": "Біологічне × Заразне — SCP-059 являє собою радіоактивний мінерал невідомого походження, поверхнево схожий на шеєліт.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-059",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-217",
+          "title": "Вірус годинникового механізму",
+          "blurb": "Біологічне × Заразне — SCP-217 – це вірус, невиліковний за допомогою сучасних засобів, зі 100%-м рівнем інфекційності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-217",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-081",
+          "title": "Вірус спонтанного самозаймання",
+          "blurb": "Біологічне × Заразне — SCP-081 – це заразний вірус, який, очевидно, являє собою мутовану версію вірусу ████████, але з █ сегментами в РНК заміс…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-081",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-149",
+          "title": "Кров'яні комарі",
+          "blurb": "Біологічне × Заразне — SCP-149 – це порода комарів, які є носіями штаму ретровірусу (далі позначений як SCP-149-A), який спричинює мутації реге…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-149",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-2756",
+          "title": "Сюрреалістичний пейзажист",
+          "blurb": "Біологічне × Заразне — SCP-2756 — це інфекція невідомого походження, здатна поширюватися як на органічний, так і на неорганічний матеріал.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2756",
+          "sourceTags": [
+            "biological",
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-012",
+      "themeId": "sentient-mind_affecting",
+      "publishedAt": "2027-01-27T10:00:00.000Z",
+      "title": "Розумне × Вплив на психіку",
+      "introduction": "Дослідіть тему «Розумне × Вплив на психіку» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-5664",
+          "title": "Залежність від крові",
+          "blurb": "Розумне × Вплив на психіку — SCP-5664 — це будівля.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5664",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-042",
+          "title": "Раніше крилатий кінь",
+          "blurb": "Розумне × Вплив на психіку — SCP-042 — тварина, яка вважається представником роду коней (Equus).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-042",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-2682",
+          "title": "Сліпий телепень",
+          "blurb": "Розумне × Вплив на психіку — SCP-2682 за своїм зовнішнім виглядом подібний до ягоди Rubus crataegifolius (корейська малина), але відрізняється пурпур…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2682",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-2075",
+          "title": "Шлях всієї плоті",
+          "blurb": "Розумне × Вплив на психіку — На цей час, SCP-2075 являє собою 63-річного чоловіка європеоїдної раси, у минулому відомого як Олексій Кравчук — охороне…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2075",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-116",
+          "title": "Крихкий хлопчик",
+          "blurb": "Розумне × Вплив на психіку — SCP-116 виглядає як людина чоловічої статі європеоїдної раси та віком 9 років.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-116",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-056",
+          "title": "Красунчик",
+          "blurb": "Розумне × Вплив на психіку — SCP-056 – це істота перемінних розмірів, статі та вигляду, які змінюються залежно від оточення, особливо від наявності ж…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-056",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-953",
+          "title": "Поліморфний гуманоїд",
+          "blurb": "Розумне × Вплив на психіку — SCP-953 — це самиця рудої лисиці (Vulpes vulpes) вагою приблизно 8 кг із хребтом, який розділяється навколо 26-го хребця…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-953",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-5865",
+          "title": "Планета співробітників класу D",
+          "blurb": "Розумне × Вплив на психіку — SCP-5865 — це позначення Всесвіту D-4594A, джерела майже всіх співробітників класу D, які використовуються в стандартних…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5865",
+          "sourceTags": [
+            "sentient",
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-013",
+      "themeId": "temporal",
+      "publishedAt": "2027-02-03T10:00:00.000Z",
+      "title": "Часове",
+      "introduction": "Дослідіть тему «Часове» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1968",
+          "title": "Тор глобальної зворотньої причинності",
+          "blurb": "Часове — У неактивному стану SCP-1968 виглядає як бронзовий тор невідомого складу.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1968",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-3997",
+          "title": "У моєму кінці мій початок",
+          "blurb": "Часове — SCP-3997 – це психічне явище, яке вражає низку осіб, котрі надалі позначаються як екземпляри SCP-3997-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3997",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-1505",
+          "title": "Птахи з парадоксальним розмноженням",
+          "blurb": "Часове — SCP-1505 – позначення аномальної самопідтримуваної часової петлі, що походить від однієї дорослої особини виду крук (Cor…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1505",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-4646",
+          "title": "Заспівай мені пісню до кінця світу",
+          "blurb": "Часове — SCP-4646 — покинутий будинок у містечку Блю Фокс, штат Монтана.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4646",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-2002",
+          "title": "Вбите майбутнє",
+          "blurb": "Часове — SCP-2002 являв собою космічний корабель, що йшов прямим курсом на зіткнення з Землею.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2002",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-185",
+          "title": "Рація",
+          "blurb": "Часове — SCP-185 виглядає як радянська переносна радіостанція R-105M, аналогічна тим, що використовувалися у роки \"холодної війни…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-185",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-202",
+          "title": "Людина навпаки",
+          "blurb": "Часове — SCP-202 – це британець азійського походження віком 41 рік, який виконує усі дії у зворотному порядку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-202",
+          "sourceTags": [
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-176",
+          "title": "Спостережувана часова петля",
+          "blurb": "Часове — SCP-176 – це покинутий хімічний завод, розташований поблизу [ДАНІ ВИДАЛЕНО].",
+          "url": "http://scp-ukrainian.wikidot.com/scp-176",
+          "sourceTags": [
+            "temporal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-014",
+      "themeId": "mind_affecting-artifact",
+      "publishedAt": "2027-02-10T10:00:00.000Z",
+      "title": "Вплив на психіку × Артефакт",
+      "introduction": "Дослідіть тему «Вплив на психіку × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-162",
+          "title": "Колючий клубок",
+          "blurb": "Вплив на психіку × Артефакт — SCP-162 - це маса риболовних гачків, лісок, голок, ножиць та інших гострих предметів у формі грубої кулі, близько 2,4 м …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-162",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-148",
+          "title": "Сплав \"Телекілл\"",
+          "blurb": "Вплив на психіку × Артефакт — SCP-148 – це металевий сплав, що складається з різних відомих та невідомих елементів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-148",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-668",
+          "title": "13-дюймовий кухарський ніж",
+          "blurb": "Вплив на психіку × Артефакт — SCP-668 – це кухарський ніж 33 см (13 дюймів) завдовжки, з ручкою з палісандра, пластинчастої конструкції, створений у к…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-668",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-174",
+          "title": "Лялька черевомовця",
+          "blurb": "Вплив на психіку × Артефакт — SCP-174 являє собою дерев’яну ляльку черевомовця висотою 53 см з де-не-де порваним одягом та легкими пошкодженнями на по…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-174",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-513",
+          "title": "Коров'ячий дзвоник",
+          "blurb": "Вплив на психіку × Артефакт — Фізично SCP-513 виглядає як непримітний іржавий коров'ячий дзвоник.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-513",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1427",
+          "title": "Стела пригнічення",
+          "blurb": "Вплив на психіку × Артефакт — SCP-1427 – це позбавлена будь-яких особливих прикмет стела розмірами 14 x 2 x 2 м, виготовлена з берілієвої бронзи.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1427",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1139",
+          "title": "Розбита мова",
+          "blurb": "Вплив на психіку × Артефакт — SCP-1139 являє собою блок з сірого металу, висотою приблизно двадцять сантиметрів і площею п'ять сантиметрів у основі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1139",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Цигарки \"Blue Lady\"",
+          "blurb": "Вплив на психіку × Артефакт — SCP-013 - це загальне позначення для 242 цигарок з однаковими аномальними властивостями.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-013",
+          "sourceTags": [
+            "mind_affecting",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-015",
+      "themeId": "biological-hostile",
+      "publishedAt": "2027-02-17T10:00:00.000Z",
+      "title": "Біологічне × Вороже",
+      "introduction": "Дослідіть тему «Біологічне × Вороже» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1100",
+          "title": "Кров Землі",
+          "blurb": "Біологічне × Вороже — SCP-1100 – це складна органічна речовина, яка викликає аномальні перетворення у природних рослинних організмах.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1100",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-511",
+          "title": "Підвальний кіт",
+          "blurb": "Біологічне × Вороже — Екземпляри SCP-511 зазвичай зустрічаються в житлових будівлях із блоковим або кам’яним фундаментом, що мають підвал або …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-511",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-1972",
+          "title": "Повія і поліцейський",
+          "blurb": "Біологічне × Вороже — SCP-1972-A є гуманоїдом зростом в стоячому положенні приблизно 2,4 метри.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1972",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Незнищенна рептилія",
+          "blurb": "Біологічне × Вороже — SCP-682 – це велике створіння рептильної зовнішності та невідомого походження.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-682",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Авель\"",
+          "blurb": "Біологічне × Вороже — SCP-076 складається з двох частин: кам'яний куб, далі - SCP-076-1, та гуманоїд, який знаходиться всередині SCP-076-1 - д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-076",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-058",
+          "title": "Серце темряви",
+          "blurb": "Біологічне × Вороже — SCP-058 нагадує бичаче серце з чотирма (4) членистими лапками, які об'єкт використовує в першу чергу для руху, та чотирм…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-058",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-031",
+          "title": "Що таке любов?",
+          "blurb": "Біологічне × Вороже — SCP-031 - це аморфний організм масою 75 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-031",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-352",
+          "title": "\"Баба-Яга\"",
+          "blurb": "Біологічне × Вороже — SCP-352 виглядає, як дуже стара, виснажена жінка невизначеного віку й раси.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-352",
+          "sourceTags": [
+            "biological",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-017",
+      "themeId": "mind_affecting",
+      "publishedAt": "2027-03-03T10:00:00.000Z",
+      "title": "Вплив на психіку",
+      "introduction": "Дослідіть тему «Вплив на психіку» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1004",
+          "title": "Порно від Фабрики",
+          "blurb": "Вплив на психіку — SCP-1004 – це комп'ютерна програма, яка розповсюджується на компакт-дисках (SCP-1004-2) або 3,5-дюймових дискетах (SCP-1…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1004",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-2602",
+          "title": "який колись був бібліотекою",
+          "blurb": "Вплив на психіку — SCP-2602 - це будівля, яка в період з 08.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2602",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-3380",
+          "title": "Наука, технології, інженерія, божественне",
+          "blurb": "Вплив на психіку — SCP-3380 — це феномен, який зачіпає різних прихильників розвитку галузі STEM (науки, технології, інженерії та математики…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3380",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-1048",
+          "title": "Ведмедик-будівельник",
+          "blurb": "Вплив на психіку — SCP-1048 – це маленький плюшевий ведмедик висотою приблизно 33 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1048",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-426",
+          "title": "Я – Тостер",
+          "blurb": "Вплив на психіку — Вітаю, я – SCP-426.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-426",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-993",
+          "title": "Клоун Помпон",
+          "blurb": "Вплив на психіку — SCP-993 – це дитяча телевізійна програма \"Клоун Помпон\", перша трансляція якої зареєстрована ██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-993",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-963",
+          "title": "Безсмертя",
+          "blurb": "Вплив на психіку — SCP-963-1 – це декоративний амулет діаметром приблизно 15 сантиметрів, з білого золота, з тринадцятю (13) ██-каратними д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-963",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-2316",
+          "title": "Навчальна поїздка",
+          "blurb": "Вплив на психіку — SCP-2316 позначає аномальний феномен, що зосереджується в озері ███████████ в окрузі ████████, ███████.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2316",
+          "sourceTags": [
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-021",
+      "themeId": "reality_altering",
+      "publishedAt": "2027-03-31T10:00:00.000Z",
+      "title": "Зміна реальності",
+      "introduction": "Дослідіть тему «Зміна реальності» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-2599",
+          "title": "Треба краще старатися",
+          "blurb": "Зміна реальності — SCP-2599 – 14-річна жінка корейського походження, раніше відома як Цзеньа Чо.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2599",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-5520",
+          "title": "Кроляча нора",
+          "blurb": "Зміна реальності — SCP-5520 — колишній старший дослідник та співдиректор Тимчасової Зони д-р Вінн Ріддерік.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5520",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-3936",
+          "title": "Все працює належним чином",
+          "blurb": "Зміна реальності — SCP-3936 – це Виняткова Зона-01, установа Фонду, побудована за допомогою макроверсії технології, що застосовується у Скр…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3936",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-5655",
+          "title": "Саме такий джин, якого ви очікуєте знайти в порожній банці з-під Спаму",
+          "blurb": "Зміна реальності — SCP-5655 — це порожня бляшанка \"Спаму\", яка, якщо її струснути або перевернути, матеріалізує SCP-5655-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5655",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-7500",
+          "title": "Ірландська вдача",
+          "blurb": "Зміна реальності — SCP-7500 являв собою Донована Ханлана, австралійця ірландського походження, який мав здібність підсвідомо маніпулювати й…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-7500",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Бог\"",
+          "blurb": "Зміна реальності — SCP-343 – чоловік невстановленої раси, гуманоїдної зовнішності, який, очевидно, є всемогутнім.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-343",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Маленька відьма",
+          "blurb": "Зміна реальності — SCP-239 виглядає, як 8-річна дівчинка зростом 1 метр і вагою 20 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-239",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-3997",
+          "title": "У моєму кінці мій початок",
+          "blurb": "Зміна реальності — SCP-3997 – це психічне явище, яке вражає низку осіб, котрі надалі позначаються як екземпляри SCP-3997-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3997",
+          "sourceTags": [
+            "reality_altering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-022",
+      "themeId": "sentient-artifact",
+      "publishedAt": "2027-04-07T10:00:00.000Z",
+      "title": "Розумне × Артефакт",
+      "introduction": "Дослідіть тему «Розумне × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-005",
+          "title": "Відмикачка",
+          "blurb": "Розумне × Артефакт — SCP-005 зовні нагадує прикрашений ключ, який за характеристиками не відрізняється від серійно випущених ключів приблизно…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-005",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1609",
+          "title": "Уламки крісла",
+          "blurb": "Розумне × Артефакт — SCP-1609 наразі являє собою з купу дерев'яних уламків, меблевих цвяхів, обрізків вибіленої шкіри та тканини загальною ва…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1609",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-662",
+          "title": "Дзвоник дворецького",
+          "blurb": "Розумне × Артефакт — SCP-662 – невеликий срібний дзвоник заввишки 4 см та обхватом 2 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-662",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-090",
+          "title": "Кубик апокорубіка",
+          "blurb": "Розумне × Артефакт — SCP-090 було знайдено й вилучено з ███████, ██████, 10 квітня 19██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-090",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-702",
+          "title": "Крамниця міняйла",
+          "blurb": "Розумне × Артефакт — SCP-702 – це проста червона ваза невідомого виробництва.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-702",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-168",
+          "title": "Розумний калькулятор",
+          "blurb": "Розумне × Артефакт — SCP-168 є графічним калькулятором марки Hewlett-Packard, моделі #HP-28C, який був знайдений у 199█ році, під час чистки …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-168",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-086",
+          "title": "Кабінет доктора [ВИЛУЧЕНО]",
+          "blurb": "Розумне × Артефакт — SCP-086 – це колективний нездатний до самостійного руху організм, складові частини якого нагадують предмети офісного обл…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-086",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-735",
+          "title": "Коробка, що ображає",
+          "blurb": "Розумне × Артефакт — SCP-735 було знайдено у ███████, ████████, серед особистих речей ████ █████ після виявлення трупу зазначеної особи.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-735",
+          "sourceTags": [
+            "sentient",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-023",
+      "themeId": "plant-biological",
+      "publishedAt": "2027-04-14T10:00:00.000Z",
+      "title": "Рослина × Біологічне",
+      "introduction": "Дослідіть тему «Рослина × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-407",
+          "title": "Пісня Буття",
+          "blurb": "Рослина × Біологічне — SCP-407 – це пісня неідентифікованою мовою, що виконується, очевидно, а-капелла.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-407",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1612",
+          "title": "Вогні Панглосса",
+          "blurb": "Рослина × Біологічне — SCP-1612 є раніше невідомим видом Glycine max, також відомої як соя культурна.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1612",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1147",
+          "title": "Адаптивна слива",
+          "blurb": "Рослина × Біологічне — SCP-1147 – це некласифікований вид дерева сливи, кісточки якого (позначені як SCP-1147-1) можуть зростати практично в бу…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1147",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-038",
+          "title": "Дерево чого завгодно",
+          "blurb": "Рослина × Біологічне — SCP-038 був знайдений на покинутій фермі в █████████████, Нью-Йорк, у 19██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-038",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-143",
+          "title": "Гай клинкових дерев",
+          "blurb": "Рослина × Біологічне — SCP-143 являє собою плантацію із 300 екземплярів унікального виду дерев.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-143",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-2706",
+          "title": "Ліс воскресіння",
+          "blurb": "Рослина × Біологічне — SCP-2706 - ліс білих дубів (Quercus alba), що знаходиться у 36 кілометрах на схід від Кларксбурга, Західна Вірджинія.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2706",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-2815",
+          "title": "Дерево життя",
+          "blurb": "Рослина × Біологічне — SCP-2815 – це загальне позначення аномальної ендогамної спільноти, до якої входить більшість населення селища ███, медьє…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2815",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-615",
+          "title": "Купа паличок",
+          "blurb": "Рослина × Біологічне — SCP-615 — це велика купа мертвих та відділених частин рослин, яка отримала власну свідомість.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-615",
+          "sourceTags": [
+            "plant",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-025",
+      "themeId": "mechanical",
+      "publishedAt": "2027-04-28T10:00:00.000Z",
+      "title": "Механічне",
+      "introduction": "Дослідіть тему «Механічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-5000",
+          "title": "Чому?",
+          "blurb": "Механічне — SCP-5000 – це нефункціональний костюм, ідентифікований в його внутрішніх схемах, як «Обладунок Абсолютної Ізоляції», роз…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5000",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-882",
+          "title": "Машина",
+          "blurb": "Механічне — SCP-882 виглядає як хаотична мішанина шестерень, кабелів, шківів, гвинтів і ременів, всі з яких складаються зі сплавів р…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-882",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-044",
+          "title": "Гармата молекулярного розщеплення часів Другої Світової",
+          "blurb": "Механічне — SCP-044 - це гаубиця, таємно побудована наприкінці Другої Світової інженерами Круппа під особистим керівництвом Альберта…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-044",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Каїн\"",
+          "blurb": "Механічне — SCP-073 виглядає, як сильно засмаглий чоловік арабського або близькосхідного походження, близько тридцяти років, зростом…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-073",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-536",
+          "title": "Камера для випробування фізичних законів",
+          "blurb": "Механічне — SCP-536 – це прилад у вигляді камери розмірами ██ х █ х ██ метрів з квадратним віконцем ребром 50 сантиметрів, 6 дискови…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-536",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-158",
+          "title": "Екстрактор душі",
+          "blurb": "Механічне — SCP-158 – це великий механічний маніпулятор-рука, подібний до тих, що використовуються на автомобільних заводах, хоча йо…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-158",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-918",
+          "title": "Млин дітей",
+          "blurb": "Механічне — SCP-918 - це покинутий млин, розташований в ████, ███████.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-918",
+          "sourceTags": [
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-915",
+          "title": "Механічний екстрамірний комп'ютер",
+          "blurb": "Механічне — SCP-915 - це механічний обчислювальний пристрій з виразною неевклідовою внутрішньою конфігурацією.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-915",
+          "sourceTags": [
+            "mechanical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-026",
+      "themeId": "liquid-artifact",
+      "publishedAt": "2027-05-05T10:00:00.000Z",
+      "title": "Рідина × Артефакт",
+      "introduction": "Дослідіть тему «Рідина × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-505",
+          "title": "Пляма чорнила",
+          "blurb": "Рідина × Артефакт — SCP-505 являє собою перову ручку «Faber-Castell» моделі ████, виготовлену в 2001 році.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-505",
+          "sourceTags": [
+            "liquid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-198",
+          "title": "Стаканчик Джо",
+          "blurb": "Рідина × Артефакт — З початку його зберігання Фондом у 19██ році SCP-198 приймало багато різних форм, такі як стакан із пінополістиролу, скл…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-198",
+          "sourceTags": [
+            "liquid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-109",
+          "title": "Нескінченна фляга",
+          "blurb": "Рідина × Артефакт — SCP-109 — це стандартна фляга для води армії США (виготовлена приблизно у 1899 році), зроблена зі сплаву олова, з покрит…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-109",
+          "sourceTags": [
+            "liquid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-300",
+          "title": "\"Світ в пляшці\"",
+          "blurb": "Рідина × Артефакт — SCP-300 - антикварний флакон для духів (далі - SCP-300-1), в якому міститься приблизно 2,4 кубічних сантиметрів непізнан…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-300",
+          "sourceTags": [
+            "liquid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-120",
+          "title": "Басейн-телепорт",
+          "blurb": "Рідина × Артефакт — SCP-120 являє собою невеликий дитячий басейн пастельно-рожевого кольору, внутрішнім діаметром близько 2,5 м і внутрішньо…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-120",
+          "sourceTags": [
+            "liquid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-812",
+          "title": "Контейнер із річкою",
+          "blurb": "Рідина × Артефакт — SCP-812 є непримітним вантажним контейнером, виготовленим з гофрованої сталі, розміром 12 x 2,5 x 2,5 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-812",
+          "sourceTags": [
+            "liquid",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-029",
+      "themeId": "plant",
+      "publishedAt": "2027-05-26T10:00:00.000Z",
+      "title": "Рослина",
+      "introduction": "Дослідіть тему «Рослина» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-ua-106",
+          "title": "Квітуча агонія",
+          "blurb": "Рослина — SCP-106-UA – це сукупність ендопаразитичних організмів, що мають зовнішній вигляд літніх дикорослих квітів, розташованих…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-106-ua",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-142",
+          "title": "Carnivoria memoriae",
+          "blurb": "Рослина — SCP-142-UA є округлими цитрусовими плодами (подібні за зовнішнім виглядом на Fortunella hindsii) з маслянисто-блискучою …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-142-ua",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-014",
+          "title": "Якщо життя подарувало тобі лимон…",
+          "blurb": "Рослина — SCP-014-UA – це вид рослин, що по зовнішнім характеристикам відповідає неаномальному виду Дикого лимону (лат.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-014-ua",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-066",
+          "title": "Квітка пізнання",
+          "blurb": "Рослина — SCP-066-UA — це аномальна квітка рослин порядку Polypodiales класу Polypodiópsida групи Polypodiophyta (далі SCP-066-UA-…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-066-ua",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-008",
+          "title": "Здається просто палиця",
+          "blurb": "Рослина — SCP-008-UA — це палиця виготовлена з Corylus avellana (Ліщина звичайна) довжиною 1,5 метра.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-008-ua",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-1009",
+          "title": "Кращий світ",
+          "blurb": "Рослина — SCP-1009 — це аномальна ділянка землі, неправильної форми, розміром близько 45х30 метрів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1009",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-055",
+          "title": "Η Γεθσημανή",
+          "blurb": "Рослина — SCP-055-UA — це сукупність об'єктів і явищ, які проявляють аномальні матеріальні, меметичні та антимеметичні властивості…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-055-ua",
+          "sourceTags": [
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-2171",
+          "title": "Осінні пастирі",
+          "blurb": "Рослина — SCP-2171 – це сезонне явище, що вражає опале листя всіх листопадних дерев, які ростуть у межах певних районів (далі «тер…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2171",
+          "sourceTags": [
+            "plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-031",
+      "themeId": "biological-self_replicating",
+      "publishedAt": "2027-06-09T10:00:00.000Z",
+      "title": "Біологічне × Самовідтворення",
+      "introduction": "Дослідіть тему «Біологічне × Самовідтворення» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-165",
+          "title": "Повзучі, голодні піски Туле",
+          "blurb": "Біологічне × Самовідтворення — Органічна складова SCP-165 нагадує типових паразитичних кліщів, довжиною у сімсот п'ятдесят (750) мікрометрів, які мають…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-165",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1361",
+          "title": "Тваринний субпродукт",
+          "blurb": "Біологічне × Самовідтворення — SCP-1361 – це аморфна маса тваринних тканин, подібна за зовнішнім виглядом до механічно подрібненого м'яса.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1361",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-274",
+          "title": "Графіті",
+          "blurb": "Біологічне × Самовідтворення — SCP-274 – це фарби різних кольорів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-274",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-534",
+          "title": "Кров сама по собі",
+          "blurb": "Біологічне × Самовідтворення — SCP-534 являє собою сукупність різних клітин людської крові та клітинних фрагментів, збільшених в кілька сотень разів, х…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-534",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1583",
+          "title": "Це лише робить нас сильнішими",
+          "blurb": "Біологічне × Самовідтворення — SCP-1583 – позначення набору металевих діжок, призначених для використання у постачанні до протиядерних сховищ.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1583",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1443",
+          "title": "Авернійська лоза",
+          "blurb": "Біологічне × Самовідтворення — SCP-1443 — це невідомий різновид Campsis × tagliabuana, гібрид кампсису повзучого.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1443",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-367",
+          "title": "Маленький Собака",
+          "blurb": "Біологічне × Самовідтворення — SCP-367 виглядає як маленький собака.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-367",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Король ящерів",
+          "blurb": "Біологічне × Самовідтворення — SCP-088 – це гуманоїдна істота з рисами рептилії, муміфікована у знесиленій позі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-088",
+          "sourceTags": [
+            "biological",
+            "self_replicating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-032",
+      "themeId": "humanoid-infectious",
+      "publishedAt": "2027-06-16T10:00:00.000Z",
+      "title": "Гуманоїд × Заразне",
+      "introduction": "Дослідіть тему «Гуманоїд × Заразне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1471",
+          "title": "MalO ver1.0.0",
+          "blurb": "Гуманоїд × Заразне — SCP-1471 — це безкоштовний додаток розміром 9.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1471",
+          "sourceTags": [
+            "humanoid",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-1153",
+          "title": "Програмовані пацієнти",
+          "blurb": "Гуманоїд × Заразне — SCP-1153 – сукупне позначення набору з дванадцяти (на ██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1153",
+          "sourceTags": [
+            "humanoid",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-637",
+          "title": "Вірусна кішка",
+          "blurb": "Гуманоїд × Заразне — SCP-637-2 – європеоїдна жінка похилого віку (приблизно 65 років), називає себе іменем «Марджі».",
+          "url": "http://scp-ukrainian.wikidot.com/scp-637",
+          "sourceTags": [
+            "humanoid",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Чумний лікар",
+          "blurb": "Гуманоїд × Заразне — SCP-049 — це гуманоїд, приблизно 1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-027",
+          "title": "Живий магніт для шкідників",
+          "blurb": "Гуманоїд × Заразне — SCP-027 - це явище невідомого походження, яке пов'язано з однією людиною (наразі це суб'єкт 027-02) за раз.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-027",
+          "sourceTags": [
+            "humanoid",
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-033",
+      "themeId": "liquid",
+      "publishedAt": "2027-06-23T10:00:00.000Z",
+      "title": "Рідина",
+      "introduction": "Дослідіть тему «Рідина» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-ua-110",
+          "title": "Кар'єр",
+          "blurb": "Рідина — SCP-110-UA являє собою затоплений у 1989 р.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-110-ua",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-073",
+          "title": "Бабцин заповіт",
+          "blurb": "Рідина — SCP-073-UA — це лист, написаний від руки на друкарському папері, датований 1987 роком.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-073-ua",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-050",
+          "title": "Набір алхіміка",
+          "blurb": "Рідина — SCP-050-UA є набором з трьох речовин, які далі позначаються як SCP-050-A-UA, SCP-050-B-UA та SCP-050-C-UA.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-050-ua",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-006",
+          "title": "Фонтан молодості",
+          "blurb": "Рідина — SCP-006 — це дуже маленьке джерело, розташоване на відстані у 60 кілометрів від Астрахані.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-006",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1600",
+          "title": "Філософський сир",
+          "blurb": "Рідина — SCP-1600-1 – це темно-жовта рідина без запаху, виявлена у 1998 році в закладі МКД у Бостоні, штат Массачусетс.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1600",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-3998",
+          "title": "Плетена Відьма жива",
+          "blurb": "Рідина — SCP-3998 є людським трупом, який датується XVIII століттям.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3998",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-009",
+          "title": "Червоний лід",
+          "blurb": "Рідина — SCP-009 — це приблизно з ███ літрів речовини, яка поверхнево нагадує дистильовану воду (H2O), за винятком чіткого яскрав…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-009",
+          "sourceTags": [
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-151",
+          "title": "Картина",
+          "blurb": "Рідина — SCP-151 - це картина, намальована олійними фарбами, розміром 1 на 1,3 метра (3 на 4 фути), на якій зображений підводний …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-151",
+          "sourceTags": [
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-034",
+      "themeId": "spatial-artifact",
+      "publishedAt": "2027-06-30T10:00:00.000Z",
+      "title": "Просторове × Артефакт",
+      "introduction": "Дослідіть тему «Просторове × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-216",
+          "title": "Сейф",
+          "blurb": "Просторове × Артефакт — SCP-216 – це залізний сейф висотою 35,6 см (14 дюймів) з багатодисковим кодовим замком.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-216",
+          "sourceTags": [
+            "spatial",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-826",
+          "title": "Завітай до книги",
+          "blurb": "Просторове × Артефакт — SCP-826 – це підставка для книг, що має розміри 20 см х 15 см і виготовлена у формі двох драконячих голів, які дивляться…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-826",
+          "sourceTags": [
+            "spatial",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-201",
+          "title": "Порожній світ",
+          "blurb": "Просторове × Артефакт — SCP-201 виглядає як дуже старий предмет медичного обладнання, поверхово схожий на крапельницю, однак, він має багато дод…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-201",
+          "sourceTags": [
+            "spatial",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-996",
+          "title": "Зламана топологія",
+          "blurb": "Просторове × Артефакт — SCP-996 — це полотно напівпрозорої сірої тканини.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-996",
+          "sourceTags": [
+            "spatial",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 іржавих ключів і двері",
+          "blurb": "Просторове × Артефакт — SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004",
+          "sourceTags": [
+            "spatial",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-812",
+          "title": "Контейнер із річкою",
+          "blurb": "Просторове × Артефакт — SCP-812 є непримітним вантажним контейнером, виготовленим з гофрованої сталі, розміром 12 x 2,5 x 2,5 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-812",
+          "sourceTags": [
+            "spatial",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-035",
+      "themeId": "sentient-mechanical",
+      "publishedAt": "2027-07-07T10:00:00.000Z",
+      "title": "Розумне × Механічне",
+      "introduction": "Дослідіть тему «Розумне × Механічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1661",
+          "title": "Гремліни",
+          "blurb": "Розумне × Механічне — SCP-1661 – сукупне позначення рою здатних до самовідтворення автоматів, що складаються в основному з компонентів літальн…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1661",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-374",
+          "title": "Пророча гільйотина",
+          "blurb": "Розумне × Механічне — SCP-374 – гільйотина епохи Великої французької революції, виготовлена з дуба, зі сталевим лезом.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-374",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-070",
+          "title": "Залізні крила",
+          "blurb": "Розумне × Механічне — SCP-070 виглядає як чоловік родом з корінних американців, із нормальною зовнішністю окрім пари іржавих металевих крил, щ…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-070",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-172",
+          "title": "Інженер",
+          "blurb": "Розумне × Механічне — SCP-172 виглядає як людина 34 років, зростом 185 см (6 футів 1 дюйм), з чорним волоссям та вусами, вагою 175,5 кг (386 ф…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-172",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-914",
+          "title": "Годинниковий механізм",
+          "blurb": "Розумне × Механічне — SCP-914 – це великий пристрій з часовим механізмом, що важить декілька тонн, займає площу у вісімнадцять квадратних метр…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-914",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-2669",
+          "title": "Кебтеул 1",
+          "blurb": "Розумне × Механічне — SCP-2669 - це космічний зонд Кебтеул 1, розроблений, сконструйований і запущений Фондом у 2004 році в якості частини про…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Каїн\"",
+          "blurb": "Розумне × Механічне — SCP-073 виглядає, як сильно засмаглий чоловік арабського або близькосхідного походження, близько тридцяти років, зростом…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-073",
+          "sourceTags": [
+            "sentient",
+            "mechanical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-036",
+      "themeId": "biological-regenerative",
+      "publishedAt": "2027-07-14T10:00:00.000Z",
+      "title": "Біологічне × Регенерація",
+      "introduction": "Дослідіть тему «Біологічне × Регенерація» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-127",
+          "title": "Жива зброя",
+          "blurb": "Біологічне × Регенерація — SCP-127, на перший погляд, виглядає як стандартний пістолет-кулемет MP5K.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-127",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-069",
+          "title": "Другий шанс",
+          "blurb": "Біологічне × Регенерація — Припускається, що SCP-069 — це гуманоїдна істота з перемінною зовнішністю та статтю.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-069",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-415",
+          "title": "Донор",
+          "blurb": "Біологічне × Регенерація — SCP-415 є чоловіком європеоїдної зовнішності, зріст становить 176.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-415",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-835",
+          "title": "Розсекречені дані",
+          "blurb": "Біологічне × Регенерація — SCP-835 це велика маса коралоподібних поліпів вагою ████ тон.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-835",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-1610",
+          "title": "Досліди повинні тривати",
+          "blurb": "Біологічне × Регенерація — SCP-1610-1 – сукупне позначення групи гуманоїдних істот.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1610",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-135",
+          "title": "Універсальний канцероген",
+          "blurb": "Біологічне × Регенерація — SCP-135 - людина жіночої статі віком від █ до ██ років, що сприяє швидкому та неконтрольованому росту клітин у радіусі 2…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-135",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-628",
+          "title": "Флейтовий гай",
+          "blurb": "Біологічне × Регенерація — Над поверхнею ґрунту SCP-628 виглядає як гай з великих порожнистих дерев американського платану (Platanus occidentalis) …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-628",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-204",
+          "title": "Захисник",
+          "blurb": "Біологічне × Регенерація — SCP-204-1 є колонією частково органічних наномашин, яка функціонує як захисник для суб'єкта SCP-204-2.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-204",
+          "sourceTags": [
+            "biological",
+            "regenerative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-037",
+      "themeId": "biological",
+      "publishedAt": "2027-07-21T10:00:00.000Z",
+      "title": "Біологічне",
+      "introduction": "Дослідіть тему «Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-3003",
+          "title": "Кінець історії",
+          "blurb": "Біологічне — SCP-3003 є планетою земного розміру, яка обертається навколо HIP 56948, зірки типу G головної послідовності, що розташов…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3003",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-529",
+          "title": "Напівкішка Джозі",
+          "blurb": "Біологічне — SCP-529 це мала домашня кішка (Felis catus) сірого смугастого забарвлення.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-529",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-111",
+          "title": "Драко-равлики",
+          "blurb": "Біологічне — SCP-111 – це вид (імовірно створений штучно) безхребетних організмів, що трохи нагадують равликів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-111",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-514",
+          "title": "Зграя голубів",
+          "blurb": "Біологічне — SCP-514 – зграя Columba livia domestica, або домашніх голубів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-514",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-002",
+          "title": "\"Жива\" кімната",
+          "blurb": "Біологічне — SCP-002 нагадує м'ясисту пухлину об'ємом приблизно 60 м3 (або 2000 кубічних футів).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-002",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-408",
+          "title": "Ілюзорні метелики",
+          "blurb": "Біологічне — SCP-408 – це велика сукупність лускокрилих, які, без маскування, мають вигляд метеликів виду довгокрила зебра (Heliconiu…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-408",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-021",
+          "title": "Підшкірний змій",
+          "blurb": "Біологічне — Зазвичай SCP-021 має вигляд великого та складного татуювання змієподібного дракона у східному стилі та охоплює приблизно…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-021",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-524",
+          "title": "Всеїдний кролик Вальтер",
+          "blurb": "Біологічне — SCP-524 - звичайний білий кролик виду Oryctolagus cuniculus.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-524",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-038",
+      "themeId": "mind_affecting-hostile",
+      "publishedAt": "2027-07-28T10:00:00.000Z",
+      "title": "Вплив на психіку × Вороже",
+      "introduction": "Дослідіть тему «Вплив на психіку × Вороже» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1048",
+          "title": "Ведмедик-будівельник",
+          "blurb": "Вплив на психіку × Вороже — SCP-1048 – це маленький плюшевий ведмедик висотою приблизно 33 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1048",
+          "sourceTags": [
+            "mind_affecting",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-122",
+          "title": "Більше ніяких монɔтрів",
+          "blurb": "Вплив на психіку × Вороже — SCP-122 — це пластиковий нічник у формі зірки; припускаємо, що він був виготовлений між 1960 і 1980 роками.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-122",
+          "sourceTags": [
+            "mind_affecting",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-5998",
+          "title": "Чоловік, Асцендент",
+          "blurb": "Вплив на психіку × Вороже — SCP-5998 — це висохлий труп, заморожений у позі стоячи на колінах, який розташований південніше від Північного полюса на…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5998",
+          "sourceTags": [
+            "mind_affecting",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-2439",
+          "title": "[НЕ ЗАЙНЯТО]",
+          "blurb": "Вплив на психіку × Вороже — Отже це така ідея, яка заражає людей, які знають про неї, і повільно захавує їм мозки.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2439",
+          "sourceTags": [
+            "mind_affecting",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "Дочка тіней",
+          "blurb": "Вплив на психіку × Вороже — SCP-029 виглядає як статево зріла жінка, азіатсько-індійського походження, та страждає від повного облисіння.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-029",
+          "sourceTags": [
+            "mind_affecting",
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-352",
+          "title": "\"Баба-Яга\"",
+          "blurb": "Вплив на психіку × Вороже — SCP-352 виглядає, як дуже стара, виснажена жінка невизначеного віку й раси.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-352",
+          "sourceTags": [
+            "mind_affecting",
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-040",
+      "themeId": "sentient-regenerative",
+      "publishedAt": "2027-08-11T10:00:00.000Z",
+      "title": "Розумне × Регенерація",
+      "introduction": "Дослідіть тему «Розумне × Регенерація» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1030",
+          "title": "Порожній голем",
+          "blurb": "Розумне × Регенерація — SCP-1030-1 – це гуманоїдна фігура зростом 165 см, побудована з різних предметів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1030",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-1360",
+          "title": "ГУАП №31",
+          "blurb": "Розумне × Регенерація — SCP-1360 являє собою свідомого, повністю завершеного андроїда.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1360",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-069",
+          "title": "Другий шанс",
+          "blurb": "Розумне × Регенерація — Припускається, що SCP-069 — це гуманоїдна істота з перемінною зовнішністю та статтю.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-069",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-415",
+          "title": "Донор",
+          "blurb": "Розумне × Регенерація — SCP-415 є чоловіком європеоїдної зовнішності, зріст становить 176.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-415",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-135",
+          "title": "Універсальний канцероген",
+          "blurb": "Розумне × Регенерація — SCP-135 - людина жіночої статі віком від █ до ██ років, що сприяє швидкому та неконтрольованому росту клітин у радіусі 2…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-135",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-682",
+          "title": "Незнищенна рептилія",
+          "blurb": "Розумне × Регенерація — SCP-682 – це велике створіння рептильної зовнішності та невідомого походження.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-682",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-352",
+          "title": "\"Баба-Яга\"",
+          "blurb": "Розумне × Регенерація — SCP-352 виглядає, як дуже стара, виснажена жінка невизначеного віку й раси.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-352",
+          "sourceTags": [
+            "sentient",
+            "regenerative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-041",
+      "themeId": "artifact",
+      "publishedAt": "2027-08-18T10:00:00.000Z",
+      "title": "Артефакт",
+      "introduction": "Дослідіть тему «Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-ua-019",
+          "title": "Апарат для копіювання особистості",
+          "blurb": "Артефакт — SCP-019-UA виглядає як зроблений з темно-фіолетового подібного до каменю матеріалу предмет форми двобічно симетричного б…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-019-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-093",
+          "title": "Об'єкт з Червоного моря",
+          "blurb": "Артефакт — SCP-093 виглядає як диск здебільшого червоного кольору, вирубаний з шаруватого каменю, що нагадує кіновар, та покритий к…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-093",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-004",
+          "title": "Дзеркало двійника",
+          "blurb": "Артефакт — SCP-004-UA має вигляд золотого ручного дзеркала.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-100",
+          "title": "Анігілістичний підхід до святості",
+          "blurb": "Артефакт — Об'єкт становить собою 5 зашморгів різної довжини (від 3 до 12 шлагів), перев'язані між собою та скріплені мідними ромба…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-100-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-025",
+          "title": "Дримба",
+          "blurb": "Артефакт — SCP-025-UA — це дугова одноязичкова дримба традиційна для Карпатських малих народностей.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-025-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-059",
+          "title": "Паперова кішка",
+          "blurb": "Артефакт — Об'єкт становить собою паперову скульптуру у формі кішки, розфарбовану акварельними фарбами для імітації чорно-білої шер…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-059-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-007",
+          "title": "Ніж голодного",
+          "blurb": "Артефакт — SCP-007-UA — це ніж невідомого походження, виготовлений у XIX сторіччі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-007-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-126",
+          "title": "Маска кози",
+          "blurb": "Артефакт — SCP-126-UA складається з двох окремих частин та разом являє собою різдвяний обрядовий костюм для щедрування та “Водіння …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-126-ua",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-042",
+      "themeId": "mind_affecting-self_replicating",
+      "publishedAt": "2027-08-25T10:00:00.000Z",
+      "title": "Вплив на психіку × Самовідтворення",
+      "introduction": "Дослідіть тему «Вплив на психіку × Самовідтворення» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-156",
+          "title": "Живлющий гранат",
+          "blurb": "Вплив на психіку × Самовідтворення — SCP-156 – це набір з рівно 181 гранатової насінини.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-156",
+          "sourceTags": [
+            "mind_affecting",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-072",
+          "title": "Ніжки ліжка",
+          "blurb": "Вплив на психіку × Самовідтворення — Особини SCP-072 вперше були виявлені у житловому будинку в ████████, Мічиган, після двох повідомлень про їхні прояви у м…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-072",
+          "sourceTags": [
+            "mind_affecting",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-003",
+          "title": "Біологічна материнська плата",
+          "blurb": "Вплив на психіку × Самовідтворення — SCP-003 складається з двох взаємопов'язаних компонентів окремого походження, які далі позначаються як SCP-003-1 та SCP-0…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-003",
+          "sourceTags": [
+            "mind_affecting",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Король ящерів",
+          "blurb": "Вплив на психіку × Самовідтворення — SCP-088 – це гуманоїдна істота з рисами рептилії, муміфікована у знесиленій позі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-088",
+          "sourceTags": [
+            "mind_affecting",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1048",
+          "title": "Ведмедик-будівельник",
+          "blurb": "Вплив на психіку × Самовідтворення — SCP-1048 – це маленький плюшевий ведмедик висотою приблизно 33 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1048",
+          "sourceTags": [
+            "mind_affecting",
+            "self_replicating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-043",
+      "themeId": "humanoid-self_replicating",
+      "publishedAt": "2027-09-01T10:00:00.000Z",
+      "title": "Гуманоїд × Самовідтворення",
+      "introduction": "Дослідіть тему «Гуманоїд × Самовідтворення» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-100",
+          "title": "Добрий Дядько Джозеф Дювал",
+          "blurb": "Гуманоїд × Самовідтворення — SCP-100 — це покинуте звалище у вісімдесяти (80) кілометрах від █████████, Південна Кароліна, яке відоме під назвою \"Доб…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-100",
+          "sourceTags": [
+            "humanoid",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-068",
+          "title": "Дротяна фігурка",
+          "blurb": "Гуманоїд × Самовідтворення — SCP-068 – це фігурка у вигляді схематичного чоловічка заввишки 9,8 см, виготовлена з дроту з невідомого металу.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-068",
+          "sourceTags": [
+            "humanoid",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-274",
+          "title": "Графіті",
+          "blurb": "Гуманоїд × Самовідтворення — SCP-274 – це фарби різних кольорів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-274",
+          "sourceTags": [
+            "humanoid",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1285",
+          "title": "Дерев'яний кіношний реквізит",
+          "blurb": "Гуманоїд × Самовідтворення — SCP-1285 — це дерев'яна скульптура, яка зображує безрукого та безголового гуманоїда, що сидить на бетонному постаменті.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1285",
+          "sourceTags": [
+            "humanoid",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1637",
+          "title": "Армія майбутнього",
+          "blurb": "Гуманоїд × Самовідтворення — SCP-1637 – це фабрично-лабораторний комплекс, побудований на глибині від 50 до 100 м нижче поверхні пустелі Сахара, в із…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1637",
+          "sourceTags": [
+            "humanoid",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-088",
+          "title": "Король ящерів",
+          "blurb": "Гуманоїд × Самовідтворення — SCP-088 – це гуманоїдна істота з рисами рептилії, муміфікована у знесиленій позі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-088",
+          "sourceTags": [
+            "humanoid",
+            "self_replicating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-045",
+      "themeId": "hostile",
+      "publishedAt": "2027-09-15T10:00:00.000Z",
+      "title": "Вороже",
+      "introduction": "Дослідіть тему «Вороже» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-173",
+          "title": "Скульптура",
+          "blurb": "Вороже — Об'єкт був привезений в Зону 19 у 1993-му році.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-173",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-2578",
+          "title": "Тираноборець",
+          "blurb": "Вороже — SCP-2578 є колективним позначенням ряду феноменів, що з 1995 року спричинили смерть щонайменше 1██ людей.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2578",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-3023",
+          "title": "І тоді вирішило воно стати злим павуком",
+          "blurb": "Вороже — SCP-3023 – це явище, під час якого той чи інший об'єкт раптово набуває павукоподібної форми та починає рухатись у присут…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3023",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-3428",
+          "title": "Поховані колібрі",
+          "blurb": "Вороже — SCP-3428 - це грубі статуї колібрі з розмахом крил до 5 метрів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3428",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-333",
+          "title": "Місто в симфонії",
+          "blurb": "Вороже — SCP-333 - це 1618 однакових примірників музичної партитури, назва та походження яких невідомі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-333",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-517",
+          "title": "Бабуся знає",
+          "blurb": "Вороже — SCP-517 виглядає як гральна машина передбачення долі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-517",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-984",
+          "title": "Громадська вбиральня",
+          "blurb": "Вороже — SCP-984 це громадська вбиральня, розташована в [ВИДАЛЕНО].",
+          "url": "http://scp-ukrainian.wikidot.com/scp-984",
+          "sourceTags": [
+            "hostile"
+          ]
+        },
+        {
+          "itemId": "scp-series-924",
+          "title": "Крижаний водяний",
+          "blurb": "Вороже — SCP-924 це вид блідих гуманоїдних істот розміром приблизно 2 метри (6,5 футів) у висоту.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-924",
+          "sourceTags": [
+            "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-046",
+      "themeId": "sentient-reality_altering",
+      "publishedAt": "2027-09-22T10:00:00.000Z",
+      "title": "Розумне × Зміна реальності",
+      "introduction": "Дослідіть тему «Розумне × Зміна реальності» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-2599",
+          "title": "Треба краще старатися",
+          "blurb": "Розумне × Зміна реальності — SCP-2599 – 14-річна жінка корейського походження, раніше відома як Цзеньа Чо.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2599",
+          "sourceTags": [
+            "sentient",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-5520",
+          "title": "Кроляча нора",
+          "blurb": "Розумне × Зміна реальності — SCP-5520 — колишній старший дослідник та співдиректор Тимчасової Зони д-р Вінн Ріддерік.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5520",
+          "sourceTags": [
+            "sentient",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-2682",
+          "title": "Сліпий телепень",
+          "blurb": "Розумне × Зміна реальності — SCP-2682 за своїм зовнішнім виглядом подібний до ягоди Rubus crataegifolius (корейська малина), але відрізняється пурпур…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2682",
+          "sourceTags": [
+            "sentient",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-5655",
+          "title": "Саме такий джин, якого ви очікуєте знайти в порожній банці з-під Спаму",
+          "blurb": "Розумне × Зміна реальності — SCP-5655 — це порожня бляшанка \"Спаму\", яка, якщо її струснути або перевернути, матеріалізує SCP-5655-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5655",
+          "sourceTags": [
+            "sentient",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-7500",
+          "title": "Ірландська вдача",
+          "blurb": "Розумне × Зміна реальності — SCP-7500 являв собою Донована Ханлана, австралійця ірландського походження, який мав здібність підсвідомо маніпулювати й…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-7500",
+          "sourceTags": [
+            "sentient",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Маленька відьма",
+          "blurb": "Розумне × Зміна реальності — SCP-239 виглядає, як 8-річна дівчинка зростом 1 метр і вагою 20 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-239",
+          "sourceTags": [
+            "sentient",
+            "reality_altering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-047",
+      "themeId": "humanoid-regenerative",
+      "publishedAt": "2027-09-29T10:00:00.000Z",
+      "title": "Гуманоїд × Регенерація",
+      "introduction": "Дослідіть тему «Гуманоїд × Регенерація» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-4826",
+          "title": "Лише я вирішую, коли мені померти",
+          "blurb": "Гуманоїд × Регенерація — SCP-4826 - це 31-річний чоловік Етан Елра, вчитель на заміну з Ла-Кросс, Вісконсин.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4826",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-1610",
+          "title": "Досліди повинні тривати",
+          "blurb": "Гуманоїд × Регенерація — SCP-1610-1 – сукупне позначення групи гуманоїдних істот.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1610",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-204",
+          "title": "Захисник",
+          "blurb": "Гуманоїд × Регенерація — SCP-204-1 є колонією частково органічних наномашин, яка функціонує як захисник для суб'єкта SCP-204-2.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-204",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-1030",
+          "title": "Порожній голем",
+          "blurb": "Гуманоїд × Регенерація — SCP-1030-1 – це гуманоїдна фігура зростом 165 см, побудована з різних предметів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1030",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-1360",
+          "title": "ГУАП №31",
+          "blurb": "Гуманоїд × Регенерація — SCP-1360 являє собою свідомого, повністю завершеного андроїда.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1360",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-069",
+          "title": "Другий шанс",
+          "blurb": "Гуманоїд × Регенерація — Припускається, що SCP-069 — це гуманоїдна істота з перемінною зовнішністю та статтю.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-069",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-415",
+          "title": "Донор",
+          "blurb": "Гуманоїд × Регенерація — SCP-415 є чоловіком європеоїдної зовнішності, зріст становить 176.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-415",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-135",
+          "title": "Універсальний канцероген",
+          "blurb": "Гуманоїд × Регенерація — SCP-135 - людина жіночої статі віком від █ до ██ років, що сприяє швидкому та неконтрольованому росту клітин у радіусі 2…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-135",
+          "sourceTags": [
+            "humanoid",
+            "regenerative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-048",
+      "themeId": "sentient-plant",
+      "publishedAt": "2027-10-06T10:00:00.000Z",
+      "title": "Розумне × Рослина",
+      "introduction": "Дослідіть тему «Розумне × Рослина» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1846",
+          "title": "Кукурудзяний янгол",
+          "blurb": "Розумне × Рослина — SCP-1846 нагадує чоловіка європеоїдної раси, віком приблизно, 50 років; проте з зовні SCP-1846 повністю покритий живим л…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1846",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-1710",
+          "title": "Дерево міцне корінням",
+          "blurb": "Розумне × Рослина — SCP-1710 є спільним позначенням для пари дубів звичайних (Quercus robur), розташованих поблизу ██████████, Великобритані…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1710",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-197",
+          "title": "Теплиця",
+          "blurb": "Розумне × Рослина — SCP-197 є розплідником рослин і теплицею, які розташовані за адресою: ████ █ █████████, ████████, ██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-197",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-1513",
+          "title": "Тваринки у горщиках",
+          "blurb": "Розумне × Рослина — SCP-1513 – це пластиковий пакет, що містить приблизно 11 насінин.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1513",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-166",
+          "title": "Звичайна Гея-підліток",
+          "blurb": "Розумне × Рослина — SCP-166 — це жінка-європеоїд пізнього підліткового віку з рисами копитної тварини: з рогами, копитами та коротким хвосто…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-166",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-3082",
+          "title": "Хлопці та дівчата, загублені у Небувалії",
+          "blurb": "Розумне × Рослина — SCP-3082 - це хатинка на дереві, яка має розміри 2x2x2 метри, розташована на центральному заході Сполучених Штатів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3082",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-615",
+          "title": "Купа паличок",
+          "blurb": "Розумне × Рослина — SCP-615 — це велика купа мертвих та відділених частин рослин, яка отримала власну свідомість.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-615",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Пекельний окультний скелет",
+          "blurb": "Розумне × Рослина — SCP-060 – це гай, що складається з 17 білих дубів (Quercus alba).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-060",
+          "sourceTags": [
+            "sentient",
+            "plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-049",
+      "themeId": "infectious",
+      "publishedAt": "2027-10-13T10:00:00.000Z",
+      "title": "Заразне",
+      "introduction": "Дослідіть тему «Заразне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-3666",
+          "title": "Зірваний маскарад",
+          "blurb": "Заразне — SCP-3666 – це алергічна запальна реакція на присутність амнестичних білків та речовин у крові вражених осіб.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3666",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-5140",
+          "title": "ЕВЕРЕСТ",
+          "blurb": "Заразне — SCP-5140 — це певна кількість замерзлих трупів, розкиданих на горі Еверест, розташованій у тибетських Гімалаях.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5140",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-444",
+          "title": "Мова всесвітньої гармонії",
+          "blurb": "Заразне — SCP-444 – це меметичний вірус з лінгвістичним типом передачі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-444",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-125",
+          "title": "Заразне відображення",
+          "blurb": "Заразне — SCP-125 – це, очевидно, свідома \"істота\", здатна існувати лише у вигляді відображення.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-125",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-3396",
+          "title": "Ефірний паразит",
+          "blurb": "Заразне — SCP-3396 являє собою позапросторову сутність Категорії 4, що існує як сукупність фізично і метафізично мутагенних симбіо…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3396",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-574",
+          "title": "Бомжатник",
+          "blurb": "Заразне — SCP-574 – це колишня фабрика в █████████, США.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-574",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-1801",
+          "title": "Хвороба взаємообміну",
+          "blurb": "Заразне — SCP-1801 є інфекційним синдромом, який, судячи з усього, передається через комплекс заразних агентів, які окремо один ві…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1801",
+          "sourceTags": [
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-164",
+          "title": "Пухлина, що народжує кальмара",
+          "blurb": "Заразне — SCP-164 — це штам ракових клітин, які викликають саркомоподібні пухлини в організмах господаря.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-164",
+          "sourceTags": [
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-050",
+      "themeId": "humanoid-mechanical",
+      "publishedAt": "2027-10-20T10:00:00.000Z",
+      "title": "Гуманоїд × Механічне",
+      "introduction": "Дослідіть тему «Гуманоїд × Механічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-464",
+          "title": "Завод",
+          "blurb": "Гуманоїд × Механічне — SCP-464 був виявлений у 19██ році.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-464",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-1489",
+          "title": "\"Потяг-привид\"",
+          "blurb": "Гуманоїд × Механічне — SCP-1489 — це нематеріальний залізничий потяг.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1489",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-1914",
+          "title": "Відроджений Піхотинець",
+          "blurb": "Гуманоїд × Механічне — SCP-1914 – це гуманоїдний суб'єкт чоловічої статі, віком приблизно 1██ років (на ██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1914",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-1461",
+          "title": "Дім Черв'яка",
+          "blurb": "Гуманоїд × Механічне — SCP-1461 – це англійська садиба (побудована 1890) з чисельними підземними приміщеннями.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1461",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-070",
+          "title": "Залізні крила",
+          "blurb": "Гуманоїд × Механічне — SCP-070 виглядає як чоловік родом з корінних американців, із нормальною зовнішністю окрім пари іржавих металевих крил, щ…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-070",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-172",
+          "title": "Інженер",
+          "blurb": "Гуманоїд × Механічне — SCP-172 виглядає як людина 34 років, зростом 185 см (6 футів 1 дюйм), з чорним волоссям та вусами, вагою 175,5 кг (386 ф…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-172",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-2669",
+          "title": "Кебтеул 1",
+          "blurb": "Гуманоїд × Механічне — SCP-2669 - це космічний зонд Кебтеул 1, розроблений, сконструйований і запущений Фондом у 2004 році в якості частини про…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Каїн\"",
+          "blurb": "Гуманоїд × Механічне — SCP-073 виглядає, як сильно засмаглий чоловік арабського або близькосхідного походження, близько тридцяти років, зростом…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-073",
+          "sourceTags": [
+            "humanoid",
+            "mechanical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-051",
+      "themeId": "mind_affecting-infohazard",
+      "publishedAt": "2027-10-27T10:00:00.000Z",
+      "title": "Вплив на психіку × Інформаційна загроза",
+      "introduction": "Дослідіть тему «Вплив на психіку × Інформаційна загроза» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-4000",
+          "title": "Табу",
+          "blurb": "Вплив на психіку × Інформаційна загроза — SCP, про який йде мова, є позапросторовою лісистою територією з численними аномальними властивостями, включно з небезпеч…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4000",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Зла мелодія",
+          "blurb": "Вплив на психіку × Інформаційна загроза — SCP-012 був знайдений археологом К.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-012",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-1839",
+          "title": "Способи репродукції кісткових риб",
+          "blurb": "Вплив на психіку × Інформаційна загроза — Об'єкт №: SCP-1839 Клас об'єкта: Безпечний Особливі умови здержування: SCP-1839 має зберігатись у захисній шафці 534 в З…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1839",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-1129",
+          "title": "Реакція гіперзбудження",
+          "blurb": "Вплив на психіку × Інформаційна загроза — SCP-1129 є великим об'єктом, очевидно, біологічного походження.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1129",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2565",
+          "title": "Елісон Екхарт",
+          "blurb": "Вплив на психіку × Інформаційна загроза — Елісон Екхарт — це агент Елісон Екхарт, 31-річна жінка, в минулому — польовий оперативник Відділу Аналітики.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2565",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2602",
+          "title": "який колись був бібліотекою",
+          "blurb": "Вплив на психіку × Інформаційна загроза — SCP-2602 - це будівля, яка в період з 08.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2602",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-426",
+          "title": "Я – Тостер",
+          "blurb": "Вплив на психіку × Інформаційна загроза — Вітаю, я – SCP-426.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-426",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2439",
+          "title": "[НЕ ЗАЙНЯТО]",
+          "blurb": "Вплив на психіку × Інформаційна загроза — Отже це така ідея, яка заражає людей, які знають про неї, і повільно захавує їм мозки.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2439",
+          "sourceTags": [
+            "mind_affecting",
+            "infohazard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-052",
+      "themeId": "humanoid-reality_altering",
+      "publishedAt": "2027-11-03T10:00:00.000Z",
+      "title": "Гуманоїд × Зміна реальності",
+      "introduction": "Дослідіть тему «Гуманоїд × Зміна реальності» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Бог\"",
+          "blurb": "Гуманоїд × Зміна реальності — SCP-343 – чоловік невстановленої раси, гуманоїдної зовнішності, який, очевидно, є всемогутнім.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-2599",
+          "title": "Треба краще старатися",
+          "blurb": "Гуманоїд × Зміна реальності — SCP-2599 – 14-річна жінка корейського походження, раніше відома як Цзеньа Чо.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2599",
+          "sourceTags": [
+            "humanoid",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-5520",
+          "title": "Кроляча нора",
+          "blurb": "Гуманоїд × Зміна реальності — SCP-5520 — колишній старший дослідник та співдиректор Тимчасової Зони д-р Вінн Ріддерік.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5520",
+          "sourceTags": [
+            "humanoid",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-5655",
+          "title": "Саме такий джин, якого ви очікуєте знайти в порожній банці з-під Спаму",
+          "blurb": "Гуманоїд × Зміна реальності — SCP-5655 — це порожня бляшанка \"Спаму\", яка, якщо її струснути або перевернути, матеріалізує SCP-5655-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5655",
+          "sourceTags": [
+            "humanoid",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-7500",
+          "title": "Ірландська вдача",
+          "blurb": "Гуманоїд × Зміна реальності — SCP-7500 являв собою Донована Ханлана, австралійця ірландського походження, який мав здібність підсвідомо маніпулювати й…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-7500",
+          "sourceTags": [
+            "humanoid",
+            "reality_altering"
+          ]
+        },
+        {
+          "itemId": "scp-series-239",
+          "title": "Маленька відьма",
+          "blurb": "Гуманоїд × Зміна реальності — SCP-239 виглядає, як 8-річна дівчинка зростом 1 метр і вагою 20 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-239",
+          "sourceTags": [
+            "humanoid",
+            "reality_altering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-053",
+      "themeId": "infohazard",
+      "publishedAt": "2027-11-10T10:00:00.000Z",
+      "title": "Інформаційна загроза",
+      "introduction": "Дослідіть тему «Інформаційна загроза» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-055",
+          "title": "невідомо",
+          "blurb": "Інформаційна загроза — SCP-055 це «таємниця, яка зберігає сама себе», або «антимем».",
+          "url": "http://scp-ukrainian.wikidot.com/scp-055",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-586",
+          "title": "Об'єкт, який неважливо описати",
+          "blurb": "Інформаційна загроза — SCP-586 – це невеликий металевий предмет блідо-зеленого відмінка.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-586",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-902",
+          "title": "Зворотній відлік",
+          "blurb": "Інформаційна загроза — SCP-902 – це ящик розміром приблизно з голову дорослої людини.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-902",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-4807",
+          "title": "Колмогоровська складність",
+          "blurb": "Інформаційна загроза — №: 4807 К: Б ОУЗ: Сховище З 19.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4807",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2433",
+          "title": "Це точно не допомагає Берні Сандерсу",
+          "blurb": "Інформаційна загроза — SCP-2433 – це фото сенатора штату Вермонт Берні Сандерса під час промови, зроблене, приблизно, у серпні 2015 року протяг…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2433",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2979",
+          "title": "Твій вчитель фізики з середньої школи, пан [ВИДАЛЕНО]",
+          "blurb": "Інформаційна загроза — SCP-2979 — це інформаційно-небезпечна меметична інфекція, що розповсюджується після сприйняття (прямого чи посереднього)…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2979",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2950",
+          "title": "Просто стілець",
+          "blurb": "Інформаційна загроза — SCP-2950 — це складаний металевий стілець.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2950",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-2660",
+          "title": "Предмет, який розсіює темряву",
+          "blurb": "Інформаційна загроза — SCP-2660 — це керамічна настільна лампа, яка несе інформаційну небезпеку, що полягає у самостійному надбанню знань стосо…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2660",
+          "sourceTags": [
+            "infohazard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-054",
+      "themeId": "temporal-mind_affecting",
+      "publishedAt": "2027-11-17T10:00:00.000Z",
+      "title": "Часове × Вплив на психіку",
+      "introduction": "Дослідіть тему «Часове × Вплив на психіку» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-699",
+          "title": "Загадковий ящик",
+          "blurb": "Часове × Вплив на психіку — SCP-699 – це прозорий прямокутний ящик розмірами 2,5 х 1,5 х 1 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-699",
+          "sourceTags": [
+            "temporal",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-4669",
+          "title": "Nuestra Señora de la Revolución Popular",
+          "blurb": "Часове × Вплив на психіку — SCP-4669 це аліакінетична3 істота, здатна створювати екземпляри SCP-4669-2, використовуючи SCP-4669-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4669",
+          "sourceTags": [
+            "temporal",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-442",
+          "title": "Завжди вчасно",
+          "blurb": "Часове × Вплив на психіку — SCP-442 — це позолочений кишеньковий годинник діаметром три (3) сантиметри зі стрілками, що показують годину та хвилину.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-442",
+          "sourceTags": [
+            "temporal",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 іржавих ключів і двері",
+          "blurb": "Часове × Вплив на психіку — SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004",
+          "sourceTags": [
+            "temporal",
+            "mind_affecting"
+          ]
+        },
+        {
+          "itemId": "scp-series-3997",
+          "title": "У моєму кінці мій початок",
+          "blurb": "Часове × Вплив на психіку — SCP-3997 – це психічне явище, яке вражає низку осіб, котрі надалі позначаються як екземпляри SCP-3997-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3997",
+          "sourceTags": [
+            "temporal",
+            "mind_affecting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-055",
+      "themeId": "sentient-self_replicating",
+      "publishedAt": "2027-11-24T10:00:00.000Z",
+      "title": "Розумне × Самовідтворення",
+      "introduction": "Дослідіть тему «Розумне × Самовідтворення» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-015",
+          "title": "Жахливий водогін",
+          "blurb": "Розумне × Самовідтворення — SCP-015 — це скупчення труб, клапанів, бойлерів й інших різноманітних водопровідних апаратур, які повністю заповнили скл…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-015",
+          "sourceTags": [
+            "sentient",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1661",
+          "title": "Гремліни",
+          "blurb": "Розумне × Самовідтворення — SCP-1661 – сукупне позначення рою здатних до самовідтворення автоматів, що складаються в основному з компонентів літальн…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1661",
+          "sourceTags": [
+            "sentient",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-125",
+          "title": "Заразне відображення",
+          "blurb": "Розумне × Самовідтворення — SCP-125 – це, очевидно, свідома \"істота\", здатна існувати лише у вигляді відображення.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-125",
+          "sourceTags": [
+            "sentient",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-100",
+          "title": "Добрий Дядько Джозеф Дювал",
+          "blurb": "Розумне × Самовідтворення — SCP-100 — це покинуте звалище у вісімдесяти (80) кілометрах від █████████, Південна Кароліна, яке відоме під назвою \"Доб…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-100",
+          "sourceTags": [
+            "sentient",
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1637",
+          "title": "Армія майбутнього",
+          "blurb": "Розумне × Самовідтворення — SCP-1637 – це фабрично-лабораторний комплекс, побудований на глибині від 50 до 100 м нижче поверхні пустелі Сахара, в із…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1637",
+          "sourceTags": [
+            "sentient",
+            "self_replicating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-056",
+      "themeId": "humanoid-artifact",
+      "publishedAt": "2027-12-01T10:00:00.000Z",
+      "title": "Гуманоїд × Артефакт",
+      "introduction": "Дослідіть тему «Гуманоїд × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-ua-061",
+          "title": "Зошит Помічниці",
+          "blurb": "Гуманоїд × Артефакт — SCP-061-UA являє собою зовні зелений зошит на 12 аркушів в лінію.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-061-ua",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1114",
+          "title": "Манекен для краш-тестів",
+          "blurb": "Гуманоїд × Артефакт — SCP-1114 являє собою манекен для автомобільних краш-тестів, моделі SA-███-████ Hybrid II серії ██, виготовлений \"████\" м…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1114",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-181",
+          "title": "Руссоріз",
+          "blurb": "Гуманоїд × Артефакт — SCP-181-UA — узагальнювальне позначення для комплексного аномального феномену, що складається з трьох елементів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-181-ua",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2003",
+          "title": "Переважний варіант",
+          "blurb": "Гуманоїд × Артефакт — SCP-2003 — це апарат, який дозволяє в обмеженому сенсі цього слова подорожувати у майбутнє та повертатись назад.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2003",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2826",
+          "title": "Хлопці з патруля",
+          "blurb": "Гуманоїд × Артефакт — SCP-2826 — це значок з шотландського поліційного капелюха зразка 1955 року з зображенням корони Імперії.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2826",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-662",
+          "title": "Дзвоник дворецького",
+          "blurb": "Гуманоїд × Артефакт — SCP-662 – невеликий срібний дзвоник заввишки 4 см та обхватом 2 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-662",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-702",
+          "title": "Крамниця міняйла",
+          "blurb": "Гуманоїд × Артефакт — SCP-702 – це проста червона ваза невідомого виробництва.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-702",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5655",
+          "title": "Саме такий джин, якого ви очікуєте знайти в порожній банці з-під Спаму",
+          "blurb": "Гуманоїд × Артефакт — SCP-5655 — це порожня бляшанка \"Спаму\", яка, якщо її струснути або перевернути, матеріалізує SCP-5655-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5655",
+          "sourceTags": [
+            "humanoid",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-057",
+      "themeId": "regenerative",
+      "publishedAt": "2027-12-08T10:00:00.000Z",
+      "title": "Регенерація",
+      "introduction": "Дослідіть тему «Регенерація» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-2399",
+          "title": "Пошкоджений винищувач",
+          "blurb": "Регенерація — SCP-2399 – це масивна і складна механічна структура, яка на цю мить розташована в нижній частині атмосфери Юпітера.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2399",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-743",
+          "title": "Шоколадний фонтан",
+          "blurb": "Регенерація — SCP-743 – це шоколадний фонтан із нержавіючої сталі, 112 см (44 дюйми) заввишки, 47 см (18,5 дюймів) завширшки та масою …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-743",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-104",
+          "title": "Самотня сфера",
+          "blurb": "Регенерація — SCP-104 являє собою кулю діаметром 35,5 см (14 дюймів) та вагою 2,3 кг (5 фунтів).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-104",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-1670",
+          "title": "Іншопросторовий фастфуд",
+          "blurb": "Регенерація — SCP-1670 – це часово-просторова аномалія, що впливає на ресторан ██████ █████, розташований у [ВИДАЛЕНО].",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1670",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-136",
+          "title": "Оголена лялька",
+          "blurb": "Регенерація — SCP-136 не впливає на не людей.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-136",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-006",
+          "title": "Фонтан молодості",
+          "blurb": "Регенерація — SCP-006 — це дуже маленьке джерело, розташоване на відстані у 60 кілометрів від Астрахані.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-006",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-4826",
+          "title": "Лише я вирішую, коли мені померти",
+          "blurb": "Регенерація — SCP-4826 - це 31-річний чоловік Етан Елра, вчитель на заміну з Ла-Кросс, Вісконсин.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4826",
+          "sourceTags": [
+            "regenerative"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-055",
+          "title": "Η Γεθσημανή",
+          "blurb": "Регенерація — SCP-055-UA — це сукупність об'єктів і явищ, які проявляють аномальні матеріальні, меметичні та антимеметичні властивості…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-055-ua",
+          "sourceTags": [
+            "regenerative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-058",
+      "themeId": "humanoid-plant",
+      "publishedAt": "2027-12-15T10:00:00.000Z",
+      "title": "Гуманоїд × Рослина",
+      "introduction": "Дослідіть тему «Гуманоїд × Рослина» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-667",
+          "title": "Казковий кудзу",
+          "blurb": "Гуманоїд × Рослина — SCP-667 — це симбіотична пара, яка складається з колонії квітучих лоз невстановленого виду, морфологічно схожими на Puer…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-667",
+          "sourceTags": [
+            "humanoid",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-2171",
+          "title": "Осінні пастирі",
+          "blurb": "Гуманоїд × Рослина — SCP-2171 – це сезонне явище, що вражає опале листя всіх листопадних дерев, які ростуть у межах певних районів (далі «тер…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2171",
+          "sourceTags": [
+            "humanoid",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-1846",
+          "title": "Кукурудзяний янгол",
+          "blurb": "Гуманоїд × Рослина — SCP-1846 нагадує чоловіка європеоїдної раси, віком приблизно, 50 років; проте з зовні SCP-1846 повністю покритий живим л…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1846",
+          "sourceTags": [
+            "humanoid",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-166",
+          "title": "Звичайна Гея-підліток",
+          "blurb": "Гуманоїд × Рослина — SCP-166 — це жінка-європеоїд пізнього підліткового віку з рисами копитної тварини: з рогами, копитами та коротким хвосто…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-166",
+          "sourceTags": [
+            "humanoid",
+            "plant"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Пекельний окультний скелет",
+          "blurb": "Гуманоїд × Рослина — SCP-060 – це гай, що складається з 17 білих дубів (Quercus alba).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-060",
+          "sourceTags": [
+            "humanoid",
+            "plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-059",
+      "themeId": "humanoid-temporal",
+      "publishedAt": "2027-12-22T10:00:00.000Z",
+      "title": "Гуманоїд × Часове",
+      "introduction": "Дослідіть тему «Гуманоїд × Часове» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1007",
+          "title": "Пан Життя та Пан Смерть",
+          "blurb": "Гуманоїд × Часове — SCP-1007 виглядає як чоловік невстановленого етнічного походження, який проживає повний людський життєвий цикл протягом …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1007",
+          "sourceTags": [
+            "humanoid",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-196",
+          "title": "Часовий парадокс",
+          "blurb": "Гуманоїд × Часове — SCP-196 виглядає як людина негроїдної раси та середнього віку, ріст суб'єкта становить два метри.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-196",
+          "sourceTags": [
+            "humanoid",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-4239",
+          "title": "або ВЗІ-6561-Чорний, або пропозиція olphinslugchugger-а та scarhaver-а щодо ГПН-1, або 8008132, або Наш друг, який живе біля озера, або Озеро, або Дуже важливе запитання, або Чому ми цього разу зробили дещо новеньке, чи Пан або пропав",
+          "blurb": "Гуманоїд × Часове — KTE-6561-Чорний – це небезпечна гуманоїдна істота.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4239",
+          "sourceTags": [
+            "humanoid",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-202",
+          "title": "Людина навпаки",
+          "blurb": "Гуманоїд × Часове — SCP-202 – це британець азійського походження віком 41 рік, який виконує усі дії у зворотному порядку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-202",
+          "sourceTags": [
+            "humanoid",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-2003",
+          "title": "Переважний варіант",
+          "blurb": "Гуманоїд × Часове — SCP-2003 — це апарат, який дозволяє в обмеженому сенсі цього слова подорожувати у майбутнє та повертатись назад.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2003",
+          "sourceTags": [
+            "humanoid",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-4669",
+          "title": "Nuestra Señora de la Revolución Popular",
+          "blurb": "Гуманоїд × Часове — SCP-4669 це аліакінетична3 істота, здатна створювати екземпляри SCP-4669-2, використовуючи SCP-4669-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4669",
+          "sourceTags": [
+            "humanoid",
+            "temporal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-060",
+      "themeId": "sentient-infectious",
+      "publishedAt": "2027-12-29T10:00:00.000Z",
+      "title": "Розумне × Заразне",
+      "introduction": "Дослідіть тему «Розумне × Заразне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1374",
+          "title": "Підготовка",
+          "blurb": "Розумне × Заразне — SCP-1374 являє собою феномен текстової природи, що специфічним чином вразив щонайменше п'ять установ, в яких на постійні…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1374",
+          "sourceTags": [
+            "sentient",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-732",
+          "title": "Чума з фанфіків",
+          "blurb": "Розумне × Заразне — SCP-732 це сила або сутність, яка#%^&@Суб'єкт неймовірно привабливий і розумний^&*(%мінює наші записи на якусь гидоту з …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-732",
+          "sourceTags": [
+            "sentient",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-016",
+          "title": "Розумний вірус",
+          "blurb": "Розумне × Заразне — SCP-016 - це патоген крові, вперше виявлений у гірника в █████, пораненого під час роботи у вугільній шахті.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-016",
+          "sourceTags": [
+            "sentient",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-2075",
+          "title": "Шлях всієї плоті",
+          "blurb": "Розумне × Заразне — На цей час, SCP-2075 являє собою 63-річного чоловіка європеоїдної раси, у минулому відомого як Олексій Кравчук — охороне…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2075",
+          "sourceTags": [
+            "sentient",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Чумний лікар",
+          "blurb": "Розумне × Заразне — SCP-049 — це гуманоїд, приблизно 1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-049",
+          "sourceTags": [
+            "sentient",
+            "infectious"
+          ]
+        },
+        {
+          "itemId": "scp-series-125",
+          "title": "Заразне відображення",
+          "blurb": "Розумне × Заразне — SCP-125 – це, очевидно, свідома \"істота\", здатна існувати лише у вигляді відображення.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-125",
+          "sourceTags": [
+            "sentient",
+            "infectious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-061",
+      "themeId": "self_replicating",
+      "publishedAt": "2028-01-05T10:00:00.000Z",
+      "title": "Самовідтворення",
+      "introduction": "Дослідіть тему «Самовідтворення» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-ua-173",
+          "title": "Дошка оголошень",
+          "blurb": "Самовідтворення — SCP-173-UA – це стояча металева дошка для оголошень, пофарбована в коричневий колір і обладнана невеликим протидощовим д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-173-ua",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-871",
+          "title": "Торти-самовідновники",
+          "blurb": "Самовідтворення — SCP-871 – це група з 237 тортів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-871",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-271",
+          "title": "Диск із написами",
+          "blurb": "Самовідтворення — SCP-271 – це невеликий диск, який виготовлений з невстановленого матеріалу, але нагадує металевий, діаметром трохи понад…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-271",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-1216",
+          "title": "Піраміди",
+          "blurb": "Самовідтворення — SCP-1216 – це вид організмів пірамідальної форми, що мешкають у позапросторовій локації, прилеглій до Леноксу, штат Маса…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1216",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-409",
+          "title": "Інфекційний кристал",
+          "blurb": "Самовідтворення — SCP-409 нагадує великий кристал кварцю завдовжки приблизно 1,5 м (5 футів) і завширшки 0,6 м (2 фути).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-409",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-033",
+          "title": "Загублене число",
+          "blurb": "Самовідтворення — SCP-033 складається з великої кількості складних математичних символів, починаючи від простих і закінчуючи такими, які м…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-033",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-064",
+          "title": "Неповноцінна структура фон Неймана",
+          "blurb": "Самовідтворення — SCP-064 являє собою глиняну цеглину світло-коричневого кольору, який складається в основному з оксидів кремнію та деяких…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-064",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        },
+        {
+          "itemId": "scp-series-5454",
+          "title": "Тератома",
+          "blurb": "Самовідтворення — SCP-5454 — це хвороба, яка вражає тільки людей, поводить себе та зовні нагадує різні види ракових пухлин.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5454",
+          "sourceTags": [
+            "self_replicating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-062",
+      "themeId": "temporal-biological",
+      "publishedAt": "2028-01-12T10:00:00.000Z",
+      "title": "Часове × Біологічне",
+      "introduction": "Дослідіть тему «Часове × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1007",
+          "title": "Пан Життя та Пан Смерть",
+          "blurb": "Часове × Біологічне — SCP-1007 виглядає як чоловік невстановленого етнічного походження, який проживає повний людський життєвий цикл протягом …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1007",
+          "sourceTags": [
+            "temporal",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-196",
+          "title": "Часовий парадокс",
+          "blurb": "Часове × Біологічне — SCP-196 виглядає як людина негроїдної раси та середнього віку, ріст суб'єкта становить два метри.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-196",
+          "sourceTags": [
+            "temporal",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-202",
+          "title": "Людина навпаки",
+          "blurb": "Часове × Біологічне — SCP-202 – це британець азійського походження віком 41 рік, який виконує усі дії у зворотному порядку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-202",
+          "sourceTags": [
+            "temporal",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-2003",
+          "title": "Переважний варіант",
+          "blurb": "Часове × Біологічне — SCP-2003 — це апарат, який дозволяє в обмеженому сенсі цього слова подорожувати у майбутнє та повертатись назад.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2003",
+          "sourceTags": [
+            "temporal",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-4669",
+          "title": "Nuestra Señora de la Revolución Popular",
+          "blurb": "Часове × Біологічне — SCP-4669 це аліакінетична3 істота, здатна створювати екземпляри SCP-4669-2, використовуючи SCP-4669-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4669",
+          "sourceTags": [
+            "temporal",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-063",
+      "themeId": "sentient-temporal",
+      "publishedAt": "2028-01-19T10:00:00.000Z",
+      "title": "Розумне × Часове",
+      "introduction": "Дослідіть тему «Розумне × Часове» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-699",
+          "title": "Загадковий ящик",
+          "blurb": "Розумне × Часове — SCP-699 – це прозорий прямокутний ящик розмірами 2,5 х 1,5 х 1 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-699",
+          "sourceTags": [
+            "sentient",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-4239",
+          "title": "або ВЗІ-6561-Чорний, або пропозиція olphinslugchugger-а та scarhaver-а щодо ГПН-1, або 8008132, або Наш друг, який живе біля озера, або Озеро, або Дуже важливе запитання, або Чому ми цього разу зробили дещо новеньке, чи Пан або пропав",
+          "blurb": "Розумне × Часове — KTE-6561-Чорний – це небезпечна гуманоїдна істота.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4239",
+          "sourceTags": [
+            "sentient",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-1007",
+          "title": "Пан Життя та Пан Смерть",
+          "blurb": "Розумне × Часове — SCP-1007 виглядає як чоловік невстановленого етнічного походження, який проживає повний людський життєвий цикл протягом …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1007",
+          "sourceTags": [
+            "sentient",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-196",
+          "title": "Часовий парадокс",
+          "blurb": "Розумне × Часове — SCP-196 виглядає як людина негроїдної раси та середнього віку, ріст суб'єкта становить два метри.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-196",
+          "sourceTags": [
+            "sentient",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-202",
+          "title": "Людина навпаки",
+          "blurb": "Розумне × Часове — SCP-202 – це британець азійського походження віком 41 рік, який виконує усі дії у зворотному порядку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-202",
+          "sourceTags": [
+            "sentient",
+            "temporal"
+          ]
+        },
+        {
+          "itemId": "scp-series-4669",
+          "title": "Nuestra Señora de la Revolución Popular",
+          "blurb": "Розумне × Часове — SCP-4669 це аліакінетична3 істота, здатна створювати екземпляри SCP-4669-2, використовуючи SCP-4669-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4669",
+          "sourceTags": [
+            "sentient",
+            "temporal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-065",
+      "themeId": "mechanical-biological",
+      "publishedAt": "2028-02-02T10:00:00.000Z",
+      "title": "Механічне × Біологічне",
+      "introduction": "Дослідіть тему «Механічне × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1488",
+          "title": "Частково роботизовані черепахи",
+          "blurb": "Механічне × Біологічне — SCP-1488 були спочатку ідентифіковані, як особини виду gopherus flavomarginatus (гофер жовтокрайовий), які були імпланто…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1488",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-186",
+          "title": "Покласти кінець війнам",
+          "blurb": "Механічне × Біологічне — SCP-186 – позначення території, де з 24.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-186",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-217",
+          "title": "Вірус годинникового механізму",
+          "blurb": "Механічне × Біологічне — SCP-217 – це вірус, невиліковний за допомогою сучасних засобів, зі 100%-м рівнем інфекційності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-217",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1914",
+          "title": "Відроджений Піхотинець",
+          "blurb": "Механічне × Біологічне — SCP-1914 – це гуманоїдний суб'єкт чоловічої статі, віком приблизно 1██ років (на ██.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1914",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-070",
+          "title": "Залізні крила",
+          "blurb": "Механічне × Біологічне — SCP-070 виглядає як чоловік родом з корінних американців, із нормальною зовнішністю окрім пари іржавих металевих крил, щ…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-070",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-2669",
+          "title": "Кебтеул 1",
+          "blurb": "Механічне × Біологічне — SCP-2669 - це космічний зонд Кебтеул 1, розроблений, сконструйований і запущений Фондом у 2004 році в якості частини про…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Каїн\"",
+          "blurb": "Механічне × Біологічне — SCP-073 виглядає, як сильно засмаглий чоловік арабського або близькосхідного походження, близько тридцяти років, зростом…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-073",
+          "sourceTags": [
+            "mechanical",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-066",
+      "themeId": "temporal-artifact",
+      "publishedAt": "2028-02-09T10:00:00.000Z",
+      "title": "Часове × Артефакт",
+      "introduction": "Дослідіть тему «Часове × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-224",
+          "title": "Старовинний підлоговий годинник",
+          "blurb": "Часове × Артефакт — SCP-224 – це дерев'яний підлоговий годинник, покритий чорним лаком та позолотою.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-224",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1032",
+          "title": "Пророчий будильник",
+          "blurb": "Часове × Артефакт — SCP-1032 являє собою будильник невідомого виробництва і походження, виготовлений зі срібла, пластмаси та скла.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1032",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1968",
+          "title": "Тор глобальної зворотньої причинності",
+          "blurb": "Часове × Артефакт — У неактивному стану SCP-1968 виглядає як бронзовий тор невідомого складу.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1968",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-442",
+          "title": "Завжди вчасно",
+          "blurb": "Часове × Артефакт — SCP-442 — це позолочений кишеньковий годинник діаметром три (3) сантиметри зі стрілками, що показують годину та хвилину.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-442",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-699",
+          "title": "Загадковий ящик",
+          "blurb": "Часове × Артефакт — SCP-699 – це прозорий прямокутний ящик розмірами 2,5 х 1,5 х 1 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-699",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 іржавих ключів і двері",
+          "blurb": "Часове × Артефакт — SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2003",
+          "title": "Переважний варіант",
+          "blurb": "Часове × Артефакт — SCP-2003 — це апарат, який дозволяє в обмеженому сенсі цього слова подорожувати у майбутнє та повертатись назад.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2003",
+          "sourceTags": [
+            "temporal",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-067",
+      "themeId": "biological-artifact",
+      "publishedAt": "2028-02-16T10:00:00.000Z",
+      "title": "Біологічне × Артефакт",
+      "introduction": "Дослідіть тему «Біологічне × Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-193",
+          "title": "Паперовий равлик",
+          "blurb": "Біологічне × Артефакт — SCP-193-01 за зовнішнім виглядом збігається з коробкою паперових носових хусточок марки ███████.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-193",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-101",
+          "title": "Голодна торба",
+          "blurb": "Біологічне × Артефакт — SCP-101 виглядає як мішок чи ранець мінливого розміру, діаметр отвору якого коливається від п'ятнадцяти (15) до сімдесят…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-101",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-4018",
+          "title": "Око",
+          "blurb": "Біологічне × Артефакт — SCP-4018 - це анатомічна модель людського ока, побудована зі слонової кістки та рогу.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-4018",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Ваза з чудовиськами",
+          "blurb": "Біологічне × Артефакт — SCP-019 виглядає як дуже велика керамічна ваза, з діаметром горлечка 1,8 м і висотою 2,4 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-019",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1583",
+          "title": "Це лише робить нас сильнішими",
+          "blurb": "Біологічне × Артефакт — SCP-1583 – позначення набору металевих діжок, призначених для використання у постачанні до протиядерних сховищ.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1583",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-086",
+          "title": "Кабінет доктора [ВИЛУЧЕНО]",
+          "blurb": "Біологічне × Артефакт — SCP-086 – це колективний нездатний до самостійного руху організм, складові частини якого нагадують предмети офісного обл…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-086",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-186",
+          "title": "Покласти кінець війнам",
+          "blurb": "Біологічне × Артефакт — SCP-186 – позначення території, де з 24.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-186",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5655",
+          "title": "Саме такий джин, якого ви очікуєте знайти в порожній банці з-під Спаму",
+          "blurb": "Біологічне × Артефакт — SCP-5655 — це порожня бляшанка \"Спаму\", яка, якщо її струснути або перевернути, матеріалізує SCP-5655-1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-5655",
+          "sourceTags": [
+            "biological",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-073",
+      "themeId": "liquid-biological",
+      "publishedAt": "2028-03-29T10:00:00.000Z",
+      "title": "Рідина × Біологічне",
+      "introduction": "Дослідіть тему «Рідина × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-845",
+          "title": "Тхір пливкий",
+          "blurb": "Рідина × Біологічне — SCP-845 являє собою вид, подібний одночасно до тхора лісового (Mustela putorius) та тхора домашнього (Mustela putorius f…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-845",
+          "sourceTags": [
+            "liquid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1612",
+          "title": "Вогні Панглосса",
+          "blurb": "Рідина × Біологічне — SCP-1612 є раніше невідомим видом Glycine max, також відомої як соя культурна.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1612",
+          "sourceTags": [
+            "liquid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-3379",
+          "title": "D-11424 та Арктична М'ясна діра нескінчених див",
+          "blurb": "Рідина × Біологічне — SCP-3379 - це прямокутний портал, який знаходиться на відстані приблизно в 8 метрів під водною поверхнею в арктичному ок…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3379",
+          "sourceTags": [
+            "liquid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-3396",
+          "title": "Ефірний паразит",
+          "blurb": "Рідина × Біологічне — SCP-3396 являє собою позапросторову сутність Категорії 4, що існує як сукупність фізично і метафізично мутагенних симбіо…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3396",
+          "sourceTags": [
+            "liquid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1610",
+          "title": "Досліди повинні тривати",
+          "blurb": "Рідина × Біологічне — SCP-1610-1 – сукупне позначення групи гуманоїдних істот.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1610",
+          "sourceTags": [
+            "liquid",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-079",
+      "themeId": "humanoid-liquid",
+      "publishedAt": "2028-05-10T10:00:00.000Z",
+      "title": "Гуманоїд × Рідина",
+      "introduction": "Дослідіть тему «Гуманоїд × Рідина» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-054",
+          "title": "Водяна німфа",
+          "blurb": "Гуманоїд × Рідина — Коли сутність не занурена у воду, вона частіше за все має вигляд гуманоїда жіночої статі, що повністю складається з води…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-054",
+          "sourceTags": [
+            "humanoid",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1908",
+          "title": "Пан Мило",
+          "blurb": "Гуманоїд × Рідина — SCP-1908 – це розумна маса непрозорої, біло-блакитної мильної води, об'ємом приблизно 190 літрів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1908",
+          "sourceTags": [
+            "humanoid",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-110",
+          "title": "Кар'єр",
+          "blurb": "Гуманоїд × Рідина — SCP-110-UA являє собою затоплений у 1989 р.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-110-ua",
+          "sourceTags": [
+            "humanoid",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1285",
+          "title": "Дерев'яний кіношний реквізит",
+          "blurb": "Гуманоїд × Рідина — SCP-1285 — це дерев'яна скульптура, яка зображує безрукого та безголового гуманоїда, що сидить на бетонному постаменті.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1285",
+          "sourceTags": [
+            "humanoid",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1610",
+          "title": "Досліди повинні тривати",
+          "blurb": "Гуманоїд × Рідина — SCP-1610-1 – сукупне позначення групи гуманоїдних істот.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1610",
+          "sourceTags": [
+            "humanoid",
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-086",
+      "themeId": "mind_affecting-liquid",
+      "publishedAt": "2028-06-28T10:00:00.000Z",
+      "title": "Вплив на психіку × Рідина",
+      "introduction": "Дослідіть тему «Вплив на психіку × Рідина» та порівняйте спільні риси й відмінності цих аномалій.",
+      "articles": [
+        {
+          "itemId": "scp-series-1711",
+          "title": "Мов моєю мовою",
+          "blurb": "Вплив на психіку × Рідина — SCP-1711 є колективним позначенням для трьох виробів, проданих компанією \"Центр замовлень поштою Індивідуальної лінгвіст…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1711",
+          "sourceTags": [
+            "mind_affecting",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-700",
+          "title": "Завод стінопису",
+          "blurb": "Вплив на психіку × Рідина — SCP-700 — це велика, покинута будівля, схожа за будовою на завод, розташована в сільській місцевості ██████████, США.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-700",
+          "sourceTags": [
+            "mind_affecting",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-195",
+          "title": "Медичний віскі",
+          "blurb": "Вплив на психіку × Рідина — SCP-195 — це \"медичний віскі\", який продавався двома комівояжерами на Півдні США до Громадянської війни.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-195",
+          "sourceTags": [
+            "mind_affecting",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-207",
+          "title": "Пляшки з Кока-колою",
+          "blurb": "Вплив на психіку × Рідина — SCP-207 — це ящик з 24 пляшками з напоями марки Coca-Cola.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-207",
+          "sourceTags": [
+            "mind_affecting",
+            "liquid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1610",
+          "title": "Досліди повинні тривати",
+          "blurb": "Вплив на психіку × Рідина — SCP-1610-1 – сукупне позначення групи гуманоїдних істот.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1610",
+          "sourceTags": [
+            "mind_affecting",
+            "liquid"
+          ]
+        }
+      ]
+    }
+  ]
+}

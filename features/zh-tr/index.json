@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-tr",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "人形",
+      "introduction": "圍繞「人形」，對比這些異常的共同點與差異。",
+      "articles": [
+        {
+          "itemId": "scp-series-zh-999",
+          "title": "人們欠他個總統席位",
+          "blurb": "人形 — SCP-ZH-999是一個無質量的第三型異常能量聚集體，以寄生方式存在於特定人類個體SCP-ZH-999-A身上，透過與SCP-ZH-999-A共享意識方式維持能量穩定。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-999",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-zh-750",
+          "title": "神說：「要有油。」就有了油。",
+          "blurb": "人形 — SCP-ZH-750是一隻具有現實扭曲能力的異常生物，其外觀類似於現代基督教中的典型天使，即人形、具有翅膀、穿著長袍等特點，但項目具有以下特徵： 項目高約四至五公尺，體重未知。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-750",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-zh-922",
+          "title": "馬蘭姑娘",
+          "blurb": "人形 — 您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-922",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-zh-053",
+          "title": "讓我們擦乾你的淚水",
+          "blurb": "人形 — SCP-ZH-053現時是位於台灣台南市██區的一座仿歐式溫室花園，為1982年被基金會發現的一間廢棄養豬場之下的化糞池，經多年後改建成一間溫室花園。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-053",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-zh-880",
+          "title": "阿嬤覺得你冷",
+          "blurb": "人形 — SCP-ZH-880是一位外表年長且瘦小的人類女性。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-880",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-zh-200",
+          "title": "鬼抓人",
+          "blurb": "人形 — SCP-ZH-200為一種未知實體。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-200",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-2521",
+          "title": "●●|●●●●●|●●|●",
+          "blurb": "人形 — 您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-2521",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-zh-603",
+          "title": "腳踏車上的人",
+          "blurb": "人形 — SCP-ZH-603大部分時間是一座雕像，外觀為一名男性青年人雙手扶著腳踏車把手佇立的模樣。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-603",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

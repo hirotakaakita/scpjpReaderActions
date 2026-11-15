@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "language": "ro",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-037",
+      "themeId": "biological",
+      "publishedAt": "2027-07-21T10:00:00.000Z",
+      "title": "Biologie",
+      "introduction": "Explorează tema „Biologie” și compară asemănările și diferențele dintre aceste anomalii.",
+      "articles": [
+        {
+          "itemId": "scp-series-003",
+          "title": "Placă de bază biologică",
+          "blurb": "Biologie — SCP-003 este compus din două componente înrudite de origine separată, denumite SCP-003-1 și SCP-003-2.",
+          "url": "https://scp-romanian.wikidot.com/scp-003",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-002",
+          "title": "Camera Vie",
+          "blurb": "Biologie — SCP-002 seamănă cu o creștere tumorală, cărnoasă, cu un volum de aproximativ 60 m³ (sau 2000 ft³).",
+          "url": "https://scp-romanian.wikidot.com/scp-002",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Planeta abdominală",
+          "blurb": "Biologie — SCP-007 se află într-o cavitate situată în abdomenul Subiectului.",
+          "url": "https://scp-romanian.wikidot.com/scp-007",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "„Tipul Timid”",
+          "blurb": "Biologie — SCP-096 este o creatură umanoidă, măsurând aproximativ 2,38 metri înălțime.",
+          "url": "https://scp-romanian.wikidot.com/scp-096",
+          "sourceTags": [
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-008",
+          "title": "Prionul Zombi",
+          "blurb": "Biologie — SCP-008 este un prion complex, ale cărui probe sunt stocate în fiecare dintre unitățile G2 cunoscute.",
+          "url": "https://scp-romanian.wikidot.com/scp-008",
+          "sourceTags": [
+            "biological"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "cs",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoidní",
+      "introduction": "Prozkoumejte téma „Humanoidní“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
+      "articles": [
+        {
+          "itemId": "scp-series-cs-019",
+          "title": "Muž beze jména",
+          "blurb": "Humanoidní — SCP-019-CS je mužský humanoid silně připomínající Homo sapiens sapiens, odpovídající věku 18 let.",
+          "url": "http://scp-cs.wikidot.com/scp-019-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-023",
+          "title": "Proč mi jenom nedá pokoj?",
+          "blurb": "Humanoidní — SCP-023-CS je žena evropského původu, jež se sama označuje, jako Simonne Varcoová.",
+          "url": "http://scp-cs.wikidot.com/scp-023-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-002",
+          "title": "Tak co jsme provedli tentokrát?",
+          "blurb": "Humanoidní — SCP-002-CS je stará televize britské výroby, jejíž výroba se zastavila přibližně v 60.",
+          "url": "http://scp-cs.wikidot.com/scp-002-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Morový doktor",
+          "blurb": "Humanoidní — SCP-049 je humanoidní entita, zhruba 1.",
+          "url": "http://scp-cs.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-063",
+          "title": "Ahoj, já jsem Jim.",
+          "blurb": "Humanoidní — Jsem vcelku normální chlápek.",
+          "url": "http://scp-cs.wikidot.com/scp-063-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-005",
+          "title": "Barva tvé duše",
+          "blurb": "Humanoidní — SCP-005-CS je na první pohled naprosto průměrný muž bílé pleti a středního věku.",
+          "url": "http://scp-cs.wikidot.com/scp-005-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-036",
+          "title": "Postava za námi",
+          "blurb": "Humanoidní — SCP-036-CS je vysoká humanoidní entita bez obličejových rysů, která je oděna v černém otrhaném plášti.",
+          "url": "http://scp-cs.wikidot.com/scp-036-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-042",
+          "title": "Severský ďábel",
+          "blurb": "Humanoidní — SCP-042-CS je humanoidní bytost o výšce přibližně 2,12 metru s dlouhým plnovousem z neznámé tkáně a čtyřmi rohy, dva mal…",
+          "url": "http://scp-cs.wikidot.com/scp-042-cs",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

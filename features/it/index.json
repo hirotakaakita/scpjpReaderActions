@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "it",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Umanoide",
+      "introduction": "Esplora il tema «Umanoide» e confronta somiglianze e differenze di queste anomalie.",
+      "articles": [
+        {
+          "itemId": "scp-series-it-002",
+          "title": "La Voce del Piave",
+          "blurb": "Umanoide — SCP-002-IT è un maschio caucasico, leggermente sovrappeso alto 1,83 m e dal peso di 86,8 kg che indossa un abito alpino …",
+          "url": "http://fondazionescp.wikidot.com/scp-002-it",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-015",
+          "title": "L'Uomo Nero",
+          "blurb": "Umanoide — SCP-015-IT è un essere umanoide alto circa 1,9 metri, dalla pelle glabra e in grado di assorbire il 98% della luce incid…",
+          "url": "http://fondazionescp.wikidot.com/scp-015-it",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Il \"Tipo Timido\"",
+          "blurb": "Umanoide — SCP-096 è una creatura umanoide che misura circa 2,38 metri di altezza.",
+          "url": "http://fondazionescp.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Medico della Peste",
+          "blurb": "Umanoide — SCP-049 è un'entità umanoide dall'altezza approssimativa di 1,90 m, il cui aspetto ricorda quello di un medico della pes…",
+          "url": "http://fondazionescp.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-032",
+          "title": "Haruspex",
+          "blurb": "Umanoide — SCP-032-IT è una statua bronzea, di colore verdaceo opaco, dalle sembianze di un giovane dal fisico atletico e dai linea…",
+          "url": "http://fondazionescp.wikidot.com/scp-032-it",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-006",
+          "title": "L'Imperatore Decaduto",
+          "blurb": "Umanoide — SCP-006-IT fu trovato in data ██/██/20██ a pochi metri dall'Ingresso [REDATTO] del Sito Plutone.",
+          "url": "http://fondazionescp.wikidot.com/scp-006-it",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-100",
+          "title": "Carnem Levare",
+          "blurb": "Umanoide — SCP-100-IT è la designazione collettiva di un gruppo di quattro entità umanoidi (SCP-100-IT-A, B, C e D), la cui presenz…",
+          "url": "http://fondazionescp.wikidot.com/scp-100-it",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-009",
+          "title": "I Tre Corpi",
+          "blurb": "Umanoide — SCP-009-IT è la designazione collettiva di tre istanze umanoidi, indicate con i suffissi -A, -B e -C.",
+          "url": "http://fondazionescp.wikidot.com/scp-009-it",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

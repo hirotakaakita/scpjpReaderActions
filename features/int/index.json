@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "language": "int",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoid",
+      "introduction": "Explore Humanoid: compare what these SCPs have in common and how their anomalies differ.",
+      "articles": [
+        {
+          "itemId": "scp-series-int-075",
+          "title": "The Grand Esoteric Cooking Tournament (WITH MECHAS)",
+          "blurb": "Humanoid — SCP-075-INT is a collection of massive, highly advanced robots and/or vehicles comprised of diverse anomalous technologi…",
+          "url": "http://scp-int.wikidot.com/scp-075-int",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-int-003",
+          "title": "Wishful Chocolate",
+          "blurb": "Humanoid — SCP-003-INT is a package of filled chocolates.",
+          "url": "http://scp-int.wikidot.com/scp-003-int",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-int-021",
+          "title": "The Courier",
+          "blurb": "Humanoid — Warning, unrecognised credentials.",
+          "url": "http://scp-int.wikidot.com/scp-021-int",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-int-012",
+          "title": "Magical Catgirls",
+          "blurb": "Humanoid — SCP-012-INT designates a group of 6 human women of varied phenotypes.",
+          "url": "http://scp-int.wikidot.com/scp-012-int",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-int-013",
+          "title": "Matté's Village",
+          "blurb": "Humanoid — SCP-013-INT is a village located in northern Italy, founded in 1765 by Giovanni Matté and his family.",
+          "url": "http://scp-int.wikidot.com/scp-013-int",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

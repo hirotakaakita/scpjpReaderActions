@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "pig",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoid",
+      "introduction": "Explore Humanoid: compare what these SCPs have in common and how their anomalies differ.",
+      "articles": [
+        {
+          "itemId": "scp-series-096",
+          "title": "Ethay Yshay Uygay",
+          "blurb": "Humanoid — SCP-096 isyay ayay umanoidhay eaturecray easuringmay approximatelyyay 2.",
+          "url": "https://scp-pig.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1982",
+          "title": "Irstfay Outhernsay Ifthistfay",
+          "blurb": "Humanoid — SCP-1982 isyay ayay urchchay inyay Airsvilleblay, Eorgiagay overedcay ybay ayay umigationfay enttay.",
+          "url": "https://scp-pig.wikidot.com/scp-1982",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Odgay\"",
+          "blurb": "Humanoid — SCP-343 isyay ayay alemay, eeminglysay aceray-esslay, umanoidhay inyay appearanceyay ithway apparentyay omnipotenceyay.",
+          "url": "https://scp-pig.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1000",
+          "title": "Igfootbay",
+          "blurb": "Humanoid — SCP-1000 isyay ayay octurnalnay, omnivorousyay apeyay, assifiedclay inyay ethay Hominini anchbray alongyay ithway enerag…",
+          "url": "https://scp-pig.wikidot.com/scp-1000",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Agueplay Octorday",
+          "blurb": "Humanoid — SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.",
+          "url": "https://scp-pig.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-011",
+          "title": "Entientsay Ivilcay Arway Emorialmay Atuestay",
+          "blurb": "Humanoid — SCP-011 isyay ayay Ivilcay Arway emorialmay atuestay ocatedlay inyay Oodstockway, Ermontvay.",
+          "url": "https://scp-pig.wikidot.com/scp-011",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1005",
+          "title": "Ethay Aintedpay Anmay",
+          "blurb": "Humanoid — SCP-1005 isyay ayay apientsay umanoidhay entityyay omposedcay ofyay emisay-olidsay ueblay aintpay, ithway exactyay adess…",
+          "url": "https://scp-pig.wikidot.com/scp-1005",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Abdominalyay Anetplay",
+          "blurb": "Humanoid — SCP-007 isyay ocatedlay ithinway ayay avitycay inyay ethay abdomenyay ofyay Ubjectsay.",
+          "url": "https://scp-pig.wikidot.com/scp-007",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "language": "sh",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Čovjekoliki",
+      "introduction": "Istražite temu „Čovjekoliki” i usporedite sličnosti i razlike ovih anomalija.",
+      "articles": [
+        {
+          "itemId": "scp-series-011",
+          "title": "Samosvesni spomenik Građanskom ratu",
+          "blurb": "Čovjekoliki — SCP-011 je spomenik Američkog građanskom ratu koji se nalazi u Vudstoku,Vermont.",
+          "url": "https://scp-sh.wikidot.com/scp-011",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Trbušna planeta",
+          "blurb": "Čovjekoliki — SCP-007 se nalazi u šupljini u trbuhu Subjekta.",
+          "url": "https://scp-sh.wikidot.com/scp-007",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "Ćerka senki",
+          "blurb": "Čovjekoliki — SCP-029 izgleda kao devojka u pubertetu, Azijsko-indijskog porekla.",
+          "url": "https://scp-sh.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-1471",
+          "title": "MalO ver1.0.0",
+          "blurb": "Čovjekoliki — SCP-1471 je besplatna aplikacija za mobilne uređaje, veličine 9,8 MB, nazvana \"MalO ver1.",
+          "url": "https://scp-sh.wikidot.com/scp-1471",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-054",
+          "title": "Vodena nimfa",
+          "blurb": "Čovjekoliki — Izvan vode, subjekat se najčešće prikazuje kao ženski humanoid sa prosečnom zapreminom od 90 L sačinjen u potpunosti od …",
+          "url": "https://scp-sh.wikidot.com/scp-054",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

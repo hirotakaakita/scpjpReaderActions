@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "fr",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoïde",
+      "introduction": "Explorez le thème « Humanoïde » et comparez les points communs et les différences de ces anomalies.",
+      "articles": [
+        {
+          "itemId": "scp-series-2521",
+          "title": "●●|●●●●●|●●|●",
+          "blurb": "Humanoïde — -no : ●●|●●●●●|●●|●",
+          "url": "http://fondationscp.wikidot.com/scp-2521",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "\"L'Homme timide\"",
+          "blurb": "Humanoïde — SCP-096 est une créature humanoïde mesurant approximativement 2,38 mètres de haut.",
+          "url": "http://fondationscp.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-006",
+          "title": "Le Boucher",
+          "blurb": "Humanoïde — SCP-006-FR est un humanoïde de type caucasien mesurant 1,87 mètre et pesant à tout moment 112 kg, la seule langue qu'il …",
+          "url": "http://fondationscp.wikidot.com/scp-006-fr",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-2317",
+          "title": "Une porte vers un autre monde",
+          "blurb": "Humanoïde — SCP-2317 est une porte et son cadre en bois servant originellement de porte pour la cave d'un bâtiment de grès du XIXe s…",
+          "url": "http://fondationscp.wikidot.com/scp-2317",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Le Docteur de peste",
+          "blurb": "Humanoïde — SCP-049 est une entité humanoïde, d'environ 1,9 mètre de hauteur, répondant à la description d'un médecin de peste médié…",
+          "url": "http://fondationscp.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-079",
+          "title": "Village de PNJ",
+          "blurb": "Humanoïde — SCP-079-FR est un petit village situé dans la forêt de ██████████, en Pologne, aux coordonnées ██████°N, ██████°E.",
+          "url": "http://fondationscp.wikidot.com/scp-079-fr",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-140",
+          "title": "L'Aviateur",
+          "blurb": "Humanoïde — SCP-140-FR désigne un humain de sexe masculin (âgé de 31 ans en date du 02/06/1940) présentant des cicatrices profondes …",
+          "url": "http://fondationscp.wikidot.com/scp-140-fr",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Le Vieil Homme",
+          "blurb": "Humanoïde — SCP-106 semble être un humanoïde âgé, avec une apparence générale de décomposition avancée.",
+          "url": "http://fondationscp.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

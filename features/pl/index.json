@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "pl",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoidalny",
+      "introduction": "Poznaj temat „Humanoidalny” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "articles": [
+        {
+          "itemId": "scp-series-049",
+          "title": "Lekarz Plagi",
+          "blurb": "Humanoidalny — SCP-049 jest humanoidalną istotą, mierzącą około 1.",
+          "url": "http://scp-pl.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "\"Nieśmiałek\"",
+          "blurb": "Humanoidalny — SCP-096 to humanoid mierzący około 2,38 [m].",
+          "url": "http://scp-pl.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "Staruszek",
+          "blurb": "Humanoidalny — SCP-106 wygląda na starszego humanoida, którego wygląd ogólny wskazuje na zaawansowany stopień rozkładu.",
+          "url": "http://scp-pl.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-200",
+          "title": "Odpowiedzialna lektura",
+          "blurb": "Humanoidalny — Zachowanie i poboczne właściwości anomalne; SCP-PL-200-1 SCP-PL-200 posiada 2 stany swoich zachowań- stan pasywny oraz a…",
+          "url": "http://scp-pl.wikidot.com/scp-pl-200",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-3008",
+          "title": "Zupełnie normalna, zwykła IKEA",
+          "blurb": "Humanoidalny — SCP-3008 to duży punkt sprzedaży detalicznej wcześniej będący własnością i marką IKEA, popularnej sieci meblowej.",
+          "url": "http://scp-pl.wikidot.com/scp-3008",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-194",
+          "title": "Kraina Szczęśliwości",
+          "blurb": "Humanoidalny — SCP-PL-194 jest anomalną lokacją, do której dostęp możliwy jest za pośrednictwem starych, ciężkich metalowych drzwi, zna…",
+          "url": "http://scp-pl.wikidot.com/scp-pl-194",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-011",
+          "title": "Pest Control™",
+          "blurb": "Humanoidalny — SCP-PL-011 to zjawisko występujące wewnątrz starego drewnianego domu odnalezionego przez Agentów Fundacji 22/01/████r.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-011",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-006",
+          "title": "Legenda",
+          "blurb": "Humanoidalny — SCP-PL-006 to zbiorcze określenie, na grupę podmiotów występujących na terenie całego kraju.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-006",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}

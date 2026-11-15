@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "timeZone": "Asia/Tokyo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "Article titles and introductory excerpts are derived from the linked SCP Wiki pages. See each source page for its authors and credits.",
+  "features": [
+    {
+      "id": "weekly-001",
+      "themeId": "humanoid",
+      "publishedAt": "2026-11-11T10:00:00.000Z",
+      "title": "Humanoid",
+      "introduction": "Explore Humanoid: compare what these SCPs have in common and how their anomalies differ.",
+      "articles": [
+        {
+          "itemId": "scp-series-049",
+          "title": "Plague Doctor",
+          "blurb": "Humanoid — SCP-049 is a humanoid entity, roughly 1.",
+          "url": "https://scp-wiki.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "The \"Shy Guy\"",
+          "blurb": "Humanoid — SCP-096 is a humanoid creature measuring approximately 2.",
+          "url": "https://scp-wiki.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-3008",
+          "title": "A Perfectly Normal, Regular Old IKEA",
+          "blurb": "Humanoid — SCP-3008 is a large retail unit previously owned by and branded as IKEA, a popular furniture retail chain.",
+          "url": "https://scp-wiki.wikidot.com/scp-3008",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-106",
+          "title": "The Old Man",
+          "blurb": "Humanoid — SCP-106 appears to be an elderly humanoid, with a general appearance of advanced decomposition.",
+          "url": "https://scp-wiki.wikidot.com/scp-106",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-5031",
+          "title": "Yet Another Murder Monster",
+          "blurb": "Humanoid — SCP-5031 is a non-sapient quasi-humanoid creature of unknown origin.",
+          "url": "https://scp-wiki.wikidot.com/scp-5031",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-2317",
+          "title": "A Door to Another World",
+          "blurb": "Humanoid — SCP-2317 is a wooden door and frame originally constructed as a basement door for a 19th-century Massachusetts brownston…",
+          "url": "https://scp-wiki.wikidot.com/scp-2317",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-4999",
+          "title": "Someone to Watch Over Us",
+          "blurb": "Humanoid — SCP-4999 is a humanoid entity of unknown origins and composition.",
+          "url": "https://scp-wiki.wikidot.com/scp-4999",
+          "sourceTags": [
+            "humanoid"
+          ]
+        },
+        {
+          "itemId": "scp-series-231",
+          "title": "Special Personnel Requirements",
+          "blurb": "Humanoid — SCP-231-7 is a █████ female between █ and ██ years of age, with [DATA EXPUNGED].",
+          "url": "https://scp-wiki.wikidot.com/scp-231",
+          "sourceTags": [
+            "humanoid"
+          ]
+        }
+      ]
+    }
+  ]
+}
