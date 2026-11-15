@@ -2,13 +2,8 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [
-        {
-          "itemId": "scp-series-jp-4014",
-          "titleJP": "スキップ"
-        }
-      ],
-      "lastSentWindow": "2026-11-08"
+      "items": [],
+      "lastSentWindow": "2026-11-15"
     },
     "en": {
       "items": [
@@ -603,5 +598,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-11-15T07:19:46.922Z"
+  "updatedAt": "2026-11-15T14:40:42.858Z"
 }
