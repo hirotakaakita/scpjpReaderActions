@@ -89,178 +89,135 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Människoliknande × Biologi",
-      "introduction": "Utforska temat Människoliknande × Biologi och jämför likheter och skillnader mellan dessa anomalier.",
+      "title": "Rum",
+      "introduction": "Utforska temat Rum och jämför likheter och skillnader mellan dessa anomalier.",
       "articles": [
         {
-          "itemId": "scp-series-108",
-          "title": "Extradimensionell Näshåla",
-          "blurb": "Människoliknande × Biologi — SCP-108 är åtkomlig genom näsborrarna på Subjekt-108-1.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-108",
+          "itemId": "scp-series-087",
+          "title": "Trapphuset",
+          "blurb": "Rum — SCP-087 är en enhetplatformstrappa.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-030",
-          "title": "Homunculus",
-          "blurb": "Människoliknande × Biologi — SCP-030 framstår som en hårlös, könslös, gråtonad människa, 71 centimeter lång och väger 12,70 kilogram (två brittiska s…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-030",
+          "itemId": "scp-series-123",
+          "title": "Säkrat Miniatyrt Svart Hål",
+          "blurb": "Rum — Objektet är en grå geodetisk sfär med en diameter på 65 cm, bestående av sextio trianglar.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-123",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-135",
-          "title": "Universell Karcinogen",
-          "blurb": "Människoliknande × Biologi — SCP-135 är en människa, kvinnlig, mellan █ och ██ år gammal, som främjar snabb, okontrollerad celltillväxt inom en radie…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-135",
+          "itemId": "scp-series-004",
+          "title": "De 12 Rostiga Nycklarna och Dörren",
+          "blurb": "Rum — SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Abel\"",
-          "blurb": "Människoliknande × Biologi — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
-          "url": "https://scp-nd.wikidot.com/sv:scp-076",
+          "itemId": "scp-series-084",
+          "title": "Statisk Torn",
+          "blurb": "Rum — SCP-084 verkar vara ett stort radiotorn placerat i mitten av ett stort, öppet fält med två små uthus.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-084",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-088",
-          "title": "Ödlekungen",
-          "blurb": "Människoliknande × Biologi — SCP-088 är en humanoid med reptil liknande drag som verkar ha mumifierats i en slö hållning.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-088",
+          "itemId": "scp-series-094",
+          "title": "Miniatyr Händelsehorisont",
+          "blurb": "Rum — SCP-094 verkar vara en perfekt svart sfär, 163 cm i diameter, upphängd ungefär 3 m ovanför marken utan något synligt stö…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-094",
           "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-208",
-          "title": "\"Bes\"",
-          "blurb": "Människoliknande × Biologi — SCP-208 verkar vara en kort, kraftig man av egyptiskt arv, med mycket hår över stora delar av kroppen.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-208",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-073",
-          "title": "\"Kain\"",
-          "blurb": "Människoliknande × Biologi — SCP-073 verkar vara en kraftigt solbränd man av arabisk eller mellanöstlig härkomst i början av trettioårsåldern, 185 cm…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-073",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-060",
-          "title": "Infernaliskt Ockult Skelett",
-          "blurb": "Människoliknande × Biologi — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
-          "url": "https://scp-nd.wikidot.com/sv:scp-060",
-          "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Människoliknande × Intelligens",
-      "introduction": "Utforska temat Människoliknande × Intelligens och jämför likheter och skillnader mellan dessa anomalier.",
+      "title": "Föremål",
+      "introduction": "Utforska temat Föremål och jämför likheter och skillnader mellan dessa anomalier.",
       "articles": [
         {
-          "itemId": "scp-series-202",
-          "title": "Tillbakaspolningsmannen",
-          "blurb": "Människoliknande × Intelligens — SCP-202 är en asiatisk-brittisk man, 41 år gammal, som utför alla handlingar i omvänd ordning.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-202",
+          "itemId": "scp-series-500",
+          "title": "Universalmedel",
+          "blurb": "Föremål — SCP-500 är en liten plastburk som i skrivande stund innehåller fyrtiosju (47) röda piller.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-053",
-          "title": "Ung Tjej",
-          "blurb": "Människoliknande × Intelligens — SCP-053 verkar vara en liten treårig flicka.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-053",
+          "itemId": "scp-series-436",
+          "title": "Fellås",
+          "blurb": "Föremål — SCP-436 är ett litet medaljong, tydligen gjort av guld.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-436",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-011",
-          "title": "Kännande Minnesstaty Från Inbördeskriget",
-          "blurb": "Människoliknande × Intelligens — SCP-011 är en minnesstaty över inbördeskriget belägen i Woodstock, Vermont.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-011",
+          "itemId": "scp-series-063",
+          "title": "\"Världens Bästa TanBorste\"",
+          "blurb": "Föremål — SCP-063 verkar vara en genomsnittlig, ljusblå tandborste.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-063",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-014",
-          "title": "Betongmannen",
-          "blurb": "Människoliknande × Intelligens — SCP-014 är en kaukasisk man, som verkar vara cirka 30 år gammal, med svart hår, bruna ögon och ett något rundaktigt ansi…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-014",
+          "itemId": "scp-series-067",
+          "title": "Konstnärens Penna",
+          "blurb": "Föremål — SCP-067 är en fyllpenn gjord av ett tyskt leverantörsföretag som heter Pelikan någon gång mellan första och andra världs…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-067",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-172",
-          "title": "Kugghjulmannen",
-          "blurb": "Människoliknande × Intelligens — SCP-172 verkar vara en människa, 34 år gammal, 185 cm lång, svart hår och mustasch, 175,5 kg, och av rysk härkomst.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-172",
+          "itemId": "scp-series-093",
+          "title": "Rött Sjö-Föremål",
+          "blurb": "Föremål — SCP-093 är en huvudsakligen rödfärgad skiva med en diameter på 7,62 cm och är uthuggen ur ett stenslag som liknar cinnob…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-134",
-          "title": "Stjärnögt Barn",
-          "blurb": "Människoliknande × Intelligens — SCP-134 verkar vara en asiatisk flicka mellan åldrarna █ och █, med kort svart hår och liten kroppsbyggnad.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-134",
+          "itemId": "scp-series-025",
+          "title": "En Väl Använd Garderob",
+          "blurb": "Föremål — SCP-025 är en garderob i trä som mäter 0,97 m x 0,62 m x 1,95 m, full av kläder från ett antal tidsperioder.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-025",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-085",
-          "title": "Handritad ''Cassy''",
-          "blurb": "Människoliknande × Intelligens — SCP-085 är resultatet av ett experiment som utfördes mellan SCP-067 och SCP-914.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-085",
+          "itemId": "scp-series-037",
+          "title": "Dvärgstjärna",
+          "blurb": "Föremål — SCP-037 verkar vara en stjärna med en diameter på ungefär 5 cm (2 tum), med en ljusstyrka på cirka 1*10-12 gånger vår so…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-037",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-040",
-          "title": "Evolutionens Barn",
-          "blurb": "Människoliknande × Intelligens — SCP-040 är ett mänskligt barn som kan manipulera levande organismers fysiska egenskaper efter egen vilja.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-040",
+          "itemId": "scp-series-064",
+          "title": "Bristfällig von Neumann Struktur",
+          "blurb": "Föremål — SCP-064 är en ljusbrun lergodstegel som huvudsakligen består av kiseloxider och en del organiskt material.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-064",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -624,54 +581,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Rum",
-      "introduction": "Utforska temat Rum och jämför likheter och skillnader mellan dessa anomalier.",
+      "title": "Människoliknande × Biologi",
+      "introduction": "Utforska temat Människoliknande × Biologi och jämför likheter och skillnader mellan dessa anomalier.",
       "articles": [
         {
-          "itemId": "scp-series-087",
-          "title": "Trapphuset",
-          "blurb": "Rum — SCP-087 är en enhetplatformstrappa.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-087",
+          "itemId": "scp-series-108",
+          "title": "Extradimensionell Näshåla",
+          "blurb": "Människoliknande × Biologi — SCP-108 är åtkomlig genom näsborrarna på Subjekt-108-1.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-108",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-123",
-          "title": "Säkrat Miniatyrt Svart Hål",
-          "blurb": "Rum — Objektet är en grå geodetisk sfär med en diameter på 65 cm, bestående av sextio trianglar.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-123",
+          "itemId": "scp-series-030",
+          "title": "Homunculus",
+          "blurb": "Människoliknande × Biologi — SCP-030 framstår som en hårlös, könslös, gråtonad människa, 71 centimeter lång och väger 12,70 kilogram (två brittiska s…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-030",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "De 12 Rostiga Nycklarna och Dörren",
-          "blurb": "Rum — SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-004",
+          "itemId": "scp-series-135",
+          "title": "Universell Karcinogen",
+          "blurb": "Människoliknande × Biologi — SCP-135 är en människa, kvinnlig, mellan █ och ██ år gammal, som främjar snabb, okontrollerad celltillväxt inom en radie…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-135",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-084",
-          "title": "Statisk Torn",
-          "blurb": "Rum — SCP-084 verkar vara ett stort radiotorn placerat i mitten av ett stort, öppet fält med två små uthus.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-084",
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Människoliknande × Biologi — SCP-076 består av två delar: en stenkub (SCP-076-1) och en humanoid varelse som bevaras inuti (SCP-076-2).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-094",
-          "title": "Miniatyr Händelsehorisont",
-          "blurb": "Rum — SCP-094 verkar vara en perfekt svart sfär, 163 cm i diameter, upphängd ungefär 3 m ovanför marken utan något synligt stö…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-094",
+          "itemId": "scp-series-088",
+          "title": "Ödlekungen",
+          "blurb": "Människoliknande × Biologi — SCP-088 är en humanoid med reptil liknande drag som verkar ha mumifierats i en slö hållning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-088",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-208",
+          "title": "\"Bes\"",
+          "blurb": "Människoliknande × Biologi — SCP-208 verkar vara en kort, kraftig man av egyptiskt arv, med mycket hår över stora delar av kroppen.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-208",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Kain\"",
+          "blurb": "Människoliknande × Biologi — SCP-073 verkar vara en kraftigt solbränd man av arabisk eller mellanöstlig härkomst i början av trettioårsåldern, 185 cm…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-073",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-060",
+          "title": "Infernaliskt Ockult Skelett",
+          "blurb": "Människoliknande × Biologi — SCP-060 är en lund med sjutton vita ekar (Quercus alba).",
+          "url": "https://scp-nd.wikidot.com/sv:scp-060",
+          "sourceTags": [
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -1784,81 +1776,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Föremål",
-      "introduction": "Utforska temat Föremål och jämför likheter och skillnader mellan dessa anomalier.",
+      "title": "Människoliknande × Intelligens",
+      "introduction": "Utforska temat Människoliknande × Intelligens och jämför likheter och skillnader mellan dessa anomalier.",
       "articles": [
         {
-          "itemId": "scp-series-500",
-          "title": "Universalmedel",
-          "blurb": "Föremål — SCP-500 är en liten plastburk som i skrivande stund innehåller fyrtiosju (47) röda piller.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-500",
+          "itemId": "scp-series-202",
+          "title": "Tillbakaspolningsmannen",
+          "blurb": "Människoliknande × Intelligens — SCP-202 är en asiatisk-brittisk man, 41 år gammal, som utför alla handlingar i omvänd ordning.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-202",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-436",
-          "title": "Fellås",
-          "blurb": "Föremål — SCP-436 är ett litet medaljong, tydligen gjort av guld.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-436",
+          "itemId": "scp-series-053",
+          "title": "Ung Tjej",
+          "blurb": "Människoliknande × Intelligens — SCP-053 verkar vara en liten treårig flicka.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-053",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-063",
-          "title": "\"Världens Bästa TanBorste\"",
-          "blurb": "Föremål — SCP-063 verkar vara en genomsnittlig, ljusblå tandborste.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-063",
+          "itemId": "scp-series-011",
+          "title": "Kännande Minnesstaty Från Inbördeskriget",
+          "blurb": "Människoliknande × Intelligens — SCP-011 är en minnesstaty över inbördeskriget belägen i Woodstock, Vermont.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-011",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-067",
-          "title": "Konstnärens Penna",
-          "blurb": "Föremål — SCP-067 är en fyllpenn gjord av ett tyskt leverantörsföretag som heter Pelikan någon gång mellan första och andra världs…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-067",
+          "itemId": "scp-series-014",
+          "title": "Betongmannen",
+          "blurb": "Människoliknande × Intelligens — SCP-014 är en kaukasisk man, som verkar vara cirka 30 år gammal, med svart hår, bruna ögon och ett något rundaktigt ansi…",
+          "url": "https://scp-nd.wikidot.com/sv:scp-014",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Rött Sjö-Föremål",
-          "blurb": "Föremål — SCP-093 är en huvudsakligen rödfärgad skiva med en diameter på 7,62 cm och är uthuggen ur ett stenslag som liknar cinnob…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-093",
+          "itemId": "scp-series-172",
+          "title": "Kugghjulmannen",
+          "blurb": "Människoliknande × Intelligens — SCP-172 verkar vara en människa, 34 år gammal, 185 cm lång, svart hår och mustasch, 175,5 kg, och av rysk härkomst.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-172",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-025",
-          "title": "En Väl Använd Garderob",
-          "blurb": "Föremål — SCP-025 är en garderob i trä som mäter 0,97 m x 0,62 m x 1,95 m, full av kläder från ett antal tidsperioder.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-025",
+          "itemId": "scp-series-134",
+          "title": "Stjärnögt Barn",
+          "blurb": "Människoliknande × Intelligens — SCP-134 verkar vara en asiatisk flicka mellan åldrarna █ och █, med kort svart hår och liten kroppsbyggnad.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-134",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-037",
-          "title": "Dvärgstjärna",
-          "blurb": "Föremål — SCP-037 verkar vara en stjärna med en diameter på ungefär 5 cm (2 tum), med en ljusstyrka på cirka 1*10-12 gånger vår so…",
-          "url": "https://scp-nd.wikidot.com/sv:scp-037",
+          "itemId": "scp-series-085",
+          "title": "Handritad ''Cassy''",
+          "blurb": "Människoliknande × Intelligens — SCP-085 är resultatet av ett experiment som utfördes mellan SCP-067 och SCP-914.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-085",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-064",
-          "title": "Bristfällig von Neumann Struktur",
-          "blurb": "Föremål — SCP-064 är en ljusbrun lergodstegel som huvudsakligen består av kiseloxider och en del organiskt material.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-064",
+          "itemId": "scp-series-040",
+          "title": "Evolutionens Barn",
+          "blurb": "Människoliknande × Intelligens — SCP-040 är ett mänskligt barn som kan manipulera levande organismers fysiska egenskaper efter egen vilja.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-040",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

@@ -97,7 +97,8 @@ function createPlan(catalogs, start='2026-11-11T10:00:00.000Z') {
 function hash(value){return crypto.createHash('sha256').update(value).digest('hex');}
 function matches(row,theme){return theme.keys.every(key=>row.groups.has(key))&&(!theme.objectClass||String(row.objectClass).toLowerCase()===theme.objectClass.toLowerCase());}
 function generate(root,output,{start,plan:fixedPlan}={}) {
- const catalogs=loadCatalogs(root),plan=fixedPlan||createPlan(catalogs,start),report={};fs.mkdirSync(output,{recursive:true});
+ const scheduleFile=path.join(output,'schedule.json');
+ const catalogs=loadCatalogs(root),plan=fixedPlan||(!start&&fs.existsSync(scheduleFile)?JSON.parse(fs.readFileSync(scheduleFile)).weeks:createPlan(catalogs,start)),report={};fs.mkdirSync(output,{recursive:true});
  fs.writeFileSync(path.join(output,'schedule.json'),JSON.stringify({schemaVersion:1,timeZone:'Asia/Tokyo',updateDay:'Wednesday',updateHour:19,weeks:plan},null,2)+'\n');
  for(const [language,rows]of Object.entries(catalogs)){
   const locale=LOCALES[language]||language,used=new Map(),features=[];
@@ -105,7 +106,9 @@ function generate(root,output,{start,plan:fixedPlan}={}) {
    const editorialFile=path.join(output,'editorial',language,theme.id+'.json');
    if(fs.existsSync(editorialFile)){
     const feature=JSON.parse(fs.readFileSync(editorialFile));
-    if(feature.themeId!==theme.themeId||feature.publishedAt!==theme.publishedAt||feature.articles.length<5||feature.articles.length>10||feature.articles.some(a=>!rows.some(r=>r.itemId===a.itemId&&matches(r,theme))))throw Error('Invalid editorial override '+language+'/'+theme.id);
+    // Reviewed editorial selections use the article's contents, which may cover
+    // a theme without carrying the automatic selector's exact Wiki tags.
+    if(feature.id!==theme.id||feature.themeId!==theme.themeId||feature.publishedAt!==theme.publishedAt||feature.articles.length<5||feature.articles.length>10||new Set(feature.articles.map(a=>a.itemId)).size!==feature.articles.length||feature.articles.some(a=>!a.blurb||!rows.some(r=>r.itemId===a.itemId&&r.titleJP===a.title&&r.urlJP===a.url)))throw Error('Invalid editorial override '+language+'/'+theme.id);
     features.push(feature);for(const article of feature.articles)used.set(article.itemId,(used.get(article.itemId)||0)+1);
     continue;
    }

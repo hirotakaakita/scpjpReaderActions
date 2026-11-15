@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoide × Biológico",
-      "introduction": "Explore o tema «Humanoide × Biológico» e compare as semelhanças e diferenças entre estas anomalias.",
+      "title": "Espacial",
+      "introduction": "Explore o tema «Espacial» e compare as semelhanças e diferenças entre estas anomalias.",
       "articles": [
         {
-          "itemId": "scp-series-pt-059",
-          "title": "Anjo Bom da Bahia",
-          "blurb": "Humanoide × Biológico — SCP-059-PT é o cadáver de Maria Rita de Sousa Brito Lopes Pontes, popularmente conhecida como Irmã Dulce.",
-          "url": "http://scp-pt-br.wikidot.com/scp-059-pt",
+          "itemId": "scp-series-pt-177",
+          "title": "Loteria da Viagem no Tempo",
+          "blurb": "Espacial — SCP-177-PT é um relógio da marca █████ ████████ com ponteiros analógicos.",
+          "url": "http://scp-pt-br.wikidot.com/scp-177-pt",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "\"Deus\"",
-          "blurb": "Humanoide × Biológico — SCP-343 é um homem, sem raça, humanoide em aparência com aparente omnipotência.",
-          "url": "http://scp-pt-br.wikidot.com/scp-343",
+          "itemId": "scp-series-pt-005",
+          "title": "O Algar",
+          "blurb": "Espacial — SCP-005-PT designa uma região oceânica situada além das noções espaciais conhecidas pela ciência atual.",
+          "url": "http://scp-pt-br.wikidot.com/scp-005-pt",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Pé Grande",
-          "blurb": "Humanoide × Biológico — SCP-1000 é um primata onívoro e noturno, classificado na família Hominini, juntamente com os gêneros Pan e Homo.",
-          "url": "http://scp-pt-br.wikidot.com/scp-1000",
+          "itemId": "scp-series-pt-199",
+          "title": "Divulgue-o",
+          "blurb": "Espacial — SCP-199-PT é um monitor de 16 polegadas desprovido de qualquer tipo de marcações ou botões, que está acoplado a uma hast…",
+          "url": "http://scp-pt-br.wikidot.com/scp-199-pt",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Abel\"",
-          "blurb": "Humanoide × Biológico — SCP-076 é composto por dois componentes: um cubo de pedra (SCP-076-1) e uma entidade humanoide contida em seu interior (…",
-          "url": "http://scp-pt-br.wikidot.com/scp-076",
+          "itemId": "scp-series-pt-013",
+          "title": "Samba do Ciborgue Doido",
+          "blurb": "Espacial — SCP-013-PT é um homem de 1,75 m de altura e peso aproximado em 75 kg, com extensa presença de próteses eletrônicas ao lo…",
+          "url": "http://scp-pt-br.wikidot.com/scp-013-pt",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Requisitos Pessoais Especiais",
-          "blurb": "Humanoide × Biológico — SCP-231-7 é uma █████ de sexo feminino entre █ e ██ anos de idade, com [DADOS EXPURGADOS].",
-          "url": "http://scp-pt-br.wikidot.com/scp-231",
+          "itemId": "scp-series-087",
+          "title": "A Escadaria",
+          "blurb": "Espacial — SCP-087 é uma escadaria de plataforma apagada.",
+          "url": "http://scp-pt-br.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-2317",
-          "title": "Uma Porta para Outro Mundo",
-          "blurb": "Humanoide × Biológico — SCP-2317 é uma porta de madeira e armação originalmente construída como uma porta do porão para um condomínio de Massach…",
-          "url": "http://scp-pt-br.wikidot.com/scp-2317",
+          "itemId": "scp-series-1730",
+          "title": "O que Aconteceu com o Sítio-13?",
+          "blurb": "Espacial — SCP-1730 é um grande complexo de estruturas, a anomalia está localizada a 15 km do noroeste da fronteira de EUA/México d…",
+          "url": "http://scp-pt-br.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-073",
-          "title": "\"Caim\"",
-          "blurb": "Humanoide × Biológico — SCP-073 aparenta ser um humano do sexo masculino bastante bronzeado, com descendência das regiões da Arábia ou do Orient…",
-          "url": "http://scp-pt-br.wikidot.com/scp-073",
+          "itemId": "scp-series-pt-138",
+          "title": "Ovos Graúdos e Sapientes",
+          "blurb": "Espacial — SCP-138-PT-01 a -12 são ovos de galinha de tamanho e formato normal de cor branca e vermelha com total sapiência, tendo …",
+          "url": "http://scp-pt-br.wikidot.com/scp-138-pt",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-053",
-          "title": "Jovem Garota",
-          "blurb": "Humanoide × Biológico — SCP-053 aparenta ser uma pequena garota de 3 anos.",
-          "url": "http://scp-pt-br.wikidot.com/scp-053",
+          "itemId": "scp-series-004",
+          "title": "As 12 Chaves Enferrujadas e a Porta",
+          "blurb": "Espacial — SCP-004 consiste em uma velha porta (SCP-004-1) e um conjunto de doze (12) chaves de aço enferrujadas (SCP-004-2 até SCP…",
+          "url": "http://scp-pt-br.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoide × Senciente",
-      "introduction": "Explore o tema «Humanoide × Senciente» e compare as semelhanças e diferenças entre estas anomalias.",
+      "title": "Artefato",
+      "introduction": "Explore o tema «Artefato» e compare as semelhanças e diferenças entre estas anomalias.",
       "articles": [
         {
-          "itemId": "scp-series-166",
-          "title": "Apenas uma Gaia Adolescente",
-          "blurb": "Humanoide × Senciente — SCP-166 é um ser humano do sexo feminino de nacionalidade europeia com menos de 20 anos com características de ungulado;…",
-          "url": "http://scp-pt-br.wikidot.com/scp-166",
+          "itemId": "scp-series-pt-196",
+          "title": "Luvas de Midas",
+          "blurb": "Artefato — SCP-196-PT é um par de luvas pretas, compostas majoritariamente por couro de origem bovina, possuindo leves camadas de u…",
+          "url": "http://scp-pt-br.wikidot.com/scp-196-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-5031",
-          "title": "Só Mais Um Monstro Assassino",
-          "blurb": "Humanoide × Senciente — SCP-5031 é uma criatura não-sapiente quase-humanoide de origem desconhecida.",
-          "url": "http://scp-pt-br.wikidot.com/scp-5031",
+          "itemId": "scp-series-pt-122",
+          "title": "Sangue",
+          "blurb": "Artefato — SCP-122-PT é a designação dada para um objeto anômalo composto de duas partes, a partir de agora denominadas SCP-122-PT-…",
+          "url": "http://scp-pt-br.wikidot.com/scp-122-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-990",
-          "title": "O Homem Dentro dos Sonhos",
-          "blurb": "Humanoide × Senciente — SCP-990 geralmente se assemelha a um humano do sexo masculino vestido em um traje de negócios do período da Guerra Fria …",
-          "url": "http://scp-pt-br.wikidot.com/scp-990",
+          "itemId": "scp-series-pt-099",
+          "title": "Adaga de Obsidiana",
+          "blurb": "Artefato — SCP-099-PT é um lâmina de um metal negro desconhecido obsidiana extremamente afiada.",
+          "url": "http://scp-pt-br.wikidot.com/scp-099-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-105",
-          "title": "\"Iris\"",
-          "blurb": "Humanoide × Senciente — SCP-105 (anteriormente conhecida como Iris Thompson) é uma humana de sexo feminino de descendência europeia.",
-          "url": "http://scp-pt-br.wikidot.com/scp-105",
+          "itemId": "scp-series-pt-015",
+          "title": "Canhão Eletromagnético",
+          "blurb": "Artefato — SCP-015-PT é o protótipo de um canhão eletromagnético portátil de múltiplos estágios desenvolvido pela Superintendência …",
+          "url": "http://scp-pt-br.wikidot.com/scp-015-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1440",
-          "title": "O Velho de Lugar Nenhum",
-          "blurb": "Humanoide × Senciente — SCP-1440 é um homem de etnia e idade desconhecida.",
-          "url": "http://scp-pt-br.wikidot.com/scp-1440",
+          "itemId": "scp-series-pt-109",
+          "title": "Cerebréx, seu cerébro on max!",
+          "blurb": "Artefato — Uma unidade de SCP-109-PT é pílula de peso aproximado de dez (10) gramas, de 0,3 cm de comprimento e 0,17 cm de diâmetro…",
+          "url": "http://scp-pt-br.wikidot.com/scp-109-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-082",
-          "title": "\"Fernand\" o Canibal",
-          "blurb": "Humanoide × Senciente — SCP-082 é geneticamente humano; contudo, através de algum processo desconhecido (seja químico, hormonal, canceroso ou so…",
-          "url": "http://scp-pt-br.wikidot.com/scp-082",
+          "itemId": "scp-series-pt-043",
+          "title": "O Jogador",
+          "blurb": "Artefato — SCP-043-PT é um aparelho eletrônico denominado Master System, série de eletrodomésticos produzidos pela empresa TecToy n…",
+          "url": "http://scp-pt-br.wikidot.com/scp-043-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-014",
-          "title": "O Homem de Concreto",
-          "blurb": "Humanoide × Senciente — SCP-014 é um caucasiano do sexo masculino, com a aparência de cerca de 30 anos de idade, cabelo preto, olhos castanhos e…",
-          "url": "http://scp-pt-br.wikidot.com/scp-014",
+          "itemId": "scp-series-pt-019",
+          "title": "Prato de Porcelana",
+          "blurb": "Artefato — SCP-019-PT se assemelha a um grande prato branco de porcelana de 80 cm de diâmetro.",
+          "url": "http://scp-pt-br.wikidot.com/scp-019-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-191",
-          "title": "Criança Ciborgue",
-          "blurb": "Humanoide × Senciente — SCP-191 é uma criança humana do sexo feminino, com aproximadamente █ anos de idade.",
-          "url": "http://scp-pt-br.wikidot.com/scp-191",
+          "itemId": "scp-series-pt-137",
+          "title": "Lança de Longino",
+          "blurb": "Artefato — SCP-137-PT é uma lança de 150 cm de comprimento.",
+          "url": "http://scp-pt-br.wikidot.com/scp-137-pt",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Espacial",
-      "introduction": "Explore o tema «Espacial» e compare as semelhanças e diferenças entre estas anomalias.",
+      "title": "Humanoide × Biológico",
+      "introduction": "Explore o tema «Humanoide × Biológico» e compare as semelhanças e diferenças entre estas anomalias.",
       "articles": [
         {
-          "itemId": "scp-series-pt-177",
-          "title": "Loteria da Viagem no Tempo",
-          "blurb": "Espacial — SCP-177-PT é um relógio da marca █████ ████████ com ponteiros analógicos.",
-          "url": "http://scp-pt-br.wikidot.com/scp-177-pt",
+          "itemId": "scp-series-pt-059",
+          "title": "Anjo Bom da Bahia",
+          "blurb": "Humanoide × Biológico — SCP-059-PT é o cadáver de Maria Rita de Sousa Brito Lopes Pontes, popularmente conhecida como Irmã Dulce.",
+          "url": "http://scp-pt-br.wikidot.com/scp-059-pt",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-pt-005",
-          "title": "O Algar",
-          "blurb": "Espacial — SCP-005-PT designa uma região oceânica situada além das noções espaciais conhecidas pela ciência atual.",
-          "url": "http://scp-pt-br.wikidot.com/scp-005-pt",
+          "itemId": "scp-series-343",
+          "title": "\"Deus\"",
+          "blurb": "Humanoide × Biológico — SCP-343 é um homem, sem raça, humanoide em aparência com aparente omnipotência.",
+          "url": "http://scp-pt-br.wikidot.com/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-pt-199",
-          "title": "Divulgue-o",
-          "blurb": "Espacial — SCP-199-PT é um monitor de 16 polegadas desprovido de qualquer tipo de marcações ou botões, que está acoplado a uma hast…",
-          "url": "http://scp-pt-br.wikidot.com/scp-199-pt",
+          "itemId": "scp-series-1000",
+          "title": "Pé Grande",
+          "blurb": "Humanoide × Biológico — SCP-1000 é um primata onívoro e noturno, classificado na família Hominini, juntamente com os gêneros Pan e Homo.",
+          "url": "http://scp-pt-br.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-pt-013",
-          "title": "Samba do Ciborgue Doido",
-          "blurb": "Espacial — SCP-013-PT é um homem de 1,75 m de altura e peso aproximado em 75 kg, com extensa presença de próteses eletrônicas ao lo…",
-          "url": "http://scp-pt-br.wikidot.com/scp-013-pt",
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Humanoide × Biológico — SCP-076 é composto por dois componentes: um cubo de pedra (SCP-076-1) e uma entidade humanoide contida em seu interior (…",
+          "url": "http://scp-pt-br.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-087",
-          "title": "A Escadaria",
-          "blurb": "Espacial — SCP-087 é uma escadaria de plataforma apagada.",
-          "url": "http://scp-pt-br.wikidot.com/scp-087",
+          "itemId": "scp-series-231",
+          "title": "Requisitos Pessoais Especiais",
+          "blurb": "Humanoide × Biológico — SCP-231-7 é uma █████ de sexo feminino entre █ e ██ anos de idade, com [DADOS EXPURGADOS].",
+          "url": "http://scp-pt-br.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "O que Aconteceu com o Sítio-13?",
-          "blurb": "Espacial — SCP-1730 é um grande complexo de estruturas, a anomalia está localizada a 15 km do noroeste da fronteira de EUA/México d…",
-          "url": "http://scp-pt-br.wikidot.com/scp-1730",
+          "itemId": "scp-series-2317",
+          "title": "Uma Porta para Outro Mundo",
+          "blurb": "Humanoide × Biológico — SCP-2317 é uma porta de madeira e armação originalmente construída como uma porta do porão para um condomínio de Massach…",
+          "url": "http://scp-pt-br.wikidot.com/scp-2317",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-pt-138",
-          "title": "Ovos Graúdos e Sapientes",
-          "blurb": "Espacial — SCP-138-PT-01 a -12 são ovos de galinha de tamanho e formato normal de cor branca e vermelha com total sapiência, tendo …",
-          "url": "http://scp-pt-br.wikidot.com/scp-138-pt",
+          "itemId": "scp-series-073",
+          "title": "\"Caim\"",
+          "blurb": "Humanoide × Biológico — SCP-073 aparenta ser um humano do sexo masculino bastante bronzeado, com descendência das regiões da Arábia ou do Orient…",
+          "url": "http://scp-pt-br.wikidot.com/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "As 12 Chaves Enferrujadas e a Porta",
-          "blurb": "Espacial — SCP-004 consiste em uma velha porta (SCP-004-1) e um conjunto de doze (12) chaves de aço enferrujadas (SCP-004-2 até SCP…",
-          "url": "http://scp-pt-br.wikidot.com/scp-004",
+          "itemId": "scp-series-053",
+          "title": "Jovem Garota",
+          "blurb": "Humanoide × Biológico — SCP-053 aparenta ser uma pequena garota de 3 anos.",
+          "url": "http://scp-pt-br.wikidot.com/scp-053",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3173,81 +3165,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefato",
-      "introduction": "Explore o tema «Artefato» e compare as semelhanças e diferenças entre estas anomalias.",
+      "title": "Humanoide × Senciente",
+      "introduction": "Explore o tema «Humanoide × Senciente» e compare as semelhanças e diferenças entre estas anomalias.",
       "articles": [
         {
-          "itemId": "scp-series-pt-196",
-          "title": "Luvas de Midas",
-          "blurb": "Artefato — SCP-196-PT é um par de luvas pretas, compostas majoritariamente por couro de origem bovina, possuindo leves camadas de u…",
-          "url": "http://scp-pt-br.wikidot.com/scp-196-pt",
+          "itemId": "scp-series-166",
+          "title": "Apenas uma Gaia Adolescente",
+          "blurb": "Humanoide × Senciente — SCP-166 é um ser humano do sexo feminino de nacionalidade europeia com menos de 20 anos com características de ungulado;…",
+          "url": "http://scp-pt-br.wikidot.com/scp-166",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-122",
-          "title": "Sangue",
-          "blurb": "Artefato — SCP-122-PT é a designação dada para um objeto anômalo composto de duas partes, a partir de agora denominadas SCP-122-PT-…",
-          "url": "http://scp-pt-br.wikidot.com/scp-122-pt",
+          "itemId": "scp-series-5031",
+          "title": "Só Mais Um Monstro Assassino",
+          "blurb": "Humanoide × Senciente — SCP-5031 é uma criatura não-sapiente quase-humanoide de origem desconhecida.",
+          "url": "http://scp-pt-br.wikidot.com/scp-5031",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-099",
-          "title": "Adaga de Obsidiana",
-          "blurb": "Artefato — SCP-099-PT é um lâmina de um metal negro desconhecido obsidiana extremamente afiada.",
-          "url": "http://scp-pt-br.wikidot.com/scp-099-pt",
+          "itemId": "scp-series-990",
+          "title": "O Homem Dentro dos Sonhos",
+          "blurb": "Humanoide × Senciente — SCP-990 geralmente se assemelha a um humano do sexo masculino vestido em um traje de negócios do período da Guerra Fria …",
+          "url": "http://scp-pt-br.wikidot.com/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-015",
-          "title": "Canhão Eletromagnético",
-          "blurb": "Artefato — SCP-015-PT é o protótipo de um canhão eletromagnético portátil de múltiplos estágios desenvolvido pela Superintendência …",
-          "url": "http://scp-pt-br.wikidot.com/scp-015-pt",
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Humanoide × Senciente — SCP-105 (anteriormente conhecida como Iris Thompson) é uma humana de sexo feminino de descendência europeia.",
+          "url": "http://scp-pt-br.wikidot.com/scp-105",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-109",
-          "title": "Cerebréx, seu cerébro on max!",
-          "blurb": "Artefato — Uma unidade de SCP-109-PT é pílula de peso aproximado de dez (10) gramas, de 0,3 cm de comprimento e 0,17 cm de diâmetro…",
-          "url": "http://scp-pt-br.wikidot.com/scp-109-pt",
+          "itemId": "scp-series-1440",
+          "title": "O Velho de Lugar Nenhum",
+          "blurb": "Humanoide × Senciente — SCP-1440 é um homem de etnia e idade desconhecida.",
+          "url": "http://scp-pt-br.wikidot.com/scp-1440",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-043",
-          "title": "O Jogador",
-          "blurb": "Artefato — SCP-043-PT é um aparelho eletrônico denominado Master System, série de eletrodomésticos produzidos pela empresa TecToy n…",
-          "url": "http://scp-pt-br.wikidot.com/scp-043-pt",
+          "itemId": "scp-series-082",
+          "title": "\"Fernand\" o Canibal",
+          "blurb": "Humanoide × Senciente — SCP-082 é geneticamente humano; contudo, através de algum processo desconhecido (seja químico, hormonal, canceroso ou so…",
+          "url": "http://scp-pt-br.wikidot.com/scp-082",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-019",
-          "title": "Prato de Porcelana",
-          "blurb": "Artefato — SCP-019-PT se assemelha a um grande prato branco de porcelana de 80 cm de diâmetro.",
-          "url": "http://scp-pt-br.wikidot.com/scp-019-pt",
+          "itemId": "scp-series-014",
+          "title": "O Homem de Concreto",
+          "blurb": "Humanoide × Senciente — SCP-014 é um caucasiano do sexo masculino, com a aparência de cerca de 30 anos de idade, cabelo preto, olhos castanhos e…",
+          "url": "http://scp-pt-br.wikidot.com/scp-014",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pt-137",
-          "title": "Lança de Longino",
-          "blurb": "Artefato — SCP-137-PT é uma lança de 150 cm de comprimento.",
-          "url": "http://scp-pt-br.wikidot.com/scp-137-pt",
+          "itemId": "scp-series-191",
+          "title": "Criança Ciborgue",
+          "blurb": "Humanoide × Senciente — SCP-191 é uma criança humana do sexo feminino, com aproximadamente █ anos de idade.",
+          "url": "http://scp-pt-br.wikidot.com/scp-191",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

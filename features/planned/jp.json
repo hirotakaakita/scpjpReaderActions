@@ -80,181 +80,102 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "「人間型 × 生物」の交差点",
-      "introduction": "「人間型 × 生物」を手がかりに、異常の共通点と違いを読み比べる特集です。",
+      "themeId": "spatial",
+      "title": "ここではない場所",
+      "coverImage": "features/images/spatial-v1.png",
+      "introduction": "一枚の扉、下り階段、いつもの建物。見慣れた入口の先に、地図にも間取り図にも収まらない場所がある。足を踏み入れる前に読んでおきたい、5つの報告書。",
       "articles": [
         {
-          "itemId": "scp-series-jp-094",
-          "title": "海洋人間",
-          "blurb": "人間型 × 生物 — SCP-094-JPは2█歳の平均的な日本人男性です。",
-          "url": "http://scp-jp.wikidot.com/scp-094-jp",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
+          "itemId": "scp-series-087",
+          "title": "吹き抜けた階段",
+          "blurb": "階下から、子どもの泣き声が聞こえる。降りても降りても、その声との距離だけが縮まらない。",
+          "url": "http://scp-jp.wikidot.com/scp-087",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-087/087face.jpg"
         },
         {
-          "itemId": "scp-series-jp-2973",
-          "title": "史上最強の能力を持つ者",
-          "blurb": "人間型 × 生物 — SCP-2973-JPは日本人男性である平山昇です。",
-          "url": "http://scp-jp.wikidot.com/scp-2973-jp",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
+          "itemId": "scp-series-004",
+          "title": "12の錆びた鍵と扉",
+          "blurb": "古びた扉と、12本の錆びた鍵。どれで開けるかによって、同じ扉の向こうが同じ場所とは限らない。",
+          "url": "http://scp-jp.wikidot.com/scp-004",
+          "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:8637139-2-ujd8/SCP004_door-new.jpg"
         },
         {
-          "itemId": "scp-series-jp-818",
-          "title": "えらいねぇ～",
-          "blurb": "人間型 × 生物 — SCP-818-JPは佐賀県█山に存在する50平方メートルの空き地内で発生する異常現象です。",
-          "url": "http://scp-jp.wikidot.com/scp-818-jp",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
+          "itemId": "scp-series-184",
+          "title": "建築家",
+          "blurb": "建物の外から見れば、何も変わらない。でも中では、昨日までなかった部屋が増えていく。",
+          "url": "http://scp-jp.wikidot.com/scp-184",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-184/dodecahedron.jpg"
         },
         {
-          "itemId": "scp-series-096",
-          "title": "\"シャイガイ\"",
-          "blurb": "人間型 × 生物 — SCP-096は人型の生物で身長がおよそ2.",
-          "url": "http://scp-jp.wikidot.com/scp-096",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
+          "itemId": "scp-series-860",
+          "title": "青い鍵",
+          "blurb": "青い鍵で開けた扉の先は、あるはずのない森だった。帰り道を探す頃には、背後の扉が閉まっている。",
+          "url": "http://scp-jp.wikidot.com/scp-860",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-860/bluekey2.png"
         },
         {
-          "itemId": "scp-series-jp-020",
-          "title": "翼人",
-          "blurb": "人間型 × 生物 — SCP-020-JPの外見の大部分は人間の少女に酷似していますが、一番の特徴として、両腕が鳥類の翼状になっていることが挙げられます。",
-          "url": "http://scp-jp.wikidot.com/scp-020-jp",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-2317",
-          "title": "異世界への扉",
-          "blurb": "人間型 × 生物 — SCP-2317は元はマサチューセッツ州の19世紀の高級住宅1向け地下室用ドアとして作られた木製のドアとその枠です。",
-          "url": "http://scp-jp.wikidot.com/scp-2317",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-076",
-          "title": "\"アベル\"",
-          "blurb": "人間型 × 生物 — SCP-076は2つの構成要素から成り立ちます。",
-          "url": "http://scp-jp.wikidot.com/scp-076",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-5031",
-          "title": "ありきたりな殺人モンスター",
-          "blurb": "人間型 × 生物 — SCP-5031は起源不詳の非知性的な準ヒト型生物です。",
-          "url": "http://scp-jp.wikidot.com/scp-5031",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
+          "itemId": "scp-series-015",
+          "title": "悪夢のパイプ",
+          "blurb": "廃工場の中を埋め尽くす、絡まり合った配管。誰も見ていないあいだに、その迷路はさらに広がっていく。",
+          "url": "http://scp-jp.wikidot.com/scp-015",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-015/SCP-015New.jpg"
         }
-      ]
+      ],
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "editorialVersion": 1
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
-      "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "「人間型 × 知性」の交差点",
-      "introduction": "「人間型 × 知性」を手がかりに、異常の共通点と違いを読み比べる特集です。",
+      "themeId": "artifact",
+      "title": "使ってはいけない日用品",
+      "coverImage": "features/images/everyday-v1.png",
+      "introduction": "開く、飲む、鳴らす、身につける。何でもないはずの動作が、いつもの日常へ戻れなくなる入口になる。手を伸ばす前に立ち止まりたい、6つの報告書。",
       "articles": [
         {
-          "itemId": "scp-series-jp-999",
-          "title": "I am No.9",
-          "blurb": "人間型 × 知性 — SCP-999-JPはモンゴロイド系の人型男性です。",
-          "url": "http://scp-jp.wikidot.com/scp-999-jp",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
+          "itemId": "scp-series-294",
+          "title": "コーヒー自動販売機",
+          "blurb": "コーヒーを買うつもりで、文字を打ち込む。けれど、その自販機が注げるものは飲み物だけではない。",
+          "url": "http://scp-jp.wikidot.com/scp-294",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-294/scp_294_by_staticfactory-d4xwn6e.jpg"
         },
         {
-          "itemId": "scp-series-jp-4001",
-          "title": "ざこざこ同位体♡短小半減期♡",
-          "blurb": "人間型 × 知性 — SCP-4001-JPは、放射線の研究施設である[削除済]研究所に存在するタブレット端末です。",
-          "url": "http://scp-jp.wikidot.com/scp-4001-jp",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
+          "itemId": "scp-series-1025",
+          "title": "病気百科事典",
+          "blurb": "病気について調べるために開いた本。そのページの内容が、知識だけで済まなくなる。",
+          "url": "http://scp-jp.wikidot.com/scp-1025",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-1025/scp-1025-new.jpg"
         },
         {
-          "itemId": "scp-series-jp-036",
-          "title": "Shock in 会議",
-          "blurb": "人間型 × 知性 — SCP-036-JPは廃校となった███県███市立███中学校の職員室と、そこに発生する複数の人型の実体です。",
-          "url": "http://scp-jp.wikidot.com/scp-036-jp",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
+          "itemId": "scp-series-207",
+          "title": "瓶コーラ",
+          "blurb": "飲めば眠気も疲れも消えていくコーラ。でも、体まで休まなくてよくなったわけではない。",
+          "url": "http://scp-jp.wikidot.com/scp-207",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-207/SCP207.jpg"
         },
         {
-          "itemId": "scp-series-jp-022",
-          "title": "すてきなせんせい",
-          "blurb": "人間型 × 知性 — SCP-022-JPは人型のオブジェクトで、頭部が書籍で構成されています。",
-          "url": "http://scp-jp.wikidot.com/scp-022-jp",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
+          "itemId": "scp-series-513",
+          "title": "カウベル",
+          "blurb": "ただ一度、錆びたベルを鳴らしただけ。それから、視界の端に何かがいる。",
+          "url": "http://scp-jp.wikidot.com/scp-513",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-513/Cowbell.JPG"
         },
         {
-          "itemId": "scp-series-2662",
-          "title": "くとぅるふ　ふっざけんな！",
-          "blurb": "人間型 × 知性 — SCP-2662は身長約4m、体重200kgの認識災害的な実体です。",
-          "url": "http://scp-jp.wikidot.com/scp-2662",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
+          "itemId": "scp-series-018",
+          "title": "スーパーボール",
+          "blurb": "子どものおもちゃに見える赤いボール。なぜか、跳ねるたびに勢いを増していく。",
+          "url": "http://scp-jp.wikidot.com/scp-018",
+          "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:5384396-133-j3s5/superball.jpg"
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "ビッグフット",
-          "blurb": "人間型 × 知性 — SCP-1000は夜行性の雑食性類人猿で、チンパンジー属 (Pan) やヒト属 (Homo) と共にヒト族 (Hominini) に分類されています。",
-          "url": "http://scp-jp.wikidot.com/scp-1000",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-jp-2601",
-          "title": "わたしとやよいちゃんとみゆきちゃんと",
-          "blurb": "人間型 × 知性 — SCP-2601-JPはコクヨ社のキャンパスノートの、破られた1ページに存在する創作内構造の総称です。",
-          "url": "http://scp-jp.wikidot.com/scp-2601-jp",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-049",
-          "title": "ペスト医師",
-          "blurb": "人間型 × 知性 — SCP-049は人型の実体で身長は約1.",
-          "url": "http://scp-jp.wikidot.com/scp-049",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
+          "itemId": "scp-series-035",
+          "title": "取り憑くマスク",
+          "blurb": "どこにでもありそうな舞台用の仮面。見つめているうちに、かぶってみたいという気持ちが自分のものかわからなくなる。",
+          "url": "http://scp-jp.wikidot.com/scp-035",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-035/scp--035--002-new.gif"
         }
-      ]
+      ],
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "editorialVersion": 1
     },
     {
       "id": "weekly-004",
@@ -695,81 +616,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "ありえない空間",
-      "introduction": "「空間」を手がかりに、異常の共通点と違いを読み比べる特集です。",
+      "title": "「人間型 × 生物」の交差点",
+      "introduction": "「人間型 × 生物」を手がかりに、異常の共通点と違いを読み比べる特集です。",
       "articles": [
         {
-          "itemId": "scp-series-3001",
-          "title": "レッド・リアリティ",
-          "blurb": "空間 — SCP-3001は、瞬間的なクラス-C\"ブロークン・エントリー\"ワームホール1の生成を通じてアクセス可能な逆説的な並行/ポケット\"非次元\"です。",
-          "url": "http://scp-jp.wikidot.com/scp-3001",
+          "itemId": "scp-series-jp-094",
+          "title": "海洋人間",
+          "blurb": "人間型 × 生物 — SCP-094-JPは2█歳の平均的な日本人男性です。",
+          "url": "http://scp-jp.wikidot.com/scp-094-jp",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-jp-2040",
-          "title": "ようこそ未来へ",
-          "blurb": "空間 — SCP-2040-JPは███県立███中学校を中心に発生した時空間異常です。",
-          "url": "http://scp-jp.wikidot.com/scp-2040-jp",
+          "itemId": "scp-series-jp-2973",
+          "title": "史上最強の能力を持つ者",
+          "blurb": "人間型 × 生物 — SCP-2973-JPは日本人男性である平山昇です。",
+          "url": "http://scp-jp.wikidot.com/scp-2973-jp",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-jp-009",
-          "title": "閏秒",
-          "blurb": "空間 — SCP-009-JPは、世界中の時計に不定期に発生する異常です。",
-          "url": "http://scp-jp.wikidot.com/scp-009-jp",
+          "itemId": "scp-series-jp-818",
+          "title": "えらいねぇ～",
+          "blurb": "人間型 × 生物 — SCP-818-JPは佐賀県█山に存在する50平方メートルの空き地内で発生する異常現象です。",
+          "url": "http://scp-jp.wikidot.com/scp-818-jp",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-jp-1690",
-          "title": "犭貪トンあるいはウロボロス",
-          "blurb": "空間 — SCP-1690-JPはヘルクレス座・かんむり座グレートウォールで確認されている銀河の消失現象です。",
-          "url": "http://scp-jp.wikidot.com/scp-1690-jp",
+          "itemId": "scp-series-096",
+          "title": "\"シャイガイ\"",
+          "blurb": "人間型 × 生物 — SCP-096は人型の生物で身長がおよそ2.",
+          "url": "http://scp-jp.wikidot.com/scp-096",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-jp-065",
-          "title": "きょうからぼくはそうり大じん All We Need Is Dominator",
-          "blurb": "空間 — SCP-065-JPは東京都██区の民家の二階に存在する扉から侵入することが可能な異常次元です。",
-          "url": "http://scp-jp.wikidot.com/scp-065-jp",
+          "itemId": "scp-series-jp-020",
+          "title": "翼人",
+          "blurb": "人間型 × 生物 — SCP-020-JPの外見の大部分は人間の少女に酷似していますが、一番の特徴として、両腕が鳥類の翼状になっていることが挙げられます。",
+          "url": "http://scp-jp.wikidot.com/scp-020-jp",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "サイト-13に何が起こったか？",
-          "blurb": "空間 — SCP-1730はビッグベンドランチ州立公園（Big Bend Ranch State Park）内、合衆国とメキシコの国境から北西に15キロメートルの位置にある大規模な複合施設で、████年6月5日に発見されたものです。",
-          "url": "http://scp-jp.wikidot.com/scp-1730",
+          "itemId": "scp-series-2317",
+          "title": "異世界への扉",
+          "blurb": "人間型 × 生物 — SCP-2317は元はマサチューセッツ州の19世紀の高級住宅1向け地下室用ドアとして作られた木製のドアとその枠です。",
+          "url": "http://scp-jp.wikidot.com/scp-2317",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-jp-1941",
-          "title": "その時歴史が動かなかったら",
-          "blurb": "空間 — SCP-1941-JPは9つの構成要素が連結された機構です。",
-          "url": "http://scp-jp.wikidot.com/scp-1941-jp",
+          "itemId": "scp-series-076",
+          "title": "\"アベル\"",
+          "blurb": "人間型 × 生物 — SCP-076は2つの構成要素から成り立ちます。",
+          "url": "http://scp-jp.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-jp-1280",
-          "title": "ヒュームの穴",
-          "blurb": "空間 — SCP-1280-JPは東経13█°██'██\"、北緯3█°██'██\"に位置する、直径1.",
-          "url": "http://scp-jp.wikidot.com/scp-1280-jp",
+          "itemId": "scp-series-5031",
+          "title": "ありきたりな殺人モンスター",
+          "blurb": "人間型 × 生物 — SCP-5031は起源不詳の非知性的な準ヒト型生物です。",
+          "url": "http://scp-jp.wikidot.com/scp-5031",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3407,81 +3336,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "日常の道具、その異常",
-      "introduction": "「物品」を手がかりに、異常の共通点と違いを読み比べる特集です。",
+      "title": "「人間型 × 知性」の交差点",
+      "introduction": "「人間型 × 知性」を手がかりに、異常の共通点と違いを読み比べる特集です。",
       "articles": [
         {
-          "itemId": "scp-series-jp-1045",
-          "title": "お眼鏡にはかなわない",
-          "blurb": "物品 — 7のフレームが黒い眼鏡を掛けた女性です。",
-          "url": "http://scp-jp.wikidot.com/scp-1045-jp",
+          "itemId": "scp-series-jp-999",
+          "title": "I am No.9",
+          "blurb": "人間型 × 知性 — SCP-999-JPはモンゴロイド系の人型男性です。",
+          "url": "http://scp-jp.wikidot.com/scp-999-jp",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-1706",
-          "title": "叩けば直してあげられる",
-          "blurb": "物品 — SCP-1706-JPは全長318mm、頭径22.",
-          "url": "http://scp-jp.wikidot.com/scp-1706-jp",
+          "itemId": "scp-series-jp-4001",
+          "title": "ざこざこ同位体♡短小半減期♡",
+          "blurb": "人間型 × 知性 — SCP-4001-JPは、放射線の研究施設である[削除済]研究所に存在するタブレット端末です。",
+          "url": "http://scp-jp.wikidot.com/scp-4001-jp",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-439",
-          "title": "ホームラン量産法",
-          "blurb": "物品 — SCP-439-JPは現在、野球のみで確認される、打者が一連の動作（以下SCP-439-JP-a）を行った後にボールを打つと発生する現象です。",
-          "url": "http://scp-jp.wikidot.com/scp-439-jp",
+          "itemId": "scp-series-jp-036",
+          "title": "Shock in 会議",
+          "blurb": "人間型 × 知性 — SCP-036-JPは廃校となった███県███市立███中学校の職員室と、そこに発生する複数の人型の実体です。",
+          "url": "http://scp-jp.wikidot.com/scp-036-jp",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-183",
-          "title": "繁栄の街灯",
-          "blurb": "物品 — SCP-183-JPはオブジェクトより発される光を浴びた人間に対し、複数の異常性を発現させる街路灯です。",
-          "url": "http://scp-jp.wikidot.com/scp-183-jp",
+          "itemId": "scp-series-jp-022",
+          "title": "すてきなせんせい",
+          "blurb": "人間型 × 知性 — SCP-022-JPは人型のオブジェクトで、頭部が書籍で構成されています。",
+          "url": "http://scp-jp.wikidot.com/scp-022-jp",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-004",
-          "title": "矛盾なき電卓",
-          "blurb": "物品 — SCP-004-JPは重さ380g、大きさ196 x 95 x 20mmの多機能電卓です。",
-          "url": "http://scp-jp.wikidot.com/scp-004-jp",
+          "itemId": "scp-series-2662",
+          "title": "くとぅるふ　ふっざけんな！",
+          "blurb": "人間型 × 知性 — SCP-2662は身長約4m、体重200kgの認識災害的な実体です。",
+          "url": "http://scp-jp.wikidot.com/scp-2662",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-1654",
-          "title": "全米が泣いたし俺も泣いた",
-          "blurb": "物品 — SCP-1654-JPは直径約10cmのタマネギ(Allium cepa)です。",
-          "url": "http://scp-jp.wikidot.com/scp-1654-jp",
+          "itemId": "scp-series-1000",
+          "title": "ビッグフット",
+          "blurb": "人間型 × 知性 — SCP-1000は夜行性の雑食性類人猿で、チンパンジー属 (Pan) やヒト属 (Homo) と共にヒト族 (Hominini) に分類されています。",
+          "url": "http://scp-jp.wikidot.com/scp-1000",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-1153",
-          "title": "一人去るとき",
-          "blurb": "物品 — SCP-1153-JPは、現在ポイント██・██・██の日本海溝深部に存在する使途不明の装置です。",
-          "url": "http://scp-jp.wikidot.com/scp-1153-jp",
+          "itemId": "scp-series-jp-2601",
+          "title": "わたしとやよいちゃんとみゆきちゃんと",
+          "blurb": "人間型 × 知性 — SCP-2601-JPはコクヨ社のキャンパスノートの、破られた1ページに存在する創作内構造の総称です。",
+          "url": "http://scp-jp.wikidot.com/scp-2601-jp",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-jp-248",
-          "title": "アンチマヨネーゼ！",
-          "blurb": "物品 — SCP-248-JP-1は「アンチマヨネーゼ！",
-          "url": "http://scp-jp.wikidot.com/scp-248-jp",
+          "itemId": "scp-series-049",
+          "title": "ペスト医師",
+          "blurb": "人間型 × 知性 — SCP-049は人型の実体で身長は約1.",
+          "url": "http://scp-jp.wikidot.com/scp-049",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

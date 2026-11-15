@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "İnsansı × Biyoloji",
-      "introduction": "“İnsansı × Biyoloji” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
+      "title": "Uzay",
+      "introduction": "“Uzay” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
       "articles": [
         {
-          "itemId": "scp-series-073",
-          "title": "\"Kabil\"",
-          "blurb": "İnsansı × Biyoloji — SCP-073 görünüşte koyu-tenli, Orta Doğu veya Arap asıllı, otuzlu yaşlarında bir adamdır.",
-          "url": "https://scpvakfi.wikidot.com/scp-073",
+          "itemId": "scp-series-087",
+          "title": "Merdiven Boşluğu",
+          "blurb": "Uzay — SCP-087 karanlık bir merdivendir.",
+          "url": "https://scpvakfi.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-527",
-          "title": "Bay Balık",
-          "blurb": "İnsansı × Biyoloji — SCP-527, Puntius semifasciolatus, diğer adıyla Altın Barb balığına ait bir başa sahip olması dışında herhangi biyolojik …",
-          "url": "https://scpvakfi.wikidot.com/scp-527",
+          "itemId": "scp-series-1730",
+          "title": "Site-13'e ne oldu?",
+          "blurb": "Uzay — SCP-1730, 05/06/████ tarihinde ABD-Meksika sınırının 15km kuzeybatısında Big Bend Ranch Eyalet Parkı sınırları içerisind…",
+          "url": "https://scpvakfi.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Kocaayak",
-          "blurb": "İnsansı × Biyoloji — SCP-1000, Pan ve Homo cinsleriyle birlikte Hominini dalında sınıflandırılan, gece yaşayan, hepçil bir maymundur.",
-          "url": "https://scpvakfi.wikidot.com/scp-1000",
+          "itemId": "scp-series-354",
+          "title": "Kan Havuzu",
+          "blurb": "Uzay — SCP-354, kuzey Kanada'da bulunan kırmızı sıvı ile dolu bir gölettir.",
+          "url": "https://scpvakfi.wikidot.com/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Özel Personel Gerekliliği",
-          "blurb": "İnsansı × Biyoloji — SCP-231-7 █ ve ██ yaşları arasında olan █████ ve [BİLGİ ÇIKARILDI]'ya sahip olan bir kadındır.",
-          "url": "https://scpvakfi.wikidot.com/scp-231",
+          "itemId": "scp-series-004",
+          "title": "12 Paslı Anahtar ve Kapı",
+          "blurb": "Uzay — SCP-004 eski ahşap bir ahır kapısıdır (SCP-004-1) ve on iki paslanmış çelik anahtardan (SCP-004-2 - SCP-004-13) oluşur.",
+          "url": "https://scpvakfi.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-053",
-          "title": "Genç Kız",
-          "blurb": "İnsansı × Biyoloji — SCP-053, 3 yaşında küçük bir kız gibi dış görüntüye sahiptir.",
-          "url": "https://scpvakfi.wikidot.com/scp-053",
+          "itemId": "scp-series-970",
+          "title": "The Recursive Room",
+          "blurb": "Uzay — SCP-970, odaların birbirini devamlı tekrar ettiği boyutsal bir anormalliktir.",
+          "url": "https://scpvakfi.wikidot.com/scp-970",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1440",
-          "title": "The Old Man from Nowhere",
-          "blurb": "İnsansı × Biyoloji — SCP-1440, etnik kökeni ve yaşı bilinmeyen bir adamdır.",
-          "url": "https://scpvakfi.wikidot.com/scp-1440",
+          "itemId": "scp-series-123",
+          "title": "Kapsanan Minyatür Kara Delik",
+          "blurb": "Uzay — SCP-123, 65 cm çapında gri renkli, jeodezik yapıda bir küredir ve altmış üçgen parçadan oluşur.",
+          "url": "https://scpvakfi.wikidot.com/scp-123",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-644",
-          "title": "Mr. Hot",
-          "blurb": "İnsansı × Biyoloji — SCP-644, İtalya doğumlu, erkek bir insansıdır.",
-          "url": "https://scpvakfi.wikidot.com/scp-644",
+          "itemId": "scp-series-455",
+          "title": "Kargo Gemisi",
+          "blurb": "Uzay — SCP-455, Şili'nin güneydoğu sahilinde karaya oturmuş bir kargo gemisidir.",
+          "url": "https://scpvakfi.wikidot.com/scp-455",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-070",
-          "title": "Demir Kanatlar",
-          "blurb": "İnsansı × Biyoloji — SCP-070, sırtından çıkan bir çift paslı metal \"kanat\" dışında normal bir görünüme sahip bir kızıl derili asıllı erkeğe b…",
-          "url": "https://scpvakfi.wikidot.com/scp-070",
+          "itemId": "scp-series-1753",
+          "title": "Vertigo",
+          "blurb": "Uzay — SCP-1753, Yosemite Ulusal Parkı'ndaki El Capitan kaya oluşumunun 75 cm x 100 cm'lik bir yağlı boya tablosudur.",
+          "url": "https://scpvakfi.wikidot.com/scp-1753",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "İnsansı × Zekâ",
-      "introduction": "“İnsansı × Zekâ” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
+      "title": "Nesneler",
+      "introduction": "“Nesneler” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
       "articles": [
         {
-          "itemId": "scp-series-990",
-          "title": "Rüya Adam",
-          "blurb": "İnsansı × Zekâ — SCP-990 genellikle Soğuk Savaş dönemine ait bir takım elbise giymiş şekilde, Vakıf personelinin rüyalarında görünen, cin…",
-          "url": "https://scpvakfi.wikidot.com/scp-990",
+          "itemId": "scp-series-895",
+          "title": "Kamera Bozukluğu",
+          "blurb": "Nesneler — SCP-895, █████ █████ Morgundan SCP Personeli tarafından ██/█/██ tarihinde Morgu gözlemleyen kameralardaki sıradışı görün…",
+          "url": "https://scpvakfi.wikidot.com/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-014",
-          "title": "Beton Adam",
-          "blurb": "İnsansı × Zekâ — SCP-014 yaklaşık 30 yaşında görünen, siyah saçlı, kahverengi gözlü ve kısmen yuvarlak yüzlü bir Kafkas erkeğidir.",
-          "url": "https://scpvakfi.wikidot.com/scp-014",
+          "itemId": "scp-series-500",
+          "title": "Her Derde Deva İlaç",
+          "blurb": "Nesneler — SCP-500, an itibariyle kırk yedi (47) kırmızı hap içeren küçük, plastik bir kutudur.",
+          "url": "https://scpvakfi.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-011",
-          "title": "Duyarlı İç Savaş Anıt Heykeli",
-          "blurb": "İnsansı × Zekâ — SCP-011, Woodstock, Vermont'ta bulunan bir iç savaş anıt heykelidir.",
-          "url": "https://scpvakfi.wikidot.com/scp-011",
+          "itemId": "scp-series-093",
+          "title": "Kızıldeniz Nesnesi",
+          "blurb": "Nesneler — SCP-093 temel olarak her tarafında 0.",
+          "url": "https://scpvakfi.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-085",
-          "title": "Elle-Çizilmiş ''Cassy''",
-          "blurb": "İnsansı × Zekâ — SCP-085, SCP-067 ile SCP-914 arasında yapılan bir deneyin sonucunda ortaya çıkmıştır.",
-          "url": "https://scpvakfi.wikidot.com/scp-085",
+          "itemId": "scp-series-063",
+          "title": "\"Dünyanın En İyi Dş Fırçası\"",
+          "blurb": "Nesneler — SCP-063 sıradan, soluk mavi bir diş fırçası gibi görünür.",
+          "url": "https://scpvakfi.wikidot.com/scp-063",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-082",
-          "title": "Yamyam \"Fernand\"",
-          "blurb": "İnsansı × Zekâ — SCP-082 genetik olarak insandır; ancak, kimyasal, hormonal, kanserli veya doğaüstü süreçler sonucunda devasa boyutlara u…",
-          "url": "https://scpvakfi.wikidot.com/scp-082",
+          "itemId": "scp-series-361",
+          "title": "Bronz Karaciğer",
+          "blurb": "Nesneler — SCP-361; bronzdan yapılmış, koyun ciğeri şeklinde bir Etrüsk eserdir.",
+          "url": "https://scpvakfi.wikidot.com/scp-361",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-179",
-          "title": "Sauelsuesor",
-          "blurb": "İnsansı × Zekâ — SCP-179, güneş fotosferinin Güney kutup bölgesinden yaklaşık 40.",
-          "url": "https://scpvakfi.wikidot.com/scp-179",
+          "itemId": "scp-series-101",
+          "title": "Aç Çanta",
+          "blurb": "Nesneler — SCP-101, değişken büyüklüğe sahip bir çantadır.",
+          "url": "https://scpvakfi.wikidot.com/scp-101",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-122",
-          "title": "Artık Canavarlar Yok",
-          "blurb": "İnsansı × Zekâ — SCP-122 Kayan yıldız tasarımında bir çocuk gece lambasıdır.",
-          "url": "https://scpvakfi.wikidot.com/scp-122",
+          "itemId": "scp-series-034",
+          "title": "Obsidiyen Ayin Bıçağı",
+          "blurb": "Nesneler — SCP-034, saf obsidiyenden yapılmış, ilkel bir bıçaktır.",
+          "url": "https://scpvakfi.wikidot.com/scp-034",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-662",
-          "title": "Butler's Hand Bell",
-          "blurb": "İnsansı × Zekâ — SCP-662, 4 cm uzunluğunda, daire çevresi 2 cm olan küçük, gümüş bir zildir.",
-          "url": "https://scpvakfi.wikidot.com/scp-662",
+          "itemId": "scp-series-860",
+          "title": "Blue Key",
+          "blurb": "Nesneler — SCP-860, lacivert renkte bir anahtardır.",
+          "url": "https://scpvakfi.wikidot.com/scp-860",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Uzay",
-      "introduction": "“Uzay” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
+      "title": "İnsansı × Biyoloji",
+      "introduction": "“İnsansı × Biyoloji” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
       "articles": [
         {
-          "itemId": "scp-series-087",
-          "title": "Merdiven Boşluğu",
-          "blurb": "Uzay — SCP-087 karanlık bir merdivendir.",
-          "url": "https://scpvakfi.wikidot.com/scp-087",
+          "itemId": "scp-series-073",
+          "title": "\"Kabil\"",
+          "blurb": "İnsansı × Biyoloji — SCP-073 görünüşte koyu-tenli, Orta Doğu veya Arap asıllı, otuzlu yaşlarında bir adamdır.",
+          "url": "https://scpvakfi.wikidot.com/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "Site-13'e ne oldu?",
-          "blurb": "Uzay — SCP-1730, 05/06/████ tarihinde ABD-Meksika sınırının 15km kuzeybatısında Big Bend Ranch Eyalet Parkı sınırları içerisind…",
-          "url": "https://scpvakfi.wikidot.com/scp-1730",
+          "itemId": "scp-series-527",
+          "title": "Bay Balık",
+          "blurb": "İnsansı × Biyoloji — SCP-527, Puntius semifasciolatus, diğer adıyla Altın Barb balığına ait bir başa sahip olması dışında herhangi biyolojik …",
+          "url": "https://scpvakfi.wikidot.com/scp-527",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "Kan Havuzu",
-          "blurb": "Uzay — SCP-354, kuzey Kanada'da bulunan kırmızı sıvı ile dolu bir gölettir.",
-          "url": "https://scpvakfi.wikidot.com/scp-354",
+          "itemId": "scp-series-1000",
+          "title": "Kocaayak",
+          "blurb": "İnsansı × Biyoloji — SCP-1000, Pan ve Homo cinsleriyle birlikte Hominini dalında sınıflandırılan, gece yaşayan, hepçil bir maymundur.",
+          "url": "https://scpvakfi.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "12 Paslı Anahtar ve Kapı",
-          "blurb": "Uzay — SCP-004 eski ahşap bir ahır kapısıdır (SCP-004-1) ve on iki paslanmış çelik anahtardan (SCP-004-2 - SCP-004-13) oluşur.",
-          "url": "https://scpvakfi.wikidot.com/scp-004",
+          "itemId": "scp-series-231",
+          "title": "Özel Personel Gerekliliği",
+          "blurb": "İnsansı × Biyoloji — SCP-231-7 █ ve ██ yaşları arasında olan █████ ve [BİLGİ ÇIKARILDI]'ya sahip olan bir kadındır.",
+          "url": "https://scpvakfi.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-970",
-          "title": "The Recursive Room",
-          "blurb": "Uzay — SCP-970, odaların birbirini devamlı tekrar ettiği boyutsal bir anormalliktir.",
-          "url": "https://scpvakfi.wikidot.com/scp-970",
+          "itemId": "scp-series-053",
+          "title": "Genç Kız",
+          "blurb": "İnsansı × Biyoloji — SCP-053, 3 yaşında küçük bir kız gibi dış görüntüye sahiptir.",
+          "url": "https://scpvakfi.wikidot.com/scp-053",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-123",
-          "title": "Kapsanan Minyatür Kara Delik",
-          "blurb": "Uzay — SCP-123, 65 cm çapında gri renkli, jeodezik yapıda bir küredir ve altmış üçgen parçadan oluşur.",
-          "url": "https://scpvakfi.wikidot.com/scp-123",
+          "itemId": "scp-series-1440",
+          "title": "The Old Man from Nowhere",
+          "blurb": "İnsansı × Biyoloji — SCP-1440, etnik kökeni ve yaşı bilinmeyen bir adamdır.",
+          "url": "https://scpvakfi.wikidot.com/scp-1440",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-455",
-          "title": "Kargo Gemisi",
-          "blurb": "Uzay — SCP-455, Şili'nin güneydoğu sahilinde karaya oturmuş bir kargo gemisidir.",
-          "url": "https://scpvakfi.wikidot.com/scp-455",
+          "itemId": "scp-series-644",
+          "title": "Mr. Hot",
+          "blurb": "İnsansı × Biyoloji — SCP-644, İtalya doğumlu, erkek bir insansıdır.",
+          "url": "https://scpvakfi.wikidot.com/scp-644",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1753",
-          "title": "Vertigo",
-          "blurb": "Uzay — SCP-1753, Yosemite Ulusal Parkı'ndaki El Capitan kaya oluşumunun 75 cm x 100 cm'lik bir yağlı boya tablosudur.",
-          "url": "https://scpvakfi.wikidot.com/scp-1753",
+          "itemId": "scp-series-070",
+          "title": "Demir Kanatlar",
+          "blurb": "İnsansı × Biyoloji — SCP-070, sırtından çıkan bir çift paslı metal \"kanat\" dışında normal bir görünüme sahip bir kızıl derili asıllı erkeğe b…",
+          "url": "https://scpvakfi.wikidot.com/scp-070",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -2402,81 +2394,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Nesneler",
-      "introduction": "“Nesneler” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
+      "title": "İnsansı × Zekâ",
+      "introduction": "“İnsansı × Zekâ” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
       "articles": [
         {
-          "itemId": "scp-series-895",
-          "title": "Kamera Bozukluğu",
-          "blurb": "Nesneler — SCP-895, █████ █████ Morgundan SCP Personeli tarafından ██/█/██ tarihinde Morgu gözlemleyen kameralardaki sıradışı görün…",
-          "url": "https://scpvakfi.wikidot.com/scp-895",
+          "itemId": "scp-series-990",
+          "title": "Rüya Adam",
+          "blurb": "İnsansı × Zekâ — SCP-990 genellikle Soğuk Savaş dönemine ait bir takım elbise giymiş şekilde, Vakıf personelinin rüyalarında görünen, cin…",
+          "url": "https://scpvakfi.wikidot.com/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "Her Derde Deva İlaç",
-          "blurb": "Nesneler — SCP-500, an itibariyle kırk yedi (47) kırmızı hap içeren küçük, plastik bir kutudur.",
-          "url": "https://scpvakfi.wikidot.com/scp-500",
+          "itemId": "scp-series-014",
+          "title": "Beton Adam",
+          "blurb": "İnsansı × Zekâ — SCP-014 yaklaşık 30 yaşında görünen, siyah saçlı, kahverengi gözlü ve kısmen yuvarlak yüzlü bir Kafkas erkeğidir.",
+          "url": "https://scpvakfi.wikidot.com/scp-014",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Kızıldeniz Nesnesi",
-          "blurb": "Nesneler — SCP-093 temel olarak her tarafında 0.",
-          "url": "https://scpvakfi.wikidot.com/scp-093",
+          "itemId": "scp-series-011",
+          "title": "Duyarlı İç Savaş Anıt Heykeli",
+          "blurb": "İnsansı × Zekâ — SCP-011, Woodstock, Vermont'ta bulunan bir iç savaş anıt heykelidir.",
+          "url": "https://scpvakfi.wikidot.com/scp-011",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-063",
-          "title": "\"Dünyanın En İyi Dş Fırçası\"",
-          "blurb": "Nesneler — SCP-063 sıradan, soluk mavi bir diş fırçası gibi görünür.",
-          "url": "https://scpvakfi.wikidot.com/scp-063",
+          "itemId": "scp-series-085",
+          "title": "Elle-Çizilmiş ''Cassy''",
+          "blurb": "İnsansı × Zekâ — SCP-085, SCP-067 ile SCP-914 arasında yapılan bir deneyin sonucunda ortaya çıkmıştır.",
+          "url": "https://scpvakfi.wikidot.com/scp-085",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-361",
-          "title": "Bronz Karaciğer",
-          "blurb": "Nesneler — SCP-361; bronzdan yapılmış, koyun ciğeri şeklinde bir Etrüsk eserdir.",
-          "url": "https://scpvakfi.wikidot.com/scp-361",
+          "itemId": "scp-series-082",
+          "title": "Yamyam \"Fernand\"",
+          "blurb": "İnsansı × Zekâ — SCP-082 genetik olarak insandır; ancak, kimyasal, hormonal, kanserli veya doğaüstü süreçler sonucunda devasa boyutlara u…",
+          "url": "https://scpvakfi.wikidot.com/scp-082",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-101",
-          "title": "Aç Çanta",
-          "blurb": "Nesneler — SCP-101, değişken büyüklüğe sahip bir çantadır.",
-          "url": "https://scpvakfi.wikidot.com/scp-101",
+          "itemId": "scp-series-179",
+          "title": "Sauelsuesor",
+          "blurb": "İnsansı × Zekâ — SCP-179, güneş fotosferinin Güney kutup bölgesinden yaklaşık 40.",
+          "url": "https://scpvakfi.wikidot.com/scp-179",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-034",
-          "title": "Obsidiyen Ayin Bıçağı",
-          "blurb": "Nesneler — SCP-034, saf obsidiyenden yapılmış, ilkel bir bıçaktır.",
-          "url": "https://scpvakfi.wikidot.com/scp-034",
+          "itemId": "scp-series-122",
+          "title": "Artık Canavarlar Yok",
+          "blurb": "İnsansı × Zekâ — SCP-122 Kayan yıldız tasarımında bir çocuk gece lambasıdır.",
+          "url": "https://scpvakfi.wikidot.com/scp-122",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-860",
-          "title": "Blue Key",
-          "blurb": "Nesneler — SCP-860, lacivert renkte bir anahtardır.",
-          "url": "https://scpvakfi.wikidot.com/scp-860",
+          "itemId": "scp-series-662",
+          "title": "Butler's Hand Bell",
+          "blurb": "İnsansı × Zekâ — SCP-662, 4 cm uzunluğunda, daire çevresi 2 cm olan küçük, gümüş bir zildir.",
+          "url": "https://scpvakfi.wikidot.com/scp-662",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

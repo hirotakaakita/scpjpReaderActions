@@ -88,169 +88,64 @@
       ]
     },
     {
-      "id": "weekly-002",
-      "themeId": "humanoid-biological",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoid × Biological",
-      "introduction": "Explore Humanoid × Biological: compare what these SCPs have in common and how their anomalies differ.",
-      "articles": [
-        {
-          "itemId": "scp-series-966",
-          "title": "Eepslay Illerkay",
-          "blurb": "Humanoid × Biological — SCP-966 areyay edatorypray eaturescray atthay esembleray airlesshay, igitigradeday umanshay, ossessingpay anyay elongate…",
-          "url": "https://scp-pig.wikidot.com/scp-966",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-1007",
-          "title": "Mr. Ifelay andyay Mr. Eathday",
-          "blurb": "Humanoid × Biological — SCP-1007 appearsyay otay ebay ayay alemay ofyay indeterminateyay ethnicityyay owhay undergoesyay ethay entireyay umanhay…",
-          "url": "https://scp-pig.wikidot.com/scp-1007",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-1003",
-          "title": "Apewormtay Ildchay",
-          "blurb": "Humanoid × Biological — SCP-1003-1 isyay anyay adultyay apewormtay ofyay ethay eciesspay Echinococcusyay anulosusgray, ownknay orfay ausingcay y…",
-          "url": "https://scp-pig.wikidot.com/scp-1003",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-053",
-          "title": "Oungyay Irlgay",
-          "blurb": "Humanoid × Biological — SCP-053 appearsyay otay ebay ayay allsmay 3-earyay-oldyay irlgay.",
-          "url": "https://scp-pig.wikidot.com/scp-053",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-096",
-          "title": "Ethay Yshay Uygay",
-          "blurb": "Humanoid × Biological — SCP-096 isyay ayay umanoidhay eaturecray easuringmay approximatelyyay 2.",
-          "url": "https://scp-pig.wikidot.com/scp-096",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-343",
-          "title": "\"Odgay\"",
-          "blurb": "Humanoid × Biological — SCP-343 isyay ayay alemay, eeminglysay aceray-esslay, umanoidhay inyay appearanceyay ithway apparentyay omnipotenceyay.",
-          "url": "https://scp-pig.wikidot.com/scp-343",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-049",
-          "title": "Agueplay Octorday",
-          "blurb": "Humanoid × Biological — SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.",
-          "url": "https://scp-pig.wikidot.com/scp-049",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-007",
-          "title": "Abdominalyay Anetplay",
-          "blurb": "Humanoid × Biological — SCP-007 isyay ocatedlay ithinway ayay avitycay inyay ethay abdomenyay ofyay Ubjectsay.",
-          "url": "https://scp-pig.wikidot.com/scp-007",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        }
-      ]
-    },
-    {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoid × Sentient",
-      "introduction": "Explore Humanoid × Sentient: compare what these SCPs have in common and how their anomalies differ.",
+      "title": "Artifact",
+      "introduction": "Explore Artifact: compare what these SCPs have in common and how their anomalies differ.",
       "articles": [
         {
-          "itemId": "scp-series-1002",
-          "title": "Emisersday",
-          "blurb": "Humanoid × Sentient — SCP-1002 isyay anyay abnormalyay adowshay elongingbay otay ayay oupgray ofyay ixsay (6) objectsyay urrentlycay inyay Oun…",
-          "url": "https://scp-pig.wikidot.com/scp-1002",
+          "itemId": "scp-series-063",
+          "title": "\"Ethay Orld'sway Estbay OthBrushtay\"",
+          "blurb": "Artifact — SCP-063 appearsyay otay ebay anyay averageyay, alepay ueblay oothbrushtay.",
+          "url": "https://scp-pig.wikidot.com/scp-063",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-053",
-          "title": "Oungyay Irlgay",
-          "blurb": "Humanoid × Sentient — SCP-053 appearsyay otay ebay ayay allsmay 3-earyay-oldyay irlgay.",
-          "url": "https://scp-pig.wikidot.com/scp-053",
+          "itemId": "scp-series-133",
+          "title": "Instantyay Oleshay",
+          "blurb": "Artifact — SCP-133 areyay ayay etsay ofyay ixsay undredhay andyay irteenthay (613) ackblay, ircularcay iecespay ofyay ayay axyway, …",
+          "url": "https://scp-pig.wikidot.com/scp-133",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-011",
-          "title": "Entientsay Ivilcay Arway Emorialmay Atuestay",
-          "blurb": "Humanoid × Sentient — SCP-011 isyay ayay Ivilcay Arway emorialmay atuestay ocatedlay inyay Oodstockway, Ermontvay.",
-          "url": "https://scp-pig.wikidot.com/scp-011",
+          "itemId": "scp-series-1523",
+          "title": "Oulsay Otherbray",
+          "blurb": "Artifact — SCP-1523 isyay anyay orangeyay-ownbray incenseyay oilcay.",
+          "url": "https://scp-pig.wikidot.com/scp-1523",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1007",
-          "title": "Mr. Ifelay andyay Mr. Eathday",
-          "blurb": "Humanoid × Sentient — SCP-1007 appearsyay otay ebay ayay alemay ofyay indeterminateyay ethnicityyay owhay undergoesyay ethay entireyay umanhay…",
-          "url": "https://scp-pig.wikidot.com/scp-1007",
+          "itemId": "scp-series-1080",
+          "title": "Ethay Echecray",
+          "blurb": "Artifact — SCP-1080 isyay ayay argelay ackblay ectangularray amberchay, 2 etersmay ideway, 3 etersmay onglay, andyay 1.",
+          "url": "https://scp-pig.wikidot.com/scp-1080",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Igfootbay",
-          "blurb": "Humanoid × Sentient — SCP-1000 isyay ayay octurnalnay, omnivorousyay apeyay, assifiedclay inyay ethay Hominini anchbray alongyay ithway enerag…",
-          "url": "https://scp-pig.wikidot.com/scp-1000",
+          "itemId": "scp-series-162",
+          "title": "Allbay ofyay Arpshay",
+          "blurb": "Artifact — SCP-162 isyay ayay assmay ofyay ishfay ookshay, ishfay inelay, eedlesnay, issorsscay, andyay otheryay arpshay objectsyay…",
+          "url": "https://scp-pig.wikidot.com/scp-162",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1005",
-          "title": "Ethay Aintedpay Anmay",
-          "blurb": "Humanoid × Sentient — SCP-1005 isyay ayay apientsay umanoidhay entityyay omposedcay ofyay emisay-olidsay ueblay aintpay, ithway exactyay adess…",
-          "url": "https://scp-pig.wikidot.com/scp-1005",
+          "itemId": "scp-series-005",
+          "title": "Eletonskay Eykay",
+          "blurb": "Artifact — Inyay appearanceyay, SCP-005 esemblesray anyay ornateyay eykay, isplayingday ethay aracteristicschay ofyay ayay ypicalta…",
+          "url": "https://scp-pig.wikidot.com/scp-005",
           "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-049",
-          "title": "Agueplay Octorday",
-          "blurb": "Humanoid × Sentient — SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.",
-          "url": "https://scp-pig.wikidot.com/scp-049",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -475,6 +370,95 @@
       ]
     },
     {
+      "id": "weekly-009",
+      "themeId": "humanoid-biological",
+      "publishedAt": "2027-01-06T10:00:00.000Z",
+      "title": "Humanoid × Biological",
+      "introduction": "Explore Humanoid × Biological: compare what these SCPs have in common and how their anomalies differ.",
+      "articles": [
+        {
+          "itemId": "scp-series-966",
+          "title": "Eepslay Illerkay",
+          "blurb": "Humanoid × Biological — SCP-966 areyay edatorypray eaturescray atthay esembleray airlesshay, igitigradeday umanshay, ossessingpay anyay elongate…",
+          "url": "https://scp-pig.wikidot.com/scp-966",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1007",
+          "title": "Mr. Ifelay andyay Mr. Eathday",
+          "blurb": "Humanoid × Biological — SCP-1007 appearsyay otay ebay ayay alemay ofyay indeterminateyay ethnicityyay owhay undergoesyay ethay entireyay umanhay…",
+          "url": "https://scp-pig.wikidot.com/scp-1007",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1003",
+          "title": "Apewormtay Ildchay",
+          "blurb": "Humanoid × Biological — SCP-1003-1 isyay anyay adultyay apewormtay ofyay ethay eciesspay Echinococcusyay anulosusgray, ownknay orfay ausingcay y…",
+          "url": "https://scp-pig.wikidot.com/scp-1003",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-053",
+          "title": "Oungyay Irlgay",
+          "blurb": "Humanoid × Biological — SCP-053 appearsyay otay ebay ayay allsmay 3-earyay-oldyay irlgay.",
+          "url": "https://scp-pig.wikidot.com/scp-053",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-096",
+          "title": "Ethay Yshay Uygay",
+          "blurb": "Humanoid × Biological — SCP-096 isyay ayay umanoidhay eaturecray easuringmay approximatelyyay 2.",
+          "url": "https://scp-pig.wikidot.com/scp-096",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Odgay\"",
+          "blurb": "Humanoid × Biological — SCP-343 isyay ayay alemay, eeminglysay aceray-esslay, umanoidhay inyay appearanceyay ithway apparentyay omnipotenceyay.",
+          "url": "https://scp-pig.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Agueplay Octorday",
+          "blurb": "Humanoid × Biological — SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.",
+          "url": "https://scp-pig.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-007",
+          "title": "Abdominalyay Anetplay",
+          "blurb": "Humanoid × Biological — SCP-007 isyay ocatedlay ithinway ayay avitycay inyay ethay abdomenyay ofyay Ubjectsay.",
+          "url": "https://scp-pig.wikidot.com/scp-007",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        }
+      ]
+    },
+    {
       "id": "weekly-017",
       "themeId": "mind_affecting",
       "publishedAt": "2027-03-03T10:00:00.000Z",
@@ -638,63 +622,79 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artifact",
-      "introduction": "Explore Artifact: compare what these SCPs have in common and how their anomalies differ.",
+      "title": "Humanoid × Sentient",
+      "introduction": "Explore Humanoid × Sentient: compare what these SCPs have in common and how their anomalies differ.",
       "articles": [
         {
-          "itemId": "scp-series-063",
-          "title": "\"Ethay Orld'sway Estbay OthBrushtay\"",
-          "blurb": "Artifact — SCP-063 appearsyay otay ebay anyay averageyay, alepay ueblay oothbrushtay.",
-          "url": "https://scp-pig.wikidot.com/scp-063",
+          "itemId": "scp-series-1002",
+          "title": "Emisersday",
+          "blurb": "Humanoid × Sentient — SCP-1002 isyay anyay abnormalyay adowshay elongingbay otay ayay oupgray ofyay ixsay (6) objectsyay urrentlycay inyay Oun…",
+          "url": "https://scp-pig.wikidot.com/scp-1002",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-133",
-          "title": "Instantyay Oleshay",
-          "blurb": "Artifact — SCP-133 areyay ayay etsay ofyay ixsay undredhay andyay irteenthay (613) ackblay, ircularcay iecespay ofyay ayay axyway, …",
-          "url": "https://scp-pig.wikidot.com/scp-133",
+          "itemId": "scp-series-053",
+          "title": "Oungyay Irlgay",
+          "blurb": "Humanoid × Sentient — SCP-053 appearsyay otay ebay ayay allsmay 3-earyay-oldyay irlgay.",
+          "url": "https://scp-pig.wikidot.com/scp-053",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-1523",
-          "title": "Oulsay Otherbray",
-          "blurb": "Artifact — SCP-1523 isyay anyay orangeyay-ownbray incenseyay oilcay.",
-          "url": "https://scp-pig.wikidot.com/scp-1523",
+          "itemId": "scp-series-011",
+          "title": "Entientsay Ivilcay Arway Emorialmay Atuestay",
+          "blurb": "Humanoid × Sentient — SCP-011 isyay ayay Ivilcay Arway emorialmay atuestay ocatedlay inyay Oodstockway, Ermontvay.",
+          "url": "https://scp-pig.wikidot.com/scp-011",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-1080",
-          "title": "Ethay Echecray",
-          "blurb": "Artifact — SCP-1080 isyay ayay argelay ackblay ectangularray amberchay, 2 etersmay ideway, 3 etersmay onglay, andyay 1.",
-          "url": "https://scp-pig.wikidot.com/scp-1080",
+          "itemId": "scp-series-1007",
+          "title": "Mr. Ifelay andyay Mr. Eathday",
+          "blurb": "Humanoid × Sentient — SCP-1007 appearsyay otay ebay ayay alemay ofyay indeterminateyay ethnicityyay owhay undergoesyay ethay entireyay umanhay…",
+          "url": "https://scp-pig.wikidot.com/scp-1007",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-162",
-          "title": "Allbay ofyay Arpshay",
-          "blurb": "Artifact — SCP-162 isyay ayay assmay ofyay ishfay ookshay, ishfay inelay, eedlesnay, issorsscay, andyay otheryay arpshay objectsyay…",
-          "url": "https://scp-pig.wikidot.com/scp-162",
+          "itemId": "scp-series-1000",
+          "title": "Igfootbay",
+          "blurb": "Humanoid × Sentient — SCP-1000 isyay ayay octurnalnay, omnivorousyay apeyay, assifiedclay inyay ethay Hominini anchbray alongyay ithway enerag…",
+          "url": "https://scp-pig.wikidot.com/scp-1000",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-005",
-          "title": "Eletonskay Eykay",
-          "blurb": "Artifact — Inyay appearanceyay, SCP-005 esemblesray anyay ornateyay eykay, isplayingday ethay aracteristicschay ofyay ayay ypicalta…",
-          "url": "https://scp-pig.wikidot.com/scp-005",
+          "itemId": "scp-series-1005",
+          "title": "Ethay Aintedpay Anmay",
+          "blurb": "Humanoid × Sentient — SCP-1005 isyay ayay apientsay umanoidhay entityyay omposedcay ofyay emisay-olidsay ueblay aintpay, ithway exactyay adess…",
+          "url": "https://scp-pig.wikidot.com/scp-1005",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
+          ]
+        },
+        {
+          "itemId": "scp-series-049",
+          "title": "Agueplay Octorday",
+          "blurb": "Humanoid × Sentient — SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.",
+          "url": "https://scp-pig.wikidot.com/scp-049",
+          "sourceTags": [
+            "humanoid",
+            "sentient"
           ]
         }
       ]

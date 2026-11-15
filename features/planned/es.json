@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoide × Biológico",
-      "introduction": "Explora el tema «Humanoide × Biológico» y compara las semejanzas y diferencias de estas anomalías.",
+      "title": "Espacial",
+      "introduction": "Explora el tema «Espacial» y compara las semejanzas y diferencias de estas anomalías.",
       "articles": [
         {
-          "itemId": "scp-series-096",
-          "title": "El ''Chico Tímido''",
-          "blurb": "Humanoide × Biológico — SCP-096 es una criatura humanoide que mide aproximadamente 2.",
-          "url": "http://lafundacionscp.wikidot.com/scp-096",
+          "itemId": "scp-series-3001",
+          "title": "Realidad Roja",
+          "blurb": "Espacial — SCP-3001 es una “no-dimensión” hipotética paradójica paralela/de bolsillo accesible a través de la creación momentánea d…",
+          "url": "http://lafundacionscp.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Requisitos Especiales del Personal",
-          "blurb": "Humanoide × Biológico — SCP-231-7 es una mujer █████ de entre █ y ██ años de edad, con [DATOS BORRADOS].",
-          "url": "http://lafundacionscp.wikidot.com/scp-231",
+          "itemId": "scp-series-1730",
+          "title": "¿Qué Fue del Sitio-13?",
+          "blurb": "Espacial — SCP-1730 es un complejo de grandes dimensiones situado a 15km al noroeste de la frontera entre los Estados Unidos y Méxi…",
+          "url": "http://lafundacionscp.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Abel\"",
-          "blurb": "Humanoide × Biológico — SCP-076 consiste en 2 componentes: Un cubo de piedra (SCP-076-1) y una entidad humanoide contenida dentro (SCP-076-2).",
-          "url": "http://lafundacionscp.wikidot.com/scp-076",
+          "itemId": "scp-series-087",
+          "title": "Las Escaleras",
+          "blurb": "Espacial — SCP-087 es una escalera de tramos con rellanos sin iluminar.",
+          "url": "http://lafundacionscp.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Pie Grande",
-          "blurb": "Humanoide × Biológico — SCP-1000 es un simio omnívoro y nocturno, clasificado en la rama de los Hominini perteneciente al género Pan y Homo.",
-          "url": "http://lafundacionscp.wikidot.com/scp-1000",
+          "itemId": "scp-series-004",
+          "title": "Las 12 Llaves Oxidadas y la Puerta",
+          "blurb": "Espacial — SCP-004 consiste en una antigua puerta rústica de madera (SCP-004-1) y un grupo de doce (12) llaves oxidadas de metal (S…",
+          "url": "http://lafundacionscp.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-es-344",
-          "title": "Muerte, Mi Amor",
-          "blurb": "Humanoide × Biológico — SCP-ES-344 es una entidad formada por los restos cadavéricos de la ciudadana Lilith Rosetti.",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-344",
+          "itemId": "scp-series-6000",
+          "title": "La Serpiente, el Alce, y la Biblioteca de los Errantes",
+          "blurb": "Espacial — Cette page inclut le module Alternar Barra Lateral, dont l'usage est interdit sauf exceptions pour préserver la disposit…",
+          "url": "http://lafundacionscp.wikidot.com/scp-6000",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5999",
-          "title": "Aquí es Donde Morí",
-          "blurb": "Humanoide × Biológico — ⚠ ADVERTENCIA: NO CONTINÚE ⚠ >",
-          "url": "http://lafundacionscp.wikidot.com/scp-5999",
+          "itemId": "scp-series-2935",
+          "title": "Oh, Muerte",
+          "blurb": "Espacial — SCP-2935 es una anomalía espacio-temporal que se encuentra ubicada dentro de una cueva de piedra caliza debajo de un cem…",
+          "url": "http://lafundacionscp.wikidot.com/scp-2935",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-3812",
-          "title": "Una Voz Detrás De Mí",
-          "blurb": "Humanoide × Biológico — SCP-3812 es una entidad alteradora de la realidad.",
-          "url": "http://lafundacionscp.wikidot.com/scp-3812",
+          "itemId": "scp-series-5227",
+          "title": "F.O.G /// FEAR OF GOD1",
+          "blurb": "Espacial — SCP-5227 fue una formación climática anómala centrada en Antuco, un pueblo chileno abandonado, y duró del 8 al 10 de jun…",
+          "url": "http://lafundacionscp.wikidot.com/scp-5227",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-073",
-          "title": "\"Cain\"",
-          "blurb": "Humanoide × Biológico — SCP-073 parece ser un hombre muy bronceado, de ascendencia Árabe o del Medio Oriente de unos treinta años, 185 cm (6'1\")…",
-          "url": "http://lafundacionscp.wikidot.com/scp-073",
+          "itemId": "scp-series-1322",
+          "title": "\"Glory Hole\"",
+          "blurb": "Espacial — SCP-1322 es una anomalía espacio-temporal estable, una hipotética abertura a un universo paralelo.",
+          "url": "http://lafundacionscp.wikidot.com/scp-1322",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoide × Consciente",
-      "introduction": "Explora el tema «Humanoide × Consciente» y compara las semejanzas y diferencias de estas anomalías.",
+      "title": "Artefacto",
+      "introduction": "Explora el tema «Artefacto» y compara las semejanzas y diferencias de estas anomalías.",
       "articles": [
         {
-          "itemId": "scp-series-106",
-          "title": "El Anciano",
-          "blurb": "Humanoide × Consciente — SCP-106 parece ser un humanoide anciano, con un aspecto general de descomposición avanzada.",
-          "url": "http://lafundacionscp.wikidot.com/scp-106",
+          "itemId": "scp-series-es-005",
+          "title": "Caricias",
+          "blurb": "Artefacto — SCP-ES-005 es una cabina de fotomatón de la marca █████████ que afecta a la percepción táctil de las personas que se enc…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-005",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-199",
-          "title": "Instituto Para la Resolución de Tus Problemas de Normalidad",
-          "blurb": "Humanoide × Consciente — SCP-ES-199 es la designación conjunta de SCP-ES-199-A, -B y -C.",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-199",
+          "itemId": "scp-series-895",
+          "title": "Interrupción de Cámara",
+          "blurb": "Artefacto — SCP-895 es un ataúd de roble adornado recuperado de la morgue ██████████ por el personal de SCP en ██/█/██, tras los inf…",
+          "url": "http://lafundacionscp.wikidot.com/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-101",
-          "title": "No Adoraréis a Falsos Dioses",
-          "blurb": "Humanoide × Consciente — SCP-ES-101 es una iglesia de estilo gótico tardío en [CENSURADO], León, si bien gran parte de su exterior fue remodelado…",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-101",
+          "itemId": "scp-series-093",
+          "title": "Objeto del Mar Rojo",
+          "blurb": "Artefacto — SCP-093 es básicamente un disco rojo tallado en una roca cuya composición es muy similar a la del cinabrio, con incision…",
+          "url": "http://lafundacionscp.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-134",
-          "title": "13.0.0.0.0 en la Cuenta Larga",
-          "blurb": "Humanoide × Consciente — SCP-ES-134 es la designación colectiva de una colección de individuos (SCP-ES-134-A-1 a -26), objetos (SCP-ES-134-B-1 a …",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-134",
+          "itemId": "scp-series-500",
+          "title": "Panacea",
+          "blurb": "Artefacto — SCP-500 es una pequeña lata de plástico que al momento de escribir este reporte contiene cuarenta y siete (47) píldoras …",
+          "url": "http://lafundacionscp.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-179",
-          "title": "ARKHANGEL KHRANITEL (Arcángel de la Guardia)",
-          "blurb": "Humanoide × Consciente — SCP-ES-179 se refiere a una entidad intangible e invisible, de forma indeterminada, pero identificable como una \"nube\" d…",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-179",
+          "itemId": "scp-series-es-061",
+          "title": "Reproductor de VHS Alternativo",
+          "blurb": "Artefacto — SCP-ES-061 es un reproductor de cintas VHS de marca ██████████, fabricado en 1992.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-061",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-176",
-          "title": "«Jódete, no tenemos porque obedecerte»",
-          "blurb": "Humanoide × Consciente — SCP-ES-176 es la designación conjunta de la interacción de SCP-ES-176-1 y SCP-ES-176-2 sucedido en el videojuego Outcast…",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-176",
+          "itemId": "scp-series-2264",
+          "title": "En La Corte de Alagadda",
+          "blurb": "Artefacto — SCP-2264-A es una puerta compuesta de hierro ubicada dentro de una cámara escondida bajo la Torre de Martin, una parte d…",
+          "url": "http://lafundacionscp.wikidot.com/scp-2264",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-231",
-          "title": "Tres epítomes de cuatro alientos",
-          "blurb": "Humanoide × Consciente — SCP-ES-231 corresponde a tres libros encuadernados de tapa dura de diferentes presentaciones denominados SCP-ES-231-A, S…",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-231",
+          "itemId": "scp-series-es-082",
+          "title": "Ofrenda a los Dioses Antiguos",
+          "blurb": "Artefacto — SCP-ES-082 es un sarcófago de granito de 2m X 1m X 1m, al que le falta la cubierta superior, el cual tiene intrincadas i…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-082",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-es-207",
-          "title": "Cocodrilos imaginarios",
-          "blurb": "Humanoide × Consciente — SCP-ES-207 es una variante grave de la herpetofobia, la cual causa respuestas agresivas o de pánico inmediatas frente a …",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-207",
+          "itemId": "scp-series-3790",
+          "title": "Departamento de Anormalidades",
+          "blurb": "Artefacto — SCP-3790 es una estructura ubicada debajo del almacén abandonado de la Port Superior Canning Company en Londres, Reino U…",
+          "url": "http://lafundacionscp.wikidot.com/scp-3790",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Espacial",
-      "introduction": "Explora el tema «Espacial» y compara las semejanzas y diferencias de estas anomalías.",
+      "title": "Humanoide × Biológico",
+      "introduction": "Explora el tema «Humanoide × Biológico» y compara las semejanzas y diferencias de estas anomalías.",
       "articles": [
         {
-          "itemId": "scp-series-3001",
-          "title": "Realidad Roja",
-          "blurb": "Espacial — SCP-3001 es una “no-dimensión” hipotética paradójica paralela/de bolsillo accesible a través de la creación momentánea d…",
-          "url": "http://lafundacionscp.wikidot.com/scp-3001",
+          "itemId": "scp-series-096",
+          "title": "El ''Chico Tímido''",
+          "blurb": "Humanoide × Biológico — SCP-096 es una criatura humanoide que mide aproximadamente 2.",
+          "url": "http://lafundacionscp.wikidot.com/scp-096",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "¿Qué Fue del Sitio-13?",
-          "blurb": "Espacial — SCP-1730 es un complejo de grandes dimensiones situado a 15km al noroeste de la frontera entre los Estados Unidos y Méxi…",
-          "url": "http://lafundacionscp.wikidot.com/scp-1730",
+          "itemId": "scp-series-231",
+          "title": "Requisitos Especiales del Personal",
+          "blurb": "Humanoide × Biológico — SCP-231-7 es una mujer █████ de entre █ y ██ años de edad, con [DATOS BORRADOS].",
+          "url": "http://lafundacionscp.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-087",
-          "title": "Las Escaleras",
-          "blurb": "Espacial — SCP-087 es una escalera de tramos con rellanos sin iluminar.",
-          "url": "http://lafundacionscp.wikidot.com/scp-087",
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Humanoide × Biológico — SCP-076 consiste en 2 componentes: Un cubo de piedra (SCP-076-1) y una entidad humanoide contenida dentro (SCP-076-2).",
+          "url": "http://lafundacionscp.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "Las 12 Llaves Oxidadas y la Puerta",
-          "blurb": "Espacial — SCP-004 consiste en una antigua puerta rústica de madera (SCP-004-1) y un grupo de doce (12) llaves oxidadas de metal (S…",
-          "url": "http://lafundacionscp.wikidot.com/scp-004",
+          "itemId": "scp-series-1000",
+          "title": "Pie Grande",
+          "blurb": "Humanoide × Biológico — SCP-1000 es un simio omnívoro y nocturno, clasificado en la rama de los Hominini perteneciente al género Pan y Homo.",
+          "url": "http://lafundacionscp.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6000",
-          "title": "La Serpiente, el Alce, y la Biblioteca de los Errantes",
-          "blurb": "Espacial — Cette page inclut le module Alternar Barra Lateral, dont l'usage est interdit sauf exceptions pour préserver la disposit…",
-          "url": "http://lafundacionscp.wikidot.com/scp-6000",
+          "itemId": "scp-series-es-344",
+          "title": "Muerte, Mi Amor",
+          "blurb": "Humanoide × Biológico — SCP-ES-344 es una entidad formada por los restos cadavéricos de la ciudadana Lilith Rosetti.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-344",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-2935",
-          "title": "Oh, Muerte",
-          "blurb": "Espacial — SCP-2935 es una anomalía espacio-temporal que se encuentra ubicada dentro de una cueva de piedra caliza debajo de un cem…",
-          "url": "http://lafundacionscp.wikidot.com/scp-2935",
+          "itemId": "scp-series-5999",
+          "title": "Aquí es Donde Morí",
+          "blurb": "Humanoide × Biológico — ⚠ ADVERTENCIA: NO CONTINÚE ⚠ >",
+          "url": "http://lafundacionscp.wikidot.com/scp-5999",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-5227",
-          "title": "F.O.G /// FEAR OF GOD1",
-          "blurb": "Espacial — SCP-5227 fue una formación climática anómala centrada en Antuco, un pueblo chileno abandonado, y duró del 8 al 10 de jun…",
-          "url": "http://lafundacionscp.wikidot.com/scp-5227",
+          "itemId": "scp-series-3812",
+          "title": "Una Voz Detrás De Mí",
+          "blurb": "Humanoide × Biológico — SCP-3812 es una entidad alteradora de la realidad.",
+          "url": "http://lafundacionscp.wikidot.com/scp-3812",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1322",
-          "title": "\"Glory Hole\"",
-          "blurb": "Espacial — SCP-1322 es una anomalía espacio-temporal estable, una hipotética abertura a un universo paralelo.",
-          "url": "http://lafundacionscp.wikidot.com/scp-1322",
+          "itemId": "scp-series-073",
+          "title": "\"Cain\"",
+          "blurb": "Humanoide × Biológico — SCP-073 parece ser un hombre muy bronceado, de ascendencia Árabe o del Medio Oriente de unos treinta años, 185 cm (6'1\")…",
+          "url": "http://lafundacionscp.wikidot.com/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefacto",
-      "introduction": "Explora el tema «Artefacto» y compara las semejanzas y diferencias de estas anomalías.",
+      "title": "Humanoide × Consciente",
+      "introduction": "Explora el tema «Humanoide × Consciente» y compara las semejanzas y diferencias de estas anomalías.",
       "articles": [
         {
-          "itemId": "scp-series-es-005",
-          "title": "Caricias",
-          "blurb": "Artefacto — SCP-ES-005 es una cabina de fotomatón de la marca █████████ que afecta a la percepción táctil de las personas que se enc…",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-005",
+          "itemId": "scp-series-106",
+          "title": "El Anciano",
+          "blurb": "Humanoide × Consciente — SCP-106 parece ser un humanoide anciano, con un aspecto general de descomposición avanzada.",
+          "url": "http://lafundacionscp.wikidot.com/scp-106",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-895",
-          "title": "Interrupción de Cámara",
-          "blurb": "Artefacto — SCP-895 es un ataúd de roble adornado recuperado de la morgue ██████████ por el personal de SCP en ██/█/██, tras los inf…",
-          "url": "http://lafundacionscp.wikidot.com/scp-895",
+          "itemId": "scp-series-es-199",
+          "title": "Instituto Para la Resolución de Tus Problemas de Normalidad",
+          "blurb": "Humanoide × Consciente — SCP-ES-199 es la designación conjunta de SCP-ES-199-A, -B y -C.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-199",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Objeto del Mar Rojo",
-          "blurb": "Artefacto — SCP-093 es básicamente un disco rojo tallado en una roca cuya composición es muy similar a la del cinabrio, con incision…",
-          "url": "http://lafundacionscp.wikidot.com/scp-093",
+          "itemId": "scp-series-es-101",
+          "title": "No Adoraréis a Falsos Dioses",
+          "blurb": "Humanoide × Consciente — SCP-ES-101 es una iglesia de estilo gótico tardío en [CENSURADO], León, si bien gran parte de su exterior fue remodelado…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-101",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "Panacea",
-          "blurb": "Artefacto — SCP-500 es una pequeña lata de plástico que al momento de escribir este reporte contiene cuarenta y siete (47) píldoras …",
-          "url": "http://lafundacionscp.wikidot.com/scp-500",
+          "itemId": "scp-series-es-134",
+          "title": "13.0.0.0.0 en la Cuenta Larga",
+          "blurb": "Humanoide × Consciente — SCP-ES-134 es la designación colectiva de una colección de individuos (SCP-ES-134-A-1 a -26), objetos (SCP-ES-134-B-1 a …",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-134",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-es-061",
-          "title": "Reproductor de VHS Alternativo",
-          "blurb": "Artefacto — SCP-ES-061 es un reproductor de cintas VHS de marca ██████████, fabricado en 1992.",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-061",
+          "itemId": "scp-series-es-179",
+          "title": "ARKHANGEL KHRANITEL (Arcángel de la Guardia)",
+          "blurb": "Humanoide × Consciente — SCP-ES-179 se refiere a una entidad intangible e invisible, de forma indeterminada, pero identificable como una \"nube\" d…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-179",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-2264",
-          "title": "En La Corte de Alagadda",
-          "blurb": "Artefacto — SCP-2264-A es una puerta compuesta de hierro ubicada dentro de una cámara escondida bajo la Torre de Martin, una parte d…",
-          "url": "http://lafundacionscp.wikidot.com/scp-2264",
+          "itemId": "scp-series-es-176",
+          "title": "«Jódete, no tenemos porque obedecerte»",
+          "blurb": "Humanoide × Consciente — SCP-ES-176 es la designación conjunta de la interacción de SCP-ES-176-1 y SCP-ES-176-2 sucedido en el videojuego Outcast…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-176",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-es-082",
-          "title": "Ofrenda a los Dioses Antiguos",
-          "blurb": "Artefacto — SCP-ES-082 es un sarcófago de granito de 2m X 1m X 1m, al que le falta la cubierta superior, el cual tiene intrincadas i…",
-          "url": "http://lafundacionscp.wikidot.com/scp-es-082",
+          "itemId": "scp-series-es-231",
+          "title": "Tres epítomes de cuatro alientos",
+          "blurb": "Humanoide × Consciente — SCP-ES-231 corresponde a tres libros encuadernados de tapa dura de diferentes presentaciones denominados SCP-ES-231-A, S…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-231",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-3790",
-          "title": "Departamento de Anormalidades",
-          "blurb": "Artefacto — SCP-3790 es una estructura ubicada debajo del almacén abandonado de la Port Superior Canning Company en Londres, Reino U…",
-          "url": "http://lafundacionscp.wikidot.com/scp-3790",
+          "itemId": "scp-series-es-207",
+          "title": "Cocodrilos imaginarios",
+          "blurb": "Humanoide × Consciente — SCP-ES-207 es una variante grave de la herpetofobia, la cual causa respuestas agresivas o de pánico inmediatas frente a …",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-207",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

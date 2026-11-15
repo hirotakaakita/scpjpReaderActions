@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Umanoide × Biologico",
-      "introduction": "Esplora il tema «Umanoide × Biologico» e confronta somiglianze e differenze di queste anomalie.",
+      "title": "Spaziale",
+      "introduction": "Esplora il tema «Spaziale» e confronta somiglianze e differenze di queste anomalie.",
       "articles": [
         {
-          "itemId": "scp-series-2317",
-          "title": "Una Porta per un Altro Mondo",
-          "blurb": "Umanoide × Biologico — SCP-2317 è una porta di legno originariamente costruita per un seminterrato di una brownstone del 19° secolo in Massachu…",
-          "url": "http://fondazionescp.wikidot.com/scp-2317",
+          "itemId": "scp-series-087",
+          "title": "La Scalinata",
+          "blurb": "Spaziale — SCP-087 è una scalinata non illuminata.",
+          "url": "http://fondazionescp.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Abele\"",
-          "blurb": "Umanoide × Biologico — SCP-076 consiste in 2 componenti: una struttura rocciosa levigata (SCP-076-1) e un’entità umanoide contenuta al suo inte…",
-          "url": "http://fondazionescp.wikidot.com/scp-076",
+          "itemId": "scp-series-004",
+          "title": "La Porta e le 12 Chiavi Arrugginite",
+          "blurb": "Spaziale — SCP-004 è costituito da una vecchia porta da fienile in legno (SCP-004-1) e da un mazzo di dodici chiavi in acciaio arru…",
+          "url": "http://fondazionescp.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-it-007",
-          "title": "Mersì",
-          "blurb": "Umanoide × Biologico — SCP-007-IT è una fiaba risalente al XVIII secolo e.",
-          "url": "http://fondazionescp.wikidot.com/scp-007-it",
+          "itemId": "scp-series-1730",
+          "title": "Cosa è successo al Sito-13?",
+          "blurb": "Spaziale — SCP-1730 è un grande complesso di edifici a 15 km a nord-ovest del confine tra Stati Uniti e Messico, all'interno del Bi…",
+          "url": "http://fondazionescp.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "\"Dio\"",
-          "blurb": "Umanoide × Biologico — SCP-343 è un maschio, apparentemente senza razza, in apparenza umanoide con apparente onnipotenza.",
-          "url": "http://fondazionescp.wikidot.com/scp-343",
+          "itemId": "scp-series-354",
+          "title": "La Pozza Rossa",
+          "blurb": "Spaziale — SCP-354 è una pozza di liquido rosso, scoperta nel nord del Canada.",
+          "url": "http://fondazionescp.wikidot.com/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Bigfoot",
-          "blurb": "Umanoide × Biologico — SCP-1000 è una scimmia notturna onnivora classificata nella tribù Hominini insieme al genere Pan e Homo.",
-          "url": "http://fondazionescp.wikidot.com/scp-1000",
+          "itemId": "scp-series-6000",
+          "title": "Il Serpente, Moose e la Biblioteca Del Viandante",
+          "blurb": "Spaziale — PER ORDINE DEL CONSIGLIO DEI SOVRINTENDENTI Il seguente file è classificato al Livello 4/6000.",
+          "url": "http://fondazionescp.wikidot.com/scp-6000",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Requisiti Speciali per il Personale",
-          "blurb": "Umanoide × Biologico — SCP-231-7 è una femmina di discendenza ████████, tra i █ ed i ██ anni d'età, con [DATI CANCELLATI].",
-          "url": "http://fondazionescp.wikidot.com/scp-231",
+          "itemId": "scp-series-2998",
+          "title": "Trasmissione Anomala, 2485 MHz",
+          "blurb": "Spaziale — SCP-2998 è un segnale elettromagnetico con frequenza costante di 2485 MHz.",
+          "url": "http://fondazionescp.wikidot.com/scp-2998",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-073",
-          "title": "\"Caino\"",
-          "blurb": "Umanoide × Biologico — SCP-073 è un uomo dalla pelle bronzea di discendenza araba o mediorientale, la cui età si aggira sui 30 anni.",
-          "url": "http://fondazionescp.wikidot.com/scp-073",
+          "itemId": "scp-series-094",
+          "title": "Orizzonte degli Eventi in Miniatura",
+          "blurb": "Spaziale — SCP-094 sembra essere una sfera perfettamente nera dal diametro di 163 cm sospesa a circa 3 m da terra senza alcun suppo…",
+          "url": "http://fondazionescp.wikidot.com/scp-094",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-007",
-          "title": "Pianeta Addominale",
-          "blurb": "Umanoide × Biologico — SCP-007 è situato all'interno di una cavità nell'addome del Soggetto.",
-          "url": "http://fondazionescp.wikidot.com/scp-007",
+          "itemId": "scp-series-3001",
+          "title": "Realtà Rossa",
+          "blurb": "Spaziale — SCP-3001 è un ipotetico paradosso parallelo/tascabile \"non-dimensionale\" accessibile attraverso la creazione di un momen…",
+          "url": "http://fondazionescp.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Umanoide × Senziente",
-      "introduction": "Esplora il tema «Umanoide × Senziente» e confronta somiglianze e differenze di queste anomalie.",
+      "title": "Artefatto",
+      "introduction": "Esplora il tema «Artefatto» e confronta somiglianze e differenze di queste anomalie.",
       "articles": [
         {
-          "itemId": "scp-series-it-096",
-          "title": "Esprimi un Desiderio",
-          "blurb": "Umanoide × Senziente — SCP-096-IT era un'entità umanoide, senziente e sapiente di sesso femminile catturata a Baunei, in Ogliastra, la cui fisi…",
-          "url": "http://fondazionescp.wikidot.com/scp-096-it",
+          "itemId": "scp-series-it-040",
+          "title": "Rosa dalle Ceneri",
+          "blurb": "Artefatto — SCP-040-IT è un posacenere in vetro circolare, misurante 7.",
+          "url": "http://fondazionescp.wikidot.com/scp-040-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-it-075",
-          "title": "Art Nouveau",
-          "blurb": "Umanoide × Senziente — SCP-075-IT è una statua bronzea di 27 cm di altezza che rappresenta una giovane donna, dall'abbigliamento in stile Liber…",
-          "url": "http://fondazionescp.wikidot.com/scp-075-it",
+          "itemId": "scp-series-it-051",
+          "title": "La Città Arroccata di Castello",
+          "blurb": "Artefatto — SCP-051-IT è una scultura in calcare dell'artista sardo Pinuccio Sciola, chiamata \"La Città Arroccata di Castello\".",
+          "url": "http://fondazionescp.wikidot.com/scp-051-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-it-026",
-          "title": "La Sanguisuga Umana",
-          "blurb": "Umanoide × Senziente — SCP-026-IT appare come una donna di origine slava, di dichiarata nazionalità russa e di circa 30 anni; con occhi verdi e…",
-          "url": "http://fondazionescp.wikidot.com/scp-026-it",
+          "itemId": "scp-series-it-082",
+          "title": "L'Elmo della Conoscenza",
+          "blurb": "Artefatto — SCP-082-IT è un elmo bronzeo di fattura corinzia; nonostante artefice e provenienza siano tuttora ignoti, la datazione c…",
+          "url": "http://fondazionescp.wikidot.com/scp-082-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-106",
-          "title": "Il Vecchio",
-          "blurb": "Umanoide × Senziente — SCP-106 si presenta come un umanoide anziano con un aspetto generale di decomposizione avanzata.",
-          "url": "http://fondazionescp.wikidot.com/scp-106",
+          "itemId": "scp-series-it-071",
+          "title": "Il Mantello di Ötzi",
+          "blurb": "Artefatto — SCP-071-IT è una pelle di cervo successivamente identificata come quella di un Cervus elaphus risalente all'età del Bron…",
+          "url": "http://fondazionescp.wikidot.com/scp-071-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-it-044",
-          "title": "Silicio",
-          "blurb": "Umanoide × Senziente — SCP-044-IT è un agglomerato siliceo antropomorfo, apparentemente composto da una lega metallica2.",
-          "url": "http://fondazionescp.wikidot.com/scp-044-it",
+          "itemId": "scp-series-it-091",
+          "title": "Il Castello di Otranto",
+          "blurb": "Artefatto — SCP-091-IT è una copia del romanzo gotico \"Il Castello di Otranto\" di Horace Walpole nella traduzione italiana di Jean S…",
+          "url": "http://fondazionescp.wikidot.com/scp-091-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-it-092",
-          "title": "Magie&Miracoli di Viviana",
-          "blurb": "Umanoide × Senziente — SCP-092-IT è un numero di cellulare con prefisso italiano e con operatore telefonico [REDATTO]: il numero corrisponde a …",
-          "url": "http://fondazionescp.wikidot.com/scp-092-it",
+          "itemId": "scp-series-it-095",
+          "title": "Limite di Velocità",
+          "blurb": "Artefatto — SCP-095-IT è un cartello di segnaletica stradale, indicante il limite di velocità 50 km/h, con sottostante un pannello i…",
+          "url": "http://fondazionescp.wikidot.com/scp-095-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-it-062",
-          "title": "Caccia alla Volpe",
-          "blurb": "Umanoide × Senziente — SCP-062-IT è un fenomeno che si manifesta con cadenza annuale, nei limiti di un’area boschiva dell’estensione di circa 1…",
-          "url": "http://fondazionescp.wikidot.com/scp-062-it",
+          "itemId": "scp-series-895",
+          "title": "Disturbo della Telecamera",
+          "blurb": "Artefatto — SCP-895 è una bara intarsiata di quercia recuperata presso l'Obitorio ███████████ in data ██/██/██, a seguito di alcune …",
+          "url": "http://fondazionescp.wikidot.com/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-it-111",
-          "title": "Ragazzo Privo di Libero Arbitrio",
-          "blurb": "Umanoide × Senziente — SCP-111-IT è un maschio nero di corporatura esile e di età incerta, ma preadolescenziale1, caratterizzato da una complet…",
-          "url": "http://fondazionescp.wikidot.com/scp-111-it",
+          "itemId": "scp-series-it-117",
+          "title": "Un Dono dalle Steppe",
+          "blurb": "Artefatto — SCP-117-IT appare come un’uniforme da cavallerizzo cosacco tinta rosso cremisi, in perfette condizioni.",
+          "url": "http://fondazionescp.wikidot.com/scp-117-it",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Spaziale",
-      "introduction": "Esplora il tema «Spaziale» e confronta somiglianze e differenze di queste anomalie.",
+      "title": "Umanoide × Biologico",
+      "introduction": "Esplora il tema «Umanoide × Biologico» e confronta somiglianze e differenze di queste anomalie.",
       "articles": [
         {
-          "itemId": "scp-series-087",
-          "title": "La Scalinata",
-          "blurb": "Spaziale — SCP-087 è una scalinata non illuminata.",
-          "url": "http://fondazionescp.wikidot.com/scp-087",
+          "itemId": "scp-series-2317",
+          "title": "Una Porta per un Altro Mondo",
+          "blurb": "Umanoide × Biologico — SCP-2317 è una porta di legno originariamente costruita per un seminterrato di una brownstone del 19° secolo in Massachu…",
+          "url": "http://fondazionescp.wikidot.com/scp-2317",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "La Porta e le 12 Chiavi Arrugginite",
-          "blurb": "Spaziale — SCP-004 è costituito da una vecchia porta da fienile in legno (SCP-004-1) e da un mazzo di dodici chiavi in acciaio arru…",
-          "url": "http://fondazionescp.wikidot.com/scp-004",
+          "itemId": "scp-series-076",
+          "title": "\"Abele\"",
+          "blurb": "Umanoide × Biologico — SCP-076 consiste in 2 componenti: una struttura rocciosa levigata (SCP-076-1) e un’entità umanoide contenuta al suo inte…",
+          "url": "http://fondazionescp.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "Cosa è successo al Sito-13?",
-          "blurb": "Spaziale — SCP-1730 è un grande complesso di edifici a 15 km a nord-ovest del confine tra Stati Uniti e Messico, all'interno del Bi…",
-          "url": "http://fondazionescp.wikidot.com/scp-1730",
+          "itemId": "scp-series-it-007",
+          "title": "Mersì",
+          "blurb": "Umanoide × Biologico — SCP-007-IT è una fiaba risalente al XVIII secolo e.",
+          "url": "http://fondazionescp.wikidot.com/scp-007-it",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "La Pozza Rossa",
-          "blurb": "Spaziale — SCP-354 è una pozza di liquido rosso, scoperta nel nord del Canada.",
-          "url": "http://fondazionescp.wikidot.com/scp-354",
+          "itemId": "scp-series-343",
+          "title": "\"Dio\"",
+          "blurb": "Umanoide × Biologico — SCP-343 è un maschio, apparentemente senza razza, in apparenza umanoide con apparente onnipotenza.",
+          "url": "http://fondazionescp.wikidot.com/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6000",
-          "title": "Il Serpente, Moose e la Biblioteca Del Viandante",
-          "blurb": "Spaziale — PER ORDINE DEL CONSIGLIO DEI SOVRINTENDENTI Il seguente file è classificato al Livello 4/6000.",
-          "url": "http://fondazionescp.wikidot.com/scp-6000",
+          "itemId": "scp-series-1000",
+          "title": "Bigfoot",
+          "blurb": "Umanoide × Biologico — SCP-1000 è una scimmia notturna onnivora classificata nella tribù Hominini insieme al genere Pan e Homo.",
+          "url": "http://fondazionescp.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-2998",
-          "title": "Trasmissione Anomala, 2485 MHz",
-          "blurb": "Spaziale — SCP-2998 è un segnale elettromagnetico con frequenza costante di 2485 MHz.",
-          "url": "http://fondazionescp.wikidot.com/scp-2998",
+          "itemId": "scp-series-231",
+          "title": "Requisiti Speciali per il Personale",
+          "blurb": "Umanoide × Biologico — SCP-231-7 è una femmina di discendenza ████████, tra i █ ed i ██ anni d'età, con [DATI CANCELLATI].",
+          "url": "http://fondazionescp.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-094",
-          "title": "Orizzonte degli Eventi in Miniatura",
-          "blurb": "Spaziale — SCP-094 sembra essere una sfera perfettamente nera dal diametro di 163 cm sospesa a circa 3 m da terra senza alcun suppo…",
-          "url": "http://fondazionescp.wikidot.com/scp-094",
+          "itemId": "scp-series-073",
+          "title": "\"Caino\"",
+          "blurb": "Umanoide × Biologico — SCP-073 è un uomo dalla pelle bronzea di discendenza araba o mediorientale, la cui età si aggira sui 30 anni.",
+          "url": "http://fondazionescp.wikidot.com/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Realtà Rossa",
-          "blurb": "Spaziale — SCP-3001 è un ipotetico paradosso parallelo/tascabile \"non-dimensionale\" accessibile attraverso la creazione di un momen…",
-          "url": "http://fondazionescp.wikidot.com/scp-3001",
+          "itemId": "scp-series-007",
+          "title": "Pianeta Addominale",
+          "blurb": "Umanoide × Biologico — SCP-007 è situato all'interno di una cavità nell'addome del Soggetto.",
+          "url": "http://fondazionescp.wikidot.com/scp-007",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefatto",
-      "introduction": "Esplora il tema «Artefatto» e confronta somiglianze e differenze di queste anomalie.",
+      "title": "Umanoide × Senziente",
+      "introduction": "Esplora il tema «Umanoide × Senziente» e confronta somiglianze e differenze di queste anomalie.",
       "articles": [
         {
-          "itemId": "scp-series-it-040",
-          "title": "Rosa dalle Ceneri",
-          "blurb": "Artefatto — SCP-040-IT è un posacenere in vetro circolare, misurante 7.",
-          "url": "http://fondazionescp.wikidot.com/scp-040-it",
+          "itemId": "scp-series-it-096",
+          "title": "Esprimi un Desiderio",
+          "blurb": "Umanoide × Senziente — SCP-096-IT era un'entità umanoide, senziente e sapiente di sesso femminile catturata a Baunei, in Ogliastra, la cui fisi…",
+          "url": "http://fondazionescp.wikidot.com/scp-096-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-it-051",
-          "title": "La Città Arroccata di Castello",
-          "blurb": "Artefatto — SCP-051-IT è una scultura in calcare dell'artista sardo Pinuccio Sciola, chiamata \"La Città Arroccata di Castello\".",
-          "url": "http://fondazionescp.wikidot.com/scp-051-it",
+          "itemId": "scp-series-it-075",
+          "title": "Art Nouveau",
+          "blurb": "Umanoide × Senziente — SCP-075-IT è una statua bronzea di 27 cm di altezza che rappresenta una giovane donna, dall'abbigliamento in stile Liber…",
+          "url": "http://fondazionescp.wikidot.com/scp-075-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-it-082",
-          "title": "L'Elmo della Conoscenza",
-          "blurb": "Artefatto — SCP-082-IT è un elmo bronzeo di fattura corinzia; nonostante artefice e provenienza siano tuttora ignoti, la datazione c…",
-          "url": "http://fondazionescp.wikidot.com/scp-082-it",
+          "itemId": "scp-series-it-026",
+          "title": "La Sanguisuga Umana",
+          "blurb": "Umanoide × Senziente — SCP-026-IT appare come una donna di origine slava, di dichiarata nazionalità russa e di circa 30 anni; con occhi verdi e…",
+          "url": "http://fondazionescp.wikidot.com/scp-026-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-it-071",
-          "title": "Il Mantello di Ötzi",
-          "blurb": "Artefatto — SCP-071-IT è una pelle di cervo successivamente identificata come quella di un Cervus elaphus risalente all'età del Bron…",
-          "url": "http://fondazionescp.wikidot.com/scp-071-it",
+          "itemId": "scp-series-106",
+          "title": "Il Vecchio",
+          "blurb": "Umanoide × Senziente — SCP-106 si presenta come un umanoide anziano con un aspetto generale di decomposizione avanzata.",
+          "url": "http://fondazionescp.wikidot.com/scp-106",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-it-091",
-          "title": "Il Castello di Otranto",
-          "blurb": "Artefatto — SCP-091-IT è una copia del romanzo gotico \"Il Castello di Otranto\" di Horace Walpole nella traduzione italiana di Jean S…",
-          "url": "http://fondazionescp.wikidot.com/scp-091-it",
+          "itemId": "scp-series-it-044",
+          "title": "Silicio",
+          "blurb": "Umanoide × Senziente — SCP-044-IT è un agglomerato siliceo antropomorfo, apparentemente composto da una lega metallica2.",
+          "url": "http://fondazionescp.wikidot.com/scp-044-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-it-095",
-          "title": "Limite di Velocità",
-          "blurb": "Artefatto — SCP-095-IT è un cartello di segnaletica stradale, indicante il limite di velocità 50 km/h, con sottostante un pannello i…",
-          "url": "http://fondazionescp.wikidot.com/scp-095-it",
+          "itemId": "scp-series-it-092",
+          "title": "Magie&Miracoli di Viviana",
+          "blurb": "Umanoide × Senziente — SCP-092-IT è un numero di cellulare con prefisso italiano e con operatore telefonico [REDATTO]: il numero corrisponde a …",
+          "url": "http://fondazionescp.wikidot.com/scp-092-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-895",
-          "title": "Disturbo della Telecamera",
-          "blurb": "Artefatto — SCP-895 è una bara intarsiata di quercia recuperata presso l'Obitorio ███████████ in data ██/██/██, a seguito di alcune …",
-          "url": "http://fondazionescp.wikidot.com/scp-895",
+          "itemId": "scp-series-it-062",
+          "title": "Caccia alla Volpe",
+          "blurb": "Umanoide × Senziente — SCP-062-IT è un fenomeno che si manifesta con cadenza annuale, nei limiti di un’area boschiva dell’estensione di circa 1…",
+          "url": "http://fondazionescp.wikidot.com/scp-062-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-it-117",
-          "title": "Un Dono dalle Steppe",
-          "blurb": "Artefatto — SCP-117-IT appare come un’uniforme da cavallerizzo cosacco tinta rosso cremisi, in perfette condizioni.",
-          "url": "http://fondazionescp.wikidot.com/scp-117-it",
+          "itemId": "scp-series-it-111",
+          "title": "Ragazzo Privo di Libero Arbitrio",
+          "blurb": "Umanoide × Senziente — SCP-111-IT è un maschio nero di corporatura esile e di età incerta, ma preadolescenziale1, caratterizzato da una complet…",
+          "url": "http://fondazionescp.wikidot.com/scp-111-it",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

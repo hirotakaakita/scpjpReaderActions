@@ -35,11 +35,14 @@ test('156 common Wednesday themes have valid 5–10 article language editions wi
   assert.equal(catalog.language,language);assert.equal(catalog.schemaVersion,1);
   assert.equal(new Set(catalog.features.map(f=>f.id)).size,catalog.features.length);
   for(const feature of catalog.features){
+   const editorialFile=path.join(root,'features/editorial',language,feature.id+'.json');
+   const editorial=fs.existsSync(editorialFile)?JSON.parse(fs.readFileSync(editorialFile)):null;
+   if(editorial)assert.deepEqual(feature,editorial);
    const theme=schedule.weeks.find(w=>w.id===feature.id);assert(theme);
    assert.equal(theme.publishedAt,feature.publishedAt);assert.equal(theme.themeId,feature.themeId);
    assert(feature.articles.length>=5&&feature.articles.length<=10);
    assert.equal(new Set(feature.articles.map(a=>a.itemId)).size,feature.articles.length);
-   for(const article of feature.articles){const row=source.get(article.itemId);assert(row,language+'/'+article.itemId);assert(matches(row,theme));assert.equal(article.url,row.urlJP);assert.equal(article.title,row.titleJP);assert(article.blurb.length>20);}
+   for(const article of feature.articles){const row=source.get(article.itemId);assert(row,language+'/'+article.itemId);if(!editorial)assert(matches(row,theme));assert.equal(article.url,row.urlJP);assert.equal(article.title,row.titleJP);assert(article.blurb.length>20);}
   }
  }
 });
@@ -59,6 +62,32 @@ function fixture(t){
  const queuePath=path.join(dir,'local-data/feature-notification-queue.json'),ledgerPath=path.join(dir,'local-data/feature-notification-deliveries.json');
  const read=()=>JSON.parse(fs.readFileSync(queuePath));return {dir,first,next,queuePath,ledgerPath,read};
 }
+
+test('three reviewed editions are available through explicit previews without early publication',()=>{
+ const feed=JSON.parse(fs.readFileSync(path.join(root,'features/jp/index.json')));
+ assert.equal(feed.previewFeatures.length,2);
+ assert.equal(new Set(feed.previewFeatures.map(f=>f.id)).size,2);
+ for(const feature of feed.previewFeatures){
+  assert.deepEqual(feature,JSON.parse(fs.readFileSync(path.join(root,'features/editorial/jp',feature.id+'.json'))));
+  assert(feature.articles.every(a=>a.imageUrl&&a.blurb.length>25));
+  const png=fs.readFileSync(path.join(root,feature.coverImage));
+  assert(png.readUInt32BE(16)/png.readUInt32BE(20)>=3);
+ }
+ assert.equal(selectFeature(feed,new Date('2026-11-15T10:00:00Z')).id,'weekly-001');
+});
+
+test('preview metadata cannot release an edition or enqueue a push before its Wednesday',t=>{
+ const f=fixture(t),date=new Date('2026-11-15T10:00:00Z');
+ publish({root:f.dir,now:date,bootstrap:true});
+ const file=path.join(f.dir,'features/jp/index.json'),feed=JSON.parse(fs.readFileSync(file));
+ feed.previewFeatures=[f.next];fs.writeFileSync(file,JSON.stringify(feed));
+ assert.deepEqual(publish({root:f.dir,now:date}),[]);
+ assert.deepEqual(f.read().pending,{});
+ assert.equal(JSON.parse(fs.readFileSync(file)).features.length,1);
+ publish({root:f.dir,now:new Date('2026-11-18T10:00:00Z')});
+ assert.equal(f.read().pending.jp.items[0].itemId,'weekly-002');
+ assert.equal(JSON.parse(fs.readFileSync(file)).features.length,2);
+});
 
 test('bootstrap never backfills pushes; publication changes only eligible languages at Wednesday 19:00 JST',t=>{
  const f=fixture(t),before=new Date('2026-11-18T09:59:59Z'),after=new Date('2026-11-18T10:00:00Z');

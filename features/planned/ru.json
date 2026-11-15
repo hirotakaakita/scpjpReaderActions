@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Гуманоид × Биологическое",
-      "introduction": "Изучите тему «Гуманоид × Биологическое» и сравните общие черты и различия этих аномалий.",
+      "title": "Пространство",
+      "introduction": "Изучите тему «Пространство» и сравните общие черты и различия этих аномалий.",
       "articles": [
         {
-          "itemId": "scp-series-507",
-          "title": "SCP-507 - Не любитель ходить между мирами",
-          "blurb": "Гуманоид × Биологическое — SCP-507 является на вид мужчиной-европеоидом, волосы светлые, глаза зелёные.",
-          "url": "https://scpfoundation.net/scp-507",
+          "itemId": "scp-series-2935",
+          "title": "SCP-2935 - О Смерть",
+          "blurb": "Пространство — SCP-2935 — пространственно-временная аномалия в известняковой пещере, расположенной под кладбищем на невключённой террит…",
+          "url": "https://scpfoundation.net/scp-2935",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-2317",
-          "title": "SCP-2317 - Дверь в другой мир",
-          "blurb": "Гуманоид × Биологическое — tabview tab Итерация 1 > ДОБРО ПОЖАЛОВАТЬ В ТЕРМИНАЛ ПРЯМОГО ДОСТУПА SCiPNET.",
-          "url": "https://scpfoundation.net/scp-2317",
+          "itemId": "scp-series-3001",
+          "title": "SCP-3001 - Красная Реальность",
+          "blurb": "Пространство — SCP-3001 -- гипотетическое парадоксальное параллельное/карманное \"не-измерение\", доступное посредством создания кратковр…",
+          "url": "https://scpfoundation.net/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "SCP-231 - Особые требования к персоналу",
-          "blurb": "Гуманоид × Биологическое — SCP-231-7 - это ██████ женщина █-██ лет с [ДАННЫЕ УДАЛЕНЫ].",
-          "url": "https://scpfoundation.net/scp-231",
+          "itemId": "scp-series-087",
+          "title": "SCP-087 - Лестница",
+          "blurb": "Пространство — SCP-087 - неосвещённая лестница.",
+          "url": "https://scpfoundation.net/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "SCP-1000 - Снежный человек",
-          "blurb": "Гуманоид × Биологическое — SCP-1000 - род всеядных приматов, ведущих ночной образ жизни.",
-          "url": "https://scpfoundation.net/scp-1000",
+          "itemId": "scp-series-004",
+          "title": "SCP-004 - 12 ржавых ключей и дверь",
+          "blurb": "Пространство — SCP-004 состоит из старой деревянной амбарной двери (SCP-004-1) и связки из двенадцати ржавых стальных ключей (SCP-004-2…",
+          "url": "https://scpfoundation.net/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "SCP-343 - «Бог»",
-          "blurb": "Гуманоид × Биологическое — SCP-343 - гуманоид, мужчина, на вид не принадлежащий ни к одной расе, и, очевидно, всемогущий.",
-          "url": "https://scpfoundation.net/scp-343",
+          "itemId": "scp-series-1730",
+          "title": "SCP-1730 - Что случилось с Зоной 13?",
+          "blurb": "Пространство — SCP-1730 представляет собой крупный комплекс сооружений, обнаруженный 5 июня ████ в 15 км к северо-западу от границы США…",
+          "url": "https://scpfoundation.net/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-073",
-          "title": "SCP-073 - «Каин»",
-          "blurb": "Гуманоид × Биологическое — SCP-073 выглядит как загорелый мужчина арабского или ближневосточного типа внешности, около тридцати лет, рост - 185 см …",
-          "url": "https://scpfoundation.net/scp-073",
+          "itemId": "scp-series-354",
+          "title": "SCP-354 - Алое Озеро",
+          "blurb": "Пространство — SCP-354 — озеро красной жидкости, находящееся в северной Канаде.",
+          "url": "https://scpfoundation.net/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1861",
-          "title": "SCP-1861 - Команда подлодки «Винтерсхаймер»",
-          "blurb": "Гуманоид × Биологическое — SCP-1861 — аномальный метеорологический феномен, для которого характерны обильные осадки, состоящие из морской воды, чел…",
-          "url": "https://scpfoundation.net/scp-1861",
+          "itemId": "scp-series-184",
+          "title": "SCP-184 - Архитектор",
+          "blurb": "Пространство — SCP-184 - небольшой гладкий металлический объект 10 см в высоту и 10 см в ширину, имеющий форму додекаэдра.",
+          "url": "https://scpfoundation.net/scp-184",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-6599",
-          "title": "SCP-6599 - СВИНОЙ ЛОМОТЬ",
-          "blurb": "Гуманоид × Биологическое — SCP-6599 -- это общее обозначение для множества интернет-аккаунтов действующих под никнеймом «HOGSLICE»footnote(с англ.",
-          "url": "https://scpfoundation.net/scp-6599",
+          "itemId": "scp-series-1425",
+          "title": "SCP-1425 - \"Звёздные сигналы\"",
+          "blurb": "Пространство — SCP-1425 – книга в твердом переплете габаритами 20x35x5 см, изданная в 2005 году компанией «[УДАЛЕНО] Books» (ныне не су…",
+          "url": "https://scpfoundation.net/scp-1425",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Гуманоид × Разумное",
-      "introduction": "Изучите тему «Гуманоид × Разумное» и сравните общие черты и различия этих аномалий.",
+      "title": "Предмет",
+      "introduction": "Изучите тему «Предмет» и сравните общие черты и различия этих аномалий.",
       "articles": [
         {
-          "itemId": "scp-series-179",
-          "title": "SCP-179 - Сестра Солнца",
-          "blurb": "Гуманоид × Разумное — SCP-179 представляет собой гуманоидное существо, находящееся на постоянном расстоянии около 40 000 км от южной полярной …",
-          "url": "https://scpfoundation.net/scp-179",
+          "itemId": "scp-series-093",
+          "title": "SCP-093 - Объект из Красного моря",
+          "blurb": "Предмет — SCP-093 - диск в основном красного цвета, вырезанный из слоистого камня, напоминающего киноварь.",
+          "url": "https://scpfoundation.net/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-085",
-          "title": "SCP-085 - Нарисованная Кассандра",
-          "blurb": "Гуманоид × Разумное — SCP-085 является результатом эксперимента с использованием объектов [SCP-067] и [SCP-914].",
-          "url": "https://scpfoundation.net/scp-085",
+          "itemId": "scp-series-500",
+          "title": "SCP-500 - Панацея",
+          "blurb": "Предмет — SCP-500 — красные таблетки, хранящиеся в маленькой пластиковой банке, количество которых на момент написания данного док…",
+          "url": "https://scpfoundation.net/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-2030",
-          "title": "SCP-2030 - СМ Е Х ЭТ О ВЕ С Е ЛО",
-          "blurb": "Гуманоид × Разумное — SCP-2030 – это аномалия, проявляющаяся в форме телевизионной передачи.",
-          "url": "https://scpfoundation.net/scp-2030",
+          "itemId": "scp-series-2264",
+          "title": "SCP-2264 - При дворе Алагадды",
+          "blurb": "Предмет — SCP-2264-A представляет собой железную дверь, находящуюся в потайной комнате, расположенной в подвалах Башни Мартина, яв…",
+          "url": "https://scpfoundation.net/scp-2264",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3199",
-          "title": "SCP-3199 - Двуногие без перьев",
-          "blurb": "Гуманоид × Разумное — : SCP-3199 представляет из себя разумных биологических особей Категории 5 неизвестного происхождения, однако, в образцах…",
-          "url": "https://scpfoundation.net/scp-3199",
+          "itemId": "scp-series-895",
+          "title": "SCP-895 - Искажения на видео",
+          "blurb": "Предмет — SCP-895 – изукрашенный дубовый гроб, найденный в морге █████ █████ сотрудниками Фонда.",
+          "url": "https://scpfoundation.net/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-990",
-          "title": "SCP-990 - Человек из снов",
-          "blurb": "Гуманоид × Разумное — SCP-990 - это, в целом, мужчина, одетый в деловой костюм времён Холодной войны, который является сотрудникам Фонда во сн…",
-          "url": "https://scpfoundation.net/scp-990",
+          "itemId": "scp-series-3448",
+          "title": "SCP-3448 - Полусмертие",
+          "blurb": "Предмет — SCP-3448 является средством связи, разработанным и созданным \"Проектом Даммерунг\".",
+          "url": "https://scpfoundation.net/scp-3448",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1504",
-          "title": "SCP-1504 - Никто и звать никак",
-          "blurb": "Гуманоид × Разумное — предмета: Ничем не примечательный мужчина, которому невозможно причинить вред.",
-          "url": "https://scpfoundation.net/scp-1504",
+          "itemId": "scp-series-3790",
+          "title": "SCP-3790 - Департамент аномалий",
+          "blurb": "Предмет — SCP-3790 – это конструкция, расположенная под складом портового консервного завода в Лондоне, Соединенное Королевство.",
+          "url": "https://scpfoundation.net/scp-3790",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3812",
-          "title": "SCP-3812 - Голос позади меня",
-          "blurb": "Гуманоид × Разумное — SCP-3812 -- это сущность, изменяющая реальность.",
-          "url": "https://scpfoundation.net/scp-3812",
+          "itemId": "scp-series-738",
+          "title": "SCP-738 - Сделка с дьяволом",
+          "blurb": "Предмет — SCP-738 состоит из трёх частей и представляет собой набор мебели из красного дерева, в который входят один (1) стол, обо…",
+          "url": "https://scpfoundation.net/scp-738",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-032",
-          "title": "SCP-032 - Невеста Братьев",
-          "blurb": "Гуманоид × Разумное — SCP-032 - симулякр человека неизвестного происхождения типа F (частичное внешнее сходство, несоответствие внутреннего со…",
-          "url": "https://scpfoundation.net/scp-032",
+          "itemId": "scp-series-330",
+          "title": "SCP-330 - «Не берите больше двух»",
+          "blurb": "Предмет — SCP-330 выглядит как круглая вазочка из нержавеющей стали, наполненная множеством различных конфет, предназначенных для …",
+          "url": "https://scpfoundation.net/scp-330",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Пространство",
-      "introduction": "Изучите тему «Пространство» и сравните общие черты и различия этих аномалий.",
+      "title": "Гуманоид × Биологическое",
+      "introduction": "Изучите тему «Гуманоид × Биологическое» и сравните общие черты и различия этих аномалий.",
       "articles": [
         {
-          "itemId": "scp-series-2935",
-          "title": "SCP-2935 - О Смерть",
-          "blurb": "Пространство — SCP-2935 — пространственно-временная аномалия в известняковой пещере, расположенной под кладбищем на невключённой террит…",
-          "url": "https://scpfoundation.net/scp-2935",
+          "itemId": "scp-series-507",
+          "title": "SCP-507 - Не любитель ходить между мирами",
+          "blurb": "Гуманоид × Биологическое — SCP-507 является на вид мужчиной-европеоидом, волосы светлые, глаза зелёные.",
+          "url": "https://scpfoundation.net/scp-507",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "SCP-3001 - Красная Реальность",
-          "blurb": "Пространство — SCP-3001 -- гипотетическое парадоксальное параллельное/карманное \"не-измерение\", доступное посредством создания кратковр…",
-          "url": "https://scpfoundation.net/scp-3001",
+          "itemId": "scp-series-2317",
+          "title": "SCP-2317 - Дверь в другой мир",
+          "blurb": "Гуманоид × Биологическое — tabview tab Итерация 1 > ДОБРО ПОЖАЛОВАТЬ В ТЕРМИНАЛ ПРЯМОГО ДОСТУПА SCiPNET.",
+          "url": "https://scpfoundation.net/scp-2317",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-087",
-          "title": "SCP-087 - Лестница",
-          "blurb": "Пространство — SCP-087 - неосвещённая лестница.",
-          "url": "https://scpfoundation.net/scp-087",
+          "itemId": "scp-series-231",
+          "title": "SCP-231 - Особые требования к персоналу",
+          "blurb": "Гуманоид × Биологическое — SCP-231-7 - это ██████ женщина █-██ лет с [ДАННЫЕ УДАЛЕНЫ].",
+          "url": "https://scpfoundation.net/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "SCP-004 - 12 ржавых ключей и дверь",
-          "blurb": "Пространство — SCP-004 состоит из старой деревянной амбарной двери (SCP-004-1) и связки из двенадцати ржавых стальных ключей (SCP-004-2…",
-          "url": "https://scpfoundation.net/scp-004",
+          "itemId": "scp-series-1000",
+          "title": "SCP-1000 - Снежный человек",
+          "blurb": "Гуманоид × Биологическое — SCP-1000 - род всеядных приматов, ведущих ночной образ жизни.",
+          "url": "https://scpfoundation.net/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "SCP-1730 - Что случилось с Зоной 13?",
-          "blurb": "Пространство — SCP-1730 представляет собой крупный комплекс сооружений, обнаруженный 5 июня ████ в 15 км к северо-западу от границы США…",
-          "url": "https://scpfoundation.net/scp-1730",
+          "itemId": "scp-series-343",
+          "title": "SCP-343 - «Бог»",
+          "blurb": "Гуманоид × Биологическое — SCP-343 - гуманоид, мужчина, на вид не принадлежащий ни к одной расе, и, очевидно, всемогущий.",
+          "url": "https://scpfoundation.net/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "SCP-354 - Алое Озеро",
-          "blurb": "Пространство — SCP-354 — озеро красной жидкости, находящееся в северной Канаде.",
-          "url": "https://scpfoundation.net/scp-354",
+          "itemId": "scp-series-073",
+          "title": "SCP-073 - «Каин»",
+          "blurb": "Гуманоид × Биологическое — SCP-073 выглядит как загорелый мужчина арабского или ближневосточного типа внешности, около тридцати лет, рост - 185 см …",
+          "url": "https://scpfoundation.net/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-184",
-          "title": "SCP-184 - Архитектор",
-          "blurb": "Пространство — SCP-184 - небольшой гладкий металлический объект 10 см в высоту и 10 см в ширину, имеющий форму додекаэдра.",
-          "url": "https://scpfoundation.net/scp-184",
+          "itemId": "scp-series-1861",
+          "title": "SCP-1861 - Команда подлодки «Винтерсхаймер»",
+          "blurb": "Гуманоид × Биологическое — SCP-1861 — аномальный метеорологический феномен, для которого характерны обильные осадки, состоящие из морской воды, чел…",
+          "url": "https://scpfoundation.net/scp-1861",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1425",
-          "title": "SCP-1425 - \"Звёздные сигналы\"",
-          "blurb": "Пространство — SCP-1425 – книга в твердом переплете габаритами 20x35x5 см, изданная в 2005 году компанией «[УДАЛЕНО] Books» (ныне не су…",
-          "url": "https://scpfoundation.net/scp-1425",
+          "itemId": "scp-series-6599",
+          "title": "SCP-6599 - СВИНОЙ ЛОМОТЬ",
+          "blurb": "Гуманоид × Биологическое — SCP-6599 -- это общее обозначение для множества интернет-аккаунтов действующих под никнеймом «HOGSLICE»footnote(с англ.",
+          "url": "https://scpfoundation.net/scp-6599",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Предмет",
-      "introduction": "Изучите тему «Предмет» и сравните общие черты и различия этих аномалий.",
+      "title": "Гуманоид × Разумное",
+      "introduction": "Изучите тему «Гуманоид × Разумное» и сравните общие черты и различия этих аномалий.",
       "articles": [
         {
-          "itemId": "scp-series-093",
-          "title": "SCP-093 - Объект из Красного моря",
-          "blurb": "Предмет — SCP-093 - диск в основном красного цвета, вырезанный из слоистого камня, напоминающего киноварь.",
-          "url": "https://scpfoundation.net/scp-093",
+          "itemId": "scp-series-179",
+          "title": "SCP-179 - Сестра Солнца",
+          "blurb": "Гуманоид × Разумное — SCP-179 представляет собой гуманоидное существо, находящееся на постоянном расстоянии около 40 000 км от южной полярной …",
+          "url": "https://scpfoundation.net/scp-179",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "SCP-500 - Панацея",
-          "blurb": "Предмет — SCP-500 — красные таблетки, хранящиеся в маленькой пластиковой банке, количество которых на момент написания данного док…",
-          "url": "https://scpfoundation.net/scp-500",
+          "itemId": "scp-series-085",
+          "title": "SCP-085 - Нарисованная Кассандра",
+          "blurb": "Гуманоид × Разумное — SCP-085 является результатом эксперимента с использованием объектов [SCP-067] и [SCP-914].",
+          "url": "https://scpfoundation.net/scp-085",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-2264",
-          "title": "SCP-2264 - При дворе Алагадды",
-          "blurb": "Предмет — SCP-2264-A представляет собой железную дверь, находящуюся в потайной комнате, расположенной в подвалах Башни Мартина, яв…",
-          "url": "https://scpfoundation.net/scp-2264",
+          "itemId": "scp-series-2030",
+          "title": "SCP-2030 - СМ Е Х ЭТ О ВЕ С Е ЛО",
+          "blurb": "Гуманоид × Разумное — SCP-2030 – это аномалия, проявляющаяся в форме телевизионной передачи.",
+          "url": "https://scpfoundation.net/scp-2030",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-895",
-          "title": "SCP-895 - Искажения на видео",
-          "blurb": "Предмет — SCP-895 – изукрашенный дубовый гроб, найденный в морге █████ █████ сотрудниками Фонда.",
-          "url": "https://scpfoundation.net/scp-895",
+          "itemId": "scp-series-3199",
+          "title": "SCP-3199 - Двуногие без перьев",
+          "blurb": "Гуманоид × Разумное — : SCP-3199 представляет из себя разумных биологических особей Категории 5 неизвестного происхождения, однако, в образцах…",
+          "url": "https://scpfoundation.net/scp-3199",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-3448",
-          "title": "SCP-3448 - Полусмертие",
-          "blurb": "Предмет — SCP-3448 является средством связи, разработанным и созданным \"Проектом Даммерунг\".",
-          "url": "https://scpfoundation.net/scp-3448",
+          "itemId": "scp-series-990",
+          "title": "SCP-990 - Человек из снов",
+          "blurb": "Гуманоид × Разумное — SCP-990 - это, в целом, мужчина, одетый в деловой костюм времён Холодной войны, который является сотрудникам Фонда во сн…",
+          "url": "https://scpfoundation.net/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-3790",
-          "title": "SCP-3790 - Департамент аномалий",
-          "blurb": "Предмет — SCP-3790 – это конструкция, расположенная под складом портового консервного завода в Лондоне, Соединенное Королевство.",
-          "url": "https://scpfoundation.net/scp-3790",
+          "itemId": "scp-series-1504",
+          "title": "SCP-1504 - Никто и звать никак",
+          "blurb": "Гуманоид × Разумное — предмета: Ничем не примечательный мужчина, которому невозможно причинить вред.",
+          "url": "https://scpfoundation.net/scp-1504",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-738",
-          "title": "SCP-738 - Сделка с дьяволом",
-          "blurb": "Предмет — SCP-738 состоит из трёх частей и представляет собой набор мебели из красного дерева, в который входят один (1) стол, обо…",
-          "url": "https://scpfoundation.net/scp-738",
+          "itemId": "scp-series-3812",
+          "title": "SCP-3812 - Голос позади меня",
+          "blurb": "Гуманоид × Разумное — SCP-3812 -- это сущность, изменяющая реальность.",
+          "url": "https://scpfoundation.net/scp-3812",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-330",
-          "title": "SCP-330 - «Не берите больше двух»",
-          "blurb": "Предмет — SCP-330 выглядит как круглая вазочка из нержавеющей стали, наполненная множеством различных конфет, предназначенных для …",
-          "url": "https://scpfoundation.net/scp-330",
+          "itemId": "scp-series-032",
+          "title": "SCP-032 - Невеста Братьев",
+          "blurb": "Гуманоид × Разумное — SCP-032 - симулякр человека неизвестного происхождения типа F (частичное внешнее сходство, несоответствие внутреннего со…",
+          "url": "https://scpfoundation.net/scp-032",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

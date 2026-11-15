@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Гуманоїд × Біологічне",
-      "introduction": "Дослідіть тему «Гуманоїд × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "title": "Просторове",
+      "introduction": "Дослідіть тему «Просторове» та порівняйте спільні риси й відмінності цих аномалій.",
       "articles": [
         {
-          "itemId": "scp-series-096",
-          "title": "Сором'язливий",
-          "blurb": "Гуманоїд × Біологічне — SCP-096 – гуманоїдна істота зростом приблизно 2,38 м.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-096",
+          "itemId": "scp-series-087",
+          "title": "Сходи",
+          "blurb": "Просторове — SCP-087 являє собою неосвітлену сходову кліть.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-049",
-          "title": "Чумний лікар",
-          "blurb": "Гуманоїд × Біологічне — SCP-049 — це гуманоїд, приблизно 1.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-049",
+          "itemId": "scp-series-354",
+          "title": "Багряний Став",
+          "blurb": "Просторове — SCP-354 – це невелика водойма червоної рідини, виявлена на півночі Канади.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Авель\"",
-          "blurb": "Гуманоїд × Біологічне — SCP-076 складається з двох частин: кам'яний куб, далі - SCP-076-1, та гуманоїд, який знаходиться всередині SCP-076-1 - д…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-076",
+          "itemId": "scp-series-3001",
+          "title": "Червона реальність",
+          "blurb": "Просторове — SCP-3001 - це гіпотетичний парадоксальний паралельний/кишеньковий \"не вимір\", доступний через створення короткочасної кр…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-105",
-          "title": "\"Айріс\"",
-          "blurb": "Гуманоїд × Біологічне — SCP-105 (раніше відома як Айріс Томпсон) є жінкою європеоїдної зовнішності.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-105",
+          "itemId": "scp-series-004",
+          "title": "12 іржавих ключів і двері",
+          "blurb": "Просторове — SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Особливі вимоги до персоналу",
-          "blurb": "Гуманоїд × Біологічне — SCP-231-7 - це █████ жіночого роду віком між █ та ██ років, З [ДАНІ ВИДАЛЕНО].",
-          "url": "http://scp-ukrainian.wikidot.com/scp-231",
+          "itemId": "scp-series-1322",
+          "title": "Шпаринка",
+          "blurb": "Просторове — SCP-1322 – це стабільна просторово-часова аномалія, яка, згідно з поточною гіпотезою, є міжпросторовим порталом, що веде…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1322",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-082",
-          "title": "\"Фернанд\", людожер",
-          "blurb": "Гуманоїд × Біологічне — Генетично SCP-082 є людиною; проте через невідомий процес (хімічний, гормональний, раковий або надприродний) він виріс д…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-082",
+          "itemId": "scp-series-6000",
+          "title": "Змій, Мус та Бібліотека Мандрівників",
+          "blurb": "Просторове — A ROUNDERHOUSE Joint ЗА НАКАЗОМ РАДИ НАГЛЯДАЧІВ Наступний документ потребує рівня допуску 4/6000.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-6000",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-2133",
-          "title": "Наша земля, Наша неволя",
-          "blurb": "Гуманоїд × Біологічне — SCP-2133 — це безіменне село на Північному Уралі, у якому, за оцінками, проживає близько п'ятдесяти осіб, хоча точну циф…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-2133",
+          "itemId": "scp-series-1437",
+          "title": "Діра в інше місце",
+          "blurb": "Просторове — SCP-1437 – це, судячи з усього, бездонний отвір розмірами 3 x 3 м, розташований у пустелі ██████.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1437",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1440",
-          "title": "Старий нізвідки",
-          "blurb": "Гуманоїд × Біологічне — SCP-1440 – це чоловік невідомого етносу і віку.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-1440",
+          "itemId": "scp-series-3379",
+          "title": "D-11424 та Арктична М'ясна діра нескінчених див",
+          "blurb": "Просторове — SCP-3379 - це прямокутний портал, який знаходиться на відстані приблизно в 8 метрів під водною поверхнею в арктичному ок…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3379",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Гуманоїд × Розумне",
-      "introduction": "Дослідіть тему «Гуманоїд × Розумне» та порівняйте спільні риси й відмінності цих аномалій.",
+      "title": "Артефакт",
+      "introduction": "Дослідіть тему «Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
       "articles": [
         {
-          "itemId": "scp-series-106",
-          "title": "Старий",
-          "blurb": "Гуманоїд × Розумне — SCP-106 виглядає як гуманоїд, схожий на людину похилого віку з загальними ознаками гниття.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-106",
+          "itemId": "scp-series-ua-019",
+          "title": "Апарат для копіювання особистості",
+          "blurb": "Артефакт — SCP-019-UA виглядає як зроблений з темно-фіолетового подібного до каменю матеріалу предмет форми двобічно симетричного б…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-019-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-2669",
-          "title": "Кебтеул 1",
-          "blurb": "Гуманоїд × Розумне — SCP-2669 - це космічний зонд Кебтеул 1, розроблений, сконструйований і запущений Фондом у 2004 році в якості частини про…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
+          "itemId": "scp-series-093",
+          "title": "Об'єкт з Червоного моря",
+          "blurb": "Артефакт — SCP-093 виглядає як диск здебільшого червоного кольору, вирубаний з шаруватого каменю, що нагадує кіновар, та покритий к…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-179",
-          "title": "Сестра Сонця",
-          "blurb": "Гуманоїд × Розумне — SCP-179 являє собою гуманоїдну істоту, яка знаходиться на постійній відстані близько 40 000 км від південної полярної об…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-179",
+          "itemId": "scp-series-ua-004",
+          "title": "Дзеркало двійника",
+          "blurb": "Артефакт — SCP-004-UA має вигляд золотого ручного дзеркала.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-085",
-          "title": "Намальована \"Кассі\"",
-          "blurb": "Гуманоїд × Розумне — SCP-085 є результатом експерименту між SCP-067 і SCP-914.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-085",
+          "itemId": "scp-series-ua-100",
+          "title": "Анігілістичний підхід до святості",
+          "blurb": "Артефакт — Об'єкт становить собою 5 зашморгів різної довжини (від 3 до 12 шлагів), перев'язані між собою та скріплені мідними ромба…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-100-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-239",
-          "title": "Маленька відьма",
-          "blurb": "Гуманоїд × Розумне — SCP-239 виглядає, як 8-річна дівчинка зростом 1 метр і вагою 20 кілограмів.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-239",
+          "itemId": "scp-series-ua-025",
+          "title": "Дримба",
+          "blurb": "Артефакт — SCP-025-UA — це дугова одноязичкова дримба традиційна для Карпатських малих народностей.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-025-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Снігова людина",
-          "blurb": "Гуманоїд × Розумне — SCP-1000 це нічна всеїдна тварина, відноситься до триби Hominini, до якої також відносяться роди Pan та Homo.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-1000",
+          "itemId": "scp-series-ua-059",
+          "title": "Паперова кішка",
+          "blurb": "Артефакт — Об'єкт становить собою паперову скульптуру у формі кішки, розфарбовану акварельними фарбами для імітації чорно-білої шер…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-059-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-507",
-          "title": "Вимушений мандрівник світами",
-          "blurb": "Гуманоїд × Розумне — SCP-507 виглядає як чоловік європеоїдної зовнішності з білявим волоссям та зеленими очима, без особливих прикмет, окрім …",
-          "url": "http://scp-ukrainian.wikidot.com/scp-507",
+          "itemId": "scp-series-ua-007",
+          "title": "Ніж голодного",
+          "blurb": "Артефакт — SCP-007-UA — це ніж невідомого походження, виготовлений у XIX сторіччі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-007-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-208",
-          "title": "\"Бес\"",
-          "blurb": "Гуманоїд × Розумне — SCP-208 виглядає як невисокий огрядний чоловік єгипетської зовнішності.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-208",
+          "itemId": "scp-series-ua-126",
+          "title": "Маска кози",
+          "blurb": "Артефакт — SCP-126-UA складається з двох окремих частин та разом являє собою різдвяний обрядовий костюм для щедрування та “Водіння …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-126-ua",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Просторове",
-      "introduction": "Дослідіть тему «Просторове» та порівняйте спільні риси й відмінності цих аномалій.",
+      "title": "Гуманоїд × Біологічне",
+      "introduction": "Дослідіть тему «Гуманоїд × Біологічне» та порівняйте спільні риси й відмінності цих аномалій.",
       "articles": [
         {
-          "itemId": "scp-series-087",
-          "title": "Сходи",
-          "blurb": "Просторове — SCP-087 являє собою неосвітлену сходову кліть.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-087",
+          "itemId": "scp-series-096",
+          "title": "Сором'язливий",
+          "blurb": "Гуманоїд × Біологічне — SCP-096 – гуманоїдна істота зростом приблизно 2,38 м.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-096",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "Багряний Став",
-          "blurb": "Просторове — SCP-354 – це невелика водойма червоної рідини, виявлена на півночі Канади.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-354",
+          "itemId": "scp-series-049",
+          "title": "Чумний лікар",
+          "blurb": "Гуманоїд × Біологічне — SCP-049 — це гуманоїд, приблизно 1.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-049",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Червона реальність",
-          "blurb": "Просторове — SCP-3001 - це гіпотетичний парадоксальний паралельний/кишеньковий \"не вимір\", доступний через створення короткочасної кр…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-3001",
+          "itemId": "scp-series-076",
+          "title": "\"Авель\"",
+          "blurb": "Гуманоїд × Біологічне — SCP-076 складається з двох частин: кам'яний куб, далі - SCP-076-1, та гуманоїд, який знаходиться всередині SCP-076-1 - д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "12 іржавих ключів і двері",
-          "blurb": "Просторове — SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-004",
+          "itemId": "scp-series-105",
+          "title": "\"Айріс\"",
+          "blurb": "Гуманоїд × Біологічне — SCP-105 (раніше відома як Айріс Томпсон) є жінкою європеоїдної зовнішності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-105",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1322",
-          "title": "Шпаринка",
-          "blurb": "Просторове — SCP-1322 – це стабільна просторово-часова аномалія, яка, згідно з поточною гіпотезою, є міжпросторовим порталом, що веде…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-1322",
+          "itemId": "scp-series-231",
+          "title": "Особливі вимоги до персоналу",
+          "blurb": "Гуманоїд × Біологічне — SCP-231-7 - це █████ жіночого роду віком між █ та ██ років, З [ДАНІ ВИДАЛЕНО].",
+          "url": "http://scp-ukrainian.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6000",
-          "title": "Змій, Мус та Бібліотека Мандрівників",
-          "blurb": "Просторове — A ROUNDERHOUSE Joint ЗА НАКАЗОМ РАДИ НАГЛЯДАЧІВ Наступний документ потребує рівня допуску 4/6000.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-6000",
+          "itemId": "scp-series-082",
+          "title": "\"Фернанд\", людожер",
+          "blurb": "Гуманоїд × Біологічне — Генетично SCP-082 є людиною; проте через невідомий процес (хімічний, гормональний, раковий або надприродний) він виріс д…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-082",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1437",
-          "title": "Діра в інше місце",
-          "blurb": "Просторове — SCP-1437 – це, судячи з усього, бездонний отвір розмірами 3 x 3 м, розташований у пустелі ██████.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-1437",
+          "itemId": "scp-series-2133",
+          "title": "Наша земля, Наша неволя",
+          "blurb": "Гуманоїд × Біологічне — SCP-2133 — це безіменне село на Північному Уралі, у якому, за оцінками, проживає близько п'ятдесяти осіб, хоча точну циф…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2133",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3379",
-          "title": "D-11424 та Арктична М'ясна діра нескінчених див",
-          "blurb": "Просторове — SCP-3379 - це прямокутний портал, який знаходиться на відстані приблизно в 8 метрів під водною поверхнею в арктичному ок…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-3379",
+          "itemId": "scp-series-1440",
+          "title": "Старий нізвідки",
+          "blurb": "Гуманоїд × Біологічне — SCP-1440 – це чоловік невідомого етносу і віку.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1440",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -2577,81 +2569,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Артефакт",
-      "introduction": "Дослідіть тему «Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "title": "Гуманоїд × Розумне",
+      "introduction": "Дослідіть тему «Гуманоїд × Розумне» та порівняйте спільні риси й відмінності цих аномалій.",
       "articles": [
         {
-          "itemId": "scp-series-ua-019",
-          "title": "Апарат для копіювання особистості",
-          "blurb": "Артефакт — SCP-019-UA виглядає як зроблений з темно-фіолетового подібного до каменю матеріалу предмет форми двобічно симетричного б…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-019-ua",
+          "itemId": "scp-series-106",
+          "title": "Старий",
+          "blurb": "Гуманоїд × Розумне — SCP-106 виглядає як гуманоїд, схожий на людину похилого віку з загальними ознаками гниття.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-106",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Об'єкт з Червоного моря",
-          "blurb": "Артефакт — SCP-093 виглядає як диск здебільшого червоного кольору, вирубаний з шаруватого каменю, що нагадує кіновар, та покритий к…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-093",
+          "itemId": "scp-series-2669",
+          "title": "Кебтеул 1",
+          "blurb": "Гуманоїд × Розумне — SCP-2669 - це космічний зонд Кебтеул 1, розроблений, сконструйований і запущений Фондом у 2004 році в якості частини про…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-ua-004",
-          "title": "Дзеркало двійника",
-          "blurb": "Артефакт — SCP-004-UA має вигляд золотого ручного дзеркала.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-004-ua",
+          "itemId": "scp-series-179",
+          "title": "Сестра Сонця",
+          "blurb": "Гуманоїд × Розумне — SCP-179 являє собою гуманоїдну істоту, яка знаходиться на постійній відстані близько 40 000 км від південної полярної об…",
+          "url": "http://scp-ukrainian.wikidot.com/scp-179",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-ua-100",
-          "title": "Анігілістичний підхід до святості",
-          "blurb": "Артефакт — Об'єкт становить собою 5 зашморгів різної довжини (від 3 до 12 шлагів), перев'язані між собою та скріплені мідними ромба…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-100-ua",
+          "itemId": "scp-series-085",
+          "title": "Намальована \"Кассі\"",
+          "blurb": "Гуманоїд × Розумне — SCP-085 є результатом експерименту між SCP-067 і SCP-914.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-085",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-ua-025",
-          "title": "Дримба",
-          "blurb": "Артефакт — SCP-025-UA — це дугова одноязичкова дримба традиційна для Карпатських малих народностей.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-025-ua",
+          "itemId": "scp-series-239",
+          "title": "Маленька відьма",
+          "blurb": "Гуманоїд × Розумне — SCP-239 виглядає, як 8-річна дівчинка зростом 1 метр і вагою 20 кілограмів.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-239",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-ua-059",
-          "title": "Паперова кішка",
-          "blurb": "Артефакт — Об'єкт становить собою паперову скульптуру у формі кішки, розфарбовану акварельними фарбами для імітації чорно-білої шер…",
-          "url": "http://scp-ukrainian.wikidot.com/scp-059-ua",
+          "itemId": "scp-series-1000",
+          "title": "Снігова людина",
+          "blurb": "Гуманоїд × Розумне — SCP-1000 це нічна всеїдна тварина, відноситься до триби Hominini, до якої також відносяться роди Pan та Homo.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1000",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-ua-007",
-          "title": "Ніж голодного",
-          "blurb": "Артефакт — SCP-007-UA — це ніж невідомого походження, виготовлений у XIX сторіччі.",
-          "url": "http://scp-ukrainian.wikidot.com/scp-007-ua",
+          "itemId": "scp-series-507",
+          "title": "Вимушений мандрівник світами",
+          "blurb": "Гуманоїд × Розумне — SCP-507 виглядає як чоловік європеоїдної зовнішності з білявим волоссям та зеленими очима, без особливих прикмет, окрім …",
+          "url": "http://scp-ukrainian.wikidot.com/scp-507",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-ua-126",
-          "title": "Маска кози",
-          "blurb": "Артефакт — SCP-126-UA складається з двох окремих частин та разом являє собою різдвяний обрядовий костюм для щедрування та “Водіння …",
-          "url": "http://scp-ukrainian.wikidot.com/scp-126-ua",
+          "itemId": "scp-series-208",
+          "title": "\"Бес\"",
+          "blurb": "Гуманоїд × Розумне — SCP-208 виглядає як невисокий огрядний чоловік єгипетської зовнішності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-208",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

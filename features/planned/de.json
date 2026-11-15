@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoid × Biologisch",
-      "introduction": "Entdecke das Thema „Humanoid × Biologisch“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
+      "title": "Räumlich",
+      "introduction": "Entdecke das Thema „Räumlich“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
       "articles": [
         {
-          "itemId": "scp-series-5999",
-          "title": "Hier bin ich gestorben",
-          "blurb": "Humanoid × Biologisch — Vertonungen Inhaltswarnung Weitere Lizenzhinweise ⚠ WARNUNG: NICHT FORTFAHREN ⚠ >",
-          "url": "http://scp-wiki-de.wikidot.com/scp-5999",
+          "itemId": "scp-series-de-050",
+          "title": "Für das größere Wohl",
+          "blurb": "Räumlich — SCP-050-DE ist ein modifizierter Northrop B-2 Spirit Langstreckenbomber, der durch eine KI gesteuert wird.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-050-de",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "\"Gott\"",
-          "blurb": "Humanoid × Biologisch — SCP-343 hat die Erscheinung eines männlichen Humanoiden ohne näher identifizierbare Ethnie, und besitzt scheinbar Omnipo…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-343",
+          "itemId": "scp-series-de-250",
+          "title": "Bielefeld? Das gibt es doch gar nicht (mehr).",
+          "blurb": "Räumlich — SCP-250-DE ist eine 75 cm durchmessender Kugel aus einem unbekannten Material.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-250-de",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Spezielle Personalanforderungen",
-          "blurb": "Humanoid × Biologisch — SCP-231-7 ist eine █████ Frau im Alter von █ bis ██ Jahren mit [DATEN GELÖSCHT].",
-          "url": "http://scp-wiki-de.wikidot.com/scp-231",
+          "itemId": "scp-series-de-299",
+          "title": "Was die Zukunft birgt",
+          "blurb": "Räumlich — SCP-299-DE beschreibt eine Vielzahl von Zivilisationen, die, laut bisher erhaltenen Daten, offenbar in ferner Zukunft ex…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-299-de",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5031",
-          "title": "Noch ein weiteres Mördermonster",
-          "blurb": "Humanoid × Biologisch — SCP-5031 ist eine nicht-menschliche, quasi-humanoide Kreatur unbekannter Herkunft.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-5031",
+          "itemId": "scp-series-087",
+          "title": "Das Treppenhaus",
+          "blurb": "Räumlich — SCP-087 ist ein unbeleuchtetes Treppenhaus.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-de-148",
-          "title": "Blauer Schleim [Level 25]",
-          "blurb": "Humanoid × Biologisch — SCP-148-DE ist ein unerforschter Organismus, welches aus einer bläulich, viskosen Masse besteht.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-148-de",
+          "itemId": "scp-series-1730",
+          "title": "Was ist mit Standort-13 passiert?",
+          "blurb": "Räumlich — SCP-1730 ist ein großer Gebäudekomplex, welcher sich 15 km nordwestlich der US-mexikanischen Grenze im Big Bend Ranch St…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Bigfoot",
-          "blurb": "Humanoid × Biologisch — SCP-1000 ist ein nachtaktiver, allesfressender Affe, der zusammen mit den Gattungen Homo und Pan dem Tribus Homini zugeo…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-1000",
+          "itemId": "scp-series-004",
+          "title": "12 rostige Schlüssel und die Tür",
+          "blurb": "Räumlich — SCP-004 besteht aus einer alten, hölzernen Scheunentür (SCP-004-1) und einem Set aus zwölf (12) rostigen Stahlschlüsseln…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Abel\"",
-          "blurb": "Humanoid × Biologisch — SCP-076 besteht aus zwei Einzelteilen: einem Steinwürfel (SCP-076-1) und einem menschlichen Wesen im Inneren des Würfels…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-076",
+          "itemId": "scp-series-3001",
+          "title": "Rote Realität",
+          "blurb": "Räumlich — SCP-3001 ist eine hypothetische, paradoxe Parallel/Taschen-\"Nondimension\", die durch die Generierung eines kurzzeitigen …",
+          "url": "http://scp-wiki-de.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-007",
-          "title": "Bauch-Planet",
-          "blurb": "Humanoid × Biologisch — SCP-007 befindet sich in einer Öffnung im Unterleib des Subjekts.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-007",
+          "itemId": "scp-series-6500",
+          "title": "Unvermeidbar",
+          "blurb": "Räumlich — Vertonungen AUF BEFEHL DES OVERWATCH-KOMMANDOS Diese Datei wurde für das gesamte Personal freigegeben.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-6500",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoid × Intelligent",
-      "introduction": "Entdecke das Thema „Humanoid × Intelligent“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
+      "title": "Artefakt",
+      "introduction": "Entdecke das Thema „Artefakt“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
       "articles": [
         {
-          "itemId": "scp-series-de-032",
-          "title": "Informant",
-          "blurb": "Humanoid × Intelligent — SCP-032-DE ist ein etwa äußerlich ~30 Jahre alter, 172-cm großer, weißhäutiger Mann mit kurzen, schwarzen Haaren.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-032-de",
+          "itemId": "scp-series-de-177",
+          "title": "Die Rungholt-Scherbe",
+          "blurb": "Artefakt — Bei SCP-177-DE handelt es sich um ein vasenartiges Gefäß, dessen bisher gefundene Bruchstücke (fortan als SCP-177-DE-A b…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-177-de",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-186",
-          "title": "Die wahre Bedeutung von Weihnachten",
-          "blurb": "Humanoid × Intelligent — SCP-186-DE ist eine Entität mit dem Aussehen eines älteren Mannes, der ein klassisches Weihnachtskostüm trägt, inklusive…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-186-de",
+          "itemId": "scp-series-895",
+          "title": "Kamerastörung",
+          "blurb": "Artefakt — SCP-895 ist ein kunstvoll verzierter Eichensarg, der aufgrund von Berichten über ungewöhnliches Videomaterial auf den Üb…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-171",
-          "title": "\"Gratis\"-Chirurgin",
-          "blurb": "Humanoid × Intelligent — SCP-171-DE ist eine Frau unbestimmbaren Alters, ehemals bekannt als █████ ███████.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-171-de",
+          "itemId": "scp-series-093",
+          "title": "Rotes Meer Objekt",
+          "blurb": "Artefakt — SCP-093 ist eine aus Stein geschnitzte, überwiegend rötliche Scheibe, dessen Material in seiner Beschaffenheit Cinnabari…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-140",
-          "title": "Morts volantes",
-          "blurb": "Humanoid × Intelligent — Viktor E█████, im Folgenden als SCP-140-DE-1 bezeichnet, ist ein 22-jähriger Mann westeuropäischen Typs.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-140-de",
+          "itemId": "scp-series-860",
+          "title": "Blauer Schlüssel",
+          "blurb": "Artefakt — SCP-860 ist ein dunkelblauer Schlüssel von unscheinbarer Form.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-860",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-026",
-          "title": "Des Reimes Tod",
-          "blurb": "Humanoid × Intelligent — SCP-026-DE ist ein 1,74 Meter großes, 52 Kilogramm schweres, humanoides Wesen.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-026-de",
+          "itemId": "scp-series-500",
+          "title": "Panazee",
+          "blurb": "Artefakt — SCP-500 ist eine kleine Plastikdose, die zum Zeitpunkt dieses Eintrags siebenundvierzig (47) rote Tabletten enthält.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-057",
-          "title": "Lazarus",
-          "blurb": "Humanoid × Intelligent — SCP-057-DE bezieht sich auf einen männlichen Menschen, der die Körperenergie, folgend Vitalität genannt, von lebenden In…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-057-de",
+          "itemId": "scp-series-de-014",
+          "title": "Ring der Bestie",
+          "blurb": "Artefakt — SCP-014-DE ist ein aus Silber gefertigter Ring, welcher einen aufwendig verzierten Kopf einer nicht identifizierten Krea…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-014-de",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-144",
-          "title": "Elementargolem",
-          "blurb": "Humanoid × Intelligent — SCP-144-DE beschreibt eine Spezies menschenartiger, leuchtender Entitäten, welche weder Gesichts- noch Geschlechtsmerkma…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-144-de",
+          "itemId": "scp-series-348",
+          "title": "Ein Geschenk von Papa",
+          "blurb": "Artefakt — SCP-348 ist eine weiße Keramikschale mit hellblauem Blumenmuster, die ungefähr 20 cm im Durchmesser und 9 cm hoch ist.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-348",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-de-051",
-          "title": "Mr. Schnuller",
-          "blurb": "Humanoid × Intelligent — SCP-051-DE ist ein 1,60 Meter großes humanoides Wesen, welches aus einem losen Gefüge von Wattefasern und Fäden besteht.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-051-de",
+          "itemId": "scp-series-de-163",
+          "title": "Segnendes/verfluchendes Triptychon",
+          "blurb": "Artefakt — SCP-163-DE ist eine um etwa die Hälfte verkleinerte Variante des berühmten Triptychons \"Das jüngste Gericht\" von Hans Me…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-163-de",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Räumlich",
-      "introduction": "Entdecke das Thema „Räumlich“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
+      "title": "Humanoid × Biologisch",
+      "introduction": "Entdecke das Thema „Humanoid × Biologisch“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
       "articles": [
         {
-          "itemId": "scp-series-de-050",
-          "title": "Für das größere Wohl",
-          "blurb": "Räumlich — SCP-050-DE ist ein modifizierter Northrop B-2 Spirit Langstreckenbomber, der durch eine KI gesteuert wird.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-050-de",
+          "itemId": "scp-series-5999",
+          "title": "Hier bin ich gestorben",
+          "blurb": "Humanoid × Biologisch — Vertonungen Inhaltswarnung Weitere Lizenzhinweise ⚠ WARNUNG: NICHT FORTFAHREN ⚠ >",
+          "url": "http://scp-wiki-de.wikidot.com/scp-5999",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-de-250",
-          "title": "Bielefeld? Das gibt es doch gar nicht (mehr).",
-          "blurb": "Räumlich — SCP-250-DE ist eine 75 cm durchmessender Kugel aus einem unbekannten Material.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-250-de",
+          "itemId": "scp-series-343",
+          "title": "\"Gott\"",
+          "blurb": "Humanoid × Biologisch — SCP-343 hat die Erscheinung eines männlichen Humanoiden ohne näher identifizierbare Ethnie, und besitzt scheinbar Omnipo…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-de-299",
-          "title": "Was die Zukunft birgt",
-          "blurb": "Räumlich — SCP-299-DE beschreibt eine Vielzahl von Zivilisationen, die, laut bisher erhaltenen Daten, offenbar in ferner Zukunft ex…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-299-de",
+          "itemId": "scp-series-231",
+          "title": "Spezielle Personalanforderungen",
+          "blurb": "Humanoid × Biologisch — SCP-231-7 ist eine █████ Frau im Alter von █ bis ██ Jahren mit [DATEN GELÖSCHT].",
+          "url": "http://scp-wiki-de.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-087",
-          "title": "Das Treppenhaus",
-          "blurb": "Räumlich — SCP-087 ist ein unbeleuchtetes Treppenhaus.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-087",
+          "itemId": "scp-series-5031",
+          "title": "Noch ein weiteres Mördermonster",
+          "blurb": "Humanoid × Biologisch — SCP-5031 ist eine nicht-menschliche, quasi-humanoide Kreatur unbekannter Herkunft.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-5031",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "Was ist mit Standort-13 passiert?",
-          "blurb": "Räumlich — SCP-1730 ist ein großer Gebäudekomplex, welcher sich 15 km nordwestlich der US-mexikanischen Grenze im Big Bend Ranch St…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-1730",
+          "itemId": "scp-series-de-148",
+          "title": "Blauer Schleim [Level 25]",
+          "blurb": "Humanoid × Biologisch — SCP-148-DE ist ein unerforschter Organismus, welches aus einer bläulich, viskosen Masse besteht.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-148-de",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "12 rostige Schlüssel und die Tür",
-          "blurb": "Räumlich — SCP-004 besteht aus einer alten, hölzernen Scheunentür (SCP-004-1) und einem Set aus zwölf (12) rostigen Stahlschlüsseln…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-004",
+          "itemId": "scp-series-1000",
+          "title": "Bigfoot",
+          "blurb": "Humanoid × Biologisch — SCP-1000 ist ein nachtaktiver, allesfressender Affe, der zusammen mit den Gattungen Homo und Pan dem Tribus Homini zugeo…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Rote Realität",
-          "blurb": "Räumlich — SCP-3001 ist eine hypothetische, paradoxe Parallel/Taschen-\"Nondimension\", die durch die Generierung eines kurzzeitigen …",
-          "url": "http://scp-wiki-de.wikidot.com/scp-3001",
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Humanoid × Biologisch — SCP-076 besteht aus zwei Einzelteilen: einem Steinwürfel (SCP-076-1) und einem menschlichen Wesen im Inneren des Würfels…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6500",
-          "title": "Unvermeidbar",
-          "blurb": "Räumlich — Vertonungen AUF BEFEHL DES OVERWATCH-KOMMANDOS Diese Datei wurde für das gesamte Personal freigegeben.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-6500",
+          "itemId": "scp-series-007",
+          "title": "Bauch-Planet",
+          "blurb": "Humanoid × Biologisch — SCP-007 befindet sich in einer Öffnung im Unterleib des Subjekts.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-007",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefakt",
-      "introduction": "Entdecke das Thema „Artefakt“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
+      "title": "Humanoid × Intelligent",
+      "introduction": "Entdecke das Thema „Humanoid × Intelligent“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
       "articles": [
         {
-          "itemId": "scp-series-de-177",
-          "title": "Die Rungholt-Scherbe",
-          "blurb": "Artefakt — Bei SCP-177-DE handelt es sich um ein vasenartiges Gefäß, dessen bisher gefundene Bruchstücke (fortan als SCP-177-DE-A b…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-177-de",
+          "itemId": "scp-series-de-032",
+          "title": "Informant",
+          "blurb": "Humanoid × Intelligent — SCP-032-DE ist ein etwa äußerlich ~30 Jahre alter, 172-cm großer, weißhäutiger Mann mit kurzen, schwarzen Haaren.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-032-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-895",
-          "title": "Kamerastörung",
-          "blurb": "Artefakt — SCP-895 ist ein kunstvoll verzierter Eichensarg, der aufgrund von Berichten über ungewöhnliches Videomaterial auf den Üb…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-895",
+          "itemId": "scp-series-de-186",
+          "title": "Die wahre Bedeutung von Weihnachten",
+          "blurb": "Humanoid × Intelligent — SCP-186-DE ist eine Entität mit dem Aussehen eines älteren Mannes, der ein klassisches Weihnachtskostüm trägt, inklusive…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-186-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Rotes Meer Objekt",
-          "blurb": "Artefakt — SCP-093 ist eine aus Stein geschnitzte, überwiegend rötliche Scheibe, dessen Material in seiner Beschaffenheit Cinnabari…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-093",
+          "itemId": "scp-series-de-171",
+          "title": "\"Gratis\"-Chirurgin",
+          "blurb": "Humanoid × Intelligent — SCP-171-DE ist eine Frau unbestimmbaren Alters, ehemals bekannt als █████ ███████.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-171-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-860",
-          "title": "Blauer Schlüssel",
-          "blurb": "Artefakt — SCP-860 ist ein dunkelblauer Schlüssel von unscheinbarer Form.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-860",
+          "itemId": "scp-series-de-140",
+          "title": "Morts volantes",
+          "blurb": "Humanoid × Intelligent — Viktor E█████, im Folgenden als SCP-140-DE-1 bezeichnet, ist ein 22-jähriger Mann westeuropäischen Typs.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-140-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "Panazee",
-          "blurb": "Artefakt — SCP-500 ist eine kleine Plastikdose, die zum Zeitpunkt dieses Eintrags siebenundvierzig (47) rote Tabletten enthält.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-500",
+          "itemId": "scp-series-de-026",
+          "title": "Des Reimes Tod",
+          "blurb": "Humanoid × Intelligent — SCP-026-DE ist ein 1,74 Meter großes, 52 Kilogramm schweres, humanoides Wesen.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-026-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-de-014",
-          "title": "Ring der Bestie",
-          "blurb": "Artefakt — SCP-014-DE ist ein aus Silber gefertigter Ring, welcher einen aufwendig verzierten Kopf einer nicht identifizierten Krea…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-014-de",
+          "itemId": "scp-series-de-057",
+          "title": "Lazarus",
+          "blurb": "Humanoid × Intelligent — SCP-057-DE bezieht sich auf einen männlichen Menschen, der die Körperenergie, folgend Vitalität genannt, von lebenden In…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-057-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-348",
-          "title": "Ein Geschenk von Papa",
-          "blurb": "Artefakt — SCP-348 ist eine weiße Keramikschale mit hellblauem Blumenmuster, die ungefähr 20 cm im Durchmesser und 9 cm hoch ist.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-348",
+          "itemId": "scp-series-de-144",
+          "title": "Elementargolem",
+          "blurb": "Humanoid × Intelligent — SCP-144-DE beschreibt eine Spezies menschenartiger, leuchtender Entitäten, welche weder Gesichts- noch Geschlechtsmerkma…",
+          "url": "http://scp-wiki-de.wikidot.com/scp-144-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-de-163",
-          "title": "Segnendes/verfluchendes Triptychon",
-          "blurb": "Artefakt — SCP-163-DE ist eine um etwa die Hälfte verkleinerte Variante des berühmten Triptychons \"Das jüngste Gericht\" von Hans Me…",
-          "url": "http://scp-wiki-de.wikidot.com/scp-163-de",
+          "itemId": "scp-series-de-051",
+          "title": "Mr. Schnuller",
+          "blurb": "Humanoid × Intelligent — SCP-051-DE ist ein 1,60 Meter großes humanoides Wesen, welches aus einem losen Gefüge von Wattefasern und Fäden besteht.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-051-de",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

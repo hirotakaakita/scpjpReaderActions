@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoid × Biological",
-      "introduction": "Explore Humanoid × Biological: compare what these SCPs have in common and how their anomalies differ.",
+      "title": "Spatial",
+      "introduction": "Explore Spatial: compare what these SCPs have in common and how their anomalies differ.",
       "articles": [
         {
-          "itemId": "scp-series-1000",
-          "title": "Bigfoot",
-          "blurb": "Humanoid × Biological — SCP-1000 is a nocturnal, omnivorous ape, classified in the Hominini branch along with genera Pan and Homo.",
-          "url": "https://scp-wiki.wikidot.com/scp-1000",
+          "itemId": "scp-series-087",
+          "title": "The Stairwell",
+          "blurb": "Spatial — SCP-087 is an unlit platform staircase.",
+          "url": "https://scp-wiki.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Able\"",
-          "blurb": "Humanoid × Biological — SCP-076 consists of two components: a stone cube (SCP-076-1) and a humanoid entity contained within (SCP-076-2).",
-          "url": "https://scp-wiki.wikidot.com/scp-076",
+          "itemId": "scp-series-3001",
+          "title": "Red Reality",
+          "blurb": "Spatial — SCP-3001 is a hypothesized paradoxical parallel/pocket \"non-dimension\" accessible through the creation of a momentary Cl…",
+          "url": "https://scp-wiki.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5999",
-          "title": "This is Where I Died",
-          "blurb": "Humanoid × Biological — ⚠ WARNING: DO NOT CONTINUE ⚠ > .",
-          "url": "https://scp-wiki.wikidot.com/scp-5999",
+          "itemId": "scp-series-1730",
+          "title": "What Happened to Site-13?",
+          "blurb": "Spatial — SCP-1730 was a large complex of structures 15km northwest of the US/Mexico border within Big Bend Ranch State Park that …",
+          "url": "https://scp-wiki.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-507",
-          "title": "Reluctant Dimension Hopper",
-          "blurb": "Humanoid × Biological — SCP-507 is a Caucasian male with blond hair and green eyes, sporting no other outstanding characteristics besides being …",
-          "url": "https://scp-wiki.wikidot.com/scp-507",
+          "itemId": "scp-series-2935",
+          "title": "O, Death",
+          "blurb": "Spatial — SCP-2935 is a space-time anomaly existing within a limestone cave beneath a cemetery near Joppa, Indiana.",
+          "url": "https://scp-wiki.wikidot.com/scp-2935",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-2662",
-          "title": "cthulhu f'UCK OFF!",
-          "blurb": "Humanoid × Biological — SCP-2662 is a cognitohazardous entity approximately 4 meters in height and 200 kilograms in weight.",
-          "url": "https://scp-wiki.wikidot.com/scp-2662",
+          "itemId": "scp-series-354",
+          "title": "The Red Pool",
+          "blurb": "Spatial — SCP-354 is a pool of red liquid discovered in northern Canada.",
+          "url": "https://scp-wiki.wikidot.com/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1440",
-          "title": "The Old Man from Nowhere",
-          "blurb": "Humanoid × Biological — SCP-1440 is a man of unknown ethnicity and age.",
-          "url": "https://scp-wiki.wikidot.com/scp-1440",
+          "itemId": "scp-series-1425",
+          "title": "Star Signals",
+          "blurb": "Spatial — SCP-1425 is a hardcover book, measuring 20 cm x 35 cm x 5 cm and published in 2005 by the company [REDACTED] Books (now …",
+          "url": "https://scp-wiki.wikidot.com/scp-1425",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-073",
-          "title": "\"Cain\"",
-          "blurb": "Humanoid × Biological — SCP-073 appears to be a heavily-tanned male of Arabic or Middle Eastern descent in his early thirties, 185 cm (6'1\") tal…",
-          "url": "https://scp-wiki.wikidot.com/scp-073",
+          "itemId": "scp-series-1437",
+          "title": "A Hole to Another Place",
+          "blurb": "Spatial — SCP-1437 is an apparently endless hole measuring 3m x 3m, located in the ██████ Desert.",
+          "url": "https://scp-wiki.wikidot.com/scp-1437",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "\"God\"",
-          "blurb": "Humanoid × Biological — SCP-343 is a male, seemingly race-less, humanoid in appearance with apparent omnipotence.",
-          "url": "https://scp-wiki.wikidot.com/scp-343",
+          "itemId": "scp-series-184",
+          "title": "The Architect",
+          "blurb": "Spatial — SCP-184 is a small, smooth metallic object, 10 cm (4 in) tall and 10 cm (4 in) wide, in the shape of a dodecahedron.",
+          "url": "https://scp-wiki.wikidot.com/scp-184",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoid × Sentient",
-      "introduction": "Explore Humanoid × Sentient: compare what these SCPs have in common and how their anomalies differ.",
+      "title": "Artifact",
+      "introduction": "Explore Artifact: compare what these SCPs have in common and how their anomalies differ.",
       "articles": [
         {
-          "itemId": "scp-series-085",
-          "title": "Hand-drawn ''Cassy''",
-          "blurb": "Humanoid × Sentient — SCP-085 is the result of an experiment conducted between SCP-067 and SCP-914.",
-          "url": "https://scp-wiki.wikidot.com/scp-085",
+          "itemId": "scp-series-093",
+          "title": "Red Sea Object",
+          "blurb": "Artifact — SCP-093 is a primarily red disc carved from a stone composite resembling cinnabar, with circular engravings and unknown …",
+          "url": "https://scp-wiki.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-2030",
-          "title": "LA U GH IS F UN",
-          "blurb": "Humanoid × Sentient — SCP-2030 is an anomalous phenomenon that manifests as a television series.",
-          "url": "https://scp-wiki.wikidot.com/scp-2030",
+          "itemId": "scp-series-895",
+          "title": "Camera Disruption",
+          "blurb": "Artifact — SCP-895 is an ornate oak coffin recovered from the █████ █████ Mortuary by SCP personnel on ██/█/██, following reports o…",
+          "url": "https://scp-wiki.wikidot.com/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-990",
-          "title": "Dream Man",
-          "blurb": "Humanoid × Sentient — SCP-990 is generally a human male dressed in a Cold War era business suit who appears to Foundation personnel through dr…",
-          "url": "https://scp-wiki.wikidot.com/scp-990",
+          "itemId": "scp-series-348",
+          "title": "A Gift from Dad",
+          "blurb": "Artifact — SCP-348 is a white ceramic bowl patterned with light blue flowers, measuring approximately 20 cm in diameter and 9 cm hi…",
+          "url": "https://scp-wiki.wikidot.com/scp-348",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-8980",
-          "title": "Ergophobia: Without Regards",
-          "blurb": "Humanoid × Sentient — SCP-8980 is Lillian MarleyLillian Marley was a Level 3 Containment Specialist, and is currently employed by the SCP Foun…",
-          "url": "https://scp-wiki.wikidot.com/scp-8980",
+          "itemId": "scp-series-500",
+          "title": "Panacea",
+          "blurb": "Artifact — SCP-500 is a small plastic can which at the time of writing contains forty-seven (47) red pills.",
+          "url": "https://scp-wiki.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3002",
-          "title": "Attempts to Assassinate Thought",
-          "blurb": "Humanoid × Sentient — SCP-3002 refers to a specific memory shared by 85% of the prisoner population in the South Rock Penitentiary, located ne…",
-          "url": "https://scp-wiki.wikidot.com/scp-3002",
+          "itemId": "scp-series-2264",
+          "title": "In the Court of Alagadda",
+          "blurb": "Artifact — SCP-2264-A is a door composed of iron located within a hidden chamber beneath Martin Tower, a part of the Tower of Londo…",
+          "url": "https://scp-wiki.wikidot.com/scp-2264",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-179",
-          "title": "Sauelsuesor",
-          "blurb": "Humanoid × Sentient — SCP-179 is a humanoid entity located at a constant distance of approximately 40,000 km from the South polar region of th…",
-          "url": "https://scp-wiki.wikidot.com/scp-179",
+          "itemId": "scp-series-586",
+          "title": "Inscribable Object",
+          "blurb": "Artifact — SCP-586 is a smelt metallic object, pale green in color.",
+          "url": "https://scp-wiki.wikidot.com/scp-586",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-105",
-          "title": "\"Iris\"",
-          "blurb": "Humanoid × Sentient — SCP-105 (formerly known as Iris Thompson) is a female human of European descent.",
-          "url": "https://scp-wiki.wikidot.com/scp-105",
+          "itemId": "scp-series-738",
+          "title": "The Devil's Deal",
+          "blurb": "Artifact — SCP-738 consists of three components.",
+          "url": "https://scp-wiki.wikidot.com/scp-738",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3812",
-          "title": "A Voice Behind Me",
-          "blurb": "Humanoid × Sentient — SCP-3812 is a reality-altering entity.",
-          "url": "https://scp-wiki.wikidot.com/scp-3812",
+          "itemId": "scp-series-3790",
+          "title": "Department of Abnormalities",
+          "blurb": "Artifact — SCP-3790 is a structure located beneath the abandoned Port Superior Canning Company warehouse in London, United Kingdom.",
+          "url": "https://scp-wiki.wikidot.com/scp-3790",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Spatial",
-      "introduction": "Explore Spatial: compare what these SCPs have in common and how their anomalies differ.",
+      "title": "Humanoid × Biological",
+      "introduction": "Explore Humanoid × Biological: compare what these SCPs have in common and how their anomalies differ.",
       "articles": [
         {
-          "itemId": "scp-series-087",
-          "title": "The Stairwell",
-          "blurb": "Spatial — SCP-087 is an unlit platform staircase.",
-          "url": "https://scp-wiki.wikidot.com/scp-087",
+          "itemId": "scp-series-1000",
+          "title": "Bigfoot",
+          "blurb": "Humanoid × Biological — SCP-1000 is a nocturnal, omnivorous ape, classified in the Hominini branch along with genera Pan and Homo.",
+          "url": "https://scp-wiki.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Red Reality",
-          "blurb": "Spatial — SCP-3001 is a hypothesized paradoxical parallel/pocket \"non-dimension\" accessible through the creation of a momentary Cl…",
-          "url": "https://scp-wiki.wikidot.com/scp-3001",
+          "itemId": "scp-series-076",
+          "title": "\"Able\"",
+          "blurb": "Humanoid × Biological — SCP-076 consists of two components: a stone cube (SCP-076-1) and a humanoid entity contained within (SCP-076-2).",
+          "url": "https://scp-wiki.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "What Happened to Site-13?",
-          "blurb": "Spatial — SCP-1730 was a large complex of structures 15km northwest of the US/Mexico border within Big Bend Ranch State Park that …",
-          "url": "https://scp-wiki.wikidot.com/scp-1730",
+          "itemId": "scp-series-5999",
+          "title": "This is Where I Died",
+          "blurb": "Humanoid × Biological — ⚠ WARNING: DO NOT CONTINUE ⚠ > .",
+          "url": "https://scp-wiki.wikidot.com/scp-5999",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-2935",
-          "title": "O, Death",
-          "blurb": "Spatial — SCP-2935 is a space-time anomaly existing within a limestone cave beneath a cemetery near Joppa, Indiana.",
-          "url": "https://scp-wiki.wikidot.com/scp-2935",
+          "itemId": "scp-series-507",
+          "title": "Reluctant Dimension Hopper",
+          "blurb": "Humanoid × Biological — SCP-507 is a Caucasian male with blond hair and green eyes, sporting no other outstanding characteristics besides being …",
+          "url": "https://scp-wiki.wikidot.com/scp-507",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "The Red Pool",
-          "blurb": "Spatial — SCP-354 is a pool of red liquid discovered in northern Canada.",
-          "url": "https://scp-wiki.wikidot.com/scp-354",
+          "itemId": "scp-series-2662",
+          "title": "cthulhu f'UCK OFF!",
+          "blurb": "Humanoid × Biological — SCP-2662 is a cognitohazardous entity approximately 4 meters in height and 200 kilograms in weight.",
+          "url": "https://scp-wiki.wikidot.com/scp-2662",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1425",
-          "title": "Star Signals",
-          "blurb": "Spatial — SCP-1425 is a hardcover book, measuring 20 cm x 35 cm x 5 cm and published in 2005 by the company [REDACTED] Books (now …",
-          "url": "https://scp-wiki.wikidot.com/scp-1425",
+          "itemId": "scp-series-1440",
+          "title": "The Old Man from Nowhere",
+          "blurb": "Humanoid × Biological — SCP-1440 is a man of unknown ethnicity and age.",
+          "url": "https://scp-wiki.wikidot.com/scp-1440",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1437",
-          "title": "A Hole to Another Place",
-          "blurb": "Spatial — SCP-1437 is an apparently endless hole measuring 3m x 3m, located in the ██████ Desert.",
-          "url": "https://scp-wiki.wikidot.com/scp-1437",
+          "itemId": "scp-series-073",
+          "title": "\"Cain\"",
+          "blurb": "Humanoid × Biological — SCP-073 appears to be a heavily-tanned male of Arabic or Middle Eastern descent in his early thirties, 185 cm (6'1\") tal…",
+          "url": "https://scp-wiki.wikidot.com/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-184",
-          "title": "The Architect",
-          "blurb": "Spatial — SCP-184 is a small, smooth metallic object, 10 cm (4 in) tall and 10 cm (4 in) wide, in the shape of a dodecahedron.",
-          "url": "https://scp-wiki.wikidot.com/scp-184",
+          "itemId": "scp-series-343",
+          "title": "\"God\"",
+          "blurb": "Humanoid × Biological — SCP-343 is a male, seemingly race-less, humanoid in appearance with apparent omnipotence.",
+          "url": "https://scp-wiki.wikidot.com/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artifact",
-      "introduction": "Explore Artifact: compare what these SCPs have in common and how their anomalies differ.",
+      "title": "Humanoid × Sentient",
+      "introduction": "Explore Humanoid × Sentient: compare what these SCPs have in common and how their anomalies differ.",
       "articles": [
         {
-          "itemId": "scp-series-093",
-          "title": "Red Sea Object",
-          "blurb": "Artifact — SCP-093 is a primarily red disc carved from a stone composite resembling cinnabar, with circular engravings and unknown …",
-          "url": "https://scp-wiki.wikidot.com/scp-093",
+          "itemId": "scp-series-085",
+          "title": "Hand-drawn ''Cassy''",
+          "blurb": "Humanoid × Sentient — SCP-085 is the result of an experiment conducted between SCP-067 and SCP-914.",
+          "url": "https://scp-wiki.wikidot.com/scp-085",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-895",
-          "title": "Camera Disruption",
-          "blurb": "Artifact — SCP-895 is an ornate oak coffin recovered from the █████ █████ Mortuary by SCP personnel on ██/█/██, following reports o…",
-          "url": "https://scp-wiki.wikidot.com/scp-895",
+          "itemId": "scp-series-2030",
+          "title": "LA U GH IS F UN",
+          "blurb": "Humanoid × Sentient — SCP-2030 is an anomalous phenomenon that manifests as a television series.",
+          "url": "https://scp-wiki.wikidot.com/scp-2030",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-348",
-          "title": "A Gift from Dad",
-          "blurb": "Artifact — SCP-348 is a white ceramic bowl patterned with light blue flowers, measuring approximately 20 cm in diameter and 9 cm hi…",
-          "url": "https://scp-wiki.wikidot.com/scp-348",
+          "itemId": "scp-series-990",
+          "title": "Dream Man",
+          "blurb": "Humanoid × Sentient — SCP-990 is generally a human male dressed in a Cold War era business suit who appears to Foundation personnel through dr…",
+          "url": "https://scp-wiki.wikidot.com/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "Panacea",
-          "blurb": "Artifact — SCP-500 is a small plastic can which at the time of writing contains forty-seven (47) red pills.",
-          "url": "https://scp-wiki.wikidot.com/scp-500",
+          "itemId": "scp-series-8980",
+          "title": "Ergophobia: Without Regards",
+          "blurb": "Humanoid × Sentient — SCP-8980 is Lillian MarleyLillian Marley was a Level 3 Containment Specialist, and is currently employed by the SCP Foun…",
+          "url": "https://scp-wiki.wikidot.com/scp-8980",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-2264",
-          "title": "In the Court of Alagadda",
-          "blurb": "Artifact — SCP-2264-A is a door composed of iron located within a hidden chamber beneath Martin Tower, a part of the Tower of Londo…",
-          "url": "https://scp-wiki.wikidot.com/scp-2264",
+          "itemId": "scp-series-3002",
+          "title": "Attempts to Assassinate Thought",
+          "blurb": "Humanoid × Sentient — SCP-3002 refers to a specific memory shared by 85% of the prisoner population in the South Rock Penitentiary, located ne…",
+          "url": "https://scp-wiki.wikidot.com/scp-3002",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-586",
-          "title": "Inscribable Object",
-          "blurb": "Artifact — SCP-586 is a smelt metallic object, pale green in color.",
-          "url": "https://scp-wiki.wikidot.com/scp-586",
+          "itemId": "scp-series-179",
+          "title": "Sauelsuesor",
+          "blurb": "Humanoid × Sentient — SCP-179 is a humanoid entity located at a constant distance of approximately 40,000 km from the South polar region of th…",
+          "url": "https://scp-wiki.wikidot.com/scp-179",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-738",
-          "title": "The Devil's Deal",
-          "blurb": "Artifact — SCP-738 consists of three components.",
-          "url": "https://scp-wiki.wikidot.com/scp-738",
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Humanoid × Sentient — SCP-105 (formerly known as Iris Thompson) is a female human of European descent.",
+          "url": "https://scp-wiki.wikidot.com/scp-105",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-3790",
-          "title": "Department of Abnormalities",
-          "blurb": "Artifact — SCP-3790 is a structure located beneath the abandoned Port Superior Canning Company warehouse in London, United Kingdom.",
-          "url": "https://scp-wiki.wikidot.com/scp-3790",
+          "itemId": "scp-series-3812",
+          "title": "A Voice Behind Me",
+          "blurb": "Humanoid × Sentient — SCP-3812 is a reality-altering entity.",
+          "url": "https://scp-wiki.wikidot.com/scp-3812",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

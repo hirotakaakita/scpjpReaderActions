@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoidní × Biologické",
-      "introduction": "Prozkoumejte téma „Humanoidní × Biologické“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
+      "title": "Prostorové",
+      "introduction": "Prozkoumejte téma „Prostorové“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
       "articles": [
         {
-          "itemId": "scp-series-096",
-          "title": "\"Stydlivka\"",
-          "blurb": "Humanoidní × Biologické — SCP-096 je humanoidní stvoření přibližně 2.",
-          "url": "http://scp-cs.wikidot.com/scp-096",
+          "itemId": "scp-series-1730",
+          "title": "Co se stalo Oblasti-13?",
+          "blurb": "Prostorové — SCP-1730 je velký komplex struktur nacházející se 15 km severozápadně od hranice Spojených států a Mexika, ve Státním Pa…",
+          "url": "http://scp-cs.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5999",
-          "title": "Tady jsem zemřel",
-          "blurb": "Humanoidní × Biologické — ⚠ VAROVÁNÍ: NEPOKRAČUJTE ⚠ >",
-          "url": "http://scp-cs.wikidot.com/scp-5999",
+          "itemId": "scp-series-3001",
+          "title": "Rudá Realita",
+          "blurb": "Prostorové — SCP-3001 je hypotetická paradoxní paralelní/kapesní \"nedimenze\" přístupná pomocí vytvoření momentální červí díry Třídy C…",
+          "url": "http://scp-cs.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-3199",
-          "title": "Lidé, Zvrácení",
-          "blurb": "Humanoidní × Biologické — SCP-3199 je vnímající humanoidní druh Kategorie-5 momentálně neodhadnutelného biologického původu.",
-          "url": "http://scp-cs.wikidot.com/scp-3199",
+          "itemId": "scp-series-3301",
+          "title": "NADACE",
+          "blurb": "Prostorové — SCP-3301 je dekorovaná stříbrná krabice s petlicí a stříbrným klíčem.",
+          "url": "http://scp-cs.wikidot.com/scp-3301",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Bigfoot",
-          "blurb": "Humanoidní × Biologické — SCP-1000 je noční, všežravý lidoop klasifikovaný jako větev Hominini spolu s rody Pan a Homo.",
-          "url": "http://scp-cs.wikidot.com/scp-1000",
+          "itemId": "scp-series-3935",
+          "title": "Tiché Šílenství Stvořila Ta Věc",
+          "blurb": "Prostorové — SCP-3935 je para-časová, para-prostorová, ne-euklidovská oblast, nacházející se pod Střední školou v Salvation, v Indian…",
+          "url": "http://scp-cs.wikidot.com/scp-3935",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Speciální personální požadavky",
-          "blurb": "Humanoidní × Biologické — SCP-231-7 je █████ žena ve věku mezi █ a ██ s [DATA VYMAZÁNA].",
-          "url": "http://scp-cs.wikidot.com/scp-231",
+          "itemId": "scp-series-087",
+          "title": "Schodiště",
+          "blurb": "Prostorové — SCP-087 je neosvětlené platformové schodiště.",
+          "url": "http://scp-cs.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5031",
-          "title": "Další Vraždící Monstrum",
-          "blurb": "Humanoidní × Biologické — SCP-5031 je neinteligentní, téměř humanoidní stvoření neznámého původu.",
-          "url": "http://scp-cs.wikidot.com/scp-5031",
+          "itemId": "scp-series-cs-301",
+          "title": "Víko od kanálu",
+          "blurb": "Prostorové — SCP-301-CS je čtvercové, kovové víko kanálu o rozměrech přibližně 60 x 60 cm.",
+          "url": "http://scp-cs.wikidot.com/scp-301-cs",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-3740",
-          "title": "Bůh je Hlupák",
-          "blurb": "Humanoidní × Biologické — SCP-3740 je humanoidní entita třídy VIII schopná ohýbat realitu, o které se usuzuje, že je Ašur, asyrsko-babylonský bůh …",
-          "url": "http://scp-cs.wikidot.com/scp-3740",
+          "itemId": "scp-series-5545",
+          "title": "𝙰 𝙱 𝙽 𝙾 𝚁 𝙼 𝙰 𝙻 𝙸 𝚃 𝙰",
+          "blurb": "Prostorové — SCP-5545 označuje několik souvisejících anomálních objektů a fenoménů.",
+          "url": "http://scp-cs.wikidot.com/scp-5545",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Ábel\"",
-          "blurb": "Humanoidní × Biologické — SCP-076 sestává ze dvou komponentů: kamenné kostky (SCP-076-1) a humanoidní entity uvnitř ní (SCP-076-2).",
-          "url": "http://scp-cs.wikidot.com/scp-076",
+          "itemId": "scp-series-1590",
+          "title": "Tamlinova Kniha",
+          "blurb": "Prostorové — SCP-1590 je program, či 'aplikace', o velikosti jednoho kilobajtu, určený pro použití se zařízeními s dotykovou obrazovk…",
+          "url": "http://scp-cs.wikidot.com/scp-1590",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoidní × Vědomé",
-      "introduction": "Prozkoumejte téma „Humanoidní × Vědomé“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
+      "title": "Artefakt",
+      "introduction": "Prozkoumejte téma „Artefakt“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
       "articles": [
         {
-          "itemId": "scp-series-6666",
-          "title": "Démon Hektor a Hrůzná Titania",
-          "blurb": "Humanoidní × Vědomé — SCP-6666 je kolosální botanická entita nacházející se na souřadnicích 4°51'29.",
-          "url": "http://scp-cs.wikidot.com/scp-6666",
+          "itemId": "scp-series-cs-089",
+          "title": "Dar/Past pro naše moudré/nepotřebné",
+          "blurb": "Artefakt — SCP-089-CS je kus čediče vytvarovaný do téměř dokonalého, pravidelného osmistěnu se zaoblenými hranami o délce přibližně…",
+          "url": "http://scp-cs.wikidot.com/scp-089-cs",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-106",
-          "title": "Starý muž",
-          "blurb": "Humanoidní × Vědomé — SCP-106 je postarší humanoid jež obvykle vypadá jako by procházel pokročilým stádiem rozkladu.",
-          "url": "http://scp-cs.wikidot.com/scp-106",
+          "itemId": "scp-series-093",
+          "title": "Objekt z Rudého moře",
+          "blurb": "Artefakt — SCP-093 je primárně rudý vyřezávaný disk s podobným složením jako kámen, připomínající rumělku, s kruhovými řezbami a ne…",
+          "url": "http://scp-cs.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-2662",
-          "title": "cthulhu v'YPADNĚTE!",
-          "blurb": "Humanoidní × Vědomé — SCP-2662 je kognitohazardní entita, vysoká přibližně 4 metry a vážící přibližně 200 kilogramů.",
-          "url": "http://scp-cs.wikidot.com/scp-2662",
+          "itemId": "scp-series-6222",
+          "title": "RYBÍ VĚZENÍ",
+          "blurb": "Artefakt — SCP-6222 je zařízení s anomálně rozměrným ne-euklidovským interiérem a velkou cedulí na exteriéru s nápisem \"RYBÍ VĚZENÍ…",
+          "url": "http://scp-cs.wikidot.com/scp-6222",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-990",
-          "title": "Snový muž",
-          "blurb": "Humanoidní × Vědomé — SCP-990 je obecně člověk mužského pohlaví oblečený v pracovním obleku z doby studené války, který se zobrazuje Nadačnímu…",
-          "url": "http://scp-cs.wikidot.com/scp-990",
+          "itemId": "scp-series-cs-888",
+          "title": "Kamenná deska a neviditelný stín",
+          "blurb": "Artefakt — SCP-888-CS se skládá z černého dřevěného boxu (50x30x30cm) a kamenné desky (40x20x5cm) uvnitř.",
+          "url": "http://scp-cs.wikidot.com/scp-888-cs",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-7785",
-          "title": "Pan Roztáhlý a pan Protáhlý",
-          "blurb": "Humanoidní × Vědomé — Bledí, celí v černém.",
-          "url": "http://scp-cs.wikidot.com/scp-7785",
+          "itemId": "scp-series-cs-075",
+          "title": "Cestovatelův prsten",
+          "blurb": "Artefakt — SCP-075-CS-A je prsten vytvořený ze čtyř navzájem propletených kovových plátů.",
+          "url": "http://scp-cs.wikidot.com/scp-075-cs",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3812",
-          "title": "Hlas za Mnou",
-          "blurb": "Humanoidní × Vědomé — SCP-3812 je realitu pozměňující entita.",
-          "url": "http://scp-cs.wikidot.com/scp-3812",
+          "itemId": "scp-series-6254",
+          "title": "[ACCESS DENIED]",
+          "blurb": "Artefakt — [OBJEKT] označuje druh malého, dutého artefaktu ve tvaru dvanáctistěnu tvořeného hlavně slitinou mědi, vyrobeného cirka …",
+          "url": "http://scp-cs.wikidot.com/scp-6254",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-105",
-          "title": "\"Iris\"",
-          "blurb": "Humanoidní × Vědomé — SCP-105 (dříve známá jako Iris Thompsonová) je žena evropského původu.",
-          "url": "http://scp-cs.wikidot.com/scp-105",
+          "itemId": "scp-series-3790",
+          "title": "Oddělení Abnormalit",
+          "blurb": "Artefakt — SCP-3790 je struktura nacházející se pod opuštěným skladištěm firmy Port Superior Canning Company v Londýně, Spojené Krá…",
+          "url": "http://scp-cs.wikidot.com/scp-3790",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-7023",
-          "title": "Poslední zbývající varianta",
-          "blurb": "Humanoidní × Vědomé — SCP-7023 je Julian August Mari, standardní lidský muž ve věku 33 let, aktuálně ve správě Nadace z Vesmíru-ZL/152a.",
-          "url": "http://scp-cs.wikidot.com/scp-7023",
+          "itemId": "scp-series-6130",
+          "title": "Peklo na Zemi",
+          "blurb": "Artefakt — SCP-6130 je elektronické zařízení o objemu zhruba 1.",
+          "url": "http://scp-cs.wikidot.com/scp-6130",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Prostorové",
-      "introduction": "Prozkoumejte téma „Prostorové“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
+      "title": "Humanoidní × Biologické",
+      "introduction": "Prozkoumejte téma „Humanoidní × Biologické“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
       "articles": [
         {
-          "itemId": "scp-series-1730",
-          "title": "Co se stalo Oblasti-13?",
-          "blurb": "Prostorové — SCP-1730 je velký komplex struktur nacházející se 15 km severozápadně od hranice Spojených států a Mexika, ve Státním Pa…",
-          "url": "http://scp-cs.wikidot.com/scp-1730",
+          "itemId": "scp-series-096",
+          "title": "\"Stydlivka\"",
+          "blurb": "Humanoidní × Biologické — SCP-096 je humanoidní stvoření přibližně 2.",
+          "url": "http://scp-cs.wikidot.com/scp-096",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Rudá Realita",
-          "blurb": "Prostorové — SCP-3001 je hypotetická paradoxní paralelní/kapesní \"nedimenze\" přístupná pomocí vytvoření momentální červí díry Třídy C…",
-          "url": "http://scp-cs.wikidot.com/scp-3001",
+          "itemId": "scp-series-5999",
+          "title": "Tady jsem zemřel",
+          "blurb": "Humanoidní × Biologické — ⚠ VAROVÁNÍ: NEPOKRAČUJTE ⚠ >",
+          "url": "http://scp-cs.wikidot.com/scp-5999",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3301",
-          "title": "NADACE",
-          "blurb": "Prostorové — SCP-3301 je dekorovaná stříbrná krabice s petlicí a stříbrným klíčem.",
-          "url": "http://scp-cs.wikidot.com/scp-3301",
+          "itemId": "scp-series-3199",
+          "title": "Lidé, Zvrácení",
+          "blurb": "Humanoidní × Biologické — SCP-3199 je vnímající humanoidní druh Kategorie-5 momentálně neodhadnutelného biologického původu.",
+          "url": "http://scp-cs.wikidot.com/scp-3199",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3935",
-          "title": "Tiché Šílenství Stvořila Ta Věc",
-          "blurb": "Prostorové — SCP-3935 je para-časová, para-prostorová, ne-euklidovská oblast, nacházející se pod Střední školou v Salvation, v Indian…",
-          "url": "http://scp-cs.wikidot.com/scp-3935",
+          "itemId": "scp-series-1000",
+          "title": "Bigfoot",
+          "blurb": "Humanoidní × Biologické — SCP-1000 je noční, všežravý lidoop klasifikovaný jako větev Hominini spolu s rody Pan a Homo.",
+          "url": "http://scp-cs.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-087",
-          "title": "Schodiště",
-          "blurb": "Prostorové — SCP-087 je neosvětlené platformové schodiště.",
-          "url": "http://scp-cs.wikidot.com/scp-087",
+          "itemId": "scp-series-231",
+          "title": "Speciální personální požadavky",
+          "blurb": "Humanoidní × Biologické — SCP-231-7 je █████ žena ve věku mezi █ a ██ s [DATA VYMAZÁNA].",
+          "url": "http://scp-cs.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-cs-301",
-          "title": "Víko od kanálu",
-          "blurb": "Prostorové — SCP-301-CS je čtvercové, kovové víko kanálu o rozměrech přibližně 60 x 60 cm.",
-          "url": "http://scp-cs.wikidot.com/scp-301-cs",
+          "itemId": "scp-series-5031",
+          "title": "Další Vraždící Monstrum",
+          "blurb": "Humanoidní × Biologické — SCP-5031 je neinteligentní, téměř humanoidní stvoření neznámého původu.",
+          "url": "http://scp-cs.wikidot.com/scp-5031",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-5545",
-          "title": "𝙰 𝙱 𝙽 𝙾 𝚁 𝙼 𝙰 𝙻 𝙸 𝚃 𝙰",
-          "blurb": "Prostorové — SCP-5545 označuje několik souvisejících anomálních objektů a fenoménů.",
-          "url": "http://scp-cs.wikidot.com/scp-5545",
+          "itemId": "scp-series-3740",
+          "title": "Bůh je Hlupák",
+          "blurb": "Humanoidní × Biologické — SCP-3740 je humanoidní entita třídy VIII schopná ohýbat realitu, o které se usuzuje, že je Ašur, asyrsko-babylonský bůh …",
+          "url": "http://scp-cs.wikidot.com/scp-3740",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1590",
-          "title": "Tamlinova Kniha",
-          "blurb": "Prostorové — SCP-1590 je program, či 'aplikace', o velikosti jednoho kilobajtu, určený pro použití se zařízeními s dotykovou obrazovk…",
-          "url": "http://scp-cs.wikidot.com/scp-1590",
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Humanoidní × Biologické — SCP-076 sestává ze dvou komponentů: kamenné kostky (SCP-076-1) a humanoidní entity uvnitř ní (SCP-076-2).",
+          "url": "http://scp-cs.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3376,81 +3368,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefakt",
-      "introduction": "Prozkoumejte téma „Artefakt“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
+      "title": "Humanoidní × Vědomé",
+      "introduction": "Prozkoumejte téma „Humanoidní × Vědomé“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
       "articles": [
         {
-          "itemId": "scp-series-cs-089",
-          "title": "Dar/Past pro naše moudré/nepotřebné",
-          "blurb": "Artefakt — SCP-089-CS je kus čediče vytvarovaný do téměř dokonalého, pravidelného osmistěnu se zaoblenými hranami o délce přibližně…",
-          "url": "http://scp-cs.wikidot.com/scp-089-cs",
+          "itemId": "scp-series-6666",
+          "title": "Démon Hektor a Hrůzná Titania",
+          "blurb": "Humanoidní × Vědomé — SCP-6666 je kolosální botanická entita nacházející se na souřadnicích 4°51'29.",
+          "url": "http://scp-cs.wikidot.com/scp-6666",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Objekt z Rudého moře",
-          "blurb": "Artefakt — SCP-093 je primárně rudý vyřezávaný disk s podobným složením jako kámen, připomínající rumělku, s kruhovými řezbami a ne…",
-          "url": "http://scp-cs.wikidot.com/scp-093",
+          "itemId": "scp-series-106",
+          "title": "Starý muž",
+          "blurb": "Humanoidní × Vědomé — SCP-106 je postarší humanoid jež obvykle vypadá jako by procházel pokročilým stádiem rozkladu.",
+          "url": "http://scp-cs.wikidot.com/scp-106",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-6222",
-          "title": "RYBÍ VĚZENÍ",
-          "blurb": "Artefakt — SCP-6222 je zařízení s anomálně rozměrným ne-euklidovským interiérem a velkou cedulí na exteriéru s nápisem \"RYBÍ VĚZENÍ…",
-          "url": "http://scp-cs.wikidot.com/scp-6222",
+          "itemId": "scp-series-2662",
+          "title": "cthulhu v'YPADNĚTE!",
+          "blurb": "Humanoidní × Vědomé — SCP-2662 je kognitohazardní entita, vysoká přibližně 4 metry a vážící přibližně 200 kilogramů.",
+          "url": "http://scp-cs.wikidot.com/scp-2662",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-cs-888",
-          "title": "Kamenná deska a neviditelný stín",
-          "blurb": "Artefakt — SCP-888-CS se skládá z černého dřevěného boxu (50x30x30cm) a kamenné desky (40x20x5cm) uvnitř.",
-          "url": "http://scp-cs.wikidot.com/scp-888-cs",
+          "itemId": "scp-series-990",
+          "title": "Snový muž",
+          "blurb": "Humanoidní × Vědomé — SCP-990 je obecně člověk mužského pohlaví oblečený v pracovním obleku z doby studené války, který se zobrazuje Nadačnímu…",
+          "url": "http://scp-cs.wikidot.com/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-cs-075",
-          "title": "Cestovatelův prsten",
-          "blurb": "Artefakt — SCP-075-CS-A je prsten vytvořený ze čtyř navzájem propletených kovových plátů.",
-          "url": "http://scp-cs.wikidot.com/scp-075-cs",
+          "itemId": "scp-series-7785",
+          "title": "Pan Roztáhlý a pan Protáhlý",
+          "blurb": "Humanoidní × Vědomé — Bledí, celí v černém.",
+          "url": "http://scp-cs.wikidot.com/scp-7785",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-6254",
-          "title": "[ACCESS DENIED]",
-          "blurb": "Artefakt — [OBJEKT] označuje druh malého, dutého artefaktu ve tvaru dvanáctistěnu tvořeného hlavně slitinou mědi, vyrobeného cirka …",
-          "url": "http://scp-cs.wikidot.com/scp-6254",
+          "itemId": "scp-series-3812",
+          "title": "Hlas za Mnou",
+          "blurb": "Humanoidní × Vědomé — SCP-3812 je realitu pozměňující entita.",
+          "url": "http://scp-cs.wikidot.com/scp-3812",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-3790",
-          "title": "Oddělení Abnormalit",
-          "blurb": "Artefakt — SCP-3790 je struktura nacházející se pod opuštěným skladištěm firmy Port Superior Canning Company v Londýně, Spojené Krá…",
-          "url": "http://scp-cs.wikidot.com/scp-3790",
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Humanoidní × Vědomé — SCP-105 (dříve známá jako Iris Thompsonová) je žena evropského původu.",
+          "url": "http://scp-cs.wikidot.com/scp-105",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-6130",
-          "title": "Peklo na Zemi",
-          "blurb": "Artefakt — SCP-6130 je elektronické zařízení o objemu zhruba 1.",
-          "url": "http://scp-cs.wikidot.com/scp-6130",
+          "itemId": "scp-series-7023",
+          "title": "Poslední zbývající varianta",
+          "blurb": "Humanoidní × Vědomé — SCP-7023 je Julian August Mari, standardní lidský muž ve věku 33 let, aktuálně ve správě Nadace z Vesmíru-ZL/152a.",
+          "url": "http://scp-cs.wikidot.com/scp-7023",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

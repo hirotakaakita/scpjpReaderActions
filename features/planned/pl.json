@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoidalny × Biologiczny",
-      "introduction": "Poznaj temat „Humanoidalny × Biologiczny” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "title": "Przestrzenny",
+      "introduction": "Poznaj temat „Przestrzenny” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
       "articles": [
         {
-          "itemId": "scp-series-1000",
-          "title": "Wielka Stopa",
-          "blurb": "Humanoidalny × Biologiczny — SCP-1000 to nocna, roślinożerna małpa, zaklasyfikowana do plemienia Hominini wraz z rodzajami Pan oraz Homo.",
-          "url": "http://scp-pl.wikidot.com/scp-1000",
+          "itemId": "scp-series-3001",
+          "title": "Czerwona rzeczywistość",
+          "blurb": "Przestrzenny — SCP-3001 to teoretyzowany, paradoksalny, kieszonkowy “niewymiar”, dostępny przez stworzenie krótkotrwałego Tunelu Czasop…",
+          "url": "http://scp-pl.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "\"Bóg\"",
-          "blurb": "Humanoidalny × Biologiczny — SCP-343 to mężczyzna najwidoczniej pozbawiony przynależności rasowej, który z wyglądu przypomina humanoida i najprawdopo…",
-          "url": "http://scp-pl.wikidot.com/scp-343",
+          "itemId": "scp-series-087",
+          "title": "Klatka schodowa",
+          "blurb": "Przestrzenny — SCP-087 to nieoświetlona klatka schodowa.",
+          "url": "http://scp-pl.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5031",
-          "title": "Kolejny morderczy potwór",
-          "blurb": "Humanoidalny × Biologiczny — SCP-5031 jest nierozumną prawie-humanoidalną istotą nieznanego pochodzenia.",
-          "url": "http://scp-pl.wikidot.com/scp-5031",
+          "itemId": "scp-series-354",
+          "title": "Czerwony staw",
+          "blurb": "Przestrzenny — SCP-354 to staw czerwonego płynu odkryty w północnej Kanadzie.",
+          "url": "http://scp-pl.wikidot.com/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-2317",
-          "title": "Drzwi do innego świata",
-          "blurb": "Humanoidalny × Biologiczny — SCP-2317 to drewniane drzwi w futrynie, oryginalnie skonstruowane jako drzwi do piwnicy w XIX wiecznym kamieniu brunatny…",
-          "url": "http://scp-pl.wikidot.com/scp-2317",
+          "itemId": "scp-series-6000",
+          "title": "Wąż, Moose i Biblioteka Wędrowca",
+          "blurb": "Przestrzenny — DECYZJĄ RADY NADZORCZEJ Poniższy plik jest sklasyfikowany Poziomem 4/6000.",
+          "url": "http://scp-pl.wikidot.com/scp-6000",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-105",
-          "title": "\"Iris\"",
-          "blurb": "Humanoidalny × Biologiczny — SCP-105 (znana jako Iris Thompson) Iris, jest kobietą pochodzenia europejskiego.",
-          "url": "http://scp-pl.wikidot.com/scp-105",
+          "itemId": "scp-series-004",
+          "title": "12 zardzewiałych kluczy i drzwi",
+          "blurb": "Przestrzenny — SCP-004 składa się ze starych, drewnianych drzwi do stodoły (SCP-004-1) i zestawu dwunastu zardzewiałych, stalowych kluc…",
+          "url": "http://scp-pl.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Specjalne wymagania kadrowe",
-          "blurb": "Humanoidalny × Biologiczny — SCP-231-7 to █████ kobieta w wieku █—██ lat z [USUNIĘTO].",
-          "url": "http://scp-pl.wikidot.com/scp-231",
+          "itemId": "scp-series-1730",
+          "title": "Co się stało z Ośrodkiem 13?",
+          "blurb": "Przestrzenny — SCP-1730 jest dużym kompleksem budynków 15 km na północny zachód od granicy USA i Meksyku w Parku Stanowym Big Bend Ranc…",
+          "url": "http://scp-pl.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-166",
-          "title": "Tylko nastoletnia Gaja",
-          "blurb": "Humanoidalny × Biologiczny — SCP-166 to europejska kobieta w późnej fazie dojrzewania o cechach kopytnych; posiadająca poroże, kopytne stopy i krótki…",
-          "url": "http://scp-pl.wikidot.com/scp-166",
+          "itemId": "scp-series-1322",
+          "title": "Otwór chwały",
+          "blurb": "Przestrzenny — SCP-1322 jest stabilną anomalią czasoprzestrzenną, obecnie uważaną za międzywymiarową szczelinę prowadzącą do równoległe…",
+          "url": "http://scp-pl.wikidot.com/scp-1322",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-076",
-          "title": "\"Abel\"",
-          "blurb": "Humanoidalny × Biologiczny — SCP-076 składa się z dwóch elementów: kamiennego sześcianu (SCP-076-1) i bytu humanoidalnego (SCP-076-2), który zamknięt…",
-          "url": "http://scp-pl.wikidot.com/scp-076",
+          "itemId": "scp-series-7179",
+          "title": "E jak Eon",
+          "blurb": "Przestrzenny — SCP-7179 odnosi do nieznanej liczby sześciennych przestrzeni pozawymiarowych, mierzących około 10 km przy każdej z krawę…",
+          "url": "http://scp-pl.wikidot.com/scp-7179",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoidalny × Świadomy",
-      "introduction": "Poznaj temat „Humanoidalny × Świadomy” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "title": "Artefakt",
+      "introduction": "Poznaj temat „Artefakt” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
       "articles": [
         {
-          "itemId": "scp-series-073",
-          "title": "\"Kain\"",
-          "blurb": "Humanoidalny × Świadomy — SCP-073 wygląda na mocno opalonego mężczyznę pochodzenia arabskiego lub bliskowschodniego, mającego około trzydzieści la…",
-          "url": "http://scp-pl.wikidot.com/scp-073",
+          "itemId": "scp-series-pl-004",
+          "title": "Obiekt zupełnie nieszkodliwy",
+          "blurb": "Artefakt — SCP-PL-004 to biała piłka tenisowa, wykonana ze standardowego materiału, o obwodzie 21 [cm].",
+          "url": "http://scp-pl.wikidot.com/scp-pl-004",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-4335",
-          "title": "Naruszenie środowiska",
-          "blurb": "Humanoidalny × Świadomy — SCP-4335 to anomalny byt egzystujący w bardzo popularnej grze survival Minecraft, stworzonej przez szwedzkiego deweloper…",
-          "url": "http://scp-pl.wikidot.com/scp-4335",
+          "itemId": "scp-series-pl-021",
+          "title": "Hazardzista",
+          "blurb": "Artefakt — SCP-PL-021 to pokerowa talia kart do gry, składająca się z 52 kart wykonanych zgodnie z wytycznymi obowiązującymi sprzęt…",
+          "url": "http://scp-pl.wikidot.com/scp-pl-021",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-990",
-          "title": "Człowiek ze snu",
-          "blurb": "Humanoidalny × Świadomy — SCP-990 to mężczyzna ubrany w garnitur biznesowy z czasów zimnej wojny, który dokonuje manifestacji przed pracownikami F…",
-          "url": "http://scp-pl.wikidot.com/scp-990",
+          "itemId": "scp-series-pl-266",
+          "title": "Kości Zostały Rzucone",
+          "blurb": "Artefakt — SCP-PL-266 to desygnacja na cztery obiekty, które połączone ze sobą wykazują anomalne właściwości.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-266",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-011",
-          "title": "Świadomy pomnik z Wojny Secesyjnej",
-          "blurb": "Humanoidalny × Świadomy — SCP-011 to pamiątkowy pomnik ku czci ofiar wojny secesyjnej w Woodstock, w stanie Vermont.",
-          "url": "http://scp-pl.wikidot.com/scp-011",
+          "itemId": "scp-series-pl-236",
+          "title": "Okno na świat",
+          "blurb": "Artefakt — SCP-PL-236 to prostokątne lustro o wymiarach 1 x 0,5 [m].",
+          "url": "http://scp-pl.wikidot.com/scp-pl-236",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-4444",
-          "title": "Bush v. Gore",
-          "blurb": "Humanoidalny × Świadomy — SCP-4444 jest bezcielesną, pozawymiarową jednostką, która współżyje z ciałem byłego wiceprezydenta Stanów Zjednoczonych …",
-          "url": "http://scp-pl.wikidot.com/scp-4444",
+          "itemId": "scp-series-pl-156",
+          "title": "Ja, gdy mój ręcznik ożywa i zaczyna pisać: ;-;",
+          "blurb": "Artefakt — SCP-PL-156 jest, wykonanym w 100% z bawełny, zielonym ręcznikiem kąpielowym, którego wymiary wynoszą 100 x 50 centymetró…",
+          "url": "http://scp-pl.wikidot.com/scp-pl-156",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-2030",
-          "title": "ŚM I ECH TO ZA BAWA",
-          "blurb": "Humanoidalny × Świadomy — SCP-2030 to zjawisko manifestujące się jako serial telewizyjny.",
-          "url": "http://scp-pl.wikidot.com/scp-2030",
+          "itemId": "scp-series-pl-005",
+          "title": "Ciśnieniowa muszla klozetowa",
+          "blurb": "Artefakt — SCP-PL-005 to ceramiczna muszla klozetowa.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-005",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3199",
-          "title": "Ludzie, obaleni",
-          "blurb": "Humanoidalny × Świadomy — SCP-3199 odnosi się do gatunku rozumnych bytów biologicznych kategorii 5, których pochodzenie jest obecnie nieokreślone,…",
-          "url": "http://scp-pl.wikidot.com/scp-3199",
+          "itemId": "scp-series-pl-195",
+          "title": "Prezent od przyjaciela",
+          "blurb": "Artefakt — SCP-PL-195, jest kartonowym pudłem, wszelkie zidentyfikowane instancje obiektu różniły się wymiarami.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-195",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1055",
-          "title": "Bugsy",
-          "blurb": "Humanoidalny × Świadomy — SCP-1055 to formalnie Michael Schroder z Douglas, WY.",
-          "url": "http://scp-pl.wikidot.com/scp-1055",
+          "itemId": "scp-series-895",
+          "title": "Zniekształcenie obrazu",
+          "blurb": "Artefakt — SCP-895 to ozdobna trumna dębowa, pozyskana z Kostnicy █████ █████ przez pracowników Fundacji, dnia ██.",
+          "url": "http://scp-pl.wikidot.com/scp-895",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Przestrzenny",
-      "introduction": "Poznaj temat „Przestrzenny” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "title": "Humanoidalny × Biologiczny",
+      "introduction": "Poznaj temat „Humanoidalny × Biologiczny” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
       "articles": [
         {
-          "itemId": "scp-series-3001",
-          "title": "Czerwona rzeczywistość",
-          "blurb": "Przestrzenny — SCP-3001 to teoretyzowany, paradoksalny, kieszonkowy “niewymiar”, dostępny przez stworzenie krótkotrwałego Tunelu Czasop…",
-          "url": "http://scp-pl.wikidot.com/scp-3001",
+          "itemId": "scp-series-1000",
+          "title": "Wielka Stopa",
+          "blurb": "Humanoidalny × Biologiczny — SCP-1000 to nocna, roślinożerna małpa, zaklasyfikowana do plemienia Hominini wraz z rodzajami Pan oraz Homo.",
+          "url": "http://scp-pl.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-087",
-          "title": "Klatka schodowa",
-          "blurb": "Przestrzenny — SCP-087 to nieoświetlona klatka schodowa.",
-          "url": "http://scp-pl.wikidot.com/scp-087",
+          "itemId": "scp-series-343",
+          "title": "\"Bóg\"",
+          "blurb": "Humanoidalny × Biologiczny — SCP-343 to mężczyzna najwidoczniej pozbawiony przynależności rasowej, który z wyglądu przypomina humanoida i najprawdopo…",
+          "url": "http://scp-pl.wikidot.com/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "Czerwony staw",
-          "blurb": "Przestrzenny — SCP-354 to staw czerwonego płynu odkryty w północnej Kanadzie.",
-          "url": "http://scp-pl.wikidot.com/scp-354",
+          "itemId": "scp-series-5031",
+          "title": "Kolejny morderczy potwór",
+          "blurb": "Humanoidalny × Biologiczny — SCP-5031 jest nierozumną prawie-humanoidalną istotą nieznanego pochodzenia.",
+          "url": "http://scp-pl.wikidot.com/scp-5031",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6000",
-          "title": "Wąż, Moose i Biblioteka Wędrowca",
-          "blurb": "Przestrzenny — DECYZJĄ RADY NADZORCZEJ Poniższy plik jest sklasyfikowany Poziomem 4/6000.",
-          "url": "http://scp-pl.wikidot.com/scp-6000",
+          "itemId": "scp-series-2317",
+          "title": "Drzwi do innego świata",
+          "blurb": "Humanoidalny × Biologiczny — SCP-2317 to drewniane drzwi w futrynie, oryginalnie skonstruowane jako drzwi do piwnicy w XIX wiecznym kamieniu brunatny…",
+          "url": "http://scp-pl.wikidot.com/scp-2317",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "12 zardzewiałych kluczy i drzwi",
-          "blurb": "Przestrzenny — SCP-004 składa się ze starych, drewnianych drzwi do stodoły (SCP-004-1) i zestawu dwunastu zardzewiałych, stalowych kluc…",
-          "url": "http://scp-pl.wikidot.com/scp-004",
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Humanoidalny × Biologiczny — SCP-105 (znana jako Iris Thompson) Iris, jest kobietą pochodzenia europejskiego.",
+          "url": "http://scp-pl.wikidot.com/scp-105",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "Co się stało z Ośrodkiem 13?",
-          "blurb": "Przestrzenny — SCP-1730 jest dużym kompleksem budynków 15 km na północny zachód od granicy USA i Meksyku w Parku Stanowym Big Bend Ranc…",
-          "url": "http://scp-pl.wikidot.com/scp-1730",
+          "itemId": "scp-series-231",
+          "title": "Specjalne wymagania kadrowe",
+          "blurb": "Humanoidalny × Biologiczny — SCP-231-7 to █████ kobieta w wieku █—██ lat z [USUNIĘTO].",
+          "url": "http://scp-pl.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1322",
-          "title": "Otwór chwały",
-          "blurb": "Przestrzenny — SCP-1322 jest stabilną anomalią czasoprzestrzenną, obecnie uważaną za międzywymiarową szczelinę prowadzącą do równoległe…",
-          "url": "http://scp-pl.wikidot.com/scp-1322",
+          "itemId": "scp-series-166",
+          "title": "Tylko nastoletnia Gaja",
+          "blurb": "Humanoidalny × Biologiczny — SCP-166 to europejska kobieta w późnej fazie dojrzewania o cechach kopytnych; posiadająca poroże, kopytne stopy i krótki…",
+          "url": "http://scp-pl.wikidot.com/scp-166",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-7179",
-          "title": "E jak Eon",
-          "blurb": "Przestrzenny — SCP-7179 odnosi do nieznanej liczby sześciennych przestrzeni pozawymiarowych, mierzących około 10 km przy każdej z krawę…",
-          "url": "http://scp-pl.wikidot.com/scp-7179",
+          "itemId": "scp-series-076",
+          "title": "\"Abel\"",
+          "blurb": "Humanoidalny × Biologiczny — SCP-076 składa się z dwóch elementów: kamiennego sześcianu (SCP-076-1) i bytu humanoidalnego (SCP-076-2), który zamknięt…",
+          "url": "http://scp-pl.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefakt",
-      "introduction": "Poznaj temat „Artefakt” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "title": "Humanoidalny × Świadomy",
+      "introduction": "Poznaj temat „Humanoidalny × Świadomy” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
       "articles": [
         {
-          "itemId": "scp-series-pl-004",
-          "title": "Obiekt zupełnie nieszkodliwy",
-          "blurb": "Artefakt — SCP-PL-004 to biała piłka tenisowa, wykonana ze standardowego materiału, o obwodzie 21 [cm].",
-          "url": "http://scp-pl.wikidot.com/scp-pl-004",
+          "itemId": "scp-series-073",
+          "title": "\"Kain\"",
+          "blurb": "Humanoidalny × Świadomy — SCP-073 wygląda na mocno opalonego mężczyznę pochodzenia arabskiego lub bliskowschodniego, mającego około trzydzieści la…",
+          "url": "http://scp-pl.wikidot.com/scp-073",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pl-021",
-          "title": "Hazardzista",
-          "blurb": "Artefakt — SCP-PL-021 to pokerowa talia kart do gry, składająca się z 52 kart wykonanych zgodnie z wytycznymi obowiązującymi sprzęt…",
-          "url": "http://scp-pl.wikidot.com/scp-pl-021",
+          "itemId": "scp-series-4335",
+          "title": "Naruszenie środowiska",
+          "blurb": "Humanoidalny × Świadomy — SCP-4335 to anomalny byt egzystujący w bardzo popularnej grze survival Minecraft, stworzonej przez szwedzkiego deweloper…",
+          "url": "http://scp-pl.wikidot.com/scp-4335",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pl-266",
-          "title": "Kości Zostały Rzucone",
-          "blurb": "Artefakt — SCP-PL-266 to desygnacja na cztery obiekty, które połączone ze sobą wykazują anomalne właściwości.",
-          "url": "http://scp-pl.wikidot.com/scp-pl-266",
+          "itemId": "scp-series-990",
+          "title": "Człowiek ze snu",
+          "blurb": "Humanoidalny × Świadomy — SCP-990 to mężczyzna ubrany w garnitur biznesowy z czasów zimnej wojny, który dokonuje manifestacji przed pracownikami F…",
+          "url": "http://scp-pl.wikidot.com/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pl-236",
-          "title": "Okno na świat",
-          "blurb": "Artefakt — SCP-PL-236 to prostokątne lustro o wymiarach 1 x 0,5 [m].",
-          "url": "http://scp-pl.wikidot.com/scp-pl-236",
+          "itemId": "scp-series-011",
+          "title": "Świadomy pomnik z Wojny Secesyjnej",
+          "blurb": "Humanoidalny × Świadomy — SCP-011 to pamiątkowy pomnik ku czci ofiar wojny secesyjnej w Woodstock, w stanie Vermont.",
+          "url": "http://scp-pl.wikidot.com/scp-011",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pl-156",
-          "title": "Ja, gdy mój ręcznik ożywa i zaczyna pisać: ;-;",
-          "blurb": "Artefakt — SCP-PL-156 jest, wykonanym w 100% z bawełny, zielonym ręcznikiem kąpielowym, którego wymiary wynoszą 100 x 50 centymetró…",
-          "url": "http://scp-pl.wikidot.com/scp-pl-156",
+          "itemId": "scp-series-4444",
+          "title": "Bush v. Gore",
+          "blurb": "Humanoidalny × Świadomy — SCP-4444 jest bezcielesną, pozawymiarową jednostką, która współżyje z ciałem byłego wiceprezydenta Stanów Zjednoczonych …",
+          "url": "http://scp-pl.wikidot.com/scp-4444",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pl-005",
-          "title": "Ciśnieniowa muszla klozetowa",
-          "blurb": "Artefakt — SCP-PL-005 to ceramiczna muszla klozetowa.",
-          "url": "http://scp-pl.wikidot.com/scp-pl-005",
+          "itemId": "scp-series-2030",
+          "title": "ŚM I ECH TO ZA BAWA",
+          "blurb": "Humanoidalny × Świadomy — SCP-2030 to zjawisko manifestujące się jako serial telewizyjny.",
+          "url": "http://scp-pl.wikidot.com/scp-2030",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-pl-195",
-          "title": "Prezent od przyjaciela",
-          "blurb": "Artefakt — SCP-PL-195, jest kartonowym pudłem, wszelkie zidentyfikowane instancje obiektu różniły się wymiarami.",
-          "url": "http://scp-pl.wikidot.com/scp-pl-195",
+          "itemId": "scp-series-3199",
+          "title": "Ludzie, obaleni",
+          "blurb": "Humanoidalny × Świadomy — SCP-3199 odnosi się do gatunku rozumnych bytów biologicznych kategorii 5, których pochodzenie jest obecnie nieokreślone,…",
+          "url": "http://scp-pl.wikidot.com/scp-3199",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-895",
-          "title": "Zniekształcenie obrazu",
-          "blurb": "Artefakt — SCP-895 to ozdobna trumna dębowa, pozyskana z Kostnicy █████ █████ przez pracowników Fundacji, dnia ██.",
-          "url": "http://scp-pl.wikidot.com/scp-895",
+          "itemId": "scp-series-1055",
+          "title": "Bugsy",
+          "blurb": "Humanoidalny × Świadomy — SCP-1055 to formalnie Michael Schroder z Douglas, WY.",
+          "url": "http://scp-pl.wikidot.com/scp-1055",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "人形 × 生物",
-      "introduction": "圍繞「人形 × 生物」，對比這些異常的共同點與差異。",
+      "title": "空間",
+      "introduction": "圍繞「空間」，對比這些異常的共同點與差異。",
       "articles": [
         {
-          "itemId": "scp-series-7795",
-          "title": "Ð是「一三」（Ðirteen）",
-          "blurb": "人形 × 生物 — SCP-7795是12歲的米亞．██████。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-7795",
+          "itemId": "scp-series-zh-425",
+          "title": "破是「破洞」",
+          "blurb": "空間 — SCP-ZH-425是存在於一本攤開的A5筆記本中心的重力異常，外形呈現為一顆直徑約15 30 60公分的黑洞。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-425",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-049",
-          "title": "瘟疫醫生",
-          "blurb": "人形 × 生物 — SCP-049是一個類人形生物，身高約1.",
-          "url": "http://scp-zh-tr.wikidot.com/scp-049",
+          "itemId": "scp-series-3001",
+          "title": "紅色現實",
+          "blurb": "空間 — SCP-3001是一個被假設存在但與理論相違背，可以藉由瞬時開啟C類「破損入口」蟲洞1進入的平行／口袋「無維度」。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5004",
-          "title": "狂妄之徒",
-          "blurb": "人形 × 生物 — SCP-5004是一系列影響美國行政機構的異常現象集合編號。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-5004",
+          "itemId": "scp-series-6500",
+          "title": "無以避免",
+          "blurb": "空間 — 您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6500",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-4380",
-          "title": "最初至要",
-          "blurb": "人形 × 生物 — SCP-001是一名 一歲的人類，具有模因、資訊危害、官僚危害與符號危害等異常屬性。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-4380",
+          "itemId": "scp-series-1983",
+          "title": "至無處之門",
+          "blurb": "空間 — SCP-1983-1是一間位於懷俄明洲███████縣的獨棟農舍。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-1983",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-4444",
-          "title": "布希大戰高爾",
-          "blurb": "人形 × 生物 — SCP-4444是一個無形體的超維度實體，推估自1998年起便與美國前總統Albert Arnold Gore Jr.",
-          "url": "http://scp-zh-tr.wikidot.com/scp-4444",
+          "itemId": "scp-series-7179",
+          "title": "E是「永恆」（Eternity）",
+          "blurb": "空間 — SCP-7179是一種數量未知、邊長約10公里的超維度立方體空間。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7179",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5655",
-          "title": "就是你預期在Spam空罐裡找到的那種精靈",
-          "blurb": "人形 × 生物 — SCP-5655是一個Spam牌罐頭的空罐子，在搖晃或翻轉SCP-5655時，SCP-5655-1即會顯現。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-5655",
+          "itemId": "scp-series-2998",
+          "title": "異常傳播訊號，2485MHz",
+          "blurb": "空間 — SCP-2998係一以2485 MHz穩定頻率放送的電磁訊號。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-2998",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-2317",
-          "title": "前往彼界之門",
-          "blurb": "人形 × 生物 — SCP-2317是一木製的門戶及門框，最初被用於19世紀一麻薩諸塞州的褐砂岩地下室中。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-2317",
+          "itemId": "scp-series-7819",
+          "title": "無空",
+          "blurb": "空間 — SCP-7819是一個掠食性地點，出現在美國本土國道高速公路系統的出口沿線。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7819",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "特殊人員需求",
-          "blurb": "人形 × 生物 — SCP-231-7是一名年齡介於█到██歲的█████女性，有[資料已刪除]。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-231",
+          "itemId": "scp-series-4001",
+          "title": "永恆亞歷山大",
+          "blurb": "空間 — SCP-4001由一條隧道、一個前者通往的前廳、一道前者通往的樓梯（向下至地下15公尺）2、一座前者通往的塔樓所構成。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-4001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "人形 × 智能",
-      "introduction": "圍繞「人形 × 智能」，對比這些異常的共同點與差異。",
+      "title": "物品",
+      "introduction": "圍繞「物品」，對比這些異常的共同點與差異。",
       "articles": [
         {
-          "itemId": "scp-series-zh-698",
-          "title": "女神玳米雅贊與奧摩奇亞海嘯",
-          "blurb": "人形 × 智能 — 您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-698",
+          "itemId": "scp-series-500",
+          "title": "萬靈藥",
+          "blurb": "物品 — SCP-500是裝在一個小塑膠罐中的紅色藥丸。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-zh-993",
-          "title": "無知則自由",
-          "blurb": "人形 × 智能 — SCP-繁中-九九三是前SCP基金會前「前瞻部門」負責人Kislorod Ponomarenko主任的原生人類（Homo sapiens）大腦。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-993",
+          "itemId": "scp-series-978",
+          "title": "慾望相機",
+          "blurb": "物品 — SCP-978外觀為一台普通的黑紅相間 Polaroid Supercolor 645 CL 拍立得相機，無任何具特殊辨識度的標記或損壞。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-978",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-6666",
-          "title": "惡魔赫克托爾與恐怖緹坦妮雅",
-          "blurb": "人形 × 智能 — SCP-6666是一位在亞馬遜雨林南緯4°51'29.",
-          "url": "http://scp-zh-tr.wikidot.com/scp-6666",
+          "itemId": "scp-series-6367",
+          "title": "這裡有張普通的椅子",
+          "blurb": "物品 — SCP-6367是一張單座木椅，位於阿爾及利亞的西大平原地區。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6367",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-zh-282",
-          "title": "饕客",
-          "blurb": "人形 × 智能 — SCP-ZH-282是一個獨臂二指人形生物，身高2.",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-282",
+          "itemId": "scp-series-5034",
+          "title": "肉天使",
+          "blurb": "物品 — SCP-5034是一種陶瓷碗4與內含的七顆紅色彈珠5總稱。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-5034",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-zh-072",
-          "title": "工作間失竊事件",
-          "blurb": "人形 × 智能 — SCP-ZH-072為Site-ZH-02內的自09/10/2020起連串非常規事件的組合，包括但不限於： 閉路電視紀錄出現無異常的部分畫面缺失 額外的瀏覽紀錄 物品失竊 物品位置改變 目前懷疑某種／些實體（SCP-ZH-072-α）為此系…",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-072",
+          "itemId": "scp-series-7621",
+          "title": "壞骰子和頑皮的骰子會被關進骰子監獄",
+          "blurb": "物品 — SCP-7621 是一種異常現象：具有異常性質的骰子被放置在任何稱為「骰子監獄」的容器中後，其異常性質會改變。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7621",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-zh-046",
-          "title": "巡山靈",
-          "blurb": "人形 × 智能 — SCP-ZH-046是一座位於台灣新竹山區，因斷層變動而陷落損壞的神社建築。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-046",
+          "itemId": "scp-series-3790",
+          "title": "反常部",
+          "blurb": "物品 — SCP-3790是位於英國倫敦廢棄的 港口優良罐頭製造公司Port Superior Canning Company倉庫下方的建築。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-3790",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-106",
-          "title": "詭厄老者",
-          "blurb": "人形 × 智能 — SCP-106外觀上為一個年長的類人動物，一般在外表上表現為被高度分解的樣貌。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-106",
+          "itemId": "scp-series-6130",
+          "title": "無間生活",
+          "blurb": "物品 — SCP-6130是一部由戰術神學部於1988年所開發的電子裝置。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6130",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-zh-693",
-          "title": "旺伯",
-          "blurb": "人形 × 智能 — SCP-ZH-693 是一名 72 歲的男性人類，本名陳金旺，居住在台灣新北市泰山區。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-693",
+          "itemId": "scp-series-093",
+          "title": "紅海物件",
+          "blurb": "物品 — SCP-093是一片初始顏色為紅的圓盤狀物體，由成分類似硃砂的石材雕製而成。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "空間",
-      "introduction": "圍繞「空間」，對比這些異常的共同點與差異。",
+      "title": "人形 × 生物",
+      "introduction": "圍繞「人形 × 生物」，對比這些異常的共同點與差異。",
       "articles": [
         {
-          "itemId": "scp-series-zh-425",
-          "title": "破是「破洞」",
-          "blurb": "空間 — SCP-ZH-425是存在於一本攤開的A5筆記本中心的重力異常，外形呈現為一顆直徑約15 30 60公分的黑洞。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-zh-425",
+          "itemId": "scp-series-7795",
+          "title": "Ð是「一三」（Ðirteen）",
+          "blurb": "人形 × 生物 — SCP-7795是12歲的米亞．██████。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7795",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "紅色現實",
-          "blurb": "空間 — SCP-3001是一個被假設存在但與理論相違背，可以藉由瞬時開啟C類「破損入口」蟲洞1進入的平行／口袋「無維度」。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-3001",
+          "itemId": "scp-series-049",
+          "title": "瘟疫醫生",
+          "blurb": "人形 × 生物 — SCP-049是一個類人形生物，身高約1.",
+          "url": "http://scp-zh-tr.wikidot.com/scp-049",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6500",
-          "title": "無以避免",
-          "blurb": "空間 — 您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
-          "url": "http://scp-zh-tr.wikidot.com/scp-6500",
+          "itemId": "scp-series-5004",
+          "title": "狂妄之徒",
+          "blurb": "人形 × 生物 — SCP-5004是一系列影響美國行政機構的異常現象集合編號。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-5004",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1983",
-          "title": "至無處之門",
-          "blurb": "空間 — SCP-1983-1是一間位於懷俄明洲███████縣的獨棟農舍。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-1983",
+          "itemId": "scp-series-4380",
+          "title": "最初至要",
+          "blurb": "人形 × 生物 — SCP-001是一名 一歲的人類，具有模因、資訊危害、官僚危害與符號危害等異常屬性。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-4380",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-7179",
-          "title": "E是「永恆」（Eternity）",
-          "blurb": "空間 — SCP-7179是一種數量未知、邊長約10公里的超維度立方體空間。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-7179",
+          "itemId": "scp-series-4444",
+          "title": "布希大戰高爾",
+          "blurb": "人形 × 生物 — SCP-4444是一個無形體的超維度實體，推估自1998年起便與美國前總統Albert Arnold Gore Jr.",
+          "url": "http://scp-zh-tr.wikidot.com/scp-4444",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-2998",
-          "title": "異常傳播訊號，2485MHz",
-          "blurb": "空間 — SCP-2998係一以2485 MHz穩定頻率放送的電磁訊號。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-2998",
+          "itemId": "scp-series-5655",
+          "title": "就是你預期在Spam空罐裡找到的那種精靈",
+          "blurb": "人形 × 生物 — SCP-5655是一個Spam牌罐頭的空罐子，在搖晃或翻轉SCP-5655時，SCP-5655-1即會顯現。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-5655",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-7819",
-          "title": "無空",
-          "blurb": "空間 — SCP-7819是一個掠食性地點，出現在美國本土國道高速公路系統的出口沿線。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-7819",
+          "itemId": "scp-series-2317",
+          "title": "前往彼界之門",
+          "blurb": "人形 × 生物 — SCP-2317是一木製的門戶及門框，最初被用於19世紀一麻薩諸塞州的褐砂岩地下室中。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-2317",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-4001",
-          "title": "永恆亞歷山大",
-          "blurb": "空間 — SCP-4001由一條隧道、一個前者通往的前廳、一道前者通往的樓梯（向下至地下15公尺）2、一座前者通往的塔樓所構成。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-4001",
+          "itemId": "scp-series-231",
+          "title": "特殊人員需求",
+          "blurb": "人形 × 生物 — SCP-231-7是一名年齡介於█到██歲的█████女性，有[資料已刪除]。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "物品",
-      "introduction": "圍繞「物品」，對比這些異常的共同點與差異。",
+      "title": "人形 × 智能",
+      "introduction": "圍繞「人形 × 智能」，對比這些異常的共同點與差異。",
       "articles": [
         {
-          "itemId": "scp-series-500",
-          "title": "萬靈藥",
-          "blurb": "物品 — SCP-500是裝在一個小塑膠罐中的紅色藥丸。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-500",
+          "itemId": "scp-series-zh-698",
+          "title": "女神玳米雅贊與奧摩奇亞海嘯",
+          "blurb": "人形 × 智能 — 您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-698",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-978",
-          "title": "慾望相機",
-          "blurb": "物品 — SCP-978外觀為一台普通的黑紅相間 Polaroid Supercolor 645 CL 拍立得相機，無任何具特殊辨識度的標記或損壞。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-978",
+          "itemId": "scp-series-zh-993",
+          "title": "無知則自由",
+          "blurb": "人形 × 智能 — SCP-繁中-九九三是前SCP基金會前「前瞻部門」負責人Kislorod Ponomarenko主任的原生人類（Homo sapiens）大腦。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-993",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-6367",
-          "title": "這裡有張普通的椅子",
-          "blurb": "物品 — SCP-6367是一張單座木椅，位於阿爾及利亞的西大平原地區。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-6367",
+          "itemId": "scp-series-6666",
+          "title": "惡魔赫克托爾與恐怖緹坦妮雅",
+          "blurb": "人形 × 智能 — SCP-6666是一位在亞馬遜雨林南緯4°51'29.",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6666",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-5034",
-          "title": "肉天使",
-          "blurb": "物品 — SCP-5034是一種陶瓷碗4與內含的七顆紅色彈珠5總稱。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-5034",
+          "itemId": "scp-series-zh-282",
+          "title": "饕客",
+          "blurb": "人形 × 智能 — SCP-ZH-282是一個獨臂二指人形生物，身高2.",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-282",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-7621",
-          "title": "壞骰子和頑皮的骰子會被關進骰子監獄",
-          "blurb": "物品 — SCP-7621 是一種異常現象：具有異常性質的骰子被放置在任何稱為「骰子監獄」的容器中後，其異常性質會改變。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-7621",
+          "itemId": "scp-series-zh-072",
+          "title": "工作間失竊事件",
+          "blurb": "人形 × 智能 — SCP-ZH-072為Site-ZH-02內的自09/10/2020起連串非常規事件的組合，包括但不限於： 閉路電視紀錄出現無異常的部分畫面缺失 額外的瀏覽紀錄 物品失竊 物品位置改變 目前懷疑某種／些實體（SCP-ZH-072-α）為此系…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-072",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-3790",
-          "title": "反常部",
-          "blurb": "物品 — SCP-3790是位於英國倫敦廢棄的 港口優良罐頭製造公司Port Superior Canning Company倉庫下方的建築。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-3790",
+          "itemId": "scp-series-zh-046",
+          "title": "巡山靈",
+          "blurb": "人形 × 智能 — SCP-ZH-046是一座位於台灣新竹山區，因斷層變動而陷落損壞的神社建築。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-046",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-6130",
-          "title": "無間生活",
-          "blurb": "物品 — SCP-6130是一部由戰術神學部於1988年所開發的電子裝置。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-6130",
+          "itemId": "scp-series-106",
+          "title": "詭厄老者",
+          "blurb": "人形 × 智能 — SCP-106外觀上為一個年長的類人動物，一般在外表上表現為被高度分解的樣貌。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-106",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "紅海物件",
-          "blurb": "物品 — SCP-093是一片初始顏色為紅的圓盤狀物體，由成分類似硃砂的石材雕製而成。",
-          "url": "http://scp-zh-tr.wikidot.com/scp-093",
+          "itemId": "scp-series-zh-693",
+          "title": "旺伯",
+          "blurb": "人形 × 智能 — SCP-ZH-693 是一名 72 歲的男性人類，本名陳金旺，居住在台灣新北市泰山區。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-693",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

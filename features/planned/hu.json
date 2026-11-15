@@ -88,179 +88,82 @@
       ]
     },
     {
-      "id": "weekly-002",
-      "themeId": "humanoid-biological",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Emberalak × Biológia",
-      "introduction": "Fedezze fel a(z) „Emberalak × Biológia” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
-      "articles": [
-        {
-          "itemId": "scp-series-030",
-          "title": "A Homunkulusz",
-          "blurb": "Emberalak × Biológia — SCP-030 ránézésre egy szőrtelen, nemtelen, szürke színű emberként jellemezhető, mi 71 centiméter magas és 12,70 kilogram…",
-          "url": "https://scp-hu.wikidot.com/scp-030",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-082",
-          "title": "\"Fernand\" A Kannibál",
-          "blurb": "Emberalak × Biológia — SCP-082 genetikailag ember; azonban valamilyen (kémiai, hormonális, daganatos vagy természetfeletti) folyamat révén SCP-…",
-          "url": "https://scp-hu.wikidot.com/scp-082",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-076",
-          "title": "\"Ábel\"",
-          "blurb": "Emberalak × Biológia — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
-          "url": "https://scp-hu.wikidot.com/scp-076",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-029",
-          "title": "A Sötétség Leánya",
-          "blurb": "Emberalak × Biológia — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
-          "url": "https://scp-hu.wikidot.com/scp-029",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-073",
-          "title": "\"Káin\"",
-          "blurb": "Emberalak × Biológia — SCP-073 arab vagy közel-keleti származású, erősen cserzett férfinak tűnik a harmincas évei elején, 185 cm (6'1\") magas é…",
-          "url": "https://scp-hu.wikidot.com/scp-073",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-507",
-          "title": "Visszatérő Dimenzió Ugró",
-          "blurb": "Emberalak × Biológia — SCP-507 egy kaukázusi, szőke hajú és zöld szemű férfi, aki a némi túlsúlyon és vitatható eredetű akcentuson kívül, más k…",
-          "url": "https://scp-hu.wikidot.com/scp-507",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-343",
-          "title": "\"Isten\"",
-          "blurb": "Emberalak × Biológia — SCP-343 egy kinézetre rassz nélküli férfi humanoid, aki látszólag mindenható képességekkel rendelkezik.",
-          "url": "https://scp-hu.wikidot.com/scp-343",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        },
-        {
-          "itemId": "scp-series-1295",
-          "title": "Megék Étkezője",
-          "blurb": "Emberalak × Biológia — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
-          "url": "https://scp-hu.wikidot.com/scp-1295",
-          "sourceTags": [
-            "humanoid",
-            "biological"
-          ]
-        }
-      ]
-    },
-    {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Emberalak × Értelem",
-      "introduction": "Fedezze fel a(z) „Emberalak × Értelem” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "title": "Tárgyak",
+      "introduction": "Fedezze fel a(z) „Tárgyak” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
       "articles": [
         {
-          "itemId": "scp-series-053",
-          "title": "Fiatal Lány",
-          "blurb": "Emberalak × Értelem — SCP-053 külseje megegyezik egy 3 éves kislányéval.",
-          "url": "https://scp-hu.wikidot.com/scp-053",
+          "itemId": "scp-series-063",
+          "title": "\"A Világ Legjobb fokeféje\"",
+          "blurb": "Tárgyak — SCP-063 megjelenése identikus egy átlagos, világoskék fogkeféjével.",
+          "url": "https://scp-hu.wikidot.com/scp-063",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-011",
-          "title": "Érző Polgárháborús Emlékmű",
-          "blurb": "Emberalak × Értelem — SCP-011 egy polgárháborús emlékszobor Woodstock-ban,Vermont államban.",
-          "url": "https://scp-hu.wikidot.com/scp-011",
+          "itemId": "scp-series-093",
+          "title": "Vörös Tengeri Objektum",
+          "blurb": "Tárgyak — SCP-093 egy alapvetően vörös, cinóberre emlékeztető kőből faragott korong, melynek teljes kerületét körkörös vésetek és …",
+          "url": "https://scp-hu.wikidot.com/scp-093",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-049",
-          "title": "Pestisdoktor",
-          "blurb": "Emberalak × Értelem — SCP-049 egy 1,9 méter magas humanoid lény, mely külalakja hasonlít egy középkori pestisdoktoréhoz.",
-          "url": "https://scp-hu.wikidot.com/scp-049",
+          "itemId": "scp-series-361",
+          "title": "Bronz Máj",
+          "blurb": "Tárgyak — SCP-361 egy bronz Etruszk műtárgy, mi báránymáj alakú.",
+          "url": "https://scp-hu.wikidot.com/scp-361",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-014",
-          "title": "A Beton Ember",
-          "blurb": "Emberalak × Értelem — SCP-014 egy fehérbőrű férfi, az életkora körülbelül 30.",
-          "url": "https://scp-hu.wikidot.com/scp-014",
+          "itemId": "scp-series-025",
+          "title": "Az Elnyűtt Ruhásszekrény",
+          "blurb": "Tárgyak — SCP-025 egy fából készült ruhásszekrény, melynek méretei 0.",
+          "url": "https://scp-hu.wikidot.com/scp-025",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-056",
-          "title": "Egy Gyönyörű Személy",
-          "blurb": "Emberalak × Értelem — SCP-056 változó méretű, nemű, és kinézetű lény, mely ezen tulajdonságai a környezetétől, különösen a körülötte lévő érző…",
-          "url": "https://scp-hu.wikidot.com/scp-056",
+          "itemId": "scp-series-034",
+          "title": "Rituális Obszidián Kés",
+          "blurb": "Tárgyak — SCP-034 egy primitív kés, amely színtiszta obszidiánból készült.",
+          "url": "https://scp-hu.wikidot.com/scp-034",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-032",
-          "title": "Testvér Menyasszonya",
-          "blurb": "Emberalak × Értelem — SCP-032 jelenleg egy ismeretlen eredetű F típusú (tökéletlen külső hasonlóságú, belsőleg inkonzisztens) emberi hasonmás.",
-          "url": "https://scp-hu.wikidot.com/scp-032",
+          "itemId": "scp-series-005",
+          "title": "Mesterkulcs",
+          "blurb": "Tárgyak — Az SCP-005 megjelenésében egy díszes kulcsra hasonlít, kinézetre teljesen megegyezik az 1920-as években tömeggyártott ku…",
+          "url": "https://scp-hu.wikidot.com/scp-005",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-114",
-          "title": "Konfliktushozó",
-          "blurb": "Emberalak × Értelem — SCP-114 egy afgán származású Pashtun nő, ki körülbelül 40 éves és 160 cm magas.",
-          "url": "https://scp-hu.wikidot.com/scp-114",
+          "itemId": "scp-series-037",
+          "title": "Törpe Csillag",
+          "blurb": "Tárgyak — SCP-037 ránézésre egy körülbelül 5 cm átmérőjű csillag, amelynek fényereje körülbelül 1*10-12-szerese a napunkénak, fels…",
+          "url": "https://scp-hu.wikidot.com/scp-037",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Nagyláb",
-          "blurb": "Emberalak × Értelem — SCP-1000 egy éjszakai, mindenevő majom, amely a Hominini ágba tartozik, a Pan és Homo nemzetségekkel együtt.",
-          "url": "https://scp-hu.wikidot.com/scp-1000",
+          "itemId": "scp-series-500",
+          "title": "Csodaszer",
+          "blurb": "Tárgyak — SCP-500 egy kis műanyagdoboz, melyben jelenleg negyvenhét (47) piros pirula található.",
+          "url": "https://scp-hu.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -678,6 +581,95 @@
           "sourceTags": [
             "sentient",
             "hostile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-009",
+      "themeId": "humanoid-biological",
+      "publishedAt": "2027-01-06T10:00:00.000Z",
+      "title": "Emberalak × Biológia",
+      "introduction": "Fedezze fel a(z) „Emberalak × Biológia” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "articles": [
+        {
+          "itemId": "scp-series-030",
+          "title": "A Homunkulusz",
+          "blurb": "Emberalak × Biológia — SCP-030 ránézésre egy szőrtelen, nemtelen, szürke színű emberként jellemezhető, mi 71 centiméter magas és 12,70 kilogram…",
+          "url": "https://scp-hu.wikidot.com/scp-030",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-082",
+          "title": "\"Fernand\" A Kannibál",
+          "blurb": "Emberalak × Biológia — SCP-082 genetikailag ember; azonban valamilyen (kémiai, hormonális, daganatos vagy természetfeletti) folyamat révén SCP-…",
+          "url": "https://scp-hu.wikidot.com/scp-082",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-076",
+          "title": "\"Ábel\"",
+          "blurb": "Emberalak × Biológia — SCP-076 két elemből áll: egy kőkockából (SCP-076-1) és egy abban elzárt humanoid teremtményből (SCP-076-2).",
+          "url": "https://scp-hu.wikidot.com/scp-076",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-029",
+          "title": "A Sötétség Leánya",
+          "blurb": "Emberalak × Biológia — SCP-029 látszólag egy ázsiai-indiai származású, serdülő nő.",
+          "url": "https://scp-hu.wikidot.com/scp-029",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-073",
+          "title": "\"Káin\"",
+          "blurb": "Emberalak × Biológia — SCP-073 arab vagy közel-keleti származású, erősen cserzett férfinak tűnik a harmincas évei elején, 185 cm (6'1\") magas é…",
+          "url": "https://scp-hu.wikidot.com/scp-073",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-507",
+          "title": "Visszatérő Dimenzió Ugró",
+          "blurb": "Emberalak × Biológia — SCP-507 egy kaukázusi, szőke hajú és zöld szemű férfi, aki a némi túlsúlyon és vitatható eredetű akcentuson kívül, más k…",
+          "url": "https://scp-hu.wikidot.com/scp-507",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-343",
+          "title": "\"Isten\"",
+          "blurb": "Emberalak × Biológia — SCP-343 egy kinézetre rassz nélküli férfi humanoid, aki látszólag mindenható képességekkel rendelkezik.",
+          "url": "https://scp-hu.wikidot.com/scp-343",
+          "sourceTags": [
+            "humanoid",
+            "biological"
+          ]
+        },
+        {
+          "itemId": "scp-series-1295",
+          "title": "Megék Étkezője",
+          "blurb": "Emberalak × Biológia — SCP-1295 egy kollektív csoportosulás, akik egy négy (4) idős férfiből álló csoport, akik pártfogolják „Meg’s Good Eatin”…",
+          "url": "https://scp-hu.wikidot.com/scp-1295",
+          "sourceTags": [
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -1806,81 +1798,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Tárgyak",
-      "introduction": "Fedezze fel a(z) „Tárgyak” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "title": "Emberalak × Értelem",
+      "introduction": "Fedezze fel a(z) „Emberalak × Értelem” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
       "articles": [
         {
-          "itemId": "scp-series-063",
-          "title": "\"A Világ Legjobb fokeféje\"",
-          "blurb": "Tárgyak — SCP-063 megjelenése identikus egy átlagos, világoskék fogkeféjével.",
-          "url": "https://scp-hu.wikidot.com/scp-063",
+          "itemId": "scp-series-053",
+          "title": "Fiatal Lány",
+          "blurb": "Emberalak × Értelem — SCP-053 külseje megegyezik egy 3 éves kislányéval.",
+          "url": "https://scp-hu.wikidot.com/scp-053",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-093",
-          "title": "Vörös Tengeri Objektum",
-          "blurb": "Tárgyak — SCP-093 egy alapvetően vörös, cinóberre emlékeztető kőből faragott korong, melynek teljes kerületét körkörös vésetek és …",
-          "url": "https://scp-hu.wikidot.com/scp-093",
+          "itemId": "scp-series-011",
+          "title": "Érző Polgárháborús Emlékmű",
+          "blurb": "Emberalak × Értelem — SCP-011 egy polgárháborús emlékszobor Woodstock-ban,Vermont államban.",
+          "url": "https://scp-hu.wikidot.com/scp-011",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-361",
-          "title": "Bronz Máj",
-          "blurb": "Tárgyak — SCP-361 egy bronz Etruszk műtárgy, mi báránymáj alakú.",
-          "url": "https://scp-hu.wikidot.com/scp-361",
+          "itemId": "scp-series-049",
+          "title": "Pestisdoktor",
+          "blurb": "Emberalak × Értelem — SCP-049 egy 1,9 méter magas humanoid lény, mely külalakja hasonlít egy középkori pestisdoktoréhoz.",
+          "url": "https://scp-hu.wikidot.com/scp-049",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-025",
-          "title": "Az Elnyűtt Ruhásszekrény",
-          "blurb": "Tárgyak — SCP-025 egy fából készült ruhásszekrény, melynek méretei 0.",
-          "url": "https://scp-hu.wikidot.com/scp-025",
+          "itemId": "scp-series-014",
+          "title": "A Beton Ember",
+          "blurb": "Emberalak × Értelem — SCP-014 egy fehérbőrű férfi, az életkora körülbelül 30.",
+          "url": "https://scp-hu.wikidot.com/scp-014",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-034",
-          "title": "Rituális Obszidián Kés",
-          "blurb": "Tárgyak — SCP-034 egy primitív kés, amely színtiszta obszidiánból készült.",
-          "url": "https://scp-hu.wikidot.com/scp-034",
+          "itemId": "scp-series-056",
+          "title": "Egy Gyönyörű Személy",
+          "blurb": "Emberalak × Értelem — SCP-056 változó méretű, nemű, és kinézetű lény, mely ezen tulajdonságai a környezetétől, különösen a körülötte lévő érző…",
+          "url": "https://scp-hu.wikidot.com/scp-056",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-005",
-          "title": "Mesterkulcs",
-          "blurb": "Tárgyak — Az SCP-005 megjelenésében egy díszes kulcsra hasonlít, kinézetre teljesen megegyezik az 1920-as években tömeggyártott ku…",
-          "url": "https://scp-hu.wikidot.com/scp-005",
+          "itemId": "scp-series-032",
+          "title": "Testvér Menyasszonya",
+          "blurb": "Emberalak × Értelem — SCP-032 jelenleg egy ismeretlen eredetű F típusú (tökéletlen külső hasonlóságú, belsőleg inkonzisztens) emberi hasonmás.",
+          "url": "https://scp-hu.wikidot.com/scp-032",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-037",
-          "title": "Törpe Csillag",
-          "blurb": "Tárgyak — SCP-037 ránézésre egy körülbelül 5 cm átmérőjű csillag, amelynek fényereje körülbelül 1*10-12-szerese a napunkénak, fels…",
-          "url": "https://scp-hu.wikidot.com/scp-037",
+          "itemId": "scp-series-114",
+          "title": "Konfliktushozó",
+          "blurb": "Emberalak × Értelem — SCP-114 egy afgán származású Pashtun nő, ki körülbelül 40 éves és 160 cm magas.",
+          "url": "https://scp-hu.wikidot.com/scp-114",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "Csodaszer",
-          "blurb": "Tárgyak — SCP-500 egy kis műanyagdoboz, melyben jelenleg negyvenhét (47) piros pirula található.",
-          "url": "https://scp-hu.wikidot.com/scp-500",
+          "itemId": "scp-series-1000",
+          "title": "Nagyláb",
+          "blurb": "Emberalak × Értelem — SCP-1000 egy éjszakai, mindenevő majom, amely a Hominini ágba tartozik, a Pan és Homo nemzetségekkel együtt.",
+          "url": "https://scp-hu.wikidot.com/scp-1000",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

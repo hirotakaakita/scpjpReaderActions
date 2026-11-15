@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Humanoïde × Biologique",
-      "introduction": "Explorez le thème « Humanoïde × Biologique » et comparez les points communs et les différences de ces anomalies.",
+      "title": "Spatial",
+      "introduction": "Explorez le thème « Spatial » et comparez les points communs et les différences de ces anomalies.",
       "articles": [
         {
-          "itemId": "scp-series-076",
-          "title": "\"Able\"",
-          "blurb": "Humanoïde × Biologique — SCP-076 comprend deux éléments: un cube de pierre (SCP-076-1) et une entité humanoïde contenue à l'intérieur (SCP-076-2)…",
-          "url": "http://fondationscp.wikidot.com/scp-076",
+          "itemId": "scp-series-087",
+          "title": "La Cage d'escalier",
+          "blurb": "Spatial — SCP-087 est un grand escalier avec des plate-formes.",
+          "url": "http://fondationscp.wikidot.com/scp-087",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Personnel spécialisé requis",
-          "blurb": "Humanoïde × Biologique — SCP-231-7 est une femme ███████ ayant entre █ et ██ ans, avec [DONNÉES EFFACÉES].",
-          "url": "http://fondationscp.wikidot.com/scp-231",
+          "itemId": "scp-series-3001",
+          "title": "Réalité rouge",
+          "blurb": "Spatial — SCP-3001 est une \"non-dimension\" parallèle/de poche hypothétique et paradoxale accessible via la création d'un Trou de V…",
+          "url": "http://fondationscp.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-343",
-          "title": "\"Dieu\"",
-          "blurb": "Humanoïde × Biologique — SCP-343 est un homme, sans ethnie particulière, d'apparence humaine et doté d'une omnipotence visible.",
-          "url": "http://fondationscp.wikidot.com/scp-343",
+          "itemId": "scp-series-1730",
+          "title": "Qu'est-il arrivé au Site-13 ?",
+          "blurb": "Spatial — SCP-1730 est un grand complexe de structures situé à 15 km au nord-ouest de la frontière mexicaine dans le parc d’état d…",
+          "url": "http://fondationscp.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-073",
-          "title": "\"Caïn\"",
-          "blurb": "Humanoïde × Biologique — SCP-073 semble être un homme d'origine arabe ou moyen-orientale à la peau fortement bronzée, d'une trentaine d'années, m…",
-          "url": "http://fondationscp.wikidot.com/scp-073",
+          "itemId": "scp-series-004",
+          "title": "Les 12 Clés rouillées et la Porte",
+          "blurb": "Spatial — SCP-004 se compose d'une porte de grange en bois ancien (SCP-004-1) et d'un ensemble de douze clés en acier rouillé (SCP…",
+          "url": "http://fondationscp.wikidot.com/scp-004",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-1000",
-          "title": "Bigfoot",
-          "blurb": "Humanoïde × Biologique — SCP-1000 est un singe nocturne et omnivore, classé dans la branche des Hominini, avec les genres Pan et Homo.",
-          "url": "http://fondationscp.wikidot.com/scp-1000",
+          "itemId": "scp-series-354",
+          "title": "La Mare rouge",
+          "blurb": "Spatial — SCP-354 est une mare de liquide rouge découverte au nord du Canada.",
+          "url": "http://fondationscp.wikidot.com/scp-354",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5031",
-          "title": "Encore un autre monstre meurtrier",
-          "blurb": "Humanoïde × Biologique — SCP-5031 est une créature quasi-humanoïde non consciente, dont l'origine est inconnue.",
-          "url": "http://fondationscp.wikidot.com/scp-5031",
+          "itemId": "scp-series-1437",
+          "title": "Un trou vers autre part",
+          "blurb": "Spatial — SCP-1437 est un trou apparemment sans fond, mesurant trois (3) mètres sur trois (3) mètres, situé dans le Désert de ████…",
+          "url": "http://fondationscp.wikidot.com/scp-1437",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5999",
-          "title": "Ici j'ai perdu la vie",
-          "blurb": "Humanoïde × Biologique — ⚠ ATTENTION : NE PAS CONTINUER ⚠ >",
-          "url": "http://fondationscp.wikidot.com/scp-5999",
+          "itemId": "scp-series-6000",
+          "title": "Le Serpent, l'Élan et la Bibliothèque des Vagabonds",
+          "blurb": "Spatial — PAR ORDRE DU HAUT COMMANDEMENT Le fichier suivant est classifié Niveau 4/6000.",
+          "url": "http://fondationscp.wikidot.com/scp-6000",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-105",
-          "title": "\"Iris\"",
-          "blurb": "Humanoïde × Biologique — SCP-105 (auparavant connue comme Iris Thompson) est un individu humain de sexe féminin et d'origine européenne.",
-          "url": "http://fondationscp.wikidot.com/scp-105",
+          "itemId": "scp-series-7179",
+          "title": "E pour Éternité",
+          "blurb": "Spatial — SCP-7179 désigne un nombre inconnu d’espaces extradimensionnels cubiques, mesurant approximativement 10 km de côté.",
+          "url": "http://fondationscp.wikidot.com/scp-7179",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Humanoïde × Intelligent",
-      "introduction": "Explorez le thème « Humanoïde × Intelligent » et comparez les points communs et les différences de ces anomalies.",
+      "title": "Artefact",
+      "introduction": "Explorez le thème « Artefact » et comparez les points communs et les différences de ces anomalies.",
       "articles": [
         {
-          "itemId": "scp-series-990",
-          "title": "Le Rêveur",
-          "blurb": "Humanoïde × Intelligent — SCP-990 est généralement un vieil homme dans un costume d’employé de l’époque de la Guerre Froide, apparaissant dans les…",
-          "url": "http://fondationscp.wikidot.com/scp-990",
+          "itemId": "scp-series-fr-204",
+          "title": "Passeports de la Principauté de Mittelheim",
+          "blurb": "Artefact — SCP-204-FR désigne un lot de deux mille trois cent dix-huit (2318) exemplaires de passeports (████ exemplaires vierges e…",
+          "url": "http://fondationscp.wikidot.com/scp-204-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-239",
-          "title": "L'Enfant sorcière",
-          "blurb": "Humanoïde × Intelligent — SCP-239 semble être une petite fille d'environ 8 ans, mesurant 1 mètre de hauteur et pesant 20,4 kg.",
-          "url": "http://fondationscp.wikidot.com/scp-239",
+          "itemId": "scp-series-fr-134",
+          "title": "Lim(Un)=+∞",
+          "blurb": "Artefact — SCP-134-FR semble être un devoir de mathématiques rédigé par un certain Martin F, élève de terminale S, comme il est ind…",
+          "url": "http://fondationscp.wikidot.com/scp-134-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-1440",
-          "title": "Le Vieil Homme de nulle part",
-          "blurb": "Humanoïde × Intelligent — SCP-1440 est un homme d'origine ethnique et d’âge inconnu.",
-          "url": "http://fondationscp.wikidot.com/scp-1440",
+          "itemId": "scp-series-500",
+          "title": "La Panacée",
+          "blurb": "Artefact — SCP-500 est une boite plastique qui, au moment de l'écriture de ce rapport, contient quarante-sept (47) pilules rouges.",
+          "url": "http://fondationscp.wikidot.com/scp-500",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-085",
-          "title": "\"Cassy\" dessinée à la main",
-          "blurb": "Humanoïde × Intelligent — SCP-085 est le résultat d’une expérience menée entre SCP-067 et SCP-914.",
-          "url": "http://fondationscp.wikidot.com/scp-085",
+          "itemId": "scp-series-fr-264",
+          "title": "20000 lieues dans les airs",
+          "blurb": "Artefact — SCP-264-FR est un oiseau mécanique ouvragé, composé de métaux non-anormaux, mesurant dix centimètres de haut, pesant env…",
+          "url": "http://fondationscp.wikidot.com/scp-264-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-011",
-          "title": "Statue commémorative de la Guerre de Sécession",
-          "blurb": "Humanoïde × Intelligent — SCP-011 est une statue commémorative de la Guerre de Sécession située à Woodstock, dans le Vermont.",
-          "url": "http://fondationscp.wikidot.com/scp-011",
+          "itemId": "scp-series-fr-008",
+          "title": "Salamandre de cire",
+          "blurb": "Artefact — SCP-008-FR se présente sous la forme d’un tube creux constitué d’un morceau de bambou d’un diamètre de sept (7) centimèt…",
+          "url": "http://fondationscp.wikidot.com/scp-008-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-082",
-          "title": "\"Fernand\" le cannibale",
-          "blurb": "Humanoïde × Intelligent — SCP-082 est génétiquement humain mais a, par un procédé inconnu (chimique, hormonal, cancéreux ou surnaturel), atteint u…",
-          "url": "http://fondationscp.wikidot.com/scp-082",
+          "itemId": "scp-series-fr-103",
+          "title": "\"Ceci n'est pas un mosasaure\"",
+          "blurb": "Artefact — SCP-103-FR est un objet dont la propriété anormale est qu’il est impossible de définir sa nature avec certitude.",
+          "url": "http://fondationscp.wikidot.com/scp-103-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-3199",
-          "title": "Humains, réfutés",
-          "blurb": "Humanoïde × Intelligent — SCP-3199 est une espèce humanoïde sentiente d'origine biologique inconnue à l'heure actuelle, bien que des prélèvements …",
-          "url": "http://fondationscp.wikidot.com/scp-3199",
+          "itemId": "scp-series-fr-473",
+          "title": "Chairs et mycoses",
+          "blurb": "Artefact — SCP-473-FR est une zone de ██ kilomètres carrés située dans la forêt de ████████████ dans la voïvodie des Basses-Carpate…",
+          "url": "http://fondationscp.wikidot.com/scp-473-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-527",
-          "title": "M. Poisson",
-          "blurb": "Humanoïde × Intelligent — SCP-527 est un humanoïde mâle mesurant 1,67m, il est biologiquement normal, à l’exception de sa tête qui est celle d'un …",
-          "url": "http://fondationscp.wikidot.com/scp-527",
+          "itemId": "scp-series-fr-288",
+          "title": "Une pelle de tranchée",
+          "blurb": "Artefact — SCP-288-FR est une pelle de tranchée rouillée au manche en bois, dont la date de fabrication remonte à la Première Guerr…",
+          "url": "http://fondationscp.wikidot.com/scp-288-fr",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Spatial",
-      "introduction": "Explorez le thème « Spatial » et comparez les points communs et les différences de ces anomalies.",
+      "title": "Humanoïde × Biologique",
+      "introduction": "Explorez le thème « Humanoïde × Biologique » et comparez les points communs et les différences de ces anomalies.",
       "articles": [
         {
-          "itemId": "scp-series-087",
-          "title": "La Cage d'escalier",
-          "blurb": "Spatial — SCP-087 est un grand escalier avec des plate-formes.",
-          "url": "http://fondationscp.wikidot.com/scp-087",
+          "itemId": "scp-series-076",
+          "title": "\"Able\"",
+          "blurb": "Humanoïde × Biologique — SCP-076 comprend deux éléments: un cube de pierre (SCP-076-1) et une entité humanoïde contenue à l'intérieur (SCP-076-2)…",
+          "url": "http://fondationscp.wikidot.com/scp-076",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Réalité rouge",
-          "blurb": "Spatial — SCP-3001 est une \"non-dimension\" parallèle/de poche hypothétique et paradoxale accessible via la création d'un Trou de V…",
-          "url": "http://fondationscp.wikidot.com/scp-3001",
+          "itemId": "scp-series-231",
+          "title": "Personnel spécialisé requis",
+          "blurb": "Humanoïde × Biologique — SCP-231-7 est une femme ███████ ayant entre █ et ██ ans, avec [DONNÉES EFFACÉES].",
+          "url": "http://fondationscp.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "Qu'est-il arrivé au Site-13 ?",
-          "blurb": "Spatial — SCP-1730 est un grand complexe de structures situé à 15 km au nord-ouest de la frontière mexicaine dans le parc d’état d…",
-          "url": "http://fondationscp.wikidot.com/scp-1730",
+          "itemId": "scp-series-343",
+          "title": "\"Dieu\"",
+          "blurb": "Humanoïde × Biologique — SCP-343 est un homme, sans ethnie particulière, d'apparence humaine et doté d'une omnipotence visible.",
+          "url": "http://fondationscp.wikidot.com/scp-343",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-004",
-          "title": "Les 12 Clés rouillées et la Porte",
-          "blurb": "Spatial — SCP-004 se compose d'une porte de grange en bois ancien (SCP-004-1) et d'un ensemble de douze clés en acier rouillé (SCP…",
-          "url": "http://fondationscp.wikidot.com/scp-004",
+          "itemId": "scp-series-073",
+          "title": "\"Caïn\"",
+          "blurb": "Humanoïde × Biologique — SCP-073 semble être un homme d'origine arabe ou moyen-orientale à la peau fortement bronzée, d'une trentaine d'années, m…",
+          "url": "http://fondationscp.wikidot.com/scp-073",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-354",
-          "title": "La Mare rouge",
-          "blurb": "Spatial — SCP-354 est une mare de liquide rouge découverte au nord du Canada.",
-          "url": "http://fondationscp.wikidot.com/scp-354",
+          "itemId": "scp-series-1000",
+          "title": "Bigfoot",
+          "blurb": "Humanoïde × Biologique — SCP-1000 est un singe nocturne et omnivore, classé dans la branche des Hominini, avec les genres Pan et Homo.",
+          "url": "http://fondationscp.wikidot.com/scp-1000",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1437",
-          "title": "Un trou vers autre part",
-          "blurb": "Spatial — SCP-1437 est un trou apparemment sans fond, mesurant trois (3) mètres sur trois (3) mètres, situé dans le Désert de ████…",
-          "url": "http://fondationscp.wikidot.com/scp-1437",
+          "itemId": "scp-series-5031",
+          "title": "Encore un autre monstre meurtrier",
+          "blurb": "Humanoïde × Biologique — SCP-5031 est une créature quasi-humanoïde non consciente, dont l'origine est inconnue.",
+          "url": "http://fondationscp.wikidot.com/scp-5031",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6000",
-          "title": "Le Serpent, l'Élan et la Bibliothèque des Vagabonds",
-          "blurb": "Spatial — PAR ORDRE DU HAUT COMMANDEMENT Le fichier suivant est classifié Niveau 4/6000.",
-          "url": "http://fondationscp.wikidot.com/scp-6000",
+          "itemId": "scp-series-5999",
+          "title": "Ici j'ai perdu la vie",
+          "blurb": "Humanoïde × Biologique — ⚠ ATTENTION : NE PAS CONTINUER ⚠ >",
+          "url": "http://fondationscp.wikidot.com/scp-5999",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-7179",
-          "title": "E pour Éternité",
-          "blurb": "Spatial — SCP-7179 désigne un nombre inconnu d’espaces extradimensionnels cubiques, mesurant approximativement 10 km de côté.",
-          "url": "http://fondationscp.wikidot.com/scp-7179",
+          "itemId": "scp-series-105",
+          "title": "\"Iris\"",
+          "blurb": "Humanoïde × Biologique — SCP-105 (auparavant connue comme Iris Thompson) est un individu humain de sexe féminin et d'origine européenne.",
+          "url": "http://fondationscp.wikidot.com/scp-105",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Artefact",
-      "introduction": "Explorez le thème « Artefact » et comparez les points communs et les différences de ces anomalies.",
+      "title": "Humanoïde × Intelligent",
+      "introduction": "Explorez le thème « Humanoïde × Intelligent » et comparez les points communs et les différences de ces anomalies.",
       "articles": [
         {
-          "itemId": "scp-series-fr-204",
-          "title": "Passeports de la Principauté de Mittelheim",
-          "blurb": "Artefact — SCP-204-FR désigne un lot de deux mille trois cent dix-huit (2318) exemplaires de passeports (████ exemplaires vierges e…",
-          "url": "http://fondationscp.wikidot.com/scp-204-fr",
+          "itemId": "scp-series-990",
+          "title": "Le Rêveur",
+          "blurb": "Humanoïde × Intelligent — SCP-990 est généralement un vieil homme dans un costume d’employé de l’époque de la Guerre Froide, apparaissant dans les…",
+          "url": "http://fondationscp.wikidot.com/scp-990",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-fr-134",
-          "title": "Lim(Un)=+∞",
-          "blurb": "Artefact — SCP-134-FR semble être un devoir de mathématiques rédigé par un certain Martin F, élève de terminale S, comme il est ind…",
-          "url": "http://fondationscp.wikidot.com/scp-134-fr",
+          "itemId": "scp-series-239",
+          "title": "L'Enfant sorcière",
+          "blurb": "Humanoïde × Intelligent — SCP-239 semble être une petite fille d'environ 8 ans, mesurant 1 mètre de hauteur et pesant 20,4 kg.",
+          "url": "http://fondationscp.wikidot.com/scp-239",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-500",
-          "title": "La Panacée",
-          "blurb": "Artefact — SCP-500 est une boite plastique qui, au moment de l'écriture de ce rapport, contient quarante-sept (47) pilules rouges.",
-          "url": "http://fondationscp.wikidot.com/scp-500",
+          "itemId": "scp-series-1440",
+          "title": "Le Vieil Homme de nulle part",
+          "blurb": "Humanoïde × Intelligent — SCP-1440 est un homme d'origine ethnique et d’âge inconnu.",
+          "url": "http://fondationscp.wikidot.com/scp-1440",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-fr-264",
-          "title": "20000 lieues dans les airs",
-          "blurb": "Artefact — SCP-264-FR est un oiseau mécanique ouvragé, composé de métaux non-anormaux, mesurant dix centimètres de haut, pesant env…",
-          "url": "http://fondationscp.wikidot.com/scp-264-fr",
+          "itemId": "scp-series-085",
+          "title": "\"Cassy\" dessinée à la main",
+          "blurb": "Humanoïde × Intelligent — SCP-085 est le résultat d’une expérience menée entre SCP-067 et SCP-914.",
+          "url": "http://fondationscp.wikidot.com/scp-085",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-fr-008",
-          "title": "Salamandre de cire",
-          "blurb": "Artefact — SCP-008-FR se présente sous la forme d’un tube creux constitué d’un morceau de bambou d’un diamètre de sept (7) centimèt…",
-          "url": "http://fondationscp.wikidot.com/scp-008-fr",
+          "itemId": "scp-series-011",
+          "title": "Statue commémorative de la Guerre de Sécession",
+          "blurb": "Humanoïde × Intelligent — SCP-011 est une statue commémorative de la Guerre de Sécession située à Woodstock, dans le Vermont.",
+          "url": "http://fondationscp.wikidot.com/scp-011",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-fr-103",
-          "title": "\"Ceci n'est pas un mosasaure\"",
-          "blurb": "Artefact — SCP-103-FR est un objet dont la propriété anormale est qu’il est impossible de définir sa nature avec certitude.",
-          "url": "http://fondationscp.wikidot.com/scp-103-fr",
+          "itemId": "scp-series-082",
+          "title": "\"Fernand\" le cannibale",
+          "blurb": "Humanoïde × Intelligent — SCP-082 est génétiquement humain mais a, par un procédé inconnu (chimique, hormonal, cancéreux ou surnaturel), atteint u…",
+          "url": "http://fondationscp.wikidot.com/scp-082",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-fr-473",
-          "title": "Chairs et mycoses",
-          "blurb": "Artefact — SCP-473-FR est une zone de ██ kilomètres carrés située dans la forêt de ████████████ dans la voïvodie des Basses-Carpate…",
-          "url": "http://fondationscp.wikidot.com/scp-473-fr",
+          "itemId": "scp-series-3199",
+          "title": "Humains, réfutés",
+          "blurb": "Humanoïde × Intelligent — SCP-3199 est une espèce humanoïde sentiente d'origine biologique inconnue à l'heure actuelle, bien que des prélèvements …",
+          "url": "http://fondationscp.wikidot.com/scp-3199",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-fr-288",
-          "title": "Une pelle de tranchée",
-          "blurb": "Artefact — SCP-288-FR est une pelle de tranchée rouillée au manche en bois, dont la date de fabrication remonte à la Première Guerr…",
-          "url": "http://fondationscp.wikidot.com/scp-288-fr",
+          "itemId": "scp-series-527",
+          "title": "M. Poisson",
+          "blurb": "Humanoïde × Intelligent — SCP-527 est un humanoïde mâle mesurant 1,67m, il est biologiquement normal, à l’exception de sa tête qui est celle d'un …",
+          "url": "http://fondationscp.wikidot.com/scp-527",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

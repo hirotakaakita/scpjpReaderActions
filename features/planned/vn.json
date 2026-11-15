@@ -89,178 +89,162 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "publishedAt": "2026-11-18T10:00:00.000Z",
-      "title": "Hình người × Sinh học",
-      "introduction": "Khám phá chủ đề «Hình người × Sinh học» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "title": "Không gian",
+      "introduction": "Khám phá chủ đề «Không gian» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
       "articles": [
         {
-          "itemId": "scp-series-2273",
-          "title": "Thiếu Tá Alexei Belitrov, thuộc Sư Đoàn Bộ Binh Thiết Giáp 22, Hồng Quân Liên Xô",
-          "blurb": "Hình người × Sinh học — SCP-2273 là một thực thể dạng người được cho là có nguồn gốc từ một vũ trụ song song, bao gồm hai phần riêng biệt nhau.",
-          "url": "https://scp-vn.wikidot.com/scp-2273",
+          "itemId": "scp-series-vn-152",
+          "title": "Mộng đẹp chóng tàn",
+          "blurb": "Không gian — SCP-152-VN là một thực thể mang hình dáng loài rồng, đối tượng có khả năng giao tiếp trực tiếp với con người thông qua l…",
+          "url": "https://scp-vn.wikidot.com/scp-152-vn",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-049",
-          "title": "Bác Sĩ Dịch Hạch",
-          "blurb": "Hình người × Sinh học — SCP-049 là một thực thể dạng người, cao xấp xỉ 1.",
-          "url": "https://scp-vn.wikidot.com/scp-049",
+          "itemId": "scp-series-6000",
+          "title": "Mãng Xà, Nai Sừng Tấm và Thư Viện của Lãng Khách",
+          "blurb": "Không gian — THEO MỆNH LỆNH CỦA HỘI ĐỒNG TỐI CAO Hồ sơ dưới đây được phân loại an ninh cấp 4/6000.",
+          "url": "https://scp-vn.wikidot.com/scp-6000",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-231",
-          "title": "Yêu Cầu Nhân Sự Đặc Biệt",
-          "blurb": "Hình người × Sinh học — SCP-231-7 là một người █████ giới tính nữ, tuổi nằm trong khoảng █ đến ██, với [DỮ LIỆU BỊ XÓA].",
-          "url": "https://scp-vn.wikidot.com/scp-231",
+          "itemId": "scp-series-vn-024",
+          "title": "Nơi Mọi Thứ Bắt Đầu",
+          "blurb": "Không gian — SCP-024-VN là mã định danh dành cho một khu vực bán kính 200m nằm trong Sa Mạc Gobi, gần lãnh thổ Trung Quốc.",
+          "url": "https://scp-vn.wikidot.com/scp-024-vn",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-6699",
-          "title": "Thân Rễ của Tâm Trí chúng ta",
-          "blurb": "Hình người × Sinh học — CẤP ĐỘ 5: TỐI MẬT!",
-          "url": "https://scp-vn.wikidot.com/scp-6699",
+          "itemId": "scp-series-1730",
+          "title": "Chuyện Gì Đã Xảy Ra Tại Điểm 13?",
+          "blurb": "Không gian — SCP-1730 là một khu liên hợp nằm 15km về hướng tây bắc của biên giới Mỹ-Mexico nằm trong Khuôn viên Big Bend Ranch, được…",
+          "url": "https://scp-vn.wikidot.com/scp-1730",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-4812",
-          "title": "Phẫn Nộ",
-          "blurb": "Hình người × Sinh học — SCP-4812 là mã định danh dành cho ba thực thể, SCP-4812-S, -E, và -K, và một chuỗi các tài liệu được thu hồi (SCP-4812-1…",
-          "url": "https://scp-vn.wikidot.com/scp-4812",
+          "itemId": "scp-series-3001",
+          "title": "Thực Tại Đỏ",
+          "blurb": "Không gian — SCP-3001 được giả thuyết là một \"chiều không-gian\" nghịch lý/song song mà có thể tới được qua một Hố Giun cấp C \"Lối vào…",
+          "url": "https://scp-vn.wikidot.com/scp-3001",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-3812",
-          "title": "Giọng Nói Đằng Sau Ta",
-          "blurb": "Hình người × Sinh học — SCP-3812 là một thực thể biến đổi thực tại.",
-          "url": "https://scp-vn.wikidot.com/scp-3812",
+          "itemId": "scp-series-vn-183",
+          "title": "Tuyết Tàn Tro",
+          "blurb": "Không gian — SCP-183-VN là định danh cho một đoạn tường cũ nằm bên ngoài Điểm-04K gần với biên giới Triều Tiên-Hàn Quốc.",
+          "url": "https://scp-vn.wikidot.com/scp-183-vn",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-5004",
-          "title": "MEGALOMANIA",
-          "blurb": "Hình người × Sinh học — SCP-5004 là tổ hợp hiện tượng dị thường ảnh hưởng đến cơ quan hành pháp của Chính phủ Hoa Kỳ.",
-          "url": "https://scp-vn.wikidot.com/scp-5004",
+          "itemId": "scp-series-6500",
+          "title": "Tất Yếu",
+          "blurb": "Không gian — DƯỚI SỰ CHỈ ĐỊNH CỦA HỘI ĐỒNG TỐI CAO Tệp tin này đã được chỉnh sửa hợp pháp truy cập cho toàn bộ nhân sự.",
+          "url": "https://scp-vn.wikidot.com/scp-6500",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         },
         {
-          "itemId": "scp-series-6013",
-          "title": "Quái Vật Biển Aegean",
-          "blurb": "Hình người × Sinh học — CẢNH BÁO: THÔNG TIN SAU ĐƯỢC PHÂN LOẠI CẤP 6013.",
-          "url": "https://scp-vn.wikidot.com/scp-6013",
+          "itemId": "scp-series-5956",
+          "title": "KHÔNGCÓKHẨUPHÁONÀOCẢ",
+          "blurb": "Không gian — SCP-5956 là một dạng pháo REISNO.",
+          "url": "https://scp-vn.wikidot.com/scp-5956",
           "sourceTags": [
-            "humanoid",
-            "biological"
+            "spatial"
           ]
         }
       ]
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "publishedAt": "2026-11-25T10:00:00.000Z",
-      "title": "Hình người × Có tri giác",
-      "introduction": "Khám phá chủ đề «Hình người × Có tri giác» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "title": "Vật thể",
+      "introduction": "Khám phá chủ đề «Vật thể» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
       "articles": [
         {
-          "itemId": "scp-series-8400",
-          "title": "Hiệp Sĩ Bạch Dương và Trò Chơi Ba Hạt Dẻ",
-          "blurb": "Hình người × Có tri giác — Một cuộc đấu trí giữa nhà dân gian học và đối tượng nghiên cứu của bà.",
-          "url": "https://scp-vn.wikidot.com/scp-8400",
+          "itemId": "scp-series-3790",
+          "title": "Phòng Ban Dị Tượng",
+          "blurb": "Vật thể — SCP-3790 là một công trình xây dựng nằm ngay dưới nhà kho bỏ hoang của Công ty Port Superior Canning ở London, Vương Quố…",
+          "url": "https://scp-vn.wikidot.com/scp-3790",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-2030",
-          "title": "CƯ Ờ I LÀ V UI",
-          "blurb": "Hình người × Có tri giác — SCP-2030 là một hiện tượng dị thường xuất hiện dưới dạng một chương trình TV dài tập.",
-          "url": "https://scp-vn.wikidot.com/scp-2030",
+          "itemId": "scp-series-7243",
+          "title": "XỬ LÝ HIỆN SINH",
+          "blurb": "Vật thể — SCP-7243 là thiết bị Xử lý Hiện sinh Tiền Thực tại Deering-Placeholder (DePLExA), một thiết bị dị thường công nghiệp đượ…",
+          "url": "https://scp-vn.wikidot.com/scp-7243",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-8980",
-          "title": "Chứng sợ làm việc: Không Đáng Để Tâm",
-          "blurb": "Hình người × Có tri giác — SCP-8980 là Lillian MarleyLillian Marley là một Chuyên viên Quản thúc Cấp 3 hiện đang làm việc tại Tổ Chức SCP.",
-          "url": "https://scp-vn.wikidot.com/scp-8980",
+          "itemId": "scp-series-2264",
+          "title": "Trong Cung Điện của Alagadda",
+          "blurb": "Vật thể — SCP-2264-A là một cánh cửa sắt đặt trong một hầm chứa bí mật bên dưới Tháp Martin, thuộc một phần Tháp Luân Đôn.",
+          "url": "https://scp-vn.wikidot.com/scp-2264",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-4661",
-          "title": "Thành Phố Tội Lỗi",
-          "blurb": "Hình người × Có tri giác — SCP-4661 là một vùng không gian nơi mà thành phố Las Vegas và Tầng thứ Tư của Địa ngục (theo hệ phân tầng trong Hỏa ngục…",
-          "url": "https://scp-vn.wikidot.com/scp-4661",
+          "itemId": "scp-series-6222",
+          "title": "NHÀ TÙ CÁ",
+          "blurb": "Vật thể — SCP-6222 là một tòa nhà với không gian phi Euclid bên trong rộng một cách bất thường, với một biển hiệu được gắn bên ngo…",
+          "url": "https://scp-vn.wikidot.com/scp-6222",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-6456",
-          "title": "và đó là tất cả những gì cô ấy viết.",
-          "blurb": "Hình người × Có tri giác — SCP-6456 là Taylor Reeves, một người đàn ông da trắng 47 tuổi với khả năng kiểm soát lửa.",
-          "url": "https://scp-vn.wikidot.com/scp-6456",
+          "itemId": "scp-series-5714",
+          "title": "Anh yêu em từ Vũ Trụ rồi Quay Lại",
+          "blurb": "Vật thể — SCP-5714 là đài thiên văn của UCI1 tại Irvine, CA.",
+          "url": "https://scp-vn.wikidot.com/scp-5714",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-4007",
-          "title": "Ẩn Sĩ",
-          "blurb": "Hình người × Có tri giác — SCP-4007 là một định danh chung cho 5 cá thể dị thường, còn được gọi là “Ngũ Đại Bình Phong,” họ thành lập một lực lượng…",
-          "url": "https://scp-vn.wikidot.com/scp-4007",
+          "itemId": "scp-series-7052",
+          "title": "Thìa Đút Đít",
+          "blurb": "Vật thể — SCP-7052 là hành động nhét thìa vào trực tràng.",
+          "url": "https://scp-vn.wikidot.com/scp-7052",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-6777",
-          "title": "Streamer Ảo Ichifuji Bakuu",
-          "blurb": "Hình người × Có tri giác — SCP-6777 là một thực thể Youtuber ảo1 hoạt động dưới cái tên \"Ichifuji Bakuu (一富士ばくぅ)\".",
-          "url": "https://scp-vn.wikidot.com/scp-6777",
+          "itemId": "scp-series-4005",
+          "title": "Thành Phố Thần Thánh và Thiên Đàng Của Trung Hoa Huyền Thoại",
+          "blurb": "Vật thể — SCP-4005 là một cây đèn dầu không thể bị phá hủy được làm bằng thủy tinh theo thiết kế kiểu Hồi giáo, được phục hồi từ C…",
+          "url": "https://scp-vn.wikidot.com/scp-4005",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         },
         {
-          "itemId": "scp-series-4352",
-          "title": "Giờ Kể Chuyện",
-          "blurb": "Hình người × Có tri giác — SCP-4352 là một thực thể siêu hình thù địch, thường cư trú trong vùng tâm thức tập thể của con người, nhưng có khả năng …",
-          "url": "https://scp-vn.wikidot.com/scp-4352",
+          "itemId": "scp-series-4088",
+          "title": "Chơi Một Bản Đi, Anh Là Một Cây Dương Cầm Mà, Anh Bạn",
+          "blurb": "Vật thể — SCP-4088 là một cây đại dương cầm có tri giác màu đen không rõ cấu tạo hay mẫu mã.",
+          "url": "https://scp-vn.wikidot.com/scp-4088",
           "sourceTags": [
-            "humanoid",
-            "sentient"
+            "artifact"
           ]
         }
       ]
@@ -704,81 +688,89 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "publishedAt": "2027-01-06T10:00:00.000Z",
-      "title": "Không gian",
-      "introduction": "Khám phá chủ đề «Không gian» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "title": "Hình người × Sinh học",
+      "introduction": "Khám phá chủ đề «Hình người × Sinh học» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
       "articles": [
         {
-          "itemId": "scp-series-vn-152",
-          "title": "Mộng đẹp chóng tàn",
-          "blurb": "Không gian — SCP-152-VN là một thực thể mang hình dáng loài rồng, đối tượng có khả năng giao tiếp trực tiếp với con người thông qua l…",
-          "url": "https://scp-vn.wikidot.com/scp-152-vn",
+          "itemId": "scp-series-2273",
+          "title": "Thiếu Tá Alexei Belitrov, thuộc Sư Đoàn Bộ Binh Thiết Giáp 22, Hồng Quân Liên Xô",
+          "blurb": "Hình người × Sinh học — SCP-2273 là một thực thể dạng người được cho là có nguồn gốc từ một vũ trụ song song, bao gồm hai phần riêng biệt nhau.",
+          "url": "https://scp-vn.wikidot.com/scp-2273",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6000",
-          "title": "Mãng Xà, Nai Sừng Tấm và Thư Viện của Lãng Khách",
-          "blurb": "Không gian — THEO MỆNH LỆNH CỦA HỘI ĐỒNG TỐI CAO Hồ sơ dưới đây được phân loại an ninh cấp 4/6000.",
-          "url": "https://scp-vn.wikidot.com/scp-6000",
+          "itemId": "scp-series-049",
+          "title": "Bác Sĩ Dịch Hạch",
+          "blurb": "Hình người × Sinh học — SCP-049 là một thực thể dạng người, cao xấp xỉ 1.",
+          "url": "https://scp-vn.wikidot.com/scp-049",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-vn-024",
-          "title": "Nơi Mọi Thứ Bắt Đầu",
-          "blurb": "Không gian — SCP-024-VN là mã định danh dành cho một khu vực bán kính 200m nằm trong Sa Mạc Gobi, gần lãnh thổ Trung Quốc.",
-          "url": "https://scp-vn.wikidot.com/scp-024-vn",
+          "itemId": "scp-series-231",
+          "title": "Yêu Cầu Nhân Sự Đặc Biệt",
+          "blurb": "Hình người × Sinh học — SCP-231-7 là một người █████ giới tính nữ, tuổi nằm trong khoảng █ đến ██, với [DỮ LIỆU BỊ XÓA].",
+          "url": "https://scp-vn.wikidot.com/scp-231",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-1730",
-          "title": "Chuyện Gì Đã Xảy Ra Tại Điểm 13?",
-          "blurb": "Không gian — SCP-1730 là một khu liên hợp nằm 15km về hướng tây bắc của biên giới Mỹ-Mexico nằm trong Khuôn viên Big Bend Ranch, được…",
-          "url": "https://scp-vn.wikidot.com/scp-1730",
+          "itemId": "scp-series-6699",
+          "title": "Thân Rễ của Tâm Trí chúng ta",
+          "blurb": "Hình người × Sinh học — CẤP ĐỘ 5: TỐI MẬT!",
+          "url": "https://scp-vn.wikidot.com/scp-6699",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-3001",
-          "title": "Thực Tại Đỏ",
-          "blurb": "Không gian — SCP-3001 được giả thuyết là một \"chiều không-gian\" nghịch lý/song song mà có thể tới được qua một Hố Giun cấp C \"Lối vào…",
-          "url": "https://scp-vn.wikidot.com/scp-3001",
+          "itemId": "scp-series-4812",
+          "title": "Phẫn Nộ",
+          "blurb": "Hình người × Sinh học — SCP-4812 là mã định danh dành cho ba thực thể, SCP-4812-S, -E, và -K, và một chuỗi các tài liệu được thu hồi (SCP-4812-1…",
+          "url": "https://scp-vn.wikidot.com/scp-4812",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-vn-183",
-          "title": "Tuyết Tàn Tro",
-          "blurb": "Không gian — SCP-183-VN là định danh cho một đoạn tường cũ nằm bên ngoài Điểm-04K gần với biên giới Triều Tiên-Hàn Quốc.",
-          "url": "https://scp-vn.wikidot.com/scp-183-vn",
+          "itemId": "scp-series-3812",
+          "title": "Giọng Nói Đằng Sau Ta",
+          "blurb": "Hình người × Sinh học — SCP-3812 là một thực thể biến đổi thực tại.",
+          "url": "https://scp-vn.wikidot.com/scp-3812",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-6500",
-          "title": "Tất Yếu",
-          "blurb": "Không gian — DƯỚI SỰ CHỈ ĐỊNH CỦA HỘI ĐỒNG TỐI CAO Tệp tin này đã được chỉnh sửa hợp pháp truy cập cho toàn bộ nhân sự.",
-          "url": "https://scp-vn.wikidot.com/scp-6500",
+          "itemId": "scp-series-5004",
+          "title": "MEGALOMANIA",
+          "blurb": "Hình người × Sinh học — SCP-5004 là tổ hợp hiện tượng dị thường ảnh hưởng đến cơ quan hành pháp của Chính phủ Hoa Kỳ.",
+          "url": "https://scp-vn.wikidot.com/scp-5004",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         },
         {
-          "itemId": "scp-series-5956",
-          "title": "KHÔNGCÓKHẨUPHÁONÀOCẢ",
-          "blurb": "Không gian — SCP-5956 là một dạng pháo REISNO.",
-          "url": "https://scp-vn.wikidot.com/scp-5956",
+          "itemId": "scp-series-6013",
+          "title": "Quái Vật Biển Aegean",
+          "blurb": "Hình người × Sinh học — CẢNH BÁO: THÔNG TIN SAU ĐƯỢC PHÂN LOẠI CẤP 6013.",
+          "url": "https://scp-vn.wikidot.com/scp-6013",
           "sourceTags": [
-            "spatial"
+            "humanoid",
+            "biological"
           ]
         }
       ]
@@ -3416,81 +3408,89 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "publishedAt": "2027-08-18T10:00:00.000Z",
-      "title": "Vật thể",
-      "introduction": "Khám phá chủ đề «Vật thể» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "title": "Hình người × Có tri giác",
+      "introduction": "Khám phá chủ đề «Hình người × Có tri giác» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
       "articles": [
         {
-          "itemId": "scp-series-3790",
-          "title": "Phòng Ban Dị Tượng",
-          "blurb": "Vật thể — SCP-3790 là một công trình xây dựng nằm ngay dưới nhà kho bỏ hoang của Công ty Port Superior Canning ở London, Vương Quố…",
-          "url": "https://scp-vn.wikidot.com/scp-3790",
+          "itemId": "scp-series-8400",
+          "title": "Hiệp Sĩ Bạch Dương và Trò Chơi Ba Hạt Dẻ",
+          "blurb": "Hình người × Có tri giác — Một cuộc đấu trí giữa nhà dân gian học và đối tượng nghiên cứu của bà.",
+          "url": "https://scp-vn.wikidot.com/scp-8400",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-7243",
-          "title": "XỬ LÝ HIỆN SINH",
-          "blurb": "Vật thể — SCP-7243 là thiết bị Xử lý Hiện sinh Tiền Thực tại Deering-Placeholder (DePLExA), một thiết bị dị thường công nghiệp đượ…",
-          "url": "https://scp-vn.wikidot.com/scp-7243",
+          "itemId": "scp-series-2030",
+          "title": "CƯ Ờ I LÀ V UI",
+          "blurb": "Hình người × Có tri giác — SCP-2030 là một hiện tượng dị thường xuất hiện dưới dạng một chương trình TV dài tập.",
+          "url": "https://scp-vn.wikidot.com/scp-2030",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-2264",
-          "title": "Trong Cung Điện của Alagadda",
-          "blurb": "Vật thể — SCP-2264-A là một cánh cửa sắt đặt trong một hầm chứa bí mật bên dưới Tháp Martin, thuộc một phần Tháp Luân Đôn.",
-          "url": "https://scp-vn.wikidot.com/scp-2264",
+          "itemId": "scp-series-8980",
+          "title": "Chứng sợ làm việc: Không Đáng Để Tâm",
+          "blurb": "Hình người × Có tri giác — SCP-8980 là Lillian MarleyLillian Marley là một Chuyên viên Quản thúc Cấp 3 hiện đang làm việc tại Tổ Chức SCP.",
+          "url": "https://scp-vn.wikidot.com/scp-8980",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-6222",
-          "title": "NHÀ TÙ CÁ",
-          "blurb": "Vật thể — SCP-6222 là một tòa nhà với không gian phi Euclid bên trong rộng một cách bất thường, với một biển hiệu được gắn bên ngo…",
-          "url": "https://scp-vn.wikidot.com/scp-6222",
+          "itemId": "scp-series-4661",
+          "title": "Thành Phố Tội Lỗi",
+          "blurb": "Hình người × Có tri giác — SCP-4661 là một vùng không gian nơi mà thành phố Las Vegas và Tầng thứ Tư của Địa ngục (theo hệ phân tầng trong Hỏa ngục…",
+          "url": "https://scp-vn.wikidot.com/scp-4661",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-5714",
-          "title": "Anh yêu em từ Vũ Trụ rồi Quay Lại",
-          "blurb": "Vật thể — SCP-5714 là đài thiên văn của UCI1 tại Irvine, CA.",
-          "url": "https://scp-vn.wikidot.com/scp-5714",
+          "itemId": "scp-series-6456",
+          "title": "và đó là tất cả những gì cô ấy viết.",
+          "blurb": "Hình người × Có tri giác — SCP-6456 là Taylor Reeves, một người đàn ông da trắng 47 tuổi với khả năng kiểm soát lửa.",
+          "url": "https://scp-vn.wikidot.com/scp-6456",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-7052",
-          "title": "Thìa Đút Đít",
-          "blurb": "Vật thể — SCP-7052 là hành động nhét thìa vào trực tràng.",
-          "url": "https://scp-vn.wikidot.com/scp-7052",
+          "itemId": "scp-series-4007",
+          "title": "Ẩn Sĩ",
+          "blurb": "Hình người × Có tri giác — SCP-4007 là một định danh chung cho 5 cá thể dị thường, còn được gọi là “Ngũ Đại Bình Phong,” họ thành lập một lực lượng…",
+          "url": "https://scp-vn.wikidot.com/scp-4007",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-4005",
-          "title": "Thành Phố Thần Thánh và Thiên Đàng Của Trung Hoa Huyền Thoại",
-          "blurb": "Vật thể — SCP-4005 là một cây đèn dầu không thể bị phá hủy được làm bằng thủy tinh theo thiết kế kiểu Hồi giáo, được phục hồi từ C…",
-          "url": "https://scp-vn.wikidot.com/scp-4005",
+          "itemId": "scp-series-6777",
+          "title": "Streamer Ảo Ichifuji Bakuu",
+          "blurb": "Hình người × Có tri giác — SCP-6777 là một thực thể Youtuber ảo1 hoạt động dưới cái tên \"Ichifuji Bakuu (一富士ばくぅ)\".",
+          "url": "https://scp-vn.wikidot.com/scp-6777",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         },
         {
-          "itemId": "scp-series-4088",
-          "title": "Chơi Một Bản Đi, Anh Là Một Cây Dương Cầm Mà, Anh Bạn",
-          "blurb": "Vật thể — SCP-4088 là một cây đại dương cầm có tri giác màu đen không rõ cấu tạo hay mẫu mã.",
-          "url": "https://scp-vn.wikidot.com/scp-4088",
+          "itemId": "scp-series-4352",
+          "title": "Giờ Kể Chuyện",
+          "blurb": "Hình người × Có tri giác — SCP-4352 là một thực thể siêu hình thù địch, thường cư trú trong vùng tâm thức tập thể của con người, nhưng có khả năng …",
+          "url": "https://scp-vn.wikidot.com/scp-4352",
           "sourceTags": [
-            "artifact"
+            "humanoid",
+            "sentient"
           ]
         }
       ]

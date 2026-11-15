@@ -14,19 +14,17 @@
     },
     {
       "id": "weekly-002",
-      "themeId": "humanoid-biological",
+      "themeId": "spatial",
       "keys": [
-        "humanoid",
-        "biological"
+        "spatial"
       ],
       "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     {
       "id": "weekly-003",
-      "themeId": "humanoid-sentient",
+      "themeId": "artifact",
       "keys": [
-        "humanoid",
-        "sentient"
+        "artifact"
       ],
       "publishedAt": "2026-11-25T10:00:00.000Z"
     },
@@ -76,9 +74,10 @@
     },
     {
       "id": "weekly-009",
-      "themeId": "spatial",
+      "themeId": "humanoid-biological",
       "keys": [
-        "spatial"
+        "humanoid",
+        "biological"
       ],
       "publishedAt": "2027-01-06T10:00:00.000Z"
     },
@@ -356,9 +355,10 @@
     },
     {
       "id": "weekly-041",
-      "themeId": "artifact",
+      "themeId": "humanoid-sentient",
       "keys": [
-        "artifact"
+        "humanoid",
+        "sentient"
       ],
       "publishedAt": "2027-08-18T10:00:00.000Z"
     },

@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path');
-function apply({root=__dirname,language='jp',id='weekly-001'}={}){
+function apply({root=__dirname,language='jp',id='weekly-001',preview=false}={}){
  if(!/^[a-z-]+$/.test(language)||!/^weekly-\d{3}$/.test(id))throw Error('Invalid editorial path');
  const feature=JSON.parse(fs.readFileSync(path.join(root,'features/editorial',language,id+'.json')));
  const source=new Map(JSON.parse(fs.readFileSync(path.join(root,'local-data',language,'scp-data.json'))).data.map(r=>[r.itemId,r]));
@@ -11,6 +11,11 @@ function apply({root=__dirname,language='jp',id='weekly-001'}={}){
   // An unpublished edition must not be added to the public feed by an editor.
   if(index<0)continue;
   catalog.features[index]=feature;fs.writeFileSync(file,JSON.stringify(catalog,null,2)+'\n');
+ }
+ const publicFile=path.join(root,'features',language,'index.json'),catalog=JSON.parse(fs.readFileSync(publicFile));
+ if(preview||catalog.previewFeatures?.some(f=>f.id===id)){
+  catalog.previewFeatures=[...(catalog.previewFeatures||[]).filter(f=>f.id!==id),feature].sort((a,b)=>a.publishedAt.localeCompare(b.publishedAt));
+  fs.writeFileSync(publicFile,JSON.stringify(catalog,null,2)+'\n');
  }
  return feature;
 }
