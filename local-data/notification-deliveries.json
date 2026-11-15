@@ -2436,6 +2436,20 @@
       "startedAt": "2026-11-15T14:40:42.858Z",
       "messageName": "projects/scpjp-reader/messages/6737260931412935168",
       "sentAt": "2026-11-15T14:40:54.664Z"
+    },
+    {
+      "id": "th/2026-11-15",
+      "lang": "th",
+      "window": "2026-11-15",
+      "items": [
+        {
+          "itemId": "scp-series-9082",
+          "titleJP": "ไลฟ์จากห้องแดง"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-15T14:40:42.858Z"
     }
   ]
 }
