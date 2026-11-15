@@ -2452,6 +2452,24 @@
       "startedAt": "2026-11-15T14:40:42.858Z",
       "messageName": "projects/scpjp-reader/messages/-515128630228931039",
       "sentAt": "2026-11-15T14:40:58.548Z"
+    },
+    {
+      "id": "es/2026-11-15",
+      "lang": "es",
+      "window": "2026-11-15",
+      "items": [
+        {
+          "itemId": "scp-series-1681",
+          "titleJP": "Ídolos Americanos"
+        },
+        {
+          "itemId": "scp-series-3211",
+          "titleJP": "No hay un Canon"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-15T19:58:51.891Z"
     }
   ]
 }
