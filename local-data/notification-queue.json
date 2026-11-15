@@ -79,17 +79,8 @@
       "lastSentWindow": "2026-11-08"
     },
     "es": {
-      "items": [
-        {
-          "itemId": "scp-series-1681",
-          "titleJP": "Ídolos Americanos"
-        },
-        {
-          "itemId": "scp-series-3211",
-          "titleJP": "No hay un Canon"
-        }
-      ],
-      "lastSentWindow": "2026-11-08"
+      "items": [],
+      "lastSentWindow": "2026-11-15"
     },
     "fr": {
       "items": [],
@@ -467,5 +458,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-11-15T14:40:42.858Z"
+  "updatedAt": "2026-11-15T19:58:51.891Z"
 }
