@@ -86,7 +86,9 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
       tags: localizeTags(r.tags || [], language, dictionary, tagIndex),
     }));
     for (const row of documents) {
-      const validId = row.itemId.startsWith('document-') || (row.contentType === 'scp' && /^(?:scp-series|joke-scps|scp-(?:[a-z]+-)?ex)/.test(row.pageType) && /^scp-|^joke-scps-/.test(row.itemId));
+      // Published identifiers remain stable when an official index classifies
+      // an SCP-named article as a tale or another document type (e.g. SCP-000).
+      const validId = row.itemId.startsWith('document-') || /^(?:scp-series-|joke-scps-|scp-(?:[a-z]+-)?ex-)[a-z0-9][a-z0-9_.-]*$/.test(row.itemId);
       if (!validId || ids.has(row.itemId) || REQUIRED_STRINGS.some(k => typeof row[k] !== 'string') || !row.titleJP || !Number.isFinite(Date.parse(row.lastUpdated)) || !normalize(row.urlJP)) throw Error(`Invalid additional article: ${row.itemId}`);
       ids.add(row.itemId);
     }

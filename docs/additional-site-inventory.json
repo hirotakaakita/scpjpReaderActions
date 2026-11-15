@@ -1,0 +1,1214 @@
+{
+  "checkedAt": "2026-11-09T14:51:26.916Z",
+  "reference": "https://o5command-int.wikidot.com/branch-list",
+  "sites": [
+    {
+      "code": "ar",
+      "host": "scp-ar.wikidot.com",
+      "namespace": "",
+      "uiLocale": "ar",
+      "sources": [
+        {
+          "path": "scp-ar-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 3
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 23
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 4
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-international",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "goi-formats",
+          "kind": "goi-format",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ar-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "cy",
+      "host": "scp-cy.wikidot.com",
+      "namespace": "",
+      "uiLocale": "cy",
+      "sources": [
+        {
+          "path": "scp-series-cy",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 1
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 6
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 1
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001-cy",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "da",
+      "host": "scp-nd.wikidot.com",
+      "namespace": "da:",
+      "uiLocale": "da",
+      "sources": [
+        {
+          "path": "da:scp-series-nd",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 2
+        },
+        {
+          "path": "da:scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 5
+        },
+        {
+          "path": "da:scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "da:scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "da:scp-series-2",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "da:scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "da:scp-001-nd",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "el",
+      "host": "scp-el.wikidot.com",
+      "namespace": "",
+      "uiLocale": "el",
+      "sources": [
+        {
+          "path": "scp-el-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 14
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 418
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 7
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales-el",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "goi-formats",
+          "kind": "goi-format",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "goi-formats-el",
+          "kind": "goi-format",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001-el",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "hu",
+      "host": "scp-hu.wikidot.com",
+      "namespace": "",
+      "uiLocale": "hu",
+      "sources": [
+        {
+          "path": "scp-series-hu",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 55
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 95
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 12
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-8",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-9",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-international",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "la",
+      "host": "scp-la.wikidot.com",
+      "namespace": "",
+      "uiLocale": "en",
+      "sources": [
+        {
+          "path": "scp-series-la",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 7
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 5
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-la-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "nl",
+      "host": "scp-nl.wikidot.com",
+      "namespace": "",
+      "uiLocale": "nl",
+      "sources": [
+        {
+          "path": "scp-nl",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 16
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub-nl",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "goi-formats",
+          "kind": "goi-format",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "no",
+      "host": "scp-nd.wikidot.com",
+      "namespace": "no:",
+      "uiLocale": "nb",
+      "sources": [
+        {
+          "path": "no:scp-series-nd",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 2
+        },
+        {
+          "path": "no:scp-series",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-series-2",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "no:scp-001-nd",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "pig",
+      "host": "scp-pig.wikidot.com",
+      "namespace": "",
+      "uiLocale": "en",
+      "sources": [
+        {
+          "path": "scp-erissay-pig",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 19
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 41
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 11
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-8",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-9",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-international",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-egativenay-errisay-pig",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "series-archive",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "goi-formats",
+          "kind": "goi-format",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "anoncay-ubhay-pig",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001-pig",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "ro",
+      "host": "scp-romanian.wikidot.com",
+      "namespace": "",
+      "uiLocale": "ro",
+      "sources": [
+        {
+          "path": "scp-series-ro",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 3
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 14
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ro-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "sga",
+      "host": "scp-sga.wikidot.com",
+      "namespace": "",
+      "uiLocale": "en",
+      "sources": [
+        {
+          "path": "scp-sga-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 4
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 2
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-sga-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "sh",
+      "host": "scp-sh.wikidot.com",
+      "namespace": "",
+      "uiLocale": "hr",
+      "sources": [
+        {
+          "path": "scp-bcms-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 3
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 18
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 1
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "series-archive",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "goi-formats",
+          "kind": "goi-format",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-international",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "sl",
+      "host": "scp-slovenija.wikidot.com",
+      "namespace": "",
+      "uiLocale": "sl",
+      "sources": [
+        {
+          "path": "scp-series-sl",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 9
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 43
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 3
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-int",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001-sl",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "sv",
+      "host": "scp-nd.wikidot.com",
+      "namespace": "sv:",
+      "uiLocale": "sv",
+      "sources": [
+        {
+          "path": "sv:scp-series-nd",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 5
+        },
+        {
+          "path": "sv:scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 147
+        },
+        {
+          "path": "sv:scp-series-2",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-7",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-8",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-series-9",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:joke-scps",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-international",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "sv:scp-001-nd",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "tok",
+      "host": "scp-tok.wikidot.com",
+      "namespace": "",
+      "uiLocale": "en",
+      "sources": [
+        {
+          "path": "lipu-scp",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 1
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 3
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-international",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    },
+    {
+      "code": "tr",
+      "host": "scpvakfi.wikidot.com",
+      "namespace": "",
+      "uiLocale": "tr",
+      "sources": [
+        {
+          "path": "scp-series-tr",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 42
+        },
+        {
+          "path": "scp-series",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 258
+        },
+        {
+          "path": "scp-series-2",
+          "kind": "scp",
+          "primary": true,
+          "extractedArticles": 53
+        },
+        {
+          "path": "scp-series-5",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-4",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-3",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-ex",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "foundation-tales",
+          "kind": "tale",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-series-6",
+          "kind": "scp",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "canon-hub",
+          "kind": "canon",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        },
+        {
+          "path": "scp-tr-001",
+          "kind": "international-hub",
+          "primary": false,
+          "extractedArticles": null
+        }
+      ]
+    }
+  ]
+}

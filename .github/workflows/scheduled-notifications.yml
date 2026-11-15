@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '24'
       - name: Test notification lifecycle
-        run: node --test test/notifications.test.js test/notification-messages.test.js test/workflow-concurrency.test.js
+        run: node --test test/notifications.test.js test/notification-messages.test.js test/notification-branches.test.js test/workflow-concurrency.test.js
       - name: Configure notification checkpoints
         run: |
           git config user.name 'SCP Notification Bot'

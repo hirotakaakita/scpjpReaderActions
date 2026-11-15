@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { LocalSCPCrawler } = require('./local-crawler');
 const { LANGUAGES } = require('./languages');
+const { partialFileName } = require('./partial-file');
 
 /**
  * 分割実行用SCP Crawler（多言語対応）
@@ -65,7 +66,7 @@ async function main() {
   const duration = Math.round((endTime - crawler.startTime) / 1000);
 
   // 言語間でファイル名が衝突しないよう <lang>--<page>.json 形式で出力
-  const partialFilePath = path.join(outputDir, `${lang}--${page}.json`);
+  const partialFilePath = path.join(outputDir, partialFileName(lang,page));
   fs.writeFileSync(partialFilePath, JSON.stringify({
     lang: lang,
     page: page,

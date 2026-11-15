@@ -76,6 +76,31 @@ test('workflow generates mobile catalogs after final legacy updates and before p
   assert.ok(workflow.indexOf('node merge-catalog-indexes.js') < workflow.indexOf('node mobile-catalog.js'));
 });
 
+test('official tale classification preserves an existing SCP identifier during publication', t => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mobile-stable-tale-'));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const input = path.join(root, 'local-data');
+  fs.mkdirSync(path.join(input, 'jp'), { recursive: true });
+  fs.mkdirSync(path.join(input, 'related-documents'));
+  const source = catalog();
+  fs.writeFileSync(path.join(input, 'jp/scp-data.json'), JSON.stringify(source));
+  fs.writeFileSync(path.join(input, 'jp/meta.json'), JSON.stringify({ lastUpdated: source.timestamp, totalCount: 1 }));
+  const article = { itemId: 'scp-series-000', language: 'jp', title: 'SCP-000',
+    url: 'https://scp-jp.wikidot.com/scp-000', pageType: 'related-document-en', contentType: 'tale',
+    tags: ['en'], descriptionExcerpt: 'Story', lastUpdated: source.timestamp };
+  fs.writeFileSync(path.join(input, 'related-documents/catalog.json'), JSON.stringify({
+    schemaVersion: 1, timestamp: source.timestamp, totalCount: 1, data: [article],
+  }));
+  generateMobileCatalogs(input);
+  const output = path.join(input, 'mobile-v3/jp');
+  const manifest = JSON.parse(fs.readFileSync(path.join(output, 'manifest.json')));
+  const result = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(output, manifest.fileName))));
+  const delivered = result.data.find(row => row.itemId === article.itemId);
+  assert.equal(delivered.contentType, 'tale');
+  assert.equal(delivered.pageType, 'related-document-en');
+  assert.equal(delivered.urlJP, article.url);
+});
+
 test('additional documents join the ordinary data array by language with a new delivery timestamp', t => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mobile-related-'));
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));

@@ -1,0 +1,28 @@
+name: Notification Branch Tests
+
+on:
+  push:
+    branches: [master, fix/notifications-33-branches]
+    paths-ignore:
+      - 'local-data/**'
+      - 'manga/**'
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Validate all notification branches without sending push notifications
+        run: node --test test/notifications.test.js test/notification-messages.test.js test/notification-branches.test.js test/workflow-concurrency.test.js test/additional-sites.test.js test/mobile-catalog.test.js

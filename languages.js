@@ -242,4 +242,5 @@ const LANGUAGES = {
   },
 };
 
+Object.assign(LANGUAGES, require('./additional-sites').additionalLanguages());
 module.exports = { LANGUAGES, DEFAULT_ENTRY_PATTERN };

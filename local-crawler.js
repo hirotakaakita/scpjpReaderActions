@@ -81,8 +81,18 @@ function isObjectClassLabel(text, labelPattern) {
   return !before && !after;
 }
 
+function normalizeNativeObjectClass(value) {
+  const aliases = { 'Euklid':'Euclid', 'Euklides':'Euclid', 'Εὐκλείδης':'Euclid',
+    'Sikker':'Safe', 'Güvenli':'Safe', 'Nötralize Edildi':'Neutralized',
+    'Nezadržano':'Uncontained', 'Neutralizovano':'Neutralized', 'eterkay':'Keter' };
+  let text = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+  for (const [term, canonical] of Object.entries(aliases)) {
+    text = text.replace(new RegExp('(^|[\\s(/])'+term+'(?=$|[\\s)/\\[,.])','giu'), (_,before)=>before+canonical);
+  }
+  return text;
+}
 function selectCurrentObjectClass(value) {
-  const normalized = value.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+  const normalized = normalizeNativeObjectClass(value);
   OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
   const matches = [...normalized.matchAll(OBJECT_CLASS_VALUE_PATTERN)].map(match => ({ value: match[0], index: match.index }));
   if (!matches.length) {
@@ -108,12 +118,12 @@ function selectCurrentObjectClass(value) {
 function extractObjectClassFromDocument(document) {
   for (const valueElement of document.querySelectorAll('.class-text, .objclass .obj-text')) {
     if (isStruckNode(valueElement)) continue;
-    const value = textContentWithoutStruck(valueElement).replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+    const value = normalizeNativeObjectClass(textContentWithoutStruck(valueElement));
     OBJECT_CLASS_VALUE_PATTERN.lastIndex = 0;
     if (value && OBJECT_CLASS_VALUE_PATTERN.test(value)) return selectCurrentObjectClass(value);
   }
 
-  const labelPattern = /(?:object\s*class|containment\s*class|オブジェクトクラス|项目等级|項目等級|třída\s+objektu|klassifizierung|clasificación\s+del\s+objeto|classe(?:\s+dell?'oggetto|\s+do\s+objeto)?|klasa\s+podmiotu|ระดับ|клас\s+об'єкта|phân loại|객체\s*등급|개체\s*등급|등급)\s*[:：]?/i;
+  const labelPattern = /(?:object\s*class|containment\s*class|オブジェクトクラス|项目等级|項目等級|třída\s+objektu|klassifizierung|clasificación\s+del\s+objeto|classe(?:\s+dell?'oggetto|\s+do\s+objeto)?|klasa\s+podmiotu|ระดับ|клас\s+об'єкта|phân loại|객체\s*등급|개체\s*등급|등급|objectklasse|objektklasse|föremålsklass|gjenstandsklasse|verkefnastig|osztály|genus\s+rei|clasa\s+obiect(?:ului)?|objektna\s+klasa|razred\s+objekta|nesne\s+sınıfı|κατηγορία\s+[aα]ντικειμένου|dosbarth\s+gwrthrych|فئة\s+(?:الموضوع|العنصر)|ontainmentcay\s+assclay)\s*[:：]?/iu;
 
   // Wikidot記事の標準形式（<strong>ラベル:</strong> 値）を優先する。
   for (const label of document.querySelectorAll('strong, b')) {
@@ -161,7 +171,7 @@ function extractObjectClassFromDocument(document) {
   return null;
 }
 
-const DESCRIPTION_LABEL_PATTERN = /^(?:description|説明|描述|popis|beschreibung|descripción|descrizione|opis|설명|รายละเอียด|опис|mô tả)\s*[:：]?$/i;
+const DESCRIPTION_LABEL_PATTERN = /^(?:description|説明|描述|popis|beschreibung|descripción|descrizione|opis|설명|รายละเอียด|опис|mô tả|الوصف|وصف|disgrifiad|beskrivelse|περιγραφή|leírás|descriptio|beschrijving|descrierea?|beskrivning|açıklama|escriptionday)\s*[:：]?$/iu;
 
 const TAG_RULE_VERSION = 3;
 function textContentPreservingBreaks(node) {
@@ -324,7 +334,7 @@ function buildEntries(candidates, pageConfig) {
 
     articles.forEach((article, index) => {
       const itemId = pageConfig.pageType === 'scp-series' || index !== 0
-        ? `${pageConfig.pageType}-${variantSlugPart(article.href, pageConfig.pageType)}`
+        ? `${pageConfig.pageType}-${variantSlugPart(pageConfig.namespace ? article.href.replace('/'+pageConfig.namespace,'/') : article.href, pageConfig.pageType)}`
         : `${pageConfig.pageType}-${scpNumber}`;
       if (usedIds.has(itemId)) throw new Error(`Conflicting extracted itemId: ${itemId}`);
       usedIds.add(itemId);
@@ -446,8 +456,14 @@ class LocalSCPCrawler {
     const contentArea = document.querySelector('#page-content') || document;
     const candidates = [];
 
-    contentArea.querySelectorAll('a[href^="/scp-"]').forEach(link => {
-      const href = link.getAttribute('href');
+    contentArea.querySelectorAll(pageConfig.scopedLinks ? 'a[href]' : 'a[href^="/scp-"]').forEach(link => {
+      let href = link.getAttribute('href');
+      if (pageConfig.scopedLinks) {
+        let target; try { target = new URL(href, this.baseUrl); } catch { return; }
+        if (target.hostname !== new URL(this.baseUrl).hostname || target.search || target.username || target.password || !['https:','http:'].includes(target.protocol)) return;
+        if (href.startsWith('#') || link.closest('nav,[role="navigation"],.page-navigation,.footer-wikiwalk-nav,.licensebox,.credit,#toc,.toc')) return;
+        href = target.pathname;
+      }
       const scpNumberMatch = href ? href.match(entryPattern) : null;
       if (!scpNumberMatch) return;
 
@@ -938,4 +954,4 @@ if (require.main === module) {
 }
 
 module.exports = { LocalSCPCrawler, stringifyAsciiSafe, variantSlugPart, buildEntries,
-  extractObjectClassFromDocument, extractRatingFromDocument, extractImageUrlFromDocument };
+  extractObjectClassFromDocument, extractRatingFromDocument, extractImageUrlFromDocument, extractDescriptionAndTagsFromDocument };

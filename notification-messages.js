@@ -19,6 +19,23 @@ const MESSAGES = {
   'zh-tr': { locale: 'zh-Hant', title: 'SCP新文章通知', summary: n => `新增文章：${n}篇。` },
 };
 
+const additionalMessages = {
+  ar: ['ar','مقالات SCP جديدة', n => `مقالات جديدة: ${n}.`],
+  cy: ['cy','Erthyglau SCP newydd', n => `Erthyglau newydd: ${n}.`],
+  da: ['da','Nye SCP-artikler', n => `Nye artikler: ${n}.`],
+  el: ['el','Νέα άρθρα SCP', n => `Νέα άρθρα: ${n}.`],
+  hu: ['hu','Új SCP-cikkek', n => `Új cikkek: ${n}.`],
+  nl: ['nl','Nieuwe SCP-artikelen', n => `Nieuwe artikelen: ${n}.`],
+  no: ['nb','Nye SCP-artikler', n => `Nye artikler: ${n}.`],
+  ro: ['ro','Articole SCP noi', n => `Articole noi: ${n}.`],
+  sh: ['hr','Novi SCP članci', n => `Novi članci: ${n}.`],
+  sl: ['sl','Novi članki SCP', n => `Novi članki: ${n}.`],
+  sv: ['sv','Nya SCP-artiklar', n => `Nya artiklar: ${n}.`],
+  tr: ['tr','Yeni SCP makaleleri', n => `Yeni makaleler: ${n}.`],
+};
+for (const [code, [locale,title,summary]] of Object.entries(additionalMessages)) MESSAGES[code]={locale,title,summary};
+for (const code of ['la','pig','sga','tok']) MESSAGES[code]={...MESSAGES.en};
+
 // Same ID formatting as the existing weekly notification sender.
 const DISPLAY_ID_PATTERNS = [
   [/^scp-([a-z][a-z-]*)-ex-(\d+(?:-.+)?)$/, m => `SCP-EX-${m[1].toUpperCase()}-${m[2].toUpperCase()}`],
@@ -45,7 +62,8 @@ function buildNotification(language, items) {
     const title = (item.titleJP || '').replace(/\s+/g, ' ').trim();
     const segments = [...segmenter.segment(title)];
     const shortTitle = segments.slice(0, 20).map(part => part.segment).join('') + (segments.length > 20 ? '…' : '');
-    return [formatDisplayId(item.itemId), shortTitle].filter(Boolean).join(' ');
+    const id = formatDisplayId(item.itemId);
+    return [message.locale === 'ar' ? '\u2066'+id+'\u2069' : id, shortTitle].filter(Boolean).join(' ');
   });
   const count = new Intl.NumberFormat(message.locale).format(items.length);
   const list = labels.join(' / ') + (items.length > labels.length ? ' / …' : '');

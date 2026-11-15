@@ -6055,12 +6055,6 @@
       ],
       "labels": {}
     },
-    "el": {
-      "aliases": [
-        "el"
-      ],
-      "labels": {}
-    },
     "el-administrador": {
       "aliases": [
         "el-administrador"
@@ -12948,12 +12942,6 @@
     "pietra": {
       "aliases": [
         "pietra"
-      ],
-      "labels": {}
-    },
-    "pig": {
-      "aliases": [
-        "pig"
       ],
       "labels": {}
     },
