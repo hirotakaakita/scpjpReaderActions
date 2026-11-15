@@ -103,13 +103,8 @@
       "lastSentWindow": "2026-11-08"
     },
     "pt": {
-      "items": [
-        {
-          "itemId": "scp-series-3359",
-          "titleJP": "Cara Seco"
-        }
-      ],
-      "lastSentWindow": "2026-11-08"
+      "items": [],
+      "lastSentWindow": "2026-11-15"
     },
     "th": {
       "items": [],
@@ -196,5 +191,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-11-15T19:58:51.891Z"
+  "updatedAt": "2026-11-15T23:55:54.195Z"
 }
