@@ -2420,6 +2420,20 @@
       "startedAt": "2026-11-15T14:40:42.858Z",
       "messageName": "projects/scpjp-reader/messages/-8031986461438325199",
       "sentAt": "2026-11-15T14:40:51.449Z"
+    },
+    {
+      "id": "ko/2026-11-15",
+      "lang": "ko",
+      "window": "2026-11-15",
+      "items": [
+        {
+          "itemId": "scp-series-ko-1926",
+          "titleJP": "ᐁᐧᐊᑯ ᐅᒪ ᐊᓯᓂᐏ ᒣᓂᑲᐣ ᑭᒥᓇᐊᐧᐠ"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-15T14:40:42.858Z"
     }
   ]
 }
