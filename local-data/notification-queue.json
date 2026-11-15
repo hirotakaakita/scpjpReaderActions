@@ -2,15 +2,206 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-jp-4014",
+          "titleJP": "スキップ"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "en": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-7638",
+          "titleJP": "Guy on Ice"
+        },
+        {
+          "itemId": "scp-series-9362",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9364",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9367",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9435",
+          "titleJP": "The giant roach"
+        },
+        {
+          "itemId": "scp-series-9457",
+          "titleJP": "Willoa Moss, Lyre Of Babel"
+        },
+        {
+          "itemId": "scp-series-9475",
+          "titleJP": "\"Infectious\" Radiological Hazard"
+        },
+        {
+          "itemId": "scp-series-9514",
+          "titleJP": "Ineffective Containment"
+        },
+        {
+          "itemId": "scp-series-9524",
+          "titleJP": "Infinite Flow State"
+        },
+        {
+          "itemId": "scp-series-9567",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9639",
+          "titleJP": "The Median Voter"
+        },
+        {
+          "itemId": "scp-series-9722",
+          "titleJP": "Stranded Assets"
+        },
+        {
+          "itemId": "scp-series-9836",
+          "titleJP": "The Faceless Family Portrait"
+        },
+        {
+          "itemId": "scp-series-9846",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9850",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9859",
+          "titleJP": "[ACCESS DENIED]"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "cn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-7638",
+          "titleJP": "Anubis."
+        },
+        {
+          "itemId": "scp-series-7866",
+          "titleJP": "故障处理"
+        },
+        {
+          "itemId": "scp-series-cn-3272",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4156",
+          "titleJP": "全部伦理学的基础"
+        },
+        {
+          "itemId": "scp-series-cn-4177",
+          "titleJP": "旧站点"
+        },
+        {
+          "itemId": "scp-series-cn-4191",
+          "titleJP": "语义紊乱"
+        },
+        {
+          "itemId": "scp-series-cn-4192",
+          "titleJP": "天上的街市"
+        },
+        {
+          "itemId": "scp-series-cn-4228",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4276",
+          "titleJP": "单向引导机器"
+        },
+        {
+          "itemId": "scp-series-cn-4279",
+          "titleJP": "\"逃逸档案\""
+        },
+        {
+          "itemId": "scp-series-cn-4352",
+          "titleJP": "绝无宽恕"
+        },
+        {
+          "itemId": "scp-series-cn-4380",
+          "titleJP": "非现实，非现实部，Alex Thorley"
+        },
+        {
+          "itemId": "scp-series-cn-4427",
+          "titleJP": "可塔西维得枪击案"
+        },
+        {
+          "itemId": "scp-series-cn-4534",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4574",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4655",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4661",
+          "titleJP": "稳定限制连接套装"
+        },
+        {
+          "itemId": "scp-series-cn-4672",
+          "titleJP": "听闻中的酒馆"
+        },
+        {
+          "itemId": "scp-series-cn-4683",
+          "titleJP": "养一只远古生物"
+        },
+        {
+          "itemId": "scp-series-cn-4737",
+          "titleJP": "饮鸩"
+        },
+        {
+          "itemId": "scp-series-cn-4740",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4741",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4742",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4743",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4805",
+          "titleJP": "超深源异常体"
+        },
+        {
+          "itemId": "scp-series-cn-4873",
+          "titleJP": "我自地狱归来"
+        },
+        {
+          "itemId": "scp-series-cn-4907",
+          "titleJP": "此地黯然无色"
+        },
+        {
+          "itemId": "scp-series-cn-4923",
+          "titleJP": "命定之殇轻舟已过"
+        },
+        {
+          "itemId": "scp-series-cn-4927",
+          "titleJP": "奶奶的电梯"
+        },
+        {
+          "itemId": "scp-series-cn-4948",
+          "titleJP": "却尘犀角"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "cs": {
@@ -22,7 +213,16 @@
       "lastSentWindow": "2026-11-08"
     },
     "es": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-1681",
+          "titleJP": "Ídolos Americanos"
+        },
+        {
+          "itemId": "scp-series-3211",
+          "titleJP": "No hay un Canon"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "fr": {
@@ -34,11 +234,21 @@
       "lastSentWindow": null
     },
     "it": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-it-260",
+          "titleJP": "[ACCESSO NEGATO]"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "ko": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-ko-1926",
+          "titleJP": "ᐁᐧᐊᑯ ᐅᒪ ᐊᓯᓂᐏ ᒣᓂᑲᐣ ᑭᒥᓇᐊᐧᐠ"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "pl": {
@@ -46,11 +256,21 @@
       "lastSentWindow": "2026-11-08"
     },
     "pt": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-3359",
+          "titleJP": "Cara Seco"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "th": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-9082",
+          "titleJP": "ไลฟ์จากห้องแดง"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "ua": {
@@ -66,9 +286,330 @@
       "lastSentWindow": "2026-11-08"
     },
     "ru": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-1d6-j",
+          "titleJP": "SCP-1D6-J - Придурь Гайгэкса"
+        },
+        {
+          "itemId": "scp-series-3v1l-j",
+          "titleJP": "SCP-3JIO-J - Хитрый план"
+        },
+        {
+          "itemId": "scp-series-008-de-j",
+          "titleJP": "SCP-008-DE-J - Дерьмо?"
+        },
+        {
+          "itemId": "scp-series-014-jp-j",
+          "titleJP": "SCP-014-JP-J - Необычная японская школьница"
+        },
+        {
+          "itemId": "scp-series-017-fr-j",
+          "titleJP": "SCP-017-FR-J - Святой Патрик"
+        },
+        {
+          "itemId": "scp-series-096-fr-j",
+          "titleJP": "SCP-096-FR-J - Метаморфные конфеты"
+        },
+        {
+          "itemId": "scp-series-100-j",
+          "titleJP": "SCP-100-J - Вонючая куча навоза"
+        },
+        {
+          "itemId": "scp-series-0133-ru-j",
+          "titleJP": "SCP-0133-RU-J - Аномальная магнитуда"
+        },
+        {
+          "itemId": "scp-series-240-fr-j",
+          "titleJP": "SCP-240-FR-J - Кликни здесь! Скачать бесплатно! Невероятно!"
+        },
+        {
+          "itemId": "scp-series-294-ru-j",
+          "titleJP": "SCP-294-RU-J - Официальное объявление войны между человеком и кофемашиной (спойлер: человек проиграл)"
+        },
+        {
+          "itemId": "scp-series-420-ko-j",
+          "titleJP": "SCP-420-KO-J - Марихуанская впадина"
+        },
+        {
+          "itemId": "scp-series-555-ko-j",
+          "titleJP": "SCP-555-KO-J - Ответ на проблемы SCP"
+        },
+        {
+          "itemId": "scp-series-705-ua-j",
+          "titleJP": "SCP-705-UA-J - Боевой диван"
+        },
+        {
+          "itemId": "scp-series-710-jp-j",
+          "titleJP": "SCP-710-JP-J - Путь ученого"
+        },
+        {
+          "itemId": "scp-series-1000-ru-j",
+          "titleJP": "SCP-1000-RU-J - Для того чтобы стать магом, достаточно простой советской..."
+        },
+        {
+          "itemId": "scp-series-1004-ru-j",
+          "titleJP": "SCP-1004-RU-J - Слесарь-сантехник"
+        },
+        {
+          "itemId": "scp-series-1025-ru-j",
+          "titleJP": "SCP-1025-RU-J - Чайник №25"
+        },
+        {
+          "itemId": "scp-series-1080-ru-j",
+          "titleJP": "SCP-1080-RU-J - Неприкрытая жестокость"
+        },
+        {
+          "itemId": "scp-series-1100-ru-j",
+          "titleJP": "SCP-1100-RU-J - Внезапный песец"
+        },
+        {
+          "itemId": "scp-series-1122-ru-j",
+          "titleJP": "SCP-1122-RU-J - Не"
+        },
+        {
+          "itemId": "scp-series-1128-ru-j",
+          "titleJP": "SCP-1128-RU-J - \"Непереносимая зубная боль\""
+        },
+        {
+          "itemId": "scp-series-1138-ru-j",
+          "titleJP": "SCP-1138-RU-J - Дух Чистоты"
+        },
+        {
+          "itemId": "scp-series-1144-ru-j",
+          "titleJP": "SCP-1144-RU-J - Квасной патриотизм"
+        },
+        {
+          "itemId": "scp-series-1146-ru-j",
+          "titleJP": "SCP-1146-RU-J - Частушки-Фондовушки"
+        },
+        {
+          "itemId": "scp-series-1148-ru-j",
+          "titleJP": "SCP-1148-RU-J - Ретро"
+        },
+        {
+          "itemId": "scp-series-1155-ru-j",
+          "titleJP": "SCP-1155-RU-J - Пельмени-захватчики"
+        },
+        {
+          "itemId": "scp-series-1190-ru-j",
+          "titleJP": "SCP-1190-RU-J - Поваренная книга"
+        },
+        {
+          "itemId": "scp-series-1210-jp-j",
+          "titleJP": "SCP-1210-JP-J - Уж не химера ли это?"
+        },
+        {
+          "itemId": "scp-series-1234-ru-j",
+          "titleJP": "SCP-1234-RU-J - Антикетерский механизм"
+        },
+        {
+          "itemId": "scp-series-1250-ru-j",
+          "titleJP": "SCP-1250-RU-J - Кукурузник"
+        },
+        {
+          "itemId": "scp-series-1318-ru-j",
+          "titleJP": "SCP-1318-RU-J - Зонт от дождя"
+        },
+        {
+          "itemId": "scp-series-1382-ru-j",
+          "titleJP": "SCP-1382-RU-J - Ночные жонглёры"
+        },
+        {
+          "itemId": "scp-series-1506-ru-j",
+          "titleJP": "SCP-1506-RU-J - Большая Затычка"
+        },
+        {
+          "itemId": "scp-series-1567-ru-j",
+          "titleJP": "SCP-1567-RU-J - Особое время"
+        },
+        {
+          "itemId": "scp-series-1576-ru-j",
+          "titleJP": "SCP-1576-RU-J - АК-47"
+        },
+        {
+          "itemId": "scp-series-1733-ru-j",
+          "titleJP": "SCP-1733-RU-J - \"Кот в мешке\""
+        },
+        {
+          "itemId": "scp-series-1743-ru-j",
+          "titleJP": "SCP-1743-RU-J - Смешная коробочка"
+        },
+        {
+          "itemId": "scp-series-1800-ru-j",
+          "titleJP": "SCP-1800-RU-J - Вечная партия"
+        },
+        {
+          "itemId": "scp-series-1924-ru-j",
+          "titleJP": "SCP-1924-RU-J - Призрак Коммунизма"
+        },
+        {
+          "itemId": "scp-series-1969-ru-j",
+          "titleJP": "SCP-1969-RU-J - Отель"
+        },
+        {
+          "itemId": "scp-series-1973-ru-j",
+          "titleJP": "SCP-1973-RU-J - Панчлайн"
+        },
+        {
+          "itemId": "scp-series-1990-ru-j",
+          "titleJP": "SCP-1990-RU-J - Средоточие аномалий"
+        },
+        {
+          "itemId": "scp-series-2000-ru-j",
+          "titleJP": "SCP-2000-RU-J - Мокбастер"
+        },
+        {
+          "itemId": "scp-series-2001-ru-j",
+          "titleJP": "SCP-2001-RU-J - Доминирующая форма жизни"
+        },
+        {
+          "itemId": "scp-series-2002-ru-j",
+          "titleJP": "SCP-2002-RU-J - Новое руководство для авторов"
+        },
+        {
+          "itemId": "scp-series-2021-ru-j",
+          "titleJP": "SCP-2021-RU-J - Закрытая информация"
+        },
+        {
+          "itemId": "scp-series-2233-ru-j",
+          "titleJP": "SCP-2233-RU-J - Лукоморье"
+        },
+        {
+          "itemId": "scp-series-2356-ru-j",
+          "titleJP": "SCP-2356-RU-J - Безопасность превыше всего"
+        },
+        {
+          "itemId": "scp-series-2761-ru-j",
+          "titleJP": "SCP-2761-RU-J - Рояль в кустах"
+        },
+        {
+          "itemId": "scp-series-3000-ru-j",
+          "titleJP": "SCP-3000-RU-J - Коробка"
+        },
+        {
+          "itemId": "scp-series-3003-ru-j",
+          "titleJP": "SCP-3003-RU-J - Вам, наверное, интересно, как я оказался в такой ситуации"
+        },
+        {
+          "itemId": "scp-series-3074-ru-j",
+          "titleJP": "SCP-3074-RU-J - Роковое письмо"
+        },
+        {
+          "itemId": "scp-series-3100-ru-j",
+          "titleJP": "SCP-3100-RU-J - Утонул чайный гриб — что делать?"
+        },
+        {
+          "itemId": "scp-series-3112-ru-j-d",
+          "titleJP": "SCP-3112-RU-J-D - Бывший даритель"
+        },
+        {
+          "itemId": "scp-series-3321-ru-j",
+          "titleJP": "SCP-3321-RU-J - Ужасные насекомые!!!"
+        },
+        {
+          "itemId": "scp-series-3366-ru-j",
+          "titleJP": "SCP-3366-RU-J - Сфера, нарушающая законы физики"
+        },
+        {
+          "itemId": "scp-series-3930-ru-j",
+          "titleJP": "SCP-3930-RU-J - Источник переводческого крика"
+        },
+        {
+          "itemId": "scp-series-4209-ru-j",
+          "titleJP": "SCP-4209-RU-J - Межгалактический корабль"
+        },
+        {
+          "itemId": "scp-series-5555-j",
+          "titleJP": "SCP-5555-J - Чибинатор"
+        },
+        {
+          "itemId": "scp-series-6789-ru-j",
+          "titleJP": "SCP-6789-RU-J - Гиблое болото"
+        },
+        {
+          "itemId": "scp-series-6969-ru-j",
+          "titleJP": "SCP-6969-RU-J - «Странствующий герой»"
+        },
+        {
+          "itemId": "scp-series-8700-ru-j",
+          "titleJP": "SCP-8700-RU-J - Жуть, загадка, плохое освещение"
+        },
+        {
+          "itemId": "scp-series-9999-ru-j",
+          "titleJP": "SCP-9999-RU-J - Музей Славы и Всякой Всячины"
+        },
+        {
+          "itemId": "scp-series-10001-ru-j",
+          "titleJP": "SCP-10001-RU-J - Генераторы состояний"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
+    },
+    "ar": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "cy": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "da": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "el": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "hu": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "la": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "nl": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "no": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "pig": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "ro": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "sga": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "sh": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "sl": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "sv": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "tok": {
+      "items": [],
+      "lastSentWindow": null
+    },
+    "tr": {
+      "items": [],
+      "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-11-12T13:06:48.716Z"
+  "updatedAt": "2026-11-15T07:19:46.922Z"
 }
