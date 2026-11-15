@@ -2756,6 +2756,20 @@
       "startedAt": "2026-11-15T19:58:51.891Z",
       "messageName": "projects/scpjp-reader/messages/-6652723156181989861",
       "sentAt": "2026-11-15T19:59:00.954Z"
+    },
+    {
+      "id": "pt/2026-11-15",
+      "lang": "pt",
+      "window": "2026-11-15",
+      "items": [
+        {
+          "itemId": "scp-series-3359",
+          "titleJP": "Cara Seco"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-15T23:55:54.195Z"
     }
   ]
 }
