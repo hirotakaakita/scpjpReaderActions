@@ -92,15 +92,11 @@ function fixture(t){
  const read=()=>JSON.parse(fs.readFileSync(queuePath));return {dir,first,next,queuePath,ledgerPath,read};
 }
 
-test('five carousel editions are visible through four previews without early publication',()=>{
+test('release feed has no previews and retains the two-year publication plan',()=>{
  const feed=JSON.parse(fs.readFileSync(path.join(root,'features/jp/index.json')));
  const planned=JSON.parse(fs.readFileSync(path.join(root,'features/planned/jp.json')));
- assert.deepEqual(feed.previewFeatures.map(f=>f.id),['weekly-002','weekly-003','weekly-004','weekly-005']);
- for(const feature of feed.previewFeatures)assert.deepEqual(feature,planned.features.find(f=>f.id===feature.id));
+ assert.equal((feed.previewFeatures||[]).length,0);
  assert.equal(planned.features.length,104);
- const visible=new Set([...feed.features.filter(f=>Date.parse(f.publishedAt)<=Date.parse('2026-11-15T10:00:00Z')),...feed.previewFeatures].map(f=>f.id));
- assert.equal(visible.size,5);
- assert(!visible.has('weekly-006'));
  assert.equal(selectFeature(feed,new Date('2026-11-15T10:00:00Z')).id,'weekly-001');
 });
 

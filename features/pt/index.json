@@ -85,7 +85,8 @@
             "humanoid"
           ]
         }
-      ]
+      ],
+      "coverImage": "features/images/humanoid-v1.png"
     }
   ]
 }
