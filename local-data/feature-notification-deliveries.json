@@ -64,6 +64,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/9134506098600984449",
       "sentAt": "2026-11-18T18:46:51.646Z"
+    },
+    {
+      "id": "de/2026-11-18",
+      "lang": "de",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Räumlich"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
