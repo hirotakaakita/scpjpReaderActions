@@ -16,6 +16,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/3931462889385649732",
       "sentAt": "2026-11-18T18:46:43.169Z"
+    },
+    {
+      "id": "en/2026-11-18",
+      "lang": "en",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Spatial"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
