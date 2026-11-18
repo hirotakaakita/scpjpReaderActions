@@ -272,6 +272,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/-2477269102524234422",
       "sentAt": "2026-11-18T18:47:29.979Z"
+    },
+    {
+      "id": "sv/2026-11-18",
+      "lang": "sv",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Rum"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
