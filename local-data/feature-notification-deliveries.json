@@ -208,6 +208,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/3815892010537108283",
       "sentAt": "2026-11-18T18:47:18.781Z"
+    },
+    {
+      "id": "ua/2026-11-18",
+      "lang": "ua",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Просторове"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
