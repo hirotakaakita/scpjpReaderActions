@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Espacial",
+      "introduction": "Explore o tema «Espacial» e compare as semelhanças e diferenças entre estas anomalias.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-pt-177",
+          "title": "Loteria da Viagem no Tempo",
+          "blurb": "SCP-177-PT é um relógio da marca █████ ████████ com ponteiros analógicos.Em estado dormente, o objeto não possui efeitos anômalos.",
+          "url": "http://scp-pt-br.wikidot.com/scp-177-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--files/scp-177-pt/177.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-087",
+          "title": "A Escadaria",
+          "blurb": "SCP-087 é uma escadaria de plataforma apagada.Escadas descem em um ângulo de 38 graus a cada 13 passos antes de chegar a uma plataforma semicircular de aproximadamente 3 metros de diâmetro.",
+          "url": "http://scp-pt-br.wikidot.com/scp-087",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1730",
+          "title": "O que Aconteceu com o Sítio-13?",
+          "blurb": "Devido à natureza isolada do complexo e à baixa taxa de sobrevivência dos indivíduos que entram em contato com SCP-1730, é possível que SCP-1730 tenha sido previamente descoberto, mas a Fundação não tinha sido notificad…",
+          "url": "http://scp-pt-br.wikidot.com/scp-1730",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1730/warehouse-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "As 12 Chaves Enferrujadas e a Porta",
+          "blurb": "SCP-004 consiste em uma velha porta (SCP-004-1) e um conjunto de doze (12) chaves de aço enferrujadas (SCP-004-2 até SCP-004-13).A porta é a entrada de uma fábrica abandonada em [DADOS EXPURGADOS].",
+          "url": "http://scp-pt-br.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-104",
+          "title": "Psicolonialismo Cósmico",
+          "blurb": "SCP-104-PT é uma egrégora de origem não-humana enclausurada no interior de um espaço paradimensional finito, doravante denominado SCP-104-PT-1.",
+          "url": "http://scp-pt-br.wikidot.com/scp-104-pt",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Oxford_Circus%2C_London%2C_United_Kingdom_%28Unsplash%29.jpg/1280px-Oxford_Circus%2C_London%2C_United_Kingdom_%28Unsplash%29.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-127",
+          "title": "Théos",
+          "blurb": "A alteração da posição dos materiais desse artefato é responsável por ativar suas propriedades anômalas.",
+          "url": "http://scp-pt-br.wikidot.com/scp-127-pt",
+          "imageUrl": "http://scpsandboxbr.wikidot.com/local--files/ags-1/image2",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "A Poça Vermelha",
+          "blurb": "SCP-354 é uma poça de líquido vermelho descoberta no norte do Canadá.O líquido tem uma consistência semelhante ao sangue humano (consequentemente o nome coloquial Poça de Sangue), mas não é de uma natureza biológica.",
+          "url": "http://scp-pt-br.wikidot.com/scp-354",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-077",
+          "title": "Oxidação",
+          "blurb": "SCP-077-PT é uma esfera de aço, aparentemente SAE 8620, de 10cm de diâmetro.Quando SCP-077-PT é observado e não possui vestígios de oxidação, nenhuma anomalia é presenciada.",
+          "url": "http://scp-pt-br.wikidot.com/scp-077-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--files/scp-077-pt/ball.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

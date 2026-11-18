@@ -87,6 +87,65 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Rum",
+      "introduction": "Utforska temat Rum och jämför likheter och skillnader mellan dessa anomalier.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "Trapphuset",
+          "blurb": "SCP-087 är en enhetplatformstrappa.Trapporna sluttar nedåt med en 38 graders vinkel i 13 trappsteg tills det når en halvcirkel-formad plattform som är cirka 3 meter i diameter.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-087",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-084",
+          "title": "Statisk Torn",
+          "blurb": "SCP-084 verkar vara ett stort radiotorn placerat i mitten av ett stort, öppet fält med två små uthus.Direkt observation och provtagning från SCP-084 är omöjlig på grund av effekten som avges runt/från SCP-084.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-084",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-084/radio%20tower.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-123",
+          "title": "Säkrat Miniatyrt Svart Hål",
+          "blurb": "Objektet är en grå geodetisk sfär med en diameter på 65 cm, bestående av sextio trianglar.Utrymmena mellan dessa trianglar är tomma, vilket gör att sfärens mittpunkt kan ses.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-123",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-123/SCP-123.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "De 12 Rostiga Nycklarna och Dörren",
+          "blurb": "SCP-004 består av en gammal trädörr till ett ladan (SCP-004-1) och en uppsättning av tolv rostiga stålnycklar (SCP-004-2 till SCP-004-13).Själva dörren är ingången till en övergiven fabrik i [DATA RADERAD].",
+          "url": "https://scp-nd.wikidot.com/sv:scp-004",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-094",
+          "title": "Miniatyr Händelsehorisont",
+          "blurb": "SCP-094 har klassificerats som ett miniatyrhändelsehorisont: allt materia som rör sig in i SCP-094, inklusive ljus, är oåterkalleligt borta.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-094",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

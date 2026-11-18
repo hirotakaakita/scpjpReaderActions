@@ -77,6 +77,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "title": "ここではない場所",
+      "coverImage": "features/images/spatial-v1.png",
+      "introduction": "一枚の扉、下り階段、いつもの建物。見慣れた入口の先に、地図にも間取り図にも収まらない場所がある。足を踏み入れる前に読んでおきたい。",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "吹き抜けた階段",
+          "blurb": "階下から、子どもの泣き声が聞こえる。降りても降りても、その声との距離だけが縮まらない。",
+          "url": "http://scp-jp.wikidot.com/scp-087",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-087/087face.jpg"
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12の錆びた鍵と扉",
+          "blurb": "古びた扉と、12本の錆びた鍵。どれで開けるかによって、同じ扉の向こうが同じ場所とは限らない。",
+          "url": "http://scp-jp.wikidot.com/scp-004",
+          "imageUrl": "https://scp-jp-storage.wikidot.com/local--files/file:8637139-2-ujd8/SCP004_door-new.jpg"
+        },
+        {
+          "itemId": "scp-series-184",
+          "title": "建築家",
+          "blurb": "建物の外から見れば、何も変わらない。でも中では、昨日までなかった部屋が増えていく。",
+          "url": "http://scp-jp.wikidot.com/scp-184",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-184/dodecahedron.jpg"
+        },
+        {
+          "itemId": "scp-series-860",
+          "title": "青い鍵",
+          "blurb": "青い鍵で開けた扉の先は、あるはずのない森だった。帰り道を探す頃には、背後の扉が閉まっている。",
+          "url": "http://scp-jp.wikidot.com/scp-860",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-860/bluekey2.png"
+        },
+        {
+          "itemId": "scp-series-015",
+          "title": "悪夢のパイプ",
+          "blurb": "廃工場の中を埋め尽くす、絡まり合った配管。誰も見ていないあいだに、その迷路はさらに広がっていく。",
+          "url": "http://scp-jp.wikidot.com/scp-015",
+          "imageUrl": "https://scp-jp.wdfiles.com/local--files/scp-015/SCP-015New.jpg"
+        }
+      ],
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "editorialVersion": 1
     }
   ]
 }

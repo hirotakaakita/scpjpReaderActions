@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Пространство",
+      "introduction": "Изучите тему «Пространство» и сравните общие черты и различия этих аномалий.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-2935",
+          "title": "SCP-2935 - О Смерть",
+          "blurb": "Кладбище, последнее погребение на котором состоялось в 1908 году, обнаружено сотрудниками Фонда после регистрации исходящих с территории SCP-2935 радиосигналов (см.",
+          "url": "https://scpfoundation.net/scp-2935",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-2935/warning.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-087",
+          "title": "SCP-087 - Лестница",
+          "blurb": "SCP-087 - неосвещённая лестница.Пролёты спускаются под углом 38 градусов, в одном пролёте 13 ступенек, между пролётами - полукруглые площадки примерно 3 метра в диаметре.",
+          "url": "https://scpfoundation.net/scp-087",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1730",
+          "title": "SCP-1730 - Что случилось с Зоной 13?",
+          "blurb": "Ввиду изолированной природы комплекса и низкой выживаемости лиц, вступающих с ним в контакт, не исключено, что SCP-1730 был обнаружен ранее, но сообщить о нём не удалось.",
+          "url": "https://scpfoundation.net/scp-1730",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-1730/power2.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6747",
+          "title": "SCP-6747 - ТЕОРИЯ ХАОСА",
+          "blurb": "= Доступ к следующему файлу предоставлен исключительно персоналу, назначенному на содержание объекта, а также СМОТРИТЕЛЯМ и ряду сотрудников КЛАССА A .",
+          "url": "https://scpfoundation.net/scp-6747",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-6747/4598317299_68f8c8fd4d_b.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3812",
+          "title": "SCP-3812 - Голос позади меня",
+          "blurb": "SCP-3812 -- это сущность, изменяющая реальность.Из-за пассивных способностей SCP-3812, его практически невозможно описать любым доступным способом.",
+          "url": "https://scpfoundation.net/scp-3812",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-3812/sam.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3201",
+          "title": "SCP-3201 - ну, оно имело низкую энтропию, пока оно существовало",
+          "blurb": "Сущности SCP-3201 идентифицируют себя для сотрудников Фонда как \"Архивистов\", а среди более широких научных кругов они считаются шаровыми молниями.",
+          "url": "https://scpfoundation.net/scp-3201",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-3201/verification_rus.gif",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2669",
+          "title": "SCP-2669 - Кебтеул 1",
+          "blurb": "Первоначальной миссией SCP-2669 было прямое наблюдение экзопланет, которые предположительно могли бы приютить подобные земным формы жизни.",
+          "url": "https://scpfoundation.net/scp-2669",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-2669/stars.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-084",
+          "title": "SCP-084 - Статичная радиомачта",
+          "blurb": "Прямое наблюдение и сбор образцов SCP-084 не являются возможными из-за эффекта, распространяющегося вокруг SCP-084 (или излучаемого ею).",
+          "url": "https://scpfoundation.net/scp-084",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-084/radio-tower.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

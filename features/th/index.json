@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "มิติและพื้นที่",
+      "introduction": "สำรวจหัวข้อ มิติและพื้นที่ และเปรียบเทียบความเหมือนและความแตกต่างของสิ่งผิดปกติเหล่านี้",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-th-630",
+          "title": "ดาวเคราะห์ปริศนาในวงโคจรระบบสุริยะ",
+          "blurb": "เเละก็จะหายไปพร้อมกับปรากฏการณ์ที่เรียกว่ารูหนอน เเต่ SCP-630-TH จะกลับมาปรากฏอีกครั้งเมื่อวงโครจรของโลกหมุนรอบดวงอาทิตย์ 1 รอบ, SCP-630-TH มีเส้นผ่านศูนย์กลาง 25,484 กม.",
+          "url": "http://scp-th.wikidot.com/scp-630-th",
+          "imageUrl": "http://scp-th.wikidot.com/local--files/scp-630-th/SCP-630-TH.PNG",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3812",
+          "title": "เสียงที่เบื้องหลังผม",
+          "blurb": "SCP-3812 คือ ตัวตนที่มีความสามารถในการแปรผันความเป็นจริง เนื่องจากผลกระทบแฝงของ SCP-3812 ต่อความเป็นจริง การบรรยายถึง SC…",
+          "url": "http://scp-th.wikidot.com/scp-3812",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-3812/RAE.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7179",
+          "title": "E สำหรับ Eternity (นิรันดร)",
+          "blurb": "SCP-7179 คือ พื้นที่มิติทรงสี่เหลี่ยมที่ไม่ทราบจำนวน มันมีขนาดพื้นที่ประมาณ 10 กิโลเมตรจากขอบ เมื่อมนุษย์เสียชีวิต จิตสำ…",
+          "url": "http://scp-th.wikidot.com/scp-7179",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-7179/hell.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 กุญแจขึ้นสนิมกับประตู",
+          "blurb": "SCP-004 ประกอบไปด้วยประตูโรงนาไม้เก่าๆ (SCP-004-1) และชุดกุญแจเหล็กขึ้นสนิมจำนวนสิบสองดอก (SCP-004-2 จนถึง SCP-004-13) ป…",
+          "url": "http://scp-th.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-184",
+          "title": "สถาปนิก",
+          "blurb": "SCP-184 เป็นวัตถุโลหะผิวเรียบขนาดเล็ก สูง 10 ซม.",
+          "url": "http://scp-th.wikidot.com/scp-184",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-184/dodecahedron-new.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1753",
+          "title": "รูปดิ่งนรก",
+          "blurb": "SCP-1753 คือภาพวาดสีน้ำมันขนาด 75 เซนติเมตร X 100 เซนติเมตร ของเทือกเขา “แอล แคปปิตัน” (El Capitan) ในอุทยานโยเชมิตี สหร…",
+          "url": "http://scp-th.wikidot.com/scp-1753",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1753/SCP-1753%20Censor.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2406",
+          "title": "มหายักษา",
+          "blurb": "SCP-2406 เป็นหุ่นกลไกอัตโนมัติ สูง 93 เมตรและหนักประมาณ 210 ตัน จากการศึกษานั้นชี้ว่าSCP-2406ไม่มีสำนึกและต้องการผู้ใช้ง…",
+          "url": "http://scp-th.wikidot.com/scp-2406",
+          "imageUrl": "https://scp-th.wdfiles.com/local--files/scp-2406/2406.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-849",
+          "title": "วันอันสดใส",
+          "blurb": "SCP-849 คือ Sensory Deprivation Chamber (ตู้สปาสำหรับบำบัดความรู้สึกและจิตใจ) ถูกค้นพบครั้งแรกโดยสถาบันจากสปาเพื่อสุขภาพ…",
+          "url": "http://scp-th.wikidot.com/scp-849",
+          "imageUrl": "http://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpsensorydeprivation.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

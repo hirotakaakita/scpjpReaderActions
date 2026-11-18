@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Χώρος",
+      "introduction": "Εξερευνήστε το θέμα «Χώρος» και συγκρίνετε τις ομοιότητες και τις διαφορές αυτών των ανωμαλιών.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "Η σκάλα",
+          "blurb": "Το SCP-087 είναι μια μη φωτισμένη πλατφόρμα σκάλας.Τα σκαλιά κατεβαίνουν σε μια γωνία 38 μοιρών για 12 σκαλιά πριν φτάσουν σε μια ημικυκλική πλατφόρμα με διάμετρο περίπου 3 μέτρα.",
+          "url": "https://scp-el.wikidot.com/scp-087",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "Τα 12 σκουριασμένα κλειδιά και η πόρτα",
+          "blurb": "Η ίδια η πόρτα είναι η είσοδος ενός εγκαταλελειμμένου εργοστασίου στο [ΔΙΑΓΡΑΦΗΚΑΝ ΔΕΔΟΜΕΝΑ].",
+          "url": "https://scp-el.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "Η κοκκινη λιμνη",
+          "blurb": "Το υγρό είναι παρόμοιο με αυτό του ανθρώπινου αίματος (εξ ου και η συνηθισμένη ονομασία ''H λίμνη του αίματος'') αλλά δεν είναι βιολογικής φύσης.",
+          "url": "https://scp-el.wikidot.com/scp-354",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-201",
+          "title": "Ο Άδειος Κόσμος",
+          "blurb": "Το SCP-201 έχει ύψος 1,8 m (6 ft) και έχει μάζα 36,5 kg (80 lbs).",
+          "url": "https://scp-el.wikidot.com/scp-201",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-201/005.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-908",
+          "title": "Βράχος συνεγκατάστασης",
+          "blurb": "Το SCP-908 είναι μια μερικώς βυθισμένη νησίδα.Το πέτρωμα αποτελείται από γρανίτη.",
+          "url": "https://scp-el.wikidot.com/scp-908",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ball%27s_Pyramid_North.jpg/240px-Ball%27s_Pyramid_North.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-744",
+          "title": "Απαιτείται συναρμολόγηση",
+          "blurb": "Το SCP-744 είναι ένα μεγάλο εγκαταλελειμμένο εργοστάσιο που καλύπτει περίπου 30 στρέμματα και βρίσκεται στο ███████, WV.",
+          "url": "https://scp-el.wikidot.com/scp-744",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-744/744-exterior-new.PNG",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-398",
+          "title": "Ο Διάδρομος εισόδου",
+          "blurb": "Το SCP-398 εμφανίζεται σε όλα τα άτομα ως ένας διάδρομος κάποιας περιγραφής.Ωστόσο, οι λεπτομέρειες διαφέρουν μεταξύ ατόμων.",
+          "url": "https://scp-el.wikidot.com/scp-398",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-398/long_hallway_JeffK.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-849",
+          "title": "Μια τέλεια μέρα",
+          "blurb": "Το SCP-849 έχει διαστάσεις 3m x 4m, λευκό χρώμα και είναι γεμάτο με ένα αδιαφανές, γκρι υγρό.",
+          "url": "https://scp-el.wikidot.com/scp-849",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-849/scpsensorydeprivation-new.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

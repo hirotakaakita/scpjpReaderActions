@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "空間",
+      "introduction": "圍繞「空間」，對比這些異常的共同點與差異。",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-zh-425",
+          "title": "破是「破洞」",
+          "blurb": "SCP-ZH-425是存在於一本攤開的A5筆記本中心的重力異常，外形呈現為一顆直徑約15 30 60公分的黑洞。當前並無證據表明SCP-ZH-425具備對三維空間造成影響的能力。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-zh-425",
+          "imageUrl": "https://i.imgur.com/Cqa1MTF.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3001",
+          "title": "紅色現實",
+          "blurb": "儘管SCP-3001被認為是一個無限延伸的平行宇宙，SCP-3001內部呈現幾乎完全真空的狀態且休謨水準為0.032的極低值，2這牴觸了凱傑爾現實定律中休謨與時空的關係。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-3001",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6500",
+          "title": "無以避免",
+          "blurb": "您正在查詢的標題為：關注組織 在多個資料庫中發現符合該標題的文件 請選擇欲查詢的資料來源，或按此取消 dummy 繁中原創 主站翻譯 dummy 俄文分部 韓文分部 中國分部 法文分部 波蘭分部 西語分部 泰文分部 日文分部 德文分部 義語…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6500",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1983",
+          "title": "至無處之門",
+          "blurb": "SCP-1983-1是一間位於懷俄明洲███████縣的獨棟農舍。SCP-1983-1的前門似乎會在開啟時造成空間異常。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-1983",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6820",
+          "title": "抹殺嘗試",
+          "blurb": "SCP-6820-A是一個物體、實體、現象或某種項目，無論其是否為異常，都已經在SCP-6820的完成與啟動後無效化了。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6820",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/admonition/admo-6820-ballnew.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7179",
+          "title": "E是「永恆」（Eternity）",
+          "blurb": "SCP-7179是一種數量未知、邊長約10公里的超維度立方體空間。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7179",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-7179/hell.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2998",
+          "title": "異常傳播訊號，2485MHz",
+          "blurb": "SCP-2998係一以2485 MHz穩定頻率放送的電磁訊號。該訊號最初被視為該頻率中一異常但無害的白雜訊；微量變數則指出了該訊號中仍含有其他資訊，然而，解碼SCP-2998的技術於2011年才發展出來。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-2998",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7819",
+          "title": "無空",
+          "blurb": "當車輛接近SCP-7819時，駕駛將會感到難以舒緩的疲勞感──尚未釐清此現象是數小時駕駛後看見休息機會的自然反應，抑或是SCP-7819為引誘司機製造的異常現象──無論如何，疲勞感將會從駕駛駛離高速公路後開始，一直持續到車輛進入旅館的停車…",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7819",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

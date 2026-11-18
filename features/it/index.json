@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Spaziale",
+      "introduction": "Esplora il tema «Spaziale» e confronta somiglianze e differenze di queste anomalie.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "La Scalinata",
+          "blurb": "SCP-087 è una scalinata non illuminata.Le scale scendono con un angolo di 38 gradi per 13 gradini prima di raggiungere una piattaforma semicircolare di circa 3 metri di diametro.",
+          "url": "http://fondazionescp.wikidot.com/scp-087",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "La Porta e le 12 Chiavi Arrugginite",
+          "blurb": "La porta in sé è l'entrata per una fabbrica abbandonata in [DATI CANCELLATI].",
+          "url": "http://fondazionescp.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1730",
+          "title": "Cosa è successo al Sito-13?",
+          "blurb": "A causa della natura isolata del complesso e del basso tasso di sopravvivenza degli individui che entrano in contatto con esso, è possibile che SCP-1730 sia stato scoperto in precedenza ma non sia stato segnalato.",
+          "url": "http://fondazionescp.wikidot.com/scp-1730",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1730/power.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3812",
+          "title": "Una Voce Dietro di Me",
+          "blurb": "SCP-3812 è un'entità che altera la realtà.Tutto ciò che si sa di SCP-3812 è che un tempo era Sam Howell, un essere umano non anomalo afro-americano, che si credeva fosse morto nel 1996.",
+          "url": "http://fondazionescp.wikidot.com/scp-3812",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-3812/RAE.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "La Pozza Rossa",
+          "blurb": "SCP-354 è una pozza di liquido rosso, scoperta nel nord del Canada.Il liquido è di una consistenza simile a quella del sangue umano (per questo il nome colloquiale è \"Stagno di Sangue\") ma non è di natura biologica.",
+          "url": "http://fondazionescp.wikidot.com/scp-354",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-184",
+          "title": "L'Architetto",
+          "blurb": "Ogni faccia dell'oggetto presenta un foro circolare al centro e a ogni vertice è fissata una piccola sfera.",
+          "url": "http://fondazionescp.wikidot.com/scp-184",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-184/dodecahedron-new.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1437",
+          "title": "Un Buco Verso Altri Luoghi",
+          "blurb": "SCP-1437 è un buco senza apparente fine misurante 3m x 3m, situato nel Deserto del ██████.",
+          "url": "http://fondazionescp.wikidot.com/scp-1437",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1437/1437-1-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-470",
+          "title": "Collegamento di Luoghi Abbandonati",
+          "blurb": "SCP-470 appare come un grande complesso di uffici in costruzione abbandonato a ████████, ███████.SCP-470 non ha un proprietario registrato dal ████, quando fu abbandonato con il collasso della ███████ Corporation.",
+          "url": "http://fondazionescp.wikidot.com/scp-470",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-470/IMG_3784.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

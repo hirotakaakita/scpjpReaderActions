@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Không gian",
+      "introduction": "Khám phá chủ đề «Không gian» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-vn-152",
+          "title": "Mộng đẹp chóng tàn",
+          "blurb": "Cụ thể chủng loại cũng như ngôn ngữ được sử dụng bởi SCP-152-VN là khác nhau tùy thuộc vào xuất thân, niềm tin tôn giáo và sở thích của mỗi đối tượng.",
+          "url": "https://scp-vn.wikidot.com/scp-152-vn",
+          "imageUrl": "http://scpvnsandbox.wdfiles.com/local--files/mi-sa-1/242129955_3166379910353230_6278464814413877817_n%20%282%29.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-vn-024",
+          "title": "Nơi Mọi Thứ Bắt Đầu",
+          "blurb": "SCP-024-VN là mã định danh dành cho một khu vực bán kính 200m nằm trong Sa Mạc Gobi, gần lãnh thổ Trung Quốc.Trái với tính chất khí hậu của khu vực, dị điểm có khí hậu ôn đới, với đồng cỏ xanh và đất màu mỡ.",
+          "url": "https://scp-vn.wikidot.com/scp-024-vn",
+          "imageUrl": "http://scp-vn.wdfiles.com/local--files/scp-024-vn/GeoScan.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6820",
+          "title": "THỬ NGHIỆM TIÊU HỦY",
+          "blurb": "███-███ là một loài giống bò sát lớn không rõ nguồn gốc.███-███ đã được quan sát thấy có sức mạnh, tốc độ và phản xạ siêu cao, tuy nhiên cấp độ chính xác có biến đổi tùy theo mối nguy của thực thể.",
+          "url": "https://scp-vn.wikidot.com/scp-6820",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/admonition/admo-6820-ballnew.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1730",
+          "title": "Chuyện Gì Đã Xảy Ra Tại Điểm 13?",
+          "blurb": "Do sự cách biệt của khu liên hợp, cùng với khả năng sống sót thấp của những cá nhân tiếp xúc với nó, có thể là SCP-1730 đã tồn tại lâu hơn trước khi được tìm thấy.",
+          "url": "https://scp-vn.wikidot.com/scp-1730",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1730/warehouse-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6747",
+          "title": "THUYẾT HỖN MANG",
+          "blurb": "SCP-6747 là một quy trình lý thuyết được sử dụng để tái thiết lập các nhân sự đã tử vong: tác động hạ viễn tưởng.",
+          "url": "https://scp-vn.wikidot.com/scp-6747",
+          "imageUrl": "https://live.staticflickr.com/1358/4598317299_68f8c8fd4d_b.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-vn-183",
+          "title": "Tuyết Tàn Tro",
+          "blurb": "SCP-183-VN là định danh cho một đoạn tường cũ nằm bên ngoài Điểm-04K gần với biên giới Triều Tiên-Hàn Quốc.Dị thể hiện đang nằm hoàn toàn dưới quyền quản lý và coi sóc của Điểm-04K.",
+          "url": "https://scp-vn.wikidot.com/scp-183-vn",
+          "imageUrl": "http://scpvnsandbox2.wdfiles.com/local--files/jasian-image-stash/Enter%20Black%20Hole%20Version.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6500",
+          "title": "Tất Yếu",
+          "blurb": "DƯỚI SỰ CHỈ ĐỊNH CỦA HỘI ĐỒNG TỐI CAO Tệp tin này đã được chỉnh sửa hợp pháp truy cập cho toàn bộ nhân sự.Độc giả bắt buộc phải thực hiện Thệ ước sau.",
+          "url": "https://scp-vn.wikidot.com/scp-6500",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/scp-6500/saulenuesmall.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-5956",
+          "title": "KHÔNGCÓKHẨUPHÁONÀOCẢ",
+          "blurb": "Khi kích hoạt, pháo REISNO liên kết trí bộ của người dùng hiện tại với người đấy tại điểm thời quá khứ; hiệu lực khiến, kiến thức và trải nghiệm \"kinh điển\" của một người có thể được điều chỉnh thông qua truyền thông li…",
+          "url": "https://scp-vn.wikidot.com/scp-5956",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-5956/REISNOCANNON.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

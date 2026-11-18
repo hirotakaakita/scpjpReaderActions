@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Przestrzenny",
+      "introduction": "Poznaj temat „Przestrzenny” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "Klatka schodowa",
+          "blurb": "SCP-087 to nieoświetlona klatka schodowa.Schody opadają pod kątem 38 stopni do poziomu przez 13 stopni, gdzie znajduje się półpiętro w kształcie połowy walca i średnicy około 3 metrów.",
+          "url": "http://scp-pl.wikidot.com/scp-087",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "Czerwony staw",
+          "blurb": "SCP-354 to staw czerwonego płynu odkryty w północnej Kanadzie.Ciecz w konsystencji przypomina ludzką krew (stąd kolokwialna nazwa Krwawy Staw), jednak nie jest substancją o pochodzeniu biologicznym.",
+          "url": "http://scp-pl.wikidot.com/scp-354",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-6820",
+          "title": "PRÓBA TERMINACJI",
+          "blurb": "Broń ta stanowi ostateczny efekt Projektu ANTIKILL: operacji o niezwykle wysokim priorytecie, która jest pod nadzorem O5-8, mającej na celu \"nieodwracalną, globalną neutralizację [SCP-6820-A]\".",
+          "url": "http://scp-pl.wikidot.com/scp-6820",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6820/office.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 zardzewiałych kluczy i drzwi",
+          "blurb": "SCP-004 składa się ze starych, drewnianych drzwi do stodoły (SCP-004-1) i zestawu dwunastu zardzewiałych, stalowych kluczy (SCP-004-2 do SCP-004-13).Drzwi są wejściem do opuszczonej fabryki, w [USUNIĘTO].",
+          "url": "http://scp-pl.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1730",
+          "title": "Co się stało z Ośrodkiem 13?",
+          "blurb": "SCP-1730 jest dużym kompleksem budynków 15 km na północny zachód od granicy USA i Meksyku w Parku Stanowym Big Bend Ranch, który został odkryty 5 czerwca ████ r.",
+          "url": "http://scp-pl.wikidot.com/scp-1730",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1730/warehouse-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7179",
+          "title": "E jak Eon",
+          "blurb": "Opierając na ograniczonych obserwacjach i eksperymentach, nie są znane żadne przypadki ludzkiej śmierci, po której świadomość nie pojawia się w SCP-7179.",
+          "url": "http://scp-pl.wikidot.com/scp-7179",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/scp-7179/hell.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2935",
+          "title": "O, Śmierci!",
+          "blurb": "SCP-2935 jest czasoprzestrzenną anomalią zlokalizowaną w wapiennej jaskini pod cmentarzem niedaleko Joppy, Indiana.",
+          "url": "http://scp-pl.wikidot.com/scp-2935",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-2935/hole.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-184",
+          "title": "Architekt",
+          "blurb": "Każda ściana obiektu posiada na środku okrągłą dziurę, a do każdego rogu przymocowana jest niewielka kulka.",
+          "url": "http://scp-pl.wikidot.com/scp-184",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-184/dodecahedron-new.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

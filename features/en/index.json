@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Spatial",
+      "introduction": "Explore Spatial: compare what these SCPs have in common and how their anomalies differ.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "The Stairwell",
+          "blurb": "SCP-087 is an unlit platform staircase.Stairs descend on a 38 degree angle for 13 steps before reaching a semicircular platform of approximately 3 meters in diameter.",
+          "url": "https://scp-wiki.wikidot.com/scp-087",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1730",
+          "title": "What Happened to Site-13?",
+          "blurb": "SCP-1730 was a large complex of structures 15km northwest of the US/Mexico border within Big Bend Ranch State Park that was discovered on June 5th, ████.",
+          "url": "https://scp-wiki.wikidot.com/scp-1730",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1730/warehouse-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2935",
+          "title": "O, Death",
+          "blurb": "SCP-2935 is a space-time anomaly existing within a limestone cave beneath a cemetery near Joppa, Indiana.",
+          "url": "https://scp-wiki.wikidot.com/scp-2935",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-2935/hole.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "The Red Pool",
+          "blurb": "SCP-354 is a pool of red liquid discovered in northern Canada.The liquid is of a consistency similar to that of human blood (hence the colloquial name Blood Pond) but is not of a biological nature.",
+          "url": "https://scp-wiki.wikidot.com/scp-354",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1437",
+          "title": "A Hole to Another Place",
+          "blurb": "Attempts to dig into SCP-1437 from the side result in the diggers encountering solid rock where logic would dictate SCP-1437 would be.",
+          "url": "https://scp-wiki.wikidot.com/scp-1437",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-1-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-184",
+          "title": "The Architect",
+          "blurb": "Each face of the figure has a circular hole in the center, and a small sphere is attached to each vertex.",
+          "url": "https://scp-wiki.wikidot.com/scp-184",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-184/dodecahedron-new.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "The 12 Rusty Keys and the Door",
+          "blurb": "SCP-004 consists of an old wooden barn door (SCP-004-1) and a set of twelve rusted steel keys (SCP-004-2 through SCP-004-13).The door itself is the entrance to an abandoned factory in [DATA EXPUNGED].",
+          "url": "https://scp-wiki.wikidot.com/scp-004",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7179",
+          "title": "E is for Eternity",
+          "blurb": "SCP-7179 refers to an unknown number of cubic extradimensional spaces, measuring approximately 10 km on each edge.",
+          "url": "https://scp-wiki.wikidot.com/scp-7179",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-7179/hell.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

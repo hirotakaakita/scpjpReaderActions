@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Espacial",
+      "introduction": "Explora el tema «Espacial» y compara las semejanzas y diferencias de estas anomalías.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-1730",
+          "title": "¿Qué Fue del Sitio-13?",
+          "blurb": "Dada la naturaleza aislada del complejo y el bajo índice de supervivencia de los individuos que entran en contacto con el mismo, es posible que SCP-1730 haya sido descubierto con anterioridad sin que se haya hecho públi…",
+          "url": "http://lafundacionscp.wikidot.com/scp-1730",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-1730/scp-1730-2.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-087",
+          "title": "Las Escaleras",
+          "blurb": "Cada tramo de escaleras desciende en un ángulo de 38 grados y tiene 13 escalones, antes de alcanzar un rellano semicircular de aproximadamente 3 metros de diámetro.",
+          "url": "http://lafundacionscp.wikidot.com/scp-087",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-087/scp-087-2.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "Las 12 Llaves Oxidadas y la Puerta",
+          "blurb": "SCP-004 consiste en una antigua puerta rústica de madera (SCP-004-1) y un grupo de doce (12) llaves oxidadas de metal (SCP-004-2 hasta SCP-004-13).La puerta en sí es la entrada a la antigua fábrica de [DATOS BORRADOS].",
+          "url": "http://lafundacionscp.wikidot.com/scp-004",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-004/scp-004.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3812",
+          "title": "Una Voz Detrás De Mí",
+          "blurb": "SCP-3812 es una entidad alteradora de la realidad.Debido al efecto latente de SCP-3812 sobre la realidad, es casi imposible describir a SCP-3812 de forma efectiva.",
+          "url": "http://lafundacionscp.wikidot.com/scp-3812",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-3812/unshaped.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2935",
+          "title": "Oh, Muerte",
+          "blurb": "SCP-2935 es una anomalía espacio-temporal que se encuentra ubicada dentro de una cueva de piedra caliza debajo de un cementerio cerca de Joppa, Indiana.",
+          "url": "http://lafundacionscp.wikidot.com/scp-2935",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-2935/hole.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-5227",
+          "title": "F.O.G /// FEAR OF GOD1",
+          "blurb": "SCP-5227 se manifestó como una niebla que descendió sobre Antuco y cubrió completamente el pueblo, reduciendo drásticamente la visibilidad y las comunicaciones.",
+          "url": "http://lafundacionscp.wikidot.com/scp-5227",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-5227/rounderfog.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "La Piscina Roja",
+          "blurb": "El líquido es de una consistencia similar a la de la sangre humana (de ahí el nombre coloquial, Estanque de Sangre) pero no es de naturaleza biológica.",
+          "url": "http://lafundacionscp.wikidot.com/scp-354",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-354/SCP-354.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1437",
+          "title": "Un Agujero a Otra Parte",
+          "blurb": "Los intentos de excavar SCP-1437 lateralmente han dado como resultado el hallazgo por parte de los excavadores de roca sólida donde se debería hallar SCP-1437.",
+          "url": "http://lafundacionscp.wikidot.com/scp-1437",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-1437/SCP-1437.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "Просторове",
+      "introduction": "Дослідіть тему «Просторове» та порівняйте спільні риси й відмінності цих аномалій.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-087",
+          "title": "Сходи",
+          "blurb": "SCP-087 являє собою неосвітлену сходову кліть.Сходи спускаються під кутом 38°, кожен просвіт має 13 сходинок і досягає напівкруглого майданчика приблизно 3 метри в діаметрі.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-087",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-354",
+          "title": "Багряний Став",
+          "blurb": "SCP-354 – це невелика водойма червоної рідини, виявлена на півночі Канади.Рідина має консистенцію, подібну до людської крові (звідки й пішла розмовна назва \"Кривавий Ставок\"), але походження її не біологічне.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-354",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 іржавих ключів і двері",
+          "blurb": "SCP-004 складається зі старих дерев'яних амбарних дверей (SCP-004-1) і зв'язки з дванадцяти іржавих сталевих ключів (SCP-004-2 — SCP-004-13).Самі двері є входом до покинутої фабрики в [ДАНІ ВИДАЛЕНО].",
+          "url": "http://scp-ukrainian.wikidot.com/scp-004",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2669",
+          "title": "Кебтеул 1",
+          "blurb": "Первісною місією SCP-2669 було пряме спостереження екзопланет, які ймовірно могли б дати притулок подібним до земних форм життя.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-2669",
+          "imageUrl": "https://scp-ukrainian.wdfiles.com/local--resized-images/scp-2669/one.jpg/thumbnail.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1437",
+          "title": "Діра в інше місце",
+          "blurb": "Спроби зробити підкоп під SCP-1437 збоку призвели до виявлення твердої породи у місці, де мала б знаходитися порожнина об'єкта.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1437",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-1-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3379",
+          "title": "D-11424 та Арктична М'ясна діра нескінчених див",
+          "blurb": "SCP-3379 знаходиться на відстані в 12 кілометрів на північ від острова Більшовик.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-3379",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-3379/todaysspecial.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-201",
+          "title": "Порожній світ",
+          "blurb": "Висота SCP-201 сягає 1,8 метра (6 футів), а вага - 36,5 кілограмів (80 фунтів).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-201",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-201/005.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-184",
+          "title": "Архітектор",
+          "blurb": "SCP-184 – це невеликий гладенький металевий предмет у формі додекаедра висотою та шириною у 10 см (4 дюйми).Кожна грань фігури має в центрі круглий отвір, а до кожної вершини прикріплена невелика сфера.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-184",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-184/dodecahedron-new.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

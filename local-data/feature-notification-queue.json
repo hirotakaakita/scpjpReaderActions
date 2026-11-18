@@ -1,4 +1,176 @@
 {
   "version": 1,
-  "pending": {}
+  "pending": {
+    "jp": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "ここではない場所"
+        }
+      ]
+    },
+    "en": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Spatial"
+        }
+      ]
+    },
+    "cn": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "空间"
+        }
+      ]
+    },
+    "cs": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Prostorové"
+        }
+      ]
+    },
+    "de": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Räumlich"
+        }
+      ]
+    },
+    "es": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Espacial"
+        }
+      ]
+    },
+    "fr": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Spatial"
+        }
+      ]
+    },
+    "it": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Spaziale"
+        }
+      ]
+    },
+    "ko": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "공간"
+        }
+      ]
+    },
+    "ru": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Пространство"
+        }
+      ]
+    },
+    "pl": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Przestrzenny"
+        }
+      ]
+    },
+    "pt": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Espacial"
+        }
+      ]
+    },
+    "th": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "มิติและพื้นที่"
+        }
+      ]
+    },
+    "ua": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Просторове"
+        }
+      ]
+    },
+    "vn": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Không gian"
+        }
+      ]
+    },
+    "zh-tr": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "空間"
+        }
+      ]
+    },
+    "el": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Χώρος"
+        }
+      ]
+    },
+    "sv": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Rum"
+        }
+      ]
+    },
+    "tr": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Uzay"
+        }
+      ]
+    }
+  }
 }

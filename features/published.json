@@ -2,80 +2,80 @@
   "version": 1,
   "languages": {
     "jp": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "en": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "cn": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "cs": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "de": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "es": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "fr": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "int": {
       "featureId": "weekly-001",
       "publishedAt": "2026-11-11T10:00:00.000Z"
     },
     "it": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "ko": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "ru": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "pl": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "pt": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "th": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "ua": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "vn": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "zh-tr": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "ar": {
       "featureId": "weekly-001",
       "publishedAt": "2026-11-11T10:00:00.000Z"
     },
     "el": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "hu": {
       "featureId": "weekly-001",
@@ -94,12 +94,12 @@
       "publishedAt": "2026-11-11T10:00:00.000Z"
     },
     "sv": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     "tr": {
-      "featureId": "weekly-001",
-      "publishedAt": "2026-11-11T10:00:00.000Z"
+      "featureId": "weekly-002",
+      "publishedAt": "2026-11-18T10:00:00.000Z"
     }
   }
 }

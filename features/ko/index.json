@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "공간",
+      "introduction": "「공간」를 주제로 이 변칙들의 공통점과 차이점을 비교해 보세요.",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-1730",
+          "title": "제13기지에 무슨 일이 일어났나?",
+          "blurb": "SCP-1730은 미국/멕시코 국경으로부터 북서쪽으로 15km 떨어진, 빅 벤드 랜치 주립공원 내에 있는 대규모 복합시설로 ████년 6월 5일에 발견되었다.시설의 고립성과 접촉 인원의 낮은 생존율로 인해 SCP-1730이 이전에도 발견되었지만 알려지지 않았을 수도 있다.",
+          "url": "https://scpko.wikidot.com/scp-1730",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-1730/warehouse-new.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-507",
+          "title": "대빡통의 멀티버스",
+          "blurb": "SCP-507-KO는 제11기지의 피터 B.산체즈 박사, 그리고 제77K기지의 이상훈 박사가 극비리에 공동으로 개발한 소형 다중우주 전이 장치를 일컫는다.",
+          "url": "https://scpko.wikidot.com/scp-507-ko",
+          "imageUrl": "https://scpko.wdfiles.com/local--resized-images/scp-507-ko/Device.JPEG/medium.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-087",
+          "title": "계단통",
+          "blurb": "SCP-087은 불이 켜져 있지 않은 층계참식 계단이다. 38도 각도로 내려가는 13칸의 계단을 내려가면 지름 약 3미터의 반원형 층계참이 나타난다.각 층계참마다 계단이 내려가는 방향은 180도씩 반대로 꺾인다.",
+          "url": "https://scpko.wikidot.com/scp-087",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-087/087face.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-935",
+          "title": "안개 낀 도시는 저편으로",
+          "blurb": "상급감시사령부의 보고를 받아 한국사령부에서 신속한 상황 파악 및 감식을 위해 AIC 조사대를 사용하였으나 AIC는 무진시 내의 어떠한 전자장비 및 데이터베이스에도 접속할 수 없었다고 응답하였다.",
+          "url": "https://scpko.wikidot.com/scp-935-ko",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-935-ko/Thick_fog.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2935",
+          "title": "오, 죽음이여",
+          "blurb": "SCP-2935는 인디애나 욥바Joppa 인근의 묘지 아래에 있는 석회동굴 안에 존재하는 시공간 변칙존재이다.정찰 목적으로 SCP-2935에 최초 진입한 기동특무부대가 수집한 자료들은 SCP-2935 안의 모든 생명체들이 갑자기, 아무 예고 없이 동부표준시 0300-0400 중에 사망했다는 결론을 가리킨다.",
+          "url": "https://scpko.wikidot.com/scp-2935",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-2935/hole.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-521",
+          "title": "본다 함은 무엇인가?",
+          "blurb": "SCP-521-KO는 대한민국 전라남도 무진시에 소재한, 바다를 향해 뻗어 나온 제방이다.대상은 1970년에 대지미술 작품으로서 만들어졌으며, 방파 능력은 썩 좋지 못하다.",
+          "url": "https://scpko.wikidot.com/scp-521-ko",
+          "imageUrl": "http://scpko.wdfiles.com/local--files/scp-521-ko/640px-US-WA-Olympia-CapeDissappointment-NorthJetty-2013.01.30-021.JPG",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-ko-1672",
+          "title": "회피주의자",
+          "blurb": "SCP-1672-KO는 「자아학개론」이라는 제목의 중고 서적으로, 총 13개의 목차로 구성되어 있다.조사 결과에 따르면, SCP-1672-KO는 20세기 말 소규모 조직이 민간 사회에 공식 출판하려 했으나, 중앙정보부 10국에 발각되면서 전량 폐기되었다.",
+          "url": "https://scpko.wikidot.com/scp-1672-ko",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-1672-ko/gasgas.png",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7179",
+          "title": "E는 영원이다",
+          "blurb": "SCP-7179는 정확한 숫자를 알 수 없는 정육면체형 외부차원 공간으로, 각 모서리 길이는 대략 10킬로미터다.만일 어떤 인간이 사망한다면, 그의 의식은 SCP-7179 개체로 이동하는데, 이들은 이곳에서 사망할 당시와 동일한 모습으로, 하지만 건강 상태는 완벽한 채로 나타난다.",
+          "url": "https://scpko.wikidot.com/scp-7179",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-7179/hell.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }

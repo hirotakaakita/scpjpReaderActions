@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-002",
+      "themeId": "spatial",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "title": "空间",
+      "introduction": "围绕“空间”，对比这些异常的共同点与差异。",
+      "coverImage": "features/images/spatial-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-9729",
+          "title": "习得。",
+          "blurb": "项目发现于2002年末，异常性质在2003年夏天被完全理解。在风穴上方建立了LOUSE WARREN，作为前哨基地/仓库。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9729",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-9729/cave.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-9838",
+          "title": "一处视野开阔的屋顶。",
+          "blurb": "该异常最初于1990年在德克萨斯州埃尔帕索的普罗维登斯儿童医院发生一次排出事件后引起特殊收集项目的注意。SCP-9838内部呈现为严重扭曲的休斯顿天际线，主体在一座无限高的医院旁坠落，而地面似乎始终保持恒定距离。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9838",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-9838/rooftop.JPG",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-7503",
+          "title": "神聖人類帝國",
+          "blurb": "SCP-7503是一具身分不明的男性骸骨，身著文藝復興時期的教會服裝，飾有精緻的珠寶，包括黃金及各色寶石。天主教徒距SCP-7503五米以內則觸發其異常效應。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-7503",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/fragment:scp-7503-1/wald",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-8070",
+          "title": "立体异构",
+          "blurb": "SCP-8070为一类反复发生的现象，其主要影响居民区中照明不佳的封闭空间里的物体和生物。目前的假设是SCP-8070是一类可以影响物体内部构造但是仍然遵守质量守恒定律的现实扭曲现象。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-8070",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-8070/landfill.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-1992",
+          "title": "模棱两可的移动屋",
+          "blurb": "SCP-1992是一个栋于肯塔基州██████ ███████的活动房屋。随着SCP-1992-1实体数量的增加，SCP-1992内部也会获得额外的空间，好像是要产生出建筑内所有可能的实体。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-1992",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1992/1992",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-2334",
+          "title": "诸色众相",
+          "blurb": "SCP-2334是一异常地下盐矿及相片储存设施，位于犹他州盐湖城，其唯一已知入口位于N██°██'██.██\" W███°██'██.██\"。情报显示其中可能存放有RGB色彩光谱下可能存在的一切相片，分辨率约在2000~3000像素。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-2334",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-2334/spirit.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-4488",
+          "title": "深海恐惧症",
+          "blurb": "SCP-4488是一个小型湖泊，位于蒙大拿州████████附近茂密的森林中。从湖面位置看，SCP-4488似乎是一个普通湖泊，并无明显可见的异常特性。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-4488",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-4488/lake/medium.jpg",
+          "sourceTags": [
+            "spatial"
+          ]
+        },
+        {
+          "itemId": "scp-series-3641",
+          "title": "Remember Apollo-99 Nased",
+          "blurb": "SCP-3641指代一组在Cambrian村庄桑兹堡内显现的异常现象。这些现象包括照片的变化，无线电广播，以及太空旅行相关装备的显现。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-3641",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-3641/3641",
+          "sourceTags": [
+            "spatial"
+          ]
+        }
+      ]
     }
   ]
 }
