@@ -2,13 +2,8 @@
   "version": 1,
   "pending": {
     "jp": {
-      "lastSentWindow": null,
-      "items": [
-        {
-          "itemId": "weekly-002",
-          "titleJP": "ここではない場所"
-        }
-      ]
+      "lastSentWindow": "2026-11-18",
+      "items": []
     },
     "en": {
       "lastSentWindow": null,
@@ -172,5 +167,6 @@
         }
       ]
     }
-  }
+  },
+  "updatedAt": "2026-11-18T18:46:41.571Z"
 }
