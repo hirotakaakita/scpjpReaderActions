@@ -240,6 +240,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/-3616087405853246795",
       "sentAt": "2026-11-18T18:47:24.482Z"
+    },
+    {
+      "id": "zh-tr/2026-11-18",
+      "lang": "zh-tr",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "空間"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
