@@ -160,6 +160,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/8931240687882805416",
       "sentAt": "2026-11-18T18:47:10.033Z"
+    },
+    {
+      "id": "pl/2026-11-18",
+      "lang": "pl",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "Przestrzenny"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
