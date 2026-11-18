@@ -2772,6 +2772,72 @@
       "startedAt": "2026-11-15T23:55:54.195Z",
       "messageName": "projects/scpjp-reader/messages/5376940484578646572",
       "sentAt": "2026-11-15T23:55:56.583Z"
+    },
+    {
+      "id": "en/2026-11-15",
+      "lang": "en",
+      "window": "2026-11-15",
+      "items": [
+        {
+          "itemId": "scp-series-7638",
+          "titleJP": "Guy on Ice"
+        },
+        {
+          "itemId": "scp-series-9364",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9367",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9457",
+          "titleJP": "Willoa Moss, Lyre Of Babel"
+        },
+        {
+          "itemId": "scp-series-9475",
+          "titleJP": "\"Infectious\" Radiological Hazard"
+        },
+        {
+          "itemId": "scp-series-9514",
+          "titleJP": "Ineffective Containment"
+        },
+        {
+          "itemId": "scp-series-9524",
+          "titleJP": "Infinite Flow State"
+        },
+        {
+          "itemId": "scp-series-9567",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9639",
+          "titleJP": "The Median Voter"
+        },
+        {
+          "itemId": "scp-series-9722",
+          "titleJP": "Stranded Assets"
+        },
+        {
+          "itemId": "scp-series-9836",
+          "titleJP": "The Faceless Family Portrait"
+        },
+        {
+          "itemId": "scp-series-9846",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9850",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9859",
+          "titleJP": "[ACCESS DENIED]"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T03:53:51.480Z"
     }
   ]
 }
