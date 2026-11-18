@@ -128,6 +128,20 @@
       "startedAt": "2026-11-18T18:46:41.571Z",
       "messageName": "projects/scpjp-reader/messages/-5292642911710165604",
       "sentAt": "2026-11-18T18:47:03.788Z"
+    },
+    {
+      "id": "ko/2026-11-18",
+      "lang": "ko",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "공간"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
     }
   ]
 }
