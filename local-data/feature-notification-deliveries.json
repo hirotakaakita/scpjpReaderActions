@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "deliveries": [
+    {
+      "id": "jp/2026-11-18",
+      "lang": "jp",
+      "window": "2026-11-18",
+      "items": [
+        {
+          "itemId": "weekly-002",
+          "titleJP": "ここではない場所"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-18T18:46:41.571Z"
+    }
+  ]
+}
