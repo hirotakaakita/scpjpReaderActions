@@ -5,11 +5,12 @@ const labels=require('./feature-notification-messages.json');
 const fs=require('node:fs');
 const topicPrefix=fs.existsSync(path.join(__dirname,'staging-environment.js'))
  ? require('./staging-environment').TOPIC_PREFIX.replace('new_scp_','weekly_feature_') : 'weekly_feature_';
-function featureWindow(now){
- const day=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate(),10));
- day.setUTCDate(day.getUTCDate()-(day.getUTCDay()-3+7)%7);
- if(day>now)day.setUTCDate(day.getUTCDate()-7);
- return day.toISOString().slice(0,10);
+function featureWindow(now,timeZone){
+ const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{
+  timeZone,weekday:'short',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',hourCycle:'h23',
+ }).formatToParts(now).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
+ if(parts.weekday!=='Wed'||Number(parts.hour)!==19)return null;
+ return `${parts.year}-${parts.month}-${parts.day}`;
 }
 function sendFeatures(options={}){return send({
  queuePath:path.join(__dirname,'local-data/feature-notification-queue.json'),

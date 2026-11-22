@@ -4,6 +4,7 @@ const {LANGUAGES}=require('../languages');
 const {loadCatalogs,matches,featureExcerpt,usableImage,FEATURE_WEEKS}=require('../generate-weekly-features');
 const {publish,selectFeature}=require('../publish-weekly-features');
 const {sendFeatures,featureWindow}=require('../send-feature-notifications');
+const {TIMEZONES}=require('../send-scheduled-notifications');
 const root=path.resolve(__dirname,'..');
 
 test('the reviewed humanoid prototype contains six illustrated articles and keeps notification state unchanged',()=>{
@@ -123,7 +124,7 @@ test('bootstrap never backfills pushes; publication changes only eligible langua
  assert.equal(f.read().pending.en,undefined);
  const bytes=fs.readFileSync(f.queuePath,'utf8');publish({root:f.dir,now:after});assert.equal(fs.readFileSync(f.queuePath,'utf8'),bytes);
  assert.equal(selectFeature({features:[f.first]},after).id,'weekly-001');
- assert.equal(featureWindow(before),'2026-11-11');assert.equal(featureWindow(after),'2026-11-18');
+ assert.equal(featureWindow(before,'Asia/Tokyo'),null);assert.equal(featureWindow(after,'Asia/Tokyo'),'2026-11-18');
 });
 
 test('a feature push carries its exact language and feature ID, and retries never duplicate a sent notification',async t=>{
@@ -150,4 +151,79 @@ test('if articles disappear after generation, publication keeps the previous edi
  assert.deepEqual(f.read().pending,{});
  const feed=JSON.parse(fs.readFileSync(path.join(f.dir,'features/jp/index.json')));
  assert.deepEqual(feed.features.map(f=>f.id),['weekly-001']);
+});
+
+test('feature windows allow only local Wednesday 19:00-19:59, including DST and UTC Thursday',()=>{
+ for(const date of ['2026-11-17T10:00:00Z','2026-11-18T09:59:59Z','2026-11-18T11:00:00Z','2026-11-19T10:00:00Z']){
+  assert.equal(featureWindow(new Date(date),'Asia/Tokyo'),null,date);
+ }
+ assert.equal(featureWindow(new Date('2026-11-18T10:00:00Z'),'Asia/Tokyo'),'2026-11-18');
+ assert.equal(featureWindow(new Date('2026-11-18T10:59:59Z'),'Asia/Tokyo'),'2026-11-18');
+ assert.equal(featureWindow(new Date('2026-07-08T23:00:00Z'),'America/New_York'),'2026-07-08');
+ assert.equal(featureWindow(new Date('2026-11-18T23:59:59Z'),'America/New_York'),null);
+ assert.equal(featureWindow(new Date('2026-11-19T00:00:00Z'),'America/New_York'),'2026-11-18');
+ assert.equal(featureWindow(new Date('2026-11-19T01:00:00Z'),'America/New_York'),null);
+ assert.equal(featureWindow(new Date('2025-01-01T10:00:00Z'),'Asia/Tokyo'),'2025-01-01');
+});
+
+test('all 33 feature languages send once at their own Wednesday 19:00 and retain late arrivals',async t=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'feature-timezones-'));
+ t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+ const queuePath=path.join(dir,'queue.json'),ledgerPath=path.join(dir,'ledger.json');
+ const codes=Object.keys(LANGUAGES),staging=fs.existsSync(path.join(root,'staging-environment.js'));
+ fs.writeFileSync(queuePath,JSON.stringify({version:1,pending:Object.fromEntries(codes.map(code=>[code,{
+  items:[{itemId:'weekly-002',titleJP:`Feature ${code}`}],lastSentWindow:null,
+ }]))}));
+ let now;const sent=[];
+ const options={queuePath,ledgerPath,clock:()=>now,
+  secret:JSON.stringify({type:'service_account',project_id:staging?'scpjp-reader-stg':'mock-project'}),
+  getAccessToken:async()=> 'mock',
+  persist:async(q,l)=>{fs.writeFileSync(queuePath,JSON.stringify(q));fs.writeFileSync(ledgerPath,JSON.stringify(l));},
+  sendRequest:async(host,url,method,payload)=>{
+   const message=JSON.parse(payload).message,lang=message.data.language;
+   assert.equal(featureWindow(now,TIMEZONES[lang]),'2026-11-18');
+   assert.equal(message.topic,(staging?'stg_':'')+'weekly_feature_'+lang);
+   assert.equal(message.data.feature_id,'weekly-002');
+   assert.equal(message.data.delivery_id,lang+'/2026-11-18');
+   assert.equal(message.notification.body,`Feature ${lang}`);
+   const record=JSON.parse(fs.readFileSync(ledgerPath)).deliveries.find(r=>r.lang===lang);
+   assert.equal(record.status,'sending');
+   sent.push(lang);return JSON.stringify({name:`projects/mock/messages/${sent.length}`});
+  }};
+ // Twice per hour verifies both local scheduling and duplicate suppression within 19:00-19:59.
+ for(let minute=0;minute<48*60;minute+=30){now=new Date(Date.UTC(2026,10,18,0,minute));await sendFeatures(options);}
+ assert.deepEqual(sent.slice().sort(),codes.slice().sort());
+ const queue=JSON.parse(fs.readFileSync(queuePath));
+ assert(codes.every(code=>queue.pending[code].lastSentWindow==='2026-11-18'));
+ for(const code of codes)queue.pending[code].items=[{itemId:'weekly-003',titleJP:'Later feature'}];
+ fs.writeFileSync(queuePath,JSON.stringify(queue));
+ now=new Date('2026-11-20T10:00:00Z');
+ await sendFeatures({...options,getAccessToken:async()=>assert.fail('No late authentication'),
+  sendRequest:async()=>assert.fail('No late send')});
+ assert(codes.every(code=>JSON.parse(fs.readFileSync(queuePath)).pending[code].items.length===1));
+});
+
+test('feature reservation crossing 20:00 defers safely without calling FCM',async t=>{
+ const f=fixture(t);publish({root:f.dir,now:new Date('2026-11-17T10:00:00Z'),bootstrap:true});
+ publish({root:f.dir,now:new Date('2026-11-18T10:00:00Z')});
+ const staging=fs.existsSync(path.join(root,'staging-environment.js'));
+ let now=new Date('2026-11-18T10:59:59Z');
+ await sendFeatures({queuePath:f.queuePath,ledgerPath:f.ledgerPath,clock:()=>now,
+  secret:JSON.stringify({type:'service_account',project_id:staging?'scpjp-reader-stg':'mock-project'}),
+  getAccessToken:async()=> 'mock',sendRequest:async()=>assert.fail('No send at 20:00'),
+  persist:async(q,l)=>{fs.writeFileSync(f.queuePath,JSON.stringify(q));fs.writeFileSync(f.ledgerPath,JSON.stringify(l));now=new Date('2026-11-18T11:00:00Z');},
+ });
+ assert.equal(JSON.parse(fs.readFileSync(f.ledgerPath)).deliveries[0].status,'retry');
+ assert.equal(f.read().pending.jp.items[0].itemId,'weekly-002');
+});
+
+test('feature workflow polls across local Wednesdays and isolates staging credentials',()=>{
+ const workflow=fs.readFileSync(path.join(root,'.github/workflows/weekly-features.yml'),'utf8');
+ assert.match(workflow,/cron: '2-57\/5 \* \* \* 3,4'/);
+ if(fs.existsSync(path.join(root,'staging-environment.js'))){
+  assert.match(workflow,/environment: stg/);
+  assert.match(workflow,/github.repository == 'hirotakaakita\/scpjpReaderActions-stg'/);
+  assert.match(workflow,/secrets.STG_FIREBASE_SERVICE_ACCOUNT_JSON/);
+  assert.doesNotMatch(workflow,/secrets.FIREBASE_SERVICE_ACCOUNT_JSON/);
+ }
 });

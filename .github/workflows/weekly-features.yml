@@ -1,8 +1,9 @@
 name: Weekly Features
 on:
   schedule:
-    # Wednesday 19:00 JST. Follow-up runs recover pre-send failures without duplicates.
-    - cron: '0,15,30,45 10 * * 3'
+    # Publish from Wednesday 19:00 JST; notify each language at local Wednesday 19:00-19:59.
+    # UTC Thursday covers Wednesday evening in the Americas. Avoid the busy top of the hour.
+    - cron: '2-57/5 * * * 3,4'
   workflow_dispatch:
     inputs:
       recovery_delivery:
