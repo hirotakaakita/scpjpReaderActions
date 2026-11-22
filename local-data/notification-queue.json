@@ -2,27 +2,373 @@
   "version": 1,
   "pending": {
     "jp": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-3517",
+          "titleJP": "おぞましき山"
+        },
+        {
+          "itemId": "scp-series-4886",
+          "titleJP": "警官と田舎"
+        },
+        {
+          "itemId": "scp-series-4957",
+          "titleJP": "冷たく、青くなって"
+        },
+        {
+          "itemId": "scp-series-5023",
+          "titleJP": "根源的な欲求"
+        },
+        {
+          "itemId": "scp-series-5070",
+          "titleJP": "人の（唯一の）親友"
+        },
+        {
+          "itemId": "scp-series-6789",
+          "titleJP": "還れ。還れ。還れ。"
+        },
+        {
+          "itemId": "scp-series-9378",
+          "titleJP": "ベイビーブルー"
+        },
+        {
+          "itemId": "scp-series-9541",
+          "titleJP": "トイストーリー"
+        },
+        {
+          "itemId": "joke-scps-041",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-jp-2850",
+          "titleJP": "無期脱走"
+        },
+        {
+          "itemId": "scp-series-jp-3610",
+          "titleJP": "ときどき、ときとき"
+        },
+        {
+          "itemId": "scp-series-jp-3658",
+          "titleJP": "生存能力の高いフラグ一級建築士"
+        },
+        {
+          "itemId": "scp-series-jp-4143",
+          "titleJP": "ちょう-い【桃意】〘名〙〔「弔意」の転〕①人の死をいたみ、弔う心。②転じて、子の慶事を祝福する心。"
+        },
+        {
+          "itemId": "scp-series-jp-4210",
+          "titleJP": "えがお まみれる おもいでアルバム"
+        },
+        {
+          "itemId": "scp-series-jp-4273",
+          "titleJP": "生命の鎖"
+        },
+        {
+          "itemId": "scp-series-jp-4462",
+          "titleJP": "あなたの耳の中にいるキモい虫 〜コウモリの巻〜"
+        },
+        {
+          "itemId": "scp-series-jp-4705",
+          "titleJP": "爪は能を貫く"
+        },
+        {
+          "itemId": "scp-series-jp-4707",
+          "titleJP": "ナノアダムとナノイブ"
+        },
+        {
+          "itemId": "scp-series-jp-4898",
+          "titleJP": "「ポータブル神聖物質処理装置」って知ってる？"
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "en": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-5490",
+          "titleJP": "Far From The Black Ocean"
+        },
+        {
+          "itemId": "scp-series-6184",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-6197",
+          "titleJP": "Guy on Ice"
+        },
+        {
+          "itemId": "scp-series-8134",
+          "titleJP": "This Isn’t What I Ordered"
+        },
+        {
+          "itemId": "scp-series-8758",
+          "titleJP": "The Cursed Trumpet"
+        },
+        {
+          "itemId": "scp-series-9283",
+          "titleJP": "A Game Just For You"
+        },
+        {
+          "itemId": "scp-series-9304",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9354",
+          "titleJP": "Must be a rat"
+        },
+        {
+          "itemId": "scp-series-9359",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9368",
+          "titleJP": "Do Not Feed Wild Ducks"
+        },
+        {
+          "itemId": "scp-series-9374",
+          "titleJP": "Dimensional malachite"
+        },
+        {
+          "itemId": "scp-series-9381",
+          "titleJP": "Carnivore Diet."
+        },
+        {
+          "itemId": "scp-series-9382",
+          "titleJP": "Chess Ipsa Loquitur"
+        },
+        {
+          "itemId": "scp-series-9397",
+          "titleJP": "Shpingle Donnelly and the Certainly Remarkable Boxing Day"
+        },
+        {
+          "itemId": "scp-series-9428",
+          "titleJP": "The Endless Pattern"
+        },
+        {
+          "itemId": "scp-series-9431",
+          "titleJP": "Ennuis High"
+        },
+        {
+          "itemId": "scp-series-9437",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9438",
+          "titleJP": "Uranium Fever"
+        },
+        {
+          "itemId": "scp-series-9458",
+          "titleJP": "Site-21 is Not Real"
+        },
+        {
+          "itemId": "scp-series-9467",
+          "titleJP": "[ACCESS DENIED]"
+        },
+        {
+          "itemId": "scp-series-9516",
+          "titleJP": "Loser Man and His Drawing"
+        },
+        {
+          "itemId": "scp-series-9539",
+          "titleJP": "The Joker and the Thief"
+        },
+        {
+          "itemId": "scp-series-9562",
+          "titleJP": "The Girl in White"
+        },
+        {
+          "itemId": "scp-series-9569",
+          "titleJP": "Minecraft Mayhem"
+        },
+        {
+          "itemId": "scp-series-9619",
+          "titleJP": "Zara the Space Princess"
+        },
+        {
+          "itemId": "scp-series-9632",
+          "titleJP": "THE PILLOW"
+        },
+        {
+          "itemId": "scp-series-9646",
+          "titleJP": "Dead End"
+        },
+        {
+          "itemId": "scp-series-9662",
+          "titleJP": "As By Coincidence Department Protocol"
+        },
+        {
+          "itemId": "scp-series-9772",
+          "titleJP": "See no evil, hear no evil, speak no evil."
+        },
+        {
+          "itemId": "scp-series-9796",
+          "titleJP": "The Dead Ape that Once Wore Clothes"
+        },
+        {
+          "itemId": "scp-series-9852",
+          "titleJP": "Sine Luce"
+        },
+        {
+          "itemId": "scp-series-9871",
+          "titleJP": "Alas, my blood, it was always the Hanged King's."
+        },
+        {
+          "itemId": "joke-scps-9439",
+          "titleJP": "Explosive Fake Weed"
+        },
+        {
+          "itemId": "scp-ex-7384",
+          "titleJP": "Unremarkable Re:Mark"
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "cn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-8134",
+          "titleJP": "Indentured Servitude"
+        },
+        {
+          "itemId": "scp-series-9145",
+          "titleJP": "Wondertainment博士的存在主义蜡笔套装！®"
+        },
+        {
+          "itemId": "scp-series-9514",
+          "titleJP": "[拒绝访问]"
+        },
+        {
+          "itemId": "scp-series-9646",
+          "titleJP": "[拒绝访问]"
+        },
+        {
+          "itemId": "scp-series-9740",
+          "titleJP": "相对重要性清单"
+        },
+        {
+          "itemId": "scp-series-cn-4147",
+          "titleJP": "性疾病治愈器？！"
+        },
+        {
+          "itemId": "scp-series-cn-4176",
+          "titleJP": "找到我！"
+        },
+        {
+          "itemId": "scp-series-cn-4182",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4214",
+          "titleJP": "一块欠扁的石头"
+        },
+        {
+          "itemId": "scp-series-cn-4216",
+          "titleJP": "🍾"
+        },
+        {
+          "itemId": "scp-series-cn-4278",
+          "titleJP": "忠诚非人生物项目忠诚永恒不灭"
+        },
+        {
+          "itemId": "scp-series-cn-4289",
+          "titleJP": "爱的果实"
+        },
+        {
+          "itemId": "scp-series-cn-4394",
+          "titleJP": "[禁止访问]"
+        },
+        {
+          "itemId": "scp-series-cn-4468",
+          "titleJP": "你身上的老婆！"
+        },
+        {
+          "itemId": "scp-series-cn-4485",
+          "titleJP": "观测实验"
+        },
+        {
+          "itemId": "scp-series-cn-4524",
+          "titleJP": "我东西又放哪儿了？"
+        },
+        {
+          "itemId": "scp-series-cn-4731",
+          "titleJP": "合理解释"
+        },
+        {
+          "itemId": "scp-series-cn-4771",
+          "titleJP": "他"
+        },
+        {
+          "itemId": "scp-series-cn-4783",
+          "titleJP": "你这不坑人吗？"
+        },
+        {
+          "itemId": "scp-series-cn-4792",
+          "titleJP": "天上鱼，湖中人"
+        },
+        {
+          "itemId": "scp-series-cn-4795",
+          "titleJP": "环形车站"
+        },
+        {
+          "itemId": "scp-series-cn-4835",
+          "titleJP": ""
+        },
+        {
+          "itemId": "scp-series-cn-4866",
+          "titleJP": "锈蚀病毒"
+        },
+        {
+          "itemId": "scp-series-cn-4872",
+          "titleJP": "家"
+        },
+        {
+          "itemId": "scp-series-cn-4887",
+          "titleJP": "伪典编年史：落选的国民"
+        },
+        {
+          "itemId": "scp-series-cn-4965",
+          "titleJP": "让我开花"
+        },
+        {
+          "itemId": "joke-scps-cn-199",
+          "titleJP": "柠檬，真的很酸"
+        },
+        {
+          "itemId": "joke-scps-cn-1314",
+          "titleJP": "这个项目太烦人了"
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "cs": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-167",
+          "titleJP": "Nekonečný labyrint"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "de": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-de-433",
+          "titleJP": "Ich sehe dich"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "es": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-5219",
+          "titleJP": "Un Cadáver Completamente Aleatorio"
+        },
+        {
+          "itemId": "scp-series-5507",
+          "titleJP": "Esta Ranura Ya Está Ocupada"
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "fr": {
@@ -34,23 +380,96 @@
       "lastSentWindow": null
     },
     "it": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-it-273",
+          "titleJP": "\"Cave Idus Martias\""
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "ko": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-2467",
+          "titleJP": "부분보다 거대한 합"
+        },
+        {
+          "itemId": "scp-series-4146",
+          "titleJP": "검정에 한 파운드의 살점"
+        },
+        {
+          "itemId": "scp-series-9512",
+          "titleJP": "조용하지 않은 죽음, 혹은 번뇌극대화"
+        },
+        {
+          "itemId": "scp-series-9757",
+          "titleJP": "오직 좋은 날만"
+        },
+        {
+          "itemId": "scp-series-ko-1212",
+          "titleJP": "난 다 알면서도 ██어요."
+        },
+        {
+          "itemId": "scp-series-ko-1540",
+          "titleJP": "[무삭제판] 안성탕면 양식 과정"
+        },
+        {
+          "itemId": "scp-series-ko-1768",
+          "titleJP": "펭귄들의 도시, 탈린"
+        },
+        {
+          "itemId": "scp-series-ko-1794",
+          "titleJP": "삼각김밥과 오니기리 간 김밥 에너지 준위 갈라짐"
+        },
+        {
+          "itemId": "scp-series-ko-1924",
+          "titleJP": "차원에 대항하는 가장 좋은 방법은 이쪽도 차원을 전개하는 것이다"
+        },
+        {
+          "itemId": "scp-series-ko-1933",
+          "titleJP": "[접근 거부]"
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "pl": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-6547",
+          "titleJP": "Światy wewnątrz światów wewnątrz światów…"
+        },
+        {
+          "itemId": "scp-series-9787",
+          "titleJP": "200 000 os w hondzie civic z 2014"
+        },
+        {
+          "itemId": "scp-series-pl-256",
+          "titleJP": "Nieskończona Rekursja"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "pt": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-5994",
+          "titleJP": "Você Não Pode Superar Porcos com Porcos"
+        },
+        {
+          "itemId": "scp-series-6979",
+          "titleJP": "Desfile Noturno de um Único Demônio"
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "th": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-th-172",
+          "titleJP": ""
+        }
+      ],
       "lastSentWindow": "2026-11-15"
     },
     "ua": {
@@ -58,11 +477,61 @@
       "lastSentWindow": "2026-11-08"
     },
     "vn": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-vn-119",
+          "titleJP": "Leche en polvo"
+        },
+        {
+          "itemId": "scp-series-vn-129",
+          "titleJP": "căn phòng mã B13."
+        },
+        {
+          "itemId": "scp-series-vn-145",
+          "titleJP": "Câu Chuyện Cúc Cu"
+        },
+        {
+          "itemId": "scp-series-vn-155",
+          "titleJP": "Mộ Xum Xuê"
+        },
+        {
+          "itemId": "scp-series-vn-179",
+          "titleJP": "Tình Mẹ Vĩnh Cửu"
+        },
+        {
+          "itemId": "scp-series-vn-187",
+          "titleJP": "Đất Lành Chim Đậu"
+        },
+        {
+          "itemId": "scp-series-vn-189",
+          "titleJP": "Hiệp Sĩ Bóng Tối"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "zh-tr": {
-      "items": [],
+      "items": [
+        {
+          "itemId": "scp-series-zh-348",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-370",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-746",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-834",
+          "titleJP": "[禁止訪問]"
+        },
+        {
+          "itemId": "scp-series-zh-963",
+          "titleJP": "[禁止訪問]"
+        }
+      ],
       "lastSentWindow": "2026-11-08"
     },
     "ru": {
@@ -134,5 +603,5 @@
       "lastSentWindow": null
     }
   },
-  "updatedAt": "2026-11-18T03:53:51.480Z"
+  "updatedAt": "2026-11-22T07:27:50.886Z"
 }
