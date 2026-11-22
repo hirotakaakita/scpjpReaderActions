@@ -4,6 +4,11 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const read = name => fs.readFileSync(path.join(__dirname, '../.github/workflows', name), 'utf8').replace(/\r/g, '');
+
+test('catalog refresh runs Friday and notification polling covers Saturday evening in every timezone', () => {
+  assert.match(read('scp-crawler.yml'), /cron: '0 0 \* \* 5'/);
+  assert.match(read('scheduled-notifications.yml'), /cron: '2-57\/5 \* \* \* 6,0'/);
+});
 function job(workflow, name) {
   const start = workflow.indexOf(`\n  ${name}:\n`);
   assert.notEqual(start, -1, `Missing job ${name}`);

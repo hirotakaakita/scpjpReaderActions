@@ -40,18 +40,18 @@ function localParts(now, timeZone) {
 
 function deliveryWindow(now, timeZone) {
   const parts = localParts(now, timeZone);
-  // Catch up on subsequent evenings, without sending overnight or waiting a week.
-  if (Number(parts.hour) < 20) return null;
+  // Send only on local Saturday at 19:00-19:59; never catch up late at night.
+  if (parts.weekday !== 'Sat' || Number(parts.hour) !== 19) return null;
   const date = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day)));
-  date.setUTCDate(date.getUTCDate() - date.getUTCDay());
-  return date.toISOString().slice(0, 10); // Stable local Sunday key for this week.
+  return date.toISOString().slice(0, 10); // Local Saturday is the delivery key.
 }
 
 async function main({
   queuePath = QUEUE_PATH,
   ledgerPath = path.join(path.dirname(queuePath), 'notification-deliveries.json'),
   secret = process.env.FIREBASE_SERVICE_ACCOUNT_JSON,
-  now = new Date(),
+  now,
+  clock = () => new Date(),
   getAccessToken = accessToken,
   sendRequest = request,
   persist = gitPersistence(queuePath, ledgerPath),
@@ -60,6 +60,8 @@ async function main({
   dataBuilder = record => ({ delivery_id: record.id }),
   topicPrefix = 'new_scp_',
 } = {}) {
+  const currentTime = now ? () => now : clock;
+  now = currentTime();
   if (!fs.existsSync(queuePath)) { console.log('通知キュー未生成のため通知をスキップします'); return; }
   const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
   const ledger = readLedger(ledgerPath);
@@ -80,6 +82,7 @@ async function main({
   if (due.length) {
     const account = JSON.parse(secret); const token = await getAccessToken(account);
     for (const { lang, state, window } of due) {
+      if (windowFor(currentTime(), TIMEZONES[lang]) !== window) continue;
       // A manually authorized retry retains its original item snapshot/window.
       let record = ledger.deliveries.find(item => item.lang === lang && item.status === 'retry');
       if (!record) {
@@ -89,6 +92,13 @@ async function main({
       }
       record.status = 'sending'; record.attempts++; record.startedAt = now.toISOString();
       await persist(queue, ledger); // No FCM call until this push succeeds.
+      // Check again after the durable reservation: Git/network delays must not
+      // carry a 19:59 send into 20:00. No FCM call has happened, so retry is safe.
+      if (windowFor(currentTime(), TIMEZONES[lang]) !== window) {
+        record.status = 'retry';
+        await persist(queue, ledger);
+        continue;
+      }
       try {
         const payload = JSON.stringify({ message: { topic: `${topicPrefix}${lang}`,
           data: dataBuilder(record),

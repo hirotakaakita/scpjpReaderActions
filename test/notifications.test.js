@@ -10,7 +10,7 @@ const { recover } = require('../recover-notification');
 
 const repository = path.resolve(__dirname, '..');
 const queueRelativePath = 'local-data/notification-queue.json';
-const sundayEvening = new Date('2026-10-04T11:00:00Z'); // Sunday 20:00 in Japan.
+const saturdayEvening = new Date('2026-10-03T10:00:00Z'); // Saturday 19:00 in Japan.
 const secret = JSON.stringify({ project_id: 'test-project' });
 
 function fixture(t) {
@@ -51,7 +51,7 @@ function fixture(t) {
   const ledgerPath = path.join(cwd, 'local-data/notification-deliveries.json');
   const persist = gitPersistence(queuePath, ledgerPath, cwd);
   const remoteLedger = () => JSON.parse(git('--git-dir', remote, 'show', 'master:local-data/notification-deliveries.json'));
-  const options = { queuePath, ledgerPath, persist, secret, now: sundayEvening,
+  const options = { queuePath, ledgerPath, persist, secret, now: saturdayEvening,
     getAccessToken: async () => 'test-token', sendRequest: async () => JSON.stringify({ name: 'projects/test/messages/1' }) };
   const seed = (langs = ['jp']) => {
     fs.writeFileSync(queuePath, JSON.stringify({ version: 1, pending: Object.fromEntries(langs.map(lang => [lang, {
@@ -90,7 +90,7 @@ test('enabling extra branches preserves history and queues only articles added a
   }
   f.seed();
   const before = f.readQueue();
-  before.pending.jp.lastSentWindow = '2026-10-04';
+  before.pending.jp.lastSentWindow = '2026-10-03';
   fs.writeFileSync(f.queuePath, JSON.stringify(before));
   fs.writeFileSync(f.ledgerPath, JSON.stringify({ version: 1, deliveries: [] }));
   const ledger = fs.readFileSync(f.ledgerPath, 'utf8');
@@ -131,7 +131,7 @@ test('catalog diff -> remote reservation -> FCM -> remote receipt; rerun never r
     sends++;
     assert.equal(f.remoteLedger().deliveries[0].status, 'sending');
     assert.equal(JSON.parse(payload).message.topic, 'new_scp_jp');
-    assert.equal(JSON.parse(payload).message.data.delivery_id, 'jp/2026-10-04');
+    assert.equal(JSON.parse(payload).message.data.delivery_id, 'jp/2026-10-03');
     return JSON.stringify({ name: 'projects/test/messages/accepted' });
   } });
   assert.equal(sends, 1);
@@ -143,16 +143,18 @@ test('catalog diff -> remote reservation -> FCM -> remote receipt; rerun never r
 
 test('FCM failure between successful languages retains individual durable outcomes', async t => {
   const f = fixture(t); f.seed(['jp', 'ko', 'cn']);
-  // Japan/Korea 21:00 and China 20:00.
-  const now = new Date('2026-10-04T12:00:00Z');
+  // Japan/Korea reach 19:00 one hour before China.
+  const now = saturdayEvening;
   const messages = [];
-  await assert.rejects(sendNotifications({ ...f.options, now, sendRequest: async (h, p, m, payload) => {
+  const sendRequest = async (h, p, m, payload) => {
     const message = JSON.parse(payload).message;
     messages.push(message);
     const lang = message.topic.split('_').at(-1);
     if (lang === 'ko') throw new Error('Connection lost');
     return JSON.stringify({ name: 'projects/test/messages/ok' });
-  } }), /ko.*unknown/);
+  };
+  await assert.rejects(sendNotifications({ ...f.options, now, sendRequest }), /ko.*unknown/);
+  await assert.rejects(sendNotifications({ ...f.options, now: new Date('2026-10-03T11:00:00Z'), sendRequest }), /ko.*unresolved/);
   for (const message of messages) {
     const lang = message.topic.split('_').at(-1);
     const expected = { jp: '新着SCPのお知らせ', ko: '새 SCP 문서', cn: 'SCP新文章通知' };
@@ -177,7 +179,7 @@ test('receipt push failure blocks resend from a fresh checkout, even next week',
   } }), /git push/);
   assert.equal(f.remoteLedger().deliveries[0].status, 'sending');
   assert.equal(readLedger(f.ledgerPath).deliveries[0].status, 'sent');
-  await assert.rejects(sendNotifications({ ...f.restart(), now: new Date('2026-10-11T11:00:00Z'),
+  await assert.rejects(sendNotifications({ ...f.restart(), now: new Date('2026-10-10T10:00:00Z'),
     sendRequest: noNetwork, getAccessToken: noNetwork }), /unresolved/);
 });
 
@@ -188,7 +190,7 @@ test('interruption after reservation blocks sending; explicit retry preserves th
   } }), /Runner stopped/);
   const next = f.restart();
   await assert.rejects(sendNotifications({ ...next, sendRequest: noNetwork }), /unresolved/);
-  await recover({ ...next, id: 'jp/2026-10-04', action: 'retry', reason: 'Confirmed interruption before FCM call' });
+  await recover({ ...next, id: 'jp/2026-10-03', action: 'retry', reason: 'Confirmed interruption before FCM call' });
   await sendNotifications(next);
   assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
   assert.equal(f.remoteLedger().deliveries[0].attempts, 2);
@@ -198,13 +200,13 @@ test('interruption after reservation blocks sending; explicit retry preserves th
 test('manual sent recovery removes only delivered items and never calls FCM', async t => {
   const f = fixture(t); f.seed();
   await assert.rejects(sendNotifications({ ...f.options, sendRequest: async () => { throw new Error('Timeout'); } }), /unknown/);
-  await assert.rejects(recover({ ...f.options, id: 'jp/2026-10-04', action: 'sent', reason: '' }), /reason/);
+  await assert.rejects(recover({ ...f.options, id: 'jp/2026-10-03', action: 'sent', reason: '' }), /reason/);
   const q = f.readQueue(); q.pending.jp.items.push({ itemId: 'scp-series-3', titleJP: 'Later arrival' });
   fs.writeFileSync(f.queuePath, JSON.stringify(q));
-  await recover({ ...f.options, id: 'jp/2026-10-04', action: 'sent', reason: 'FCM acceptance ID confirmed in logs' });
+  await recover({ ...f.options, id: 'jp/2026-10-03', action: 'sent', reason: 'FCM acceptance ID confirmed in logs' });
   assert.deepEqual(f.readQueue().pending.jp.items.map(i => i.itemId), ['scp-series-3']);
   await sendNotifications({ ...f.options, sendRequest: noNetwork, getAccessToken: noNetwork });
-  await assert.rejects(recover({ ...f.options, id: 'jp/2026-10-04', action: 'retry', reason: 'Do not retry sent records' }), /unresolved/);
+  await assert.rejects(recover({ ...f.options, id: 'jp/2026-10-03', action: 'retry', reason: 'Do not retry sent records' }), /unresolved/);
 });
 
 test('missing credentials and outside schedule leave pending items unchanged', async t => {
@@ -229,7 +231,7 @@ test('sent ledger reconciles a stale queue without resending or dropping new arr
   f.git('add', 'local-data'); f.git('commit', '-m', 'Simulate stale queue'); f.git('push', 'origin', 'master');
   await sendNotifications({ ...f.options, sendRequest: noNetwork, getAccessToken: noNetwork });
   assert.deepEqual(f.readQueue().pending.jp.items.map(item => item.itemId), ['scp-series-3']);
-  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-04');
+  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-03');
 });
 
 test('stale checkout cannot overwrite a competing delivery reservation', async t => {
@@ -240,30 +242,70 @@ test('stale checkout cannot overwrite a competing delivery reservation', async t
   assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
 });
 
-test('missed Sunday delivery catches up Monday evening once for the weekly window', async t => {
+test('missed Saturday delivery waits until next Saturday and keeps pending articles', async t => {
   const f = fixture(t); f.seed();
-  await sendNotifications({ ...f.options, now: new Date('2026-10-05T11:00:00Z') });
-  assert.equal(f.remoteLedger().deliveries[0].window, '2026-10-04');
-  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-04');
-  const queue = f.readQueue();
-  queue.pending.jp.items.push({ itemId: 'scp-series-3', titleJP: 'Later arrival' });
-  fs.writeFileSync(f.queuePath, JSON.stringify(queue));
-  f.git('add', 'local-data'); f.git('commit', '-m', 'Later arrival'); f.git('push', 'origin', 'master');
-  await sendNotifications({ ...f.options, now: new Date('2026-10-06T11:00:00Z'), sendRequest: noNetwork });
-  assert.equal(f.readQueue().pending.jp.items.length, 1);
-  await sendNotifications({ ...f.options, now: new Date('2026-10-11T11:00:00Z') });
-  assert.deepEqual(f.remoteLedger().deliveries.map(r => r.window), ['2026-10-04', '2026-10-11']);
+  const before = fs.readFileSync(f.queuePath, 'utf8');
+  for (const date of ['2026-10-03T11:00:00Z', '2026-10-04T10:00:00Z', '2026-10-05T10:00:00Z']) {
+    await sendNotifications({ ...f.options, now: new Date(date), sendRequest: noNetwork, getAccessToken: noNetwork });
+  }
+  assert.equal(fs.readFileSync(f.queuePath, 'utf8'), before);
+  await sendNotifications({ ...f.options, now: new Date('2026-10-10T10:00:00Z') });
+  assert.equal(f.remoteLedger().deliveries[0].window, '2026-10-10');
+  assert.equal(f.readQueue().pending.jp.items.length, 0);
 });
 
-test('catch-up windows use local dates and remain closed before 20:00', () => {
-  assert.equal(deliveryWindow(new Date('2026-10-04T10:59:59Z'), 'Asia/Tokyo'), null);
-  assert.equal(deliveryWindow(new Date('2026-10-04T11:00:00Z'), 'Asia/Tokyo'), '2026-10-04');
-  assert.equal(deliveryWindow(new Date('2026-10-04T15:00:00Z'), 'Asia/Tokyo'), null);
-  assert.equal(deliveryWindow(new Date('2026-10-10T14:59:59Z'), 'Asia/Tokyo'), '2026-10-04');
-  // New York switches to standard time on November 1, 2026.
-  assert.equal(deliveryWindow(new Date('2026-11-02T00:59:59Z'), 'America/New_York'), null);
-  assert.equal(deliveryWindow(new Date('2026-11-02T01:00:00Z'), 'America/New_York'), '2026-11-01');
-  assert.equal(deliveryWindow(new Date('2026-01-01T11:00:00Z'), 'Asia/Tokyo'), '2025-12-28');
+test('Saturday 19:00 window respects local dates, DST, and the year boundary', () => {
+  for (const date of ['2026-10-02T10:00:00Z', '2026-10-03T09:59:59Z',
+    '2026-10-03T11:00:00Z', '2026-10-04T10:00:00Z', '2026-10-05T10:00:00Z']) {
+    assert.equal(deliveryWindow(new Date(date), 'Asia/Tokyo'), null, date);
+  }
+  assert.equal(deliveryWindow(new Date('2026-10-03T10:00:00Z'), 'Asia/Tokyo'), '2026-10-03');
+  assert.equal(deliveryWindow(new Date('2026-10-03T10:59:59Z'), 'Asia/Tokyo'), '2026-10-03');
+  // New York is still Saturday when UTC is already Sunday, in both DST and standard time.
+  assert.equal(deliveryWindow(new Date('2026-10-31T23:00:00Z'), 'America/New_York'), '2026-10-31');
+  assert.equal(deliveryWindow(new Date('2026-11-07T23:59:59Z'), 'America/New_York'), null);
+  assert.equal(deliveryWindow(new Date('2026-11-08T00:00:00Z'), 'America/New_York'), '2026-11-07');
+  assert.equal(deliveryWindow(new Date('2026-11-08T01:00:00Z'), 'America/New_York'), null);
+  assert.equal(deliveryWindow(new Date('2028-01-01T10:00:00Z'), 'Asia/Tokyo'), '2028-01-01');
+});
+
+test('authentication delay past 20:00 leaves articles queued without a reservation', async t => {
+  const f = fixture(t); f.seed();
+  let now = new Date('2026-10-03T10:59:59Z');
+  await sendNotifications({ ...f.options, now: undefined, clock: () => now,
+    getAccessToken: async () => { now = new Date('2026-10-03T11:00:00Z'); return 'token'; },
+    sendRequest: noNetwork });
+  assert.equal(readLedger(f.ledgerPath).deliveries.length, 0);
+  assert.equal(f.readQueue().pending.jp.items.length, 1);
+});
+
+test('reservation delay past 20:00 safely defers sending until next Saturday', async t => {
+  const f = fixture(t); f.seed();
+  let now = new Date('2026-10-03T10:59:59Z');
+  await sendNotifications({ ...f.options, now: undefined, clock: () => now,
+    persist: async (queue, ledger) => {
+      await f.options.persist(queue, ledger);
+      now = new Date('2026-10-03T11:00:00Z');
+    }, sendRequest: noNetwork });
+  assert.equal(f.remoteLedger().deliveries[0].status, 'retry');
+  assert.equal(f.readQueue().pending.jp.items.length, 1);
+  await sendNotifications({ ...f.options, now: new Date('2026-10-10T10:00:00Z') });
+  assert.equal(f.remoteLedger().deliveries[0].status, 'sent');
+  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-10');
+});
+
+test('previous Sunday delivery keys remain valid after switching to Saturday', async t => {
+  const f = fixture(t); f.seed();
+  const queue = f.readQueue();
+  queue.pending.jp.lastSentWindow = '2026-09-27';
+  fs.writeFileSync(f.queuePath, JSON.stringify(queue));
+  fs.writeFileSync(f.ledgerPath, JSON.stringify({ version: 1, deliveries: [{
+    id: 'jp/2026-09-27', lang: 'jp', window: '2026-09-27', status: 'sent',
+    items: [{ itemId: 'scp-series-1', titleJP: 'Previously sent' }],
+  }] }));
+  f.git('add', 'local-data'); f.git('commit', '-m', 'Previous Sunday history'); f.git('push', 'origin', 'master');
+  await sendNotifications(f.options);
+  assert.deepEqual(f.remoteLedger().deliveries.map(row => row.id), ['jp/2026-09-27', 'jp/2026-10-03']);
 });
 
 test('publisher starting after a send preserves the sent ledger and appends only new arrivals', async t => {
@@ -281,6 +323,6 @@ test('publisher starting after a send preserves the sent ledger and appends only
   execFileSync(process.execPath, ['prepare-notification-queue.js'], { cwd });
   const queue = JSON.parse(fs.readFileSync(publisher.queuePath, 'utf8'));
   assert.deepEqual(queue.pending.jp.items.map(item => item.itemId), ['scp-series-3']);
-  assert.equal(queue.pending.jp.lastSentWindow, '2026-10-04');
+  assert.equal(queue.pending.jp.lastSentWindow, '2026-10-03');
   assert.equal(fs.readFileSync(publisher.ledgerPath, 'utf8'), beforeLedger);
 });

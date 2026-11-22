@@ -56,15 +56,15 @@ test('all 33 branches deliver once per week to their environment topic after a d
       return JSON.stringify({ name: `projects/mock/messages/${sent.length}` });
     },
   };
-  // Midweek avoids changing the local Sunday key across the UTC day.
-  for (let hour = 0; hour < 24; hour++) {
-    await main({ ...options, now: new Date(Date.UTC(2026, 10, 17, hour)) });
+  // Cover Saturday evening in all timezones, including the UTC Sunday Americas.
+  for (let hour = 0; hour < 48; hour++) {
+    await main({ ...options, now: new Date(Date.UTC(2026, 10, 14, hour)) });
   }
   assert.deepEqual(sent.slice().sort(), codes.slice().sort());
   const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
-  assert.ok(codes.every(code => queue.pending[code].lastSentWindow === '2026-11-15'));
+  assert.ok(codes.every(code => queue.pending[code].lastSentWindow === '2026-11-14'));
   assert.ok(codes.every(code => queue.pending[code].items.length === 0));
-  // Later arrivals in the same week must wait for the next weekly window.
+  // Later arrivals outside Saturday 19:00 must wait for the next weekly window.
   for (const code of codes) queue.pending[code].items.push({ itemId: 'scp-series-174', titleJP: 'Later' });
   fs.writeFileSync(queuePath, JSON.stringify(queue));
   for (let hour = 0; hour < 24; hour++) {

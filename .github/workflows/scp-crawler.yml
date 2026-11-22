@@ -2,8 +2,8 @@ name: SCP Crawler
 
 on:
   schedule:
-    # 毎週日曜日午前0時（UTC）に実行（日本時間午前9時）
-    - cron: '0 0 * * 0'
+    # 毎週金曜日午前0時（UTC）に実行（日本時間午前9時）
+    - cron: '0 0 * * 5'
   workflow_dispatch:
     inputs:
       force_refresh_scp_details:
