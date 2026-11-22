@@ -175,10 +175,13 @@ jobs:
 
       - name: Generate combined compatible mobile catalogs
         run: |
-          node --test test/mobile-catalog.test.js
+          node --test test/mobile-catalog.test.js test/catalog-arrivals.test.js
           node mobile-catalog.js
 
       # Compare against the latest master acquired after entering the publish lock.
+      - name: Test notification queue preparation
+        run: node --test test/notifications.test.js
+
       - name: Prepare notification queue
         run: node prepare-notification-queue.js
 

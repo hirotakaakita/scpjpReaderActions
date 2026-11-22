@@ -4,6 +4,8 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
+const zlib = require('node:zlib');
+const crypto = require('node:crypto');
 const { main: sendNotifications, deliveryWindow } = require('../send-scheduled-notifications');
 const { readLedger, gitPersistence } = require('../notification-state');
 const { recover } = require('../recover-notification');
@@ -30,7 +32,7 @@ function fixture(t) {
   git('config', 'user.email', 'test@example.invalid');
   git('config', 'commit.gpgsign', 'false');
   git('config', 'core.autocrlf', 'false');
-  for (const file of ['prepare-notification-queue.js', 'languages.js', 'additional-sites.js', 'additional-sites.json']) {
+  for (const file of ['prepare-notification-queue.js', 'catalog-arrivals.js', 'languages.js', 'additional-sites.js', 'additional-sites.json']) {
     fs.copyFileSync(path.join(repository, file), path.join(cwd, file));
   }
   const catalogPath = path.join(cwd, 'local-data/jp/scp-data.json');
@@ -77,6 +79,50 @@ function fixture(t) {
 function noNetwork() {
   assert.fail('No authentication or FCM request should be made');
 }
+
+function writeMobile(cwd, language, data) {
+  const directory = path.join(cwd, 'local-data/mobile-v3', language);
+  fs.mkdirSync(directory, { recursive: true });
+  const timestamp = '2026-11-01T00:00:00Z';
+  const payload = zlib.gzipSync(JSON.stringify({ timestamp, totalCount: data.length, data }));
+  const sha256 = crypto.createHash('sha256').update(payload).digest('hex');
+  const fileName = `catalog-${sha256}.json.gz`;
+  fs.writeFileSync(path.join(directory, fileName), payload);
+  fs.writeFileSync(path.join(directory, 'manifest.json'), JSON.stringify({ timestamp, fileName, sha256 }));
+}
+
+test('additional SCP delivery diff queues new IDs once, without historical backfill or cross-language leakage', t => {
+  const f = fixture(t);
+  const old = { itemId: 'scp-series-50', titleJP: 'Previously delivered', contentType: 'scp' };
+  const added = { itemId: 'scp-series-51', titleJP: 'Additional SCP', contentType: 'scp' };
+  writeMobile(f.cwd, 'jp', [old]);
+  f.git('add', 'local-data'); f.git('commit', '-m', 'Existing mobile delivery');
+  writeMobile(f.cwd, 'jp', [old, added, { itemId: 'document-jp--log', contentType: 'log' }]);
+  f.generate(); f.generate();
+  assert.deepEqual(f.readQueue().pending.jp.items, [{ itemId: added.itemId, titleJP: added.titleJP }]);
+  assert.deepEqual(f.readQueue().pending.en.items, []);
+  // Date-only repairs and moving an already delivered SCP into the legacy
+  // catalog are not new arrivals. Pending items and lastSentWindow survive.
+  const queue = f.readQueue(); queue.pending.jp.lastSentWindow = '2026-10-31';
+  fs.writeFileSync(f.queuePath, JSON.stringify(queue));
+  f.git('add', 'local-data'); f.git('commit', '-m', 'Publish extra SCP');
+  f.writeCatalog([{ itemId: 'scp-series-1' }, old, added]);
+  writeMobile(f.cwd, 'jp', [old, { ...added, createdAt: '2026-10-01T00:00:00Z' }]);
+  f.generate();
+  assert.deepEqual(f.readQueue().pending.jp.items, queue.pending.jp.items);
+  assert.equal(f.readQueue().pending.jp.lastSentWindow, '2026-10-31');
+});
+
+test('corrupt delivered catalogs stop queue preparation without changing pending state', t => {
+  const f = fixture(t); f.generate();
+  const before = fs.readFileSync(f.queuePath);
+  writeMobile(f.cwd, 'jp', [{ itemId: 'scp-series-2', contentType: 'scp' }]);
+  const directory = path.join(f.cwd, 'local-data/mobile-v3/jp');
+  const manifest = JSON.parse(fs.readFileSync(path.join(directory, 'manifest.json')));
+  fs.writeFileSync(path.join(directory, manifest.fileName), 'bad gzip');
+  assert.throws(f.generate);
+  assert.deepEqual(fs.readFileSync(f.queuePath), before);
+});
 
 test('enabling extra branches preserves history and queues only articles added after the published baseline', t => {
   const f = fixture(t);

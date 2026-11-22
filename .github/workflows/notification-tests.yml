@@ -25,4 +25,4 @@ jobs:
           cache: npm
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Validate all notification branches without sending push notifications
-        run: node --test test/notifications.test.js test/notification-messages.test.js test/notification-branches.test.js test/workflow-concurrency.test.js test/additional-sites.test.js test/mobile-catalog.test.js
+        run: node --test test/notifications.test.js test/notification-messages.test.js test/notification-branches.test.js test/workflow-concurrency.test.js test/additional-sites.test.js test/mobile-catalog.test.js test/catalog-arrivals.test.js
