@@ -1,7 +1,7 @@
 {
   "totalCount": 8,
   "language": "cy",
-  "timestamp": "2026-11-22T07:26:28.182Z",
+  "timestamp": "2026-11-22T13:15:35.556Z",
   "duration": 6,
   "status": "completed",
   "statistics": {
@@ -44,11 +44,26 @@
       "rating": null,
       "descriptionExcerpt": "Mae SCP-007 wedi'i leoli mewn twll yn yr abdomen y \"targed\". Mae'r \"targed\" yn wryw gwyn sy'n edrych tua 25 mlwydd oed mewn golwg (mynnu bod \"targed\" yn 28 mlwydd oed) ac mae 176 cm yn uchel. Mae'r rhan fwyaf o'r abdomen (croeniau, cyhyrau, ac organau) o'r \"targed\" ar goll, ond nid yw'r \"targed\" yn ymddangos yn boenus. Mae'r rhan sydd ar goll yn cynnwys cig a ph\u00eal o fwd a daear, ond ni fu'r pethau hyn yn gysylltiedig \u00e2'i gorff erioed. Mae'r b\u00eal ym mhob agwedd yn fodel o ffug y Ddaear, tua 60 cm",
       "tags": [
-        "byw",
-        "euclid",
-        "humanoid",
-        "miniatur",
-        "planed"
+        {
+          "id": "byw",
+          "label": "byw"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "humanoid",
+          "label": "humanoid"
+        },
+        {
+          "id": "miniatur",
+          "label": "miniatur"
+        },
+        {
+          "id": "planed",
+          "label": "planed"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -97,10 +112,22 @@
       "rating": 0,
       "descriptionExcerpt": "Creadur humanoid mesur lan i 2.38 medr yw SCP-096. Oddrych yn dangos m\u00e0s cyhyrau bach iawn, gyda dadansoddiad rhagarweiniol yn awgrymu diffyg maeth. Mae breichiau SCP-096 yn mas o gyfran gyda gweddill y corff y oddrych, gyda hyd brasamcan 1.5 medr yr un. Mwyafrif o croen yn heb pigmentiad, gyda dim arwydd o gwallt corff.\nY g\u00ean SCP-096 yn gallu agor lan bedair gwaith mwy na dynol cyfartalog. Nodweddion wyneb eraill yn tebyg i dynol cyfartalog, gyda eithriad i'r y llygaid, sy'n heb pigmentiad. Mae",
       "tags": [
-        "byw",
-        "cognitohazard",
-        "euclid",
-        "humanoid"
+        {
+          "id": "byw",
+          "label": "byw"
+        },
+        {
+          "id": "cognitohazard",
+          "label": "cognitohazard"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "humanoid",
+          "label": "humanoid"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -148,12 +175,30 @@
       "rating": 1,
       "descriptionExcerpt": "Wedi gael eu symud i Safle-19 1993. Tarddiad yn anhysbys. Mae'n wedi gael eu adeiladu mas o concrid a rebar gyda olion o\n\npaent chwistrellu Krylon. Mae'n symud ac mae yn hynod elyniaethus. Y gwrthrych ddim yn gallu symud pan mae or dan cyswllt llygaid uniongyrchol. Ni ddylai cyswllt llygaid uniongyrchol gallu gael eu torri ar unrhyw adeg gyda SCP-173. Berson\u00e9l sy'n neilltuo i mynd mewn y cynhwysydd yn cyfarwyddwyd i rhybuddio eich gilydd cyn blincio. Y gwrthrych yn adroddwyd i ymosod gan rhuthro",
       "tags": [
-        "arsylwi",
-        "awtonomaidd",
-        "cerflunwaith",
-        "euclid",
-        "treftadaeth",
-        "wedi-ymddangos"
+        {
+          "id": "arsylwi",
+          "label": "arsylwi"
+        },
+        {
+          "id": "awtonomaidd",
+          "label": "awtonomaidd"
+        },
+        {
+          "id": "cerflunwaith",
+          "label": "cerflunwaith"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "treftadaeth",
+          "label": "treftadaeth"
+        },
+        {
+          "id": "wedi-ymddangos",
+          "label": "wedi-ymddangos"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",

@@ -1,7 +1,7 @@
 {
   "totalCount": 11,
   "language": "la",
-  "timestamp": "2026-11-22T07:26:34.461Z",
+  "timestamp": "2026-11-22T13:15:35.556Z",
   "duration": 7,
   "status": "completed",
   "statistics": {
@@ -44,11 +44,26 @@
       "rating": 12,
       "descriptionExcerpt": "SCP-LA-II viridis fructum est, quod ex atmospher\u0101 Terrae in VIII/XIV/MMXII exierat. Quomodo potest viv\u0113re nescitur, sed inter curs\u016bs de Urani et Neptuni iam est.",
       "tags": [
-        "biological",
-        "euclid",
-        "physics",
-        "plant",
-        "uncontained"
+        {
+          "id": "biological",
+          "label": "Biological"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "physics",
+          "label": "physics"
+        },
+        {
+          "id": "plant",
+          "label": "Plant"
+        },
+        {
+          "id": "uncontained",
+          "label": "uncontained"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -119,13 +134,34 @@
       "rating": 0,
       "descriptionExcerpt": "contineri est phaenomenon memeticum circa homicidia non existentes, veluti fientes in oppido San Siro, Mediolani mense Iulio 1988 . Secundum phaenomenon victimae bibliothecariae bibliothecariae erant et caedes eodem tempore commissae sunt in bibliotheca locali Portuensis a Garrett Kinander Bales, immigrans Americanus, qui mense Iunio 1950 natus est et in Italiam anno 1975 commotus est, nulla Bales, bibliothecarius. , seu Bibliotheca nominata in oppido Mediolanensi inventa est, ducens Fundamentum",
       "tags": [
-        "infohazard",
-        "keter",
-        "memetic",
-        "meta",
-        "mind_affecting",
-        "narrative",
-        "uncontained"
+        {
+          "id": "infohazard",
+          "label": "Infohazard"
+        },
+        {
+          "id": "keter",
+          "label": "keter"
+        },
+        {
+          "id": "memetic",
+          "label": "memetic"
+        },
+        {
+          "id": "meta",
+          "label": "meta"
+        },
+        {
+          "id": "mind_affecting",
+          "label": "Mind-affecting"
+        },
+        {
+          "id": "narrative",
+          "label": "narrative"
+        },
+        {
+          "id": "uncontained",
+          "label": "uncontained"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -150,17 +186,50 @@
       "rating": 0,
       "descriptionExcerpt": "SCP-LA-VI est via picea nigra quae in silva densa et caligionosa silva montana appartet Locus viae non est fixa et apparere potest in variis locis silvae profundae circa mundum plerumque in nebula gravis et sub cinereo caelum nubilum SCP-LA-VI intrat in inane sine fine trahunter regnum temportis ac spatii experte quod Vacuus Abyssal vocatur Inanis est spatium trandimensionale Immodratum quod extra rem notam exisit Inanis natura proprietates dimensionales suseripres suggerit ubi narrationes eorum",
       "tags": [
-        "cognitohazard",
-        "extradimensional",
-        "keter",
-        "location",
-        "memetic",
-        "meta",
-        "narrative",
-        "ontokinetic",
-        "spacetime",
-        "temporal",
-        "uncontained"
+        {
+          "id": "cognitohazard",
+          "label": "cognitohazard"
+        },
+        {
+          "id": "extradimensional",
+          "label": "extradimensional"
+        },
+        {
+          "id": "keter",
+          "label": "keter"
+        },
+        {
+          "id": "location",
+          "label": "location"
+        },
+        {
+          "id": "memetic",
+          "label": "memetic"
+        },
+        {
+          "id": "meta",
+          "label": "meta"
+        },
+        {
+          "id": "narrative",
+          "label": "narrative"
+        },
+        {
+          "id": "ontokinetic",
+          "label": "ontokinetic"
+        },
+        {
+          "id": "spacetime",
+          "label": "spacetime"
+        },
+        {
+          "id": "temporal",
+          "label": "Temporal"
+        },
+        {
+          "id": "uncontained",
+          "label": "uncontained"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -185,7 +254,10 @@
       "rating": 4,
       "descriptionExcerpt": "SCP-LA-VII tropaeum vitreum variis gemmis, inclusis adamantibus, ornatum est, 68,5 cm altitudinis x 31,5 cm diametri mensurans et 20 kg. In fundo argumenti, ignotae notae in circulo per marginem scriptae sunt, et nonnullae scalpturae sunt.\nCum personas rei attingunt, incipient omnes vitae suae memoriam vivere, incipientes a proximis praeteritis, gradatim et successivis. Hic processus ab persona ad personam variatur et fere 25-30 minuta sumit.\nSi enim aliquod temporis spatium elapsum est, cum rei",
       "tags": [
-        "euclid"
+        {
+          "id": "euclid",
+          "label": "euclid"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -210,11 +282,26 @@
       "rating": 12,
       "descriptionExcerpt": "De specie SCP-V quod similis est clave autem ornatio. Pluma de massa productio videtur non est clavis usus est era MCMXX. Haec clavis inventum est cum usura haec clavis et togatus conteram et in securitatem restrictus facilitas. SCP-V habet facultatem aperire claves secundum omnes species est genus facile neglegens autem digital seu mechanicas(videre Appendix A).",
       "tags": [
-        "adaptive",
-        "clavis",
-        "innocuus",
-        "metallicum",
-        "sensitivae"
+        {
+          "id": "adaptive",
+          "label": "adaptive"
+        },
+        {
+          "id": "clavis",
+          "label": "clavis"
+        },
+        {
+          "id": "innocuus",
+          "label": "innocuus"
+        },
+        {
+          "id": "metallicum",
+          "label": "metallicum"
+        },
+        {
+          "id": "sensitivae",
+          "label": "sensitivae"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -295,11 +382,26 @@
       "rating": 7,
       "descriptionExcerpt": "SCP-LXVI est et messa turupis perplexi relatorum circiter I scripulus. Quisque filum de SCP-LXVI potest tracto manualis singillatim. Tum chorda sonum emittit totius cum sana gradus(Ut-Re-Mi-Fa-So-La-Si).\nCum sex sonos quam emittentur, et SCP-LXVI ostendit innocens varii effectus et varii tempus. Dum is in hunc modum progressus, SCP-LXVI omnis sgunt non accipere. Eventus ante Casus LXVI-II monstrantur infra.\n\nSCP-XVI transfigurat ut iuvenes feles super septimoyou decimo-sexaginta hora. Iuvenes fe",
       "tags": [
-        "eric",
-        "informis",
-        "iuris",
-        "toy",
-        "tag-80319937195237834a006413"
+        {
+          "id": "eric",
+          "label": "eric"
+        },
+        {
+          "id": "informis",
+          "label": "informis"
+        },
+        {
+          "id": "iuris",
+          "label": "iuris"
+        },
+        {
+          "id": "toy",
+          "label": "toy"
+        },
+        {
+          "id": "tag-80319937195237834a006413",
+          "label": "\u0395\u1f50\u03ba\u03bb\u03b5\u03af\u03b4\u03b7\u03c2"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -344,12 +446,30 @@
       "rating": 7,
       "descriptionExcerpt": "SCP-LXXIX est Exidy Veneficus microcomputer fecit in MCMLXXVIII. In MCMLXXXI, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588(mortuus) de secunda grader \u2588\u2588\u2588 Universitatis qui est dominus rei conati sunt progressio Codicis. Secundum eius note, quae cogitavit videtur Code ut amplio in se processu temporis ad scribendum. Paucis mensibus complendas peracta inquisitione disponerentur, alium computer movere rem suum. Reliquit in in garage SCP-LXXIX activated et oblitus est ad quinquennium.\nNescio quo SCP-LXXIX affectus statuit sibi. Au",
       "tags": [
-        "computatrum",
-        "electronic",
-        "media",
-        "sapiens",
-        "sensitivae",
-        "tag-80319937195237834a006413"
+        {
+          "id": "computatrum",
+          "label": "computatrum"
+        },
+        {
+          "id": "electronic",
+          "label": "electronic"
+        },
+        {
+          "id": "media",
+          "label": "media"
+        },
+        {
+          "id": "sapiens",
+          "label": "sapiens"
+        },
+        {
+          "id": "sensitivae",
+          "label": "sensitivae"
+        },
+        {
+          "id": "tag-80319937195237834a006413",
+          "label": "\u0395\u1f50\u03ba\u03bb\u03b5\u03af\u03b4\u03b7\u03c2"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -395,11 +515,26 @@
       "rating": 17,
       "descriptionExcerpt": "Motum ad Castrum-XIX anno domini MCMXCIII. Origo hoc tempore ignota est. Caemento et ferro constructum est, ac vestigionibus pigmenti sparsi Krylonis. SCP-CLXXIII est animans hostilissimusque. Non potest movere dum in linea directa videtur. Linea visus cum SCP-CLXXIII non interpellendus est. Curatores assignati cubiculum inire doceantur se monere antequam connivent. Res scientur oppugnare aut collo mordindo ad basem calavariae aut suffocatione. Si oppugnet, curatores utantur Genus-IV formulis re",
       "tags": [
-        "tag-4312f8cbe8bd1cef24676b30",
-        "liber",
-        "patrimonium",
-        "simulacrum",
-        "visibilis"
+        {
+          "id": "tag-4312f8cbe8bd1cef24676b30",
+          "label": "e\u1f50\u03ba\u03bb\u03b5\u03af\u03b4\u03b7\u03c2"
+        },
+        {
+          "id": "liber",
+          "label": "liber"
+        },
+        {
+          "id": "patrimonium",
+          "label": "patrimonium"
+        },
+        {
+          "id": "simulacrum",
+          "label": "simulacrum"
+        },
+        {
+          "id": "visibilis",
+          "label": "visibilis"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",

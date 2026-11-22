@@ -4,7 +4,7 @@ const { stringifyAsciiSafe } = require('./local-crawler');
 const { LANGUAGES } = require('./languages');
 const { partialFileName } = require('./partial-file');
 const { deduplicateArticles, validateCatalogs } = require('./catalog-identity');
-const { publicTags } = require('./public-tags');
+const { publicTags, publicTagEntries } = require('./public-tags');
 const { readDictionary, indexDictionary, localizeTags } = require('./tag-dictionary');
 
 /**
@@ -126,7 +126,7 @@ function addTranslatedLanguages(baseOutputDir, languages) {
   for (const [lang, { filePath, catalog }] of catalogs) {
     catalog.data = (catalog.data || []).map(item => ({
       ...item,
-      tags: publicTags(item.tags),
+      tags: publicTagEntries(item.tags),
       translatedLanguages: [...(translatedByItem.get(item.itemId) || [])],
     }));
     fs.writeFileSync(filePath + '.tmp', stringifyAsciiSafe(catalog), 'utf8');

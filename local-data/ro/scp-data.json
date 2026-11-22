@@ -1,7 +1,7 @@
 {
   "totalCount": 17,
   "language": "ro",
-  "timestamp": "2026-11-22T07:26:34.461Z",
+  "timestamp": "2026-11-22T13:15:35.556Z",
   "duration": 11,
   "status": "completed",
   "statistics": {
@@ -21,8 +21,14 @@
       "rating": 0,
       "descriptionExcerpt": "URM\u0102TOARELE FI\u0218IERE AU FOST CLASIFICATE TOP SECRET PRIN ORDONAN\u021aA CONSILIULUI C5 NOTIFICARE GENERAL\u0102 RO-001-\u039e: Pentru a evita diseminarea informa\u021biilor despre SCP-RO-001, mai multe fi\u0219iere false SCP-RO-001 nu au fost create \u00eempreun\u0103 cu fi\u0219ierele/fi\u0219ierele adev\u0103rate/veridice. Toate fi\u0219ierele despre natura SCP-RO-001, inclusiv cele fictive, sunt protejate de un agent letal memetic gata s\u0103 cauzeze stop cardiac imediat la orice personal neautorizat care \u00eencearc\u0103 s\u0103 acceseze fi\u0219ierul. Dezv\u0103luirea ade",
       "tags": [
-        "hub",
-        "serie-ro"
+        {
+          "id": "hub",
+          "label": "hub"
+        },
+        {
+          "id": "serie-ro",
+          "label": "serie-ro"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -47,8 +53,14 @@
       "rating": 0,
       "descriptionExcerpt": "SCP-RO-004 este o specie anormal\u0103 de animale, const\u00e2nd din realit\u0103\u021bi virtuale. Exemplarele SCP-RO-004 se pot hr\u0103ni doar cu alimente \u00een realitatea virtual\u0103, tipul de hran\u0103 variaz\u0103 \u00een func\u021bie de speciile \u00een care sunt reprezentate.\nToate cazurile de SCP-RO-004 reprezint\u0103 acela\u0219i animal, \u0219i toate exemplarele pot suferi muta\u021bii, schimb\u00e2nd specii. Nu a fost posibil s\u0103 se \u00eenregistreze perechi \u00eentre specimene SCP-RO-004, a fost posibil s\u0103 se disting\u0103 sexul lor1.",
       "tags": [
-        "euclid",
-        "scp-ro"
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "scp-ro",
+          "label": "scp-ro"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -73,8 +85,14 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-RO-006 este o cryptocurrency numit\u0103 LaughCoin, moneda este valabil\u0103 numai \u00een Rom\u00e2nia, iar simbolul valutar este o modificare a simbolului BitCoin, cu \u00een loc de B, un emoticon r\u00e2s.\nSCP-RO-006 pot fi ob\u021binute prin schimb \u0219i de tranzac\u021bionare pe site-ul oficial al monedei \u00een sine, sau prin minerit pe site-uri externe; valoarea de un ban de LaughCoin (numit LaughPenny) este egal\u0103 cu valoarea de 3.40 euro, deci un LaughCoin este egal cu 340 de euro. \u00cen ciuda valorii relativ ridicate a acestei mon",
       "tags": [
-        "euclid",
-        "serie-ro"
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "serie-ro",
+          "label": "serie-ro"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -99,7 +117,10 @@
       "rating": null,
       "descriptionExcerpt": "URM\u0102TOARELE FI\u0218IERE SUNT STRICT SECRETE TOP SECRET DUP\u0102 ORDINUL ADMINISTRATORULUI \u00ceN\u0218TIIN\u021aARE GENERAL\u0102 001-Alfa: Pentru a preveni divulgarea informa\u021biilor despre SCP-001, mai multe/niciun fi\u0219ier SCP-001 fals nu a fost creat al\u0103turi de fi\u0219ierul/fi\u0219ierele reale. Toate fi\u0219ierele referitoare la natura SCP-001, sunt protejate de un agent de ucidere memetic conceput s\u0103 provoace imediat stop cardiac oric\u0103rui personal neautorizat care \u00eencearc\u0103 s\u0103 acceseze fi\u0219ierul. Dezv\u0103luirea adev\u0103ratei naturi ale lui ",
       "tags": [
-        "hub"
+        {
+          "id": "hub",
+          "label": "hub"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -604,11 +625,26 @@
       "rating": 4,
       "descriptionExcerpt": "SCP-012 a fost recuperat de c\u0103tre Arheologul K.M. Sandoval \u00een timpul excav\u0103rii unui morm\u00e2nt din nordul Italiei distrus \u00eentr-o furtun\u0103 recent\u0103. Obiectul, o pies\u0103 de partitur\u0103 scris\u0103 de m\u00e2n\u0103, intitulat\u0103 \"Pe Muntele Golgotha\", parte dintr-un set mai mare de partituri, pare s\u0103 fie incomplet. Cerneala ro\u0219ie/neagr\u0103, \u00een prim-plan considerat\u0103 a fi o form\u0103 de cerneal\u0103 natural\u0103 de fructe de p\u0103dure sau colorant natural, s-a dovedit mai t\u00e2rziu a fi defapt s\u00e2nge de om de la mai mul\u021bi indivizi. Primul persona",
       "tags": [
-        "tag-4a0246e725776bf1040d3599",
-        "document",
-        "euclid",
-        "muzical",
-        "vizual"
+        {
+          "id": "tag-4a0246e725776bf1040d3599",
+          "label": "afecteaz\u0103-mintea"
+        },
+        {
+          "id": "document",
+          "label": "document"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "muzical",
+          "label": "muzical"
+        },
+        {
+          "id": "vizual",
+          "label": "vizual"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -655,12 +691,30 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-096 este o creatur\u0103 umanoid\u0103, m\u0103sur\u00e2nd aproximativ 2,38 metri \u00een\u0103l\u021bime. Subiectul prezint\u0103 o mas\u0103 muscular\u0103 foarte mic\u0103, analiza preliminar\u0103 a masei corporale suger\u00e2nd o malnutri\u021bie u\u0219oar\u0103. Bra\u021bele sunt extrem de dispropor\u021bionate cu restul corpului subiectului, av\u00e2nd o lungime de aproximativ 1,5 metri fiecare. Pielea este \u00een cea mai mare parte lipsit\u0103 de pigmentare, f\u0103r\u0103 semne de p\u0103r pe corp.\nMaxilarul lui SCP-096 se poate deschide de patru (4) ori mai mult dec\u00e2t norma unui om de r\u00e2nd. Alte",
       "tags": [
-        "cognitohazard",
-        "doctorul-dan",
-        "euclid",
-        "tip-timid",
-        "vizual",
-        "tag-7749e00111385297baa05d9b"
+        {
+          "id": "cognitohazard",
+          "label": "cognitohazard"
+        },
+        {
+          "id": "doctorul-dan",
+          "label": "doctorul-dan"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "tip-timid",
+          "label": "tip-timid"
+        },
+        {
+          "id": "vizual",
+          "label": "vizual"
+        },
+        {
+          "id": "tag-7749e00111385297baa05d9b",
+          "label": "\u00een-via\u0163\u0103"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -708,13 +762,34 @@
       "rating": 2,
       "descriptionExcerpt": "Mutat \u00een Zona-19 \u00een anul 1993. Originea acestuia este \u00eenc\u0103 necunoscut\u0103. Este construit din beton \u0219i arm\u0103tur\u0103 cu urme de vopsea spray, marca Krylon. SCP-173 este activ \u0219i extrem de ostil. Obiectul nu se poate mi\u0219ca \u00een timp ce este privit direct. Contactul vizual cu SCP-173 nu trebuie \u00eentrerupt \u00een niciun moment. Personalul desemnat s\u0103 intre \u00een container este instruit s\u0103 se avertizeze unul pe cel\u0103lalt \u00eenainte de a clipi. Obiectul este raportat atac\u00e2nd prin ruperea g\u00e2tului de la baza craniului sau p",
       "tags": [
-        "autonom",
-        "euclid",
-        "tag-a3a9f648a702e2d339933d15",
-        "ostil",
-        "recomandate",
-        "sculptura",
-        "tag-b735ce53201fbbe4d699c5bc"
+        {
+          "id": "autonom",
+          "label": "autonom"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "tag-a3a9f648a702e2d339933d15",
+          "label": "observa\u021bional"
+        },
+        {
+          "id": "ostil",
+          "label": "ostil"
+        },
+        {
+          "id": "recomandate",
+          "label": "recomandate"
+        },
+        {
+          "id": "sculptura",
+          "label": "sculptura"
+        },
+        {
+          "id": "tag-b735ce53201fbbe4d699c5bc",
+          "label": "sculptur\u0103"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -769,10 +844,22 @@
       "rating": 4,
       "descriptionExcerpt": "SCP-409 seam\u0103n\u0103 cu un cristal de cuar\u021b mare de aproximativ 1,5 m \u00een\u0103l\u021bime \u0219i 0,6 m l\u0103\u021bime. Orice obiecte care intr\u0103 \u00een contact cu SCP-409 vor \u00eencepe s\u0103 se cristalizeze dup\u0103 trei ore de la contact. Acest efect va ap\u0103rea \u00een orice alt material, cu excep\u021bia granitului. Cristalizarea se va r\u0103sp\u00e2ndi cu aproximativ 2,5 cm pe minut \u0219i va transforma \u00eentregul obiect sau organism, pe interior \u0219i pe exterior. Subiec\u021bii raporteaz\u0103 c\u0103 acest efect este extrem de dureros \u0219i similar cu deger\u0103turile. Dup\u0103 cristal",
       "tags": [
-        "auto-replicare",
-        "cristalin",
-        "keter",
-        "transfigurare"
+        {
+          "id": "auto-replicare",
+          "label": "auto-replicare"
+        },
+        {
+          "id": "cristalin",
+          "label": "cristalin"
+        },
+        {
+          "id": "keter",
+          "label": "keter"
+        },
+        {
+          "id": "transfigurare",
+          "label": "transfigurare"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -891,10 +978,22 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-871 reprezint\u0103 o colec\u021bie de 237 de pr\u0103jituri. Instan\u021bele SCP-871 varieaz\u0103 semnificativ ca aspect \u0219i dimensiune, acoperind \u00eentreaga gam\u0103 de alimente descrise de oameni drept tort. Cea mai mic\u0103 instan\u021b\u0103 SCP-871 observat\u0103 a fost o brio\u0219\u0103 \u00een miniatur\u0103 cu o mas\u0103 de 15 grame. Cea mai mare instan\u021b\u0103 observat\u0103 p\u00e2n\u0103 \u00een prezent a fost un baumkuchen de 22 de kilograme, ce m\u0103sura 2 metri \u00een lungime.\nC\u00e2nd o instan\u021b\u0103 SCP-871 este consumat\u0103 de un om sau mai mul\u021bi oameni, aceasta este \u00eenlocuit\u0103 la aproximat",
       "tags": [
-        "auto-replicare",
-        "keter",
-        "metamorfic",
-        "tag-24a7e40158d7aaf2558500a9"
+        {
+          "id": "auto-replicare",
+          "label": "auto-replicare"
+        },
+        {
+          "id": "keter",
+          "label": "keter"
+        },
+        {
+          "id": "metamorfic",
+          "label": "metamorfic"
+        },
+        {
+          "id": "tag-24a7e40158d7aaf2558500a9",
+          "label": "m\u00e2ncare"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",

@@ -31,6 +31,14 @@ test('delivery projection preserves reader fields without mutating crawler state
   assert.throws(() => mobileCatalog({ ...source, data: [source.data[0], source.data[0]], totalCount: 2 }, 'jp'));
 });
 
+test('schema v2 tags cannot be published after losing their display labels', () => {
+  for (const tag of ['humanoid', { id: 'humanoid' }, { id: 'humanoid', label: ' ' }]) {
+    const source = catalog();
+    source.data[0].tags = [tag];
+    assert.throws(() => mobileCatalog(source, 'jp'), /Missing localized tag label/);
+  }
+});
+
 test('gzip manifest is deterministic, verifiable and leaves legacy files byte-identical', t => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'mobile-catalog-'));
   t.after(() => fs.rmSync(directory, { recursive: true, force: true }));

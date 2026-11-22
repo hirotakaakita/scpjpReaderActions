@@ -44,6 +44,7 @@ test('prepare then merge embeds labels and preserves cached object tags and fail
     // The next crawl can reuse object tags without losing IDs or labels.
     const again = prepare(root);
     addTranslatedLanguages(output, ['jp']);
+    assert.deepEqual(JSON.parse(fs.readFileSync(jpFile)).data, jp.data);
     applyTagDictionary(output, again);
     assert.deepEqual(JSON.parse(fs.readFileSync(jpFile)).data, jp.data);
   } finally {

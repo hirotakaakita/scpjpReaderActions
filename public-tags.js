@@ -18,4 +18,18 @@ function publicTags(values) {
       !excludedTags.has(value.toLowerCase())))];
 }
 
-module.exports = { publicTags };
+// Translation-flag refreshes run after localization as well as before it.
+// Filter public tags without discarding labels already embedded in schema v2.
+function publicTagEntries(values) {
+  const entries = new Map();
+  for (const value of Array.isArray(values) ? values : []) {
+    const [id] = publicTags([value]);
+    if (!id) continue;
+    if (value && typeof value === 'object' && typeof value.label === 'string' && value.label.trim()) {
+      entries.set(id, { id, label: value.label });
+    } else if (!entries.has(id)) entries.set(id, id);
+  }
+  return [...entries.values()];
+}
+
+module.exports = { publicTags, publicTagEntries };

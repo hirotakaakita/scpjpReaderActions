@@ -118,10 +118,10 @@ test('canonical branch IDs take priority when another catalog carries an old inc
 test('merge prunes missing and untranslated placeholders in legacy/v1 and adds indexed works to v2',t=>{
   const root=fs.mkdtempSync(path.join(os.tmpdir(),'scp-index-delivery-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
   const baseDir=path.join(root,'local-data'),jp=path.join(baseDir,'jp');fs.mkdirSync(jp,{recursive:true});
-  const original={itemId:'scp-series-jp-001',numericItemId:1,titleJP:'Existing',urlJP:base+'scp-001-jp',isTranslatedJP:true,pageType:'scp-series-jp',contentType:'scp',extractedFrom:'scp-series-jp',lastUpdated:date,createdAt:date,tags:[]};
+  const original={itemId:'scp-series-jp-001',numericItemId:1,titleJP:'Existing',urlJP:base+'scp-001-jp',isTranslatedJP:true,pageType:'scp-series-jp',contentType:'scp',extractedFrom:'scp-series-jp',lastUpdated:date,createdAt:date,tags:[{id:'humanoid',label:'\u4eba\u9593\u578b'}]};
   const missing={...original,itemId:'scp-series-jp-004',urlJP:base+'scp-004-jp'};
   const fallback={...original,itemId:'scp-series-005',urlJP:null,urlEN:'https://scp-wiki.wikidot.com/scp-005',isTranslatedJP:false};
-  fs.writeFileSync(path.join(jp,'scp-data.json'),JSON.stringify({language:'jp',timestamp:date,totalCount:3,data:[original,missing,fallback]}));
+  fs.writeFileSync(path.join(jp,'scp-data.json'),JSON.stringify({language:'jp',tagSchemaVersion:2,timestamp:date,totalCount:3,data:[original,missing,fallback]}));
   fs.writeFileSync(path.join(jp,'meta.json'),JSON.stringify({lastUpdated:date,totalCount:3}));
   const story=base+'work-a',scp=base+'scp-006-ru';
   const state={schemaVersion:1,language:'jp',updatedAt:date,statistics:{pendingIndexes:0},attempts:{},records:{[story]:rec(story),[scp]:rec(scp,['scp','ru'])},indexes:{[source.url]:{at:date,members:[{url:story,kind:'tale',origin:'jp',source:source.url},{url:scp,kind:'scp',origin:'ru',source:source.url}],missing:[missing.urlJP]}}};
@@ -132,6 +132,10 @@ test('merge prunes missing and untranslated placeholders in legacy/v1 and adds i
   generateMobileCatalogs(baseDir);
   function delivery(channel){const dir=path.join(baseDir,channel,'jp'),m=JSON.parse(fs.readFileSync(path.join(dir,'manifest.json')));return JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,m.fileName))))}
   assert.equal(delivery('mobile-v1').totalCount,1);
+  assert.deepEqual(raw.data[0].tags,original.tags);
+  for(const channel of ['mobile-v1','mobile-v2','mobile-v3']) {
+    assert.deepEqual(delivery(channel).data.find(r=>r.itemId===original.itemId).tags,original.tags);
+  }
   const v2=delivery('mobile-v3');assert.equal(v2.totalCount,3);
   assert.equal(v2.data.find(r=>r.urlJP===scp).itemId,'scp-series-ru-006');
   assert.equal(v2.data.find(r=>r.urlJP===story).itemId,'document-jp--work-a');

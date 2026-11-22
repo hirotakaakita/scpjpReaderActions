@@ -1,7 +1,7 @@
 {
   "totalCount": 2,
   "language": "no",
-  "timestamp": "2026-11-22T07:26:28.182Z",
+  "timestamp": "2026-11-22T13:15:35.556Z",
   "duration": 2,
   "status": "completed",
   "statistics": {
@@ -46,9 +46,18 @@
       "rating": null,
       "descriptionExcerpt": "SCP-007-ND er en kopi av den greske \u00f8yen D\u00edlos som svever i midten av Troposf\u00e6ren rett over Egeerhavet og har som observert mer religi\u00f8st motiverte bygninger enn den virkelige versjonen av D\u00edlos som er festet til havbunnen i samme hav. \u00d8yen er tilsynelatende usynlig til de som ikke er bak Sl\u00f8ret ettersom at ingen som er utenfor Sl\u00f8ret har rapportert at de har sett \u00f8yen. \u00d8yen ble f\u00f8rst observert av Stiftelsen i 1945, rett f\u00f8r den Syvende Okkult-krigen avsluttet med alliert seier.\n\n\nBilde fra den",
       "tags": [
-        "norsk",
-        "scp-nd-no",
-        "sikker"
+        {
+          "id": "norsk",
+          "label": "norsk"
+        },
+        {
+          "id": "scp-nd-no",
+          "label": "scp-nd-no"
+        },
+        {
+          "id": "sikker",
+          "label": "sikker"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",

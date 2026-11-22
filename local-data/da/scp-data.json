@@ -1,7 +1,7 @@
 {
   "totalCount": 7,
   "language": "da",
-  "timestamp": "2026-11-22T07:26:28.182Z",
+  "timestamp": "2026-11-22T13:15:35.556Z",
   "duration": 6,
   "status": "completed",
   "statistics": {
@@ -46,9 +46,18 @@
       "rating": 0,
       "descriptionExcerpt": "SCP-004-ND er en r\u00f8d boks. P\u00e5 overfladen af SCP-004-ND er en s\u00e6tning skrevet i blod:\u00c5ben mig ikke.N\u00e5r du ser SCP-004-ND-overfladen, fors\u00f8ger den at \u00e5bne SCP-004-ND. N\u00e5r du har \u00e5bnet SCP-004-ND, d\u00f8r personen direkte. P\u00e5 grund af dette ved vi ikke, hvad der er inde i SCP-004-ND, og ingen t\u00f8r at se p\u00e5 det.\nSCP-004-ND \u00e6ndrer sin position kl. 4:00 p\u00e5 fredag. Det vil teleportere fra SCP-004-ND kabinettet til gulvet, og det er umuligt at se SCP-004-ND. Ideen om at oprette et kamera i kabinettet SCP -00",
       "tags": [
-        "dansk",
-        "euclid",
-        "scp-nd-da"
+        {
+          "id": "dansk",
+          "label": "dansk"
+        },
+        {
+          "id": "euclid",
+          "label": "euclid"
+        },
+        {
+          "id": "scp-nd-da",
+          "label": "scp-nd-da"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",

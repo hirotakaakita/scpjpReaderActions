@@ -1,6 +1,17 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const { publicTags } = require('../public-tags');
+const { publicTagEntries } = require('../public-tags');
+
+test('public tag entries retain labels while filtering and deduplicating mixed cached tags', () => {
+  const label = { id: ' humanoid ', label: '人間型' };
+  assert.deepEqual(publicTagEntries([
+    'humanoid', label, 'humanoid', { id: '_cc', label: 'Hidden' },
+    { id: 'jp', label: 'Branch' }, 'unknown', null,
+  ]), [{ id: 'humanoid', label: '人間型' }, 'unknown']);
+  assert.equal(label.id, ' humanoid ');
+  assert.deepEqual(publicTagEntries(null), []);
+});
 
 test('drops management tags after trimming whitespace, including NBSP', () => {
   assert.deepEqual(publicTags(['_licensebox', ' _cc ', '\u00a0_hidden', '_', 'scp', '人間型']),

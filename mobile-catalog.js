@@ -30,6 +30,11 @@ function mobileCatalog(source, language) {
       throw new Error(`Invalid or duplicate article: ${article.itemId}`);
     }
     ids.add(article.itemId);
+    if (source.tagSchemaVersion === 2 && (article.tags || []).some(tag =>
+      !tag || typeof tag.id !== 'string' || !tag.id.trim() ||
+      typeof tag.label !== 'string' || !tag.label.trim())) {
+      throw new Error(`Missing localized tag label: ${language}/${article.itemId}`);
+    }
     return Object.fromEntries(Object.entries(article).filter(([key, value]) =>
       FIELDS.has(key) && value !== null
     ));

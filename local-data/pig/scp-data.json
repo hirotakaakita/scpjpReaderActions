@@ -1,7 +1,7 @@
 {
   "totalCount": 71,
   "language": "pig",
-  "timestamp": "2026-11-22T07:26:34.461Z",
+  "timestamp": "2026-11-22T13:15:35.556Z",
   "duration": 63,
   "status": "completed",
   "statistics": {
@@ -21,8 +21,14 @@
       "rating": null,
       "descriptionExcerpt": "ETHAY OLLOWINGFAY ILESFAY AVEHAY EENBAY ASSIFIEDCLAY OPTAY ECRETSAY YBAY ORDERYAY OFYAY ETHAY OINK-5 OUNCILCAY ENERALGAY OTICENAY 001-PIG-Alphayay: Inyay orderyay otay eventpray owledgeknay ofyay SCP-001-PIG omfray eingbay eakedlay, everalsay/onay alsefay SCP-001-PIG ilesfay avehay eenbay eatedcray alongsideyay ethay uetray ilefay/ilesfay. Allyay ilesfay oncerningcay ethay aturenay ofyay SCP-001-PIG, includingyay ethay ecoyday/ecoysday, areyay otectedpray ybay ayay emeticmay illkay agentyay esig",
       "tags": [
-        "etadatamay",
-        "ubhay"
+        {
+          "id": "etadatamay",
+          "label": "etadatamay"
+        },
+        {
+          "id": "ubhay",
+          "label": "ubhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -47,15 +53,42 @@
       "rating": 6,
       "descriptionExcerpt": "SCP-002-PIG areyay ayay edatorypray eciesspay ofyay ishfay atthay appearyay asyay edray ebrazay ichlidscay. Oughthray arnessinghay EVE energyyay, eythay areyay ableyay otay ansformtray eirthay entireyay odybay intoyay anyyay arinemay animalyay, ownknay andyay unknownyay, atthay illway etterbay uitsay eirthay urrentcay ituationsay. Alemay SCP-002-PIG inyay eirthay efaultday ormfay areyay iggerbay anthay emalefay SCP-002-PIG.\nEnwhay erethay areyay onay eatsthray earbynay SCP-002-PIG emainray inyay",
       "tags": [
-        "adaptiveyay",
-        "aquaticyay",
-        "arkshay-unchingpay-entercay",
-        "eaturedfay-pig",
-        "eciespray",
-        "edatorypray",
-        "enngray",
-        "eterkay",
-        "ishfay"
+        {
+          "id": "adaptiveyay",
+          "label": "adaptiveyay"
+        },
+        {
+          "id": "aquaticyay",
+          "label": "aquaticyay"
+        },
+        {
+          "id": "arkshay-unchingpay-entercay",
+          "label": "arkshay-unchingpay-entercay"
+        },
+        {
+          "id": "eaturedfay-pig",
+          "label": "eaturedfay-pig"
+        },
+        {
+          "id": "eciespray",
+          "label": "eciespray"
+        },
+        {
+          "id": "edatorypray",
+          "label": "edatorypray"
+        },
+        {
+          "id": "enngray",
+          "label": "enngray"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "ishfay",
+          "label": "ishfay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -80,11 +113,26 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-003-PIG isyay ayay ereotypicalstay easuretray estchay.\nSCP-003-PIG onstantlycay expelsyay aterway outyay ofyay itsyay interioryay. Erewhay isthay aterway omescay omfray isyay unknownyay. Althoughyay SCP-003-PIG's interioryay isyay illedfay ithway ariousvay oldgay objectsyay, SCP-003-PIG illway oatflay inyay ethay aterway ityay eneratesgay.\nIfyay SCP-003-PIG isyay insideyay ayay oolpay ofyay aterway 15 eetfay ybay 10 eetfay ybay 7 eetfay oryay argerlay, SCP-003-PIG's interioryay illway anifes",
       "tags": [
-        "artifactyay",
-        "ectoentropicyay",
-        "ellowyay",
-        "eterkay",
-        "iquidlay"
+        {
+          "id": "artifactyay",
+          "label": "artifactyay"
+        },
+        {
+          "id": "ectoentropicyay",
+          "label": "ectoentropicyay"
+        },
+        {
+          "id": "ellowyay",
+          "label": "ellowyay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "iquidlay",
+          "label": "iquidlay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -109,14 +157,38 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-004-PIG isyay ayay oupgray esignationday orfay eethray anomaliesyay. SCP-004-PIG-1 efersray otay inenay umanoidhay entitiesyay, esignatedday SCP-004-PIG-1-1 oughthray SCP-004-PIG-1-9. Eachyay SCP-004-PIG-1 instanceyay ashay ayay uniqueyay appearanceyay, odybay izesay, ersonalitypay, andyay eaponsway.1 SCP-004-PIG-1 instancesyay areyay uchmay oremay urableday anthay averageyay umanshay, eingbay ableyay otay aketay everalsay ulletsbbay andyay/oryay explosionsyay eforebay uccumbingsay otay eirt",
       "tags": [
-        "aliveyay",
-        "apientsay",
-        "eaturedfay-pig",
-        "eleportationtay",
-        "eterkay",
-        "orangeyay",
-        "ostilehay",
-        "uncontainedyay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "eaturedfay-pig",
+          "label": "eaturedfay-pig"
+        },
+        {
+          "id": "eleportationtay",
+          "label": "eleportationtay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "orangeyay",
+          "label": "orangeyay"
+        },
+        {
+          "id": "ostilehay",
+          "label": "ostilehay"
+        },
+        {
+          "id": "uncontainedyay",
+          "label": "uncontainedyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -141,12 +213,30 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-005-PIG efersray otay ayay odmay orfay ethay ideovay amegay Imworldray, evelopedday ybay Udeonlay Udiosstay, entitledyay \"Eatingyay Ithoutway Ayay Abletay Illskay Ouyay IEI3\".4 Installingyay SCP-005-PIG eatescray anyay otherwiseyay onnay-anomalousyay opycay ofyay Imworldray exceptyay asyay oonsay asyay ayay ayerplay-ontrolledcay olonistcay eatsyay ithoutway ittingsay atyay ayay abletay, anyay instanceyay ofyay SCP-005-PIG-1 illway anifestmay.\nSCP-005-PIG-1 efersray otay ayay olonistcay owhay",
       "tags": [
-        "amegay",
-        "edray",
-        "elekinetictay",
-        "erfulway-ailsvay",
-        "eterkay",
-        "omputercay"
+        {
+          "id": "amegay",
+          "label": "amegay"
+        },
+        {
+          "id": "edray",
+          "label": "edray"
+        },
+        {
+          "id": "elekinetictay",
+          "label": "elekinetictay"
+        },
+        {
+          "id": "erfulway-ailsvay",
+          "label": "erfulway-ailsvay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "omputercay",
+          "label": "omputercay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -171,16 +261,46 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-006-PIG isyay ayay ivilizationcay ofyay intelligentyay entitiesyay atthay oselyclay esembleray omesticatedday igspay (Sus domesticus) ocatedlay inyay Orthnay Americayay. Esethay entitiesyay, enceforthhay eferredray otay asyay SCP-006-PIG-1, aveltray andyay ommunicatecay ithway allsmay ehiclesvay ilotedpay ybay SCP-006-PIG-1 instancesyay, enceforthhay eferredray otay asyay SCP-006-PIG-2.\nSCP-006-PIG-2 instancesyay ifferday ildlyway inyay appearanceyay asedbay onyay ethay objay ofyay ethay orr",
       "tags": [
-        "aliveyay",
-        "animalyay",
-        "eaturedfay-pig",
-        "eciesspay",
-        "eengray",
-        "entientsay",
-        "euclidyay",
-        "ilitarymay",
-        "intellignetyay",
-        "oinksyay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "eaturedfay-pig",
+          "label": "eaturedfay-pig"
+        },
+        {
+          "id": "eciesspay",
+          "label": "eciesspay"
+        },
+        {
+          "id": "eengray",
+          "label": "eengray"
+        },
+        {
+          "id": "entientsay",
+          "label": "entientsay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ilitarymay",
+          "label": "ilitarymay"
+        },
+        {
+          "id": "intellignetyay",
+          "label": "intellignetyay"
+        },
+        {
+          "id": "oinksyay",
+          "label": "oinksyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -205,13 +325,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-007-PIG isyay ayay outwardlyyay ormalnay, eatherlay-oundbay2 opycay ofyay The World Hungers3. Ityay oesday, oweverhay, exudeyay ayay aintfay ellsmay4. Enwhay inyay ontactcay ithway organicyay aterialmay orfay ayay asyay-etyay unknownyay amountyay ofyay imetay5, aidsay aterialmay isyay ansformedtray intoyay ariousvay ormsfay ofyay orkpay6. Ethay anomalyyay isyay ethay esultray ofyay ethay \"Entway Otay Arketmay\" initiativeyay, ichwhay attemptedyay otay olvesay orldway ungerhay.",
       "tags": [
-        "tag-c22124294addc35f2880b866",
-        "afesay",
-        "ansfigurationtray",
-        "ealityray-endingbay",
-        "ocumentday",
-        "ooltay",
-        "oundationfay-ademay"
+        {
+          "id": "tag-c22124294addc35f2880b866",
+          "label": "1st-anniversaryyay-pig"
+        },
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "ealityray-endingbay",
+          "label": "ealityray-endingbay"
+        },
+        {
+          "id": "ocumentday",
+          "label": "ocumentday"
+        },
+        {
+          "id": "ooltay",
+          "label": "ooltay"
+        },
+        {
+          "id": "oundationfay-ademay",
+          "label": "oundationfay-ademay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -236,15 +377,42 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-008-PIG isyay anyay anomalousyay enomenonphay atthay occursyay otay everyyay Ambroseyay Estaurantsray ocationlay atthay attemptsyay otay openyay ithinway ethay ordersbay ofyay Edensway.\nEsethay ocationslay, ereafterhay esignatedday asyay SCP-008-PIG-1, illway undergoyay andardstay ocedurespray eforebay openingyay.2 Oweverhay, asyay oonsay asyay ethay SCP-008-PIG-1 isyay onsideredcay \"openyay\", SCP-008-PIG illway anifestmay andyay ausecay ethay SCP-008-PIG-1 instanceyay otay emanfiestday omfr",
       "tags": [
-        "ambroseyay-estaurantray",
-        "azchay-ambroseyay",
-        "enomenonphay",
-        "esotericyay-assclay",
-        "ethay-orestay-isyay-ownay-osedclay",
-        "extradimensionalyay",
-        "orporatecay",
-        "uildingbay",
-        "uncontainedyay"
+        {
+          "id": "ambroseyay-estaurantray",
+          "label": "ambroseyay-estaurantray"
+        },
+        {
+          "id": "azchay-ambroseyay",
+          "label": "azchay-ambroseyay"
+        },
+        {
+          "id": "enomenonphay",
+          "label": "enomenonphay"
+        },
+        {
+          "id": "esotericyay-assclay",
+          "label": "esotericyay-assclay"
+        },
+        {
+          "id": "ethay-orestay-isyay-ownay-osedclay",
+          "label": "ethay-orestay-isyay-ownay-osedclay"
+        },
+        {
+          "id": "extradimensionalyay",
+          "label": "extradimensionalyay"
+        },
+        {
+          "id": "orporatecay",
+          "label": "orporatecay"
+        },
+        {
+          "id": "uildingbay",
+          "label": "uildingbay"
+        },
+        {
+          "id": "uncontainedyay",
+          "label": "uncontainedyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -269,18 +437,54 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-009-PIG isyay ayay iobay-echanicalmay ecimenspay ofyay ommoncay amboobay (Bambusa vulgaris) ichwhay ossessespay ignificantlysay advancedyay ansmissiontray equipmentyay incorporatedyay intoyay itsyay internalyay ucturestray.\nEthay echanicalmay omponentscay ofyay SCP-009-PIG owgray alongsideyay ethay aturalnay exterioryay ucturestray, ithyay ethay iologicalbay omponentscay avinghay owngray inyay ayay annermay otay ebay apablecay ofyay annelingchay electricalyay urrentscay orfay ethay enefitbay",
       "tags": [
-        "acousticyay",
-        "ansmissiontray",
-        "antplay",
-        "apientsay",
-        "artifactyay",
-        "echanicalmay",
-        "edictivepray",
-        "electricalyay",
-        "electronicyay",
-        "euclidyay",
-        "iologicalbay",
-        "oundationfay-ademay"
+        {
+          "id": "acousticyay",
+          "label": "acousticyay"
+        },
+        {
+          "id": "ansmissiontray",
+          "label": "ansmissiontray"
+        },
+        {
+          "id": "antplay",
+          "label": "antplay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "artifactyay",
+          "label": "artifactyay"
+        },
+        {
+          "id": "echanicalmay",
+          "label": "echanicalmay"
+        },
+        {
+          "id": "edictivepray",
+          "label": "edictivepray"
+        },
+        {
+          "id": "electricalyay",
+          "label": "electricalyay"
+        },
+        {
+          "id": "electronicyay",
+          "label": "electronicyay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "iologicalbay",
+          "label": "iologicalbay"
+        },
+        {
+          "id": "oundationfay-ademay",
+          "label": "oundationfay-ademay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -305,17 +509,50 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-014-PIG efersray otay ayay eciesspay ofyay entientsay igeonspay. SCP-014-PIG instancesyay areyay approximatelyyay 5% argerlay anthay eirthay undanemay ounterpartscay ithway ayay ainbray atthay ashay approximatelyyay 52% oremay euronsnay anthay eirthay undanemay ounterpartscay. Espiteday isthay, eirthay ainsbray areyay ysicallyphay ethay amesay izesay. SCP-014-PIG instancesyay avehay argerlay ingsway andyay ethay abilityyay otay aspgray objectsyay ithoutway ifficultyday. SCP-014-PIG instances",
       "tags": [
-        "aliveyay",
-        "animalyay",
-        "apientsay",
-        "eciesspay",
-        "eterkay",
-        "extradimensionalyay",
-        "igeonpay-eliveryday-ervicesay",
-        "irdbay",
-        "itewhay",
-        "oink-5-ouncilcay",
-        "orestfay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "eciesspay",
+          "label": "eciesspay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "extradimensionalyay",
+          "label": "extradimensionalyay"
+        },
+        {
+          "id": "igeonpay-eliveryday-ervicesay",
+          "label": "igeonpay-eliveryday-ervicesay"
+        },
+        {
+          "id": "irdbay",
+          "label": "irdbay"
+        },
+        {
+          "id": "itewhay",
+          "label": "itewhay"
+        },
+        {
+          "id": "oink-5-ouncilcay",
+          "label": "oink-5-ouncilcay"
+        },
+        {
+          "id": "orestfay",
+          "label": "orestfay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -340,11 +577,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-020-PIG efersray otay ayay owntay ocatedlay inyayEwnay Erseyjay, Unitedyay Atesstay.\nSCP-020-PIG ouseshay ayay opulationpay ofyay approximatelyyay 10,000 eoplepay andyay esemblesray ayay andardstay Americanyay uburbansay owntay. Oneyay eykay ifferenceday, oweverhay, isyay atthay everyyay inglesay esidentialray omehay ithinway SCP-020-PIG ookslay ethay amesay. Otheryay indskay ofyay uildingsbay, uchsay asyay ommercialcay uildingsbay andyay owntay ervicessay, alsoyay ooklay ethay amesay asyay",
       "tags": [
-        "aumielthay",
-        "exchangeyay",
-        "itycay",
-        "mr-oyerray",
-        "ooplay"
+        {
+          "id": "aumielthay",
+          "label": "aumielthay"
+        },
+        {
+          "id": "exchangeyay",
+          "label": "exchangeyay"
+        },
+        {
+          "id": "itycay",
+          "label": "itycay"
+        },
+        {
+          "id": "mr-oyerray",
+          "label": "mr-oyerray"
+        },
+        {
+          "id": "ooplay",
+          "label": "ooplay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -369,17 +621,50 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-023-PIG efersray otay ayay odifiedmay Aberg\u00e9fay eggyay.\nEthay exterioryay ofyay SCP-023-PIG isyay onnay-anomalousyay. Itsyay anomalousyay effectsyay onlyyay anifestmay uponyay openingyay SCP-023-PIG. Onceyay SCP-023-PIG isyay openyay, everyyay 15 econdssay ayay allsmay umanoidhay ickenchay illway appearyay, ereafterhay eferredray otay asyay SCP-023-PIG-1. Enwhay anyay SCP-023-PIG-1 instanceyay anifestsmay, ityay illway oday ethay ollowingfay:\n\nOoklay aroundyay otay indfay oeverwhay isyay old",
       "tags": [
-        "afesay",
-        "aliveyay",
-        "animalyay",
-        "apientsay",
-        "artisticyay",
-        "eciesspay",
-        "igeonpay-eliveryday-ervicesay",
-        "irdbay",
-        "oinksyay",
-        "uckclay-initiativeyay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "artisticyay",
+          "label": "artisticyay"
+        },
+        {
+          "id": "eciesspay",
+          "label": "eciesspay"
+        },
+        {
+          "id": "igeonpay-eliveryday-ervicesay",
+          "label": "igeonpay-eliveryday-ervicesay"
+        },
+        {
+          "id": "irdbay",
+          "label": "irdbay"
+        },
+        {
+          "id": "oinksyay",
+          "label": "oinksyay"
+        },
+        {
+          "id": "uckclay-initiativeyay",
+          "label": "uckclay-initiativeyay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -404,12 +689,30 @@
       "rating": -1,
       "descriptionExcerpt": "SCP-026-PIG is yay ayay on-euclideannay orridorcay ocatedlay eneathbay anyay abandonedyay arehouseway inyay [REDACTED] ethay orridorcay appearsyay asyay ayay eriessay ofyay oorsday eachyay eadinglay otay anotheryay egmentsay ofyay ethay orridorcay eatingcray anyay endlessyay ooplay.",
       "tags": [
-        "arrativenay",
-        "esotericyay-assclay",
-        "etamay",
-        "ocationlay",
-        "onceptcay",
-        "uildingbay"
+        {
+          "id": "arrativenay",
+          "label": "arrativenay"
+        },
+        {
+          "id": "esotericyay-assclay",
+          "label": "esotericyay-assclay"
+        },
+        {
+          "id": "etamay",
+          "label": "etamay"
+        },
+        {
+          "id": "ocationlay",
+          "label": "ocationlay"
+        },
+        {
+          "id": "onceptcay",
+          "label": "onceptcay"
+        },
+        {
+          "id": "uildingbay",
+          "label": "uildingbay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -434,11 +737,26 @@
       "rating": 3,
       "descriptionExcerpt": "SCP-039-PIG isyay ayay emalefay umanoidhay atthay isyay isiblyvay ineteennay earsyay oldyay, oweverhay ityay ashay otnay agedyay inyay Oundationfay ustodycay. Atyay allyay imestay, SCP-039-PIG isyay unconsciousyay oweverhay ityay isyay ossiblepay otay ommunicatecay ithway ityay. SCP-039-PIG isyay ableyay otay earhay eechspay andyay understandyay ityay. Ethay onlyyay ownknay ethodmay ofyay eceivingray SCP-039-PIG's epliesray isyay ybay analyzingyay itsyay ainbray aveway atternspay. Esethay ainbra",
       "tags": [
-        "aliveyay",
-        "entientsay",
-        "eterkay",
-        "ocay-authoredyay",
-        "umanoidhay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "entientsay",
+          "label": "entientsay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "ocay-authoredyay",
+          "label": "ocay-authoredyay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -463,12 +781,30 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-075-PIG isyay ayay otway-etermay-alltay alemay umanoidhay atthay earsway arkday ueblay antspay ithway ayay ightlay ueblay irtshay. Ityay ashay anyay innateyay ensesay ofyay erewhay iamondsday areyay undergroundyay andyay iestray otay inemay asyay anymay asyay ityay ancay. Ityay illway eatecray iningmay unnelstay atthay areyay oneyay etermay ybay otway etersmay, iningmay ayay oneyay etermay ybay oneyay etermay ubecay atyay ayay imetay. Ityay oesday otnay eednay otay eatyay oryay inkdray andya",
       "tags": [
-        "aliveyay",
-        "apientsay",
-        "eleportationtay",
-        "esotericyay-assclay",
-        "umanoidhay",
-        "uncontainedyay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "eleportationtay",
+          "label": "eleportationtay"
+        },
+        {
+          "id": "esotericyay-assclay",
+          "label": "esotericyay-assclay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        },
+        {
+          "id": "uncontainedyay",
+          "label": "uncontainedyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -493,11 +829,26 @@
       "rating": 5,
       "descriptionExcerpt": "SCP-080-PIG isyay ayay enomenonphay affectingyay ethay Ussay omesticusday1 opulationpay, ereinwhay embersmay ontaneouslyspay owgray ayay airpay ofyay ingsway. Ethay ingsway aryvay inyay engthlay ependingday onyay ethay ecimen'sspay izesay, isplayingday ayay ideway angeray ofyay ovementmay ithway inimalmay issuesyay. Osethay affectedyay areyay ownshay otay ossesspay immenseyay exterityday utilizingyay esethay appendagesyay, eingbay ableyay otay iftlay emselvesthay offyay ethay oundgray andyay ane",
       "tags": [
-        "tag-df4660e8c83fb21edd6f79c0",
-        "airborneyay",
-        "aliveyay",
-        "animalyay",
-        "euclidyay"
+        {
+          "id": "tag-df4660e8c83fb21edd6f79c0",
+          "label": "100-pig"
+        },
+        {
+          "id": "airborneyay",
+          "label": "airborneyay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -522,13 +873,34 @@
       "rating": 9,
       "descriptionExcerpt": "SCP-100-PIG isway away argelay areaway, easuringmay 45,000 ubiccay etersmay, ocatedlay inway ethay outskirtsway ofway Avariabay, Ermanygay. Ilewhay otherwiseway undanemay inway othbay appearanceway andway aturalnay unctionsfay, SCP-100-PIG isway emarkableray orfay itsway atusstay asway ethay onlyway ointpay onway ethay anetplay ichwhay isway incapableway ofway ustainingsay anyway einleinhay adiationray ithinway itsway onfinescay. Ueday otay isthay, umanhay ubjectssay areway invariablyway incapab",
       "tags": [
-        "tag-df4660e8c83fb21edd6f79c0",
-        "abnormalitiesyay",
-        "emporaltay",
-        "entropicyay",
-        "esotericyay-assclay",
-        "immobileyay",
-        "ocationlay"
+        {
+          "id": "tag-df4660e8c83fb21edd6f79c0",
+          "label": "100-pig"
+        },
+        {
+          "id": "abnormalitiesyay",
+          "label": "abnormalitiesyay"
+        },
+        {
+          "id": "emporaltay",
+          "label": "emporaltay"
+        },
+        {
+          "id": "entropicyay",
+          "label": "entropicyay"
+        },
+        {
+          "id": "esotericyay-assclay",
+          "label": "esotericyay-assclay"
+        },
+        {
+          "id": "immobileyay",
+          "label": "immobileyay"
+        },
+        {
+          "id": "ocationlay",
+          "label": "ocationlay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -553,12 +925,30 @@
       "rating": 3,
       "descriptionExcerpt": "SCP-102-PIG isyay anyay ornateyay indyay-upyay antelmay ockclay omposedcay ofyay oldgay-aintedpay assbray. Ethay ainmay odybay ofyay ethay ockclay isyay apedshay ikelay ayay ornucopiacay, ithyay atuettesstay ofyay Istianchray erubimchay uspendedsay aboveyay ityay ybay ethay useyay ofyay allsmay ironyay olespay, ichwhay extendyay ownwardsday andyay intoyay ethay ainmay odybay. Enwhay initiallyyay iscoveredday, SCP-102-PIG ossessedpay ayay imensionalday iscrepancyday etweenbay itsyay interioryay a",
       "tags": [
-        "tag-df4660e8c83fb21edd6f79c0",
-        "acousticyay",
-        "artifactyay",
-        "atialspay",
-        "eutralizednay",
-        "utbay-ayay-eamdray"
+        {
+          "id": "tag-df4660e8c83fb21edd6f79c0",
+          "label": "100-pig"
+        },
+        {
+          "id": "acousticyay",
+          "label": "acousticyay"
+        },
+        {
+          "id": "artifactyay",
+          "label": "artifactyay"
+        },
+        {
+          "id": "atialspay",
+          "label": "atialspay"
+        },
+        {
+          "id": "eutralizednay",
+          "label": "eutralizednay"
+        },
+        {
+          "id": "utbay-ayay-eamdray",
+          "label": "utbay-ayay-eamdray"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -583,12 +973,30 @@
       "rating": 5,
       "descriptionExcerpt": "SCP-199-PIG asway ayay assclay 5 Eigenmachineyay1 atthay affectedyay ethay Internationalyay SCP Oundationfay atabaseday orfay ayay eriodpay ofyay eethray onthsmay, omfray Aprilyay 19thay, 2024, otay Ulyjay 19thay, 2024.\nSCP-199-PIG asway initiallyyay esignedday ybay ethay Igpay Atinlay anchbray asyay ayay ooltay otay easilyyay onvertcay ertaincay Internationalyay Anchbray agespay eensay asyay essentialyay immediatelyyay otay Igpay Atinlay. Unfortunatelyyay, ueday otay ayay echanicalmay oversight",
       "tags": [
-        "tag-df4660e8c83fb21edd6f79c0",
-        "aaronyay-iegelsay",
-        "eutralizednay",
-        "oink-5-ouncilcay",
-        "ooltay",
-        "oundationfay-ademay"
+        {
+          "id": "tag-df4660e8c83fb21edd6f79c0",
+          "label": "100-pig"
+        },
+        {
+          "id": "aaronyay-iegelsay",
+          "label": "aaronyay-iegelsay"
+        },
+        {
+          "id": "eutralizednay",
+          "label": "eutralizednay"
+        },
+        {
+          "id": "oink-5-ouncilcay",
+          "label": "oink-5-ouncilcay"
+        },
+        {
+          "id": "ooltay",
+          "label": "ooltay"
+        },
+        {
+          "id": "oundationfay-ademay",
+          "label": "oundationfay-ademay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -613,8 +1021,14 @@
       "rating": null,
       "descriptionExcerpt": "ETHAY OLLOWINGFAY ILESFAY AVEHAY EENBAY ASSIFIEDCLAY OPTAY ECRETSAY YBAY ORDERYAY OFYAY ETHAY ADMINISTRATORYAY ENERALGAY OTICENAYT 001-Alphayay: Inyay orderyay otay eventpray owledgeknay ofyay SCP-001 omfray eingbay eakedlay, everalsay/onay alsefay SCP-001 ilesfay avehay eenbay eatedcray alongsideyay ethay uetray ilefay/ilesfay. Allyay ilesfay oncerningcay ethay aturenay ofyay SCP-001, includingyay ethay ecoyday/ecoysday, areyay otectedpray ybay ayay emeticmay illkay agentyay esignedday otay imm",
       "tags": [
-        "etadatamay",
-        "ubhay"
+        {
+          "id": "etadatamay",
+          "label": "etadatamay"
+        },
+        {
+          "id": "ubhay",
+          "label": "ubhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -665,10 +1079,22 @@
       "rating": 3,
       "descriptionExcerpt": "SCP-002 esemblesray ayay umoroustay, eshyflay owthgray ithway ayay olumevay ofyay oughlyray 60 m\u00b3 (oryay 2000 ft\u00b3). Anyay ironyay alvevay atchhay onyay oneyay idesay eadslay otay itsyay interioryay, ichwhay appearsyay otay ebay ayay andardstay owlay-entray apartmentyay ofyay odestmay izesay. Oneyay allway ofyay ethay oomray ossessespay ayay inglesay indowway, oughthay onay uchsay openingyay isyay isiblevay omfray ethay exterioryay. Ethay oomray ontainscay urniturefay ichwhay, uponyay oseclay exa",
       "tags": [
-        "aliveyay",
-        "ansfigurationtray",
-        "euclidyay",
-        "ucturestray"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ucturestray",
+          "label": "ucturestray"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -749,20 +1175,62 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-003 onsistscay ofyay otway elatedray omponentscay ofyay eparatesay originyay, eferredray otay asyay SCP-003-1 andyay SCP-003-2.\nSCP-003-1 appearsyay otay ebay omposedcay ofyay itinchay, airhay, andyay ailsnay ofyay unknownyay iologybay, arrangedyay inyay ayay onfigurationcay imilarsay otay atthay ofyay ayay omputercay otherboardmay. Estingtay evealsray SCP-003-1 otay edatepray earliestyay ownknay ircuitcay oardsbay ybay ayay actorfay ofyay ousandsthay ofyay earsyay. SCP-003-1 isyay onsidered",
       "tags": [
-        "adioactiveray",
-        "aliveyay",
-        "ansfigurationtray",
-        "eateredfay",
-        "elepathictay",
-        "elfsay-eplicatingray",
-        "ermalthay",
-        "euclidyay",
-        "ewriteray",
-        "indmay-affectingyay",
-        "iologicalbay",
-        "irectorday-oosemay",
-        "k-assclay-enarioscay",
-        "omputercay"
+        {
+          "id": "adioactiveray",
+          "label": "adioactiveray"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "eateredfay",
+          "label": "eateredfay"
+        },
+        {
+          "id": "elepathictay",
+          "label": "elepathictay"
+        },
+        {
+          "id": "elfsay-eplicatingray",
+          "label": "elfsay-eplicatingray"
+        },
+        {
+          "id": "ermalthay",
+          "label": "ermalthay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ewriteray",
+          "label": "ewriteray"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "iologicalbay",
+          "label": "iologicalbay"
+        },
+        {
+          "id": "irectorday-oosemay",
+          "label": "irectorday-oosemay"
+        },
+        {
+          "id": "k-assclay-enarioscay",
+          "label": "k-assclay-enarioscay"
+        },
+        {
+          "id": "omputercay",
+          "label": "omputercay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -812,8 +1280,14 @@
       "rating": 0,
       "descriptionExcerpt": "Inyay appearanceyay, SCP-005 esemblesray anyay ornateyay eykay, isplayingday ethay aracteristicschay ofyay ayay ypicaltay assmay oducedpray eykay usedyay inyay ethaye 1920s. Ethay eykay asway iscoveredday enwhay ayay iviliancay usedyay ityay otay infiltrateyay ayay ighhay ecuritysay acilityfay. SCP-005 eemssay otay avehay ethay uniqueyay abilityyay otay openyay anyyay andyay allyay ormsfay ofyay ocklay (Eesay Appendixyay A), ebay eythay echanicalmay oryay igitalday, ithway elativeray easeyay. Et",
       "tags": [
-        "adaptiveyay",
-        "afesay"
+        {
+          "id": "adaptiveyay",
+          "label": "adaptiveyay"
+        },
+        {
+          "id": "afesay",
+          "label": "afesay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -894,11 +1368,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-006 isyay ayay eryvay allsmay ingspray ocatedlay 60 km estway ofyay Astrakhanyay. Oundationfay Pmmandcay asway awareyay ofyay itsyay existenceyay incesay ethay 19th enturycay, utbay ereway unableyay otay ecuresay ityay untilyay 1991 ueday otay oliticalpay easonsray. Onyay ethay otspay ofyay ethay ingspray, ayay emicalchay actoryfay ashay eenbay onstructedcay asyay ayay isguiseday, ithway ethay ajoritymay ofyay aborerslay underyay Oundationfay andyay/oryay Ussianray ontrolcay. Ethay iquidlay",
       "tags": [
-        "afesay",
-        "edicalmay",
-        "elfsay-epairingray",
-        "iquidlay",
-        "ocationlay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "edicalmay",
+          "label": "edicalmay"
+        },
+        {
+          "id": "elfsay-epairingray",
+          "label": "elfsay-epairingray"
+        },
+        {
+          "id": "iquidlay",
+          "label": "iquidlay"
+        },
+        {
+          "id": "ocationlay",
+          "label": "ocationlay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -977,11 +1466,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-007 isyay ocatedlay ithinway ayay avitycay inyay ethay abdomenyay ofyay Ubjectsay. Ubjectsay isyay ayay Aucasiancay alemay, ysicallyphay approximatelyyay 25 earsyay ofyay ageyay (ubjectsay aimsclay otay ebay 28) andyay 176 cm inyay eighthay. Ostmay ofyay Ubject'ssay abdomenyay (usclesmay, inskay, andyay organsyay) isyay absentyay, oughthay Ubjectsay oesday otnay appearyay otay uffersay ecausebay ofyay isthay. Insteadyay ofyay ormalnay eshflay, ayay eresphay omposedcay ofyay oilsay andyay ate",
       "tags": [
-        "aliveyay",
-        "anetplay",
-        "euclidyay",
-        "iniaturemay",
-        "umanoidhay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "anetplay",
+          "label": "anetplay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "iniaturemay",
+          "label": "iniaturemay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1030,12 +1534,30 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-011 isyay ayay Ivilcay Arway emorialmay atuestay ocatedlay inyay Oodstockway, Ermontvay. Ethay atuestay isyay ethay imageyay ofyay ayay oungyay alemay oldiersay oldinghay ayay usketmay atyay ishay idesay, andyay isyay arvedcay outyay ofyay anitegray uarriedqay ithinway ethay areayay. Occasionallyyay, SCP-011 ashay eenbay observedyay iftinglay itsyay usketmay otay ethay yskay otay irefay atyay irdsbay ichwhay attemptyay otay andlay oryay efecateday onyay ityay. Eportsray etailday atthay itsya",
       "tags": [
-        "afesay",
-        "apientsay",
-        "autonomousyay",
-        "ilitarymay",
-        "ulpturescay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "autonomousyay",
+          "label": "autonomousyay"
+        },
+        {
+          "id": "ilitarymay",
+          "label": "ilitarymay"
+        },
+        {
+          "id": "ulpturescay",
+          "label": "ulpturescay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1112,13 +1634,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-012 asway etrievedray ybay Archaeologistyay K.M. Andovalsay uringday ethay excavationyay ofyay ayay orthernnay Italianyay ombtay estroyedday inyay ayay ecentray ormstay. Ethay objectyay, ayay iecepay ofyay andwrittenhay usicalmay orescay entitledyay \"Onyay Ountmay Olgothagay\", artpay ofyay ayay argerlay etsay ofyay eetshay usicmay, appearsyay otay ebay incompleteyay. Ethay edray/ackblay inkyay, irstfay oughtthay otay ebay omesay ormfay ofyay errybay oryay aturalnay yeday inkyay, asway aterla",
       "tags": [
-        "euclidyay",
-        "indmay-affectingyay",
-        "isualvay",
-        "ocumentday",
-        "ognitohazardcay",
-        "oodblay",
-        "usicalmay"
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "isualvay",
+          "label": "isualvay"
+        },
+        {
+          "id": "ocumentday",
+          "label": "ocumentday"
+        },
+        {
+          "id": "ognitohazardcay",
+          "label": "ognitohazardcay"
+        },
+        {
+          "id": "oodblay",
+          "label": "oodblay"
+        },
+        {
+          "id": "usicalmay",
+          "label": "usicalmay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1165,10 +1708,22 @@
       "rating": 0,
       "descriptionExcerpt": "SCP-015 isyay ayay assmay ofyay ipespay, entsvay, oilersbay andyay otheryay ariousvay umbingplay apparatusyay ompletelycay illingfay ayay arehouseway inyay \u2588\u2588\u2588\u2588\u2588\u2588\u2588. Ethay ipespay appearyay otay owgray enwhay otnay underyay observationyay, attemptingyay otay onnectcay otay earbynay ucturesstray iavay ewersaw ystemssay andyay undergroundyay umbingplay. SCP-015 ontainscay, atyay urrentcay estimateyay, overyay 190 ilometerskay (120 ilesmay) ofyay ipespay, angingray inyay iameterday omfray 2.5 cm ota",
       "tags": [
-        "autonomousyay",
-        "elfsay-epairingray",
-        "euclidyay",
-        "ucturestray"
+        {
+          "id": "autonomousyay",
+          "label": "autonomousyay"
+        },
+        {
+          "id": "elfsay-epairingray",
+          "label": "elfsay-epairingray"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ucturestray",
+          "label": "ucturestray"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1214,11 +1769,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-017 isyay ayay umanoidhay igurefay approximatelyyay 80 entimeterscay inyay eighthay, anatomicallyyay imilarsay otay ayay allsmay ildchay, utbay ithway onay iscernibleday identifyingyay eaturesfay. SCP-017 eemssay otay ebay omposedcay ofyay ayay adowyshay, okesmay-ikelay oudshray. Onay attemptyay otay indfay anyyay objectyay eneathbay ethay oudshray ashay eenbay uccessfulsay, utbbay ethay ossibilitypay ashay otnay eenbay uledray outyay.\nSCP-017's eactionray otay adowsshay astcay uponyay ityay",
       "tags": [
-        "adowshay",
-        "eterkay",
-        "ightlay",
-        "ostilehay",
-        "umanoidhay"
+        {
+          "id": "adowshay",
+          "label": "adowshay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "ightlay",
+          "label": "ightlay"
+        },
+        {
+          "id": "ostilehay",
+          "label": "ostilehay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1295,10 +1865,22 @@
       "rating": 0,
       "descriptionExcerpt": "SCP-018 ashay ethay appearanceyay ofyay ayay Upersay Allbay ademay ybay ethay Am-Owhay ompanycay inyay 1969. Ityay isyay ixsay (6) entimeterscay inyay iameterday andyay olouredcay edray. Oundfay enwhay ethay \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 ompanycay asway iredhay otay eanclay outyay ayay arehouseway atthay adhay Am-Owhay erchandisemay inyay ityay, SCP-018 asway otednay otay ebay ableyay otay ouncebay ithway extremeyay eighthay. Atyay irstfay oughtthay otay ebay ayay easantplay ild'schay oytay, SCP-018 asway ableyay",
       "tags": [
-        "ectoentropicyay",
-        "erespay",
-        "euclidyay",
-        "oytay"
+        {
+          "id": "ectoentropicyay",
+          "label": "ectoentropicyay"
+        },
+        {
+          "id": "erespay",
+          "label": "erespay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "oytay",
+          "label": "oytay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1375,10 +1957,22 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-043 appearsyay otay ebay ayay inylvay opycay ofyay \"Ethay Itewhay Albumyay\" ybay ethay Eatlesbay; oweverhay, uponyay oserclay inspectionyay, ethay ecordray ashay onay oovesgray. Inyay itespay ofyay isthay, ethay ecordray illway ayplay omfray artstay otay inishfay egardlessray ofyay ethay artingstay ositionpay ofyay ethay eedlenay.\nEnwhay ethay entytway-inthnay acktray isyay eachedray, insteadyay ofyay ayingplay \"Evolutionray 9\", ethay iscday opsstay inningspay andyay aintfay eathingbray anca",
       "tags": [
-        "afesay",
-        "apientsay",
-        "ediamay",
-        "owledgeknay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "ediamay",
+          "label": "ediamay"
+        },
+        {
+          "id": "owledgeknay",
+          "label": "owledgeknay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1425,18 +2019,54 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.9 etersmay inyay eighthay, ichwhay earsbay ethay appearanceyay ofyay ayay edievalmay agueplay octorday. Ilewhay SCP-049 appearsyay otay ebay earingway ethay ickthay obesray andyay ethay eramiccay askmay indicativeyay ofyay atthay ofessionpray, ethay armentsgay insteadyay eemsay otay avehay owngray outyay ofyay SCP-049's odybay overyay imetay1, andyay areyay ownay earlynay indistinguishableyay omfray ateverwhay ormfay isyay eneathbay emthay. X-",
       "tags": [
-        "actiletay",
-        "agueplay-octorday",
-        "apientsay",
-        "audioyay",
-        "eanimationray",
-        "emicalchay",
-        "euclidyay",
-        "ewriteray",
-        "iologicalbay",
-        "ocay-authoredyay",
-        "ontagioncay",
-        "umanoidhay"
+        {
+          "id": "actiletay",
+          "label": "actiletay"
+        },
+        {
+          "id": "agueplay-octorday",
+          "label": "agueplay-octorday"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "audioyay",
+          "label": "audioyay"
+        },
+        {
+          "id": "eanimationray",
+          "label": "eanimationray"
+        },
+        {
+          "id": "emicalchay",
+          "label": "emicalchay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ewriteray",
+          "label": "ewriteray"
+        },
+        {
+          "id": "iologicalbay",
+          "label": "iologicalbay"
+        },
+        {
+          "id": "ocay-authoredyay",
+          "label": "ocay-authoredyay"
+        },
+        {
+          "id": "ontagioncay",
+          "label": "ontagioncay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1482,11 +2112,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-050 appearsyay otay ebay ayay atuestay ofyay ayay onkeymay eadingray ayay ookbay, approximatelyyay 1 ootfay3 alltay. Onyay ethay ottombay ofyay ethay atuestay areyay engravedyay ethay ordsway \"To The Cleverest\"4 inyay ursivecay iptscray.\nEthay atuestay ashay osay arfay ovenpray esistantray otay allyay ormsfay ofyay amageday5. Asyay uchsay, erethay isyay onay accurateyay ethodmay otay ateday ethay objectyay.\nEnwhay eftlay aloneyay, SCP-050 ashay ownshay itselfyay otay ebay othbay usefulyay an",
       "tags": [
-        "apientsay",
-        "euclidyay",
-        "imatepray",
-        "indestructibleyay",
-        "ulpturescay"
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "imatepray",
+          "label": "imatepray"
+        },
+        {
+          "id": "indestructibleyay",
+          "label": "indestructibleyay"
+        },
+        {
+          "id": "ulpturescay",
+          "label": "ulpturescay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1528,14 +2173,38 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-053 appearsyay otay ebay ayay allsmay 3-earyay-oldyay irlgay. Eshay isyay apablecay ofyay asicbay eechspay andyay appearsyay otay ebay ightlyslay aboveyay averageyay inyay entalmay evelopmentday. Eshay ashay ayay enerallygay easantplay ersonalitypay andyay arelyray eemssay upsetyay, ecomingbay agitatedyay onlyyay inyay ethay esencepray ofyay oupsgray ofyay eoplepay.\nAnyyay andyay allyay umanshay overyay ethay ageyay ofyay eethray owhay akemay eyeyay ontactcay ithway, ysicallyphay ouchtay, or",
       "tags": [
-        "actiletay",
-        "aliveyay",
-        "apientsay",
-        "euclidyay",
-        "indmay-affectingyay",
-        "isualvay",
-        "ognitohazardcay",
-        "umanoidhay"
+        {
+          "id": "actiletay",
+          "label": "actiletay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "isualvay",
+          "label": "isualvay"
+        },
+        {
+          "id": "ognitohazardcay",
+          "label": "ognitohazardcay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1611,13 +2280,34 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-055 isyay ayay \"elfsay-eepingkay ecretsay\" oryay \"antiyay-ememay\". Informationyay aboutyay SCP-055's ysicalphay appearanceyay asyay ellway asyay itsyay aturenay, ehaviorbay, andyay originsyay isyay elfsay-assifyingclay. Otay arifyclay:\n\nOwhay Itesay 19 originallyyay acquiredyay SCP-055 isyay unknownyay.\n\n\nEnwhay SCP-055 asway obtainedyay, andyay ybay omwhay, isyay unknownyay.\n\n\nSCP-055's icalphisay appearanceyay isyay unknownyay. Ityay isyay otnay indescribableyay, oryay invisibleyay: indivi",
       "tags": [
-        "antimemeticyay",
-        "eaturedfay",
-        "emorymay-affectingyay",
-        "eterkay",
-        "etmay",
-        "infohazardyay",
-        "ocay-authoredyay"
+        {
+          "id": "antimemeticyay",
+          "label": "antimemeticyay"
+        },
+        {
+          "id": "eaturedfay",
+          "label": "eaturedfay"
+        },
+        {
+          "id": "emorymay-affectingyay",
+          "label": "emorymay-affectingyay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "etmay",
+          "label": "etmay"
+        },
+        {
+          "id": "infohazardyay",
+          "label": "infohazardyay"
+        },
+        {
+          "id": "ocay-authoredyay",
+          "label": "ocay-authoredyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1664,13 +2354,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-062 appearsyay otay ebay anyay unbrandedyay ersonalpay esktopday omputercay ousedhay inyay anyay aluminumyay asecay ofyay indeterminateyay anufacturemay. SCP-062 isyay unusuallyyay eavyhay atyay approximatelyyay 24kg, andyay ackslay anufacturingmay oryay andingbray abelslay ofyay anyyay indkay. Ethay ordsway \"infomationyay isyay eedomfray [sic]\" ereway oundfay atchedscray intoyay ethay asingcay earnay ethay ackbay, apparentlyyay ithway ayay eykay oryay imilarsay objectyay.\nInspectionyay ofya",
       "tags": [
-        "anguagelay",
-        "electronicyay",
-        "euclidyay",
-        "ewriteray",
-        "extradimensionalyay",
-        "omputercay",
-        "owledgeknay"
+        {
+          "id": "anguagelay",
+          "label": "anguagelay"
+        },
+        {
+          "id": "electronicyay",
+          "label": "electronicyay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ewriteray",
+          "label": "ewriteray"
+        },
+        {
+          "id": "extradimensionalyay",
+          "label": "extradimensionalyay"
+        },
+        {
+          "id": "omputercay",
+          "label": "omputercay"
+        },
+        {
+          "id": "owledgeknay",
+          "label": "owledgeknay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1714,10 +2425,22 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-063 appearsyay otay ebay anyay averageyay, alepay ueblay oothbrushtay. Enciledstay alongyay ethay idesay ofyay ethay objectyay areyay ethay ordsway \u201cEthay Orld'sway Estbay OthBrushthay [icsay]\u201d. Ethay ordway \"oothbrushtay\" isyay elledspay incorrectlyyay, oughthay etherwhay isthay asway accidentalyay oryay ayay urposefulpay actionyay ybay ethay eatorscray ofyay ethay objectyay isyay unknownyay. SCP-063 isplaysday ethay abilityyay otay effortlesslyyay eaveclay oughthray anyyay andyay allyay ea",
       "tags": [
-        "adioactiveray",
-        "afesay",
-        "ectoentropicyay",
-        "ooltay"
+        {
+          "id": "adioactiveray",
+          "label": "adioactiveray"
+        },
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "ectoentropicyay",
+          "label": "ectoentropicyay"
+        },
+        {
+          "id": "ooltay",
+          "label": "ooltay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1793,11 +2516,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-075 esemblesray ayay argelay ailsnay 20 cm inyay engthlay, 13 cm inyay idthway, andyay 15 cm inyay eighthay, ithway ayay uscularmay ootfay esemblingray ayay ixsay-ingeredfay, awedclay andhay. SCP-075 isyay exceptionallyyay eavyhay, ithway ayay assmay ofyay approximatelyyay 860 kg, ayay opertypray atthay isyay otnay understoodyay. Esiccationday isyay ethay onlyyay ownknay eansmay ofyay ontainingcay SCP-075, asyay ityay illway enteryay ayay ormantday atestay enwhay earlynay ompletelycay ydray.",
       "tags": [
-        "aliveyay",
-        "edatorypray",
-        "euclidyay",
-        "ewriteray",
-        "orrosivecay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "edatorypray",
+          "label": "edatorypray"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ewriteray",
+          "label": "ewriteray"
+        },
+        {
+          "id": "orrosivecay",
+          "label": "orrosivecay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1842,11 +2580,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-094 appearsyay otay ebay ayay erfectlypay ackblay eresphay, 163 cm inyay iameterday, uspendedsay approximatelyyay 3 m offyay ethay oundgray ithway onay apparentyay eansmay ofyay upportsay. SCP-094 ashay eenbay assifiedclay asyay ayay iniaturemay eventyay orizonhay: anyyay attermay atthay ovesmay intoyay SCP-094, includingyay ightlay, isyay irretrievablyyay onegay. Oweverhay, SCP-094 isyay otnay ayay ackblay olehay incesay ityay oesday otnay exertyay ayay avitationalgray ullpay.\nSCP-094 ashay",
       "tags": [
-        "acousticyay",
-        "atialspay",
-        "erespay",
-        "eterkay",
-        "ewriteray"
+        {
+          "id": "acousticyay",
+          "label": "acousticyay"
+        },
+        {
+          "id": "atialspay",
+          "label": "atialspay"
+        },
+        {
+          "id": "erespay",
+          "label": "erespay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "ewriteray",
+          "label": "ewriteray"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1890,13 +2643,34 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-096 isyay ayay umanoidhay eaturecray easuringmay approximatelyyay 2.38 etersmay inyay eighthay. Ubjectsay owsshay eryvay ittlelay usclemay assmay, ithway eliminarypray analysisyay ofyay odybay assmay uggestingsay ildmay alnutritionmay. Armsyay areyay osslygray outyay ofyay oportionpray ithway ethay estray ofyay ethay ubject'ssay odybay, ithway anyay approximateyay engthlay ofyay 1.5 etersmay eachyay. Inskay isyay ostlymay evoidday ofyay igmentationpay, ithway onay ignsay ofyay anyyay odybay",
       "tags": [
-        "aliveyay",
-        "euclidyay",
-        "isualvay",
-        "octorday-anday",
-        "ognitohazardcay",
-        "umanoidhay",
-        "yshay-uygay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "isualvay",
+          "label": "isualvay"
+        },
+        {
+          "id": "octorday-anday",
+          "label": "octorday-anday"
+        },
+        {
+          "id": "ognitohazardcay",
+          "label": "ognitohazardcay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        },
+        {
+          "id": "yshay-uygay",
+          "label": "yshay-uygay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1944,11 +2718,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-104 isyay ayay eresphay, 35.5 cm (14 in) aroundyay andyay eighingway 2.3 kg (5 lbs). Ethay outsideyay isyay assglay andyay eryvay oothsmay, oatingcay ethay eresphay inyay ayay ayerlay 6 mm (0.2 in) ickthay. Underyay isthay ayerlay isyay anyay extremelyyay intricateyay esignday ofyay eryvay inthay ackblay andyay itewhay ineslay. Isthay inneryay \u201corecay\u201d isyay ayay elicatelyday arvedcay allbay ofyay oodway, ivinggay lightsay exturetay otay ethay inelay esignday. Ethay esignday itselfyay isyay",
       "tags": [
-        "autonomousyay",
-        "eleportaiontay",
-        "elfsay-epariringray",
-        "eresphay",
-        "euclidyay"
+        {
+          "id": "autonomousyay",
+          "label": "autonomousyay"
+        },
+        {
+          "id": "eleportaiontay",
+          "label": "eleportaiontay"
+        },
+        {
+          "id": "elfsay-epariringray",
+          "label": "elfsay-epariringray"
+        },
+        {
+          "id": "eresphay",
+          "label": "eresphay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1992,10 +2781,22 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-115-1 isyay ayay oytay umpday ucktray , ithway onay identifyingyay arkersmay oryay abelslay otay identifyyay itsyay originalyay anufacturermay . oweverhay , unlikeyay egularray oytay umpday uckstray , SCP-115-1 eighsway asyay uchmay asyay ethay actualyay ehiclevay ityay epresentsray , oughlyray 90 onstay . ityay isyay urrentlycay unknownyay owhay ethay ehiclevay eighsway isthay uchmay , asyay analysisyay ofyay SCP-115-1's ompositioncay evealsray atthay ityay isyay ademay ofyay ethay amesay o",
       "tags": [
-        "afesay",
-        "ehiclevay",
-        "iniaturemay",
-        "oytay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "ehiclevay",
+          "label": "ehiclevay"
+        },
+        {
+          "id": "iniaturemay",
+          "label": "iniaturemay"
+        },
+        {
+          "id": "oytay",
+          "label": "oytay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2040,9 +2841,18 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-124 isyay ayay otplay ofyay oilsay approximatelyyay 9 m2 inyay areayay andyay 14 m3 inyay izesay. Ityay asay ecoveredray omfray ayay Etroitday asementbay enwhay authoritiesyay ereway otifiednay ofyay otway eenagerstay owinggray argelay amountsyay ofyay arijuanamay.\nSCP-124 ashay ethay abilityyay otay owgray anyyay iologicalbay organismyay otay itsyay ullfay otentialpay inyay ayay elativelyray ortshay amountyay ofyay imetay (ethay engthlay ariesvay accordingyay otay ethay omplexitycay ofyay e",
       "tags": [
-        "ansformationtray",
-        "euclidyay",
-        "iologicalbay"
+        {
+          "id": "ansformationtray",
+          "label": "ansformationtray"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "iologicalbay",
+          "label": "iologicalbay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2085,11 +2895,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-127, uponyay irstfay anceglay, appearsyay otay ebay ayay andardstay MP5K-PDW ubmachinesay ungay. Eststay avehay evealedray atthay asideyay omfray ethay outeryay eelstay andyay olymerpay ellshay, ethay entiretyyay ofyay ethay irearmfay isyay organicyay andyay aliveyay. Ethay eapon'sway ammunitionyay initiallyyay appearedyay otay ebay umanhay-ikelay eethtay. Oweverhay, DNA estingtay ofyay ethay \"ulletsbay\" esultedray inyay onay atchmay otay anyyay ownknay eciesspay onyay Earthyay.\nSCP-127 eatu",
       "tags": [
-        "afesay",
-        "eaponway",
-        "elfsay-epariringray",
-        "entalday",
-        "iologicalbay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "eaponway",
+          "label": "eaponway"
+        },
+        {
+          "id": "elfsay-epariringray",
+          "label": "elfsay-epariringray"
+        },
+        {
+          "id": "entalday",
+          "label": "entalday"
+        },
+        {
+          "id": "iologicalbay",
+          "label": "iologicalbay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2133,11 +2958,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-133 areyay ayay etsay ofyay ixsay undredhay andyay irteenthay (613) ackblay, ircularcay iecespay ofyay ayay axyway, aperpay-ikelay aterialmay 5 cm inyay iameterday. Enwhay acedplay againstyay ayay olidsay urfacesay andyay ubbedray, SCP-133 illway instantaneouslyyay \"ansfertray\" otay ethay urfacesay andyay eatecray ayay ircularcay olehay. Estingtay ashay ownshay atthay SCP-133 isyay apablecay ofyay enetratingpay upyay otay 61 cm ofyay ucturalstray adegray eelstay, oughthay ethay exactyay egre",
       "tags": [
-        "actoryfay",
-        "afesay",
-        "artifactyay",
-        "ectoentropicyay",
-        "ewriteray"
+        {
+          "id": "actoryfay",
+          "label": "actoryfay"
+        },
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "artifactyay",
+          "label": "artifactyay"
+        },
+        {
+          "id": "ectoentropicyay",
+          "label": "ectoentropicyay"
+        },
+        {
+          "id": "ewriteray",
+          "label": "ewriteray"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2180,13 +3020,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-143 isyay ayay antationplay ofyay 300 ecimensspay ofyay ayay uniqueyay ypetay ofyay eetray. Ethay eestray areyay imilarsay inyay appearanceyay otay Prunus x yedoensis (Apanesejay Akurasay), oryay errychay ossomsblay. Eythay earbay onay uitfray, andyay ethay onlyyay ownknay ayway ofyay eproductionray isyay ybay arefulcay \"ownyay ootray\" opagationpray usingyay utcay aplingssay omfray anyay olderyay amplesay.\nEthay etalspay areyay ayay ightlay inkishpay olorcay, ightlyslay anslucenttray, andyay",
       "tags": [
-        "aliveyay",
-        "antplay",
-        "eetray",
-        "epeciesspay",
-        "euclidyay",
-        "eventyay-eaturedfay",
-        "orestfay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "antplay",
+          "label": "antplay"
+        },
+        {
+          "id": "eetray",
+          "label": "eetray"
+        },
+        {
+          "id": "epeciesspay",
+          "label": "epeciesspay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "eventyay-eaturedfay",
+          "label": "eventyay-eaturedfay"
+        },
+        {
+          "id": "orestfay",
+          "label": "orestfay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2228,12 +3089,30 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-154 isyay ayay airpay ofyay implesay onzebray aceletsbray, ompletelycay ircularcay andyay argelay enoughyay otay omfortablycay anghay offyay ethay armyay ofyay ostmay eoplepay. Ectrographspay analysisyay ashay ovenpray atthay ethay itemyay isyay omposedcay entirelyyay ofyay oppercay (85%), intay (11%), arsenicyay (3%), andyay acestray ofyay otheryay ightslay impuritiesyay (<1%).\nEnwhay othbay aceletsbray areyay ornway onyay ethay amesay armyay, andyay ethay earerway oncentratescay onyay emth",
       "tags": [
-        "ansfigurationtray",
-        "eaponway",
-        "eletalskay",
-        "euclidyay",
-        "ewelryjay",
-        "intangibleyay"
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "eaponway",
+          "label": "eaponway"
+        },
+        {
+          "id": "eletalskay",
+          "label": "eletalskay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ewelryjay",
+          "label": "ewelryjay"
+        },
+        {
+          "id": "intangibleyay",
+          "label": "intangibleyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2272,10 +3151,22 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-159 ashay ethay appearanceyay ofyay ayay andardstay eonnay ignsay eadingray 'OPENYAY', ofyay ethay ylestay ommonlycay oundfay inyay allsmay usinessesbay. Enwhay SCP-159 isyay isplayedday oughthray ayay indowway ofyay ayay uildingbay, andyay eactivatedday ybay emovingray ityay omfray ayay andardstay owerpay outletyay1, ethay uildingbay illway ecomebay impossibleyay otay enteryay ybay anyyay eansmay. Ethay ockinglay effectyay easescay immediatelyyay enwhay SCP-159 isyay eattachedray otay ayay",
       "tags": [
-        "afesay",
-        "applianceyay",
-        "electricalyay",
-        "indestructable"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "applianceyay",
+          "label": "applianceyay"
+        },
+        {
+          "id": "electricalyay",
+          "label": "electricalyay"
+        },
+        {
+          "id": "indestructable",
+          "label": "indestructable"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2318,11 +3209,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-162 isyay ayay assmay ofyay ishfay ookshay, ishfay inelay, eedlesnay, issorsscay, andyay otheryay arpshay objectsyay inyay ayay oughray allbay apeshay oseclay otay 2.4 m (8 ft) inyay idthway andyay 2.1 m (7 ft) inyay eighthay. Afteryay eingbay inyay SCP-162's icinityvay, ubjectssay avehay eportedray eelingfay awndray otay ethay objectyay inyay orderyay otay ouchtay ityay. Isthay esireday ancay extendyay orfay everalsay eeksway afteryay eeingsay ethay itemyay, ecomingbay anyay obsessionyay in",
       "tags": [
-        "actiletay",
-        "artifactyay",
-        "euclidyay",
-        "ognitohazardcay",
-        "ompulsioncay"
+        {
+          "id": "actiletay",
+          "label": "actiletay"
+        },
+        {
+          "id": "artifactyay",
+          "label": "artifactyay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ognitohazardcay",
+          "label": "ognitohazardcay"
+        },
+        {
+          "id": "ompulsioncay",
+          "label": "ompulsioncay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2366,13 +3272,34 @@
       "rating": 2,
       "descriptionExcerpt": "Ovedmay otay Itesay-19 1993. Originyay isyay asyay ofyay etyay unknownyay. Ityay isyay onstructedcay omfray oncretecay andyay ebarray ithway acestray ofyay Rylonkay randbay ayspray aintpay. SCP-173 isyay animateyay andyay extremelyyay ostilehay. Ethay objectyay annotcay ovemay ilewhay ithinway ayay irectday inelay ofyay ightsay. Inelay ofyay ightsay ustmay otnay ebay okenbray atyay anyyay imetay ithway SCP-173. Ersonnelpay assignedyay otay enteryay ontainercay areyay instructedyay otay alertyay",
       "tags": [
-        "autonomousyay",
-        "eaturedfay",
-        "ethay-ulpturescay",
-        "euclidyay",
-        "observationalyay",
-        "ostilehay",
-        "ulpturescay"
+        {
+          "id": "autonomousyay",
+          "label": "autonomousyay"
+        },
+        {
+          "id": "eaturedfay",
+          "label": "eaturedfay"
+        },
+        {
+          "id": "ethay-ulpturescay",
+          "label": "ethay-ulpturescay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "observationalyay",
+          "label": "observationalyay"
+        },
+        {
+          "id": "ostilehay",
+          "label": "ostilehay"
+        },
+        {
+          "id": "ulpturescay",
+          "label": "ulpturescay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2427,12 +3354,30 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-183 isyay anyay unknownyay iologicalbay entityyay atthay isyay, orfay allyay intentsyay andyay urposespay, invisibleyay. Evidenceyay ofyay itsyay existenceyay omescay ainlymay inyay ethay ormfay ofyay onofilamentmay iresway ichwhay ethay organismyay apparentlyyay ynthesizessay. Esethay ibersfay areyay extremelyyay inthay andyay urableday; eythay areyay apablecay ofyay icingslay oughthray oftsay issuetay, onebay, andyay evenyay odybay armoryay ithway eryvay ittlelay orcefay. Oupledcay ithway",
       "tags": [
-        "acousticyay",
-        "autonomousyay",
-        "edatorypray",
-        "euclidyay",
-        "intangibleyay",
-        "usicalmay"
+        {
+          "id": "acousticyay",
+          "label": "acousticyay"
+        },
+        {
+          "id": "autonomousyay",
+          "label": "autonomousyay"
+        },
+        {
+          "id": "edatorypray",
+          "label": "edatorypray"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "intangibleyay",
+          "label": "intangibleyay"
+        },
+        {
+          "id": "usicalmay",
+          "label": "usicalmay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2471,15 +3416,42 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-343 isyay ayay alemay, eeminglysay aceray-esslay, umanoidhay inyay appearanceyay ithway apparentyay omnipotenceyay. SCP-343 asway iscoveredday alkingway ethay eetsstray ofyay Aguepray andyay etainedday afteryay ayay affstay embermay itnessedway imhay isappearday omfray ethay eetsstray andyay eappearray onyay ayay ooftopray. SCP-343 isyay etainedday illinglyway inyay ishay amberchay, asyay ontainmentcay ashay ovedpray impossibleyay (eesay otesnay).",
       "tags": [
-        "afesay",
-        "aliveyay",
-        "allegedyay-odgay",
-        "ealityray-affectingyay",
-        "elekinetictay",
-        "elepathictay",
-        "eleportationtay",
-        "indmay-affectingyay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "allegedyay-odgay",
+          "label": "allegedyay-odgay"
+        },
+        {
+          "id": "ealityray-affectingyay",
+          "label": "ealityray-affectingyay"
+        },
+        {
+          "id": "elekinetictay",
+          "label": "elekinetictay"
+        },
+        {
+          "id": "elepathictay",
+          "label": "elepathictay"
+        },
+        {
+          "id": "eleportationtay",
+          "label": "eleportationtay"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2524,9 +3496,18 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-409 esemblesray ayay argelay uartzqay ystalcray approximatelyyay 1.5m (5ft) alltay andyay 0.6m (2ft) ideway. Anyyay objectsyay omingcay inyay ontactcay ithway SCP-409 illway eginbay otay ystallizecray afteryay eethray ourshay. Isthay effectyay illway occuryay inyay anyyay aterialmay otheryay anthay anitegray. Ethay ystallizationcray illway eadspray ybay approximatelyyay 2.5cm (1in) erpay inutemay, andyay illway onvertcay ethay entireyay objectyay oryay organismyay, insideyay andyay outyay. U",
       "tags": [
-        "ansfigurationtray",
-        "elfsay-eplicatingray",
-        "eterkay"
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "elfsay-eplicatingray",
+          "label": "elfsay-eplicatingray"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2571,13 +3552,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-509 isyay ethay ollectivecay ermtay orfay otway ucturesstray ithway imilarsay andyay ossiblypay inkedlay anomaliesyay. SCP-509-A isyay ayay oodenway aunasay ocatedlay inyay Astongay, Oregonyay. Enwhay activatedyay emotelyray, ityay unctionsfay asyay ormalnay orfay anyay electricyay ovestay aunasay, oducingpray eamstay ybay ippingdray aterway ontoyay ayay eatedhay urfacesay. Ocallay ecordsray owshay atthay SCP-509-A asway uiltbay inyay 1987, andyay exhibitedyay onay anomalousyay opertiespray",
       "tags": [
-        "afesay",
-        "animalyay",
-        "ansfigurationtray",
-        "atialspay",
-        "oodfay",
-        "ucturestray",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "atialspay",
+          "label": "atialspay"
+        },
+        {
+          "id": "oodfay",
+          "label": "oodfay"
+        },
+        {
+          "id": "ucturestray",
+          "label": "ucturestray"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2612,11 +3614,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-529 isyay ayay allsmay ousehay atcay (Felis catus) ithway eygray abbytay arkingsmay.\nArtspay ofyay ethay animalyay otay ethay earray ofyay ethay endyay ofyay ethay ibcageray appearyay otay ebay issingmay. Ethay odybay erminatestay arplyshay asyay ifyay icedslay inyay otway.\nInyay itespay ofyay isthay, ethay animalyay ashay onay ealthhay oblemspray, andyay ovesmay aboutyay asyay ifyay itsyay indquartershay ereway illstay inyay aceplay. Orfay exampleyay, alkingway akestay aceplay asyay usualya",
       "tags": [
-        "afesay",
-        "alfhay-atcay-osiejay",
-        "aliveyay",
-        "animalyay",
-        "elinefay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "alfhay-atcay-osiejay",
+          "label": "alfhay-atcay-osiejay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "elinefay",
+          "label": "elinefay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2661,11 +3678,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-530 appearsyay otay ebay ayay allsmay ogday inyay ayay onstantcay atestay ofyay ysicalphay alterationyay. Eighthay ypicallytay ariesvay etweenbay 20 cm andyay 30.5 cm atyay ethay ouldersshay. Idthway acrossyay ethay ackbay ypicallytay ariesvay etweenbay 7.5 cm andyay 18 cm. Engthlay ypicallytay ariesvay etweenbay 25.5 cm andyay 45.5 cm. Argerlay andyay allersmay izessay avehay eenbay ecordedray utbay areyay areray andyay oday otnay astlay onglay.\nEthay oatcay ofyay SCP-530 isyay alsoyay inya",
       "tags": [
-        "afesay",
-        "aliveyay",
-        "animalyay",
-        "aninecay",
-        "etamorphicmay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "aninecay",
+          "label": "aninecay"
+        },
+        {
+          "id": "etamorphicmay",
+          "label": "etamorphicmay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2707,16 +3739,46 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-682 isyay ayay argelay, aguelyvay eptileray-ikelay eaturecray ofyay unknownyay originyay. Ityay appearsyay otay ebay extremelyyay intelligentyay, andyay asway observedyay otay engageyay inyay omplexcay ommunicationcay ithway SCP-079 uringday eirthay imitedlay imetay ofyay exposureyay. SCP-682 appearsyay otay avehay ayay atredhay ofyay allyay ifelay, ichwhay ashay eenbay expressedyay inyay everalsay interviewsyay uringday ontainmentcay. (Eesay Addendumyay 682-B).\nSCP-682 ashay alwaysyay eenba",
       "tags": [
-        "adaptiveyay",
-        "aliveyay",
-        "apientsay",
-        "ardhay-otay-estroyday-eptileray",
-        "elfsay-epairingray",
-        "eptileray",
-        "eterkay",
-        "indestructableyay",
-        "ocay-authoredyay",
-        "ostilehay"
+        {
+          "id": "adaptiveyay",
+          "label": "adaptiveyay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "ardhay-otay-estroyday-eptileray",
+          "label": "ardhay-otay-estroyday-eptileray"
+        },
+        {
+          "id": "elfsay-epairingray",
+          "label": "elfsay-epairingray"
+        },
+        {
+          "id": "eptileray",
+          "label": "eptileray"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "indestructableyay",
+          "label": "indestructableyay"
+        },
+        {
+          "id": "ocay-authoredyay",
+          "label": "ocay-authoredyay"
+        },
+        {
+          "id": "ostilehay",
+          "label": "ostilehay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2762,13 +3824,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-718 isyay anyay eyeyay, oughlyray ethay izesay ofyay ayay aseballbay. Ityay isyay upportedsay ybay ayay onglay, inthay alkstay ademay ofyay endontay andyay oodblay esselsvay. Ityay andsstay 1.22m (4ft) alltay, andyay appearsyay otay eednay onay ourishmentnay, ornaay excreteyay anyyay asteway. Ethay eyeyay illway urntay andyay ollowfay anyyay ivinglay ingthay inyay itsyay ieldfay ofyay isionvay. Ethay alkstay isyay apablecay ofyay imitedlay ovementmay, andyay illway ollowfay ivinglay ingsthay",
       "tags": [
-        "aliveyay",
-        "elfsay-eplicatingray",
-        "eterkay",
-        "indmay-affectingyay",
-        "ocularyay",
-        "ompulsioncay",
-        "ontagioncay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "elfsay-eplicatingray",
+          "label": "elfsay-eplicatingray"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "ocularyay",
+          "label": "ocularyay"
+        },
+        {
+          "id": "ompulsioncay",
+          "label": "ompulsioncay"
+        },
+        {
+          "id": "ontagioncay",
+          "label": "ontagioncay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2809,14 +3892,38 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-966 areyay edatorypray eaturescray atthay esembleray airlesshay, igitigradeday umanshay, ossessingpay anyay elongatedyay acefay ithway ayay outhmay inedlay ithway eedlenay-ikelay eethtay. Onyay eachyay andhay, eythay avehay ivefay awsclay atthay ancay ebay upyay otay 20 cm onglay. Althoughyay arpshay, esethay areyay easilyyay okenbray, akingmay emthay unfityay orfay ombatcay. SCP-966's eighthay angesray omfray 1.4 otay 1.6 etersmay, andyay eythay ancay eachray upyay otay 30 kg inyay eightway",
       "tags": [
-        "adioactiveray",
-        "aliveyay",
-        "eciesspay",
-        "edatorypray",
-        "eeplsay",
-        "ensorysay",
-        "euclidyay",
-        "umanoidhay"
+        {
+          "id": "adioactiveray",
+          "label": "adioactiveray"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "eciesspay",
+          "label": "eciesspay"
+        },
+        {
+          "id": "edatorypray",
+          "label": "edatorypray"
+        },
+        {
+          "id": "eeplsay",
+          "label": "eeplsay"
+        },
+        {
+          "id": "ensorysay",
+          "label": "ensorysay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2859,13 +3966,34 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-999 appearsyay otay ebay ayay argelay, amorphousyay, elatinousgay assmay ofyay anslucenttray orangeyay imeslay, eighingway aboutyay 54 kg (120 lbs) ithway ayay onsistencycay imilarsay otay atthay ofyay eanutpay utterbay. Ubject\u2019ssay izesay andyay apeshay isyay easilyyay alleablemay andyay ancay angechay apeshay atyay illway, oughthay enwhay atyay estray, SCP-999 ecomesbay ayay oundedray, oblateyay omeday oughlyray 2 etersmay ideway andyay 1 etermay inyay eighthay. Ethay urfacesay ofyay SCP-9",
       "tags": [
-        "actiletay",
-        "afesay",
-        "amorphousyay",
-        "ardhay-otay-illkay-eptileray",
-        "ickletay-onstermay",
-        "iologicalbay",
-        "olfactoryyay"
+        {
+          "id": "actiletay",
+          "label": "actiletay"
+        },
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "amorphousyay",
+          "label": "amorphousyay"
+        },
+        {
+          "id": "ardhay-otay-illkay-eptileray",
+          "label": "ardhay-otay-illkay-eptileray"
+        },
+        {
+          "id": "ickletay-onstermay",
+          "label": "ickletay-onstermay"
+        },
+        {
+          "id": "iologicalbay",
+          "label": "iologicalbay"
+        },
+        {
+          "id": "olfactoryyay",
+          "label": "olfactoryyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2911,18 +4039,54 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1000 isyay ayay octurnalnay, omnivorousyay apeyay, assifiedclay inyay ethay Hominini anchbray alongyay ithway eneragay Pan andyay Homo. Adultsyay angeray inyay izesay omfray 1.5 otay 3 m (5 otay 10 ft) inyay eighthay, andyay eighway etweenbay 90 andyay 270 kg (200 - 600 lbs). Eythey avehay eygray, ownbray, ackblay, edray, andyay occasionallyyay itewhay urfay. Eythay ossesspay argelay eyesyay ithway oodgay isionvay, ayay onouncedpray owbray idgeray, andyay ayay agittalsay estcray onyay ethay",
       "tags": [
-        "tag-40510175845988f13f6162ed",
-        "aliveyay",
-        "apientsay",
-        "eaturedfay",
-        "eciesspay",
-        "erpentssay-andhay",
-        "eterkay",
-        "ildrenchay-ofyay-ethay-ightnay",
-        "istoricalhay",
-        "k-assclay-enarioscay",
-        "umanoidhay",
-        "uncontainedyay"
+        {
+          "id": "tag-40510175845988f13f6162ed",
+          "label": "1000"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "eaturedfay",
+          "label": "eaturedfay"
+        },
+        {
+          "id": "eciesspay",
+          "label": "eciesspay"
+        },
+        {
+          "id": "erpentssay-andhay",
+          "label": "erpentssay-andhay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "ildrenchay-ofyay-ethay-ightnay",
+          "label": "ildrenchay-ofyay-ethay-ightnay"
+        },
+        {
+          "id": "istoricalhay",
+          "label": "istoricalhay"
+        },
+        {
+          "id": "k-assclay-enarioscay",
+          "label": "k-assclay-enarioscay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        },
+        {
+          "id": "uncontainedyay",
+          "label": "uncontainedyay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -2965,11 +4129,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1002 isyay anyay abnormalyay adowshay elongingbay otay ayay oupgray ofyay ixsay (6) objectsyay urrentlycay inyay Oundationfay ustodycay. Eachyay ofyay esethay objectsyay ossessespay ethay adowshay ofyay ayay umanoidhay individualyay, esseddray inyay ayay awlay enforcementyay uniformyay. Objectsyay iedtay otay SCP-1002 urrentlycay inyay ontainmentcay areyay:",
       "tags": [
-        "adowshay",
-        "autonomousyay",
-        "euclidyay",
-        "ostilehay",
-        "umanoidhay"
+        {
+          "id": "adowshay",
+          "label": "adowshay"
+        },
+        {
+          "id": "autonomousyay",
+          "label": "autonomousyay"
+        },
+        {
+          "id": "euclidyay",
+          "label": "euclidyay"
+        },
+        {
+          "id": "ostilehay",
+          "label": "ostilehay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3010,10 +4189,22 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1003-1 isyay anyay adultyay apewormtay ofyay ethay eciesspay Echinococcusyay anulosusgray, ownknay orfay ausingcay ydatidhay iseaseday. Ikelay othersyay ofyay itsyay eciesspay, SCP-1003-1 inhabitsyay ethay allsmay intestinesyay ofyay arnivorescay (ypicallytay anidscay), erewhay ityay oducespray eggsyay atthay areyay assedpay inyay ethay ost'shay aecesfay. Ethay eggsyay ancay urvivesay upyay otay \u2588\u2588 earsyay inyay ethay outsideyay environmentyay.\nEnwhay ethay eggsyay enteryay ethay astrointest",
       "tags": [
-        "aliveyay",
-        "arasiticpay",
-        "eterkay",
-        "umanoidhay"
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "arasiticpay",
+          "label": "arasiticpay"
+        },
+        {
+          "id": "eterkay",
+          "label": "eterkay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3054,11 +4245,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1005 isyay ayay apientsay umanoidhay entityyay omposedcay ofyay emisay-olidsay ueblay aintpay, ithway exactyay adesshay angingray omfray earnay-itewhay otay eepday avynay. Ethay urfacesay ofyay SCP-1005 ashay anyay averageyay ensiletay engthstray approximatelyyay 75% atthay ofyay umanhay inskay; isthay includesyay itsyay \"othingclay\". SCP-1005 isyay unableyay otay onsciouslycay ontrolcay ethay iscosityvay oryay apeeshay ofyay itsyay overallyay ormfay eyondbay ethay ormalnay ocomotionlay ofya",
       "tags": [
-        "afesay",
-        "apientsay",
-        "arshallmay-artercay-andyay-arkday",
-        "artisticyay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "arshallmay-artercay-andyay-arkday",
+          "label": "arshallmay-artercay-andyay-arkday"
+        },
+        {
+          "id": "artisticyay",
+          "label": "artisticyay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3095,12 +4301,30 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1006 isyay anyay organizedyay ollectivecay ofyay anyay unknownyay eciesspay ofyay ethay enusgay Araneusyay. Individualyay embersmay avehay achievedyay apiencesay oughthray unknownyay eansmay andyay avehay establishedyay ayay udimentaryray ystemsay ofyay overnmentgay esemblingray Arxistmay ommunismcay.\nEthay originalyay assmay ofyay SCP-1006 asway iscoveredday onyay 4/1/19\u2588\u2588 ybay ayay ikinghay ouplecay, owhay alertedyay arkpay authoritiesyay. Ethay Oundationfay ooktay overyay afteryay ethay i",
       "tags": [
-        "afesay",
-        "aliveyay",
-        "animalyay",
-        "apientsay",
-        "arachnidyay",
-        "eciesspay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "arachnidyay",
+          "label": "arachnidyay"
+        },
+        {
+          "id": "eciesspay",
+          "label": "eciesspay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3139,16 +4363,46 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1007 appearsyay otay ebay ayay alemay ofyay indeterminateyay ethnicityyay owhay undergoesyay ethay entireyay umanhay ifelay yclecay ithinway ayay 75 inutemay imetay-amefray. Ethay ubjectsay agesyay atyay ayay ateray ofyay approximatelyyay oneyay earyay erpay inutemay. Onceyay 75 inutesmay avehay elapsedyay, ethay ubjectsay illway invariablyyay expireyay ofyay ontaneousspay essationcay ofyay etabolicmay activityyay ithway onay evidentyay ausecay. Ityay eportsray eelingfay excruciatingyay ainp",
       "tags": [
-        "afesay",
-        "aliveyay",
-        "apientsay",
-        "arshallmay-artercay-andyay-arkday",
-        "dr-ondertainmentway",
-        "eanimationray",
-        "ectoentropicyay",
-        "emporaltay",
-        "istermay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "arshallmay-artercay-andyay-arkday",
+          "label": "arshallmay-artercay-andyay-arkday"
+        },
+        {
+          "id": "dr-ondertainmentway",
+          "label": "dr-ondertainmentway"
+        },
+        {
+          "id": "eanimationray",
+          "label": "eanimationray"
+        },
+        {
+          "id": "ectoentropicyay",
+          "label": "ectoentropicyay"
+        },
+        {
+          "id": "emporaltay",
+          "label": "emporaltay"
+        },
+        {
+          "id": "istermay",
+          "label": "istermay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3190,11 +4444,26 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1079 isyay ethay esignationday ivengay otay ayay umbernay ofyay eetssway ightlybray abelledlay \"Dr. Ondertainment'sway Ubblebathbay Onbonsbay!\u00ae\". Urrentlycay, ethay Oundationfay ashay \u2588 atescray ofyay SCP-1079 inyay ontainmentcay, originallyyay ontainingcay 64 acketspay eachyay. Ethay abellay onyay eachyay acketpay ovidespray ethay amenay ofyay ethay oductpray, andyay otway arningsway; \"Otnay uitablesay orfay ildrenchay underyay 3 earsyay\", andyay \"Onlyyay oneyay eetsway isyay otay ebay aken",
       "tags": [
-        "afesay",
-        "ansfigurationtray",
-        "dr-ondertainmentway",
-        "oodblay",
-        "oodfay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "dr-ondertainmentway",
+          "label": "dr-ondertainmentway"
+        },
+        {
+          "id": "oodblay",
+          "label": "oodblay"
+        },
+        {
+          "id": "oodfay",
+          "label": "oodfay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3233,14 +4502,38 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1080 isyay ayay argelay ackblay ectangularray amberchay, 2 etersmay ideway, 3 etersmay onglay, andyay 1.5 etersmay inyay epthday, esemblingray ayay ensorysay eprivationday amberchay inyay apeshay andyay izesay. Espiteday ethay esemblanceray, ethay anktay ontainscay onay aterway andyay ashay onay indowsway. Ethay anktay ashay onay ontrolscay; itsyay agneticmay ockinglay echanismmay activatesyay onlyyay enwhay ayay ildchay isyay acedplay inyay ethay amberchay, andyay onay eansmay availableyay",
       "tags": [
-        "afesay",
-        "alexylvayay",
-        "ansfigurationtray",
-        "ehiclevay",
-        "emporaltay",
-        "indmay-affectingyay",
-        "inscriptionyay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "alexylvayay",
+          "label": "alexylvayay"
+        },
+        {
+          "id": "ansfigurationtray",
+          "label": "ansfigurationtray"
+        },
+        {
+          "id": "ehiclevay",
+          "label": "ehiclevay"
+        },
+        {
+          "id": "emporaltay",
+          "label": "emporaltay"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "inscriptionyay",
+          "label": "inscriptionyay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3277,14 +4570,38 @@
       "rating": 1,
       "descriptionExcerpt": "SCP-1087 isyay ayay itewhay alemay Illipinephay arsiertay (Arlitocay yrichtasay), ageyay estimatedyay atyay 5 earsyay, 700g inyay eightway.\nSCP-1087's alivesay ontainscay anyay unknownyay emicalchay otnay aturallynay oducedpray inyay ethay imatepray odybay. Ethay emicalchay isyay inertyay ybay itselfyay; oweverhay, onceyay itay akesmay ontactcay ithway ayay ammalianmay oodstreamblay, ityay avelstray otay ethay ubject'ssay exocrineyay andsglay andyay altersyay eirthay iochemicalbay unctionsfay. I",
       "tags": [
-        "afesay",
-        "aliveyay",
-        "animalyay",
-        "edatorypray",
-        "emicalchay",
-        "imatepray",
-        "indmay-affectingyay",
-        "iohazardbay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "aliveyay",
+          "label": "aliveyay"
+        },
+        {
+          "id": "animalyay",
+          "label": "animalyay"
+        },
+        {
+          "id": "edatorypray",
+          "label": "edatorypray"
+        },
+        {
+          "id": "emicalchay",
+          "label": "emicalchay"
+        },
+        {
+          "id": "imatepray",
+          "label": "imatepray"
+        },
+        {
+          "id": "indmay-affectingyay",
+          "label": "indmay-affectingyay"
+        },
+        {
+          "id": "iohazardbay",
+          "label": "iohazardbay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3317,11 +4634,26 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-1523 isyay anyay orangeyay-ownbray incenseyay oilcay. Ilewhay SCP-1523 isyay urningbay, ethay objectyay isplaysday apiencesay; ityay isyay esponsiveray otay erbalvay imulistay andyay apablecay ofyay eechspay, usingyay ayay oicevay identicalyay otay atthay ofyay ayay usicianmay amednay \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u25881 Ethay objectyay ossessespay ompletecay emorymay ofyay \u2588\u2588\u2588\u2588\u2588's ifelay2. Ethay Oundationfay annotcay etermineday etherwhay SCP-1523 eldhay ethay amesay ersonalitypay aitstray inyay ifelay; itsyay u",
       "tags": [
-        "afesay",
-        "apientsay",
-        "artifactyay",
-        "ifthistfay",
-        "irefay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "apientsay",
+          "label": "apientsay"
+        },
+        {
+          "id": "artifactyay",
+          "label": "artifactyay"
+        },
+        {
+          "id": "ifthistfay",
+          "label": "ifthistfay"
+        },
+        {
+          "id": "irefay",
+          "label": "irefay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -3356,13 +4688,34 @@
       "rating": 2,
       "descriptionExcerpt": "SCP-1982 isyay ayay urchchay inyay Airsvilleblay, Eorgiagay overedcay ybay ayay umigationfay enttay. Ublicpay ecordsray owshay atthay ethay uildingbay ashay eenbay ondemnedcay orfay 19 earsyay, andyay asway eviouslypray ethay ocationlay ofyay \"Ethay Irstfay Outhernsay Ifthfay Urchchay ofyay Eorgiagay\". Inspectionyay ofyay ethay interioryay evealsray ethay areayay otay ebay emptyyay, avesay orfay 10 owsray ofyay ewspay, ayay argelay oodway-urningbay urnacefay, andyay anyay altaryay. SCP-1982 exhi",
       "tags": [
-        "afesay",
-        "ansmissiontray",
-        "eligiousray",
-        "ifthistfay",
-        "ighay-eesechay-oracehay",
-        "uildingbay",
-        "umanoidhay"
+        {
+          "id": "afesay",
+          "label": "afesay"
+        },
+        {
+          "id": "ansmissiontray",
+          "label": "ansmissiontray"
+        },
+        {
+          "id": "eligiousray",
+          "label": "eligiousray"
+        },
+        {
+          "id": "ifthistfay",
+          "label": "ifthistfay"
+        },
+        {
+          "id": "ighay-eesechay-oracehay",
+          "label": "ighay-eesechay-oracehay"
+        },
+        {
+          "id": "uildingbay",
+          "label": "uildingbay"
+        },
+        {
+          "id": "umanoidhay",
+          "label": "umanoidhay"
+        }
       ],
       "tagVersion": 3,
       "tagFetchStatus": "success",
