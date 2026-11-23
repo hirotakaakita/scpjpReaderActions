@@ -350,17 +350,6 @@
           ]
         },
         {
-          "itemId": "scp-series-550",
-          "title": "The Ghûl",
-          "blurb": "SCP-550, Avrupa Dişbudak ağacından elde edilen tahta talaşından oluşan bir insansıdır.Boyu yaklaşık 2.1 metre, ağırlığı 70 kg’dır.",
-          "url": "https://scpvakfi.wikidot.com/scp-550",
-          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-550/SCP-550.jpg",
-          "sourceTags": [
-            "sentient",
-            "biological"
-          ]
-        },
-        {
           "itemId": "scp-series-105",
           "title": "\"Iris\"",
           "blurb": "SCP-105 (eski adıyla Iris Thompson), Avrupa kökenli bir kadındır.Kayıtlar, SCP-105'in ████'de doğduğunu ve █ yaşındayken elde edinildiğini gösteriyor.",
@@ -2650,17 +2639,6 @@
           "blurb": "Yaklaşık 2.4 metre boyunda (yaklaşık 8 fit) ve 310 kg (yaklaşık 700 lb) ağırlığında olan SCP-082'nin fiziksel özellikleri büyük ölçüde orantısızdır.",
           "url": "https://scpvakfi.wikidot.com/scp-082",
           "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-082/SCP-082-new.png",
-          "sourceTags": [
-            "humanoid",
-            "sentient"
-          ]
-        },
-        {
-          "itemId": "scp-series-550",
-          "title": "The Ghûl",
-          "blurb": "SCP-550, Avrupa Dişbudak ağacından elde edilen tahta talaşından oluşan bir insansıdır.Boyu yaklaşık 2.1 metre, ağırlığı 70 kg’dır.",
-          "url": "https://scpvakfi.wikidot.com/scp-550",
-          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-550/SCP-550.jpg",
           "sourceTags": [
             "humanoid",
             "sentient"

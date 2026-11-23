@@ -1391,17 +1391,6 @@
           ]
         },
         {
-          "itemId": "scp-series-1264",
-          "title": "Wiederbelebtes Wrack",
-          "blurb": "SCP-1264 ist ein Zusammenschluss von Wracks verschiedener Kriegsschiffe und unterschiedlichem Treibgut/Strandgut.Es wird durch organische Sekrete zusammengehalten.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-1264",
-          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1264/SCP-1264-a.jpg",
-          "sourceTags": [
-            "biological",
-            "hostile"
-          ]
-        },
-        {
           "itemId": "scp-series-1749",
           "title": "Transamerikanische Mordboten",
           "blurb": "SCP-1749-1 ist ein kunstvoll bemaltes Bedienfeld, das aus einem analogen Bildschirm und einer Standard-QWERTY-Tastatur besteht.SCP-1749-2 sind genetisch identische Humanoide.",
@@ -3320,17 +3309,6 @@
           ]
         },
         {
-          "itemId": "scp-series-466",
-          "title": "Mobile Adern",
-          "blurb": "Es ist nicht bekannt, ob SCP-466 ein separates Pathogen ist, welches einen menschlichen Wirt befällt oder ob es der Mensch selbst ist.SCP-466-2 zeigt anomale, vaskuläre Hypertrophie, teilweise entlang der Haut.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-466",
-          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-466/logo1.png",
-          "sourceTags": [
-            "biological",
-            "regenerative"
-          ]
-        },
-        {
           "itemId": "scp-series-835",
           "title": "Gelöschte Daten freigegeben",
           "blurb": "Die einzelnen Polypen sind größer als alle bekannten Korallenarten und erreichen in manchen Fällen einen Durchmesser von mehr als einem Meter.",
@@ -3690,17 +3668,6 @@
           "blurb": "Jede Instanz besteht aus einem einzigen chemischen Element und ist mit der jeweiligen Ordnungszahl auf dem Scheitel seines Kopfes gekennzeichnet.",
           "url": "http://scp-wiki-de.wikidot.com/scp-2300",
           "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-2300/IronGolem-new.jpg",
-          "sourceTags": [
-            "sentient",
-            "regenerative"
-          ]
-        },
-        {
-          "itemId": "scp-series-466",
-          "title": "Mobile Adern",
-          "blurb": "Es ist nicht bekannt, ob SCP-466 ein separates Pathogen ist, welches einen menschlichen Wirt befällt oder ob es der Mensch selbst ist.SCP-466-2 zeigt anomale, vaskuläre Hypertrophie, teilweise entlang der Haut.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-466",
-          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-466/logo1.png",
           "sourceTags": [
             "sentient",
             "regenerative"
@@ -9638,16 +9605,6 @@
           "blurb": "SCP-1246 ist eine spiralförmige Struktur mit einem Durchmesser von etwa fünfzehn Metern, die aus einer Vielzahl von Steinen besteht.",
           "url": "http://scp-wiki-de.wikidot.com/scp-1246",
           "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1246/stonespiral.jpg",
-          "sourceTags": [
-            "regenerative"
-          ]
-        },
-        {
-          "itemId": "scp-series-466",
-          "title": "Mobile Adern",
-          "blurb": "Es ist nicht bekannt, ob SCP-466 ein separates Pathogen ist, welches einen menschlichen Wirt befällt oder ob es der Mensch selbst ist.SCP-466-2 zeigt anomale, vaskuläre Hypertrophie, teilweise entlang der Haut.",
-          "url": "http://scp-wiki-de.wikidot.com/scp-466",
-          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-466/logo1.png",
           "sourceTags": [
             "regenerative"
           ]
