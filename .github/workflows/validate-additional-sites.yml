@@ -1,0 +1,60 @@
+name: Validate additional SCP sites
+
+on:
+  pull_request:
+    paths:
+      - 'additional-sites*'
+      - 'languages.js'
+      - 'local-crawler.js'
+      - 'related-documents.js'
+      - 'catalog-index*'
+      - 'merge-catalog-indexes.js'
+      - 'partial-crawler.js'
+      - 'partial-file.js'
+      - 'merge-data.js'
+      - 'public-tags.js'
+      - 'notification-messages.js'
+      - 'send-scheduled-notifications.js'
+      - 'tag-dictionary*'
+      - 'test/**'
+      - 'tool/*additional-site*'
+      - '.github/workflows/validate-additional-sites.yml'
+  workflow_dispatch:
+    inputs:
+      live_check:
+        description: 'Verify collection pages and one article per added language (no publication)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Test crawl, catalog and notification compatibility
+        run: node --test test/*.test.js
+      - name: Validate collection definitions
+        run: node validate-catalog-indexes.js
+      - name: Verify added sites without publishing or notifying
+        if: inputs.live_check == true
+        run: |
+          node tool/prepare-additional-site-sources.js
+          node tool/verify-additional-site-articles.js
+      - name: Upload live verification reports
+        if: success() && inputs.live_check == true
+        uses: actions/upload-artifact@v7
+        with:
+          name: additional-site-verification
+          path: |
+            docs/additional-site-inventory.json
+            docs/additional-site-article-check.json
+          retention-days: 7

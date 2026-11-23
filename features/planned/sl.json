@@ -267,11 +267,11 @@
       "coverImage": "features/images/weekly-005-v1.png",
       "articles": [
         {
-          "itemId": "scp-series-sl-005",
-          "title": "SCP-005-SL",
-          "blurb": "SCP-005-SL je kopensko letalo, ki mu poveljujejo Neznani viri.SCP-005-SL ima eno veliko anomalijo, in sicer, da lahko snema 5 6 različnih vrst žarkov z drugačnim učinkom (glej dodatek-005-SL-1).",
-          "url": "https://scp-slovenija.wikidot.com/scp-005-sl",
-          "imageUrl": "https://cdn.pixabay.com/photo/2017/03/04/13/52/robot-2116089_960_720.jpg",
+          "itemId": "scp-series-745",
+          "title": "Žarometi",
+          "blurb": "SCP-745 je dvonožni nočni plenilec.Glava je napihnjena vreča čiste kože, ki nima vidnih senzoričnih organov ali lobanje.",
+          "url": "https://scp-slovenija.wikidot.com/scp-745",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-745/745.jpg",
           "sourceTags": [
             "sentient"
           ]
@@ -509,16 +509,6 @@
       "introduction": "Raziščite temo »Inteligenca × Euclid« in primerjajte podobnosti ter razlike med temi anomalijami.",
       "coverImage": "features/images/weekly-024-v1.png",
       "articles": [
-        {
-          "itemId": "scp-series-sl-005",
-          "title": "SCP-005-SL",
-          "blurb": "SCP-005-SL je kopensko letalo, ki mu poveljujejo Neznani viri.SCP-005-SL ima eno veliko anomalijo, in sicer, da lahko snema 5 6 različnih vrst žarkov z drugačnim učinkom (glej dodatek-005-SL-1).",
-          "url": "https://scp-slovenija.wikidot.com/scp-005-sl",
-          "imageUrl": "https://cdn.pixabay.com/photo/2017/03/04/13/52/robot-2116089_960_720.jpg",
-          "sourceTags": [
-            "sentient"
-          ]
-        },
         {
           "itemId": "scp-series-015",
           "title": "Nočna Mora Pipe",

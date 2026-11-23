@@ -4,7 +4,9 @@ const zlib = require('node:zlib');
 const crypto = require('node:crypto');
 const { LANGUAGES } = require('./languages');
 const { readDelivery, applyArrivalDates } = require('./catalog-arrivals');
-const { readDictionary, updateDictionary, localizeTags, indexDictionary } = require('./tag-dictionary');
+const { reclassifyScpArticle } = require('./article-category');
+const { normalizedSourceListing } = require('./series-listing');
+const { readDictionary, updateDictionary, localizeTags, restoreTagLabels, indexDictionary } = require('./tag-dictionary');
 const { normalize } = require('./related-documents');
 
 // This is a delivery format, never a replacement for the crawler's source data.
@@ -16,7 +18,7 @@ const FIELDS = new Set([
 ]);
 const REQUIRED_STRINGS = ['itemId', 'titleJP', 'extractedFrom', 'pageType', 'contentType', 'lastUpdated'];
 
-function mobileCatalog(source, language) {
+function mobileCatalog(source, language, {allowTagLabelRepair=false}={}) {
   if (source.language !== language || !Array.isArray(source.data) ||
       !source.data.length || source.totalCount !== source.data.length ||
       !Number.isFinite(Date.parse(source.timestamp))) {
@@ -31,7 +33,7 @@ function mobileCatalog(source, language) {
       throw new Error(`Invalid or duplicate article: ${article.itemId}`);
     }
     ids.add(article.itemId);
-    if (source.tagSchemaVersion === 2 && (article.tags || []).some(tag =>
+    if (!allowTagLabelRepair && source.tagSchemaVersion === 2 && (article.tags || []).some(tag =>
       !tag || typeof tag.id !== 'string' || !tag.id.trim() ||
       typeof tag.label !== 'string' || !tag.label.trim())) {
       throw new Error(`Missing localized tag label: ${language}/${article.itemId}`);
@@ -54,20 +56,28 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
   if (additional) updateDictionary(dictionary, additional.data.flatMap(r => r.tags || []));
   const tagIndex = indexDictionary(dictionary);
   const translations = new Map();
+  const reservedByLanguage = new Map();
   function addTranslation(id, language) {
     if (!translations.has(id)) translations.set(id, new Set());
     translations.get(id).add(language);
   }
   if (includeAdditional && enrichTranslations) {
+    const translationRows = [];
     for (const language of Object.keys(LANGUAGES)) {
       const file = path.join(input, language, 'scp-data.json');
       if (!fs.existsSync(file)) continue;
-      for (const row of JSON.parse(fs.readFileSync(file)).data) {
-        if (row.isTranslatedJP !== false) addTranslation(row.itemId, language);
-        for (const code of row.translatedLanguages || []) addTranslation(row.itemId, code);
-      }
+      for (const row of JSON.parse(fs.readFileSync(file)).data) translationRows.push({ row, language });
     }
-    for (const row of additional?.data || []) addTranslation(row.itemId, row.language);
+    for (const row of additional?.data || []) translationRows.push({ row, language:row.language });
+    for (const {row,language} of translationRows) {
+      if (!reservedByLanguage.has(language)) reservedByLanguage.set(language, new Set());
+      reservedByLanguage.get(language).add(row.itemId);
+    }
+    for (const {row,language} of translationRows) {
+      const id = reclassifyScpArticle(row, reservedByLanguage.get(language)).itemId;
+      if (row.isTranslatedJP !== false) addTranslation(id, language);
+      for (const code of row.translatedLanguages || []) addTranslation(id, code);
+    }
   }
   for (const language of Object.keys(LANGUAGES)) {
     const file = path.join(input, language, 'scp-data.json');
@@ -78,7 +88,9 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
     if (meta.lastUpdated !== source.timestamp || meta.totalCount !== source.totalCount) {
       throw new Error(`Source/meta mismatch: ${language}`);
     }
-    const delivery = mobileCatalog(source, language);
+    // Legacy channels retain their tag representation; v3 validates labels
+    // after repairing them with the reviewed dictionary below.
+    const delivery = mobileCatalog(source, language, {allowTagLabelRepair:true});
     const ids = new Set(delivery.data.map(r => r.itemId));
     const pageUrls = new Set(source.data.map(r => normalize(r.isTranslatedJP !== false && r.urlJP ? r.urlJP : r.urlEN)?.url));
     const documents = (additional?.data || []).filter(r => r.language === language && !pageUrls.has(r.url) && !ids.has(r.itemId)).map(r => ({
@@ -100,6 +112,16 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
       ids.add(row.itemId);
     }
     delivery.data.push(...documents);
+    if (includeAdditional && enrichTranslations) delivery.data = delivery.data.map(row => {
+      const corrected = reclassifyScpArticle(row, reservedByLanguage.get(language));
+      return {...corrected,
+        tags:restoreTagLabels(corrected.tags || [], language, dictionary, tagIndex, corrected.tagLabels),
+        extractedFrom:normalizedSourceListing(corrected)};
+    });
+    if (includeAdditional && enrichTranslations) {
+      const previous=readDelivery(path.join(output,language));
+      require('./catalog-delivery-identity').preservePublishedIds(delivery.data,previous?.data||[]);
+    }
     if (includeAdditional && enrichTranslations) for (const row of delivery.data) {
       row.translatedLanguages = [...new Set([
         ...(row.translatedLanguages || []), ...(translations.get(row.itemId) || []),
@@ -109,6 +131,13 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
     if (additional && Date.parse(additional.timestamp) > Date.parse(delivery.timestamp)) delivery.timestamp = additional.timestamp;
     if (includeAdditional && enrichTranslations) {
       applyArrivalDates(delivery, readDelivery(path.join(output, language)));
+    }
+    if(includeAdditional&&enrichTranslations){
+      const previous=readDelivery(path.join(output,language));
+      if(previous&&Date.parse(delivery.timestamp)<=Date.parse(previous.timestamp)){
+        delivery.timestamp=JSON.stringify(delivery.data)===JSON.stringify(previous.data)?previous.timestamp:
+          new Date(Math.max(Date.now(),Date.parse(previous.timestamp)+1)).toISOString();
+      }
     }
     const json = Buffer.from(JSON.stringify(delivery), 'utf8');
     const compressed = zlib.gzipSync(json, { level: 9 });

@@ -10,7 +10,7 @@ const seed = 'https://scp-wiki.wikidot.com/scp-682';
 const log = 'https://scp-wiki.wikidot.com/experiment-log-t-98816-oc108-682';
 const date = '2026-11-05T00:00:00.000Z';
 const row = { itemId: 'scp-series-682', language: 'en', urlEN: seed, pageType: 'scp-series', isTranslatedJP: false };
-const html = body => `<div id="page-title">Document title</div><div id="page-content">${body}</div><div class="page-tags"><a>en</a></div>`;
+const html = body => `<div id="page-title">Document title</div><div id="page-content">${body}</div><div class="page-tags"><a>_en</a></div>`;
 
 test('only publisher pages are candidates; aliases and tracking URLs normalize', () => {
   assert.equal(normalize('http://www.scpwiki.com/scp-682#x').url, seed);
@@ -49,6 +49,19 @@ test('API captures linked documents without inventing translations', () => {
   assert.deepEqual(r.translations, []);
 });
 
+test('GoI excerpts omit voting and credit controls while preserving rating metadata and narrative evaluations',()=>{
+ for(const label of ['rating','notation','\u8a55\u4fa1']){
+  const controls=`<div class="page-rate-widget-box"><span class="rate-points">${label}: <span class="number">+26</span></span><a href="/vote">+</a><a>-</a><a>x</a></div>`;
+  const credits='<div class="creditRate"><a href="/credit">fermer Credits close</a><strong>Description:</strong>Credit-only description</div>';
+  const body='<p><strong>Name:</strong> Gilles Perret</p><p>Evaluation of the proposal: +5 points remain part of the story.</p>';
+  const record=extractHtml(seed,html(controls+credits+body),date);
+  assert.equal(record.descriptionExcerpt,'Name: Gilles PerretEvaluation of the proposal: +5 points remain part of the story.');
+  assert.equal(record.rating,26);assert(!record.links.some(url=>/\/(vote|credit)$/.test(url)));
+  const structured=extractHtml(seed,html(`<div><strong>Description:</strong>Actual story ${controls} continues.</div>`),date);
+  assert.equal(structured.descriptionExcerpt,'Actual story continues.');assert.equal(structured.rating,26);
+ }
+});
+
 test('an embedded module error does not hide an otherwise readable article',()=>{
   const r=extractHtml(seed,html('<p>Actual narrative text.</p><div class="error-block">ListPages error: no such category</div>'),date);
   assert.equal(r.descriptionExcerpt,'Actual narrative text.');
@@ -59,9 +72,9 @@ test('origin follows explicit evidence, not hosting site or a single referenced 
   const records = new Map([[log, { tags: [], translations: [], links: [seed] }]]);
   const catalog = new Map([[seed, [row]]]);
   assert.equal(classify(log, records, catalog).branch, null);
-  records.get(log).tags = ['jp'];
+  records.get(log).tags = ['_jp'];
   assert.equal(classify(log, records, catalog).branch, 'jp');
-  records.get(log).tags = ['jp', 'en'];
+  records.get(log).tags = ['_jp', '_en'];
   assert.equal(classify(log, records, catalog).branch, null);
   records.get(log).tags = []; records.get(log).translations = [seed];
   assert.equal(classify(log, records, catalog).branch, 'en');
