@@ -630,10 +630,10 @@
           ]
         },
         {
-          "itemId": "scp-series-029",
-          "title": "YETKİLİ İÇİN YER TUTUCU",
-          "blurb": "Bu sayfa, devam eden Bright'ın Çalışmaları Projesi ve seçilen teklif kapsamında yetkili için bir yer tutucu olarak oluşturulmuştur.",
-          "url": "https://scpvakfi.wikidot.com/scp-029",
+          "itemId": "scp-series-088",
+          "title": "Sürüngen Kral",
+          "blurb": "Buna rağmen, SCP-088, yalnızca mevcut muhafaza alanından daha misafirperver bir ortama tekrar maruz kalırsa iyileşebileceği bir hazırda bekletme durumundadır.",
+          "url": "https://scpvakfi.wikidot.com/scp-088",
           "sourceTags": [
             "humanoid",
             "mind_affecting"
@@ -725,10 +725,10 @@
           ]
         },
         {
-          "itemId": "scp-series-693",
-          "title": "YETKİLİ İÇİN YER TUTUCU",
-          "blurb": "Bu sayfa, devam eden Bright'ın Çalışmaları Projesi ve seçilen teklif kapsamında yetkili için bir yer tutucu olarak oluşturulmuştur.",
-          "url": "https://scpvakfi.wikidot.com/scp-693",
+          "itemId": "scp-series-058",
+          "title": "Karanlığın Kalbi",
+          "blurb": "SCP-058 hareket için kullandığı dört (4) adet örümceğimsi bacağa ve uzunlukları değişebilen ve üstünde keskin dikenler bulunan dört (4) adet dokunaça sahiptir.Büyük bir kalbi andırıyordur.",
+          "url": "https://scpvakfi.wikidot.com/scp-058",
           "sourceTags": [
             "sentient",
             "hostile"
@@ -896,10 +896,10 @@
           ]
         },
         {
-          "itemId": "scp-series-1337",
-          "title": "YETKİLİ İÇİN YER TUTUCU",
-          "blurb": "Bu sayfa, devam eden Bright'ın Çalışmaları Projesi ve seçilen teklif kapsamında yetkili için bir yer tutucu olarak oluşturulmuştur.",
-          "url": "https://scpvakfi.wikidot.com/scp-1337",
+          "itemId": "scp-series-705",
+          "title": "Militaristic Play-Doh",
+          "blurb": "SCP-705, “Play-Doh” adıyla bilinen firmaya ait 140 gramlık bir oyun hamuru kutusunda muhafaza edilmektedir.Gerektiği biçimde kapalı kaldığı müddetçe SCP-705, herhangi bir anormal davranış sergilemez.",
+          "url": "https://scpvakfi.wikidot.com/scp-705",
           "sourceTags": [
             "humanoid",
             "hostile"
@@ -1345,16 +1345,6 @@
           "title": "Karanlığın Kalbi",
           "blurb": "SCP-058 hareket için kullandığı dört (4) adet örümceğimsi bacağa ve uzunlukları değişebilen ve üstünde keskin dikenler bulunan dört (4) adet dokunaça sahiptir.Büyük bir kalbi andırıyordur.",
           "url": "https://scpvakfi.wikidot.com/scp-058",
-          "sourceTags": [
-            "biological",
-            "hostile"
-          ]
-        },
-        {
-          "itemId": "scp-series-029",
-          "title": "YETKİLİ İÇİN YER TUTUCU",
-          "blurb": "Bu sayfa, devam eden Bright'ın Çalışmaları Projesi ve seçilen teklif kapsamında yetkili için bir yer tutucu olarak oluşturulmuştur.",
-          "url": "https://scpvakfi.wikidot.com/scp-029",
           "sourceTags": [
             "biological",
             "hostile"
@@ -2869,15 +2859,6 @@
           "blurb": "SCP-046 güneybatı Kentucky’de yer alan yırtıcı bir botanik kütledir.SCP-046 iki parçadan oluşmaktadır.",
           "url": "https://scpvakfi.wikidot.com/scp-046",
           "imageUrl": "https://scpvakfi.wdfiles.com/local--files/scp-046/46-1.jpg",
-          "sourceTags": [
-            "infohazard"
-          ]
-        },
-        {
-          "itemId": "scp-series-055",
-          "title": "SCP-055",
-          "blurb": "SCP-055 \"kendi kendini tutan bir sır\" ya da bir \"anti memetik\" idir.SCP-055'in doğası, hareket tarzı, kökeni ve fiziksel özellikleri kendi kendini saklar.",
-          "url": "https://scpvakfi.wikidot.com/scp-055",
           "sourceTags": [
             "infohazard"
           ]

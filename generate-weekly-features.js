@@ -129,6 +129,12 @@ function createPlan(catalogs, start='2026-11-11T10:00:00.000Z') {
 }
 function hash(value){return crypto.createHash('sha256').update(value).digest('hex');}
 function matches(row,theme){return theme.keys.every(key=>row.groups.has(key))&&(!theme.objectClass||String(row.objectClass).toLowerCase()===theme.objectClass.toLowerCase());}
+function rankCandidates(rows,theme,used=new Map()) {
+ return rows.filter(row=>matches(row,theme)).sort((a,b)=>Number(usableImage(b))-Number(usableImage(a))||(used.get(a.itemId)||0)-(used.get(b.itemId)||0)||(b.rating||0)-(a.rating||0)||hash(theme.id+a.itemId).localeCompare(hash(theme.id+b.itemId)));
+}
+function featureArticle(row,theme) {
+ return {itemId:row.itemId,title:row.titleJP,blurb:featureExcerpt(row,theme),url:row.urlJP,...(usableImage(row)?{imageUrl:row.imageUrl}:{}),sourceTags:theme.keys};
+}
 function generate(root,output,{start,plan:fixedPlan}={}) {
  const scheduleFile=path.join(output,'schedule.json');
  const catalogs=loadCatalogs(root),plan=(fixedPlan||(!start&&fs.existsSync(scheduleFile)?JSON.parse(fs.readFileSync(scheduleFile)).weeks:createPlan(catalogs,start))).slice(0,FEATURE_WEEKS),report={};fs.mkdirSync(output,{recursive:true});
@@ -146,14 +152,13 @@ function generate(root,output,{start,plan:fixedPlan}={}) {
     features.push(feature);for(const article of feature.articles)used.set(article.itemId,(used.get(article.itemId)||0)+1);
     continue;
    }
-   const candidates=rows.filter(row=>matches(row,theme));if(candidates.length<5)continue;
-   candidates.sort((a,b)=>Number(usableImage(b))-Number(usableImage(a))||(used.get(a.itemId)||0)-(used.get(b.itemId)||0)||(b.rating||0)-(a.rating||0)||hash(theme.id+a.itemId).localeCompare(hash(theme.id+b.itemId)));
+   const candidates=rankCandidates(rows,theme,used);if(candidates.length<5)continue;
    const picked=candidates.slice(0,8);if(picked.some(r=>r.itemId===undefined))throw Error('Missing identity');
    const focus=[...theme.keys.map(key=>label(key,locale)),...(theme.objectClass?[theme.objectClass]:[])].join(' × ');
    const title=locale==='ja'?japaneseEditorial[theme.id]?.[0]||japaneseTitles[KEYS.indexOf(theme.keys[0])]:focus;
    const introduction=locale==='ja'?japaneseEditorial[theme.id]?.[1]:(intros[locale]||intros.en).replace('{theme}',focus);
    if(!title||!introduction)throw Error('Missing feature editorial '+theme.id);
-   const articles=picked.map(row=>{used.set(row.itemId,(used.get(row.itemId)||0)+1);return {itemId:row.itemId,title:row.titleJP,blurb:featureExcerpt(row,theme),url:row.urlJP,...(usableImage(row)?{imageUrl:row.imageUrl}:{}),sourceTags:theme.keys};});
+   const articles=picked.map(row=>{used.set(row.itemId,(used.get(row.itemId)||0)+1);return featureArticle(row,theme);});
    const coverImage=theme.id==='weekly-001'?'features/images/humanoid-v1.png':theme.id==='weekly-002'?'features/images/spatial-v1.png':theme.id==='weekly-003'?'features/images/everyday-v1.png':`features/images/${theme.id}-v1.png`;
    features.push({id:theme.id,themeId:theme.themeId,publishedAt:theme.publishedAt,title,introduction,coverImage,articles});
   }
@@ -167,4 +172,4 @@ function generate(root,output,{start,plan:fixedPlan}={}) {
  fs.writeFileSync(path.join(output,'generation-report.json'),JSON.stringify(report,null,2)+'\n');return report;
 }
 if(require.main===module)console.log(JSON.stringify(generate(process.argv[2]||'local-data',process.argv[3]||'features'),null,2));
-module.exports={generate,matches,groups,excerpt,featureExcerpt,usableImage,createPlan,loadCatalogs,FEATURE_WEEKS};
+module.exports={generate,matches,groups,excerpt,featureExcerpt,usableImage,createPlan,loadCatalogs,FEATURE_WEEKS,rankCandidates,featureArticle};

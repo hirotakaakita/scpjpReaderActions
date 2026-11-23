@@ -2301,61 +2301,6 @@
       ]
     },
     {
-      "id": "weekly-053",
-      "themeId": "infohazard",
-      "publishedAt": "2027-11-10T10:00:00.000Z",
-      "title": "Informationsfara",
-      "introduction": "Utforska temat Informationsfara och jämför likheter och skillnader mellan dessa anomalier.",
-      "coverImage": "features/images/weekly-053-v1.png",
-      "articles": [
-        {
-          "itemId": "scp-series-055",
-          "title": "SCP-055",
-          "blurb": "SCP-055 är en “självbevarande hemlighet” eller “antimem”.Information om SCP-055:s fysiska utseende, såväl som dess natur, beteende och ursprung är av sig självt hemlighetsbevarande.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-055",
-          "sourceTags": [
-            "infohazard"
-          ]
-        },
-        {
-          "itemId": "scp-series-012",
-          "title": "Ett Dåligt Upplägg",
-          "blurb": "SCP-012 återfanns av arkeologen K.M.Sandoval under utgrävningen av en norditaliensk grav som förstörts under en storm.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-012",
-          "sourceTags": [
-            "infohazard"
-          ]
-        },
-        {
-          "itemId": "scp-series-426",
-          "title": "Jag är en Brödrost",
-          "blurb": "Jag måste introduceras på detta sätt för att undvika tvetydighet.Jag är en vanlig brödrost, kapabel att rosta bröd när jag får elektricitet.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-426",
-          "sourceTags": [
-            "infohazard"
-          ]
-        },
-        {
-          "itemId": "scp-series-074",
-          "title": "Kvant Gråsugga",
-          "blurb": "SCP-074 är en anomal organism som använder olika kvant egenskaper i makroskopisk skala och på andra sätt modifierar fysikens standard lagar i sin omedelbara närhet.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-074",
-          "sourceTags": [
-            "infohazard"
-          ]
-        },
-        {
-          "itemId": "scp-series-436",
-          "title": "Fellås",
-          "blurb": "SCP-436 är ett litet medaljong, tydligen gjort av guld.När det öppnas kan ett inlagt fotografi ses.",
-          "url": "https://scp-nd.wikidot.com/sv:scp-436",
-          "sourceTags": [
-            "infohazard"
-          ]
-        }
-      ]
-    },
-    {
       "id": "weekly-057",
       "themeId": "regenerative",
       "publishedAt": "2027-12-08T10:00:00.000Z",
@@ -2583,6 +2528,63 @@
           "url": "https://scp-nd.wikidot.com/sv:scp-436",
           "sourceTags": [
             "artifact"
+          ]
+        }
+      ]
+    }
+  ],
+  "deferredFeatures": [
+    {
+      "id": "weekly-053",
+      "themeId": "infohazard",
+      "publishedAt": "2027-11-10T10:00:00.000Z",
+      "title": "Informationsfara",
+      "introduction": "Utforska temat Informationsfara och jämför likheter och skillnader mellan dessa anomalier.",
+      "coverImage": "features/images/weekly-053-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-055",
+          "title": "SCP-055",
+          "blurb": "SCP-055 är en “självbevarande hemlighet” eller “antimem”.Information om SCP-055:s fysiska utseende, såväl som dess natur, beteende och ursprung är av sig självt hemlighetsbevarande.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-055",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-012",
+          "title": "Ett Dåligt Upplägg",
+          "blurb": "SCP-012 återfanns av arkeologen K.M.Sandoval under utgrävningen av en norditaliensk grav som förstörts under en storm.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-012",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-426",
+          "title": "Jag är en Brödrost",
+          "blurb": "Jag måste introduceras på detta sätt för att undvika tvetydighet.Jag är en vanlig brödrost, kapabel att rosta bröd när jag får elektricitet.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-426",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-074",
+          "title": "Kvant Gråsugga",
+          "blurb": "SCP-074 är en anomal organism som använder olika kvant egenskaper i makroskopisk skala och på andra sätt modifierar fysikens standard lagar i sin omedelbara närhet.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-074",
+          "sourceTags": [
+            "infohazard"
+          ]
+        },
+        {
+          "itemId": "scp-series-436",
+          "title": "Fellås",
+          "blurb": "SCP-436 är ett litet medaljong, tydligen gjort av guld.När det öppnas kan ett inlagt fotografi ses.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-436",
+          "sourceTags": [
+            "infohazard"
           ]
         }
       ]

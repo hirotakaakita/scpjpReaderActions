@@ -44,6 +44,7 @@ jobs:
       - name: Publish updated features and queue only changed languages
         if: inputs.recovery_delivery == ''
         run: |
+          node refresh-weekly-features.js
           node publish-weekly-features.js
           git add features/ local-data/feature-notification-queue.json
           if ! git diff --staged --quiet; then

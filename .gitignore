@@ -24,6 +24,11 @@ logs/
 # Crawler outputs
 partial-data/
 
+# Local diagnostics and generated Python tooling caches.
+/relations/
+__pycache__/
+*.py[cod]
+
 # The additional catalog is persisted as gzip; JSON is a local intermediate.
 /local-data/related-documents/catalog.json
 /.task-logs/
