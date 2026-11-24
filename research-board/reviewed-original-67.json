@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "reviewedBoardRevision": "d1382687d7f5adaf7389",
+  "provenance": "CI artifact 14885124475 from validated 150-case publisher audit (run 45316009381)",
+  "originalAuditCount": 150,
+  "retiredNoticeSkipped": 6,
+  "workIdentityCases": 67,
+  "wrongPublisherCreditCases": 18,
+  "rules": [
+    {
+      "source": "https://scp-cs.wikidot.com/scp-025",
+      "target": "https://scp-wiki.wikidot.com/scp-025",
+      "sourceSha256": "0bb653eda54b3b84c100eecaa9ecf84db472bae2aa7f44abb6683f095002bb1b",
+      "publisherBodySha256": "bd381859b381383c5c798534b2a9d32179851b1ec5ef10bd33a174c4e10ef5fd",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-024",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-cs.wikidot.com/scp-068",
+      "target": "https://scp-wiki.wikidot.com/scp-068",
+      "sourceSha256": "f5bd46480312ab6b9f507f6c580a7425bd05e66de5ffb9e50161040db9ed6490",
+      "publisherBodySha256": "76bc289aa4a8becf647d4b314e650b2e3aad35609e2d8796cbdd558164985141",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-536",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-cs.wikidot.com/scp-2350",
+      "target": "https://scp-wiki.wikidot.com/scp-2350",
+      "sourceSha256": "bb51c08ddf2bc42303dbc489912aa0e06963ff8637e74685257c9b89719815f0",
+      "publisherBodySha256": "fa4ed119b3ce40b577666548c0440e324fbec7f2fbed7d5e2f0d5228f55256c9",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-6442",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-cs.wikidot.com/scp-9044",
+      "target": "https://scp-wiki.wikidot.com/scp-9044",
+      "sourceSha256": "5b9b672941be9264b17c341e85a0073262b27eea09f7c072c343707335304377",
+      "publisherBodySha256": "def8bf748ea6c7d5c55978c100d11d3602f2494d9d0150fdb0742e70b70eb0ee",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-9002",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:he:scp-012",
+      "target": "https://scp-wiki.wikidot.com/scp-012",
+      "sourceSha256": "e4b3e2af4e9901f1b3f7552b724e9296b4828d698b979f8db75e4b5732a2a671",
+      "publisherBodySha256": "6263776f2d217960b840fef38616656208f8588f0acd2237e9b5a78f58d4c153",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-012",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-005",
+      "target": "https://scp-wiki.wikidot.com/scp-005",
+      "sourceSha256": "caed5727918daf9e8f1f5f1afcd51ddee9ac3853c9ccf7452fd9f33b5f630d78",
+      "publisherBodySha256": "c63c3de28277b76ad4faf86365103fbb707f1596ea9825ca9e3c90f93faccbe0",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-005",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-006",
+      "target": "https://scp-wiki.wikidot.com/scp-006",
+      "sourceSha256": "102da7da73351fa7caad8877134db8ad4f2eda7e63ad02d7c7350c5d7a8874fc",
+      "publisherBodySha256": "c2a35df7249ba59408250fd5df3232b10d7dc7ff47d07090362379fd72b8c16f",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-006",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-017",
+      "target": "https://scp-wiki.wikidot.com/scp-017",
+      "sourceSha256": "de2bba72dbeb36093c56ce9aba9133b855d7b40d1efcef7d2fe09d09d3627a39",
+      "publisherBodySha256": "f609c85727a2407c512037f01aa0a1b1ac29cd4c098d8a15e328006f98b8cfa3",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-017",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-048",
+      "target": "https://scp-wiki.wikidot.com/scp-048",
+      "sourceSha256": "28138988c93265c2242c4820d576ecceeb647fa63effdc8f298a385f98e03ac7",
+      "publisherBodySha256": "314e35d8fb072b8a54999543cf8f2d72ebb6bb85890a5aac8bffd583b88563ed",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-048",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-055",
+      "target": "https://scp-wiki.wikidot.com/scp-055",
+      "sourceSha256": "b08d73cfab3dfee008e8c7d984776f03543d60ca7ade8269c1f17f684810b4d5",
+      "publisherBodySha256": "1b5986395be8b1ed9e50dfbe8ca5220de7f83c71e5859de3b103a294dd9e59a7",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-055",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-173",
+      "target": "https://scp-wiki.wikidot.com/scp-173",
+      "sourceSha256": "2132f0d3ffb7f54ea3d0b82e877044addaae0a8c14b288ef2555a3f0e1edf621",
+      "publisherBodySha256": "3e6a4d7d0213353e0e9da22a5f7ad0b31787381ac9a4dc7c7139a28e34f8c1fe",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-173",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-4514",
+      "target": "https://scp-wiki.wikidot.com/scp-4514",
+      "sourceSha256": "1de6daca7f285abac7968ace344d63214a4e5fc95ee3711668388b48d8451887",
+      "publisherBodySha256": "406dbdcd6863efebf3b35c18a328d21f1d6ba17bbff01d98a2be27b76c6b9f87",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-4514",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-500",
+      "target": "https://scp-wiki.wikidot.com/scp-500",
+      "sourceSha256": "ac67768892abd85a2565d19e29f72deb00d3e5aaa9220bf7ea589c402856c3bf",
+      "publisherBodySha256": "1fe5802c38e092afe52a4eaef968242c2af3003a077de98da6c74be1c3224652",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-500",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-682",
+      "target": "https://scp-wiki.wikidot.com/scp-682",
+      "sourceSha256": "f8e3e1598d02072d115aa69a8f1ca4b5959141a13176451d522b69b408b16de5",
+      "publisherBodySha256": "3df00d660057e704129e8f99450992edb0204c141a9738718a72bca555ecb5fc",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-682",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-895",
+      "target": "https://scp-wiki.wikidot.com/scp-895",
+      "sourceSha256": "fcf751cf57ca4f32c51c1ecfb1749acb89b33d4761a3080e6b685e15be8d34e3",
+      "publisherBodySha256": "d06a31a914d2f8033925b4be62df01ee56f16d1c6fd6b4c646aeae8da24788e8",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-895",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-j",
+      "target": "https://scp-wiki.wikidot.com/scp-j",
+      "sourceSha256": "963fb8d34636df78ed8beb5d569d0f31d1e6b93d201e54fce11305a2a70c8711",
+      "publisherBodySha256": "d4530c8458078cfae35b03ce46cfd81e9c2b81ac60fafe76bcf213701a6d85c2",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:isv:scp-pl-262",
+      "target": "https://scp-pl.wikidot.com/scp-pl-262",
+      "sourceSha256": "2a623b915bba23320c23c5bf2eb350d1d1ba48d0225e9d647cf033afd00e225f",
+      "publisherBodySha256": "178617f97f2c52a8f6b8cca8269684e339606436b3bd69f2e7e462b39772504a",
+      "creditedOriginal": "https://scp-pl.wikidot.com/scp-pl-262",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:qwd:scp-021-j",
+      "target": "https://scp-wiki.wikidot.com/scp-021-j",
+      "sourceSha256": "5dca900d74d998a35559b1772e01f73360f2f159260910fd4b9fcb53e93ac920",
+      "publisherBodySha256": "bf4d9c767ed4d0474ce6e4b38ea677bcc7fd19a693aaf008b4d94c1e98bbfde3",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-021-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:qwd:scp-j",
+      "target": "https://scp-wiki.wikidot.com/scp-j",
+      "sourceSha256": "0c55281f68896772ba52940477c025ae4520efd516e287e14d25f80fa42bb8d4",
+      "publisherBodySha256": "aa0d59f0870f9943deba4df81c234486e2ae7b794d3e7654353797011f1b64b0",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:tl:scp-012",
+      "target": "https://scp-wiki.wikidot.com/scp-012",
+      "sourceSha256": "86e9ea2948d8eb87938e753a69d7eb6ad0eae7e67d41011cf6a3de63500fe2e9",
+      "publisherBodySha256": "25dc52411b85a43291e9bc78476e3d9fef8b74995754fb44143397c16255a2da",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-012",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:tl:scp-069",
+      "target": "https://scp-wiki.wikidot.com/scp-069",
+      "sourceSha256": "bef32d8b94aa9a9fba52faa5af50058c16de9416222c6a540ce75b8267930451",
+      "publisherBodySha256": "3980d000169a501d710d4a6bde2f77cdf9cffe5e8c1ad13ffc0ec1848dae4154",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-069",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:tl:scp-1504",
+      "target": "https://scp-wiki.wikidot.com/scp-1504",
+      "sourceSha256": "3f5ec83b9e402dc4ae7f8d6a0e1519eaef40ff828498672784e45a4a848c1e93",
+      "publisherBodySha256": "eaf362b82223400cdcb70694c12ea2d027ca255fc15d6a834938e1e85013a24b",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1504",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:tl:scp-4248",
+      "target": "https://scp-wiki.wikidot.com/scp-4248",
+      "sourceSha256": "9cd9acffde6be43bfee5e7c7bb98366abdf6e9568d555eefeda8e7b7ea9db329",
+      "publisherBodySha256": "c4c38aa021939acc22df19098f985480f92ba1bf56bf0f0c5c62bfa5e034b496",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-4248",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:tok-sp:scp-444",
+      "target": "https://scp-wiki.wikidot.com/scp-444",
+      "sourceSha256": "8fabb0c8a5c0e60138d24c38bbdd357e5cf8609ae904fb65b6696e5117b7f63d",
+      "publisherBodySha256": "4f164358b59a0251c4257ae705f601e0b3ef89850ee49ce4aba2bb715d49837d",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-444",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:tok:scp-444",
+      "target": "https://scp-wiki.wikidot.com/scp-444",
+      "sourceSha256": "bfde01b829d2bbd581d2ba4f12ee7dccbfbecfcef23e9722f1aae9572f7833a3",
+      "publisherBodySha256": "8122fdbdf06e8be17eb1d77c3a4ffd5d89644bd21d5a744393641b1e7ced9978",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-444",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:za:scp-j",
+      "target": "https://scp-wiki.wikidot.com/scp-j",
+      "sourceSha256": "d07e9e8ad1439f43cc4ad8024eb987ac2a5fef47014d094788d2b1df32a05705",
+      "publisherBodySha256": "29dce78f9159f32a77ff8daf119dd5636ce0cde8dd4cea8e061d8615f9a0f066",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:zh-la:director-bold-s-proposal-la",
+      "target": "https://scp-int.wikidot.com/unofficial:la:director-bold-s-proposal-la",
+      "sourceSha256": "d93748a278c3686275a14f05abd6bc7812b2b21ad71f19637b3b4c7f33ed84bc",
+      "publisherBodySha256": "42da1c84809bfd5e073d468da5b11cb21ac7715a9ca9964132d8fc49cc22429d",
+      "creditedOriginal": "https://scp-int.wikidot.com/unofficial:la:director-bold-s-proposal-la",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-int.wikidot.com/unofficial:zh-la:scp-j",
+      "target": "https://scp-wiki.wikidot.com/scp-j",
+      "sourceSha256": "4d1934a33d1eebe28a2d504273a44065b51ab2b20c9cdbffced0d7b29a92da87",
+      "publisherBodySha256": "be5bf6f986ed9ea54b447b42171fe9ef2725569b62ecab7150c15f1b07be1131",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-jp.wikidot.com/scp-173-but-it-s-the-admonition-hub",
+      "target": "https://scp-wiki.wikidot.com/scp-173-but-it-s-the-admonition-hub",
+      "sourceSha256": "575c71037a39446fda5d4dbc03e53ecf420916d30004a6706c993b27cde9cd43",
+      "publisherBodySha256": "9d2af1c147c6515df4488b1ea23290b2cfc78397bdf1d006235bef731d8e40e0",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-173-but-it-s-the-admonition-hub",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/4x4x4-cell",
+      "target": "https://scp-wiki.wikidot.com/4x4x4-cell",
+      "sourceSha256": "e0a4f93499e5726f170b59cb071772785ffd693d884de341876b518bf07fb8a2",
+      "publisherBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/4x4x4-cell",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-179",
+      "target": "https://lafundacionscp.wikidot.com/scp-es-026",
+      "sourceSha256": "b8fbe118112edd1341289a9134fa1f8b7951efafb22351d889c3a2467efd8b5b",
+      "publisherBodySha256": "47669eb3b3536fbfe33656c2f41a3fa802b833c76bc217be34c176b7c322b736",
+      "creditedOriginal": "https://lafundacionscp.wikidot.com/scp-es-026",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-2195",
+      "target": "https://scpfoundation.net/scp-2195",
+      "sourceSha256": "bbaaf919961aae2b513ea368118a2b89604e7b50d7569b839d7a67ecb9d284a3",
+      "publisherBodySha256": "eeb68c1c0e2db65d4362c06f33e62fa7f98b6b1fc99381ae3f1bfff84d14f7dc",
+      "creditedOriginal": "https://scpfoundation.net/scp-2195",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-2195-ru",
+      "target": "https://scpfoundation.net/scp-2195",
+      "sourceSha256": "7133ce93edc6a72d166ad565b12f840f529ee2fc6df53384f1bc77d08ecd1434",
+      "publisherBodySha256": "eeb68c1c0e2db65d4362c06f33e62fa7f98b6b1fc99381ae3f1bfff84d14f7dc",
+      "creditedOriginal": "https://scpfoundation.net/scp-2195",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-2470",
+      "target": "https://scpfoundation.net/scp-1001-ru",
+      "sourceSha256": "04face395622cb61699c07f7f8c9ecc5db903c643e57eb9770b7cb486f5d686a",
+      "publisherBodySha256": "8886d88ec0faf85503a1383e8cde97ee6bd707e3795949df9b82be5aac4caf4b",
+      "creditedOriginal": "https://scpfoundation.net/scp-1001-ru",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-4000",
+      "target": "https://scp-wiki.wikidot.com/taboo",
+      "sourceSha256": "226e312c4afc74e11eec3a771226abb0f7fdbe51bfe11d5d05d3000cf64890bc",
+      "publisherBodySha256": "07462297aa3c01de0b28205bff0d7557c3a818431672299d60ac778b5a6001c6",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/taboo",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-5814",
+      "target": "https://scp-wiki-cn.wikidot.com/re-spectator-s-proposal",
+      "sourceSha256": "a72be23395d3fd2bbaf7009a9dcd9037d84ae7927b0026a2ea34b4d9e3e4dc5a",
+      "publisherBodySha256": "b8f613e5da680e69ff1b52bf82c1c8cc827b49b679a0dffdd9181aec2a613bf7",
+      "creditedOriginal": "https://scp-wiki-cn.wikidot.com/re-spectator-s-proposal",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-7166",
+      "target": "https://scp-wiki.wikidot.com/scp-7166",
+      "sourceSha256": "02861028626e590433a97e1597ecd67c55434c324437bfe12b807160a38b3895",
+      "publisherBodySha256": "c0a28c9643aebf621d5a93bec0947b006cad83a5de32c539239c888ed1010ef2",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-7166",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-vn.wikidot.com/scp-7231",
+      "target": "https://scp-wiki.wikidot.com/scp-7231",
+      "sourceSha256": "e07f35bfe9b1f2e676bd461d48a186ffb5b70506a527630da3c8f85149c0c0f8",
+      "publisherBodySha256": "6398b74208fc084e918ed219517288c03e85d8d23ef75153bd74122fb18920c5",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-7231",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-cn.wikidot.com/cierpienia-noworoczne",
+      "target": "https://scp-pl.wikidot.com/cierpienia-noworoczne",
+      "sourceSha256": "1104b7d1e7098be5e8498f448f08dadf1fc7fcace2f9f48f7ac37ade90e972c0",
+      "publisherBodySha256": "8a2e74b85358ca4c52405bf2727ba9d445b791b6b2d1f4042643e03ca7815e46",
+      "creditedOriginal": "https://scp-pl.wikidot.com/cierpienia-noworoczne",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-cn.wikidot.com/scp-002-ir",
+      "target": "https://scp-int.wikidot.com/unofficial:ir:scp-002-ir",
+      "sourceSha256": "98d359aeb74b940133ac7ae46c76755a17b33bc398da83b0f2d1798dbb607b2b",
+      "publisherBodySha256": "fcd63e8b60685037b9932a035b14dbbf6da60f0fee08a17efa00fc5abf52b341",
+      "creditedOriginal": "https://scp-int.wikidot.com/unofficial:ir:scp-002-ir",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/a-calculated-risk",
+      "target": "https://scp-wiki.wikidot.com/a-calculated-risk",
+      "sourceSha256": "963c820692b7e711663ca8d7f043808c4b800cdccff6f45498e1b1cba93e36b8",
+      "publisherBodySha256": "01e90dd1c6d7bdbb11dce16c02feb03a8e8e5934f841f99c58c26ed3414e9c81",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/a-calculated-risk",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1114",
+      "target": "https://scp-wiki.wikidot.com/scp-1114",
+      "sourceSha256": "c832290f0f2b5c9c252e5c34dbcc268dafb2cd84c97f89de8a5944711753c2c0",
+      "publisherBodySha256": "72d21fd56b0a7b632150fad5653a8b6627bdca52dfd8348fee4c3da292ba92de",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-114",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1216",
+      "target": "https://scp-wiki.wikidot.com/scp-1216",
+      "sourceSha256": "7bfb88c42cdee034e1a7037fffa80bb49f6b39364caed74dc98311a5ab88ae6e",
+      "publisherBodySha256": "bac9f27623fc52b72756f66daad26a2ef748ff6d4cb7d1e9bfed13c36be773e6",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1226",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1289",
+      "target": "https://scp-wiki.wikidot.com/scp-1289",
+      "sourceSha256": "8832b4f2a12fc1199eb61e13510de8f48055d6e9fb968d326c86cb5a7a0e4bd5",
+      "publisherBodySha256": "9e512b1820ec6b44a554c5195ea193111c4034c369652fbc347a457acaffc1a5",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1288",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1414",
+      "target": "https://scp-wiki.wikidot.com/scp-1414",
+      "sourceSha256": "8a7e0f33843f4d57e4c19153ec774ec29bf2d86bd63ce2d90067c8eccb2028a9",
+      "publisherBodySha256": "6ef035b252e075de2129d02657b6c2db7863c15bbdd1500186856a6bd521419f",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1413",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1667",
+      "target": "https://scp-wiki.wikidot.com/scp-1667",
+      "sourceSha256": "c716abf51b54ffab48e58128c6dee5dcfed54d033cbb8518bfb88faaafab362e",
+      "publisherBodySha256": "66c18c73cf4d3f9018219c3ae2cca0b77ed6a72d5a4cfd62d510b54c9f3e1288",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1666",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1696",
+      "target": "https://scp-wiki.wikidot.com/scp-1696",
+      "sourceSha256": "b848b98e18c62a9c047fbb6b1cd24040acd0b95e1b55fcdde186c9fce31fb069",
+      "publisherBodySha256": "77f338c7b18326db4a410c5048dc8966c0e5263c394da70d624104713dc37b3a",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1695",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1699",
+      "target": "https://scp-wiki.wikidot.com/scp-1699",
+      "sourceSha256": "b7c06f49ae39914c1fffab3849a57d12270b2d33b3ab18df5c0b21164997842f",
+      "publisherBodySha256": "134d79af98a006d60a150ce564cd10fe4f0abac18edf88516adb773c803c0524",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1698",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1814",
+      "target": "https://scp-wiki.wikidot.com/scp-1814",
+      "sourceSha256": "23ce3d5df9d70e995c23fb754f0f09f94c5ad9f504bee01e8831db14b67aea94",
+      "publisherBodySha256": "8273a7df9a474d279ad5fcdeedec2c25f976a09c83af59a6acf575c36d52531e",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1813",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1916",
+      "target": "https://scp-wiki.wikidot.com/scp-1916",
+      "sourceSha256": "b6651ad0aaae262e9c51f733590beead6ac36a70d71472400fe20412dc086e69",
+      "publisherBodySha256": "76c8b790cd9813f06764560cc82c029c85a87ad0d9357a54a9bf785282a3802e",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1917",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-1925",
+      "target": "https://scp-wiki.wikidot.com/scp-1925",
+      "sourceSha256": "1195597ab92b48ac932e43f8650071f6a49159795a9bb88d02a3c3a51243dd0b",
+      "publisherBodySha256": "8aaaa2a81130714a7adbbb51a77de145f645c845faeb39576f9dbe46a66860bb",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-1926",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-4194",
+      "target": "https://scp-wiki.wikidot.com/scp-4194",
+      "sourceSha256": "74cfc8dbf598b5b34d5469378ba4403a897c6d62ad465a52576fd904d7a98885",
+      "publisherBodySha256": "9abca1df84a94e7bdb37a95c57ac43021bfdc8d8d4f76e481359aceb25879170",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-4194",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-490",
+      "target": "https://scp-wiki.wikidot.com/scp-490",
+      "sourceSha256": "ede6908e7e91b500f746aea09c2b8366cd3a02fea02db3b3897382c2e3b3fe17",
+      "publisherBodySha256": "49f0a455fda1093677b3d6bd29571b7b3d716e43d5a7c5499f0d116d462d2b34",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-290",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-813",
+      "target": "https://scp-wiki.wikidot.com/scp-813",
+      "sourceSha256": "f1ef1678050e885f0c6f03899268634051fbe3f213b6cdea1aecbc31835d28cf",
+      "publisherBodySha256": "36eecaa6da61890ab8e0793894a884167cef4c2ab1bbc51a11a47ec0d085732c",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-810",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-9027",
+      "target": "https://scp-wiki.wikidot.com/scp-9027",
+      "sourceSha256": "b833b9762eecdb054325c93cbb3f8beb26e3d855e0cc1da2fac1b19f431c4f10",
+      "publisherBodySha256": "cce9216ffaabcf3f64c07d084c910734ad5d8b477e4ed3c52c53a188bb52704c",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-9027",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-eo-416",
+      "target": "https://scp-int.wikidot.com/unofficial:eo:scp-eo-416",
+      "sourceSha256": "c493fb91268b4b24f9b5a264321fe3b733e35ff9155c80cdd040564136288d9a",
+      "publisherBodySha256": "c2ede98a94eba36f73b3e88710a47cc86a65515de34737d9b32efaca884b37a4",
+      "creditedOriginal": "https://scp-int.wikidot.com/unofficial:eo:scp-eo-416",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki-de.wikidot.com/scp-pl-kot-j",
+      "target": "https://scp-pl.wikidot.com/scp-pl-kot-j",
+      "sourceSha256": "f07eefacbe629c21ae5c897ceab5306666460cddb6c3e6be7108f507489f02d9",
+      "publisherBodySha256": "5ae047204c7e89f9b1853b315be8e167943aaf6cfe0f2548b378d9981c7b396d",
+      "creditedOriginal": "https://scp-pl.wikidot.com/scp-pl-kot-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki.wikidot.com/scp-1150-j",
+      "target": "https://scpfoundation.net/scp-1150-j",
+      "sourceSha256": "52074bea41a4a3a38e7761e559b2e592070b39b75531e730650e3628149da6fd",
+      "publisherBodySha256": "22094023956033672fd0f8a942f440a969d87f7854aad3f86e2af7b0a177356e",
+      "creditedOriginal": "https://scpfoundation.net/scp-1150-j",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki.wikidot.com/scp-206",
+      "target": "https://scpfoundation.net/scp-206",
+      "sourceSha256": "6f0d5ac47d8d78cb9447e36a360c456bee29bc0e11706ada5715464a8c9ab10e",
+      "publisherBodySha256": "9bd1941f7bf719df05f43b003ba499881d94296bd032e9bad3f00cdf65c45f69",
+      "creditedOriginal": "https://scpfoundation.net/scp-206",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki.wikidot.com/scp-2195",
+      "target": "https://scpfoundation.net/scp-2195",
+      "sourceSha256": "650d284e7b139885add3f6869303c8a2c0d42895f9ee4d7ec1bb89d25d4d3a80",
+      "publisherBodySha256": "e550bf3212d999336804562e0b03ecd31626449b45e1a74c72e156af4168c5e6",
+      "creditedOriginal": "https://scpfoundation.net/scp-2195",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-wiki.wikidot.com/scp-5814",
+      "target": "https://scp-wiki-cn.wikidot.com/re-spectator-s-proposal",
+      "sourceSha256": "fb708c67752297052b37cad73d38e33b870e0b126b5d8dc9573bd784880ae49a",
+      "publisherBodySha256": "56cda32e3f1e173cd0692cb857e631f8427b47ed71353750fe0dfcf559167ff5",
+      "creditedOriginal": "https://scp-wiki-cn.wikidot.com/re-spectator-s-proposal",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-zh-tr.wikidot.com/groups-of-interest-es",
+      "target": "https://lafundacionscp.wikidot.com/grupos-de-interes-hispanoparlantes",
+      "sourceSha256": "990029f966ad1900031a2a5ece2655ce97352d7659bbf0a524633e5664b03837",
+      "publisherBodySha256": "696ee559afc562fce50105682044b3fc81db118a532fc650a6fce3ff5865dbb7",
+      "creditedOriginal": "https://lafundacionscp.wikidot.com/grupos-de-interes-hispanoparlantes",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-zh-tr.wikidot.com/i-am-the-organisation",
+      "target": "https://scpfoundation.net/i-am-the-organisation",
+      "sourceSha256": "387d2bb2ef7b23aacf76392f815748c30bd6e200097ee935c86c833b23004f39",
+      "publisherBodySha256": "f7b11243a2010573af00875e06cf40cfde8963e8769e1aba35c38cae9f55dda4",
+      "creditedOriginal": "https://scpfoundation.net/i-am-the-organisation",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-zh-tr.wikidot.com/scp-4000",
+      "target": "https://scp-wiki.wikidot.com/taboo",
+      "sourceSha256": "3fd4393f66358d26e41fb8fa051c979b0bdfe4fe5c05f03c84bf894792125d32",
+      "publisherBodySha256": "1892531725fd4955ff0f4e91c41745402a3af1e77d90fc32f2496526443959b5",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/taboo",
+      "method": "reviewed_publisher_story_equivalence"
+    },
+    {
+      "source": "https://scp-zh-tr.wikidot.com/scp-807",
+      "target": "https://scp-wiki.wikidot.com/scp-807",
+      "sourceSha256": "b1c69b33ac87d32f68a738af316acc3cd3a5ebbc195de5cafeb2c4468358006e",
+      "publisherBodySha256": "df15dc4f2403b0d2f4dbd2b8605dc909f19d9b0552e15befc806966da8f696f4",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-4830",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scp-zh-tr.wikidot.com/scp-885",
+      "target": "https://scp-wiki.wikidot.com/scp-885",
+      "sourceSha256": "5c30a83bd82dba96600f931fa2513b9409dda805aa454d0f38cb21f1647bbf63",
+      "publisherBodySha256": "9c058f9ce78b37a4c59914d571ee81ac5bba34e358df07f337c387aab83ec7a0",
+      "creditedOriginal": "https://scp-wiki.wikidot.com/scp-989",
+      "method": "verified_wrong_original_credit"
+    },
+    {
+      "source": "https://scpko.wikidot.com/scp-6470",
+      "target": "https://scp-wiki-cn.wikidot.com/scp-cn-2469",
+      "sourceSha256": "7e31ee444ce51dd9675514250f4fbe2613813e59e77f3be9a69d754845b0c6a1",
+      "publisherBodySha256": "2f5de032c65c108f26e4139e7508448c3092575bdddb142aae7dc61978f5ea1e",
+      "creditedOriginal": "https://scp-wiki-cn.wikidot.com/scp-cn-2469",
+      "method": "reviewed_publisher_story_equivalence"
+    }
+  ]
+}

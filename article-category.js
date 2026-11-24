@@ -1,10 +1,16 @@
 'use strict';
+const {tagNames,scpMetadata}=require('./article-metadata');
 
 // Article type and original branch are independent. A canon's member is not
 // necessarily a hub, and a translated work keeps its original branch.
 function isPublisherArchive(url, tags) {
   try {
     const page = new URL(url);
+    // Translations retain the retired Russian work's -V identity.
+    if (/^\/scp-\d+-ru-v(?:-\d+)?\/?$/i.test(decodeURIComponent(page.pathname))) return true;
+    if (page.hostname === 'scp-wiki-de.wikidot.com') {
+      return tags.has('archiviert') || /^\/scp-(?:[a-z]+-)?\d+(?:-[a-z\d]+)*-t\/?$/i.test(decodeURIComponent(page.pathname));
+    }
     if (page.hostname === 'scpfoundation.net') {
       const markers = new Set(['тип:архив', 'тип:-v']);
       // Retained API catalogs may contain only hashed tag IDs. Resolve their
@@ -27,14 +33,16 @@ function isPublisherArchive(url, tags) {
   } catch { return false; }
 }
 function articleCategory(record, evidence = [], url = record.url || '') {
-  const tags = new Set((record.tags || []).flatMap(t => typeof t === 'string' ? [t] : [t.id, t.label].filter(Boolean)).map(v => v.normalize('NFC').toLowerCase()));
+  const tags = new Set(tagNames(record.tags));
   const has = values => values.some(t => tags.has(t));
   if (has(['archived','archive','archived-page','archivé','アーカイブ済み']) ||
       /(?:-arc(?:$|[?#])|\/archived:)/i.test(url) || isPublisherArchive(url, tags)) return 'archive';
   if (has(['hub','ハブ','中心','结构','структура:хаб','허브','centrum','concentrador','centre','portalseite','hub-vn'])) return 'hub';
   if (has(['goi-format','goiフォーマット','goi格式','формат-goi','format-goi','format-goi-fr','goi-格式','goi서식','структура:свор_формат'])) return 'goi';
-  if (has(['experiment-log','exploration-log','interview','incident-report','supplement','実験','実験記録','探査','探査記録','インタビュー','補足','実験ログ'])) return 'record';
-  if (has(['tale','tales','conte','relato','racconto','opowiadanie','рассказ','이야기','故事','структура:рассказ','geschichte'])) return 'tale';
+  if (has(['experiment-log','exploration-log','interview','incident-report','supplement','suplemento','структура:дополнение','実験','実験記録','探査','探査記録','インタビュー','補足','実験ログ'])) return 'record';
+  // Official 001 proposals can be narrated as stories (e.g. the Factory).
+  if (tags.has('тип:001')) return 'other';
+  if (has(['tale','tales','conte','relato','racconto','opowiadanie','рассказ','이야기','故事','структура:рассказ','geschichte','truyện'])) return 'tale';
   if (has(['personnel','facility','mobile-task-force','department','人物','施設','機動部隊','部門','要注意団体','goi-hub'])) return 'setting';
   const kinds = new Set(evidence.map(e => e.kind));
   if (evidence.some(e => e.kind === 'canon' && e.source === url)) return 'hub';
@@ -74,6 +82,13 @@ function reclassifyScpArticle(row, reservedIds) {
   if (category !== 'other') {
     const pageType = 'related-document-' + branch;
     return { ...row, contentType: category, pageType, extractedFrom: pageType };
+  }
+  const metadata=scpMetadata(row,url,'',branch);
+  if(metadata && (metadata.pageType!==row.pageType || metadata.canonicalAlias || metadata.decimalAlias)){
+    const preserveSeriesId=row.pageType.startsWith('scp-series')&&metadata.pageType.startsWith('scp-series')&&!metadata.canonicalAlias&&!metadata.decimalAlias;
+    return {...row,itemId:preserveSeriesId?row.itemId:metadata.itemId,numericItemId:metadata.numericItemId,
+      pageType:metadata.pageType,extractedFrom:metadata.pageType,contentType:'scp',
+      ...(row.originBranch?{originBranch:metadata.originBranch}:{})};
   }
   if (branch !== existingBranch && row.pageType.startsWith('scp-series')) {
     const pageType = branch === 'en' ? 'scp-series' : 'scp-series-' + branch;

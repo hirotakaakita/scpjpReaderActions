@@ -171,7 +171,7 @@ function extractObjectClassFromDocument(document) {
   return null;
 }
 
-const DESCRIPTION_LABEL_PATTERN = /^(?:description|説明|描述|popis|beschreibung|descripción|descrizione|opis|설명|รายละเอียด|опис|mô tả|الوصف|وصف|disgrifiad|beskrivelse|περιγραφή|leírás|descriptio|beschrijving|descrierea?|beskrivning|açıklama|escriptionday)\s*[:：]?$/iu;
+const DESCRIPTION_LABEL_PATTERN = new RegExp('^[:：]?\\s*(?:'+require('./article-excerpts').DESCRIPTION_LABELS+')\\s*[:：]?$','iu');
 
 const TAG_RULE_VERSION = 3;
 function textContentPreservingBreaks(node) {
@@ -213,15 +213,11 @@ function extractDescriptionAndTagsFromDocument(document) {
 
     const heading = label.closest('h1, h2, h3, h4, h5, h6');
     const parts = [];
-    if (!heading) {
-      for (let node = label.nextSibling; node; node = node.nextSibling) {
-        if (node.nodeType === 1 && /^(strong|b)$/i.test(node.tagName)) break;
-        parts.push(node.nodeType === 1 && node.tagName.toLowerCase() === 'br'
-          ? '\n'
-          : textContentPreservingBreaks(node));
-      }
+    const section = heading || label.closest('p,dt,td,li') || label.parentElement;
+    if (!heading && section) {
+      const range=section.ownerDocument.createRange();range.setStartAfter(label);range.setEnd(section,section.childNodes.length);
+      const remainder=section.ownerDocument.createElement('div');remainder.append(range.cloneContents());parts.push(textContentPreservingBreaks(remainder));
     }
-    const section = heading || label.parentElement;
     if (section) {
       let next = section.nextElementSibling;
       while (next && !/^H[1-6]$/i.test(next.tagName) && !next.querySelector('strong, b') && parts.join('').length < 10000) {
@@ -351,11 +347,12 @@ function buildEntries(candidates, pageConfig) {
  *   既存アプリとの互換性のためフィールド名は維持している。
  */
 class LocalSCPCrawler {
-  constructor(langCode = 'jp') {
+  constructor(langCode = 'jp', {metadataDirectory=path.join(__dirname,'partial-data/related-documents')} = {}) {
     if (!LANGUAGES[langCode]) {
       throw new Error(`未対応の言語コード: ${langCode}（有効: ${Object.keys(LANGUAGES).join(', ')}）`);
     }
     this.langCode = langCode;
+    this.metadataDirectory=metadataDirectory;
     this.config = LANGUAGES[langCode];
     this.baseUrl = this.config.baseUrl;
     this.enBaseUrl = this.config.enBaseUrl;
@@ -541,31 +538,15 @@ class LocalSCPCrawler {
 
   /** SCP記事ページからオブジェクトクラス、説明冒頭、特徴タグをまとめて取得する。 */
   async extractScpDetailsFromPage(scpUrl, maxRetries = 3) {
+    scpUrl=scpUrl.replace(/^http:/,'https:');
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
         await this.waitForArticleRequestSlot();
-        const response = await axios.get(scpUrl, {
-          timeout: 30000,
-          headers: {
-            'User-Agent': CRAWLER_USER_AGENT,
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'en-US;q=0.9,en;q=0.8,*;q=0.5',
-          }
-        });
-
-        return withDom(response.data, document => {
-          const availability = inspectArticlePage(document, response.status);
-          if (!availability.usable) return { fetchSucceeded: false, articleUnavailable: availability.terminal, unavailableReason: availability.reason, tags: [] };
-          captureRelatedDocument(scpUrl, response.data, 'html', undefined, document);
-          return {
-          fetchSucceeded: true,
-          objectClass: extractObjectClassFromDocument(document),
-          rating: extractRatingFromDocument(document),
-          imageUrl: extractImageUrlFromDocument(document, scpUrl),
-          ...extractDescriptionAndTagsFromDocument(document),
-          };
-        });
+        const record=await require('./related-documents').fetchRecord(scpUrl,null,{metadataDirectory:this.metadataDirectory});
+        return {fetchSucceeded:true,articleTitle:record.title,objectClass:record.objectClass,rating:record.rating,imageUrl:record.imageUrl,
+          descriptionExcerpt:record.descriptionExcerpt||null,descriptionVersion:record.descriptionVersion,tags:publicTags(record.tags),tagVersion:TAG_RULE_VERSION};
       } catch (error) {
+        if(error.articleUnavailable)return {fetchSucceeded:false,articleUnavailable:true,unavailableReason:error.message,tags:[]};
         if ([404, 410].includes(error.response?.status)) return { fetchSucceeded: false, articleUnavailable: true, unavailableReason: 'not_found', tags: [] };
         console.warn(`SCP詳細情報取得エラー ${scpUrl} (試行${attempt}/${maxRetries}):`, error.message);
         if (attempt === maxRetries) return { fetchSucceeded: false, objectClass: null, rating: null, descriptionExcerpt: null, tags: [], tagVersion: null };
@@ -655,6 +636,7 @@ class LocalSCPCrawler {
           let objectClass = existingItem?.objectClass || null;
           let rating = existingItem?.rating ?? null;
           let descriptionExcerpt = existingItem?.descriptionExcerpt || null;
+          let articleTitle = entry.title || existingItem?.titleJP || '';
           let descriptionVersion = existingItem?.descriptionVersion;
           let tagVersion = existingItem?.tagVersion ?? null;
           let tagFetchStatus = existingItem?.tagFetchStatus ?? null;
@@ -679,6 +661,7 @@ class LocalSCPCrawler {
           if (urlForArticleExtraction && entry.type === 'scp') {
             console.log(`  SCP詳細情報取得中: ${entry.itemId}`);
             const details = await this.extractScpDetailsFromPage(urlForArticleExtraction);
+            if(details.fetchSucceeded&&require('./article-excerpts').titleNeedsRepair(articleTitle))articleTitle=details.articleTitle||articleTitle;
             if (details.articleUnavailable || (!details.fetchSucceeded && isNewItem)) return null;
             // A successful observation replaces stale images, including removal.
             // Never retain a thumbnail borrowed from another same-numbered work.
@@ -707,7 +690,7 @@ class LocalSCPCrawler {
             itemId: entry.itemId,
             // ??にすること（||だと000番記事のnumericItemId=0がnullになる）
             numericItemId: entry.numericItemId ?? null,
-            titleJP: entry.title,
+            titleJP: articleTitle,
             urlEN: urlEn,
             urlJP: urlLocal,
             imageUrl: imageUrl,

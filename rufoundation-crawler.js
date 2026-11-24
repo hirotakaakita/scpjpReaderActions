@@ -38,7 +38,16 @@ function stripStruck(value) {
 
 function cleanWikiText(value) {
   return stripStruck(value)
-    .replace(/\[\[(?:\/|>|<|div\b|span\b|table\b|row\b|col\b|collapsible\b)[^\]]*\]\]/gi, ' ')
+    .replace(/\[!--[\s\S]*?--\]/g,' ')
+    .replace(/<!--[\s\S]*?-->/g,' ')
+    .replace(/\[\[module\s+(?:css|javascript|js)[^\]]*\]\][\s\S]*?\[\[\/module\]\]/gi,' ')
+    .replace(/\[\[(?:html|code)(?:[^\]]*)\]\][\s\S]*?\[\[\/(?:html|code)\]\]/gi,' ')
+    .replace(/\{\$[\w-]+\}/g,' ')
+    .replace(/%%[\w:|@.-]+%%/g,' ')
+    .replace(/##[^|#]+\|([\s\S]*?)##/g,'$1')
+    .replace(/^\s*[=<>]\s*$/gm,'')
+    .replace(/^\s*\+{1,6}\s+/gm,'')
+    .replace(/\[\[(?:\/|[=<>]+|size\b|div\b|span\b|table\b|row\b|col\b|collapsible\b)[^\]]*\]\]/gi, ' ')
     .replace(/\[\[image\s+[^\]]+\]\]/gi, ' ')
     .replace(/\[\[include\s+[^\]]+\]\]/gi, ' ')
     .replace(/\[\[module\s+[^\]]+\]\]/gi, ' ')
@@ -82,7 +91,7 @@ function extractObjectClass(source) {
 }
 
 function extractDescription(source) {
-  const text = stripStruck(source);
+  const text = stripStruck(source).replace(/\[!--[\s\S]*?--\]/g,' ').replace(/\[\[module\s+(?:css|javascript|js)[^\]]*\]\][\s\S]*?\[\[\/module\]\]/gi,' ');
   const match = text.match(/(?:^|\n)\s*(?:\*\*)?\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435\s*:?\s*(?:\*\*)?\s*([\s\S]*)/iu)
     || text.match(/(?:^|\n)\s*(?:\*\*)?description\s*:?\s*(?:\*\*)?\s*([\s\S]*)/iu);
   if (match) {
@@ -98,6 +107,19 @@ function extractDescription(source) {
     .filter(value => value.length >= 40 && !/^[-=]{3,}$/.test(value));
   const fallback = paragraphs.find(value => !/^(?:scp-number|scp-class|linefirst|linesecond|linethird)\s*=/i.test(value));
   return fallback ? Array.from(fallback).slice(0, 500).join('') : null;
+}
+
+async function extractApiDescription(article,request){
+ const base=extractDescription(article.source||'');if(base&&base.length>=20)return base;
+ const source=String(article.source||'');
+ if(!/\[\[module\s+ListPages[\s\S]{0,160}category\s*=\s*["']?fragment[\s\S]{0,80}parent\s*=\s*["']?\./i.test(source))return base;
+ // Only declared children of this article, never links to other SCPs. These
+ // pages are the transcluded prose behind a ListPages/fragment shell.
+ for(const child of (article.children||[]).filter(s=>typeof s==='string'&&/^fragment:[\p{L}\p{N}_:-]+$/u.test(s)).slice(0,4)){
+  let detail;try{detail=await request(`${API_BASE_URL}/api/articles/${encodeURIComponent(child)}`);}catch(e){if([404,410].includes(e.response?.status))continue;throw e;}
+  const text=extractDescription(detail.source||'');if(text&&!require('./article-excerpts').repairStoredExcerpt(text).needsFetch)return text;
+ }
+ return base;
 }
 
 function extractImageUrl(source, pageId) {
@@ -246,7 +268,7 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
       cachedImageUrl = cachedImageUrl.replace('/local--files/', `/local--files/${encodeURIComponent(pageId)}/`);
     }
     const objectClass = needsDetails ? (extractObjectClass(source) || old?.objectClass || null) : old.objectClass;
-    const descriptionExcerpt = detail ? extractDescription(source) : old?.descriptionExcerpt || null;
+    const descriptionExcerpt = detail ? await extractApiDescription(detail,request) : old?.descriptionExcerpt || null;
     const tags = Array.isArray(article.tags)
       ? article.tags.filter(tag => !/^\u0444\u0438\u043b\u0438\u0430\u043b:/iu.test(String(tag)))
       : (old?.tags || []);
@@ -307,6 +329,6 @@ async function crawlRussianApi({ root = __dirname, request = getJson, metadataOn
   return partial;
 }
 
-module.exports = { crawlRussianApi, extractObjectClass, extractDescription, extractImageUrl, branchFromTags, normalizeRating };
+module.exports = { crawlRussianApi, extractObjectClass, extractDescription, extractApiDescription, extractImageUrl, branchFromTags, normalizeRating };
 
 if (require.main === module) crawlRussianApi().catch(error => { console.error(error); process.exitCode = 1; });

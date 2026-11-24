@@ -4,7 +4,13 @@ const assert = require('node:assert/strict');
 const { LANGUAGES } = require('./languages');
 const { validateCatalogs } = require('./catalog-identity');
 
-function validate(root = __dirname, languages = Object.keys(LANGUAGES)) {
+function publishedLanguages(root) {
+  const additional = require('./additional-sites.json');
+  return Object.keys(LANGUAGES).filter(lang => !additional[lang] ||
+    fs.existsSync(path.join(root, 'local-data', lang, 'scp-data.json')) ||
+    fs.existsSync(path.join(root, 'local-data', lang, 'meta.json')));
+}
+function validate(root = __dirname, languages = publishedLanguages(root)) {
   for (const lang of languages) {
     const dir = path.join(root, 'local-data', lang);
     const catalog = JSON.parse(fs.readFileSync(path.join(dir, 'scp-data.json'), 'utf8'));
@@ -29,4 +35,4 @@ function validate(root = __dirname, languages = Object.keys(LANGUAGES)) {
 }
 
 if (require.main === module) validate();
-module.exports = { validate };
+module.exports = { validate, publishedLanguages };

@@ -4,6 +4,16 @@ const {repair}=require('../tool/repair-catalog-excerpts');
 const {apply}=require('../tool/apply-excerpt-repairs');
 const {writeState,readState}=require('../catalog-indexes');
 const {saveCache,loadCache}=require('../related-documents');
+
+test('null excerpts and blank titles are refetched and repaired without changing correct titles',async t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'excerpt-null-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const dir=path.join(root,'local-data/jp');fs.mkdirSync(dir,{recursive:true});
+ const data=[{urlJP:'https://scp-jp.wikidot.com/scp-002',titleJP:'',descriptionExcerpt:null},{urlJP:'https://scp-jp.wikidot.com/scp-003',titleJP:'Known title',descriptionExcerpt:null}];
+ fs.writeFileSync(path.join(dir,'scp-data.json'),JSON.stringify({data}));fs.writeFileSync(path.join(dir,'meta.json'),'{}');
+ const report=await repair({root,language:'jp',intervalMs:0,request:async url=>({url,title:'Source title',descriptionExcerpt:'The actual article body.'})});
+ assert.equal(report.requests,2);apply({root});const after=JSON.parse(fs.readFileSync(path.join(dir,'scp-data.json'))).data;
+ assert.equal(after[0].titleJP,'Source title');assert.equal(after[1].titleJP,'Known title');assert(after.every(r=>r.descriptionExcerpt==='The actual article body.'));
+});
 test('bulk repair strips widgets without requests, refetches missing prose, and repairs all matching stores',async t=>{
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'excerpt-repair-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  const date='2026-11-01T00:00:00Z',url='https://scp-jp.wikidot.com/scp-173',story='https://scp-jp.wikidot.com/story';
