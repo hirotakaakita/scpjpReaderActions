@@ -61,7 +61,7 @@ The production board is generated from its own 125,388 distinct page URLs:
 (10 fully retired works in the production graph). Counts differ from staging
 because the catalogs and published reader identities are different.
 
-Validation: 422 Node tests; catalog/index validation; full source-evidence and
+Validation: 423 Node tests; catalog/index validation; full source-evidence and
 board rebuild validation; the actual Flutter importer, tile/search, versions,
 relations and density checks against this production corpus. Reproduce the
 reader-key and reviewed-repair checks with:

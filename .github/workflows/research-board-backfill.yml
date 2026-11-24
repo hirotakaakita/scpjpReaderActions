@@ -77,7 +77,6 @@ jobs:
       cancel-in-progress: false
       queue: max
     runs-on: ubuntu-latest
-    environment: stg
     timeout-minutes: 15
     permissions:
       contents: write
