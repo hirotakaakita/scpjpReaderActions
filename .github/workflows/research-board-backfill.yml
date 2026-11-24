@@ -109,7 +109,7 @@ jobs:
         run: |
           git config user.name 'SCP Crawler Bot'
           git config user.email 'scp-crawler@github-actions.bot'
-          git add local-data/research-board-sources/ local-data/mobile-v3/research-board/
+          git add local-data/research-board-sources/ local-data/mobile-v3/research-board/ local-data/research-board-audit.json.gz
           if ! git diff --staged --quiet; then
             git commit -m 'Update research board body links from existing catalog articles'
             git push origin HEAD:master

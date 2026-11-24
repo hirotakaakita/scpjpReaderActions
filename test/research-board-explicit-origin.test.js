@@ -100,8 +100,8 @@ test('persisted board validation checks the corrected graph, its source shards a
  }
  for(const c of f.catalogs)writePayload(path.join(input,'mobile-v3',c.language),'catalog',c);
  saveSources(f.src,path.join(input,'research-board-sources'));
- const payload=writePayload(path.join(input,'mobile-v3/research-board'),'board',board,
-   {revision:board.revision,nodeCount:board.nodes.length,edgeCount:board.edges.length});
+ const manifest=require('../research-board/runtime-delivery').writeDelivery(board,input,path.join(input,'mobile-v3'));
+ const payload=path.join(input,'mobile-v3/research-board',manifest.fileName);
  assert.equal(validate(root).verified,true);
  fs.appendFileSync(payload,'corrupted');
  assert.throws(()=>validate(root),/Board checksum mismatch/);

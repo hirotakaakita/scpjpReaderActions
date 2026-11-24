@@ -34,7 +34,9 @@ function verify(base='origin/master'){
   if(JSON.stringify(prior.data)!==JSON.stringify(next.data))assert(Date.parse(next.timestamp)>Date.parse(prior.timestamp),language+': clients would miss the repair');
   articleRows+=next.data.length;
  }
- const {data:board}=load('local-data/mobile-v3/research-board');
+ const {manifest:boardManifest,data:runtime}=load('local-data/mobile-v3/research-board');
+ const board=boardManifest.schemaVersion===4
+  ? require('../research-board/runtime-delivery').loadAudit(path.join(root,'local-data')) : runtime;
  const retired=new Set(board.hiddenRetiredPageUrls),hidden=new Set(board.hiddenRetiredNodeIds);
  assert.equal(retired.size,board.overview.hiddenRetiredPageCount);
  assert.equal(hidden.size,board.overview.hiddenRetiredWorkCount);
@@ -46,7 +48,7 @@ function verify(base='origin/master'){
   assert.equal(owners.get(rule.source),owners.get(rule.target),'Reviewed split remains: '+rule.source);
  }
  const report={base,languages:Object.keys(LANGUAGES).length,articleRows,readerKeysPreserved:true,
-  changedFields,boardRevision:board.revision,workNodes:board.nodes.length,edges:board.edges.length,
+  changedFields,boardRevision:runtime.revision,workNodes:board.nodes.length,edges:runtime.edges.length,
   retiredPages:retired.size,retiredWorks:hidden.size,reviewedIdentityCases:67};
  console.log(JSON.stringify(report,null,2));return report;
 }

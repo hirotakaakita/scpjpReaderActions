@@ -1,5 +1,5 @@
 'use strict';
-const fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib');
+const fs=require('node:fs'),path=require('node:path');
 const {readSources,importDirectory,merge,captureFailure}=require('./source-store');
 const {normalizePage,digest}=require('./extract');
 const {native}=require('./translation-identities');
@@ -21,7 +21,7 @@ async function refresh({root=path.join(__dirname,'..'),language=null,maxRequests
  const input=path.join(root,'local-data'),dir=path.join(input,'mobile-v3/research-board'),manifest=JSON.parse(fs.readFileSync(path.join(dir,'manifest.json')));
  if(!/^board-[a-f0-9]{64}\.json\.gz$/.test(manifest.fileName))throw Error('Invalid board pointer');
  const bytes=fs.readFileSync(path.join(dir,manifest.fileName));if(digest(bytes)!==manifest.sha256)throw Error('Board checksum mismatch');
- const board=JSON.parse(zlib.gunzipSync(bytes)),selected=selectTargets(board);
+ const board=require('./runtime-delivery').loadAudit(input),selected=selectTargets(board);
  const incoming=path.join(root,'partial-data/related-documents/research-board'),sources=readSources(path.join(input,'research-board-sources'));importDirectory(sources,incoming);
  const retry=Date.now()-86400000,stale=Date.now()-28*86400000;
  const pages=selected.pages.filter(p=>{

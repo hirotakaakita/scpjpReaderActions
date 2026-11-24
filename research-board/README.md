@@ -1,4 +1,4 @@
-# Official-catalog research board (STG)
+# Official-catalog research board
 
 The only article membership input is the currently published `mobile-v3/<language>/manifest.json` and its hash-verified catalog. A body hyperlink never discovers an additional node. Pages outside the fetched catalogs, including synthetic organizations, are excluded.
 
@@ -8,7 +8,7 @@ Run `node mobile-catalog.js` in the existing weekly crawler workflow. The comman
 
 - Article existence, title, category and original branch come from the official-index catalog, not the hosting language of a translation.
 - The ledger identity `pageType + itemId` merges the normal SCP translations. An exact shared page URL or an explicit publisher translation assertion can establish additional aliases. Unrelated branch originals, proposals and variants remain distinct.
-- All accepted identities of a merged work are retained in schema 3. Classification-rejected IDs cannot leak into aliases. Aliases cannot belong to multiple nodes.
+- All accepted identities of a merged work are retained in the schema 4 runtime. Classification-rejected IDs cannot leak into aliases. Aliases cannot belong to multiple nodes.
 - Catalog rows, IDs, bookmarks and reading history are never rewritten by the board generator.
 - SCP, record/log, hub, Tale, GoI format and setting categories occupy separate districts. Invalid origin codes stay unclassified rather than creating invalid branches.
 
@@ -36,9 +36,11 @@ members, changes mobile-v1/v2/v3 article catalogs or sends notifications. Logs
 show progress every 25 attempts and the publish summary lists totals per site.
 Artifacts remain available for seven days if collection or publication fails.
 
-The Flutter app installs the shared gzip during startup into immutable local shards in an isolate. Only visible geometry and selected relations/evidence enter bounded caches. Search uses a compact branch index rather than repeatedly decoding all node versions. The same graph revision is reused across content languages. Failed updates keep the last valid version; open routes pin their version. Corrupt local shards mark the snapshot for reinstallation, even when the remote revision is unchanged.
+The Flutter app prepares the schema 4 shared gzip in the background after the first home frame and installs immutable local shards in an isolate. Only visible geometry and selected relations enter bounded caches. Search uses a compact branch index rather than repeatedly decoding all node versions. The same graph revision is reused across content languages. Failed updates keep the last valid version; open routes pin their version. Corrupt local shards mark the snapshot for reinstallation, even when the remote revision is unchanged.
 
-`node research-board/validate.js` validates checksums, exact catalog membership, work/alias uniqueness, allowed link types, versioned body evidence, classifications and deterministic regeneration from saved inputs. Existing STG validation and weekly publication both run it. Production Actions are unchanged and the production app does not enable or download the board by default.
+`runtime-delivery.js` projects the complete publisher graph to the compact mobile format. Quotes, proofs and audit metadata stay in `local-data/research-board-audit.json.gz`, paired with the runtime revision. Retired-page-only references are filtered before evidence is removed. Retired-page visibility and reviewed work identities are preserved. Collectors and identity audits read the complete publisher graph through `loadAudit`.
+
+`node research-board/validate.js` validates checksums, exact catalog membership, work/alias uniqueness, allowed link types, versioned body evidence, classifications, the runtime projection, and deterministic regeneration from saved inputs. STG and production validation and publication run it. Production generates its board from production catalogs; STG snapshots do not replace published production reader IDs.
 
 ## HOME category parity (2026-11-08)
 

@@ -139,9 +139,13 @@ function validate(root = path.join(__dirname, '..')) {
   if (bytes.length !== manifest.bytes || digest(bytes) !== manifest.sha256) throw Error('Board checksum mismatch');
   const decoded = zlib.gunzipSync(bytes);
   if (decoded.length !== manifest.decodedBytes) throw Error('Board decoded size mismatch');
-  const board = JSON.parse(decoded);
-  if (board.revision !== manifest.revision || board.nodes.length !== manifest.nodeCount || board.edges.length !== manifest.edgeCount) throw Error('Board metadata mismatch');
-  const result = validateBoard(board, loadCatalogs(input), readSources(path.join(input, 'research-board-sources')));
+  const runtime = JSON.parse(decoded);
+  const {loadAudit,runtimeBoard}=require('./runtime-delivery');
+  const board=loadAudit(input);
+  require('node:assert/strict').deepEqual(runtime,runtimeBoard(board),'Runtime differs from audited projection');
+  if (runtime.revision !== manifest.revision || runtime.nodes.length !== manifest.nodeCount || runtime.edges.length !== manifest.edgeCount) throw Error('Board metadata mismatch');
+  const audited = validateBoard(board, loadCatalogs(input), readSources(path.join(input, 'research-board-sources')));
+  const result={...audited,revision:runtime.revision,edges:runtime.edges.length,auditRevision:board.revision};
   console.log(JSON.stringify(result));
   return result;
 }

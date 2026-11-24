@@ -74,3 +74,23 @@ node --test
 
 No notification delivery, manual crawl, app-store release or Firebase deployment
 is triggered by this promotion.
+
+## Production runtime delivery — 2026-11-24
+
+The board delivery moves from schema 3 to the schema 4 consumed by the release
+app. Revision `7b6cfaeac40e2b86f797` contains 65,612 works and 185,542 directed
+references. Its gzip is 4,850,224 bytes, down 61.4% from 12,579,604 bytes.
+The complete publisher graph is unchanged from production checkpoint `1ece532`;
+803 references supported only by retired pages are omitted from mobile delivery.
+The paired complete graph is retained in `local-data/research-board-audit.json.gz`.
+
+All 33 language catalogs and 125,397 article rows are unchanged, including reader
+keys and URLs. The graph retains all 67 reviewed identity repairs, 45 retired
+page URLs and 10 fully retired works. No STG catalogs, app-status changes or
+notification state are copied to production.
+
+Validation: 427 Node tests passed; catalog/index validation, full board rebuild,
+runtime projection and production reader-key verification passed. Flutter's
+`tool/verify_research_board_test.dart` installed and explored the actual
+production runtime offline successfully. Publication workflows retain the
+paired audit file on future updates.

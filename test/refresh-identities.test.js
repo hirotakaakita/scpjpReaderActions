@@ -17,6 +17,7 @@ test('identity backfill is limited to collected unresolved versions and never fo
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'identity-refresh-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  const dir=path.join(root,'local-data/mobile-v3/research-board');fs.mkdirSync(dir,{recursive:true});const bytes=zlib.gzipSync(JSON.stringify(board)),fileName='board-'+digest(bytes)+'.json.gz';
  fs.writeFileSync(path.join(dir,fileName),bytes);fs.writeFileSync(path.join(dir,'manifest.json'),JSON.stringify({sha256:digest(bytes),fileName}));
+ fs.writeFileSync(path.join(root,'local-data/research-board-audit.json.gz'),zlib.gzipSync(JSON.stringify({board})));
  const calls=[],request=async url=>{calls.push(url);return makeRecord(url,'<title>Tale</title><div id="page-content"><p>'+('Story text. '.repeat(20))+'</p><div class="credit"><p>元記事: <a href="https://scp-jp.wikidot.com/uncollected">original</a></p></div></div>');};
  const a=await refresh({root,request,maxRequests:1,intervalMs:0});assert.equal(a.updated,1);assert.equal(a.complete,false);
  const b=await refresh({root,request,maxRequests:10,intervalMs:0});assert.equal(b.updated,1);assert.equal(b.complete,true);

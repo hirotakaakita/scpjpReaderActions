@@ -49,8 +49,7 @@ function audit(board,sources){
 if(require.main===module){
  const args=process.argv.slice(2),option=name=>args.includes(name)?args[args.indexOf(name)+1]:null;
  const root=option('--root')||path.join(__dirname,'..'),file=option('--board');
- const dir=path.join(root,'local-data/mobile-v3/research-board');
- const board=JSON.parse(z.gunzipSync(fs.readFileSync(file||path.join(dir,JSON.parse(fs.readFileSync(path.join(dir,'manifest.json'))).fileName))));
+ const board=file?JSON.parse(z.gunzipSync(fs.readFileSync(file))):require('../research-board/runtime-delivery').loadAudit(path.join(root,'local-data'));
  const result=audit(board,readSources(path.join(root,'local-data/research-board-sources')));
  if(option('--output'))fs.writeFileSync(option('--output'),JSON.stringify(result,null,2)+'\n');
  const {groups,...summary}=result;console.log(JSON.stringify(summary,null,2));

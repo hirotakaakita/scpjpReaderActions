@@ -20,8 +20,7 @@ function loadBoard(root=ROOT){
   const manifest=JSON.parse(fs.readFileSync(path.join(folder,'manifest.json'),'utf8'));
   const raw=fs.readFileSync(path.join(folder,manifest.fileName));
   if(raw.length!==manifest.bytes||sha(raw)!==manifest.sha256)throw Error('Invalid published board checksum');
-  const board=JSON.parse(z.gunzipSync(raw));
-  if(board.revision!==manifest.revision)throw Error('Board revision mismatch');
+  const board=require('../runtime-delivery').loadAudit(path.join(root,'local-data'));
   return {board,manifest};
 }
 function loadCoverage(root=ROOT) {

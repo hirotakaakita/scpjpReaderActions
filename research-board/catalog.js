@@ -210,26 +210,11 @@ function generateResearchBoard(input, output, { incoming = path.join(input, '../
   const catalogs = loadCatalogs(input);
   require('./catalog-sources').importCatalogSources(sources, input, catalogs);
   const board = buildBoard(catalogs, sources);
-  const json = Buffer.from(JSON.stringify(board)), bytes = zlib.gzipSync(json, { level: 9 });
-  if (json.length > 160 * 1024 * 1024 || bytes.length > 32 * 1024 * 1024) throw Error('Research board client size limit exceeded');
-  const sha256 = digest(bytes), fileName = `board-${sha256}.json.gz`;
-  const directory = path.join(output, 'research-board');
-  fs.mkdirSync(directory, { recursive: true });
-  const pointer=path.join(directory,'manifest.json');
-  const previousFile=fs.existsSync(pointer)?JSON.parse(fs.readFileSync(pointer)).fileName:null;
-  fs.writeFileSync(path.join(directory, fileName), bytes);
-  const manifest = { schemaVersion: 3, revision: board.revision, timestamp: board.overview.generatedAt,
-    fileName, bytes: bytes.length, decodedBytes: json.length, sha256,
-    nodeCount: board.nodes.length, edgeCount: board.edges.length };
   saveSources(sources, sourceDir);
   const coverageFile=path.join(input,'research-board-body-link-coverage.json.gz');
   const coverage=require('./link-coverage').buildCoverage(catalogs,sources);
   fs.writeFileSync(coverageFile+'.tmp',zlib.gzipSync(JSON.stringify(coverage)+'\n'));
   fs.renameSync(coverageFile+'.tmp',coverageFile);
-  fs.writeFileSync(path.join(directory, 'manifest.json.tmp'), JSON.stringify(manifest) + '\n');
-  fs.renameSync(path.join(directory, 'manifest.json.tmp'), path.join(directory, 'manifest.json'));
-  // Retain the last published payload so a cached pointer can still be used.
-  if(previousFile!==fileName)for(const name of fs.readdirSync(directory))if(/^board-[a-f0-9]{64}\.json\.gz$/.test(name)&&name!==fileName&&name!==previousFile)fs.unlinkSync(path.join(directory,name));
-  return manifest;
+  return require('./runtime-delivery').writeDelivery(board, input, output);
 }
 module.exports = { buildBoard, generateResearchBoard, loadCatalogs };
