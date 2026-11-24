@@ -4,7 +4,7 @@ const {LANGUAGES}=require('../languages');
 const {normalize,loadCache,saveCache}=require('../related-documents');
 const {readState,writeState}=require('../catalog-indexes');
 const {read,hash}=require('./repair-catalog-excerpts');
-const {VERSION,repairStoredExcerpt}=require('../article-excerpts');
+const {VERSION,repairStoredExcerpt,titleNeedsRepair}=require('../article-excerpts');
 function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new Date().toISOString()}={}){
  const reports=[],edits=new Map(),counts={primary:0,index:0,cache:0,additional:0,removedPrimary:0,removedIndex:0,removedAdditional:0};
  for(const language of Object.keys(LANGUAGES)){
@@ -20,9 +20,11 @@ function apply({root=path.resolve(__dirname,'..'),requireComplete=false,now=new 
  const retired=new Set([...edits.values()].filter(e=>e.method==='unavailable'&&([404,410].includes(e.statusCode)||e.reason==='not_found')).map(e=>e.url));
  const retiredRow=row=>retired.has(normalize(row.urlJP||row.urlEN||row.url)?.url);
  function patch(row,kind){
-  const url=normalize(row.urlJP||row.urlEN||row.url)?.url;if(!url||typeof row.descriptionExcerpt!=='string')return false;
-  const edit=edits.get(url+':'+hash(row.descriptionExcerpt));if(!edit)return false;
-  row.descriptionExcerpt=edit.text;row.descriptionVersion=VERSION;row.descriptionCheckedAt=edit.at;
+  const url=normalize(row.urlJP||row.urlEN||row.url)?.url;if(!url)return false;
+  const edit=edits.get(url+':'+hash(String(row.descriptionExcerpt||'')));if(!edit)return false;
+  row.descriptionExcerpt=new URL(url).hostname==='scpfoundation.net'?require('../article-excerpts').normalizeFtmlPreview(edit.text):edit.text;row.descriptionVersion=VERSION;row.descriptionCheckedAt=edit.at;
+  if(edit.descriptionStatus)row.descriptionStatus=edit.descriptionStatus;
+  if(edit.title){const field='titleJP'in row?'titleJP':'title';if(titleNeedsRepair(row[field])||(edit.refreshTitle&&field==='title'))row[field]=edit.title;}
   if(edit.sourceHash)row.descriptionContentSha256=edit.sourceHash;
   counts[kind]++;return true;
  }

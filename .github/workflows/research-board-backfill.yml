@@ -1,0 +1,116 @@
+name: Research board body-link backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      pages_per_site:
+        description: Maximum existing pages to check per site
+        type: choice
+        default: '500'
+        options: ['250', '500', '1000']
+
+# Share the ordinary crawl lock so the two workflows never fetch the same site
+# concurrently. Notification publication uses a separate, short writer lock.
+concurrency:
+  group: scp-crawl
+  cancel-in-progress: false
+  queue: max
+
+permissions:
+  contents: read
+
+jobs:
+  setup:
+    if: github.repository == 'hirotakaakita/scpjpReaderActions' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - id: matrix
+        run: echo "matrix=$(node print-matrix.js)" >> "$GITHUB_OUTPUT"
+
+  collect:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix: ${{ fromJSON(needs.setup.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Check existing catalog article bodies
+        run: node research-board/refresh-links.js ${{ matrix.lang }}
+        env:
+          BOARD_LINK_MAX_REQUESTS: ${{ inputs.pages_per_site }}
+          BOARD_LINK_MAX_DURATION_MS: '1800000'
+          CRAWL_REQUEST_INTERVAL_MS: '500'
+          BOARD_LINK_REPORT_FILE: partial-data/body-link-reports/${{ matrix.lang }}.json
+      - name: Package resumable captures
+        if: always()
+        run: |
+          mkdir -p partial-data/related-documents/research-board partial-data/body-link-reports
+          tar -czf board-sources-${{ matrix.lang }}.tgz -C partial-data related-documents body-link-reports
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: board-sources-${{ matrix.lang }}
+          path: board-sources-${{ matrix.lang }}.tgz
+          retention-days: 7
+          if-no-files-found: error
+          overwrite: true
+
+  publish:
+    needs: [setup, collect]
+    if: always() && needs.setup.result == 'success' && needs.collect.result != 'cancelled' && github.repository == 'hirotakaakita/scpjpReaderActions' && github.ref == 'refs/heads/master'
+    concurrency:
+      group: scp-data-update
+      cancel-in-progress: false
+      queue: max
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: master
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: board-sources-*
+          path: incoming-board-sources
+          merge-multiple: true
+      - name: Import captured metadata
+        run: |
+          mkdir -p partial-data
+          for archive in incoming-board-sources/board-sources-*.tgz; do
+            tar -xzf "$archive" -C partial-data
+          done
+      - name: Validate and generate board only
+        run: |
+          node --test
+          node research-board/publish-backfill.js
+          node research-board/validate.js
+      - name: Publish board and source checkpoints
+        run: |
+          git config user.name 'SCP Crawler Bot'
+          git config user.email 'scp-crawler@github-actions.bot'
+          git add local-data/research-board-sources/ local-data/mobile-v3/research-board/
+          if ! git diff --staged --quiet; then
+            git commit -m 'Update research board body links from existing catalog articles'
+            git push origin HEAD:master
+          fi

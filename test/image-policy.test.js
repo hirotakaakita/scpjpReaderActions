@@ -20,7 +20,7 @@ test('Russian cached metadata is reused only for the exact article URL',async t=
 });
 test('ordinary crawler reruns cannot restore a same-number variant thumbnail',async t=>{
  const axios=require('axios'),{LocalSCPCrawler}=require('../local-crawler');
- const crawler=new LocalSCPCrawler('jp');crawler.startTime=new Date();crawler.totalUrls=1;crawler.entryDelayMs=0;crawler.waitForArticleRequestSlot=async()=>{};crawler.displayProgress=()=>{};
+ const crawler=new LocalSCPCrawler('jp',{metadataDirectory:null});crawler.startTime=new Date();crawler.totalUrls=1;crawler.entryDelayMs=0;crawler.waitForArticleRequestSlot=async()=>{};crawler.displayProgress=()=>{};
  const previous=process.env.SKIP_IMAGE_FETCH;delete process.env.SKIP_IMAGE_FETCH;t.after(()=>{if(previous===undefined)delete process.env.SKIP_IMAGE_FETCH;else process.env.SKIP_IMAGE_FETCH=previous;});
  let reversed=false;
  const slugs=['scp-001-j','scp-001-d-j','scp-001-ex-j'];

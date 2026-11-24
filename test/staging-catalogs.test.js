@@ -7,6 +7,21 @@ const { crawlRussianApi } = require('../rufoundation-crawler');
 const { mergeLanguage } = require('../merge-data');
 const { validate } = require('../validate-staging-catalogs');
 
+test('bootstrap permits absent new languages but validates incomplete or published ones', t => {
+  const { root } = fixture(t);
+  const { publishedLanguages } = require('../validate-staging-catalogs');
+  assert.ok(publishedLanguages(root).includes('ru'), 'Existing languages stay mandatory');
+  assert.ok(!publishedLanguages(root).includes('ar'), 'Not yet crawled additions are absent');
+  assert.throws(() => validate(root, ['en', 'ar']), /ENOENT/);
+  const dir = path.join(root, 'local-data', 'ar');
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'meta.json'), '{}');
+  assert.ok(publishedLanguages(root).includes('ar'));
+  assert.throws(() => validate(root, ['en', 'ar']), /ENOENT/);
+  fs.writeFileSync(path.join(dir, 'scp-data.json'), JSON.stringify({ data: [] }));
+  assert.throws(() => validate(root, ['en', 'ar']), /Empty catalog/);
+});
+
 function fixture(t) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'scp-ru-bootstrap-'));
   t.after(() => {

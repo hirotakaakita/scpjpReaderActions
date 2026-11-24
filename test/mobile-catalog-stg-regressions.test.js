@@ -1,0 +1,197 @@
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const zlib = require('node:zlib');
+const crypto = require('node:crypto');
+const { mobileCatalog, generateMobileCatalogs, generateMobileV3Catalogs, validateTagLabels } = require('../mobile-catalog');
+
+function catalog() {
+  return { language: 'jp', timestamp: '2026-11-03T00:00:00Z', totalCount: 1,
+    statistics: { translated: 1 }, tagSchemaVersion: 2, data: [{
+      itemId: 'scp-001', numericItemId: 1, titleJP: '日本語・中文・Русский・😀',
+      descriptionExcerpt: '説明文', imageUrl: null, objectClass: 'Safe', rating: 12,
+      isTranslatedJP: true, extractedFrom: 'scp-series', pageType: 'scp-series',
+      contentType: 'scp', lastUpdated: '2026-11-03T00:00:00Z',
+      createdAt: '2026-10-01T00:00:00Z', tagVersion: 3, tagFetchStatus: 'success',
+      tags: [{ id: 'tag-1', label: '人間型' }], mangaLanguages: ['jp'], translatedLanguages: ['jp', 'en'],
+    }] };
+}
+
+test('v3 corrects unnumbered SCP series and advances an installed delivery timestamp once, preserving v1/v2',t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'mobile-series-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const input=path.join(root,'local-data');fs.mkdirSync(path.join(input,'jp'),{recursive:true});
+ const source=catalog();source.data=[999,1000,1999,2000].map(n=>({...source.data[0],itemId:'scp-series-ko-'+n,numericItemId:n,pageType:'scp-series-ko',extractedFrom:'scp-series-ko',urlJP:'https://scp-jp.wikidot.com/scp-'+n+'-ko'}));source.totalCount=source.data.length;
+ fs.writeFileSync(path.join(input,'jp/scp-data.json'),JSON.stringify(source));fs.writeFileSync(path.join(input,'jp/meta.json'),JSON.stringify({lastUpdated:source.timestamp,totalCount:source.totalCount}));
+ generateMobileCatalogs(input);
+ const snapshots=Object.fromEntries(['mobile-v1','mobile-v2'].map(c=>[c,fs.readFileSync(path.join(input,c,'jp/manifest.json'),'utf8')]));
+ const dir=path.join(input,'mobile-v3/jp'),pointer=path.join(dir,'manifest.json');
+ // Simulate the already installed pre-fix catalog, with its original timestamp.
+ const priorManifest=JSON.parse(fs.readFileSync(pointer)),prior=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,priorManifest.fileName))));
+ for(const row of prior.data)row.extractedFrom=row.pageType;
+ const bytes=zlib.gzipSync(JSON.stringify(prior),{level:9}),sha=crypto.createHash('sha256').update(bytes).digest('hex'),name='catalog-'+sha+'.json.gz';
+ fs.writeFileSync(path.join(dir,name),bytes);fs.writeFileSync(pointer,JSON.stringify({...priorManifest,fileName:name,sha256:sha,bytes:bytes.length,decodedBytes:Buffer.byteLength(JSON.stringify(prior))}));
+ generateMobileCatalogs(input);const updated=JSON.parse(fs.readFileSync(pointer)),data=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,updated.fileName))));
+ assert.deepEqual(data.data.map(r=>r.extractedFrom),['scp-series-ko','scp-series-ko-2','scp-series-ko-2','scp-series-ko-3']);
+ assert.deepEqual(data.data.map(r=>r.itemId),source.data.map(r=>r.itemId));assert(Date.parse(updated.timestamp)>Date.parse(source.timestamp));
+ for(const c of Object.keys(snapshots))assert.equal(fs.readFileSync(path.join(input,c,'jp/manifest.json'),'utf8'),snapshots[c]);
+ const stable=fs.readFileSync(pointer,'utf8');generateMobileCatalogs(input);assert.equal(fs.readFileSync(pointer,'utf8'),stable);
+});
+
+test('v3-only repair reads published gzip instead of a stale local JSON without touching old channels',t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'mobile-v3-repair-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const input=path.join(root,'local-data');fs.mkdirSync(path.join(input,'jp'),{recursive:true});fs.mkdirSync(path.join(input,'related-documents'));
+ const source=catalog();fs.writeFileSync(path.join(input,'jp/scp-data.json'),JSON.stringify(source));fs.writeFileSync(path.join(input,'jp/meta.json'),JSON.stringify({lastUpdated:source.timestamp,totalCount:source.totalCount}));
+ const extra=id=>({schemaVersion:1,timestamp:'2026-11-05T00:00:00Z',totalCount:1,data:[{itemId:'document-jp--'+id,language:'jp',title:id,url:'https://scp-jp.wikidot.com/'+id,pageType:'related-document-jp',contentType:'tale',lastUpdated:source.timestamp,tags:[]}]});
+ fs.writeFileSync(path.join(input,'related-documents/catalog.json'),JSON.stringify(extra('stale')));
+ fs.writeFileSync(path.join(input,'related-documents/catalog.json.gz'),zlib.gzipSync(JSON.stringify(extra('published'))));
+ generateMobileV3Catalogs(input);assert(!fs.existsSync(path.join(input,'mobile-v1')));assert(!fs.existsSync(path.join(input,'mobile-v2')));
+ const dir=path.join(input,'mobile-v3/jp'),m=JSON.parse(fs.readFileSync(path.join(dir,'manifest.json'))),data=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,m.fileName))));
+ assert.deepEqual(data.data.map(r=>r.itemId),[source.data[0].itemId,'document-jp--published']);
+});
+
+test('delivery projection preserves reader fields without mutating crawler state', () => {
+  const source = catalog(), before = JSON.stringify(source);
+  const mobile = mobileCatalog(source, 'jp');
+  assert.equal(JSON.stringify(source), before);
+  assert.equal(mobile.schemaVersion, 1);
+  assert.deepEqual(mobile.data[0], Object.fromEntries(Object.entries(source.data[0])
+    .filter(([key, value]) => !['tagVersion', 'tagFetchStatus'].includes(key) && value !== null)));
+  assert.equal(mobile.statistics, undefined);
+  assert.throws(() => mobileCatalog({ ...source, totalCount: 2 }, 'jp'));
+  assert.throws(() => mobileCatalog({ ...source, data: [source.data[0], source.data[0]], totalCount: 2 }, 'jp'));
+});
+
+test('v3 delivery validation rejects tags that still lack display labels after restoration', () => {
+  for (const tag of ['humanoid', { id: 'humanoid' }, { id: 'humanoid', label: ' ' }]) {
+    const source = catalog();
+    source.data[0].tags = [tag];
+    assert.throws(() => validateTagLabels(source, 'jp'), /Missing localized tag label/);
+  }
+});
+
+test('gzip manifest is deterministic, verifiable and leaves legacy files byte-identical', t => {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'mobile-catalog-'));
+  t.after(() => fs.rmSync(directory, { recursive: true, force: true }));
+  const input = path.join(directory, 'local-data'), jp = path.join(input, 'jp');
+  fs.mkdirSync(jp, { recursive: true });
+  const source = catalog(), legacy = JSON.stringify(source, null, 2);
+  const meta = JSON.stringify({ lastUpdated: source.timestamp, totalCount: 1 });
+  fs.writeFileSync(path.join(jp, 'scp-data.json'), legacy);
+  fs.writeFileSync(path.join(jp, 'meta.json'), meta);
+  generateMobileCatalogs(input);
+  const output = path.join(input, 'mobile-v1', 'jp');
+  const manifest = fs.readFileSync(path.join(output, 'manifest.json'), 'utf8');
+  const descriptor = JSON.parse(manifest);
+  const compressed = fs.readFileSync(path.join(output, descriptor.fileName));
+  const json = zlib.gunzipSync(compressed);
+  assert.equal(compressed.length, descriptor.bytes);
+  assert.equal(json.length, descriptor.decodedBytes);
+  assert.equal(crypto.createHash('sha256').update(compressed).digest('hex'), descriptor.sha256);
+  assert.deepEqual(JSON.parse(json), mobileCatalog(source, 'jp'));
+  assert.ok(json.toString('utf8').includes(source.data[0].titleJP));
+  generateMobileCatalogs(input);
+  assert.equal(fs.readFileSync(path.join(output, 'manifest.json'), 'utf8'), manifest);
+  assert.equal(fs.readFileSync(path.join(jp, 'scp-data.json'), 'utf8'), legacy);
+  assert.equal(fs.readFileSync(path.join(jp, 'meta.json'), 'utf8'), meta);
+  source.timestamp = '2026-11-04T00:00:00Z';
+  fs.writeFileSync(path.join(jp, 'scp-data.json'), JSON.stringify(source));
+  assert.throws(() => generateMobileCatalogs(input), /mismatch/);
+  assert.equal(fs.readFileSync(path.join(output, 'manifest.json'), 'utf8'), manifest);
+  fs.writeFileSync(path.join(jp, 'meta.json'), JSON.stringify({ lastUpdated: source.timestamp, totalCount: 1 }));
+  generateMobileCatalogs(input);
+  const next = JSON.parse(fs.readFileSync(path.join(output, 'manifest.json'), 'utf8'));
+  assert.notEqual(next.fileName, descriptor.fileName);
+  assert.equal(fs.existsSync(path.join(output, descriptor.fileName)), true);
+  assert.equal(JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(output, next.fileName)))).timestamp, source.timestamp);
+});
+
+test('workflow generates mobile catalogs after final legacy updates and before publication', () => {
+  const workflow = fs.readFileSync(path.join(__dirname, '../.github/workflows/scp-crawler.yml'), 'utf8');
+  assert.ok(workflow.indexOf('node mobile-catalog.js') > workflow.indexOf('run: node apply-manga-flags.js'));
+  assert.ok(workflow.indexOf('node mobile-catalog.js') > workflow.indexOf('run: node catalog-identity.js'));
+  assert.ok(workflow.indexOf('node mobile-catalog.js') < workflow.indexOf('git add local-data/'));
+  assert.ok(workflow.includes('node merge-catalog-indexes.js'));
+  assert.ok(workflow.indexOf('node merge-catalog-indexes.js') < workflow.indexOf('node mobile-catalog.js'));
+});
+
+test('additional documents join the ordinary data array by language with a new delivery timestamp', t => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mobile-related-'));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const input = path.join(root, 'local-data');
+  fs.mkdirSync(path.join(input, 'jp'), { recursive: true });
+  fs.mkdirSync(path.join(input, 'related-documents'));
+  const source = catalog();
+  fs.writeFileSync(path.join(input, 'jp/scp-data.json'), JSON.stringify(source));
+  fs.writeFileSync(path.join(input, 'jp/meta.json'), JSON.stringify({ lastUpdated: source.timestamp, totalCount: 1 }));
+  const document = { itemId: 'document-jp--incident-log', language: 'jp', title: 'Incident log',
+    url: 'https://scp-jp.wikidot.com/incident-log', pageType: 'related-document-en', contentType: 'log',
+    tags: ['en', 'experiment'], descriptionExcerpt: 'Log', lastUpdated: source.timestamp };
+  const extra = { schemaVersion: 1, timestamp: '2026-11-05T00:00:00Z', totalCount: 2,
+    data: [document, { ...document, language: 'en', itemId: 'document-en--incident-log', url: 'https://scp-wiki.wikidot.com/incident-log' }] };
+  fs.writeFileSync(path.join(input, 'related-documents/catalog.json'), JSON.stringify(extra));
+  fs.mkdirSync(path.join(input,'related-documents-v2'));
+  const oldDocument={...document,itemId:'document-jp--legacy-saved',url:'https://scp-jp.wikidot.com/legacy-saved'};
+  fs.writeFileSync(path.join(input,'related-documents-v2/catalog.json.gz'),zlib.gzipSync(JSON.stringify({...extra,totalCount:1,data:[oldDocument]})));
+  generateMobileCatalogs(input);
+  const v2dir=path.join(input,'mobile-v2/jp');
+  const v2pointer=fs.readFileSync(path.join(v2dir,'manifest.json'));
+  const v2manifest=JSON.parse(v2pointer);
+  const v2data=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(v2dir,v2manifest.fileName))));
+  assert.deepEqual(v2data.data.map(r=>r.itemId),[source.data[0].itemId,oldDocument.itemId]);
+  const output = path.join(input, 'mobile-v3/jp');
+  const manifest = JSON.parse(fs.readFileSync(path.join(output, 'manifest.json')));
+  const result = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(output, manifest.fileName))));
+  assert.equal(result.timestamp, extra.timestamp); assert.equal(manifest.timestamp, extra.timestamp);
+  assert.equal(result.totalCount, 2); assert.equal(manifest.totalCount, 2);
+  const expected = mobileCatalog(source, 'jp').data[0];
+  expected.translatedLanguages = [...expected.translatedLanguages].sort();
+  assert.deepEqual(result.data[0], expected);
+  assert.equal(result.data[1].itemId, document.itemId);
+  assert.equal(result.data[1].urlJP, document.url);
+  assert.deepEqual(result.data[1].translatedLanguages,['jp']);
+  assert.deepEqual(result.data[1].tags, [{ id: 'experiment', label: 'experiment' }]);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(input, 'jp/scp-data.json'))).totalCount, 1);
+  const oldOutput = path.join(input, 'mobile-v1/jp');
+  const oldManifest = JSON.parse(fs.readFileSync(path.join(oldOutput, 'manifest.json')));
+  const oldPayload = fs.readFileSync(path.join(oldOutput, oldManifest.fileName));
+  assert.equal(oldManifest.timestamp, source.timestamp);
+  assert.equal(oldManifest.totalCount, source.totalCount);
+  assert.deepEqual(JSON.parse(zlib.gunzipSync(oldPayload)), mobileCatalog(source, 'jp'));
+  // Additional-only updates must leave the released channel byte-identical.
+  const oldPointer = fs.readFileSync(path.join(oldOutput, 'manifest.json'));
+  extra.timestamp = '2026-11-06T00:00:00Z';
+  extra.data[0].title = 'Updated log';
+  fs.writeFileSync(path.join(input, 'related-documents/catalog.json'), JSON.stringify(extra));
+  generateMobileCatalogs(input);
+  assert.deepEqual(fs.readFileSync(path.join(oldOutput, 'manifest.json')), oldPointer);
+  assert.deepEqual(fs.readFileSync(path.join(oldOutput, oldManifest.fileName)), oldPayload);
+  const updated = JSON.parse(fs.readFileSync(path.join(output, 'manifest.json')));
+  assert.deepEqual(fs.readFileSync(path.join(v2dir,'manifest.json')),v2pointer);
+  assert.notEqual(updated.fileName, manifest.fileName);
+  assert.equal(updated.timestamp, extra.timestamp);
+});
+
+test('mobile-v3 repairs retained ID-only tag labels and keeps legacy channels and reader keys stable', t => {
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),'mobile-tag-labels-'));
+  t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+  const input=path.join(root,'local-data'), directory=path.join(input,'cn');
+  fs.mkdirSync(directory,{recursive:true});
+  const id='tag-7f558808845f404857963c5b';
+  fs.writeFileSync(path.join(root,'tag-dictionary.json'),JSON.stringify({version:1,tags:{[id]:{aliases:['人造物品'],labels:{}}}}));
+  const source=catalog();source.language='cn';source.data[0].tags=[id];
+  const saved=JSON.stringify(source);
+  fs.writeFileSync(path.join(directory,'scp-data.json'),saved);
+  fs.writeFileSync(path.join(directory,'meta.json'),JSON.stringify({lastUpdated:source.timestamp,totalCount:1}));
+  generateMobileCatalogs(input);
+  const read=channel=>{const dir=path.join(input,channel,'cn'),m=JSON.parse(fs.readFileSync(path.join(dir,'manifest.json')));return JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,m.fileName)))).data[0];};
+  const current=read('mobile-v3');
+  assert.deepEqual(current.tags,[{id,label:'人造物品'}]);
+  for(const key of ['itemId','createdAt','lastUpdated'])assert.equal(current[key],source.data[0][key]);
+  for(const channel of ['mobile-v1','mobile-v2'])assert.deepEqual(read(channel).tags,[id]);
+  assert.equal(fs.readFileSync(path.join(directory,'scp-data.json'),'utf8'),saved);
+  const manifest=fs.readFileSync(path.join(input,'mobile-v3/cn/manifest.json'),'utf8');
+  generateMobileCatalogs(input);
+  assert.equal(fs.readFileSync(path.join(input,'mobile-v3/cn/manifest.json'),'utf8'),manifest);
+});

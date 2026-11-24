@@ -1,0 +1,100 @@
+{
+  "categoryOrder": [
+    "scp",
+    "ex",
+    "joke",
+    "tale",
+    "goi",
+    "record",
+    "setting",
+    "hub",
+    "other"
+  ],
+  "cases": [
+    {
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "category": "scp"
+    },
+    {
+      "pageType": "scp-series-jp",
+      "contentType": "scp",
+      "category": "scp"
+    },
+    {
+      "pageType": "scp-ex",
+      "contentType": "scp",
+      "category": "ex"
+    },
+    {
+      "pageType": "scp-jp-ex",
+      "contentType": "scp",
+      "category": "ex"
+    },
+    {
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "category": "joke"
+    },
+    {
+      "pageType": "joke-scps-cn",
+      "contentType": "scp",
+      "category": "joke"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "tale",
+      "category": "tale"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "goi",
+      "category": "goi"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "record",
+      "category": "record"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "setting",
+      "category": "setting"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "hub",
+      "category": "hub"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "other",
+      "category": "other"
+    },
+    {
+      "pageType": "related-document-jp",
+      "contentType": "log",
+      "category": "record"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "scp",
+      "category": "other"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "document",
+      "category": "other"
+    },
+    {
+      "pageType": "related-document-en",
+      "contentType": "TALE",
+      "category": "other"
+    },
+    {
+      "pageType": "other-page-type",
+      "contentType": "tale",
+      "category": "scp"
+    }
+  ]
+}

@@ -32,12 +32,8 @@ function mobileCatalog(source, language, {allowTagLabelRepair=false}={}) {
         !Number.isFinite(Date.parse(article.lastUpdated))) {
       throw new Error(`Invalid or duplicate article: ${article.itemId}`);
     }
+    if (!allowTagLabelRepair && source.tagSchemaVersion === 2) validateTagLabels({data:[article]}, language);
     ids.add(article.itemId);
-    if (!allowTagLabelRepair && source.tagSchemaVersion === 2 && (article.tags || []).some(tag =>
-      !tag || typeof tag.id !== 'string' || !tag.id.trim() ||
-      typeof tag.label !== 'string' || !tag.label.trim())) {
-      throw new Error(`Missing localized tag label: ${language}/${article.itemId}`);
-    }
     return Object.fromEntries(Object.entries(article).filter(([key, value]) =>
       FIELDS.has(key) && value !== null
     ));
@@ -45,11 +41,21 @@ function mobileCatalog(source, language, {allowTagLabelRepair=false}={}) {
   return { schemaVersion: 1, language, timestamp: source.timestamp, totalCount: data.length, data };
 }
 
-function generateCatalogChannel(input, output, includeAdditional, sourceDirectory = 'related-documents', enrichTranslations = true) {
+function validateTagLabels(catalog, language) {
+  for (const article of catalog.data) {
+    if ((article.tags || []).some(tag =>
+      !tag || typeof tag.id !== 'string' || !tag.id.trim() ||
+      typeof tag.label !== 'string' || !tag.label.trim())) {
+      throw new Error(`Missing localized tag label: ${language}/${article.itemId}`);
+    }
+  }
+}
+
+function generateCatalogChannel(input, output, includeAdditional, sourceDirectory = 'related-documents', enrichTranslations = true, normalizeSeries = false) {
   const reports = [];
   const additionalFile = path.join(input, sourceDirectory, 'catalog.json');
-  const additional = !includeAdditional ? null : fs.existsSync(additionalFile) ? JSON.parse(fs.readFileSync(additionalFile)) :
-    fs.existsSync(`${additionalFile}.gz`) ? JSON.parse(zlib.gunzipSync(fs.readFileSync(`${additionalFile}.gz`))) : null;
+  const additional = !includeAdditional ? null : fs.existsSync(`${additionalFile}.gz`) ? JSON.parse(zlib.gunzipSync(fs.readFileSync(`${additionalFile}.gz`))) :
+    fs.existsSync(additionalFile) ? JSON.parse(fs.readFileSync(additionalFile)) : null;
   if (additional && (additional.schemaVersion !== 1 || !Array.isArray(additional.data) || additional.totalCount !== additional.data.length || !Number.isFinite(Date.parse(additional.timestamp)))) throw Error('Invalid additional document catalog');
   const dictionaryFile = path.join(input, '..', 'tag-dictionary.json');
   const dictionary = fs.existsSync(dictionaryFile) ? readDictionary(dictionaryFile) : { version: 1, tags: {} };
@@ -88,12 +94,22 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
     if (meta.lastUpdated !== source.timestamp || meta.totalCount !== source.totalCount) {
       throw new Error(`Source/meta mismatch: ${language}`);
     }
-    // Legacy channels retain their tag representation; v3 validates labels
-    // after repairing them with the reviewed dictionary below.
+    const priorDelivery=includeAdditional&&enrichTranslations?readDelivery(path.join(output,language)):null;
+    const publishedById=new Map((priorDelivery?.data||[]).map(row=>[row.itemId,row]));
+    function classifyForDelivery(row){
+      const corrected=reclassifyScpArticle(row,reservedByLanguage.get(language));
+      const prior=publishedById.get(row.itemId);
+      const page=r=>normalize(r.isTranslatedJP!==false&&r.urlJP?r.urlJP:r.urlEN)?.url;
+      if(prior&&page(prior)===page(row))corrected.itemId=row.itemId;
+      return corrected;
+    }
     const delivery = mobileCatalog(source, language, {allowTagLabelRepair:true});
     const ids = new Set(delivery.data.map(r => r.itemId));
     const pageUrls = new Set(source.data.map(r => normalize(r.isTranslatedJP !== false && r.urlJP ? r.urlJP : r.urlEN)?.url));
-    const documents = (additional?.data || []).filter(r => r.language === language && !pageUrls.has(r.url) && !ids.has(r.itemId)).map(r => ({
+    const documents = (additional?.data || []).filter(r => r.language === language && !pageUrls.has(r.url) && !ids.has(r.itemId)).map(original => {
+      // Classify raw branch/type evidence before localizeTags hides those tags.
+      const r=includeAdditional&&enrichTranslations?classifyForDelivery({...original,urlJP:original.url}):original;
+      return ({
       itemId: r.itemId, titleJP: r.title, urlJP: r.url, isTranslatedJP: true,
       extractedFrom: r.pageType, pageType: r.pageType, contentType: r.contentType,
       lastUpdated: r.lastUpdated, descriptionExcerpt: r.descriptionExcerpt,
@@ -103,24 +119,24 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
       ...(r.imageUrl ? { imageUrl:r.imageUrl } : {}),
       ...(r.contentType === 'scp' ? { numericItemId: r.numericItemId } : {}),
       tags: localizeTags(r.tags || [], language, dictionary, tagIndex),
-    }));
+    });});
     for (const row of documents) {
-      // Published identifiers remain stable when an official index classifies
-      // an SCP-named article as a tale or another document type (e.g. SCP-000).
       const validId = row.itemId.startsWith('document-') || /^(?:scp-series-|joke-scps-|scp-(?:[a-z]+-)?ex-)[a-z0-9][a-z0-9_.-]*$/.test(row.itemId);
-      if (!validId || ids.has(row.itemId) || REQUIRED_STRINGS.some(k => typeof row[k] !== 'string') || !row.titleJP || !Number.isFinite(Date.parse(row.lastUpdated)) || !normalize(row.urlJP)) throw Error(`Invalid additional article: ${row.itemId}`);
+      if (!validId || (!enrichTranslations&&ids.has(row.itemId)) || REQUIRED_STRINGS.some(k => typeof row[k] !== 'string') || !row.titleJP || !Number.isFinite(Date.parse(row.lastUpdated)) || !normalize(row.urlJP)) throw Error(`Invalid additional article: ${row.itemId}`);
       ids.add(row.itemId);
     }
     delivery.data.push(...documents);
-    if (includeAdditional && enrichTranslations) delivery.data = delivery.data.map(row => {
-      const corrected = reclassifyScpArticle(row, reservedByLanguage.get(language));
-      return {...corrected,
-        tags:restoreTagLabels(corrected.tags || [], language, dictionary, tagIndex, corrected.tagLabels),
-        extractedFrom:normalizedSourceListing(corrected)};
-    });
+    if (includeAdditional && enrichTranslations) delivery.data = delivery.data.map(row => ({
+      ...classifyForDelivery(row),
+      tags:restoreTagLabels(row.tags || [], language, dictionary, tagIndex, row.tagLabels),
+    }));
+    if (includeAdditional && enrichTranslations) validateTagLabels(delivery, language);
+    // Restore already-published production keys before deduplication: distinct
+    // publisher pages must not lose their reader state when classification changes.
     if (includeAdditional && enrichTranslations) {
-      const previous=readDelivery(path.join(output,language));
-      require('./catalog-delivery-identity').preservePublishedIds(delivery.data,previous?.data||[]);
+      require('./catalog-delivery-identity').preservePublishedIds(
+        delivery.data, readDelivery(path.join(output, language))?.data || []);
+      delivery.data=require('./article-metadata').deduplicateReclassifiedArticles(delivery.data);
     }
     if (includeAdditional && enrichTranslations) for (const row of delivery.data) {
       row.translatedLanguages = [...new Set([
@@ -129,14 +145,38 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
     }
     delivery.totalCount = delivery.data.length;
     if (additional && Date.parse(additional.timestamp) > Date.parse(delivery.timestamp)) delivery.timestamp = additional.timestamp;
+    const directory = path.join(output, language), pointer = path.join(directory, 'manifest.json');
+    const previousManifest = fs.existsSync(pointer) ? JSON.parse(fs.readFileSync(pointer)) : null;
+    const previousFile = previousManifest?.fileName || null;
+    if(normalizeSeries){
+      const corrections=[];
+      for(const row of delivery.data){const source=normalizedSourceListing(row);if(source!==row.extractedFrom){row.extractedFrom=source;corrections.push(row);}}
+      if(previousManifest){
+        const priorTime=Date.parse(previousManifest.timestamp),sourceTime=Date.parse(delivery.timestamp);
+        if(!Number.isFinite(priorTime))throw Error('Invalid previous delivery timestamp');
+        let correctedPrevious=false;
+        if(corrections.length){
+          if(!/^catalog-[a-f0-9]{64}\.json\.gz$/.test(previousFile))throw Error('Invalid previous delivery pointer');
+          const priorBytes=fs.readFileSync(path.join(directory,previousFile));
+          if(crypto.createHash('sha256').update(priorBytes).digest('hex')!==previousManifest.sha256)throw Error('Previous delivery checksum mismatch');
+          const prior=JSON.parse(zlib.gunzipSync(priorBytes)),sources=new Map(prior.data.map(r=>[r.itemId,r.extractedFrom]));
+          correctedPrevious=corrections.some(row=>sources.get(row.itemId)!==row.extractedFrom);
+        }
+        // Existing clients decide whether to reimport by timestamp. A delivery-
+        // only repair must advance it, then retain that floor on repeat builds.
+        if(correctedPrevious&&sourceTime<=priorTime)delivery.timestamp=new Date(Math.max(Date.now(),priorTime+1)).toISOString();
+        else if(sourceTime<priorTime)delivery.timestamp=previousManifest.timestamp;
+      }
+    }
+    if(includeAdditional&&enrichTranslations)require('./catalog-classification-version').advanceClassificationTimestamp(delivery,path.join(output,language));
     if (includeAdditional && enrichTranslations) {
       applyArrivalDates(delivery, readDelivery(path.join(output, language)));
     }
-    if(includeAdditional&&enrichTranslations){
-      const previous=readDelivery(path.join(output,language));
-      if(previous&&Date.parse(delivery.timestamp)<=Date.parse(previous.timestamp)){
-        delivery.timestamp=JSON.stringify(delivery.data)===JSON.stringify(previous.data)?previous.timestamp:
-          new Date(Math.max(Date.now(),Date.parse(previous.timestamp)+1)).toISOString();
+    if (includeAdditional && enrichTranslations) {
+      const prior=readDelivery(path.join(output,language));
+      if(prior && Date.parse(delivery.timestamp)<=Date.parse(prior.timestamp)) {
+        delivery.timestamp=JSON.stringify(delivery.data)===JSON.stringify(prior.data)?prior.timestamp:
+          new Date(Math.max(Date.now(),Date.parse(prior.timestamp)+1)).toISOString();
       }
     }
     const json = Buffer.from(JSON.stringify(delivery), 'utf8');
@@ -146,10 +186,7 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
     }
     const sha256 = crypto.createHash('sha256').update(compressed).digest('hex');
     const fileName = `catalog-${sha256}.json.gz`;
-    const directory = path.join(output, language);
     fs.mkdirSync(directory, { recursive: true });
-    const pointer = path.join(directory, 'manifest.json');
-    const previousFile = fs.existsSync(pointer) ? JSON.parse(fs.readFileSync(pointer)).fileName : null;
     fs.writeFileSync(path.join(directory, fileName), compressed);
     const manifest = {
       schemaVersion: 1, language, timestamp: delivery.timestamp, totalCount: delivery.totalCount,
@@ -170,11 +207,15 @@ function generateCatalogChannel(input, output, includeAdditional, sourceDirector
   return reports;
 }
 
+function generateMobileV3Catalogs(input,output=path.join(input,'mobile-v3')){
+  return generateCatalogChannel(input,output,true,'related-documents',true,true);
+}
+
 function generateMobileCatalogs(input, output = path.join(input, 'mobile-v1')) {
   // Keep the released app's endpoint and metadata contract unchanged.
   const legacy = generateCatalogChannel(input, output, false);
   const previous = generateCatalogChannel(input, path.join(path.dirname(output), 'mobile-v2'), true, 'related-documents-v2', false);
-  const extended = generateCatalogChannel(input, path.join(path.dirname(output), 'mobile-v3'), true);
+  const extended = generateMobileV3Catalogs(input, path.join(path.dirname(output), 'mobile-v3'));
   return [
     ...legacy.map(report => ({ channel: 'mobile-v1', ...report })),
     ...previous.map(report => ({ channel: 'mobile-v2', ...report })),
@@ -186,6 +227,7 @@ if (require.main === module) {
   const input = path.resolve(process.argv[2] || path.join(__dirname, 'local-data'));
   const output = process.argv[3] && path.resolve(process.argv[3]);
   const catalogs = generateMobileCatalogs(input, output);
-  console.log(JSON.stringify(catalogs, null, 2));
+  const researchBoard = require('./research-board/catalog').generateResearchBoard(input, path.join(path.dirname(output || path.join(input, 'mobile-v1')), 'mobile-v3'));
+  console.log(JSON.stringify({catalogs, researchBoard}, null, 2));
 }
-module.exports = { mobileCatalog, generateMobileCatalogs };
+module.exports = { mobileCatalog, generateMobileCatalogs, generateMobileV3Catalogs, normalizedSourceListing, validateTagLabels };

@@ -7,8 +7,9 @@ const { LANGUAGES } = require('./languages');
 const { normalize, fetchRecord, loadCache } = require('./related-documents');
 const { inspectArticlePage } = require('./article-page');
 const sourcesFile = require('./catalog-index-sources.json');
+const { validOrigin } = require('./catalog-origin');
 const VERSION = 1;
-const PARSER_VERSION = 4;
+const PARSER_VERSION = 5;
 const excludedPath = /(?:^|[-:])(?:guide|guides|artwork|authors?|members|contest|concurs|concorso|essay|news|translation-reservation|tag-guide|licensing)(?:[-:]|$)/i;
 const excludedTags = new Set(['artwork','artist','author','authors','author-page','guide','guidelines','essay','contest','contest-hub','news','著者ページ','アートワーク','ガイド','エッセイ','コンテスト','作者','艺术作品','指导','страница_автора','структура:страница_автора','структура:руководство','структура:конкурс']);
 for(const tag of ['autor','auteur','autore','작가','автор','tác-giả','hướng-dẫn','藝術作品','hội-họa','_bild','안내'])excludedTags.add(tag);
@@ -18,10 +19,12 @@ function originHint(url) {
   const special = {'/liste-fr':'fr','/lista-pl':'pl','/scp-it-serie-i':'it','/racconti-italiani':'it','/gdi-it-serie-i':'it',
     '/centre-des-contes-francais':'fr','/centre-des-canons-francais':'fr','/contos-da-fundacao':'pt','/formatos-gdi':'pt','/scp-de-geschichten':'de','/relatos-de-la-fundacion-hispanoparlante':'es','/formatos-de-gdi':'es'};
   if (special[p]) return special[p];
+  const nativeLog = /^\/(?:log-of-anomalous-items|log-of-extranormal-events|log-of-unexplained-locations|supplement-hub|anthology-hub)-([a-z]{2})(?:\/|$)/.exec(p);
+  if (nativeLog) return validOrigin(nativeLog[1]);
   const tale = /\/tales-([a-z]+)-by-/.exec(p) || /\/tales-by-(?:author|title|page-name|create-time|date|year)-([a-z]+)$/.exec(p);
-  if (tale) return tale[1];
+  if (tale) return validOrigin(tale[1]);
   const m = /(?:foundation-tales|canon-hub|goi-formats|scp-series|scp-list|serie-scp|scp-serie|joke-scps|scp-ex)-([a-z]+)(?:-\d+)?$/.exec(p) || /\/series-\d+-([a-z]+)$/.exec(p);
-  if (m) return m[1] === 'unofficial' ? null : m[1];
+  if (m) return validOrigin(m[1]);
   return null;
 }
 function pageUrl(value, base) {
@@ -53,14 +56,17 @@ function parseIndex(html, source, registry, { embedded = false } = {}) {
     for (const e of content.querySelectorAll('script,style,noscript,nav,[role="navigation"],.page-navigation,.footer-wikiwalk-nav,.licensebox,.credit,.credit-box,#u-credit-view,#toc,.toc,.page-rate-widget-box,.authorbox')) e.remove();
     const members = new Map(), pages = new Set(), missing = new Set(), embeds = new Set(), childIndexes = new Set();
     const structured = !!content.querySelector('li a[href],td a[href],.list-pages-item a[href],.list-pages-box a[href]');
-    let origin = source.origin || originHint(source.url), section = '';
+    let origin = validOrigin(source.origin) || originHint(source.root || source.url), section = '';
     const sourceOrigin = origin;
+    const headings = [];
     for (const e of content.querySelectorAll('h1,h2,h3,a[href]')) {
       if (/^H[123]$/.test(e.tagName)) {
         section = clean(e.textContent);
-        const branch = /(?:^|\b)SCP[- ](EN|RU|KO|CN|FR|PL|ES|TH|JP|DE|IT|UA|PT(?:\/BR)?|CS|SK|ZH(?:-TR)?|VN|INT|ID)\b/i.exec(section);
-        if (branch) origin = branch[1].toLowerCase().replace('pt/br','pt').replace('zh-tr','zh');
-        else if (e.tagName === 'H1') origin = sourceOrigin;
+        const level = Number(e.tagName[1]);
+        while (headings.length && headings.at(-1).level >= level) headings.pop();
+        const branch = /^SCP[- ](EN|RU|KO|CN|FR|PL|ES|TH|JP|DE|IT|UA|PT(?:\/BR)?|CS|SK|ZH(?:-TR)?|VN|INT|ID)\b/i.exec(section);
+        origin = branch ? validOrigin(branch[1].toLowerCase().replace('pt/br','pt')) : headings.at(-1)?.origin ?? sourceOrigin;
+        headings.push({ level, origin });
         continue;
       }
       if (e.getAttribute('href').startsWith('#')) continue;
@@ -141,7 +147,7 @@ function eligibleRecord(record) {
     (record.availabilityVersion || clean(record.descriptionExcerpt));
 }
 async function crawl(language, { root = __dirname, now = new Date().toISOString(), maxRequests = 600,
-  maxDurationMs = 300000, intervalMs = 500, request = requestHtml, articleRequest = fetchRecord, force = false, sources = sourcesFile.sources } = {}) {
+  maxDurationMs = 300000, intervalMs = 500, request = requestHtml, articleRequest = url => fetchRecord(url, path.join(root,'partial-data/related-documents/research-board')), force = false, sources = sourcesFile.sources } = {}) {
   if (!LANGUAGES[language]) throw Error('Unknown language');
   const started = Date.now(), committed = path.join(root, 'local-data/catalog-indexes', language + '.json.gz');
   if (!Number.isInteger(maxRequests) || maxRequests < 0 || maxRequests > 10000 || !Number.isFinite(maxDurationMs) || maxDurationMs <= 0 || !Number.isFinite(intervalMs) || intervalMs < 0) throw Error('Invalid index crawl limits');
@@ -250,8 +256,13 @@ async function crawl(language, { root = __dirname, now = new Date().toISOString(
     if(!registry.has(url)&&!state.discoveredIndexes.some(s=>s.url===url))state.discoveredIndexes.push({language,url,root:url,kind:'tale',origin:member.origin||null,discoveredFrom:member.source});
   }
   for(const [url,record]of Object.entries(state.records))if(eligibleRecord(record))discoverHub(url,record);
-  const pending = [...members.keys()].filter(url => !ordinaryUrls.has(url) && (!eligibleRecord(state.records[url]) || !fresh(state.records[url]?.checkedAt)))
-    .filter(url => !attemptFresh(state.attempts[url])).sort((a,b) => Number(!!state.records[a])-Number(!!state.records[b]) || a.localeCompare(b));
+  const additionalFile = path.join(root,'local-data/related-documents/catalog.json.gz');
+  const unknownOrigins = new Set(fs.existsSync(additionalFile) ? JSON.parse(zlib.gunzipSync(fs.readFileSync(additionalFile))).data
+    .filter(r=>r.language===language&&r.pageType==='related-document-unclassified').map(r=>r.url) : []);
+  const needsOrigin = url => unknownOrigins.has(url) && (state.records[url]?.originProvenanceVersion||0)<require('./origin-provenance').VERSION;
+  const pending = [...members.keys()].filter(url => !ordinaryUrls.has(url) && (!eligibleRecord(state.records[url]) || !fresh(state.records[url]?.checkedAt) ||
+    needsOrigin(url)))
+    .filter(url => !attemptFresh(state.attempts[url])).sort((a,b) => Number(!!state.records[a])-Number(!!state.records[b]) || Number(needsOrigin(b))-Number(needsOrigin(a)) || a.localeCompare(b));
   for (const url of pending) {
     if (fetchedArticles >= maxRequests || Date.now()-started >= maxDurationMs) break;
     await slot();
@@ -278,6 +289,6 @@ async function crawl(language, { root = __dirname, now = new Date().toISOString(
 }
 if (require.main === module) {
   crawl(process.argv[2], { maxRequests: Number(process.env.INDEX_MAX_REQUESTS || 600), maxDurationMs: Number(process.env.INDEX_MAX_DURATION_MS || 300000),
-    intervalMs: Number(process.env.CRAWL_REQUEST_INTERVAL_MS || 500) }).catch(e => { console.error(e); process.exitCode = 1; });
+    intervalMs: Number(process.env.CRAWL_REQUEST_INTERVAL_MS || 500),force:process.env.FORCE_REFRESH_ARTICLE_INDEXES==='1' }).catch(e => { console.error(e); process.exitCode = 1; });
 }
 module.exports = { parseIndex, crawl, readState, writeState, eligibleRecord, isExcluded, originHint, isPager, requestHtml };

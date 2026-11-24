@@ -1,0 +1,6699 @@
+{
+  "source": "all-article-ids-checked.csv / snapshot 7fe6de9",
+  "checkedAt": "2026-11-13",
+  "cases": [
+    {
+      "line": 12,
+      "language": "jp",
+      "urlJP": "https://scp-jp.wikidot.com/scp-010-is",
+      "itemId": "scp-series-010-is",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-010-IS",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-is",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 2492,
+      "language": "jp",
+      "urlJP": "http://scp-jp.wikidot.com/scp-2615-j",
+      "itemId": "scp-series-2615-j",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2615-J",
+      "tags": [
+        "en",
+        "scp",
+        "ジョーク"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 9629,
+      "language": "jp",
+      "urlJP": "https://scp-jp.wikidot.com/scp-4000-jp-o-92-mallet",
+      "itemId": "scp-series-jp-4000-o-92-mallet",
+      "pageType": "scp-series-jp",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-jp-5",
+      "titleJP": "SCP-4133-JP",
+      "tags": [
+        "jp",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-jp",
+        "contentType": "scp",
+        "itemId": "scp-series-jp-4133"
+      }
+    },
+    {
+      "line": 10416,
+      "language": "jp",
+      "urlJP": "http://scp-jp.wikidot.com/scp-001-d-j",
+      "itemId": "joke-scps-001-d-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-001-D-J",
+      "tags": [
+        "en",
+        "scp",
+        "ジョーク"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 10716,
+      "language": "jp",
+      "urlJP": "https://scp-jp.wikidot.com/scp-2022-af-jp-j",
+      "itemId": "joke-scps-jp-2022-af-j",
+      "pageType": "joke-scps-jp",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps-jp",
+      "titleJP": "SCP-2022-JP-AF-J",
+      "tags": [
+        "jp",
+        "scp",
+        "ジョーク"
+      ],
+      "expected": {
+        "pageType": "joke-scps-jp",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 17140,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-067-tl",
+      "itemId": "scp-series-067-tl",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-067-TL",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-tl",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 19689,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-2615-j",
+      "itemId": "scp-series-2615-j",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2615-J",
+      "tags": [
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27055,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/GRAF",
+      "tags": [
+        "_it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27367,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-002-it-j",
+      "itemId": "joke-scps-002-it-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-002-IT-J",
+      "tags": [
+        "_it",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27384,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-015-de-j",
+      "itemId": "joke-scps-015-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-015-DE-J",
+      "tags": [
+        "_de",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27397,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-027-de-j",
+      "itemId": "joke-scps-027-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-027-DE-J",
+      "tags": [
+        "_de",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27407,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-044-de-j",
+      "itemId": "joke-scps-044-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-044-DE-J",
+      "tags": [
+        "_de",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27412,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-50-ae-j",
+      "itemId": "joke-scps-50-ae-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-50-AE-J",
+      "tags": [
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27414,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-055-de-j",
+      "itemId": "joke-scps-055-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-055-DE-J",
+      "tags": [
+        "_de",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27441,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-222-th-j",
+      "itemId": "joke-scps-222-th-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-222-TH-J",
+      "tags": [
+        "_th",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-th",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27480,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-682-fr-j",
+      "itemId": "joke-scps-682-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-682-FR-J",
+      "tags": [
+        "_fr",
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 27685,
+      "language": "en",
+      "urlJP": "https://scp-wiki.wikidot.com/scp-9000-arc-j",
+      "itemId": "joke-scps-9000-arc-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-9000-ARC-J",
+      "tags": [
+        "joke",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 36177,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-010-is",
+      "itemId": "scp-series-010-is",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-010-IS",
+      "tags": [
+        "is",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-is",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 36226,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-58-fi",
+      "itemId": "scp-series-58-fi",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-058-FI",
+      "tags": [
+        "fi",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-fi",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 36236,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-067-tl",
+      "itemId": "scp-series-067-tl",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-067-TL",
+      "tags": [
+        "scp",
+        "tl"
+      ],
+      "expected": {
+        "pageType": "scp-series-tl",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 37459,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-1290-i57",
+      "itemId": "scp-series-1290-i57",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1290 - 比宇宙飞船还便宜",
+      "tags": [
+        "es",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-es",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 38783,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-2615-j",
+      "itemId": "scp-series-2615-j",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2615-J",
+      "tags": [
+        "scp",
+        "搞笑"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 48886,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "DrGraph的提案",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 49938,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-1006-ru-v",
+      "itemId": "scp-series-1006-ru-v",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1006-RU（已归档）",
+      "tags": [
+        "ru",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 49941,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-1009-ru-v",
+      "itemId": "scp-series-1009-ru-v",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1009-RU-V",
+      "tags": [
+        "ru",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 49942,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-1015-ru-v",
+      "itemId": "scp-series-1015-ru-v",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1015-RU（已归档）",
+      "tags": [
+        "ru",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 50022,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-021-tok",
+      "itemId": "scp-series-021-tok",
+      "pageType": "scp-series-tok",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-tok",
+      "titleJP": "SCP-021-TOK",
+      "tags": [
+        "scp",
+        "tok"
+      ],
+      "expected": {
+        "pageType": "scp-series-tok",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 50072,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-001-de-ex",
+      "itemId": "scp-ex-001-de-ex",
+      "pageType": "scp-ex",
+      "contentType": "scp",
+      "extractedFrom": "scp-ex",
+      "titleJP": "SCP-001-DE-EX",
+      "tags": [
+        "de",
+        "scp",
+        "已解明"
+      ],
+      "expected": {
+        "pageType": "scp-de-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 50085,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-500-jp-ex",
+      "itemId": "scp-ex-500-jp-ex",
+      "pageType": "scp-ex",
+      "contentType": "scp",
+      "extractedFrom": "scp-ex",
+      "titleJP": "SCP-500-JP-EX",
+      "tags": [
+        "jp",
+        "scp",
+        "已解明"
+      ],
+      "expected": {
+        "pageType": "scp-jp-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 50192,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-001-d-j",
+      "itemId": "joke-scps-001-d-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-001-D-J",
+      "tags": [
+        "scp",
+        "搞笑"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 50202,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-005-j-ex",
+      "itemId": "joke-scps-005-j-ex",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-005-J-EX",
+      "tags": [
+        "scp",
+        "已解明",
+        "搞笑"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 50483,
+      "language": "cn",
+      "urlJP": "https://scp-wiki-cn.wikidot.com/scp-9000-arc-j",
+      "itemId": "joke-scps-9000-arc-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-9000-ARC-J",
+      "tags": [
+        "scp",
+        "搞笑"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 67594,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-029-t",
+      "itemId": "scp-series-029-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-029-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67597,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-031-t",
+      "itemId": "scp-series-031-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-031-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67616,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-050-t",
+      "itemId": "scp-series-050-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-050-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67668,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-102-t",
+      "itemId": "scp-series-102-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-102-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67670,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-103-t",
+      "itemId": "scp-series-103-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-103-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67684,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-116-t",
+      "itemId": "scp-series-116-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-116-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67708,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-139-t",
+      "itemId": "scp-series-139-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-139-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67730,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-161-t",
+      "itemId": "scp-series-161-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-161-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67736,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-166-t",
+      "itemId": "scp-series-166-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-166-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67757,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-186-t",
+      "itemId": "scp-series-186-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-186-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67809,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-238-t",
+      "itemId": "scp-series-238-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-238-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67826,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-255-t",
+      "itemId": "scp-series-255-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-255-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67893,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-321-t",
+      "itemId": "scp-series-321-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-321-T",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67905,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-332-t",
+      "itemId": "scp-series-332-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-332-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67929,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-356-t",
+      "itemId": "scp-series-356-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-356-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 67932,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-359-t",
+      "itemId": "scp-series-359-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-359-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68051,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-480-t",
+      "itemId": "scp-series-480-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-480-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68083,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-512-t",
+      "itemId": "scp-series-512-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-512-T",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68090,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-518-t",
+      "itemId": "scp-series-518-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-518-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68100,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-528-t",
+      "itemId": "scp-series-528-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-528-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68145,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-573-t",
+      "itemId": "scp-series-573-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-573-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68146,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-574-t",
+      "itemId": "scp-series-574-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-574-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68163,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-590-t",
+      "itemId": "scp-series-590-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-590-T",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68200,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-627-t",
+      "itemId": "scp-series-627-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-627-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68264,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-693-t",
+      "itemId": "scp-series-693-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-693-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68303,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-736-t",
+      "itemId": "scp-series-736-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-736-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68391,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-834-t",
+      "itemId": "scp-series-834-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-834-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68462,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-963-t",
+      "itemId": "scp-series-963-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-963-T",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68483,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-986-t",
+      "itemId": "scp-series-986-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-986-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68502,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1004-t",
+      "itemId": "scp-series-1004-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1004-T",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68545,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1046-t",
+      "itemId": "scp-series-1046-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1046-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68597,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1097-t",
+      "itemId": "scp-series-1097-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1097-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68600,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1099-t",
+      "itemId": "scp-series-1099-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1099-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68668,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1166-t",
+      "itemId": "scp-series-1166-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1166-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68732,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1229-t",
+      "itemId": "scp-series-1229-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1229-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68780,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1277-t",
+      "itemId": "scp-series-1277-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1277-T",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68809,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1305-t",
+      "itemId": "scp-series-1305-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1305-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68841,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1337-t",
+      "itemId": "scp-series-1337-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1337-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68882,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1377-t",
+      "itemId": "scp-series-1377-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1377-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68897,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1392-t",
+      "itemId": "scp-series-1392-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1392-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 68989,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1484-t",
+      "itemId": "scp-series-1484-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1484-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69041,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1538-t",
+      "itemId": "scp-series-1538-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1538-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69045,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1542-t",
+      "itemId": "scp-series-1542-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1542-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69093,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1590-t",
+      "itemId": "scp-series-1590-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1590-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69114,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1611-t",
+      "itemId": "scp-series-1611-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1611-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69212,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1709-t",
+      "itemId": "scp-series-1709-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1709-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69280,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1777-t",
+      "itemId": "scp-series-1777-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1777-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69342,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1840-t",
+      "itemId": "scp-series-1840-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1840-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69343,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1841-t",
+      "itemId": "scp-series-1841-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1841-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69407,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1908-t",
+      "itemId": "scp-series-1908-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1908-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69428,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1929-t",
+      "itemId": "scp-series-1929-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1929-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69476,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1976-t",
+      "itemId": "scp-series-1976-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1976-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69484,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-1984-t",
+      "itemId": "scp-series-1984-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1984-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69502,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-2003-t",
+      "itemId": "scp-series-2003-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2003-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69609,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-2669-t",
+      "itemId": "scp-series-2669-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2669-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69644,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-3006-t",
+      "itemId": "scp-series-3006-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-4",
+      "titleJP": "SCP-3006-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 69871,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-5922-t",
+      "itemId": "scp-series-5922-t",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-6",
+      "titleJP": "SCP-5922-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 70021,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-cn-994-t",
+      "itemId": "scp-series-cn-994-t",
+      "pageType": "scp-series-cn",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-cn",
+      "titleJP": "SCP-CN-994-T",
+      "tags": [
+        "archiviert",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-cn",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 70450,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-es-268-t",
+      "itemId": "scp-series-es-268-t",
+      "pageType": "scp-series-es",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-es-3",
+      "titleJP": "SCP-ES-268",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 70492,
+      "language": "de",
+      "urlJP": "http://scp-wiki-de.wikidot.com/scp-001-de-ex",
+      "itemId": "scp-ex-001-de-ex",
+      "pageType": "scp-ex",
+      "contentType": "scp",
+      "extractedFrom": "scp-ex",
+      "titleJP": "SCP-001-DE-EX",
+      "tags": [
+        "erklärt",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-de-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 70513,
+      "language": "de",
+      "urlJP": "http://scp-wiki-de.wikidot.com/scp-008-de-j",
+      "itemId": "joke-scps-008-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-008-DE-J",
+      "tags": [
+        "scp",
+        "witz"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 70518,
+      "language": "de",
+      "urlJP": "http://scp-wiki-de.wikidot.com/scp-014-de-j",
+      "itemId": "joke-scps-014-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-014-DE-J",
+      "tags": [
+        "scp",
+        "witz"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 70528,
+      "language": "de",
+      "urlJP": "http://scp-wiki-de.wikidot.com/scp-044-de-j",
+      "itemId": "joke-scps-044-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-044-DE-J",
+      "tags": [
+        "scp",
+        "witz"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 70541,
+      "language": "de",
+      "urlJP": "http://scp-wiki-de.wikidot.com/scp-123-de-j",
+      "itemId": "joke-scps-123-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-123-DE-J",
+      "tags": [
+        "scp",
+        "witz"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 70584,
+      "language": "de",
+      "urlJP": "https://scp-wiki-de.wikidot.com/scp-7-3-pig-j",
+      "itemId": "joke-scps-7-3-pig-j",
+      "pageType": "joke-scps-pig",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps-pig",
+      "titleJP": "SCP-7.3-PIG-J",
+      "tags": [
+        "pig",
+        "scp",
+        "witz"
+      ],
+      "expected": {
+        "pageType": "joke-scps-pig",
+        "contentType": "scp",
+        "itemId": "joke-scps-pig-7.3"
+      }
+    },
+    {
+      "line": 75777,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/GRAF",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 75779,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-001-it-abad",
+      "itemId": "scp-series-it-001-abad",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/ABAD",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 75780,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-001-it-abad-inc",
+      "itemId": "scp-series-it-001-abad-inc",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/ABAD{INC}",
+      "tags": [
+        "it",
+        "scp",
+        "suplemento"
+      ],
+      "expected": {
+        "pageType": "related-document-it",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 75823,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-186-jp-log",
+      "itemId": "scp-series-jp-186-log",
+      "pageType": "scp-series-jp",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-jp",
+      "titleJP": "Exploración 186-JP-03 - Registro de Audio 12-0004",
+      "tags": [
+        "jp",
+        "scp",
+        "suplemento"
+      ],
+      "expected": {
+        "pageType": "related-document-jp",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 79117,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/alerta",
+      "itemId": "document-es--alerta",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Alerta",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79118,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/amor-no-maternal",
+      "itemId": "document-es--amor-no-maternal",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Amor no maternal",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79119,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/anti-es-264",
+      "itemId": "document-es--anti-es-264",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "EVIL SCP-ES-264",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79120,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/arca-negra",
+      "itemId": "document-es--arca-negra",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Entrevistas con Posibles Grupos de Interés Rama-ES: El Arca Negra (Registro Extendido)",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79121,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/boton-comida",
+      "itemId": "document-es--boton-comida",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Botón de Comida",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79122,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/bromas-2",
+      "itemId": "document-es--bromas-2",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "El Manual de las Buenas Bromas 2: El musical",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79123,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/bromita",
+      "itemId": "document-es--bromita",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Bromita",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79124,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/but-te-terminan-eliminando",
+      "itemId": "document-es--but-te-terminan-eliminando",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "But te terminan eliminando",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79125,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/casado-con-boca",
+      "itemId": "document-es--casado-con-boca",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Casado con Boca",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79126,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/como-ser-miembro-de-la-fundacion-en-tres-pasos",
+      "itemId": "document-es--como-ser-miembro-de-la-fundacion-en-tres-pasos",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Como Ser Miembro De La Fundacion En Tres Pasos",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79127,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/concurso-de-anarte",
+      "itemId": "document-es--concurso-de-anarte",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Primera versión del Concurso Anual de Arte Contemporáneo",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79128,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/cosas-buenas",
+      "itemId": "document-es--cosas-buenas",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Cosas Buenas",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79129,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/e-linvestigador-zubiria-debe-dejarse-de-bromas",
+      "itemId": "document-es--e-linvestigador-zubiria-debe-dejarse-de-bromas",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Es Joda, tómalo con calma",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79130,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/el-cuervo-y-el-dragon",
+      "itemId": "document-es--el-cuervo-y-el-dragon",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "El Cuervo Y El Dragón",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79131,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/el-limpiapiscinas",
+      "itemId": "document-es--el-limpiapiscinas",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "EL LIMPIAPISCINAS (ESTRENO MUNDIAL 2023)",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79132,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/el-que-rie-al-ultimo",
+      "itemId": "document-es--el-que-rie-al-ultimo",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Ríe Mejor",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79133,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/entre-mas-me-la-mamas",
+      "itemId": "document-es--entre-mas-me-la-mamas",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Entre más me la mamas...",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79134,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/entrenamiento-especial",
+      "itemId": "document-es--entrenamiento-especial",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Entrenamiento Especial",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79135,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/fantasticoseminariodecoldpostporsteffanoydado",
+      "itemId": "document-es--fantasticoseminariodecoldpostporsteffanoydado",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Fantastico seminario de coldpost por Steffano y dado.",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79136,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/go-green-ranger-go",
+      "itemId": "document-es--go-green-ranger-go",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Go Green Ranger Go",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79137,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/incidente-en-el-sitio-34",
+      "itemId": "document-es--incidente-en-el-sitio-34",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Incidente en el Sitio-34",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79138,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/inserte-chiste",
+      "itemId": "document-es--inserte-chiste",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "[INSERTE CHISTE]",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79139,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-5634345-j",
+      "itemId": "joke-scps-5634345",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "A s t e t i k Floral Shoppe",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79140,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-034-j",
+      "itemId": "joke-scps-es-034",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-034-J",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79141,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-349-j",
+      "itemId": "joke-scps-es-349",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "🍐🍐🍐🍐",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79142,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-3312-j",
+      "itemId": "joke-scps-es-3312",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-3312-J",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79143,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/lamentos-tras-el-muro",
+      "itemId": "document-es--lamentos-tras-el-muro",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Lamentos Tras El Muro",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79144,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/las-fantasticas-aventuras-de-luisa-y-patterson-la-venganza",
+      "itemId": "document-es--las-fantasticas-aventuras-de-luisa-y-patterson-la-venganza",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Las Fantásticas Aventuras de Luisa y Patterson - La Venganza",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79145,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/las-querellas-de-don-felipe-y-su-adiccion-a-las-monjas-y-a-l",
+      "itemId": "document-es--las-querellas-de-don-felipe-y-su-adiccion-a-las-monjas-y-a-l",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Las querellas de don Felipe y su adicción a las monjas y a las prostitutas (simultáneamente)",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79146,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/mascarada-rompida",
+      "itemId": "document-es--mascarada-rompida",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Mascarada Rompida",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79147,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/mi-fundacion-scp-es-ii",
+      "itemId": "document-es--mi-fundacion-scp-es-ii",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Mi Fundación SCP-ES II",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79148,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/noche-de-juegos",
+      "itemId": "document-es--noche-de-juegos",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Txumari Diff",
+      "tags": [
+        "es",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79149,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/parawatch-es",
+      "itemId": "document-es--parawatch-es",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "PARAWATCH-ES",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79150,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/pelea-de-basiliscos",
+      "itemId": "document-es--pelea-de-basiliscos",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Guerra bajo el 00100101011011000",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79151,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/primer-festival-gastronomico-de-la-biblioteca-de-los-errante",
+      "itemId": "document-es--primer-festival-gastronomico-de-la-biblioteca-de-los-errante",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Primer Festival Gastronómico De La Biblioteca De Los Errante",
+      "tags": [
+        "es",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79152,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/propuesta-de-labyrin-t",
+      "itemId": "document-es--propuesta-de-labyrin-t",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Propuesta de Labyrin't",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79153,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/propuesta-de-labyrin-t-2",
+      "itemId": "document-es--propuesta-de-labyrin-t-2",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "LA PROPUESTA MÁS PERUANA",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79154,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/propuesta-de-morhadow-vo",
+      "itemId": "document-es--propuesta-de-morhadow-vo",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Propuesta de Morhadow-VO",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79155,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/propuesta-de-slash",
+      "itemId": "document-es--propuesta-de-slash",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Propuesta de Slash",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79156,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/propuesta-de-zevax-y-extasis",
+      "itemId": "document-es--propuesta-de-zevax-y-extasis",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Propuesta De Zevaxtians & Extasis",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79157,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/propuesta-verdadera-de-morhadow",
+      "itemId": "document-es--propuesta-verdadera-de-morhadow",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Propuesta Verdadera De Morhadow",
+      "tags": [
+        "es",
+        "scp",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79158,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-8000-alan",
+      "itemId": "document-es--scp-8000-alan",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-8000 propuesta del A.Alan Joestar",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79159,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-4ykr1c069-j",
+      "itemId": "document-es--scp-es-4ykr1c069-j",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-4YKR1C069-J",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79160,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-046-vo",
+      "itemId": "scp-series-es-046-vo",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-046-VO",
+      "tags": [
+        "es",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79161,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-047-vo",
+      "itemId": "scp-series-es-047-vo",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-047-VO",
+      "tags": [
+        "es",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79162,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-075-vo",
+      "itemId": "scp-series-es-075-vo",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-075-VO",
+      "tags": [
+        "es",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79163,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/scp-es-top-10-j",
+      "itemId": "document-es--scp-es-top-10-j",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "tOP 1O mEJORES sCPS DE LA .",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79164,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/trabajo-de-reconstruccion",
+      "itemId": "document-es--trabajo-de-reconstruccion",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Una caja de jugo de naranja",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79165,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/un-chiste-gracioso-un-momo-gracioso-una-persona-graciosa",
+      "itemId": "document-es--un-chiste-gracioso-un-momo-gracioso-una-persona-graciosa",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Un Chiste Gracioso Un Momo Gracioso Una Persona Graciosa",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79166,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/un-manojo-de-microhistorias-contadas-por-becquer",
+      "itemId": "document-es--un-manojo-de-microhistorias-contadas-por-becquer",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Un Manojo De Microhistorias Contadas Por Bécquer",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 79167,
+      "language": "es",
+      "urlJP": "https://lafundacionscp.wikidot.com/yamisushi-file-234-b",
+      "itemId": "document-es--yamisushi-file-234-b",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Archivo del Sushi Oscuro Nro. 234-B \"Marw Sith\"",
+      "tags": [
+        "es",
+        "relato",
+        "vo"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 83268,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "Proposition du Dr Graph",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83270,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/scp-001-it-abad",
+      "itemId": "scp-series-it-001-abad",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/ABAD",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83436,
+      "language": "fr",
+      "urlJP": "http://fondationscp.wikidot.com/scp-999-fr-ex",
+      "itemId": "scp-ex-999-fr-ex",
+      "pageType": "scp-ex",
+      "contentType": "scp",
+      "extractedFrom": "scp-ex",
+      "titleJP": "SCP-999-FR-EX",
+      "tags": [
+        "expliqué",
+        "fr",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-fr-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83471,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/scp-009-fr-j",
+      "itemId": "joke-scps-009-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-009-FR-J",
+      "tags": [
+        "fr",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83474,
+      "language": "fr",
+      "urlJP": "http://fondationscp.wikidot.com/scp-011-fr-j",
+      "itemId": "joke-scps-011-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-011-FR-J",
+      "tags": [
+        "fr",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83476,
+      "language": "fr",
+      "urlJP": "http://fondationscp.wikidot.com/scp-012-fr-j",
+      "itemId": "joke-scps-012-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-012-FR-J",
+      "tags": [
+        "fr",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83509,
+      "language": "fr",
+      "urlJP": "http://fondationscp.wikidot.com/scp-096-fr-j",
+      "itemId": "joke-scps-096-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-096-FR-J",
+      "tags": [
+        "fr",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83545,
+      "language": "fr",
+      "urlJP": "http://fondationscp.wikidot.com/scp-666-fr-j",
+      "itemId": "joke-scps-666-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-666-FR-J",
+      "tags": [
+        "fr",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 83548,
+      "language": "fr",
+      "urlJP": "http://fondationscp.wikidot.com/scp-682-fr-j",
+      "itemId": "joke-scps-682-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-682-FR-J",
+      "tags": [
+        "fr",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 86262,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/5700-years-later",
+      "itemId": "document-fr--5700-years-later",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "5700 ans plus tard",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86263,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/a-lack-of-proper-procedure",
+      "itemId": "document-fr--a-lack-of-proper-procedure",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Une absence de procédure adéquate",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86264,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/across-the-hills-so-quiet",
+      "itemId": "document-fr--across-the-hills-so-quiet",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "De l'Autre Côté des Collines si Tranquilles",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86265,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/adventuring-interlude",
+      "itemId": "document-fr--adventuring-interlude",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Interlude de l’Aventure",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86266,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/annon",
+      "itemId": "document-fr--annon",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Annon",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86267,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/archived-incident-076-2-682",
+      "itemId": "document-fr--archived-incident-076-2-682",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Archive de l'incident 076-2/682",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86268,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/assistance-for-the-boss-lady",
+      "itemId": "document-fr--assistance-for-the-boss-lady",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Assistance pour M'dame la Chef",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86269,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/beneath-two-trees",
+      "itemId": "document-fr--beneath-two-trees",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Sous les deux Arbres",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86270,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/chapter-1-verse-1",
+      "itemId": "document-fr--chapter-1-verse-1",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Chapitre 1 : Verset 1",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86271,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/delet-this",
+      "itemId": "document-fr--delet-this",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "supprim ça",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86272,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/doctor-doctor-doctor",
+      "itemId": "document-fr--doctor-doctor-doctor",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Docteur Docteur Docteur",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86273,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/dust-and-blood",
+      "itemId": "document-fr--dust-and-blood",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Le Sang et la Poussière",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86274,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/ecceperago",
+      "itemId": "document-fr--ecceperago",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Ecce Perago",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86275,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/experience-log-294",
+      "itemId": "document-fr--experience-log-294",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Expériences supplémentaires sur SCP-294",
+      "tags": [
+        "archivé",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86276,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/experiment-log-783",
+      "itemId": "document-fr--experiment-log-783",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Rapport d'Expérience 783",
+      "tags": [
+        "archivé",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86277,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/jackofclubs",
+      "itemId": "document-fr--jackofclubs",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Valet de Trèfle",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86278,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/jackofdiamonds",
+      "itemId": "document-fr--jackofdiamonds",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Valet de Carreau",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86279,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/scp-100-j-t",
+      "itemId": "joke-scps-100-j-t",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "SCP-100-J-T",
+      "tags": [
+        "archivé",
+        "en",
+        "humour",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86280,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/liability",
+      "itemId": "document-fr--liability",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Responsabilité",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86281,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/lockdown-procedures-t",
+      "itemId": "document-fr--lockdown-procedures-t",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Procédures de verrouillage (Archivées)",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86282,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/marysuewho",
+      "itemId": "document-fr--marysuewho",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Mary Sue Qui ?",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86283,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/memory-of-days-long-past",
+      "itemId": "document-fr--memory-of-days-long-past",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Souvenirs de Jours Révolus",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86284,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/misnomer",
+      "itemId": "document-fr--misnomer",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Appellation Trompeuse",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86285,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/purity-of-essence",
+      "itemId": "document-fr--purity-of-essence",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Pureté de l'Essence",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86286,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/scp-001-o5",
+      "itemId": "document-fr--scp-001-o5",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "SCP-001:O5",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86311,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/scp-512-t-2",
+      "itemId": "document-fr--scp-512-t-2",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "SCP-512",
+      "tags": [
+        "archivé",
+        "en",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86370,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/the-end-is-the-beginning-is-the-end",
+      "itemId": "document-fr--the-end-is-the-beginning-is-the-end",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "La Fin est le Commencement est la Fin",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86371,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/the-real-adventures-in-capitalism",
+      "itemId": "document-fr--the-real-adventures-in-capitalism",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Les Vraies Aventures dans le Capitalisme",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86372,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/the-star-and-the-smith",
+      "itemId": "document-fr--the-star-and-the-smith",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "L'Étoile et le Forgeron",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86373,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/the-super-cool-road-trip-adventure",
+      "itemId": "document-fr--the-super-cool-road-trip-adventure",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "L'Aventure Super-Cool en Voiture",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86374,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/we-ve-got-a-runner",
+      "itemId": "document-fr--we-ve-got-a-runner",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Nous avons un coureur",
+      "tags": [
+        "archivé",
+        "conte",
+        "en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86375,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/cenizas-negras",
+      "itemId": "document-fr--cenizas-negras",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Cendres Noires",
+      "tags": [
+        "archivé",
+        "conte",
+        "es"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86376,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/diario-de-un-iniciado-1",
+      "itemId": "document-fr--diario-de-un-iniciado-1",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Journal d'un Apprenti, partie 1",
+      "tags": [
+        "archivé",
+        "conte",
+        "es"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 86388,
+      "language": "fr",
+      "urlJP": "https://fondationscp.wikidot.com/uebermensch",
+      "itemId": "document-fr--uebermensch",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "Übermensch",
+      "tags": [
+        "archivé",
+        "conte",
+        "es"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 87270,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-262-ie",
+      "itemId": "scp-series-262-ie",
+      "pageType": "scp-series-ie",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ie",
+      "titleJP": "SCP-262-IE",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-ie",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87295,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/GRAF",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87296,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-001-it-abad",
+      "itemId": "scp-series-it-001-abad",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/ABAD",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87991,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-002-pig",
+      "itemId": "scp-series-002-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-002-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87992,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-003-pig",
+      "itemId": "scp-series-003-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-003-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87993,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-004-pig",
+      "itemId": "scp-series-004-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-004-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87994,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-005-pig",
+      "itemId": "scp-series-005-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-005-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87995,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-006-pig",
+      "itemId": "scp-series-006-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-006-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87996,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-007-pig",
+      "itemId": "scp-series-007-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-007-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87997,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-008-pig",
+      "itemId": "scp-series-008-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-008-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87998,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-020-pig",
+      "itemId": "scp-series-020-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-020-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 87999,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-023-pig",
+      "itemId": "scp-series-023-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-023-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88000,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-039-pig",
+      "itemId": "scp-series-039-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-039-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88001,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-075-pig",
+      "itemId": "scp-series-075-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-075-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88002,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-100-pig",
+      "itemId": "scp-series-100-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-100-PIG",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88003,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-199-pig",
+      "itemId": "scp-series-199-pig",
+      "pageType": "scp-series-pig",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-pig",
+      "titleJP": "SCP-199-PIG",
+      "tags": [
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88130,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-1011-ru-v",
+      "itemId": "scp-series-1011-ru-v",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1011-RU-V",
+      "tags": [
+        "ru",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 88368,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-001-pig-ex",
+      "itemId": "scp-ex-001-pig-ex",
+      "pageType": "scp-pig-ex",
+      "contentType": "scp",
+      "extractedFrom": "scp-pig-ex",
+      "titleJP": "SCP-001-PIG-EX",
+      "tags": [
+        "explained",
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-pig-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88453,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-001-pig-j",
+      "itemId": "joke-scps-001-pig-j",
+      "pageType": "joke-scps-pig",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps-pig",
+      "titleJP": "SCP-001-PIG-J",
+      "tags": [
+        "joke",
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 88454,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-7-3-pig-j",
+      "itemId": "joke-scps-7-3-pig-j",
+      "pageType": "joke-scps-pig",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps-pig",
+      "titleJP": "SCP-7.3-PIG-J",
+      "tags": [
+        "joke",
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-pig",
+        "contentType": "scp",
+        "itemId": "joke-scps-pig-7.3"
+      }
+    },
+    {
+      "line": 88455,
+      "language": "int",
+      "urlJP": "https://scp-int.wikidot.com/scp-420-pig-j",
+      "itemId": "joke-scps-420-pig-j",
+      "pageType": "joke-scps-pig",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps-pig",
+      "titleJP": "SCP-420-PIG-J",
+      "tags": [
+        "joke",
+        "pig",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-pig",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 91461,
+      "language": "it",
+      "urlJP": "http://fondazionescp.wikidot.com/scp-4955-coltello",
+      "itemId": "scp-series-4955-coltello",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-5",
+      "titleJP": "SCP-4955",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series",
+        "contentType": "scp",
+        "itemId": "scp-series-4955"
+      }
+    },
+    {
+      "line": 91768,
+      "language": "it",
+      "urlJP": "https://fondazionescp.wikidot.com/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/GRAF",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 91771,
+      "language": "it",
+      "urlJP": "https://fondazionescp.wikidot.com/scp-001-it-abad",
+      "itemId": "scp-series-it-001-abad",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/ABAD",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 91772,
+      "language": "it",
+      "urlJP": "https://fondazionescp.wikidot.com/scp-001-it-heck",
+      "itemId": "scp-series-it-001-heck",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/HECK",
+      "tags": [
+        "it",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 92047,
+      "language": "it",
+      "urlJP": "https://fondazionescp.wikidot.com/scp-033-pt-ex",
+      "itemId": "scp-pt-ex-033",
+      "pageType": "scp-pt-ex",
+      "contentType": "scp",
+      "extractedFrom": "scp-pt-ex",
+      "titleJP": "SCP-033-PT-EX",
+      "tags": [
+        "pt",
+        "risolto",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-pt-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 97755,
+      "language": "ko",
+      "urlJP": "https://scpko.wikidot.com/scp-888-ko-d-arc-del-ex-j",
+      "itemId": "joke-scps-ko-888-d-arc-del-ex-j",
+      "pageType": "joke-scps-ko",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps-ko",
+      "titleJP": "SCP-888-KO-D-ARC-DEL-EX-J",
+      "tags": [
+        "scp",
+        "농담"
+      ],
+      "expected": {
+        "pageType": "joke-scps-ko",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 100773,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-001-d",
+      "itemId": "scp-series-001-d",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-001-D",
+      "tags": [
+        "структура:рассказ",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 100774,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-001-o5",
+      "itemId": "scp-series-001-o5",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-001 - Фабрика",
+      "tags": [
+        "структура:избранное",
+        "структура:рассказ",
+        "тип:001",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "scp-series",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 100850,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-076-2-splash",
+      "itemId": "scp-series-076-2-splash",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-076-2, предупреждение",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 100868,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-093-blue-test",
+      "itemId": "scp-series-093-blue-test",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-093, «синий» опыт",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 100869,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-093-green-test",
+      "itemId": "scp-series-093-green-test",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-093, «зелёный» опыт",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 100870,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-093-red-test",
+      "itemId": "scp-series-093-red-test",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-093, «красный» опыт",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 100871,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-093-violet-test",
+      "itemId": "scp-series-093-violet-test",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-093, «фиолетовый» опыт",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 100872,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-093-yellow-test",
+      "itemId": "scp-series-093-yellow-test",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-093, «жёлтый» опыт",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 100953,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-173-d",
+      "itemId": "scp-series-173-d",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-173-D",
+      "tags": [
+        "структура:рассказ",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 101025,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-245-1-a",
+      "itemId": "scp-series-245-1-a",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-245-1-A",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101390,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-610-l1",
+      "itemId": "scp-series-610-l1",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-610-L1",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101391,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-610-l2",
+      "itemId": "scp-series-610-l2",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-610-L2",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101392,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-610-l3",
+      "itemId": "scp-series-610-l3",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-610-L3",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101393,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-610-l4",
+      "itemId": "scp-series-610-l4",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-610-L4",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101394,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-610-l5",
+      "itemId": "scp-series-610-l5",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-610-L5",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101567,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-783-l1",
+      "itemId": "scp-series-783-l1",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-783-L1",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101568,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-783-l2",
+      "itemId": "scp-series-783-l2",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-783-L2",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 101669,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-884-original-collection",
+      "itemId": "scp-series-884-original-collection",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-884, изначальный набор",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 102131,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1348-icl-8",
+      "itemId": "scp-series-1348-icl-8",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1348-ICL-8",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 102254,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1471-j-supplement-log",
+      "itemId": "scp-series-1471-j-supplement-log",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1471-J Дополнительный протокол",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 102703,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1926-r",
+      "itemId": "scp-series-1926-r",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1926-R",
+      "tags": [
+        "структура:рассказ",
+        "тип:формат_фонда",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 102763,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1985-recovered-information",
+      "itemId": "scp-series-1985-recovered-information",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-2",
+      "titleJP": "SCP-1985, полученная информация",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 102863,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-2084-email-correspondence",
+      "itemId": "scp-series-2084-email-correspondence",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2084 - E-mail Корреспонденция",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 102988,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-2213-automatedsuccess",
+      "itemId": "scp-series-2213-automatedsuccess",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2213 - Люди-кошки (Автосохранённый)",
+      "tags": [
+        "структура:дополнение",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 103048,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-2284-a",
+      "itemId": "scp-series-2284-a",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-3",
+      "titleJP": "SCP-2284 - Г-н Ложь",
+      "tags": [
+        "структура:дополнение"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104588,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-001-it-graf",
+      "itemId": "scp-series-001-it-graf",
+      "pageType": "scp-series-it",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-it",
+      "titleJP": "SCP-001-IT/GRAF",
+      "tags": [
+        "структура:объект",
+        "тип:001",
+        "филиал:it"
+      ],
+      "expected": {
+        "pageType": "scp-series-it",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 104652,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-001-h",
+      "itemId": "scp-series-001-h",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-001-H - Зона максимальной нормальности",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:избранное",
+        "структура:рассказ",
+        "тип:формат_фонда",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 104654,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-0001-ru-s",
+      "itemId": "scp-series-0001-ru-s",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-0001-RU-S - Лабораторная работа",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:избранное",
+        "структура:рассказ",
+        "структура:сломанная_разметка",
+        "тип:интерактивный",
+        "тип:формат_фонда",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 104655,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-002-h",
+      "itemId": "scp-series-002-h",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-002-H - Когда почернеет свет",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:избранное",
+        "структура:рассказ",
+        "тип:формат_фонда",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 104656,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-0002-ru-s",
+      "itemId": "scp-series-0002-ru-s",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-0002-RU-S - Практические занятия",
+      "tags": [
+        "структура:рассказ",
+        "структура:сломанная_разметка",
+        "тип:интерактивный",
+        "тип:формат_фонда",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 104659,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-0004-ru-s",
+      "itemId": "scp-series-0004-ru-s",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-0004-RU-S - Перекрёстные опыты с торговым автоматом",
+      "tags": [
+        "структура:рассказ",
+        "структура:сломанная_разметка",
+        "тип:интерактивный",
+        "тип:формат_фонда",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "tale"
+      }
+    },
+    {
+      "line": 104660,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-332-ru-ex",
+      "itemId": "scp-series-332-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-332-RU-EX - Многоразовая копилка",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:дополнение",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104661,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-422-ru-ex",
+      "itemId": "scp-series-422-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-422-RU-EX - Дозвониться до небес",
+      "tags": [
+        "структура:дополнение",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104662,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-531-ru-ex",
+      "itemId": "scp-series-531-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-531-RU-EX - Нездешние",
+      "tags": [
+        "структура:дополнение",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104663,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-721-ru-ex",
+      "itemId": "scp-series-721-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru",
+      "titleJP": "SCP-721-RU-EX - Василиск наизнанку",
+      "tags": [
+        "структура:дополнение",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104712,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1048-ru%3Ascp-190-ru",
+      "itemId": "scp-series-1048-ru:scp-190-ru",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-190-RU",
+      "tags": [
+        "структура:дополнение"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104778,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1114-ru-ex",
+      "itemId": "scp-series-1114-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1114-RU-EX - Воля к власти",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:объект",
+        "тип:-ex",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "scp-ru-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 104959,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1295-ru-a",
+      "itemId": "scp-series-1295-ru-a",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1295-RU - Ты - монстр",
+      "tags": [
+        "структура:дополнение",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 104994,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1329-ru-ex",
+      "itemId": "scp-series-1329-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1329-RU-EX - Маленькое большое путешествие",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:объект",
+        "тип:-ex",
+        "тип:короткий",
+        "филиал:en",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "scp-ru-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 105079,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1414-ru-ex",
+      "itemId": "scp-series-1414-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1414-RU-EX - Катастрофа шаттла «Бриллианс»",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:избранное",
+        "структура:объект",
+        "тип:-ex",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "scp-ru-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 105084,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1418-ru-ex",
+      "itemId": "scp-series-1418-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1418-RU-EX - Чёрный костюм и белое лицо",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:объект",
+        "тип:-ex",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "scp-ru-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 105092,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1425-ru-ex",
+      "itemId": "scp-series-1425-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1425-RU-EX - Бухучёт древних ███ов",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:объект",
+        "тип:-ex",
+        "тип:неформат",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "scp-ru-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 105110,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-1443-ru-ex",
+      "itemId": "scp-series-1443-ru-ex",
+      "pageType": "scp-series-ru",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ru-2",
+      "titleJP": "SCP-1443-RU-EX - Непорочно зачатый",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:объект",
+        "тип:-ex",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "scp-ru-ex",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 105193,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-019-ua-05version",
+      "itemId": "scp-series-019-ua-05version",
+      "pageType": "scp-series-ua",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ua",
+      "titleJP": "SCP-019-UA - Аппарат для копирования личности, уровень допуска O5",
+      "tags": [
+        "структура:дополнение",
+        "филиал:ua"
+      ],
+      "expected": {
+        "pageType": "related-document-ua",
+        "contentType": "record"
+      }
+    },
+    {
+      "line": 105264,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-50-ae-j",
+      "itemId": "joke-scps-50-ae-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-50-AE-J - Орел-патриот",
+      "tags": [
+        "структура:объект",
+        "тип:шуточный",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 105266,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-055-de-j",
+      "itemId": "joke-scps-055-de-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-055-DE-J - ОГРОМНЫЙ ОКОРОК!",
+      "tags": [
+        "структура:объект",
+        "тип:короткий",
+        "тип:шуточный",
+        "филиал:de"
+      ],
+      "expected": {
+        "pageType": "joke-scps-de",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 106994,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-cn-994-v",
+      "itemId": "document-ru--scp-cn-994-v",
+      "pageType": "related-document-cn",
+      "contentType": "archive",
+      "extractedFrom": "related-document-cn",
+      "titleJP": "SCP-CN-994-V - Я вижу тебя",
+      "tags": [
+        "структура:объект",
+        "тип:-v",
+        "тип:архив",
+        "филиал:cn"
+      ],
+      "expected": {
+        "pageType": "related-document-cn",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 106995,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/5700-years-later",
+      "itemId": "document-ru--5700-years-later",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Прошло 5700 лет",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 106996,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/a-colder-war",
+      "itemId": "document-ru--a-colder-war",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Очень холодная война",
+      "tags": [
+        "структура:рассказ",
+        "тип:non_scp",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 106997,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/batman-s-newest-threat",
+      "itemId": "document-ru--batman-s-newest-threat",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Самый странный из злодеев Готэма",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 106998,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/beneath-two-trees",
+      "itemId": "document-ru--beneath-two-trees",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Под двумя деревьями",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 106999,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/chapter-1-verse-1",
+      "itemId": "document-ru--chapter-1-verse-1",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Глава 1, стих 1",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107000,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/dargaia-s-nectar",
+      "itemId": "document-ru--dargaia-s-nectar",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Нектар Даргеи",
+      "tags": [
+        "структура:рассказ",
+        "тип:non_scp",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107001,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/doctor-doctor-doctor",
+      "itemId": "document-ru--doctor-doctor-doctor",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Доктор доктор доктор",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107002,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/dr-ikari-i-presume",
+      "itemId": "document-ru--dr-ikari-i-presume",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Доктор Икари, я полагаю?",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107003,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/dr-simmons-s-private-log",
+      "itemId": "document-ru--dr-simmons-s-private-log",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Личный дневник доктора Симмонса",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "тип:дневник",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107004,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/dust-and-blood",
+      "itemId": "document-ru--dust-and-blood",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Прах и Кровь",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107005,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/fifthbobpentapants",
+      "itemId": "document-ru--fifthbobpentapants",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Патрик обретает просветление",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107006,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/hephaestus",
+      "itemId": "document-ru--hephaestus",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Гефест",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107007,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/holder-of-the-foundation",
+      "itemId": "document-ru--holder-of-the-foundation",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Хранитель Фонда",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107008,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/holding-on",
+      "itemId": "document-ru--holding-on",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Удержаться на плаву",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107009,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/home-is-a-place-with-mushrooms",
+      "itemId": "document-ru--home-is-a-place-with-mushrooms",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Назад, к родным грибам",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107010,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/i-wanna-be-the-very-best",
+      "itemId": "document-ru--i-wanna-be-the-very-best",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "СКПокемон",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107011,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/in-the-draft",
+      "itemId": "document-ru--in-the-draft",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "В потоке",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107012,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/keters-with-hats",
+      "itemId": "document-ru--keters-with-hats",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Кетеры в шляпах",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107013,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/lamb-in-a-lions-den",
+      "itemId": "document-ru--lamb-in-a-lions-den",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Ягненок в львином логове",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107014,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/letter-of-the-day",
+      "itemId": "document-ru--letter-of-the-day",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Письмо дня",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107015,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/misnomer",
+      "itemId": "document-ru--misnomer",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Неверная формулировка",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107016,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/notes",
+      "itemId": "document-ru--notes",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Записки",
+      "tags": [
+        "структура:рассказ",
+        "тип:non_scp",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107017,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/occurrence-of-oddness",
+      "itemId": "document-ru--occurrence-of-oddness",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Бывает же такое!",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107018,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/olympia-integration-experiment-omega",
+      "itemId": "document-ru--olympia-integration-experiment-omega",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Эксперимент ОМЕГА",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107019,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/on-the-o5-s-secret-service",
+      "itemId": "document-ru--on-the-o5-s-secret-service",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "На секретной службе Совета О5",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107020,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/onceandfutureemperor",
+      "itemId": "document-ru--onceandfutureemperor",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Император Былого и Грядущего",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107021,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/one-way-trip",
+      "itemId": "document-ru--one-way-trip",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Туда и обратно",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107022,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/oversight-disciplinary-record-79922005-oo8-kondraki",
+      "itemId": "document-ru--oversight-disciplinary-record-79922005-oo8-kondraki",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Административный журнал дисциплинарных взысканий 79922005-oo8-Кондраки",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107023,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/peace-i-would-settle-for-that",
+      "itemId": "document-ru--peace-i-would-settle-for-that",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Мир. Я бы согласился на это.",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107024,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/personal-journal-of-dr-erica-valdason",
+      "itemId": "document-ru--personal-journal-of-dr-erica-valdason",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Личный дневник доктора Эрики Вальдасон",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "тип:дневник",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107025,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/portrait-of-the-artist",
+      "itemId": "document-ru--portrait-of-the-artist",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Портрет Художницы",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107026,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/protocol-gattai",
+      "itemId": "document-ru--protocol-gattai",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Протокол \"СЛИЯНИЕ\"",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107027,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/random-stories",
+      "itemId": "document-ru--random-stories",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Разные истории",
+      "tags": [
+        "структура:рассказ",
+        "тип:non_scp",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107028,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/sandbox:song-of-sanna",
+      "itemId": "document-ru--sandbox:song-of-sanna",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Песнь Санны ",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107116,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-562-medical-research",
+      "itemId": "document-ru--scp-562-medical-research",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Медицинское исследование SCP-562",
+      "tags": [
+        "структура:дополнение",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107117,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-562-reproductive-cycle",
+      "itemId": "document-ru--scp-562-reproductive-cycle",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Репродуктивный цикл SCP-562",
+      "tags": [
+        "структура:дополнение",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107242,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-mlp-dnc",
+      "itemId": "document-ru--scp-mlp-dnc",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "ОУС+ММП=НС",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107243,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/shop",
+      "itemId": "document-ru--shop",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Главная страница",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107244,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/smooth-as-silk",
+      "itemId": "document-ru--smooth-as-silk",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Гладкая как шелк",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107245,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/solvin-center-of-problems",
+      "itemId": "document-ru--solvin-center-of-problems",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Справляемся с Корнем Проблем",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107246,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/the-foundation-never-changes",
+      "itemId": "document-ru--the-foundation-never-changes",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Фонд не меняется",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107247,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/the-star-and-the-smith",
+      "itemId": "document-ru--the-star-and-the-smith",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Звезда и Кузнец",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107248,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/the-things-dr-bright-is-not-allowed-to-do-at-the-foundation",
+      "itemId": "document-ru--the-things-dr-bright-is-not-allowed-to-do-at-the-foundation",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Чем доктору Брайту запрещается заниматься в учреждениях Фонда",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107249,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/timeandrelativedimensionsincontainmentprotocols",
+      "itemId": "document-ru--timeandrelativedimensionsincontainmentprotocols",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Темпоральные аномалии и разработка дополненных условий содержания",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107250,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/too-slow",
+      "itemId": "document-ru--too-slow",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Очень медленный",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107251,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/up",
+      "itemId": "document-ru--up",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Вверх",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107252,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/vision-at-betar",
+      "itemId": "document-ru--vision-at-betar",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Видение в Бетаре",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107253,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/whatcha-doing",
+      "itemId": "document-ru--whatcha-doing",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Ф████ и Ф███",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107254,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:a-balkan-tragedy",
+      "itemId": "document-ru--wl:a-balkan-tragedy",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Балканская трагедия",
+      "tags": [
+        "структура:рассказ",
+        "тип:non_scp",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107255,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:all-power-to-the-soviets",
+      "itemId": "document-ru--wl:all-power-to-the-soviets",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Вся власть Советам",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107256,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:improvised-ragtime-at-atrium-21",
+      "itemId": "document-ru--wl:improvised-ragtime-at-atrium-21",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Импровизированный регтайм в Атриуме 21",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "тип:короткий",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107257,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:introduction",
+      "itemId": "document-ru--wl:introduction",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Вступление",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107258,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:market-entry",
+      "itemId": "document-ru--wl:market-entry",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Открытие рынка",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107259,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:skinwalkers",
+      "itemId": "document-ru--wl:skinwalkers",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Оборотни",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107260,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:the-librarians",
+      "itemId": "document-ru--wl:the-librarians",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Библиотекари",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107261,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:the-universe",
+      "itemId": "document-ru--wl:the-universe",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "Вселенная Библиотеки Странников в вопросах и ответах",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107262,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/zyn-kriyu-only-she-s-a-buterfly",
+      "itemId": "document-ru--zyn-kriyu-only-she-s-a-buterfly",
+      "pageType": "related-document-en",
+      "contentType": "archive",
+      "extractedFrom": "related-document-en",
+      "titleJP": "дзюн крию каторая блы баббочкй",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:en"
+      ],
+      "expected": {
+        "pageType": "related-document-en",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107266,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-es-035-v",
+      "itemId": "document-ru--scp-es-035-v",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-035 - Топь",
+      "tags": [
+        "структура:объект",
+        "филиал:es"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107272,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-es-055-v",
+      "itemId": "document-ru--scp-es-055-v",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-055 - Центробежный репликатор",
+      "tags": [
+        "структура:объект",
+        "филиал:es"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107277,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-es-072-v",
+      "itemId": "document-ru--scp-es-072-v",
+      "pageType": "related-document-es",
+      "contentType": "archive",
+      "extractedFrom": "related-document-es",
+      "titleJP": "SCP-ES-072 - Как научиться читать",
+      "tags": [
+        "структура:объект",
+        "филиал:es"
+      ],
+      "expected": {
+        "pageType": "related-document-es",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107280,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/chain-reaction",
+      "itemId": "document-ru--chain-reaction",
+      "pageType": "related-document-ru",
+      "contentType": "archive",
+      "extractedFrom": "related-document-ru",
+      "titleJP": "Цепная реакция",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:рассказ",
+        "тип:архив",
+        "тип:соавторство",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107378,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/when-its-time-to-wake-up",
+      "itemId": "document-ru--when-its-time-to-wake-up",
+      "pageType": "related-document-ru",
+      "contentType": "archive",
+      "extractedFrom": "related-document-ru",
+      "titleJP": "Когда приходит время проснуться",
+      "tags": [
+        "структура:_одобрено_амс",
+        "структура:рассказ",
+        "тип:архив",
+        "филиал:ru"
+      ],
+      "expected": {
+        "pageType": "related-document-ru",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107381,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:after-action-report-lte-2913",
+      "itemId": "document-ru--goc:after-action-report-lte-2913",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Отчёт об операции - ЛУС-2913",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107382,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:incident-bl-7-alpha",
+      "itemId": "document-ru--goc:incident-bl-7-alpha",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Стенограмма Инцидента BL-7 Альфа",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107383,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:kte-0706-black",
+      "itemId": "document-ru--goc:kte-0706-black",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "ИУС-0706-Чёрный",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107384,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:kte-0937-velveteen",
+      "itemId": "document-ru--goc:kte-0937-velveteen",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "ИУС-0937-Бархат",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107385,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:kte-1181-plague-grey",
+      "itemId": "document-ru--goc:kte-1181-plague-grey",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "ИУС-1181-Чума-Серый",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107386,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:lte-0913-exmachina",
+      "itemId": "document-ru--goc:lte-0913-exmachina",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "ЛУС-0913-Ex Machina",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107387,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:lte-2101-freud-warhol",
+      "itemId": "document-ru--goc:lte-2101-freud-warhol",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "ЛУС-2101-Фрейд-Уорхол",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107388,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/goc:lte-3410-clockwork-green",
+      "itemId": "document-ru--goc:lte-3410-clockwork-green",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "ЛУС-3410-Маятник-Зелёный",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107389,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:bodmin-beast",
+      "itemId": "document-ru--mcd:bodmin-beast",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Тварь с Бодминских топей",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107390,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:hairy-hands",
+      "itemId": "document-ru--mcd:hairy-hands",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Мохнатые руки",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107391,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:liquid-necrosis",
+      "itemId": "document-ru--mcd:liquid-necrosis",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Жидкий некроз",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107392,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:ozenkadnook-tiger",
+      "itemId": "document-ru--mcd:ozenkadnook-tiger",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Тигр из Озенкаднука",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107393,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:pandoras-box",
+      "itemId": "document-ru--mcd:pandoras-box",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Коробка Впечатлений",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107394,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:personal-demise-glasses",
+      "itemId": "document-ru--mcd:personal-demise-glasses",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Очки персональной погибели",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107395,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:ripper-s-reflection",
+      "itemId": "document-ru--mcd:ripper-s-reflection",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Отражение Потрошителя",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107396,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:rowan-switch",
+      "itemId": "document-ru--mcd:rowan-switch",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Рябиновый Хлыст",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107397,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:safat",
+      "itemId": "document-ru--mcd:safat",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Сафат",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107398,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:tuning-fork",
+      "itemId": "document-ru--mcd:tuning-fork",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Камертон",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107399,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/mcd:unknown-map",
+      "itemId": "document-ru--mcd:unknown-map",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Таинственная карта",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107400,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/scp-union-site",
+      "itemId": "document-ru--scp-union-site",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "Обращение администрации Российского филиала Фонда SCP по поводу переезда с платформы Wikidot",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107401,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:i-orion",
+      "itemId": "document-ru--wl:i-orion",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "I. Orion",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 107402,
+      "language": "ru",
+      "urlJP": "https://scpfoundation.net/wl:ii-ursa-major",
+      "itemId": "document-ru--wl:ii-ursa-major",
+      "pageType": "related-document-unclassified",
+      "contentType": "archive",
+      "extractedFrom": "related-document-unclassified",
+      "titleJP": "II. Ursa Major",
+      "tags": [
+        "структура:рассказ",
+        "тип:архив"
+      ],
+      "expected": {
+        "pageType": "related-document-unclassified",
+        "contentType": "archive"
+      }
+    },
+    {
+      "line": 112690,
+      "language": "pt",
+      "urlJP": "http://scp-pt-br.wikidot.com/scp-005-pt-j",
+      "itemId": "joke-scps-005-pt-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-005-PT-J",
+      "tags": [
+        "piada",
+        "pt",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-pt",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 112703,
+      "language": "pt",
+      "urlJP": "http://scp-pt-br.wikidot.com/scp-020-pt-j",
+      "itemId": "joke-scps-020-pt-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-020-PT-J",
+      "tags": [
+        "piada",
+        "pt",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-pt",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 118953,
+      "language": "vn",
+      "urlJP": "https://scp-vn.wikidot.com/scp-682-fr-j",
+      "itemId": "joke-scps-682-fr-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-682-FR-J",
+      "tags": [
+        "fr",
+        "hài",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps-fr",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 120129,
+      "language": "zh-tr",
+      "urlJP": "https://scp-zh-tr.wikidot.com/scp-010-is",
+      "itemId": "scp-series-010-is",
+      "pageType": "scp-series",
+      "contentType": "scp",
+      "extractedFrom": "scp-series",
+      "titleJP": "SCP-010-IS",
+      "tags": [
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-is",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 121728,
+      "language": "zh-tr",
+      "urlJP": "https://scp-zh-tr.wikidot.com/scp-ro-004",
+      "itemId": "scp-series-ro-004",
+      "pageType": "scp-series-ro",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ro",
+      "titleJP": "SCP-RO-004",
+      "tags": [
+        "ro",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-ro",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 121729,
+      "language": "zh-tr",
+      "urlJP": "https://scp-zh-tr.wikidot.com/scp-ro-006",
+      "itemId": "scp-series-ro-006",
+      "pageType": "scp-series-ro",
+      "contentType": "scp",
+      "extractedFrom": "scp-series-ro",
+      "titleJP": "SCP-RO-006",
+      "tags": [
+        "ro",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "scp-series-ro",
+        "contentType": "scp"
+      }
+    },
+    {
+      "line": 124797,
+      "language": "pig",
+      "urlJP": "https://scp-pig.wikidot.com/scp-50-ae-j",
+      "itemId": "joke-scps-50-ae-j",
+      "pageType": "joke-scps",
+      "contentType": "scp",
+      "extractedFrom": "joke-scps",
+      "titleJP": "SCP-50-AE-J",
+      "tags": [
+        "en",
+        "okejay",
+        "scp"
+      ],
+      "expected": {
+        "pageType": "joke-scps",
+        "contentType": "scp"
+      }
+    }
+  ]
+}

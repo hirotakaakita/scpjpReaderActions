@@ -8,6 +8,8 @@ const axios = require('axios');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const { LANGUAGES } = require('./languages');
 const { inspectArticlePage } = require('./article-page');
+const { validOrigin, publisherOriginTags, publisherDefaultOrigin } = require('./catalog-origin');
+const provenance = require('./origin-provenance');
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
 const hosts = new Map(Object.entries(LANGUAGES).map(([language, config]) => [new URL(config.baseUrl).hostname, language]));
 hosts.set('scpfoundation.net', 'ru');
@@ -39,43 +41,51 @@ function articleFetchTarget(value) {
     if (u.username || u.password || u.port || !['http:', 'https:'].includes(u.protocol)) return null;
     if (u.hostname.startsWith('www.') && hosts.has(u.hostname.slice(4))) u.hostname = u.hostname.slice(4);
     if (normalize(u.href)) return u.href;
-    if (u.search || !/^\/[^/]+(?:\/(?:p|offset|page\d+_limit)\/\d+)+(?:\/noredirect\/true)?$/.test(u.pathname)) return null;
+    if (u.search || !/^\/[^/]+(?:(?:\/(?:p|offset|page\d+_limit)\/\d+)+(?:\/noredirect\/true)?|\/noredirect\/true)$/.test(u.pathname)) return null;
     return normalize(u.origin + '/' + u.pathname.split('/')[1]) ? u.href : null;
   } catch { return null; }
 }
 
-function extractHtml(url, html, now = new Date().toISOString(), existingDocument = null) {
+function extractHtml(url, html, now = new Date().toISOString(), existingDocument = null, {redirectTarget=null} = {}) {
   const page = normalize(url);
   if (!page) throw Error('Unsupported document URL');
   const dom = existingDocument ? null : new JSDOM(String(html).replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, ''), { url: page.url, virtualConsole: new VirtualConsole() });
   try {
     const d = existingDocument || dom.window.document, root = d.querySelector('#page-content')?.cloneNode(true);
-    const title = (d.querySelector('#page-title')?.textContent || d.title || '').trim();
+    const title = require('./article-titles').extractArticleTitle(d,url);
     const availability = inspectArticlePage(d);
     if (!availability.usable) {
-      const error=Error('Unavailable article: '+availability.reason);error.articleUnavailable=availability.terminal;throw error;
+      const error=Error('Unavailable article: '+availability.reason);error.articleUnavailable=availability.terminal;error.articleTitle=title;throw error;
     }
     const block=d.querySelector('#page-content .error-block,.page-not-found');
+    const redirectNotice=!!redirectTarget&&/redirect|리다이렉트|リダイレクト|重定向|перенаправ/iu.test(block?.textContent||'');
     const substantive = root?.cloneNode(true);
     if (substantive) for (const n of substantive.querySelectorAll(excluded + ',.error-block')) n.remove();
     const errorOnly = block && !substantive?.textContent.trim() && !substantive?.querySelector('img,svg,canvas,video,audio,iframe');
-    if(!root||!title||errorOnly){const error=Error('Unrecognized article structure');
+    if(!root||!title||(errorOnly&&!redirectNotice)){const error=Error('Unrecognized article structure');
       error.articleUnavailable=!!block&&/not found|does not exist|no existe|存在しません/i.test(block.textContent);throw error;}
     const tags = [...d.querySelectorAll('.page-tags a')].map(a => a.textContent.trim()).filter(Boolean);
     const translations = [...d.querySelectorAll('a[rel~="alternate"][hreflang],link[rel~="alternate"][hreflang],.translation-source a[href],a[data-translation-source]')]
       .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(Boolean);
     const authors = [...d.querySelectorAll('.licensebox a,.credit a,#u-credit-view a')]
       .filter(a => /wikidot\.com\/user:info\//i.test(a.href)).map(a => ({ name: a.textContent.trim(), url: a.href }));
-    for (const n of root.querySelectorAll(excluded + ',.error-block')) n.remove();
-    const links = [...new Set([...root.querySelectorAll('a[href]')].filter(a => !a.classList.contains('newpage') && !a.getAttribute('href').startsWith('#'))
-      .map(a => normalize(a.getAttribute('href'), page.url)?.url).filter(v => v && v !== page.url))].sort();
+    const boardExtractor = require('./research-board/extract');
+    boardExtractor.removeAuxiliaryContent(root);
+    for (const n of root.querySelectorAll(excluded + ',' + boardExtractor.EXCLUDED)) n.remove();
+    const bodyLinks = boardExtractor.bodyLinks(root, {...boardExtractor.normalizePage(page.url),title});
+    const links = bodyLinks.map(l => l.target);
     // Lazy import: the ordinary crawler also calls this extractor with its DOM.
     const metadata = require('./local-crawler');
     const description = metadata.extractDescriptionAndTagsFromDocument(root).descriptionExcerpt || '';
     return { ...page, title, tags, translations: [...new Set(translations)].sort(), authors,
+      ...(redirectTarget?{redirectTarget}:{}),...(!description&&redirectNotice?{descriptionStatus:'redirect_only'}:{}),
+      originProvenanceVersion:provenance.VERSION, originalSources:provenance.extractOriginalSources(d,page.url),
+      attributionDiscussionUrl:provenance.discussionPage(d,page.url),
+      ...provenance.extractAuthorCredits(d),
       objectClass: metadata.extractObjectClassFromDocument(d), rating: metadata.extractRatingFromDocument(d),
       imageUrl: metadata.extractImageUrlFromDocument(d,page.url),
-      links, descriptionExcerpt: Array.from(description).slice(0, 250).join(''), descriptionVersion:require('./article-excerpts').VERSION,
+      links, bodyLinks, linkExtractionVersion: boardExtractor.EXTRACTOR_VERSION,identityMetadataVersion:1,
+      descriptionExcerpt: Array.from(description).slice(0, 500).join(''),descriptionVersion:require('./article-excerpts').VERSION,
       contentSha256: hash(String(html)), checkedAt: now, format: 'html', availabilityVersion: 1 };
   } finally { dom?.window.close(); }
 }
@@ -83,16 +93,14 @@ function extractHtml(url, html, now = new Date().toISOString(), existingDocument
 function extractApi(url, article, now = new Date().toISOString()) {
   const page = normalize(url);
   if (!page || !article?.title || typeof article.source !== 'string' || !article.source.trim()) throw Error('Invalid API article');
-  const source = article.source, links = new Set();
-  for (const match of source.matchAll(/\[\[\[([^\]|]+)(?:\|[^\]]*)?\]\]\]/g)) {
-    const target = normalize(match[1].trim(), `${page.url}/../`);
-    if (target && target.url !== page.url) links.add(target.url);
-  }
+  const source = article.source, boardExtractor=require('./research-board/extract');
+  const bodyLinks=boardExtractor.ftmlLinks(source,{...boardExtractor.normalizePage(page.url),title:article.title});
   const metadata = require('./rufoundation-crawler');
   return { ...page, title: article.title, tags: (article.tags || []).map(t => typeof t === 'string' ? t : t.name).filter(Boolean),
     objectClass: metadata.extractObjectClass(source),rating:metadata.normalizeRating(article.rating),imageUrl:metadata.extractImageUrl(source,page.slug),
-    links: [...links].sort(), translations: [], authors: [], format: 'ftml', contentSha256: hash(source), checkedAt: now, availabilityVersion: 1,
-    descriptionExcerpt: metadata.extractDescription(source) || '', descriptionVersion:require('./article-excerpts').VERSION };
+    links: bodyLinks.map(l=>l.target), bodyLinks, linkExtractionVersion:boardExtractor.FTML_LINK_VERSION,
+    translations: [], originalSources:[], originProvenanceVersion:provenance.VERSION, authors: [], format: 'ftml', contentSha256: hash(source), checkedAt: now, availabilityVersion: 1,
+    descriptionExcerpt: metadata.extractDescription(source) || '',descriptionVersion:require('./article-excerpts').VERSION };
 }
 
 function capture(url, body, format = 'html', directory = path.join(__dirname, 'partial-data/related-documents'), existingDocument = null) {
@@ -102,6 +110,7 @@ function capture(url, body, format = 'html', directory = path.join(__dirname, 'p
     fs.mkdirSync(directory, { recursive: true });
     const file = path.join(directory, `${hash(record.url)}.json`);
     fs.writeFileSync(`${file}.tmp`, JSON.stringify(record)); fs.renameSync(`${file}.tmp`, file);
+    require('./research-board/source-store').capture(url, format === 'html' ? body : JSON.stringify(body), format === 'html' ? 'html' : 'ftml', path.join(directory,'research-board'), existingDocument);
     return true;
   } catch (error) { console.warn(`Related document capture skipped: ${url}: ${error.message}`); return false; }
 }
@@ -156,7 +165,8 @@ function importRecords(directory, records) {
       const record = { ...page, title: r.title, tags: r.tags || [], authors: r.authors || [], format: r.format,
         checkedAt: r.checkedAt, contentSha256: r.contentSha256, descriptionExcerpt: r.descriptionExcerpt || '',
         links: (r.links || []).map(v => normalize(typeof v === 'string' ? v : v.target)?.url).filter(Boolean),
-        translations: (r.translations || []).map(v => normalize(typeof v === 'string' ? v : v.target)?.url).filter(Boolean) };
+        translations: (r.translations || []).map(v => normalize(typeof v === 'string' ? v : v.target)?.url).filter(Boolean),
+        originalSources:r.originalSources||[],originProvenanceVersion:r.originProvenanceVersion||0 };
       if (!records.has(page.url) || record.checkedAt > records.get(page.url).checkedAt) records.set(page.url, record);
     }
   }
@@ -165,6 +175,30 @@ function importRecords(directory, records) {
 function branchOfType(type) {
   if (['scp-series', 'joke-scps', 'scp-ex'].includes(type)) return 'en';
   return /^(?:scp-series-|joke-scps-)([a-z-]+)$/.exec(type || '')?.[1] || /^scp-([a-z-]+)-ex$/.exec(type || '')?.[1] || null;
+}
+function incubatorSource(url, record, catalogByUrl) {
+  const page = normalize(url);
+  const match = /^unofficial:[a-z]{2,3}:([a-z0-9][a-z0-9-]*)$/.exec(page?.slug || '');
+  if (page?.language !== 'int' || !match || !(record?.tags || []).includes('language-incubator')) return null;
+  // ULI's posting rules preserve the original unix-name after the delivery
+  // language prefix. The language tag itself describes the translation, not
+  // its origin: https://scp-int.wikidot.com/unofficial:language-incubator-hub
+  // Require an existing native catalog entry for that exact unix-name. ULI's
+  // rule covers tales, proposals and documents as well as numbered SCPs.
+  const evidence = [];
+  for (const [site, config] of Object.entries(LANGUAGES)) {
+    const source = normalize(match[1], config.baseUrl);
+    for (const entry of catalogByUrl.get(source?.url) || []) {
+      const branch = branchOfType(entry.pageType) || validOrigin(/^related-document-([a-z]+)$/.exec(entry.pageType || '')?.[1]);
+      if (branch && (branch === (site === 'zh-tr' ? 'zh' : site) || (site === 'cs' && branch === 'sk'))) {
+        evidence.push({ url: source.url, itemId: entry.itemId, pageType: entry.pageType, branch });
+      }
+    }
+  }
+  const branches = [...new Set(evidence.map(e => e.branch))];
+  if (!branches.length) return null;
+  return { branch: branches.length === 1 ? branches[0] : null,
+    basis: branches.length === 1 ? 'incubator_source_catalog' : 'conflicting_incubator_source_catalog', evidence };
 }
 function classify(url, records, catalogByUrl, visited = new Set()) {
   if (visited.size >= 20) return { branch: null, basis: 'translation_depth_limit', evidence: [] };
@@ -175,19 +209,50 @@ function classify(url, records, catalogByUrl, visited = new Set()) {
   if (branches.length === 1) return { branch: branches[0], basis: 'catalog_page_type', evidence: entries.map(e => ({ itemId: e.itemId, pageType: e.pageType })) };
   if (branches.length > 1) return { branch: null, basis: 'conflicting_catalog_types', evidence: branches };
   const r = records.get(url), known = new Set(['en', 'zh', 'nd', ...Object.keys(LANGUAGES), ...Object.keys(require('./additional-origins.json'))]);
-  const tags = require('./catalog-origin').publisherOriginTags(url,r).origins;
+  const { origins: tags, unsupported, conflicts } = publisherOriginTags(url, r);
+  if (conflicts.length) return {branch:null,basis:'conflicting_origin_tags',evidence:conflicts};
+  if (unsupported.length) return {branch:null,basis:'unsupported_origin_tag',evidence:unsupported};
   if (tags.length) return { branch: tags.length === 1 ? tags[0] : null, basis: tags.length === 1 ? 'publisher_origin_tag' : 'conflicting_origin_tags', evidence: tags };
+  const originalOrigins=[];
+  for(const source of r?.originalSources||[]){
+    const target=provenance.originalPage(source.url);
+    if(!target||source.method!=='credit_original_label')continue;
+    const known=records.has(target.url)||catalogByUrl.has(target.url);
+    const result=known?classify(target.url,records,catalogByUrl,next):null;
+    const originalDefault=result?.basis==='insufficient_origin_evidence'&&target.hostBranch==='en'?
+      publisherDefaultOrigin(target.url,records.get(target.url),{originalSource:true}):null;
+    const secondary=(r.tags||[]).some(t=>['二次翻译','二次翻譯','重訳','translation'].includes(t));
+    const branch=result?.branch||originalDefault?.branch||(!known&&!secondary&&target.hostBranch!=='int'?target.hostBranch:null);
+    if(branch)originalOrigins.push({branch,url:target.url,quote:source.quote});
+  }
+  const originalBranches=[...new Set(originalOrigins.map(s=>s.branch))];
+  if(originalBranches.length)return {branch:originalBranches.length===1?originalBranches[0]:null,basis:originalBranches.length===1?'explicit_original_credit':'conflicting_original_credits',evidence:originalOrigins};
+  if(r?.originalSources?.length)return {branch:null,basis:'unresolved_original_credit',evidence:r.originalSources};
+  const interwiki=r?.interwikiOrigin;
+  if(interwiki?.schemaVersion===1&&interwiki.queryUrl===url&&interwiki.contentSha256===r.contentSha256&&interwiki.status==='unsupported_source')
+    return {branch:null,basis:'unsupported_interwiki_source',evidence:[interwiki]};
+  if(interwiki?.schemaVersion===1&&interwiki.queryUrl===url&&interwiki.contentSha256===r.contentSha256&&interwiki.status==='translation'&&interwiki.chain?.length){
+    const chain=interwiki.chain.map(u=>provenance.originalPage(u));
+    if(!interwiki.terminal||chain.some(p=>!p)||new Set([url,...chain.map(p=>p?.url)]).size!==chain.length+1)
+      return {branch:null,basis:'unresolved_interwiki_origin',evidence:[interwiki]};
+    const target=chain.at(-1),known=records.has(target.url)||catalogByUrl.has(target.url);
+    const resolved=known?classify(target.url,records,catalogByUrl,new Set([...next,...chain.slice(0,-1).map(p=>p.url)])):null;
+    const originalDefault=resolved?.basis==='insufficient_origin_evidence'&&target.hostBranch==='en'?
+      publisherDefaultOrigin(target.url,records.get(target.url),{originalSource:true}):null;
+    const branch=resolved?.branch||originalDefault?.branch||(!known&&target.hostBranch!=='int'?target.hostBranch:null);
+    return {branch,basis:branch?'interwiki_original_metadata':'unresolved_interwiki_origin',evidence:[interwiki]};
+  }
   const translated = (r?.translations || []).map(target => ({ target, ...classify(target, records, catalogByUrl, next) })).filter(v => v.branch);
   const origins = [...new Set(translated.map(v => v.branch))];
   if (origins.length) return { branch: origins.length === 1 ? origins[0] : null, basis: origins.length === 1 ? 'explicit_translation_metadata' : 'conflicting_translation_metadata', evidence: translated };
-  const publisherDefault=require('./catalog-origin').publisherDefaultOrigin(url,r);
-  if(publisherDefault)return publisherDefault;
+  const incubator = incubatorSource(url, r, catalogByUrl);
+  if (incubator) return incubator;
   const slug = normalize(url).slug, m = /^scp-(?:([a-z][a-z-]*)-)?(\d+)(?:-(.*))?$/.exec(slug);
   if (m) {
     const tokens = (m[3] || '').split('-'), branch = m[1] || tokens.find(t => known.has(t)) || 'en';
     if (known.has(branch)) return { branch, basis: 'scp_identifier', evidence: [slug] };
   }
-  return { branch: null, basis: r ? 'insufficient_origin_evidence' : 'not_fetched', evidence: [] };
+  return publisherDefaultOrigin(url,r) || { branch: null, basis: r ? 'insufficient_origin_evidence' : 'not_fetched', evidence: [] };
 }
 
 function buildCatalogs(catalogs, records, attempts, now = new Date().toISOString()) {
@@ -226,29 +291,63 @@ function buildCatalogs(catalogs, records, attempts, now = new Date().toISOString
       discoveredDocuments: sources.size, classified: data.filter(r => r.originBranch).length, unclassified: data.filter(r => !r.originBranch).length, pending: pending.length } };
 }
 
-async function fetchRecord(url) {
+async function fetchRecord(url, captureDirectory = null, {rawDirectory=null,metadataDirectory=null,timeoutMs=20000,beforeRequest=async()=>{},expandDescriptions=true} = {}) {
   const page = normalize(url);
   if (!page) throw Error('Unsupported URL');
+  let redirectTarget=null;
+  function saveRaw(body,format){if(!rawDirectory)return;fs.mkdirSync(rawDirectory,{recursive:true});
+    fs.writeFileSync(path.join(rawDirectory,hash(page.url)+'.'+format+'.gz'),zlib.gzipSync(typeof body==='string'?body:JSON.stringify(body)));}
+  function saveMetadata(record,body,format){if(!metadataDirectory)return;
+    fs.mkdirSync(metadataDirectory,{recursive:true});const file=path.join(metadataDirectory,hash(record.url)+'.json');
+    fs.writeFileSync(file+'.tmp',JSON.stringify(record));fs.renameSync(file+'.tmp',file);
+    require('./research-board/source-store').capture(record.url,typeof body==='string'?body:JSON.stringify(body),format,path.join(metadataDirectory,'research-board'));
+  }
   // Validate every redirect so an allowlisted link cannot redirect requests to arbitrary hosts.
   const request = async (target, depth = 0) => {
     target = articleFetchTarget(target);
     if (!target || depth > 5) throw Error('Unsupported redirect');
-    const response = await axios.get(target, { timeout: 20000, maxRedirects: 0, maxContentLength: 4 * 1024 * 1024,
+    await beforeRequest(target);
+    const response = await axios.get(target, { timeout: timeoutMs, maxRedirects: 0, maxContentLength: 12 * 1024 * 1024,
       validateStatus: s => (s >= 200 && s < 400), headers: { 'User-Agent': 'SCPReaderCatalog/1.0', Accept: 'text/html,application/json' } });
-    if (response.status >= 300) return request(new URL(response.headers.location, target).href, depth + 1);
+    if (response.status >= 300) {
+      const destination=new URL(response.headers.location,target).href,normalized=normalize(destination);
+      const listing=normalized&&normalized.slug!==page.slug&&/^(?:joke-scps|scp-series(?:-[a-z\d-]+)?|foundation-tales|scp-ex|archived-scps|main|start)$/.test(normalized.slug);
+      if((!articleFetchTarget(destination)||listing)&&!target.endsWith('/noredirect/true')){
+        redirectTarget=destination;
+        return request(page.url+'/noredirect/true',depth+1);
+      }
+      return request(destination,depth+1);
+    }
     return response.data;
   };
   if (page.language === 'ru') {
     // This endpoint is deliberately constructed here, never accepted as a discovered URL.
+    await beforeRequest(page.url);
     const response = await axios.get(`https://scpfoundation.net/api/articles/${encodeURIComponent(page.slug)}`, {
-      timeout: 20000, maxRedirects: 0, maxContentLength: 4 * 1024 * 1024, headers: { Accept: 'application/json' },
+      timeout: timeoutMs, maxRedirects: 0, maxContentLength: 12 * 1024 * 1024, headers: { Accept: 'application/json' },
     });
     const record = extractApi(url, response.data);
+    if(expandDescriptions&&(!record.descriptionExcerpt||record.descriptionExcerpt.length<20))record.descriptionExcerpt=await require('./rufoundation-crawler').extractApiDescription(response.data,async target=>{await beforeRequest(target);return (await axios.get(target,{timeout:timeoutMs,maxRedirects:0,headers:{Accept:'application/json'}})).data;})||'';
+    saveRaw(response.data,'json');
+    saveMetadata(record,response.data,'ftml');
+    if (captureDirectory) require('./research-board/source-store').capture(url, JSON.stringify(response.data), 'ftml', captureDirectory);
     return record;
   }
   const configuredScheme = new URL(LANGUAGES[page.language].baseUrl).protocol;
-  const html = await request(url.replace(/^https:/, configuredScheme));
-  const record = extractHtml(url, html);
+  let html;
+  try{html=await request(url.replace(/^http:/,'https:'));}
+  catch(error){
+    const transient=[500,502,503,504].includes(error.response?.status)||['ECONNRESET','ETIMEDOUT','ECONNABORTED','EAI_AGAIN'].includes(error.code);
+    if(!transient||!new URL(page.url).hostname.endsWith('.wikidot.com'))throw error;
+    // Fetch the same owned page through Wikidot's no-redirect view. This can
+    // remain available while its normal rendering endpoint is failing.
+    html=await request(page.url+'/noredirect/true');
+  }
+  const record = extractHtml(url, html,undefined,null,{redirectTarget});
+  if(expandDescriptions&&!record.descriptionExcerpt)record.descriptionExcerpt=await require('./article-frames').extractOwnedFrameProse(url,html,async target=>{await beforeRequest(target);return (await axios.get(target,{timeout:timeoutMs,maxRedirects:0,maxContentLength:12*1024*1024})).data;})||'';
+  saveRaw(html,'html');
+  saveMetadata(record,html,'html');
+  if (captureDirectory) require('./research-board/source-store').capture(url, html, 'html', captureDirectory);
   return record;
 }
 

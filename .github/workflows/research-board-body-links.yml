@@ -1,0 +1,148 @@
+name: Research board body-link completion
+on:
+  workflow_dispatch:
+    inputs:
+      resume_run:
+        description: Earlier run containing per-host checkpoints
+        type: string
+        default: ''
+      full_refresh:
+        description: Also refresh outdated extraction versions and expired evidence
+        type: boolean
+        default: false
+  schedule:
+    - cron: '0 3 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: scp-crawl
+  cancel-in-progress: false
+  queue: max
+jobs:
+  setup:
+    if: github.repository == 'hirotakaakita/scpjpReaderActions' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      has_work: ${{ steps.plan.outputs.has_work }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - id: plan
+        run: node tool/research-board-body-link-coverage.js --matrix
+        env:
+          BOARD_LINK_FULL_REFRESH: ${{ inputs.full_refresh == true && '1' || '0' }}
+  collect:
+    needs: setup
+    if: needs.setup.outputs.has_work == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJSON(needs.setup.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Restore this publisher's checkpoints
+        if: inputs.resume_run != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v7
+        with:
+          run-id: ${{ inputs.resume_run }}
+          github-token: ${{ github.token }}
+          name: board-links-${{ matrix.id }}
+          path: partial-data
+      - name: Complete body-link checks serially for this publisher
+        run: node research-board/refresh-links.js "$BOARD_LANGUAGES"
+        env:
+          BOARD_LANGUAGES: ${{ matrix.languages }}
+          BOARD_LINK_MAX_REQUESTS: '0'
+          BOARD_LINK_MAX_DURATION_MS: '0'
+          CRAWL_REQUEST_INTERVAL_MS: '1000'
+          BOARD_LINK_UNCHECKED_ONLY: ${{ inputs.full_refresh == true && '0' || '1' }}
+          # Checkpoint before GitHub's six-hour runner deadline. Publication
+          # starts a continuation; this is not a limit on completing the queue.
+          BOARD_LINK_CHECKPOINT_AFTER_MS: '18000000'
+          BOARD_LINK_REPORT_FILE: partial-data/body-link-reports/${{ matrix.id }}.json
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: board-links-${{ matrix.id }}
+          path: |
+            partial-data/related-documents/research-board/
+            partial-data/body-link-reports/
+          retention-days: 7
+          if-no-files-found: warn
+  publish:
+    needs: [setup, collect]
+    if: always() && !cancelled() && needs.collect.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      actions: write
+    concurrency:
+      group: scp-data-update
+      cancel-in-progress: false
+      queue: max
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: master
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: board-links-*
+          path: partial-data
+          merge-multiple: true
+      - name: Test collector and regenerate from the latest catalogs
+        run: |
+          node --test
+          node -e "require('./research-board/catalog').generateResearchBoard('local-data','local-data/mobile-v3')"
+          node research-board/validate.js
+          node tool/audit-research-board-identities.js
+          node tool/research-board-body-link-coverage.js --output local-data/research-board-body-link-coverage.json.gz
+      - name: Publish the board and verified source checkpoints
+        run: |
+          git config user.name 'SCP Crawler Bot'
+          git config user.email 'scp-crawler@github-actions.bot'
+          git add local-data/research-board-sources local-data/mobile-v3/research-board local-data/research-board-body-link-coverage.json.gz
+          if ! git diff --cached --quiet; then
+            git commit -m "Complete research board body-link evidence"
+            git push origin HEAD:master
+          fi
+      - name: Report unresolved pages and plan continuation
+        id: continuation
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),path=require('path'),z=require('zlib');
+          const report=JSON.parse(z.gunzipSync(fs.readFileSync('local-data/research-board-body-link-coverage.json.gz')));
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`Checked: ${report.checkedPages} / ${report.totalPages}\n\nUnresolved: ${report.pendingPages}. Unavailable and failed URLs are recorded in local-data/research-board-body-link-coverage.json.gz.\n`);
+          const dir='partial-data/body-link-reports';
+          const continued=fs.readdirSync(dir).filter(n=>n.endsWith('.json')).some(n=>{
+            const r=JSON.parse(fs.readFileSync(path.join(dir,n)));
+            return r.stopReason==='checkpoint'&&r.remaining>0;
+          });
+          fs.appendFileSync(process.env.GITHUB_OUTPUT,`continue=${continued}\n`);
+          NODE
+      - name: Continue unfinished publisher queues after runner checkpoint
+        if: steps.continuation.outputs.continue == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESUME_RUN: ${{ github.run_id }}
+          FULL_REFRESH: ${{ inputs.full_refresh == true && 'true' || 'false' }}
+        run: gh workflow run research-board-body-links.yml --repo hirotakaakita/scpjpReaderActions --ref master -f resume_run="$RESUME_RUN" -f full_refresh="$FULL_REFRESH"

@@ -1,0 +1,27 @@
+name: Validate production catalogs and research board
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NODE_OPTIONS: --max-old-space-size=5500
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: node --test
+      - run: node validate-catalog-indexes.js
+      - run: node validate-staging-catalogs.js
+      - run: node research-board/validate.js
+      - run: node tool/audit-research-board-identities.js
