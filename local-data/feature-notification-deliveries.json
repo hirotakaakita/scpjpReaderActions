@@ -320,6 +320,20 @@
       "startedAt": "2026-11-25T18:43:28.292Z",
       "messageName": "projects/scpjp-reader/messages/-1142253525901610974",
       "sentAt": "2026-11-25T18:43:30.375Z"
+    },
+    {
+      "id": "de/2026-11-25",
+      "lang": "de",
+      "window": "2026-11-25",
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefakt"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-25T18:43:28.292Z"
     }
   ]
 }
