@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "物品",
+      "introduction": "围绕“物品”，对比这些异常的共同点与差异。",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-9186",
+          "title": "如果你对其中一个说“好”",
+          "blurb": "SCP-9186曾为一颗95克拉的钻石，在15世纪早期出产于印度的安得拉邦。基金会努力尝试在此不利状况下最大化自身收益，因而对这些碎片进行了测试，期望找到仍具活性的实例以供使用。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9186",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-9186/diamond.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-9311",
+          "title": "一系列精心设计的防范措施",
+          "blurb": "SCP-9311是由“工厂”及其若干子集生产的455,807件人造物品组成的集合。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9311",
+          "imageUrl": "https://scp-sandbox-3.wdfiles.com/local--files/troutmaskreplica-house/figure.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-9140",
+          "title": "重构！",
+          "blurb": "然后还不够，还要更多……一次又一次，直到我连镜子里的自己都认不出来了。描述 SCP-9140是狄瓦的一套仪式物品，在已译原始资料中被称作帝国血筛。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-9140",
+          "imageUrl": "https://urlhere.com/",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2677",
+          "title": "困惑",
+          "blurb": "SCP-2677-1是一个巨大的装置，最早建造用于[数据限制。SCP-2677-A的独特目标个体为负责运输死囚区的同狱犯人的人，并且能够通过使用A级记忆清除得以治疗。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-2677",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-2677/2000Contest.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-7804",
+          "title": "黑山信号塔",
+          "blurb": "改造物包括使用Sequoioideae2树皮绝缘的RG-59/U同轴电缆、涂覆防腐血红蛋白的加载线圈，以及通过铜缆连接至SCP-7804的七个地下棺材（均为空），等等。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-7804",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6258",
+          "title": "不要跟随着那束光",
+          "blurb": "SCP-6258是一对类似于菜粉蝶（Pieris rapae）华丽的玻璃翅膀。当有正在寻找物品的人员接触到SCP-6258时，SCP-6258-1实例便会在SCP-6258上显现。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-6258",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6258/Box,_jewellery_(51369557639).jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-4495",
+          "title": "猪们的救世主",
+          "blurb": "SCP-4495是一具体内部分腐烂的尸体，身份不明。从表面上看，它像一头披着帝王服并斜靠在宝座上的两足猪；然而，后续研究发现，宝座、猪和衣服都是一个不可拆卸的有机整体（由角蛋白、骨和皮肤组成）的部分。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-4495",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-4495/30to50.PNG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1492",
+          "title": "意外横财",
+          "blurb": "SCP-1492是一辆民用型号的装甲车，被改装以用于异常盗窃活动。乘客的座位被替换为一个试验型靶向物体接收发送装置，该设备基金会技术人员目前无法复制。",
+          "url": "https://scp-wiki-cn.wikidot.com/scp-1492",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/scp-1492/20221222_144351.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

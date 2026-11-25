@@ -87,6 +87,84 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Predmeti",
+      "introduction": "Raziščite temo »Predmeti« in primerjajte podobnosti ter razlike med temi anomalijami.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-005",
+          "title": "Passe-Partout",
+          "blurb": "Ključ so odkrili, ko ga je civilist uporabil za vdor v strogo varovani objekt.",
+          "url": "https://scp-slovenija.wikidot.com/scp-005",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Cigarete Blue Lady",
+          "blurb": "SCP-013 je kolektivna oznaka 242 cigaret, ki prikaže podobne nepravilnosti.Najbolj pogosta zunanja podrobnost med primeri je prisotnost besed \"Modra Dama\", napisanih na vsaki cigareti z modrim črnilom.",
+          "url": "https://scp-slovenija.wikidot.com/scp-013",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-013/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Pošastna Vaza",
+          "blurb": "SCP-019 je zelo velika keramična vaza s premerom 1,8 m v ustih in višino 2,4 m.Če se odkrije uspešna metoda, je treba SCP-019 uničiti brez predsodkov.",
+          "url": "https://scp-slovenija.wikidot.com/scp-019",
+          "imageUrl": "https://scp-slovenija.wdfiles.com/local--files/scp-019/scp-019.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-004",
+          "title": "12 zarjavelih tipk in vrata",
+          "blurb": "SCP-004 obsega stara lesena vrata skednja (SCP-004-1) in sklop dvanajstih zarjavelih jeklenih ključev (SCP-004-2 do SCP-004-13).Vrata sama so vhod v zapuščeno tovarno v [PODATKI IZBRISANI].",
+          "url": "https://scp-slovenija.wikidot.com/scp-004",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-316",
+          "title": "Vpijanje Svetlobe-Barva",
+          "blurb": "SCP-316 je bronasta svetilka s starim karbidom.Ohišje se ne ujema z nobenim izdelanim modelom in zdi se, da je bilo zgrajeno v hiši.",
+          "url": "https://scp-slovenija.wikidot.com/scp-316",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-316/SCP-316.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-063",
+          "title": "\"Najboljša čopič na svetu\"",
+          "blurb": "SCP-063 je povprečna, bledo modra ščetka.Na tej strani objekta so označene besede\"najboljša krtača na svetu [sic]\".",
+          "url": "https://scp-slovenija.wikidot.com/scp-063",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-010",
+          "title": "Ovratniki nadzora",
+          "blurb": "SCP-010 je sestavljen iz serije šestih (6) očitno enakih ovratnikov iz litega železa z oštevilčenimi kovinskimi značkami in enim (1) daljinskim upravljalnikom.Kontrola je SCP-010-1.",
+          "url": "https://scp-slovenija.wikidot.com/scp-010",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

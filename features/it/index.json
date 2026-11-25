@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefatto",
+      "introduction": "Esplora il tema «Artefatto» e confronta somiglianze e differenze di queste anomalie.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-it-045",
+          "title": "Gli Ipogei della Daunia",
+          "blurb": "SCP-045-IT è di dimensioni modeste rispetto agli altri ipogei1 nella zona della Daunia2 risalenti allo stesso periodo, estendendosi per un'area di 627 m2.",
+          "url": "http://fondazionescp.wikidot.com/scp-045-it",
+          "imageUrl": "https://fondazionescp.wdfiles.com/local--files/scp-045-it/Hypogeum_cyark_1.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-040",
+          "title": "Rosa dalle Ceneri",
+          "blurb": "SCP-040-IT è un posacenere in vetro circolare, misurante 7.5cm di diametro e 4cm di altezza.",
+          "url": "http://fondazionescp.wikidot.com/scp-040-it",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Glass_ashtray_%281%29.jpg/721px-Glass_ashtray_%281%29.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-051",
+          "title": "La Città Arroccata di Castello",
+          "blurb": "L'opera è parte di un trittico consegnato nel 2014 al Giardino sotto le mura di Cagliari e rientra nella numerosa serie delle città sonore.",
+          "url": "http://fondazionescp.wikidot.com/scp-051-it",
+          "imageUrl": "https://fondazionescp.wdfiles.com/local--files/scp-051-it/santacristina.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-077",
+          "title": "Fante, Cavallo e Re",
+          "blurb": "SCP-077-IT si presenta come un normale mazzo di 40 carte da gioco italiane, del tipo trevigiano.Le figure sono identiche a quelle convenzionali, 10 spade, 10 coppe, 10 denari e 10 bastoni.",
+          "url": "http://fondazionescp.wikidot.com/scp-077-it",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Carte_trevisane.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-082",
+          "title": "L'Elmo della Conoscenza",
+          "blurb": "Come emerso da ripetuti esperimenti, SCP-082-IT si dimostra in apparenza privo di proprietà anomale; una volta indossato, tuttavia, entrerà nel suo stato attivo.",
+          "url": "http://fondazionescp.wikidot.com/scp-082-it",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Elmo_corinzio_bronzeo.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-071",
+          "title": "Il Mantello di Ötzi",
+          "blurb": "SCP-071-IT apparteneva precedentemente agli indumenti ritrovati insieme alla Mummia del Similaun \"Ötzi\", e si suppone che la pelle dovesse funzionare come mantello per il freddo.",
+          "url": "http://fondazionescp.wikidot.com/scp-071-it",
+          "imageUrl": "https://i.postimg.cc/dQdwbNb5/SCP-XXXX-IT-1.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-173",
+          "title": "SEKTEN",
+          "blurb": "SCP-173-IT era una struttura cubica metallica dal volume di circa 64 m3; il metallo era refrattario a ogni tentativo di scalfittura meccanica, termica, chimica o esoterica ed era inoltre impermeabile alle radiazioni, re…",
+          "url": "http://fondazionescp.wikidot.com/scp-173-it",
+          "imageUrl": "http://scpsandboxit.wdfiles.com/local--files/dr-conte%3Aiperuranio/s5.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-it-091",
+          "title": "Il Castello di Otranto",
+          "blurb": "Ad una visione veloce il testo non presenta alcun tipo di anomalia; tuttavia, se esso viene letto in maniera approfondita, sembra comunicare dei messaggi al lettore, seppur il testo non cambi affatto.",
+          "url": "http://fondazionescp.wikidot.com/scp-091-it",
+          "imageUrl": "https://fondazionescp.wdfiles.com/local--files/scp-091-it/otranto1.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

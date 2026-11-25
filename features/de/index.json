@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefakt",
+      "introduction": "Entdecke das Thema „Artefakt“ und vergleiche Gemeinsamkeiten und Unterschiede dieser Anomalien.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-de-177",
+          "title": "Die Rungholt-Scherbe",
+          "blurb": "Der genaue Ursprung des Gefäßes ist nicht bekannt.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-177-de",
+          "imageUrl": "https://i.imgur.com/zKeh4a3.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-132",
+          "title": "Der Schwibbogen",
+          "blurb": "SCP-132-DE ist ein erzgebirgischer Schwibbogen aus Holz mit einer Länge von 40 cm und einer Höhe von 25 cm.Sein anomaler Effekt kann nur am 24.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-132-de",
+          "imageUrl": "https://scp-wiki-de.wdfiles.com/local--files/scp-132-de/800px-Erzgebirgischer_Schwibbogen_001.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-014",
+          "title": "Ring der Bestie",
+          "blurb": "Die Größe von SCP-014-DE kann nicht bestimmt werden, da sich diese der Fingerbreite des Trägers anpasst.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-014-de",
+          "imageUrl": "https://scp-wiki-de.wdfiles.com/local--resized-images/scp-014-de/RdB-SCP.jpg/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Der Skelettschlüssel",
+          "blurb": "Der Schlüssel wurde entdeckt, als ein Zivilist versuchte, eine Hochsicherheitsanlage zu infiltrieren.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-005",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-513",
+          "title": "Eine Kuhglocke",
+          "blurb": "Physisch ist SCP-513 eine unscheinbare, rostige Kuhglocke.Aufgrund der weitreichenden Korrosion sind keine Zeichen oder Gravuren auf ihrer Oberfläche sichtbar.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-513",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-513/Cowbell.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Wohin die Drachen gingen",
+          "blurb": "SCP-1762-1 ist ein einfacher Karton mit den Maßen 32 cm x 20 cm x 26 cm.Das Öffnen des Deckels von SCP-1762-1, wenn er sich nicht im Prozess des Freisetzens befindet, offenbart ihn als leer.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-1762",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-586",
+          "title": "Unbestreitbares Objekt",
+          "blurb": "SCP-586 ist ein reines metallisches Objekt mit blassgrüner Farbe.Der anomale Präfekt des Objekts wurde versehentlich entdeckt.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-586",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-586/greenpope",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-de-163",
+          "title": "Segnendes/verfluchendes Triptychon",
+          "blurb": "Es konnte bisher nicht eruiert werden, welches der beiden Werke das Original darstellt, noch zu welchem Zweck der Erschaffer eine Kopie anfertigte.",
+          "url": "http://scp-wiki-de.wikidot.com/scp-163-de",
+          "imageUrl": "https://scp-wiki-de.wdfiles.com/local--files/scp-163-de/Triptychon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

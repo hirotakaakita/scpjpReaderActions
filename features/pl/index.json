@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefakt",
+      "introduction": "Poznaj temat „Artefakt” i porównaj podobieństwa oraz różnice między tymi anomaliami.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-pl-004",
+          "title": "Obiekt zupełnie nieszkodliwy",
+          "blurb": "Poza śladami zużycia wynikającego najprawdopodobniej z wieloletniego używania nie ma ona żadnych fizycznych charakterystycznych cech.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-004",
+          "imageUrl": "http://scp-pl.wdfiles.com/local--files/scp-pl-004/SCP-004.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-208",
+          "title": "masc na bul d*py od dado",
+          "blurb": "SCP-PL-208 to zbiorcza desygnacja produktu wytworzonego przez PoI “dado”, sprzedawanego pod nazwą \"dado masc na bul d*py\" (sic).",
+          "url": "http://scp-pl.wikidot.com/scp-pl-208",
+          "imageUrl": "https://scpsandbox-pl.wdfiles.com/local--files/pliki%3Adraven/dado.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-021",
+          "title": "Hazardzista",
+          "blurb": "Całość umieszczona jest w oryginalnym opakowaniu, którego nie sposób wymienić na inne.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-021",
+          "imageUrl": "http://i.imgur.com/k9YUiWi.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-266",
+          "title": "Kości Zostały Rzucone",
+          "blurb": "SCP-PL-266 to desygnacja na cztery obiekty, które połączone ze sobą wykazują anomalne właściwości.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-266",
+          "imageUrl": "https://scp-pl.wdfiles.com/local--files/scp-pl-266/kostki.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-156",
+          "title": "Ja, gdy mój ręcznik ożywa i zaczyna pisać: ;-;",
+          "blurb": "SCP-PL-156 jest, wykonanym w 100% z bawełny, zielonym ręcznikiem kąpielowym, którego wymiary wynoszą 100 x 50 centymetrów [cm].Przez większość czasu obiekt nie wykazuje żadnych anomalnych właściwości.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-156",
+          "imageUrl": "https://scp-pl.wdfiles.com/local--files/scp-pl-156/animpostoramongus.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-313",
+          "title": "\"Zbyszko 3 Cytryny\"",
+          "blurb": "SCP-PL-313 to puszka o pojemności 330 mililitrów [ml], posiadająca nadrukowaną na swojej powierzchni grafikę, odpowiadającą komercyjnie sprzedawanym produktom typu kola, produkowanym przez markę Pepsi.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-313",
+          "imageUrl": "https://scp-pl.wdfiles.com/local--files/scp-pl-313/Pepsi_Can.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-195",
+          "title": "Prezent od przyjaciela",
+          "blurb": "SCP-PL-195, jest kartonowym pudłem, wszelkie zidentyfikowane instancje obiektu różniły się wymiarami.W żadnym z zaobserwowanych przypadków obiekt nie posiadał na sobie kodu pocztowego adresata lub nadawcy.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-195",
+          "imageUrl": "https://live.staticflickr.com/5560/14762496407_44a9cbff89_b.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pl-035",
+          "title": "Róg natchnienia",
+          "blurb": "SCP-PL-035 to róg, którego pierwotnie używał Zygmunt III Waza w trakcie polowań.Został on zrobiony z rogu tura pochodzącego z Puszczy Sochaczewskiej.",
+          "url": "http://scp-pl.wikidot.com/scp-pl-035",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hunting_horn_of_Sigismund_III_of_Poland.jpg/330px-Hunting_horn_of_Sigismund_III_of_Poland.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

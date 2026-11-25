@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artifact",
+      "introduction": "Explore Artifact: compare what these SCPs have in common and how their anomalies differ.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-1762",
+          "title": "Where The Dragons Went",
+          "blurb": "It is spray-painted silver on the interior and exterior, and the words \"HERE BE DRAGONS\" are handwritten in black permanent marker on the lid of the container.",
+          "url": "https://scp-wiki.wikidot.com/scp-1762",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-348",
+          "title": "A Gift from Dad",
+          "blurb": "While no maker’s marks are present, the Chinese characters for “thinking of you” (想着你, “xiǎng zhe nǐ”) are etched into …",
+          "url": "https://scp-wiki.wikidot.com/scp-348",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-348/348.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2264",
+          "title": "In the Court of Alagadda",
+          "blurb": "Attached to SCP-2264-A is a complex apparatus composed of alchemical tools such as alembics, retorts, and a crucible.",
+          "url": "https://scp-wiki.wikidot.com/scp-2264",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-2264/750px-London_martin_tower_08.03.2013_12-41-27.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-586",
+          "title": "Inscribable Object",
+          "blurb": "SCP-586 is a smelt metallic object, pale green in color.The anomalous profession of the object was discovered by accident.",
+          "url": "https://scp-wiki.wikidot.com/scp-586",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-586/greenpope",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6500",
+          "title": "Inevitable",
+          "blurb": "BY ORDER OF OVERWATCH COMMAND This file has been cleared for access by all personnel.Readers are compelled to consume the following Sacrament.",
+          "url": "https://scp-wiki.wikidot.com/scp-6500",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6500/saulenuesmall.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5001",
+          "title": "Sacrosanct",
+          "blurb": "SCP-5001 is a bio-mechanical structure approximately fifty-three kilometers in diameter, located a total of 60 kilometers under northern Russia.Immense depth and size.",
+          "url": "https://scp-wiki.wikidot.com/scp-5001",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-5001/Notice5001.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1689",
+          "title": "Bag of Holding Potatoes",
+          "blurb": "SCP-1689 is a burlap bag of potatoes.In its stable state, SCP-1689 weighs 40-50 kg and contains approximately two hundred (200) common agricultural potatoes (tubers of Solanum tuberosum).",
+          "url": "https://scp-wiki.wikidot.com/scp-1689",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1689/SCP-1689-1.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Skeleton Key",
+          "blurb": "In appearance, SCP-005 resembles an ornate key, displaying the characteristics of a typical mass produced key used in the 1920s.The key was discovered when a civilian used it to infiltrate a high security facility.",
+          "url": "https://scp-wiki.wikidot.com/scp-005",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

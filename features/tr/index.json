@@ -176,6 +176,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Nesneler",
+      "introduction": "“Nesneler” temasını keşfedin ve bu anomalilerin benzerliklerini ve farklarını karşılaştırın.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-005",
+          "title": "Maymuncuk Anahtar",
+          "blurb": "Görüntü olarak SCP-005 1920'lerde yapılmış normal bir anahtara benziyor.Anahtar bir sivilin yüksek güvenlikli bir binaya girişiyle ortaya çıktı.",
+          "url": "https://scpvakfi.wikidot.com/scp-005",
+          "imageUrl": "https://scpvakfi.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Mavi Hanımefendi Sigaraları",
+          "blurb": "SCP-013 birbirine benzer anomalileri gösteren toplu 242 sigaradır.",
+          "url": "https://scpvakfi.wikidot.com/scp-013",
+          "imageUrl": "https://scpvakfi.wdfiles.com/local--files/scp-013/SCP-013updated.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-513",
+          "title": "Bir Çan",
+          "blurb": "SCP-513 sade görünümlü, paslı bir inek çanıdır.Aşınmaya bağlı olarak yüzeyinde herhangi bir iz veya kabartma görülmemektedir.",
+          "url": "https://scpvakfi.wikidot.com/scp-513",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-513/Cowbell.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Ejderhalar Nereye Gitti",
+          "blurb": "SCP-1762-1, 32x20x26 cm boyutlarında sıradan düz bir karton kutudur.İçi ve dışı gümüş sprey boya ile boyanmış ve kapağına siyah keçeli kalem ile \"EJDERHALAR BURADADIR\" yazılmıştır.",
+          "url": "https://scpvakfi.wikidot.com/scp-1762",
+          "imageUrl": "https://scpvakfi.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-168",
+          "title": "Canlı Hesap Makinesi",
+          "blurb": "İlk denetlemede, çıkarılabilir kabın içine \"Eric\" isminin kazındığı keşfedilmiştir.",
+          "url": "https://scpvakfi.wikidot.com/scp-168",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-168/SCP-168",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-101",
+          "title": "Aç Çanta",
+          "blurb": "SCP-101, değişken büyüklüğe sahip bir çantadır.Çantanın ağzı, büyüklüğe bağlı olarak 15 cm'den 70 cm'ye kadar uzanabilir.",
+          "url": "https://scpvakfi.wikidot.com/scp-101",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-101/SCP-101.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Canavar Çömleği",
+          "blurb": "Stil ve dekorasyon, klasik yunanda yaratıldığını gösterir, ancak kesin tarihleme imkansızdır, çünkü yüzey bilinen herhangi bir yöntemle tamamen kırılmazdır.",
+          "url": "https://scpvakfi.wikidot.com/scp-019",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-019/scp-019-new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1535",
+          "title": "Purgatory",
+          "blurb": "SCP-1535, 1946 yılında Ball şirketi tarafından üretilmiş bir cam kavanozdur.SCP-1535 fiziksel olarak tipik bir cam kavanoza benzer.",
+          "url": "https://scpvakfi.wikidot.com/scp-1535",
+          "imageUrl": "https://live.staticflickr.com/72/198487523_96b2bfb5a5_b.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

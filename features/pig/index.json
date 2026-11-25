@@ -87,6 +87,73 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artifact",
+      "introduction": "Explore Artifact: compare what these SCPs have in common and how their anomalies differ.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-162",
+          "title": "Allbay ofyay Arpshay",
+          "blurb": "Afteryay eingbay inyay SCP-162's icinityvay, ubjectssay avehay eportedray eelingfay awndray otay ethay objectyay inyay orderyay otay ouchtay ityay.",
+          "url": "https://scp-pig.wikidot.com/scp-162",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-162/scp162.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Eletonskay Eykay",
+          "blurb": "Ethay eykay asway iscoveredday enwhay ayay iviliancay usedyay ityay otay infiltrateyay ayay ighhay ecuritysay acilityfay.",
+          "url": "https://scp-pig.wikidot.com/scp-005",
+          "imageUrl": "https://scp-pig.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1080",
+          "title": "Ethay Echecray",
+          "blurb": "Espiteday ethay esemblanceray, ethay anktay ontainscay onay aterway andyay ashay onay indowsway.",
+          "url": "https://scp-pig.wikidot.com/scp-1080",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/scp-1080/scp-1080.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1523",
+          "title": "Oulsay Otherbray",
+          "blurb": "SCP-1523 isyay anyay orangeyay-ownbray incenseyay oilcay.",
+          "url": "https://scp-pig.wikidot.com/scp-1523",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-133",
+          "title": "Instantyay Oleshay",
+          "blurb": "SCP-133 areyay ayay etsay ofyay ixsay undredhay andyay irteenthay (613) ackblay, ircularcay iecespay ofyay ayay axyway, aperpay-ikelay aterialmay 5 cm inyay iameterday.",
+          "url": "https://scp-pig.wikidot.com/scp-133",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-063",
+          "title": "\"Ethay Orld'sway Estbay OthBrushtay\"",
+          "blurb": "SCP-063 appearsyay otay ebay anyay averageyay, alepay ueblay oothbrushtay.Enciledstay alongyay ethay idesay ofyay ethay objectyay areyay ethay ordsway “Ethay Orld'sway Estbay OthBrushthay [icsay]”.",
+          "url": "https://scp-pig.wikidot.com/scp-063",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

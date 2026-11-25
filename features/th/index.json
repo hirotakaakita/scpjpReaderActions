@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "วัตถุ",
+      "introduction": "สำรวจหัวข้อ วัตถุ และเปรียบเทียบความเหมือนและความแตกต่างของสิ่งผิดปกติเหล่านี้",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-th-102",
+          "title": "รองเท้ากีฬา",
+          "blurb": "SCP-102-TH เป็นรองเท้ากีฬายี่ห้อ Nike █████████ สีเทา เบอร์ 43 จำนวน 17 คู่ ที่คาดว่าผลิตขึ้นในปี 2010 ด้านข้างนั้นมีรอย…",
+          "url": "http://scp-th.wikidot.com/scp-102-th",
+          "imageUrl": "https://scp-th.wdfiles.com/local--files/scp-102-th/102th.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-th-701",
+          "title": "ระฆังอาฆาต",
+          "blurb": "SCP-701-TH-1 มีลักษณะเป็นระฆังเก่าที่ขึ้นสนิมขนาดเล็ก คาดว่ามีอายุประมาณ 300 ปีขึ้นไป วัตถุอยู่ภายในห้องที่ทำจากอิฐฉาบปู…",
+          "url": "http://scp-th.wikidot.com/scp-701-th",
+          "imageUrl": "https://scp-th.wdfiles.com/local--files/scp-701-th/SCP-701-TH.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-9501",
+          "title": "ที่นั่ง ณ สุดขอบโลก",
+          "blurb": "SCP-9501 คือ กลุ่มของเก้าอี้ที่ปรากฏขึ้นมาด้วยตนเองทั่วโลกในระดับความสูงที่แตกต่างกัน เก้าอี้ดังกล่าวจะลอยอยู่กลางอากาศโ…",
+          "url": "http://scp-th.wikidot.com/scp-9501",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-9501/summit.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5655",
+          "title": "ยักษ์จีนี่แบบที่พอเดาได้ว่าน่าจะออกมาจากกระป๋องแฮมยี่ห้อสแปมเปล่า ๆ",
+          "blurb": "SCP-5655 คือ กระป๋องแฮมยี่ห้อสแปมที่ว่างเปล่า ซึ่งเมื่อถูกเขย่าหรือกลับด้าน จะส่งผลให้ SCP-5655-1 ปรากฏตัวออกมา โดย SCP-5655-1 มีลักษณะเป็นตัวตนรูปร่างมนุษย์สีแดงโปร่งแสงขนาด 7.5 ซม.",
+          "url": "http://scp-th.wikidot.com/scp-5655",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-5655/spam.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-186",
+          "title": "เพื่อยุติสงครามทุกหย่อมหญ้า",
+          "blurb": "SCP-186 คือ รหัสที่กำหนดให้กับกลุ่มปรากฏการณ์ผิดปกติที่เกี่ยวข้องกับ ดร.ฌอง ดูร็องด์ ชาวฝรั่งเศสซึ่งเป็นนักกายวิภาคศาสตร…",
+          "url": "http://scp-th.wikidot.com/scp-186",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-186/toendallwars.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "บุหรี่ของสุภาพสตรีสีน้ำเงิน",
+          "blurb": "SCP-013 คือกลุ่มของบุหรี่ 242 ตัว ซึ่งแต่ละตัวจะแสดงความผิดปรกติที่คล้ายคลึงกัน รายละเอียดภายนอกที่พบร่วมกันบ่อยที่สุดขอ…",
+          "url": "http://scp-th.wikidot.com/scp-013",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/scp-013/SCP-013updated",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "กุญแจผี",
+          "blurb": "SCP-005 มีลักษณะคล้ายกุญแจบ้านหรูหรา ซึ่งเป็นแบบที่ใช้กันอย่างแพร่หลายในปี 1920 มันถูกพบเมื่อตอนที่มีพลเรือนคนหนึ่งใช้มั…",
+          "url": "http://scp-th.wikidot.com/scp-005",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-7008",
+          "title": "กุหลาบเทียมดอกหนึ่ง",
+          "blurb": "SCP-7008 มักจะปรากฏในช่วงระหว่างเวลา 17:00 น.",
+          "url": "http://scp-th.wikidot.com/scp-7008",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-7008/square.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

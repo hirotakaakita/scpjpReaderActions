@@ -146,6 +146,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Föremål",
+      "introduction": "Utforska temat Föremål och jämför likheter och skillnader mellan dessa anomalier.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-005",
+          "title": "Huvudnyckel",
+          "blurb": "Nyckeln upptäcktes när en civil använde den för att infiltrera en anläggning med hög säkerhet.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-005",
+          "imageUrl": "https://scp-nd.wdfiles.com/local--files/sv:scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-067",
+          "title": "Konstnärens Penna",
+          "blurb": "SCP-067 är en fyllpenn gjord av ett tyskt leverantörsföretag som heter Pelikan någon gång mellan första och andra världskriget.Den är ljusgrön till färgen, med en enda röd linje som går rakt ned längs sidan.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-067",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-067/067-1.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-025",
+          "title": "En Väl Använd Garderob",
+          "blurb": "SCP-025 är en garderob i trä som mäter 0,97 m x 0,62 m x 1,95 m, full av kläder från ett antal tidsperioder.Föremålen i kistan, gemensamt kallade SCP-025-1, matchar stilar från årtionden från 1920-talet till nutid.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-025",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-025/025.jpeg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Blue Lady-Cigaretter",
+          "blurb": "SCP-013 är den samlade beteckningen på 242 cigaretter vilka visar liknande anomala egenskaper.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-013",
+          "imageUrl": "https://scp-nd.wdfiles.com/local--files/sv:scp-013/SCP-013updated.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-064",
+          "title": "Bristfällig von Neumann Struktur",
+          "blurb": "SCP-064 är en ljusbrun lergodstegel som huvudsakligen består av kiseloxider och en del organiskt material.Föremålet väger 1,6 kg och mäter cirka 10 cm x 6 cm x 20 cm.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-064",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-064/SCP-064.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-101",
+          "title": "Hungrig Väska",
+          "blurb": "Behållarens djup har varierat utan något standardmedelvärde för likhet med den relativa diametern.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-101",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-101/SCP-101.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-162",
+          "title": "Boll av vasst",
+          "blurb": "Efter att ha befunnit sig i närheten av SCP-162 har subjekter rapporterat att de känt sig dragna till objektet för att röra vid det.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-162",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-162/scp162.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Monstergrytan",
+          "blurb": "Stil och dekoration indikerar att den skapades i det klassiska Grekland, även om en definitiv datering är omöjlig, eftersom ytan är helt okrossbar på något känt sätt.",
+          "url": "https://scp-nd.wikidot.com/sv:scp-019",
+          "imageUrl": "http://scp-wiki.wikidot.com/local--files/scp-019/scp-019-new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -87,6 +87,96 @@
         }
       ],
       "coverImage": "features/images/humanoid-v1.png"
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Tárgyak",
+      "introduction": "Fedezze fel a(z) „Tárgyak” témát, és hasonlítsa össze ezen anomáliák közös és eltérő jellemzőit.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-201",
+          "title": "Az Üres Világ",
+          "blurb": "SCP-201 egy nagyon régi orvosi eszköznek tűnik, amely felületesen egy infúziós állványra hasonlít, amelyhez azonban sok más üveg- és fémtárgy került hozzárögzítésre.SCP-201 1,8 m (6 ft) magas, tömege 36,5 kg (80 lbs).",
+          "url": "https://scp-hu.wikidot.com/scp-201",
+          "imageUrl": "https://scp-hu.wdfiles.com/local--files/scp-201/005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-025",
+          "title": "Az Elnyűtt Ruhásszekrény",
+          "blurb": "A szekrényben tartott ruházati cikkek, kollektívan elnevezve SCP-025-1-nek, hasonlítanak a 1920-as évekből a jelenig terjedő évtizedek stílusaira.",
+          "url": "https://scp-hu.wikidot.com/scp-025",
+          "imageUrl": "https://scp-hu.wdfiles.com/local--files/scp-025/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Ahová A Sárkányok Mentek",
+          "blurb": "A belsején és kilsején ezüst szórófestékkel lett lefestve, és fekete filccel az \"ITT VANNAK A SÁRKÁNYOK\" felirat lett kézzel felírva a doboz tetejére.",
+          "url": "https://scp-hu.wikidot.com/scp-1762",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-047",
+          "title": "Mikróbiális Mutagén",
+          "blurb": "SCP-047 egy erősen rozsdás, átlyukadt gázpalack amely vas-[KITAKARVA] ötvözetből készült.Ha ez a palack szabad levegőt ér akkor az ötvözet szublimálásba kezd, és egy eddig ismeretlen mutagén gázzá alakul.",
+          "url": "https://scp-hu.wikidot.com/scp-047",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-047/047.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Blue Lady Cigaretták",
+          "blurb": "SCP-013 egy kollektív elnevezés, mely 242 cigarettát jelöl.Ezek hasonló anomáliákat mutatnak ki.",
+          "url": "https://scp-hu.wikidot.com/scp-013",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--resized-images/scp-013/SCP-013updated/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Mesterkulcs",
+          "blurb": "Létezésére akkor derült fény, amikor segítségével ez civil több magas biztonságú létesítménybe hatolt be.",
+          "url": "https://scp-hu.wikidot.com/scp-005",
+          "imageUrl": "https://scp-hu.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-162",
+          "title": "Egy Golyónyi Él",
+          "blurb": "SCP-162 egy horgokból, damilból, szögekből, ollókból és egyéb éles tárgyakból álló, közel 2,4 m széles és 2.1 m magas gömbszerű képződmény.Amikor valaki SCP-162 közelébe kerül, késztetést érez, hogy megérintse azt.",
+          "url": "https://scp-hu.wikidot.com/scp-162",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-162/scp162.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-034",
+          "title": "Rituális Obszidián Kés",
+          "blurb": "SCP-034 egy primitív kés, amely színtiszta obszidiánból készült.Tesztek kimutatták, hogy SCP-034 körülbelül 1000 éves.",
+          "url": "https://scp-hu.wikidot.com/scp-034",
+          "imageUrl": "https://scp-hu.wdfiles.com/local--files/scp-034/blade.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

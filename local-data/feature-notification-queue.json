@@ -3,79 +3,201 @@
   "pending": {
     "jp": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "使ってはいけない日用品"
+        }
+      ]
     },
     "en": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artifact"
+        }
+      ]
     },
     "cn": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "物品"
+        }
+      ]
     },
     "cs": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefakt"
+        }
+      ]
     },
     "de": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefakt"
+        }
+      ]
     },
     "es": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefacto"
+        }
+      ]
     },
     "fr": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefact"
+        }
+      ]
     },
     "it": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefatto"
+        }
+      ]
     },
     "ko": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "물품"
+        }
+      ]
     },
     "ru": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Предмет"
+        }
+      ]
     },
     "pl": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefakt"
+        }
+      ]
     },
     "pt": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artefato"
+        }
+      ]
     },
     "th": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "วัตถุ"
+        }
+      ]
     },
     "ua": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Артефакт"
+        }
+      ]
     },
     "vn": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Vật thể"
+        }
+      ]
     },
     "zh-tr": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "物品"
+        }
+      ]
     },
     "el": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Αντικείμενα"
+        }
+      ]
     },
     "sv": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Föremål"
+        }
+      ]
     },
     "tr": {
       "lastSentWindow": "2026-11-18",
-      "items": []
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Nesneler"
+        }
+      ]
+    },
+    "hu": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Tárgyak"
+        }
+      ]
+    },
+    "pig": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Artifact"
+        }
+      ]
+    },
+    "sl": {
+      "lastSentWindow": null,
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Predmeti"
+        }
+      ]
     }
   },
   "updatedAt": "2026-11-18T18:46:41.571Z"

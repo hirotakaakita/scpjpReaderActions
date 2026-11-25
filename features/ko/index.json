@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "물품",
+      "introduction": "「물품」를 주제로 이 변칙들의 공통점과 차이점을 비교해 보세요.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-2264",
+          "title": "알라가다 궁정에서",
+          "blurb": "SCP-2264-A는 런던탑1의 일부인 마틴타워의 숨겨진 지하실에 있는 철문이다.해당 문은 평범한 방법을 통해선 열리지 않으며, 매우 복잡한 과정을 수행한 뒤에 문을 열 수 있다.",
+          "url": "https://scpko.wikidot.com/scp-2264",
+          "imageUrl": "http://scpko.wdfiles.com/local--files/scp-2264/SCP-2264-1.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-3790",
+          "title": "이상성부",
+          "blurb": "SCP-3790은 영국, 런던의 포트 슈피리어 캐닝 컴퍼니(Port Superior Canning Company)의 창고 아래에 위치한 구조물이다.이 공간으로 진입할 수 있는 유일한 수단은 좁은 계단통을 내려가는 것이며, 계단통의 끝에는 짧은 검은색 문이 있다.",
+          "url": "https://scpko.wikidot.com/scp-3790",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-3790/doorway3.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6130",
+          "title": "지옥에서 우리는 살아가며",
+          "blurb": "SCP-6130은 전술신학부가 1988년에 개발한 전자기기이다.크기는 대략 1.5 세제곱미터이며, 아키바 방사선1에 대한 정보를 원격으로 기록하도록 설계한 여러 장비를 탑재했다.",
+          "url": "https://scpko.wikidot.com/scp-6130",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6130/scp-6130.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-348",
+          "title": "아버지의 선물",
+          "blurb": "제작자의 인장은 존재하지 않지만, 그릇 옆면에 한자로 “당신을 생각하며” (想着你, “xiǎng zhe nǐ”) 라고 새겨져 있다.",
+          "url": "https://scpko.wikidot.com/scp-348",
+          "imageUrl": "https://scpko.wdfiles.com/local--resized-images/scp-348/348.jpeg/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1427",
+          "title": "멸망의 기념비",
+          "blurb": "SCP-1427는 평범하게 생긴 14m x 2m x 2m 베릴륨-청동 합금으로 된 기념비이다.본래 처음 발견되었을 때는 비활성화된 상태였으나, 현재 대상은 매 7 나노초마다 지향성 전자기 파동을 발산한다.",
+          "url": "https://scpko.wikidot.com/scp-1427",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-1427/SCP-1427.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-458",
+          "title": "끝이 없는 피자 상자",
+          "blurb": "SCP-458은 리틀시저(Little Caesar) 피자 체인점의 라지 사이즈 핫-엔-레디(Hot-n-Ready)1 피자 상자이다.평범한 골판지로 만들어졌으며, 크기는 25.4 cm × 25.4 cm × 2.54 cm(10 인치 × 10 인치 × 1 인치)에 무게는 토핑의 종류에 따라 20 ~ 20.49 그램 사이이다.",
+          "url": "https://scpko.wikidot.com/scp-458",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-458/scp-458.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2472",
+          "title": "변칙적이지 않음이 분명한 소형 금속 에어 커플러",
+          "blurb": "SCP-2472는 기계 내 압축 에어 호스 연결을 용도로 제조된 금속 에어 커플러로, 길이는 35 mm로 측정된다.그럼에도 불구하고, SCP-2472는 현재까지도 변칙적인 항목들을 인식하도록 설정된 자동화 실험에서 변칙적 개체로 인식되고 있다.",
+          "url": "https://scpko.wikidot.com/scp-2472",
+          "imageUrl": "https://scpko.wdfiles.com/local--files/scp-2472/coupler.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5994",
+          "title": "돼지들로는 돼지를 능가할 수 없다",
+          "blurb": "SCP-5994는 이전에 올니 제철소 남동부 휴스턴 제조 센터로 이용되었던 시설의 감시실이다.사건 G952-AE-텐넨바허 이전에는 SCP-5994는 어떠한 변칙성도 보이지 않았다.",
+          "url": "https://scpko.wikidot.com/scp-5994",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-5994/VHS1f.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

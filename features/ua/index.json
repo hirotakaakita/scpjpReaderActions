@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Артефакт",
+      "introduction": "Дослідіть тему «Артефакт» та порівняйте спільні риси й відмінності цих аномалій.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-ua-100",
+          "title": "Анігілістичний підхід до святості",
+          "blurb": "На місці загального перев'язу та хвостів є ромбовидні пластини, з тим самим складом з різницею у додаванні барвнику та синьої глини.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-100-ua",
+          "imageUrl": "https://scp-ukrainian.wdfiles.com/local--files/fragment:scp-100-ua-0/Overview-100-UA.gif",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-025",
+          "title": "Дримба",
+          "blurb": "SCP-025-UA — це дугова одноязичкова дримба традиційна для Карпатських малих народностей.Дугу інструмента зроблено з м'якого сплаву заліза й міді, а язичок зі сталі високої пружності.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-025-ua",
+          "imageUrl": "https://scp-ukrainian.wdfiles.com/local--files/scp-025-ua/93691517_281059242896679_5006130721060814848_n.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-007",
+          "title": "Ніж голодного",
+          "blurb": "SCP-007-UA — це ніж невідомого походження, виготовлений у XIX сторіччі.Руків'я вирізьблене з бурштину й має форму кінцівки невідомої істоти, а його довжина становить 15 см (з урахуванням пазура — 18 см).",
+          "url": "http://scp-ukrainian.wikidot.com/scp-007-ua",
+          "imageUrl": "https://scp-ukrainian.wdfiles.com/local--files/scp-007-ua/halkost_knife.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Куди поділися дракони?",
+          "blurb": "SCP-1762-1 — це звичайна картонна коробка розмірами 32 cм x 20 cм x 26 cм.Усередині та ззовні вона розфарбована срібною фарбою, а на кришці чорним перманентним маркером рукописним почерком написано \"ТУТ ЖИВУТЬ ДРАКОНИ\".",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1762",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-072",
+          "title": "Родина не з нашого часу",
+          "blurb": "SCP-072-UA це домашнє господарство розташоване у ██████████ лісництві, Рівненська область, Україна.Усі будівлі мають різний ступінь занедбаності, однак загалом господарство перебуває у відносно непоганому стані.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-072-ua",
+          "imageUrl": "https://scp-ukrainian.wdfiles.com/local--files/scp-072-ua/072_1.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1968",
+          "title": "Тор глобальної зворотньої причинності",
+          "blurb": "У неактивному стану SCP-1968 виглядає як бронзовий тор невідомого складу.Його зовнішній діаметр дорівнює 320 см, а внутрішній - 90 см.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-1968",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-1968/green.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-061",
+          "title": "Зошит Помічниці",
+          "blurb": "SCP-061-UA являє собою зовні зелений зошит на 12 аркушів в лінію.Титульна сторінка є порожньою, окрім надрукованого вгорі надпису:\"Зошит для нотаток\".",
+          "url": "http://scp-ukrainian.wikidot.com/scp-061-ua",
+          "imageUrl": "http://scpsandbox-ua.wdfiles.com/local--files/scp-061-ua/photo_2022-02-07_12-02-21.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-ua-008",
+          "title": "Здається просто палиця",
+          "blurb": "SCP-008-UA — це палиця виготовлена з Corylus avellana (Ліщина звичайна) довжиною 1,5 метра.На перший погляд, об'єкт не проявляє жодних аномальних властивостей і поводитися як звична палиця.",
+          "url": "http://scp-ukrainian.wikidot.com/scp-008-ua",
+          "imageUrl": "https://scp-ukrainian.wdfiles.com/local--resized-images/scp-008-ua/008.jfif/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

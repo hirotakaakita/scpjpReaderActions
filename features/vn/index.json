@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Vật thể",
+      "introduction": "Khám phá chủ đề «Vật thể» và so sánh những điểm giống và khác nhau giữa các dị thể này.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-3790",
+          "title": "Phòng Ban Dị Tượng",
+          "blurb": "Lối vào duy nhất của công trình này là đi xuống một cầu thang hẹp dẫn tới một cánh cửa thấp màu đen.",
+          "url": "https://scp-vn.wikidot.com/scp-3790",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-3790/doorway3.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Chìa Khóa Xương",
+          "blurb": "Chiếc chìa khóa được phát hiện khi một thường dân đang cố sử dụng dị thể nhằm đột nhập vào một cơ sở an ninh nghiêm ngặt.",
+          "url": "https://scp-vn.wikidot.com/scp-005",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2264",
+          "title": "Trong Cung Điện của Alagadda",
+          "blurb": "Kết nối với SCP-2264-A là một thiết bị phức tạp cấu thành bởi nhiều công cụ giả kim như các loại nồi chưng cất, bình cổ cong, và một cái vạc nung.",
+          "url": "https://scp-vn.wikidot.com/scp-2264",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-2264/750px-London_martin_tower_08.03.2013_12-41-27.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-7243",
+          "title": "XỬ LÝ HIỆN SINH",
+          "blurb": "Thiết bị được đặt trong Khu tập hợp Cơ sở Xử lý Chất thải Dị thường (AAF-X), phía dưới tầng sâu nhất của Điểm ngầm Nghiên cứu và Quản Thúc-43.",
+          "url": "https://scp-vn.wikidot.com/scp-7243",
+          "imageUrl": "https://scp-wiki.wikidot.com/local--files/scp-7243/admo-7243-exactus.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6222",
+          "title": "NHÀ TÙ CÁ",
+          "blurb": "Phần lớn các căn phòng và thiết kế không gian bên trong SCP-6222 có rất nhiều điểm tương đồng với các cơ sở giam giữ và khu vực quản thúc tại các Điểm của Tổ Chức, với ngoại lệ đáng chú ý là hệ thống đèn không có khả nă…",
+          "url": "https://scp-vn.wikidot.com/scp-6222",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6222/fishcorridor.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5714",
+          "title": "Anh yêu em từ Vũ Trụ rồi Quay Lại",
+          "blurb": "SCP-5714 là đài thiên văn của UCI1 tại Irvine, CA.SCP-5714 rộng khoảng 45 mét vuông và có cấu trúc không dị thường.",
+          "url": "https://scp-vn.wikidot.com/scp-5714",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-5714/Observatorycc2.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6005",
+          "title": "Cascadia",
+          "blurb": "SCP-6005 là mã định danh cho sự biến mất của 1,943 người bên trong khu vực có nhiều cây cối thuộc vùng sinh thái Cascadia từ năm 1985 cho đến nay.Việc truy tìm các đối tượng hiện vẫn chưa thu được bất kỳ kết quả nào.",
+          "url": "https://scp-vn.wikidot.com/scp-6005",
+          "imageUrl": "https://scp-vn.wdfiles.com/local--files/scp-6005/dogmountain.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6598",
+          "title": "Lật Lọng",
+          "blurb": "SCP-6598 là một đồng 25 xu của Mỹ được sản xuất từ năm 1983.Những câu hỏi và tuyên bố không phải là câu hỏi có hoặc không sẽ không thu được câu trả lời từ SCP-6598.",
+          "url": "https://scp-vn.wikidot.com/scp-6598",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6598/coin.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

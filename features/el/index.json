@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Αντικείμενα",
+      "introduction": "Εξερευνήστε το θέμα «Αντικείμενα» και συγκρίνετε τις ομοιότητες και τις διαφορές αυτών των ανωμαλιών.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-013",
+          "title": "Τα τσιγάρα Μπλε Κυρίας",
+          "blurb": "Το πιο σύνηθες εξωτερικό χαρακτηριστικό που είναι κοινό σε κάθε τεμάχιο είναι η παρουσία των λέξεων \"Μπλε Κυρία\" γραμμένες με το χέρι σε κάθε τσιγάρο με μπλε μελάνι.",
+          "url": "https://scp-el.wikidot.com/scp-013",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-013/SCP-013updated",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-727",
+          "title": "Το σιδηρουργείο του Ηφαίστου",
+          "blurb": "Το SCP-727 μοιάζει με ένα σιδηρουργείο αρχαίου Ελληνικού σχεδιασμού.Περιέχει εργαλεία τεχνιτών που προέρχονται από μια μεγάλη ποικιλία εποχών και χωρών, μερικά από τα οποία δεν έχουν ακόμη ταυτοποιηθεί.",
+          "url": "https://scp-el.wikidot.com/scp-727",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-727/Garden_Triclinium_Petra_Jordan1415.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Το κλειδί \"σκελετός\"",
+          "blurb": "Το κλειδί ανακαλύφθηκε όταν ένας πολίτης το χρησιμοποίησε για να εισέλθει σε μια εγκατάσταση υψίστης ασφαλείας.",
+          "url": "https://scp-el.wikidot.com/scp-005",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "Το αγγείο των τεράτων",
+          "blurb": "Το SCP-019 φαίνεται να είναι ένα μεγάλο κεραμικό αγγείο, με διάμετρο 1,8 m στο στόμα και ύψος 2,4 m.Εάν ανακαλυφθεί μια επιτυχημένη μέθοδος, το SCP-019 πρέπει να καταστραφεί.",
+          "url": "https://scp-el.wikidot.com/scp-019",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-019/scp-019-new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1151",
+          "title": "Ένας πρακτικός μαρκαδόρος",
+          "blurb": "SCP-1151 είναι ένα μαύρο μαρκαδόρο μάρκα█████.",
+          "url": "https://scp-el.wikidot.com/scp-1151",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1151/1151.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-300",
+          "title": "Έναν κόσμο σε ένα μπουκάλι",
+          "blurb": "Όταν μια σταγόνα του SCP-300-2 εξάγεται από το SCP-300-1 και η σταγόνα προβάλλεται μέσω ενός τυπικού οπτικού μικροσκοπίου, μια κινούμενη σκηνή γίνεται ορατή.",
+          "url": "https://scp-el.wikidot.com/scp-300",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-300/scp300-2.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-348",
+          "title": "Ένα δώρο από τον μπαμπά",
+          "blurb": "Δεν υπάρχει κανένα ταυτοποιήσιμο σύμβολο, άλλα χαραγμένοι στην άκρη της γαβάθας είναι κινέζικοι χαρακτήρες, που σημαίνο…",
+          "url": "https://scp-el.wikidot.com/scp-348",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-348/348.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-316",
+          "title": "Φως αποστράγγισης χρώματος",
+          "blurb": "Το SCP-316 είναι μία παλιά χάλκινη, καρβίδια λαμπα.Το περίβλημα δεν αντιστοιχεί σε κατασκευασμένα μοντέλα και φαίνεται να είναι χειροποίητο.",
+          "url": "https://scp-el.wikidot.com/scp-316",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-316/SCP-316.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

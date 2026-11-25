@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefato",
+      "introduction": "Explore o tema «Artefato» e compare as semelhanças e diferenças entre estas anomalias.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-pt-196",
+          "title": "Luvas de Midas",
+          "blurb": "SCP-196-PT é um par de luvas pretas, compostas majoritariamente por couro de origem bovina, possuindo leves camadas de um material desconhecido.",
+          "url": "http://scp-pt-br.wikidot.com/scp-196-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--resized-images/scp-196-pt/Midas/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-122",
+          "title": "Sangue",
+          "blurb": "SCP-122-PT-1 consiste de uma seringa de formato antigo feita de um metal leve, cuja composição é desconhecida pela Fundação.",
+          "url": "http://scp-pt-br.wikidot.com/scp-122-pt",
+          "imageUrl": "https://i.imgur.com/WBWxfO4.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-016",
+          "title": "O Santo Graal",
+          "blurb": "SCP-016-PT é um cálice feito de ouro, possuindo detalhes em sua haste e bojo, sendo um deles uma imagem que possui um ef…",
+          "url": "http://scp-pt-br.wikidot.com/scp-016-pt",
+          "imageUrl": "https://i.imgur.com/ky68Ksi.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-099",
+          "title": "Adaga de Obsidiana",
+          "blurb": "SCP-099-PT é um lâmina de um metal negro desconhecido obsidiana extremamente afiada.O dorso de SCP-099-PT é serrilhado em padrões variados específicos para atos de evisceramento.",
+          "url": "http://scp-pt-br.wikidot.com/scp-099-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--resized-images/scp-099-pt/099-pt/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-015",
+          "title": "Canhão Eletromagnético",
+          "blurb": "SCP-015-PT é o protótipo de um canhão eletromagnético portátil de múltiplos estágios desenvolvido pela Superintendência Brasileira do Paranormal.",
+          "url": "http://scp-pt-br.wikidot.com/scp-015-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--files/scp-015-pt/CANH%C3%83O.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-043",
+          "title": "O Jogador",
+          "blurb": "SCP-043-PT é um aparelho eletrônico denominado Master System, série de eletrodomésticos produzidos pela empresa TecToy no Brasil.Possui um controle não compatível com o aparelho da linha original.",
+          "url": "http://scp-pt-br.wikidot.com/scp-043-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--files/scp-043-pt/masterscp.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-pt-085",
+          "title": "Máscara Adaptável",
+          "blurb": "SCP-085-PT trata-se de uma mascarilha de tamanho variável1 feita de um material com aparência similar à porcelana.O objeto permanece em estado de inatividade até que entre em contato físico direto com um ser humano.",
+          "url": "http://scp-pt-br.wikidot.com/scp-085-pt",
+          "imageUrl": "https://scp-pt-br.wdfiles.com/local--files/scp-085-pt/SCP-085-PT.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Chave-Mestra",
+          "blurb": "A chave foi descoberta quando um civil a utilizou para infiltrar uma instalação de alta segurança.",
+          "url": "http://scp-pt-br.wikidot.com/scp-005",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

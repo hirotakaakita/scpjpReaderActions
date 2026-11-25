@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefakt",
+      "introduction": "Prozkoumejte téma „Artefakt“ a porovnejte podobnosti a rozdíly mezi těmito anomáliemi.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-6222",
+          "title": "RYBÍ VĚZENÍ",
+          "blurb": "Valná většina místností a vnitřku SCP-6222 silně připomíná vězeňské komplexy a zadržovací sekce nadačních Oblastí, ovšem bez funkčního osvětlení.",
+          "url": "http://scp-cs.wikidot.com/scp-6222",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-6222/fishcorridor.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5001",
+          "title": "Sacrosanct",
+          "blurb": "SCP-5001 je biomechanická struktura o průměru zhruba padesát tři kilometrů, nacházející se 60 kilometrů pod povrchem severního Ruska.Obrovská hloubka a velikost.",
+          "url": "http://scp-cs.wikidot.com/scp-5001",
+          "imageUrl": "http://scp-cs-sandbox.wikidot.com/local--files/archiv/SCP_Foundation_emblem.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Kam Odešli Draci",
+          "blurb": "SCP-1762-1 je obyčejná kartonová krabice o rozměrech 32 cm x 20 cm x 26 cm.Vnitřek a vnějšek má stříbrnou barvu a na obálce je černou fixou ručně napsáno „TADY JSOU DRACI.“.",
+          "url": "http://scp-cs.wikidot.com/scp-1762",
+          "imageUrl": "https://scp-cs.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "Cigarety Blue Lady",
+          "blurb": "SCP-013 je sbírka 242 cigaret, které disponují stejnými anomálními vlastnostmi.Největší společný detail viditelný zvenčí je modrým inkoustem ručně psaný nápis \"Blue Lady\".",
+          "url": "http://scp-cs.wikidot.com/scp-013",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-013/SCP-013updated",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-cs-888",
+          "title": "Kamenná deska a neviditelný stín",
+          "blurb": "SCP-888-CS se skládá z černého dřevěného boxu (50x30x30cm) a kamenné desky (40x20x5cm) uvnitř.Na kamenné desce je vytesán nápis, který byl dříve vyplněn černou barvou.",
+          "url": "http://scp-cs.wikidot.com/scp-888-cs",
+          "imageUrl": "http://scp-cs-sandbox.wdfiles.com/local--files/dickens-scp/Deska.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1459",
+          "title": "Stroj na štěnátka",
+          "blurb": "SCP-1459 je upravený arkádový herní automat s drápovým jeřábem o rozměrech 2,3 m x 1,2 m x 1,5 m.SCP-1459 je však výjimečné tím, že vnitřní komora nemá šachtu, do které by se normálně vydávala cena.",
+          "url": "http://scp-cs.wikidot.com/scp-1459",
+          "imageUrl": "http://scp-cs.wikidot.com/local--files/scp-1459/PuppyCC.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6254",
+          "title": "[ACCESS DENIED]",
+          "blurb": "[OBJEKT] označuje druh malého, dutého artefaktu ve tvaru dvanáctistěnu tvořeného hlavně slitinou mědi, vyrobeného cirka ve 2.Je dobře známo, že [OBJEKTY] byly vyrobeny a využívány výhradně k [ZAMÝŠLENÉMU ÚČELU].",
+          "url": "http://scp-cs.wikidot.com/scp-6254",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pentagon-dodeca%C3%ABder_in_brons%2C_150_tot_400_NC%2C_vindplaats-_Tongeren%2C_Leopoldwal%2C_1939%2C_collectie_Gallo-Romeins_Museum_Tongeren%2C_4002.jpg/640px-Pentagon-dodeca%C3%ABder_in_brons%2C_150_tot_400_NC%2C_vindplaats-_Tongeren%2C_Leopoldwal%2C_1939%2C_collectie_Gallo-Romeins_Museum_Tongeren%2C_4002.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-3790",
+          "title": "Oddělení Abnormalit",
+          "blurb": "Vstup do tohoto prostoru je možný pouze skrze úzké schodiště zakončené nízkými černými dveřmi.",
+          "url": "http://scp-cs.wikidot.com/scp-3790",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-3790/doorway3.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

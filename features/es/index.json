@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefacto",
+      "introduction": "Explora el tema «Artefacto» y compara las semejanzas y diferencias de estas anomalías.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-es-005",
+          "title": "Caricias",
+          "blurb": "Las personas que se encuentren en las inmediaciones de SCP-ES-005, notarán leves sensaciones de presión, frío o calidez en áreas localizadas de su piel.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-005",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-es-005/photoboothbcn.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-041",
+          "title": "El Gran Dios Verde",
+          "blurb": "La estatua tiene una antigüedad de al menos 5000 años y su estilo es el usual en el arte egipcio de la época, sin embargo, cuenta con varias anormalidades.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-041",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-es-041/arbol.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-2264",
+          "title": "En La Corte de Alagadda",
+          "blurb": "La puerta no se puede desbloquear a través de medios tradicionales, requiriendo un proceso altamente ritualista.",
+          "url": "http://lafundacionscp.wikidot.com/scp-2264",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-2264/SCP-2264.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Donde fueron los Dragones",
+          "blurb": "SCP-1762-1 es una caja sencilla de cartón que mide 32 cm x 20 cm x 26 cm.La apertura de la tapa de SCP-1762-1 cuando no está en el proceso de liberación revela que está vacía.",
+          "url": "http://lafundacionscp.wikidot.com/scp-1762",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-082",
+          "title": "Ofrenda a los Dioses Antiguos",
+          "blurb": "El interior de SCP-ES-082 tiene diversos materiales entregados como ofrendas a varias deidades americanas entre los que se encuentran: cuentas de piedras preciosas y semipreciosas, objetos de oro y plata, restos orgánic…",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-082",
+          "imageUrl": "http://lafundacionscp.wdfiles.com/local--files/scp-es-082/tonina.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-005",
+          "title": "Llave Maestra",
+          "blurb": "La llave fue descubierta cuando un civil la usó para infiltrarse en una instalación de alta seguridad.",
+          "url": "http://lafundacionscp.wikidot.com/scp-005",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-3790",
+          "title": "Departamento de Anormalidades",
+          "blurb": "El único acceso a este espacio es a través de una estrecha escalera que da a una pequeña puerta negra.",
+          "url": "http://lafundacionscp.wikidot.com/scp-3790",
+          "imageUrl": "https://lafundacionscp.wdfiles.com/local--files/scp-3790/scp-3790.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-es-195",
+          "title": "El Arte y El Artista",
+          "blurb": "La cara frontal de SCP-ES-195 consta de una abertura para ingresar papeles de tamaño carta (21,59cm x 27,94cm) y un monitor operable con botones.",
+          "url": "http://lafundacionscp.wikidot.com/scp-es-195",
+          "imageUrl": "http://lafundacionscp.wdfiles.com/local--files/scp-es-195/cosa.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "物品",
+      "introduction": "圍繞「物品」，對比這些異常的共同點與差異。",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-5655",
+          "title": "就是你預期在Spam空罐裡找到的那種精靈",
+          "blurb": "SCP-5655是一個Spam牌罐頭的空罐子，在搖晃或翻轉SCP-5655時，SCP-5655-1即會顯現。SCP-5655-1是一個7.5公分高的紅色半透明人形，具有現實扭曲能力。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-5655",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-3041",
+          "title": "紅刀",
+          "blurb": "SCP-3041為一來源不明的12公分長鐵製刀具，其刀柄為編織皮革所包覆。一旦SCP-3041被激活，受試者將會經歷使用SCP-3041去攻擊一或多名人員的夢境，並在其中取出受害者的心臟並吞食。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-3041",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-3041/redknife.JPG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-500",
+          "title": "萬靈藥",
+          "blurb": "SCP-500是裝在一個小塑膠罐中的紅色藥丸。在撰寫此報告時，罐內尚存有四十七 (47) 顆藥丸。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-500",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-5034",
+          "title": "肉天使",
+          "blurb": "SCP-5034是一種陶瓷碗4與內含的七顆紅色彈珠5總稱。任何情況下，SCP-5034皆由陶瓷碗與內部七顆紅色彈珠構成。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-5034",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-7271",
+          "title": "微生物罷工",
+          "blurb": "SCP-7271 是一個玻璃罐，裝有三根小黃瓜和濃度 3% 的食鹽水。目前正在進行測試，以確定歷史上企業所使用的破壞罷工手段能否夠有效減少 SCP-7271 的異常性質，來作為一種收容辦法。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7271",
+          "imageUrl": "https://scp-wiki.wdfiles.com/local--files/scp-7271/pickles.jpeg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-978",
+          "title": "慾望相機",
+          "blurb": "SCP-978外觀為一台普通的黑紅相間 Polaroid Supercolor 645 CL 拍立得相機，無任何具特殊辨識度的標記或損壞。當SCP-978被使用於拍攝一個對象，產生的相片並非對象正在做的事，而是對象希望自己正在做的事。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-978",
+          "imageUrl": "http://scp-wiki.wdfiles.com/local--files/scp-978/978%20camera%20new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-6367",
+          "title": "這裡有張普通的椅子",
+          "blurb": "SCP-6367是一張單座木椅，位於阿爾及利亞的西大平原地區。然而，所有基金會與項目的互動嘗試都失敗了，SCP-6367至今仍持續由帕克．瓦蒂森特工使用著──他在發現項目後便一直坐在木椅上。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-6367",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-7621",
+          "title": "壞骰子和頑皮的骰子會被關進骰子監獄",
+          "blurb": "SCP-7621 是一種異常現象：具有異常性質的骰子被放置在任何稱為「骰子監獄」的容器中後，其異常性質會改變。",
+          "url": "http://scp-zh-tr.wikidot.com/scp-7621",
+          "imageUrl": "http://scp-int.wdfiles.com/local--files/main/scp-logo-en-400.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

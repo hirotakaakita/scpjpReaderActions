@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Предмет",
+      "introduction": "Изучите тему «Предмет» и сравните общие черты и различия этих аномалий.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-005",
+          "title": "SCP-005 - Отмычка",
+          "blurb": "Ключ был обнаружен, когда гражданское лицо использовало тот при проникновении на особо охраняемый объект.",
+          "url": "https://scpfoundation.net/scp-005",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-005/SCP-005.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-013",
+          "title": "SCP-013 - Сигареты «Blue Lady»",
+          "blurb": "Наиболее общим для всех объектов внешним признаком является наличие надписи \"Blue Lady\", написанной на каждой из сигарет от руки синими чернилами.",
+          "url": "https://scpfoundation.net/scp-013",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-013/SCP-013updated.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "SCP-1762 - Куда исчезли драконы?",
+          "blurb": "SCP-1762-1 - обыкновенная картонная коробка размерами 32 см x 20 см x 26 см.Изнутри и снаружи она окрашена в серебристый цвет, а на крышке перманентным маркером от руки сделана надпись \"ЗДЕСЬ ВОДЯТСЯ ДРАКОНЫ\".",
+          "url": "https://scpfoundation.net/scp-1762",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-1762/New-Dragon.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-7243",
+          "title": "SCP-7243 - ЭКЗИСТЕНЦИАЛЬНАЯ УТИЛИЗАЦИЯ",
+          "blurb": "Был проведён официальный аудит Центрального ведомства нормальности итерации 42277ed30f3e56ac5ea6452ea37ba376 (\"Наш Фонд\"…",
+          "url": "https://scpfoundation.net/scp-7243",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-7243/DT.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-3448",
+          "title": "SCP-3448 - Полусмертие",
+          "blurb": "Благодаря использованию технологии МРТ, ускорителей частиц и некоторых аномальных ритуалов, SCP-3448 позволяет человеку умереть, при этом сохраняя контакт с миром живых.",
+          "url": "https://scpfoundation.net/scp-3448",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-3448/dammerung-warning_RUS_V2_3.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1609",
+          "title": "SCP-1609  - Обломки кресла",
+          "blurb": "Деревянные части SCP-1609 изготовлены из дуба, гвозди - из стали.",
+          "url": "https://scpfoundation.net/scp-1609",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-1609/chair.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-019",
+          "title": "SCP-019 - Чудовищная ваза",
+          "blurb": "SCP-019 - это очень большая керамическая ваза высотой 2.4 м, диаметр горлышка равен 1.8 м.Как только способ будет обнаружен, SCP-019 подлежит немедленному уничтожению.",
+          "url": "https://scpfoundation.net/scp-019",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-019/scp-019-new.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-348",
+          "title": "SCP-348 - Папин подарок",
+          "blurb": "Размеры миски - примерно 20 (двадцать) сантиметров в диаметре и 9 (девять) сантиметров в высоту.",
+          "url": "https://scpfoundation.net/scp-348",
+          "imageUrl": "https://scpfoundation.net/local--files/scp-348/348.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }

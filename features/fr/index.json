@@ -177,6 +177,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "weekly-003",
+      "themeId": "artifact",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Artefact",
+      "introduction": "Explorez le thème « Artefact » et comparez les points communs et les différences de ces anomalies.",
+      "coverImage": "features/images/everyday-v1.png",
+      "articles": [
+        {
+          "itemId": "scp-series-fr-204",
+          "title": "Passeports de la Principauté de Mittelheim",
+          "blurb": "La plupart des exemplaires sont de couleur bleue, mais il existe également des exemplaires de couleurs différentes en fonction de leur date d'impression.",
+          "url": "http://fondationscp.wikidot.com/scp-204-fr",
+          "imageUrl": "https://fondationscp.wdfiles.com/local--resized-images/scp-204-fr/pass.jpeg/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-134",
+          "title": "Lim(Un)=+∞",
+          "blurb": "La feuille de papier utilisée est une copie double grand carreaux format A4, non anormale, qui peut-être achetée en grande surface.",
+          "url": "http://fondationscp.wikidot.com/scp-134-fr",
+          "imageUrl": "https://fondationscp.wdfiles.com/local--files/scp-134-fr/XX3-IMG.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-500",
+          "title": "La Panacée",
+          "blurb": "En dépit de nombreux essais, toutes les tentatives de synthèse de ce qui semble être le principe actif de SCP-500 ont été infructueuses.",
+          "url": "http://fondationscp.wikidot.com/scp-500",
+          "imageUrl": "https://raw.githubusercontent.com/FondationSCP/module-de-credit/main/img/blank.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-264",
+          "title": "20000 lieues dans les airs",
+          "blurb": "SCP-264-FR est un oiseau mécanique ouvragé, composé de métaux non-anormaux, mesurant dix centimètres de haut, pesant environ 150 grammes, et capable de servir d'épicentre à une projection tridimensionnelle spécifique au…",
+          "url": "http://fondationscp.wikidot.com/scp-264-fr",
+          "imageUrl": "https://fondationscp.wdfiles.com/local--files/scp-264-fr/WHAL-%C3%A9picentre.PNG",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-008",
+          "title": "Salamandre de cire",
+          "blurb": "Des traces d’abrasion ont pu être relevées à l’intérieur, et suggèrent l’usage d’une lame de silex taillé lors de l’évidage.",
+          "url": "http://fondationscp.wikidot.com/scp-008-fr",
+          "imageUrl": "http://fondationscp.wikidot.com/local--files/scp-008-fr/008-FR-bambou",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-092",
+          "title": "Générateur d'allégorie",
+          "blurb": "L'activation de SCP-092-FR doit débuter par l'insertion d'une bougie dans le chandelier, puis par son allumage dans une pièce close et plongée dans l'obscurité.",
+          "url": "http://fondationscp.wikidot.com/scp-092-fr",
+          "imageUrl": "https://fondationscp.wdfiles.com/local--files/scp-092-fr/scp092.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-fr-103",
+          "title": "\"Ceci n'est pas un mosasaure\"",
+          "blurb": "Cet effet n’est pas restreint aux sujets observant l’objet, et semble reposer sur les connaissances du sujet plutôt que sur ses sens.",
+          "url": "http://fondationscp.wikidot.com/scp-103-fr",
+          "imageUrl": "https://raw.githubusercontent.com/FondationSCP/module-de-credit/main/img/blank.png",
+          "sourceTags": [
+            "artifact"
+          ]
+        },
+        {
+          "itemId": "scp-series-1762",
+          "title": "Là où les dragons sont allés",
+          "blurb": "SCP-1762-1 est une boîte en carton de couleur unie, de 32 cm x 20 cm x 26 cm.Ouvrir le couvercle de SCP-1762-1 quand il n'est pas en processus de libération révèle qu'il est vide.",
+          "url": "http://fondationscp.wikidot.com/scp-1762",
+          "imageUrl": "https://fondationscp.wdfiles.com/local--resized-images/scp-1762/new_dragon/medium.jpg",
+          "sourceTags": [
+            "artifact"
+          ]
+        }
+      ]
     }
   ]
 }
