@@ -400,6 +400,20 @@
       "startedAt": "2026-11-25T18:43:28.292Z",
       "messageName": "projects/scpjp-reader/messages/5106067479996407447",
       "sentAt": "2026-11-25T18:43:48.150Z"
+    },
+    {
+      "id": "sv/2026-11-25",
+      "lang": "sv",
+      "window": "2026-11-25",
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Föremål"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-25T18:43:28.292Z"
     }
   ]
 }
