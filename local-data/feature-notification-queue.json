@@ -29,13 +29,8 @@
       ]
     },
     "cs": {
-      "lastSentWindow": "2026-11-18",
-      "items": [
-        {
-          "itemId": "weekly-003",
-          "titleJP": "Artefakt"
-        }
-      ]
+      "lastSentWindow": "2026-11-25",
+      "items": []
     },
     "de": {
       "lastSentWindow": "2026-11-18",
@@ -200,5 +195,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-18T18:46:41.571Z"
+  "updatedAt": "2026-11-25T18:43:28.292Z"
 }
