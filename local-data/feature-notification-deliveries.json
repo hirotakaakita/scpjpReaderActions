@@ -432,6 +432,20 @@
       "startedAt": "2026-11-25T18:43:28.292Z",
       "messageName": "projects/scpjp-reader/messages/-3640335582820461840",
       "sentAt": "2026-11-25T18:43:55.732Z"
+    },
+    {
+      "id": "sl/2026-11-25",
+      "lang": "sl",
+      "window": "2026-11-25",
+      "items": [
+        {
+          "itemId": "weekly-003",
+          "titleJP": "Predmeti"
+        }
+      ],
+      "attempts": 1,
+      "status": "sending",
+      "startedAt": "2026-11-25T18:43:28.292Z"
     }
   ]
 }
