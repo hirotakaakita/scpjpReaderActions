@@ -112,6 +112,7 @@ jobs:
       - name: Test collector and regenerate from the latest catalogs
         run: |
           node --test
+          node tool/refresh-reviewed-identity-evidence.js
           node -e "require('./research-board/catalog').generateResearchBoard('local-data','local-data/mobile-v3')"
           node research-board/validate.js
           node tool/audit-research-board-identities.js

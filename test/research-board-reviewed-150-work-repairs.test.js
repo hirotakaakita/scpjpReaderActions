@@ -40,6 +40,28 @@ test('fail closed on changed publisher capture content',()=>{
  const f=caseFixture(base,'a'.repeat(64));
  assert.throws(()=>reviewedRepair(f.options),/publisher evidence changed/);
 });
+
+test('rejects a mismatched target publisher and unavailable source or target',()=>{
+ for(const endpoint of ['s','t']){
+  const f=caseFixture(base);f.options.sources.get(endpoint).lastAttempt.status='not_found';
+  assert.throws(()=>reviewedRepair(f.options),/publisher evidence changed/);
+ }
+ const f=caseFixture(base);f.options.sources.get('t').record.url=base.creditedOriginal;
+ assert.throws(()=>reviewedRepair(f.options),/publisher evidence changed/);
+});
+
+test('a full catalog already combined by ordinary identity evidence still applies all 67 reviewed rules',()=>{
+ const urls=[...new Set(plan.rules.flatMap(r=>[r.source,r.target]))];
+ const pages=urls.map(url=>({id:url,url})),sources=new Map(pages.map(p=>[p.id,
+  {record:{url:p.url,contentSha256:'b'.repeat(64)},lastAttempt:{status:'success'}}]));
+ for(const r of plan.rules)sources.get(r.source).record.contentSha256=r.sourceSha256;
+ const imageCapture=require('./fixtures/reviewed-identity-captures.json').find(r=>r.url==='https://scp-vn.wikidot.com/4x4x4-cell');
+ sources.get(imageCapture.url).record=imageCapture;
+ const result=reviewedRepair({pages:[...pages,...Array(100001-pages.length).fill(pages[0])],sources,
+  pageKeys:new Map(pages.map(p=>[p.id,p.id])),parent:new Map(),root:()=> 'already-combined',
+  components:new Map(),nativeKeys:new Set(),proofs:[]});
+ assert.equal(result.alreadyCombined.length,67);assert.equal(result.mergedGroups.length,0);
+});
 test('canonical numbered SCP work survives a verified publisher URL alias merge',()=>{
  const f=caseFixture(multi,multi.sourceSha256,[{id:'sib',url:'https://scp-wiki.wikidot.com/scp-4000',siteBranch:'en'}]);
  f.options.sources.set('sib',{record:{url:'https://scp-wiki.wikidot.com/scp-4000',contentSha256:'a'.repeat(64)}});

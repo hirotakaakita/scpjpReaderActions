@@ -57,6 +57,13 @@ function merge(sources, state) {
   const old = sources.get(page.id);
   let record = !old?.record || state.record?.checkedAt > old.record.checkedAt ? state.record : old.record;
   const other = record === state.record ? old?.record : state.record;
+  if(record&&other&&record.contentSha256===other.contentSha256&&
+      (!record.reviewedIdentityEvidence||
+       (!record.reviewedIdentityEvidence.imageSha256&&other.reviewedIdentityEvidence?.imageSha256&&
+        record.reviewedIdentityEvidence.version===other.reviewedIdentityEvidence.version))&&
+      other.reviewedIdentityEvidence?.contentSha256===record.contentSha256){
+    record={...record,reviewedIdentityEvidence:other.reviewedIdentityEvidence};
+  }
   if (record && other && record.contentSha256 === other.contentSha256 &&
       (other.linkExtractionVersion || 0) > (record.linkExtractionVersion || 0) && Array.isArray(other.links)) {
     record = {...record, links: other.links, linkExtractionVersion: other.linkExtractionVersion};

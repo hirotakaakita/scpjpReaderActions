@@ -141,7 +141,8 @@ function extractHtml(html, url, existingDocument = null) {
     if(source.host==='scp-wiki.wikidot.com' && breadcrumbLinks[0]?.slug==='canon-hub' && breadcrumbLinks[1]?.slug==='resurrection') {
       semanticRelations.push({target:breadcrumbLinks[1].url,type:'canon_member',quote:document.querySelector('#breadcrumbs').textContent.trim().replace(/\s+/g,' '),note:'出版社のカノン階層。本文中に登場する全SCPへカノンを転写しない。',location:'publisher_breadcrumb',sourceAnchor:'breadcrumbs',method:'explicit_canon_breadcrumb'});
     }
-    return { title, tags: [...new Set(tags)].sort(), authors, links:bodyLinks(root, {...source, title}),
+    return { ...require('./reviewed-identity-evidence').captureEvidence(document,source.url,digest(html)),
+      title, tags: [...new Set(tags)].sort(), authors, links:bodyLinks(root, {...source, title}),
       linkExtractionVersion: EXTRACTOR_VERSION,
       originalSources: require('../origin-provenance').extractOriginalSources(document,source.url),
       ...require('../origin-provenance').extractAuthorCredits(document),

@@ -88,6 +88,9 @@ jobs:
       - name: Check article metadata and series classification
         run: node --test test/article-images.test.js test/image-policy.test.js test/crawler-tag-refresh.test.js test/series-listing.test.js test/scp-archive-classification.test.js test/russian-joke-classification.test.js test/russian-archive-classification.test.js test/scp-document-identity.test.js test/related-documents.test.js test/refresh-document-metadata.test.js test/article-excerpts.test.js test/excerpt-repair.test.js
 
+      - name: Check reviewed publisher identity evidence
+        run: node --test test/research-board-reviewed-150-work-repairs.test.js test/reviewed-identity-evidence.test.js
+
       - name: Generate matrix
         id: matrix
         run: echo "matrix=$(node print-matrix.js)" >> "$GITHUB_OUTPUT"
@@ -349,6 +352,8 @@ jobs:
 
       - name: Generate combined compatible mobile catalogs
         run: |
+          node --test test/research-board-reviewed-150-work-repairs.test.js test/reviewed-identity-evidence.test.js
+          node tool/refresh-reviewed-identity-evidence.js
           node --test test/mobile-catalog.test.js test/catalog-arrivals.test.js test/research-board.test.js test/research-board-links.test.js test/research-board-navigation.test.js test/research-board-auxiliary-content.test.js test/research-board-identity-metadata.test.js test/research-board-identity-audit.test.js test/translation-identities.test.js test/identity-credit-metadata.test.js
           node mobile-catalog.js
           node refresh-weekly-features.js

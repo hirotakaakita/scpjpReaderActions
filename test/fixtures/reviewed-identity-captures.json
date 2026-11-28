@@ -1,0 +1,144 @@
+[
+  {
+    "schemaVersion": 1,
+    "extractorVersion": 13,
+    "identityMetadataVersion": 1,
+    "pageId": "page:scp-cs.wikidot.com/scp-025",
+    "url": "https://scp-cs.wikidot.com/scp-025",
+    "fetchedAt": "2026-11-28T00:00:00.000Z",
+    "checkedAt": "2026-11-28T00:00:00.000Z",
+    "contentSha256": "8da1d465abb753431361631176657a356350a7f61056ff5e00f460e5a81f14ff",
+    "format": "html",
+    "etag": null,
+    "lastModified": null,
+    "reviewedIdentityEvidence": {
+      "version": 1,
+      "contentSha256": "8da1d465abb753431361631176657a356350a7f61056ff5e00f460e5a81f14ff",
+      "bodySha256": "bd381859b381383c5c798534b2a9d32179851b1ec5ef10bd33a174c4e10ef5fd"
+    },
+    "title": "SCP-025",
+    "tags": [
+      "nábytek",
+      "oblečení",
+      "předpovídající",
+      "safe",
+      "scp"
+    ],
+    "authors": [
+      {
+        "name": "",
+        "url": "http://www.wikidot.com/user:info/thattallfellow"
+      },
+      {
+        "name": "thattallfellow",
+        "url": "http://www.wikidot.com/user:info/thattallfellow"
+      },
+      {
+        "name": "",
+        "url": "http://www.wikidot.com/user:info/watani"
+      },
+      {
+        "name": "Watani",
+        "url": "http://www.wikidot.com/user:info/watani"
+      }
+    ],
+    "links": [
+      {
+        "target": "https://scp-cs.wikidot.com/scp-173",
+        "quote": "SCP-173",
+        "location": "article_body",
+        "sourceAnchor": "",
+        "method": "body_hyperlink_v6"
+      }
+    ],
+    "linkExtractionVersion": 13,
+    "originalSources": [
+      {
+        "url": "https://scp-wiki.wikidot.com/scp-024",
+        "hostBranch": "en",
+        "method": "credit_original_label",
+        "quote": "Originál:"
+      }
+    ],
+    "authorCreditVersion": 2,
+    "originalAuthors": [
+      {
+        "id": "thattallfellow",
+        "name": "thattallfellow",
+        "url": "https://www.wikidot.com/user:info/thattallfellow"
+      }
+    ],
+    "upstreamAuthors": [],
+    "translators": [],
+    "assetAuthors": [],
+    "translations": [],
+    "semanticRelations": [],
+    "limitations": []
+  },
+  {
+    "schemaVersion": 1,
+    "extractorVersion": 13,
+    "identityMetadataVersion": 1,
+    "pageId": "page:scp-vn.wikidot.com/4x4x4-cell",
+    "url": "https://scp-vn.wikidot.com/4x4x4-cell",
+    "fetchedAt": "2026-11-28T00:00:00.000Z",
+    "checkedAt": "2026-11-28T00:00:00.000Z",
+    "contentSha256": "1e35ea75494e38e1ea787099806e44196a5f59a3148ed320b7ba47d170f9af9d",
+    "format": "html",
+    "etag": null,
+    "lastModified": null,
+    "reviewedIdentityEvidence": {
+      "version": 1,
+      "contentSha256": "1e35ea75494e38e1ea787099806e44196a5f59a3148ed320b7ba47d170f9af9d",
+      "bodySha256": null,
+      "imageUrls": [
+        "https://scpvnsandbox3.wdfiles.com/local--files/4x4x4-cell/comic-vn.png"
+      ],
+      "imageSha256": "dbaffc889992ff5bbdcb4db3d80223e7b22b6d0d16af29a10b177e0b5eaefaa6"
+    },
+    "title": "Hộp 4x4x4",
+    "tags": [
+      "_cc",
+      "_licensebox",
+      "tiến-sĩ-mcdoctorate",
+      "truyện",
+      "truyện-tranh"
+    ],
+    "authors": [
+      {
+        "name": "Kikunai",
+        "url": "https://www.wikidot.com/user:info/kikunai"
+      },
+      {
+        "name": "StupifPotato",
+        "url": "https://www.wikidot.com/user:info/stupifpotato"
+      }
+    ],
+    "links": [],
+    "linkExtractionVersion": 13,
+    "originalSources": [
+      {
+        "url": "https://scp-wiki.wikidot.com/4x4x4-cell",
+        "hostBranch": "en",
+        "method": "credit_original_label",
+        "quote": "Nguồn bài viết:"
+      }
+    ],
+    "authorCreditVersion": 2,
+    "originalAuthors": [
+      {
+        "id": "kikunai",
+        "name": "Kikunai",
+        "url": "https://www.wikidot.com/user:info/kikunai"
+      }
+    ],
+    "upstreamAuthors": [],
+    "translators": [],
+    "assetAuthors": [],
+    "translations": [],
+    "semanticRelations": [],
+    "limitations": [
+      "iframe_content_not_expanded"
+    ]
+  }
+]

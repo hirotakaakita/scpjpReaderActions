@@ -6,6 +6,7 @@
 // intact as evidence. Archived editions and historic retirement notices are
 // not in the manifest. No synthetic nodes or catalogue IDs are introduced.
 const plan=require('./reviewed-original-67.json');
+const {matchesReviewedEvidence}=require('./reviewed-identity-evidence');
 const preservedMainRoot=new Set([
  'https://scp-jp.wikidot.com/scp-173-but-it-s-the-admonition-hub',
  'https://scp-vn.wikidot.com/scp-2195',
@@ -35,8 +36,8 @@ function reviewedRepair({pages,sources,pageKeys,parent,root,components,nativeKey
   const state=sources.get(source.id),targetState=sources.get(target.id);
   if(!state?.record||!targetState?.record||statusBad.has(state.lastAttempt?.status)||
    statusBad.has(targetState.lastAttempt?.status)||
-   state.record.url!==rule.source||
-   state.record.contentSha256!==rule.sourceSha256||
+   targetState.record.url!==rule.target||
+   !matchesReviewedEvidence(state.record,rule)||
    !/^[a-f0-9]{64}$/.test(rule.publisherBodySha256))
    throw Error('Original/translation publisher evidence changed: '+rule.source);
   const sourceKey=pageKeys.get(source.id),targetKey=pageKeys.get(target.id);
@@ -57,10 +58,11 @@ function reviewedRepair({pages,sources,pageKeys,parent,root,components,nativeKey
     retainedWork:preferred,absorbedWork:other});
   }else alreadyCombined.push(rule.source);
   proofs.push({source:source.url,target:target.url,method:'reviewed_primary_publisher_content_20261124',
-   reference:rule.publisherBodySha256,correctedCredit:rule.method==='verified_wrong_original_credit'});
+   reference:rule.imageEvidence?.sha256||rule.publisherBodySha256,correctedCredit:rule.method==='verified_wrong_original_credit'});
  }
  if(pages.length>100000&&missing.length)throw Error('Official full catalog lost reviewed pages '+missing.join(', '));
- if(pages.length>100000&&merged.length<40)throw Error('Unexpectedly few reviewed work repairs: '+merged.length);
+ if(pages.length>100000&&merged.length+alreadyCombined.length!==plan.rules.length)
+  throw Error('Incomplete reviewed work repairs: '+(merged.length+alreadyCombined.length));
  return {reviewedCount:plan.rules.length,mergedGroups:merged,alreadyCombined,missing};
 }
 module.exports={reviewedRepair,preservedMainRoot};

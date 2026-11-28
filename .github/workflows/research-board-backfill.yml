@@ -103,6 +103,7 @@ jobs:
       - name: Validate and generate board only
         run: |
           node --test
+          node tool/refresh-reviewed-identity-evidence.js
           node research-board/publish-backfill.js
           node research-board/validate.js
       - name: Publish board and source checkpoints
