@@ -29274,6 +29274,42 @@
     ]
   },
   {
+    "id": "dep-de-folclore",
+    "aliases": [
+      "dep-de-folclore"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "dep-de-irrealidade",
     "aliases": [
       "dep-de-irrealidade"
@@ -118255,6 +118291,42 @@
     ]
   },
   {
+    "id": "tag-04e275f331371a85b8d3d50f",
+    "aliases": [
+      "512-means-onwards"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "tag-04e3a28facf356b627289d94",
     "aliases": [
       "線上"
@@ -118761,6 +118833,42 @@
     "id": "tag-056fd1eb6cd0693c563e7331",
     "aliases": [
       "sv:miniatyr"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-0572d340a7b220adc37d89e4",
+    "aliases": [
+      "Żywe"
     ],
     "missing": [
       "ru",
@@ -129936,6 +130044,42 @@
     ]
   },
   {
+    "id": "tag-138b42e47293922046275832",
+    "aliases": [
+      "2026-나의즉흥경연-en"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "tag-13924a6445dbb3585bab2710",
     "aliases": [
       "тематика:парарелигия"
@@ -135945,6 +136089,42 @@
       "объект:дитя-ведьма"
     ],
     "missing": [
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-1ab7b05496092c0255982822",
+    "aliases": [
+      "잃어버린-수"
+    ],
+    "missing": [
+      "ru",
       "en",
       "ja",
       "zh",
@@ -161093,6 +161273,42 @@
     "id": "tag-37fcacd90dae5107bbdd8314",
     "aliases": [
       "ノウアスフィア"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-380034f7106ba70e686a0421",
+    "aliases": [
+      "스시블레이드"
     ],
     "missing": [
       "ru",
@@ -221284,6 +221500,41 @@
     ]
   },
   {
+    "id": "tag-7df3c769662ff54a71540e60",
+    "aliases": [
+      "со_лпи:пентаграмма"
+    ],
+    "missing": [
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "tag-7dfe25cd1d3f04aa12ce239c",
     "aliases": [
       "кінцівка"
@@ -227794,6 +228045,42 @@
     "id": "tag-84a6dcf41ae3f101268e377d",
     "aliases": [
       "šťastně-až-do-smrti-neexistuje"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-84ac17e8312c126e3d924e5a",
+    "aliases": [
+      "mnohostěnné"
     ],
     "missing": [
       "ru",
@@ -245724,6 +246011,42 @@
     ]
   },
   {
+    "id": "tag-99fd0e2cb7c2e2b028d15d83",
+    "aliases": [
+      "26年越中瘋狂大戰"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "tag-9a01453d64bad1c60c5f38ff",
     "aliases": [
       "인공"
@@ -251368,6 +251691,42 @@
     "id": "tag-a02160503b995a8a24925ab6",
     "aliases": [
       "memético"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-a02220ab6ee39243db279a9a",
+    "aliases": [
+      "애버딘-사냥패"
     ],
     "missing": [
       "ru",
@@ -263835,6 +264194,42 @@
     ]
   },
   {
+    "id": "tag-aebcb93591ad8f79d9159a46",
+    "aliases": [
+      "夏鸟思想联盟"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "tag-aec14bccd93843c72dc5ade1",
     "aliases": [
       "tłumaczenie"
@@ -265276,6 +265671,42 @@
     "id": "tag-b0385cfe4b424d835963f2ce",
     "aliases": [
       "历史"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-b03d2fbde90316fb6a6a2c18",
+    "aliases": [
+      "档案"
     ],
     "missing": [
       "ru",
@@ -326028,6 +326459,42 @@
     ]
   },
   {
+    "id": "tag-f56c1988af38228263e9d6aa",
+    "aliases": [
+      "어둠의-초밥"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
     "id": "tag-f56f8512fbc237426f791b98",
     "aliases": [
       "muridé"
@@ -329375,6 +329842,42 @@
     "id": "tag-f9391d51e81936e92596d30e",
     "aliases": [
       "kényszer"
+    ],
+    "missing": [
+      "ru",
+      "en",
+      "ja",
+      "zh",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "th",
+      "uk",
+      "vi",
+      "zh-Hant",
+      "ar",
+      "cy",
+      "da",
+      "el",
+      "hu",
+      "nl",
+      "nb",
+      "ro",
+      "hr",
+      "sl",
+      "sv",
+      "tr"
+    ]
+  },
+  {
+    "id": "tag-f95035cbd4bb7192b13e7b39",
+    "aliases": [
+      "초상조사기획소-환등"
     ],
     "missing": [
       "ru",
@@ -349075,9 +349578,9 @@
     ]
   },
   {
-    "id": "tag-138b42e47293922046275832",
+    "id": "tag-6ba3f56bae473da8da014b21",
     "aliases": [
-      "2026-나의즉흥경연-en"
+      "alephシリーズ"
     ],
     "missing": [
       "ru",
@@ -349111,9 +349614,9 @@
     ]
   },
   {
-    "id": "tag-99fd0e2cb7c2e2b028d15d83",
+    "id": "stworzone-przez-fundacje",
     "aliases": [
-      "26年越中瘋狂大戰"
+      "stworzone-przez-fundacje"
     ],
     "missing": [
       "ru",
@@ -349147,9 +349650,9 @@
     ]
   },
   {
-    "id": "tag-04e275f331371a85b8d3d50f",
+    "id": "tag-1c2dc2bb7fdd28748a1095c8",
     "aliases": [
-      "512-means-onwards"
+      "tiêu-điểm-sự-kiện"
     ],
     "missing": [
       "ru",
@@ -349183,9 +349686,9 @@
     ]
   },
   {
-    "id": "dep-de-folclore",
+    "id": "tag-260951c43b24a15bc213f0e6",
     "aliases": [
-      "dep-de-folclore"
+      "資格"
     ],
     "missing": [
       "ru",
@@ -349219,332 +349722,9 @@
     ]
   },
   {
-    "id": "tag-84ac17e8312c126e3d924e5a",
+    "id": "tag-ed1964fb998938a306fcbec0",
     "aliases": [
-      "mnohostěnné"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-0572d340a7b220adc37d89e4",
-    "aliases": [
-      "Żywe"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-7df3c769662ff54a71540e60",
-    "aliases": [
-      "со_лпи:пентаграмма"
-    ],
-    "missing": [
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-aebcb93591ad8f79d9159a46",
-    "aliases": [
-      "夏鸟思想联盟"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-b03d2fbde90316fb6a6a2c18",
-    "aliases": [
-      "档案"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-380034f7106ba70e686a0421",
-    "aliases": [
-      "스시블레이드"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-a02220ab6ee39243db279a9a",
-    "aliases": [
-      "애버딘-사냥패"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-f56c1988af38228263e9d6aa",
-    "aliases": [
-      "어둠의-초밥"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-1ab7b05496092c0255982822",
-    "aliases": [
-      "잃어버린-수"
-    ],
-    "missing": [
-      "ru",
-      "en",
-      "ja",
-      "zh",
-      "cs",
-      "de",
-      "es",
-      "fr",
-      "it",
-      "ko",
-      "pl",
-      "pt",
-      "th",
-      "uk",
-      "vi",
-      "zh-Hant",
-      "ar",
-      "cy",
-      "da",
-      "el",
-      "hu",
-      "nl",
-      "nb",
-      "ro",
-      "hr",
-      "sl",
-      "sv",
-      "tr"
-    ]
-  },
-  {
-    "id": "tag-f95035cbd4bb7192b13e7b39",
-    "aliases": [
-      "초상조사기획소-환등"
+      "반쪽고양이-조시"
     ],
     "missing": [
       "ru",

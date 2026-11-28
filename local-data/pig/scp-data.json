@@ -1,8 +1,8 @@
 {
   "totalCount": 71,
   "language": "pig",
-  "timestamp": "2026-11-22T13:15:35.556Z",
-  "duration": 63,
+  "timestamp": "2026-11-28T07:48:36.397Z",
+  "duration": 44,
   "status": "completed",
   "statistics": {
     "translated": 71,
@@ -20,6 +20,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "ETHAY OLLOWINGFAY ILESFAY AVEHAY EENBAY ASSIFIEDCLAY OPTAY ECRETSAY YBAY ORDERYAY OFYAY ETHAY OINK-5 OUNCILCAY ENERALGAY OTICENAY 001-PIG-Alphayay: Inyay orderyay otay eventpray owledgeknay ofyay SCP-001-PIG omfray eingbay eakedlay, everalsay/onay alsefay SCP-001-PIG ilesfay avehay eenbay eatedcray alongsideyay ethay uetray ilefay/ilesfay. Allyay ilesfay oncerningcay ethay aturenay ofyay SCP-001-PIG, includingyay ethay ecoyday/ecoysday, areyay otectedpray ybay ayay emeticmay illkay agentyay esig",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "etadatamay",
@@ -36,11 +37,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "f90501bda05758d522f25a834cec0b7842305f76a72292c69596b39dbc28d933"
     },
     {
       "itemId": "scp-series-pig-002",
@@ -52,6 +55,7 @@
       "objectClass": "Keter",
       "rating": 6,
       "descriptionExcerpt": "SCP-002-PIG areyay ayay edatorypray eciesspay ofyay ishfay atthay appearyay asyay edray ebrazay ichlidscay. Oughthray arnessinghay EVE energyyay, eythay areyay ableyay otay ansformtray eirthay entireyay odybay intoyay anyyay arinemay animalyay, ownknay andyay unknownyay, atthay illway etterbay uitsay eirthay urrentcay ituationsay. Alemay SCP-002-PIG inyay eirthay efaultday ormfay areyay iggerbay anthay emalefay SCP-002-PIG.\nEnwhay erethay areyay onay eatsthray earbynay SCP-002-PIG emainray inyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adaptiveyay",
@@ -96,11 +100,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "a4c85f8b9e3b20ad18e0a38d7bf203fc228c0bacfe5083cd347e785c7034206f"
     },
     {
       "itemId": "scp-series-pig-003",
@@ -112,6 +118,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-003-PIG isyay ayay ereotypicalstay easuretray estchay.\nSCP-003-PIG onstantlycay expelsyay aterway outyay ofyay itsyay interioryay. Erewhay isthay aterway omescay omfray isyay unknownyay. Althoughyay SCP-003-PIG's interioryay isyay illedfay ithway ariousvay oldgay objectsyay, SCP-003-PIG illway oatflay inyay ethay aterway ityay eneratesgay.\nIfyay SCP-003-PIG isyay insideyay ayay oolpay ofyay aterway 15 eetfay ybay 10 eetfay ybay 7 eetfay oryay argerlay, SCP-003-PIG's interioryay illway anifes",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "artifactyay",
@@ -140,11 +147,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "e4df868a399879dbce951d5516e64fbba14a51201ae5b037345e7bdf39568bea"
     },
     {
       "itemId": "scp-series-pig-004",
@@ -156,6 +165,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-004-PIG isyay ayay oupgray esignationday orfay eethray anomaliesyay. SCP-004-PIG-1 efersray otay inenay umanoidhay entitiesyay, esignatedday SCP-004-PIG-1-1 oughthray SCP-004-PIG-1-9. Eachyay SCP-004-PIG-1 instanceyay ashay ayay uniqueyay appearanceyay, odybay izesay, ersonalitypay, andyay eaponsway.1 SCP-004-PIG-1 instancesyay areyay uchmay oremay urableday anthay averageyay umanshay, eingbay ableyay otay aketay everalsay ulletsbbay andyay/oryay explosionsyay eforebay uccumbingsay otay eirt",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -196,11 +206,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "c2d076fb3cae8dc4c238486b05beea7fc70488b7fa5701f6b9af1cef794cae16"
     },
     {
       "itemId": "scp-series-pig-005",
@@ -212,6 +224,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-005-PIG efersray otay ayay odmay orfay ethay ideovay amegay Imworldray, evelopedday ybay Udeonlay Udiosstay, entitledyay \"Eatingyay Ithoutway Ayay Abletay Illskay Ouyay IEI3\".4 Installingyay SCP-005-PIG eatescray anyay otherwiseyay onnay-anomalousyay opycay ofyay Imworldray exceptyay asyay oonsay asyay ayay ayerplay-ontrolledcay olonistcay eatsyay ithoutway ittingsay atyay ayay abletay, anyay instanceyay ofyay SCP-005-PIG-1 illway anifestmay.\nSCP-005-PIG-1 efersray otay ayay olonistcay owhay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "amegay",
@@ -244,11 +257,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "509e80298d7d45249c9fa8a9808d514a5f05b5aa0195336f80df2f7400d31201"
     },
     {
       "itemId": "scp-series-pig-006",
@@ -260,6 +275,7 @@
       "objectClass": "Euclid",
       "rating": 2,
       "descriptionExcerpt": "SCP-006-PIG isyay ayay ivilizationcay ofyay intelligentyay entitiesyay atthay oselyclay esembleray omesticatedday igspay (Sus domesticus) ocatedlay inyay Orthnay Americayay. Esethay entitiesyay, enceforthhay eferredray otay asyay SCP-006-PIG-1, aveltray andyay ommunicatecay ithway allsmay ehiclesvay ilotedpay ybay SCP-006-PIG-1 instancesyay, enceforthhay eferredray otay asyay SCP-006-PIG-2.\nSCP-006-PIG-2 instancesyay ifferday ildlyway inyay appearanceyay asedbay onyay ethay objay ofyay ethay orr",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -308,11 +324,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "67809ece473b30e62fb99166ea361eabcc0e24c3e8465f87061abd2015697f01"
     },
     {
       "itemId": "scp-series-pig-007",
@@ -324,6 +342,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-007-PIG isyay ayay outwardlyyay ormalnay, eatherlay-oundbay2 opycay ofyay The World Hungers3. Ityay oesday, oweverhay, exudeyay ayay aintfay ellsmay4. Enwhay inyay ontactcay ithway organicyay aterialmay orfay ayay asyay-etyay unknownyay amountyay ofyay imetay5, aidsay aterialmay isyay ansformedtray intoyay ariousvay ormsfay ofyay orkpay6. Ethay anomalyyay isyay ethay esultray ofyay ethay \"Entway Otay Arketmay\" initiativeyay, ichwhay attemptedyay otay olvesay orldway ungerhay.",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-c22124294addc35f2880b866",
@@ -360,11 +379,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "0119d015319573485d62de1a58972f00c5d419aec06497b199f3878136bf923f"
     },
     {
       "itemId": "scp-series-pig-008",
@@ -376,6 +397,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-008-PIG isyay anyay anomalousyay enomenonphay atthay occursyay otay everyyay Ambroseyay Estaurantsray ocationlay atthay attemptsyay otay openyay ithinway ethay ordersbay ofyay Edensway.\nEsethay ocationslay, ereafterhay esignatedday asyay SCP-008-PIG-1, illway undergoyay andardstay ocedurespray eforebay openingyay.2 Oweverhay, asyay oonsay asyay ethay SCP-008-PIG-1 isyay onsideredcay \"openyay\", SCP-008-PIG illway anifestmay andyay ausecay ethay SCP-008-PIG-1 instanceyay otay emanfiestday omfr",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "ambroseyay-estaurantray",
@@ -420,11 +442,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "3d139dfc3ceee9d9e606bc12ffe727ba234f89e4089501b1c16ff0e34a7ded9b"
     },
     {
       "itemId": "scp-series-pig-009",
@@ -436,6 +460,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-009-PIG isyay ayay iobay-echanicalmay ecimenspay ofyay ommoncay amboobay (Bambusa vulgaris) ichwhay ossessespay ignificantlysay advancedyay ansmissiontray equipmentyay incorporatedyay intoyay itsyay internalyay ucturestray.\nEthay echanicalmay omponentscay ofyay SCP-009-PIG owgray alongsideyay ethay aturalnay exterioryay ucturestray, ithyay ethay iologicalbay omponentscay avinghay owngray inyay ayay annermay otay ebay apablecay ofyay annelingchay electricalyay urrentscay orfay ethay enefitbay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "acousticyay",
@@ -492,11 +517,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "8d14ef17beb7f4f37875feef20aaa1112c344204cd5bbc60724a5bb70f5975a7"
     },
     {
       "itemId": "scp-series-pig-014",
@@ -508,6 +535,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-014-PIG efersray otay ayay eciesspay ofyay entientsay igeonspay. SCP-014-PIG instancesyay areyay approximatelyyay 5% argerlay anthay eirthay undanemay ounterpartscay ithway ayay ainbray atthay ashay approximatelyyay 52% oremay euronsnay anthay eirthay undanemay ounterpartscay. Espiteday isthay, eirthay ainsbray areyay ysicallyphay ethay amesay izesay. SCP-014-PIG instancesyay avehay argerlay ingsway andyay ethay abilityyay otay aspgray objectsyay ithoutway ifficultyday. SCP-014-PIG instances",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -560,11 +588,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "bb46f7c817c8c0c081eda47933096122ca87edeaa8af23344f3b715a36f2c999"
     },
     {
       "itemId": "scp-series-pig-020",
@@ -576,6 +606,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-020-PIG efersray otay ayay owntay ocatedlay inyayEwnay Erseyjay, Unitedyay Atesstay.\nSCP-020-PIG ouseshay ayay opulationpay ofyay approximatelyyay 10,000 eoplepay andyay esemblesray ayay andardstay Americanyay uburbansay owntay. Oneyay eykay ifferenceday, oweverhay, isyay atthay everyyay inglesay esidentialray omehay ithinway SCP-020-PIG ookslay ethay amesay. Otheryay indskay ofyay uildingsbay, uchsay asyay ommercialcay uildingsbay andyay owntay ervicessay, alsoyay ooklay ethay amesay asyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aumielthay",
@@ -604,11 +635,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "d335b89022dacbe58e3600500b527885755635a8cbb55d97a9619ead512d5f07"
     },
     {
       "itemId": "scp-series-pig-023",
@@ -620,6 +653,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-023-PIG efersray otay ayay odifiedmay Aberg\u00e9fay eggyay.\nEthay exterioryay ofyay SCP-023-PIG isyay onnay-anomalousyay. Itsyay anomalousyay effectsyay onlyyay anifestmay uponyay openingyay SCP-023-PIG. Onceyay SCP-023-PIG isyay openyay, everyyay 15 econdssay ayay allsmay umanoidhay ickenchay illway appearyay, ereafterhay eferredray otay asyay SCP-023-PIG-1. Enwhay anyay SCP-023-PIG-1 instanceyay anifestsmay, ityay illway oday ethay ollowingfay:\n\nOoklay aroundyay otay indfay oeverwhay isyay old",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -672,11 +706,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "1afd9481727028a1794b742007c52d278bcd444eb9f2d6da32778952ec3eefa8"
     },
     {
       "itemId": "scp-series-pig-026",
@@ -688,6 +724,7 @@
       "objectClass": null,
       "rating": -1,
       "descriptionExcerpt": "SCP-026-PIG is yay ayay on-euclideannay orridorcay ocatedlay eneathbay anyay abandonedyay arehouseway inyay [REDACTED] ethay orridorcay appearsyay asyay ayay eriessay ofyay oorsday eachyay eadinglay otay anotheryay egmentsay ofyay ethay orridorcay eatingcray anyay endlessyay ooplay.",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "arrativenay",
@@ -720,11 +757,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "27684fb78d6f7bec43f3d768bcea41e0cdea66eb7aa4c8dfdd0a50e9d4b62707"
     },
     {
       "itemId": "scp-series-pig-039",
@@ -736,6 +775,7 @@
       "objectClass": null,
       "rating": 3,
       "descriptionExcerpt": "SCP-039-PIG isyay ayay emalefay umanoidhay atthay isyay isiblyvay ineteennay earsyay oldyay, oweverhay ityay ashay otnay agedyay inyay Oundationfay ustodycay. Atyay allyay imestay, SCP-039-PIG isyay unconsciousyay oweverhay ityay isyay ossiblepay otay ommunicatecay ithway ityay. SCP-039-PIG isyay ableyay otay earhay eechspay andyay understandyay ityay. Ethay onlyyay ownknay ethodmay ofyay eceivingray SCP-039-PIG's epliesray isyay ybay analyzingyay itsyay ainbray aveway atternspay. Esethay ainbra",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -764,11 +804,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "717b4b3192ef19a51093755d9323d4f0e359a8d0761d9080b0edc5138c34777b"
     },
     {
       "itemId": "scp-series-pig-075",
@@ -780,6 +822,7 @@
       "objectClass": "Cernunnos",
       "rating": 2,
       "descriptionExcerpt": "SCP-075-PIG isyay ayay otway-etermay-alltay alemay umanoidhay atthay earsway arkday ueblay antspay ithway ayay ightlay ueblay irtshay. Ityay ashay anyay innateyay ensesay ofyay erewhay iamondsday areyay undergroundyay andyay iestray otay inemay asyay anymay asyay ityay ancay. Ityay illway eatecray iningmay unnelstay atthay areyay oneyay etermay ybay otway etersmay, iningmay ayay oneyay etermay ybay oneyay etermay ubecay atyay ayay imetay. Ityay oesday otnay eednay otay eatyay oryay inkdray andya",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -812,11 +855,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "f9cf682221f885adc21221484f9daee1b6e4b9146ef16211df30fe944f40603b"
     },
     {
       "itemId": "scp-series-pig-080",
@@ -828,6 +873,7 @@
       "objectClass": "Euclid",
       "rating": 5,
       "descriptionExcerpt": "SCP-080-PIG isyay ayay enomenonphay affectingyay ethay Ussay omesticusday1 opulationpay, ereinwhay embersmay ontaneouslyspay owgray ayay airpay ofyay ingsway. Ethay ingsway aryvay inyay engthlay ependingday onyay ethay ecimen'sspay izesay, isplayingday ayay ideway angeray ofyay ovementmay ithway inimalmay issuesyay. Osethay affectedyay areyay ownshay otay ossesspay immenseyay exterityday utilizingyay esethay appendagesyay, eingbay ableyay otay iftlay emselvesthay offyay ethay oundgray andyay ane",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-df4660e8c83fb21edd6f79c0",
@@ -856,11 +902,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "9621bfe4ec3610d614e45aab9111b1b3717dac9adde799581166c49e9e3fc450"
     },
     {
       "itemId": "scp-series-pig-100",
@@ -872,6 +920,7 @@
       "objectClass": null,
       "rating": 9,
       "descriptionExcerpt": "SCP-100-PIG isway away argelay areaway, easuringmay 45,000 ubiccay etersmay, ocatedlay inway ethay outskirtsway ofway Avariabay, Ermanygay. Ilewhay otherwiseway undanemay inway othbay appearanceway andway aturalnay unctionsfay, SCP-100-PIG isway emarkableray orfay itsway atusstay asway ethay onlyway ointpay onway ethay anetplay ichwhay isway incapableway ofway ustainingsay anyway einleinhay adiationray ithinway itsway onfinescay. Ueday otay isthay, umanhay ubjectssay areway invariablyway incapab",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-df4660e8c83fb21edd6f79c0",
@@ -908,11 +957,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "50fc085bc0414a25644d78025465a4725247ee4bfc99d600baebc241050bdb1c"
     },
     {
       "itemId": "scp-series-pig-102",
@@ -924,6 +975,7 @@
       "objectClass": null,
       "rating": 3,
       "descriptionExcerpt": "SCP-102-PIG isyay anyay ornateyay indyay-upyay antelmay ockclay omposedcay ofyay oldgay-aintedpay assbray. Ethay ainmay odybay ofyay ethay ockclay isyay apedshay ikelay ayay ornucopiacay, ithyay atuettesstay ofyay Istianchray erubimchay uspendedsay aboveyay ityay ybay ethay useyay ofyay allsmay ironyay olespay, ichwhay extendyay ownwardsday andyay intoyay ethay ainmay odybay. Enwhay initiallyyay iscoveredday, SCP-102-PIG ossessedpay ayay imensionalday iscrepancyday etweenbay itsyay interioryay a",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-df4660e8c83fb21edd6f79c0",
@@ -956,11 +1008,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "ce7a2c815651d4590286286df10756aafe9b3db563fdcd0b9ac5be8cbdd03070"
     },
     {
       "itemId": "scp-series-pig-199",
@@ -972,6 +1026,7 @@
       "objectClass": null,
       "rating": 5,
       "descriptionExcerpt": "SCP-199-PIG asway ayay assclay 5 Eigenmachineyay1 atthay affectedyay ethay Internationalyay SCP Oundationfay atabaseday orfay ayay eriodpay ofyay eethray onthsmay, omfray Aprilyay 19thay, 2024, otay Ulyjay 19thay, 2024.\nSCP-199-PIG asway initiallyyay esignedday ybay ethay Igpay Atinlay anchbray asyay ayay ooltay otay easilyyay onvertcay ertaincay Internationalyay Anchbray agespay eensay asyay essentialyay immediatelyyay otay Igpay Atinlay. Unfortunatelyyay, ueday otay ayay echanicalmay oversight",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-df4660e8c83fb21edd6f79c0",
@@ -1004,11 +1059,13 @@
       "extractedFrom": "scp-erissay-pig",
       "pageType": "scp-series-pig",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:24.417Z",
+      "lastUpdated": "2026-11-27T10:43:38.926Z",
       "createdAt": "2026-11-10T00:36:20.337Z",
       "translatedLanguages": [
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "69b361fd9c4cbbb1387273474baabd684c9d5ee8fe5c531a56d2865fc3f8706c"
     },
     {
       "itemId": "scp-series-001",
@@ -1020,6 +1077,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "ETHAY OLLOWINGFAY ILESFAY AVEHAY EENBAY ASSIFIEDCLAY OPTAY ECRETSAY YBAY ORDERYAY OFYAY ETHAY ADMINISTRATORYAY ENERALGAY OTICENAYT 001-Alphayay: Inyay orderyay otay eventpray owledgeknay ofyay SCP-001 omfray eingbay eakedlay, everalsay/onay alsefay SCP-001 ilesfay avehay eenbay eatedcray alongsideyay ethay uetray ilefay/ilesfay. Allyay ilesfay oncerningcay ethay aturenay ofyay SCP-001, includingyay ethay ecoyday/ecoysday, areyay otectedpray ybay ayay emeticmay illkay agentyay esignedday otay imm",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "etadatamay",
@@ -1036,7 +1094,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1066,7 +1124,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "8625df4ae25f6c7d37c022d948ba15e4c3ecd638d9956749df0c773a9db7420a"
     },
     {
       "itemId": "scp-series-002",
@@ -1078,6 +1138,7 @@
       "objectClass": null,
       "rating": 3,
       "descriptionExcerpt": "SCP-002 esemblesray ayay umoroustay, eshyflay owthgray ithway ayay olumevay ofyay oughlyray 60 m\u00b3 (oryay 2000 ft\u00b3). Anyay ironyay alvevay atchhay onyay oneyay idesay eadslay otay itsyay interioryay, ichwhay appearsyay otay ebay ayay andardstay owlay-entray apartmentyay ofyay odestmay izesay. Oneyay allway ofyay ethay oomray ossessespay ayay inglesay indowway, oughthay onay uchsay openingyay isyay isiblevay omfray ethay exterioryay. Ethay oomray ontainscay urniturefay ichwhay, uponyay oseclay exa",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -1102,7 +1163,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1162,7 +1223,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "aec2625a6f2c1a3674efaa2fa0288e9b31065e03ea613169fafa27760afb59ca"
     },
     {
       "itemId": "scp-series-003",
@@ -1174,6 +1237,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-003 onsistscay ofyay otway elatedray omponentscay ofyay eparatesay originyay, eferredray otay asyay SCP-003-1 andyay SCP-003-2.\nSCP-003-1 appearsyay otay ebay omposedcay ofyay itinchay, airhay, andyay ailsnay ofyay unknownyay iologybay, arrangedyay inyay ayay onfigurationcay imilarsay otay atthay ofyay ayay omputercay otherboardmay. Estingtay evealsray SCP-003-1 otay edatepray earliestyay ownknay ircuitcay oardsbay ybay ayay actorfay ofyay ousandsthay ofyay earsyay. SCP-003-1 isyay onsidered",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adioactiveray",
@@ -1238,7 +1302,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1267,7 +1331,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "edd1a5b95c40e06401acecb8fcaaa02f2b534439309098f5e00b73fde7f11978"
     },
     {
       "itemId": "scp-series-005",
@@ -1279,6 +1345,7 @@
       "objectClass": null,
       "rating": 0,
       "descriptionExcerpt": "Inyay appearanceyay, SCP-005 esemblesray anyay ornateyay eykay, isplayingday ethay aracteristicschay ofyay ayay ypicaltay assmay oducedpray eykay usedyay inyay ethaye 1920s. Ethay eykay asway iscoveredday enwhay ayay iviliancay usedyay ityay otay infiltrateyay ayay ighhay ecuritysay acilityfay. SCP-005 eemssay otay avehay ethay uniqueyay abilityyay otay openyay anyyay andyay allyay ormsfay ofyay ocklay (Eesay Appendixyay A), ebay eythay echanicalmay oryay igitalday, ithway elativeray easeyay. Et",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adaptiveyay",
@@ -1295,7 +1362,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1355,7 +1422,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "6850ea84b3ace5a90fbb1946a765c0ea4489b9086c3e4a992f4350bf791e5fb2"
     },
     {
       "itemId": "scp-series-006",
@@ -1367,6 +1436,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-006 isyay ayay eryvay allsmay ingspray ocatedlay 60 km estway ofyay Astrakhanyay. Oundationfay Pmmandcay asway awareyay ofyay itsyay existenceyay incesay ethay 19th enturycay, utbay ereway unableyay otay ecuresay ityay untilyay 1991 ueday otay oliticalpay easonsray. Onyay ethay otspay ofyay ethay ingspray, ayay emicalchay actoryfay ashay eenbay onstructedcay asyay ayay isguiseday, ithway ethay ajoritymay ofyay aborerslay underyay Oundationfay andyay/oryay Ussianray ontrolcay. Ethay iquidlay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -1395,7 +1465,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1453,7 +1523,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "a62ea25120164e9b4b7ada63d49cd635d847a994efb26c2ac2a31f761fb5b322"
     },
     {
       "itemId": "scp-series-007",
@@ -1465,6 +1537,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-007 isyay ocatedlay ithinway ayay avitycay inyay ethay abdomenyay ofyay Ubjectsay. Ubjectsay isyay ayay Aucasiancay alemay, ysicallyphay approximatelyyay 25 earsyay ofyay ageyay (ubjectsay aimsclay otay ebay 28) andyay 176 cm inyay eighthay. Ostmay ofyay Ubject'ssay abdomenyay (usclesmay, inskay, andyay organsyay) isyay absentyay, oughthay Ubjectsay oesday otnay appearyay otay uffersay ecausebay ofyay isthay. Insteadyay ofyay ormalnay eshflay, ayay eresphay omposedcay ofyay oilsay andyay ate",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -1493,7 +1566,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1521,7 +1594,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "9952f07ce3afe6d878b2a5421899d87951b4c4e0039e83ee4e86b6e8be636f8b"
     },
     {
       "itemId": "scp-series-011",
@@ -1533,6 +1608,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-011 isyay ayay Ivilcay Arway emorialmay atuestay ocatedlay inyay Oodstockway, Ermontvay. Ethay atuestay isyay ethay imageyay ofyay ayay oungyay alemay oldiersay oldinghay ayay usketmay atyay ishay idesay, andyay isyay arvedcay outyay ofyay anitegray uarriedqay ithinway ethay areayay. Occasionallyyay, SCP-011 ashay eenbay observedyay iftinglay itsyay usketmay otay ethay yskay otay irefay atyay irdsbay ichwhay attemptyay otay andlay oryay efecateday onyay ityay. Eportsray etailday atthay itsya",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -1565,7 +1641,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1621,7 +1697,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "4df8dad94d3b11128604facf3d8fad615a3e441a5eb88c8ea1f13aa821c5a93b"
     },
     {
       "itemId": "scp-series-012",
@@ -1633,6 +1711,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-012 asway etrievedray ybay Archaeologistyay K.M. Andovalsay uringday ethay excavationyay ofyay ayay orthernnay Italianyay ombtay estroyedday inyay ayay ecentray ormstay. Ethay objectyay, ayay iecepay ofyay andwrittenhay usicalmay orescay entitledyay \"Onyay Ountmay Olgothagay\", artpay ofyay ayay argerlay etsay ofyay eetshay usicmay, appearsyay otay ebay incompleteyay. Ethay edray/ackblay inkyay, irstfay oughtthay otay ebay omesay ormfay ofyay errybay oryay aturalnay yeday inkyay, asway aterla",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "euclidyay",
@@ -1669,7 +1748,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1695,7 +1774,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "33217c2aebefd34be96097ebc97a16b96155e3a0bb9163da2d4de36e202ec760"
     },
     {
       "itemId": "scp-series-015",
@@ -1707,6 +1788,7 @@
       "objectClass": null,
       "rating": 0,
       "descriptionExcerpt": "SCP-015 isyay ayay assmay ofyay ipespay, entsvay, oilersbay andyay otheryay ariousvay umbingplay apparatusyay ompletelycay illingfay ayay arehouseway inyay \u2588\u2588\u2588\u2588\u2588\u2588\u2588. Ethay ipespay appearyay otay owgray enwhay otnay underyay observationyay, attemptingyay otay onnectcay otay earbynay ucturesstray iavay ewersaw ystemssay andyay undergroundyay umbingplay. SCP-015 ontainscay, atyay urrentcay estimateyay, overyay 190 ilometerskay (120 ilesmay) ofyay ipespay, angingray inyay iameterday omfray 2.5 cm ota",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "autonomousyay",
@@ -1731,7 +1813,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1756,7 +1838,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "d15f34fadce0e7c01e5e5ce3cf73bf082e0ac32af77d229a0057c2720d5e320c"
     },
     {
       "itemId": "scp-series-017",
@@ -1768,6 +1852,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-017 isyay ayay umanoidhay igurefay approximatelyyay 80 entimeterscay inyay eighthay, anatomicallyyay imilarsay otay ayay allsmay ildchay, utbay ithway onay iscernibleday identifyingyay eaturesfay. SCP-017 eemssay otay ebay omposedcay ofyay ayay adowyshay, okesmay-ikelay oudshray. Onay attemptyay otay indfay anyyay objectyay eneathbay ethay oudshray ashay eenbay uccessfulsay, utbbay ethay ossibilitypay ashay otnay eenbay uledray outyay.\nSCP-017's eactionray otay adowsshay astcay uponyay ityay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adowshay",
@@ -1796,7 +1881,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1852,7 +1937,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "8931cefee7edda0b5a8cc135f549e9b70929a2f3507ca3f783beae0a4850288d"
     },
     {
       "itemId": "scp-series-018",
@@ -1864,6 +1951,7 @@
       "objectClass": null,
       "rating": 0,
       "descriptionExcerpt": "SCP-018 ashay ethay appearanceyay ofyay ayay Upersay Allbay ademay ybay ethay Am-Owhay ompanycay inyay 1969. Ityay isyay ixsay (6) entimeterscay inyay iameterday andyay olouredcay edray. Oundfay enwhay ethay \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 ompanycay asway iredhay otay eanclay outyay ayay arehouseway atthay adhay Am-Owhay erchandisemay inyay ityay, SCP-018 asway otednay otay ebay ableyay otay ouncebay ithway extremeyay eighthay. Atyay irstfay oughtthay otay ebay ayay easantplay ild'schay oytay, SCP-018 asway ableyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "ectoentropicyay",
@@ -1888,7 +1976,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -1944,7 +2032,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "494225c8ae6e03d65b7f09f8601067fe0ccaf140a5f8b1df1964185aee7d397a"
     },
     {
       "itemId": "scp-series-043",
@@ -1956,6 +2046,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-043 appearsyay otay ebay ayay inylvay opycay ofyay \"Ethay Itewhay Albumyay\" ybay ethay Eatlesbay; oweverhay, uponyay oserclay inspectionyay, ethay ecordray ashay onay oovesgray. Inyay itespay ofyay isthay, ethay ecordray illway ayplay omfray artstay otay inishfay egardlessray ofyay ethay artingstay ositionpay ofyay ethay eedlenay.\nEnwhay ethay entytway-inthnay acktray isyay eachedray, insteadyay ofyay ayingplay \"Evolutionray 9\", ethay iscday opsstay inningspay andyay aintfay eathingbray anca",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -1980,7 +2071,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2006,7 +2097,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "725498dff49cdbbe76aad860c0edb2fe4b4142caf20fdb6eb6e456b503adcfa2"
     },
     {
       "itemId": "scp-series-049",
@@ -2018,6 +2111,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-049 isyay ayay umanoidhay entityyay, oughlyray 1.9 etersmay inyay eighthay, ichwhay earsbay ethay appearanceyay ofyay ayay edievalmay agueplay octorday. Ilewhay SCP-049 appearsyay otay ebay earingway ethay ickthay obesray andyay ethay eramiccay askmay indicativeyay ofyay atthay ofessionpray, ethay armentsgay insteadyay eemsay otay avehay owngray outyay ofyay SCP-049's odybay overyay imetay1, andyay areyay ownay earlynay indistinguishableyay omfray ateverwhay ormfay isyay eneathbay emthay. X-",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "actiletay",
@@ -2074,7 +2168,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2099,7 +2193,9 @@
         "pig",
         "sl",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "08ecbc03c9e3e30e8972d967f9ffa163c60308bbdc30cee87c73c6f9b39e657f"
     },
     {
       "itemId": "scp-series-050",
@@ -2111,6 +2207,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-050 appearsyay otay ebay ayay atuestay ofyay ayay onkeymay eadingray ayay ookbay, approximatelyyay 1 ootfay3 alltay. Onyay ethay ottombay ofyay ethay atuestay areyay engravedyay ethay ordsway \"To The Cleverest\"4 inyay ursivecay iptscray.\nEthay atuestay ashay osay arfay ovenpray esistantray otay allyay ormsfay ofyay amageday5. Asyay uchsay, erethay isyay onay accurateyay ethodmay otay ateday ethay objectyay.\nEnwhay eftlay aloneyay, SCP-050 ashay ownshay itselfyay otay ebay othbay usefulyay an",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "apientsay",
@@ -2139,7 +2236,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2160,7 +2257,9 @@
         "hu",
         "pig",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "859a0a99e593998d16605ee34c58a0aad66b71e06b71e594ee2b579fc9f515e0"
     },
     {
       "itemId": "scp-series-053",
@@ -2172,6 +2271,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-053 appearsyay otay ebay ayay allsmay 3-earyay-oldyay irlgay. Eshay isyay apablecay ofyay asicbay eechspay andyay appearsyay otay ebay ightlyslay aboveyay averageyay inyay entalmay evelopmentday. Eshay ashay ayay enerallygay easantplay ersonalitypay andyay arelyray eemssay upsetyay, ecomingbay agitatedyay onlyyay inyay ethay esencepray ofyay oupsgray ofyay eoplepay.\nAnyyay andyay allyay umanshay overyay ethay ageyay ofyay eethray owhay akemay eyeyay ontactcay ithway, ysicallyphay ouchtay, or",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "actiletay",
@@ -2212,7 +2312,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2267,18 +2367,21 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "5ee2f60a1ec191965dd82c30900038205deaa156074600eb2d4034d480f80655"
     },
     {
       "itemId": "scp-series-055",
       "numericItemId": 55,
-      "titleJP": "",
+      "titleJP": "SCP-055",
       "urlEN": "https://scp-wiki.wikidot.com/scp-055",
       "urlJP": "https://scp-pig.wikidot.com/scp-055",
       "imageUrl": null,
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-055 isyay ayay \"elfsay-eepingkay ecretsay\" oryay \"antiyay-ememay\". Informationyay aboutyay SCP-055's ysicalphay appearanceyay asyay ellway asyay itsyay aturenay, ehaviorbay, andyay originsyay isyay elfsay-assifyingclay. Otay arifyclay:\n\nOwhay Itesay 19 originallyyay acquiredyay SCP-055 isyay unknownyay.\n\n\nEnwhay SCP-055 asway obtainedyay, andyay ybay omwhay, isyay unknownyay.\n\n\nSCP-055's icalphisay appearanceyay isyay unknownyay. Ityay isyay otnay indescribableyay, oryay invisibleyay: indivi",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "antimemeticyay",
@@ -2315,7 +2418,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2341,7 +2444,9 @@
         "sh",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "5a6718338341d69dd678fbb1463f89c604813436b5d5bde7bd784dfa85b32060"
     },
     {
       "itemId": "scp-series-062",
@@ -2353,6 +2458,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-062 appearsyay otay ebay anyay unbrandedyay ersonalpay esktopday omputercay ousedhay inyay anyay aluminumyay asecay ofyay indeterminateyay anufacturemay. SCP-062 isyay unusuallyyay eavyhay atyay approximatelyyay 24kg, andyay ackslay anufacturingmay oryay andingbray abelslay ofyay anyyay indkay. Ethay ordsway \"infomationyay isyay eedomfray [sic]\" ereway oundfay atchedscray intoyay ethay asingcay earnay ethay ackbay, apparentlyyay ithway ayay eykay oryay imilarsay objectyay.\nInspectionyay ofya",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "anguagelay",
@@ -2389,7 +2495,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2412,7 +2518,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "95a77eea56ef5190626acafa2ae213df20d72e75e31c210c64e6df9b7471df29"
     },
     {
       "itemId": "scp-series-063",
@@ -2424,6 +2532,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-063 appearsyay otay ebay anyay averageyay, alepay ueblay oothbrushtay. Enciledstay alongyay ethay idesay ofyay ethay objectyay areyay ethay ordsway \u201cEthay Orld'sway Estbay OthBrushthay [icsay]\u201d. Ethay ordway \"oothbrushtay\" isyay elledspay incorrectlyyay, oughthay etherwhay isthay asway accidentalyay oryay ayay urposefulpay actionyay ybay ethay eatorscray ofyay ethay objectyay isyay unknownyay. SCP-063 isplaysday ethay abilityyay otay effortlesslyyay eaveclay oughthray anyyay andyay allyay ea",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adioactiveray",
@@ -2448,7 +2557,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2503,7 +2612,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "c347e3b607228493a85a12d9e54b6cf73ba5e3eb90f3b8b6f28a83d920f9cda8"
     },
     {
       "itemId": "scp-series-075",
@@ -2515,6 +2626,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-075 esemblesray ayay argelay ailsnay 20 cm inyay engthlay, 13 cm inyay idthway, andyay 15 cm inyay eighthay, ithway ayay uscularmay ootfay esemblingray ayay ixsay-ingeredfay, awedclay andhay. SCP-075 isyay exceptionallyyay eavyhay, ithway ayay assmay ofyay approximatelyyay 860 kg, ayay opertypray atthay isyay otnay understoodyay. Esiccationday isyay ethay onlyyay ownknay eansmay ofyay ontainingcay SCP-075, asyay ityay illway enteryay ayay ormantday atestay enwhay earlynay ompletelycay ydray.",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -2543,7 +2655,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2567,7 +2679,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "1f2c252a4d30e38dc7098685363b2613bb02237485e36cc28b7cc3e048576e5b"
     },
     {
       "itemId": "scp-series-094",
@@ -2579,6 +2693,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-094 appearsyay otay ebay ayay erfectlypay ackblay eresphay, 163 cm inyay iameterday, uspendedsay approximatelyyay 3 m offyay ethay oundgray ithway onay apparentyay eansmay ofyay upportsay. SCP-094 ashay eenbay assifiedclay asyay ayay iniaturemay eventyay orizonhay: anyyay attermay atthay ovesmay intoyay SCP-094, includingyay ightlay, isyay irretrievablyyay onegay. Oweverhay, SCP-094 isyay otnay ayay ackblay olehay incesay ityay oesday otnay exertyay ayay avitationalgray ullpay.\nSCP-094 ashay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "acousticyay",
@@ -2607,7 +2722,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2630,7 +2745,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "58178553fe58cc094139cdb3a4d1b06d1fd661135162156b851febc08311f7cf"
     },
     {
       "itemId": "scp-series-096",
@@ -2642,6 +2759,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-096 isyay ayay umanoidhay eaturecray easuringmay approximatelyyay 2.38 etersmay inyay eighthay. Ubjectsay owsshay eryvay ittlelay usclemay assmay, ithway eliminarypray analysisyay ofyay odybay assmay uggestingsay ildmay alnutritionmay. Armsyay areyay osslygray outyay ofyay oportionpray ithway ethay estray ofyay ethay ubject'ssay odybay, ithway anyay approximateyay engthlay ofyay 1.5 etersmay eachyay. Inskay isyay ostlymay evoidday ofyay igmentationpay, ithway onay ignsay ofyay anyyay odybay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -2678,7 +2796,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2705,7 +2823,9 @@
         "ro",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "c49a500fa455d09f283d8d7cfecb1fd419dffdb1305eff2ad9b3bf21537378db"
     },
     {
       "itemId": "scp-series-104",
@@ -2717,6 +2837,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-104 isyay ayay eresphay, 35.5 cm (14 in) aroundyay andyay eighingway 2.3 kg (5 lbs). Ethay outsideyay isyay assglay andyay eryvay oothsmay, oatingcay ethay eresphay inyay ayay ayerlay 6 mm (0.2 in) ickthay. Underyay isthay ayerlay isyay anyay extremelyyay intricateyay esignday ofyay eryvay inthay ackblay andyay itewhay ineslay. Isthay inneryay \u201corecay\u201d isyay ayay elicatelyday arvedcay allbay ofyay oodway, ivinggay lightsay exturetay otay ethay inelay esignday. Ethay esignday itselfyay isyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "autonomousyay",
@@ -2745,7 +2866,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2768,7 +2889,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "04cf10eefc1560ae9d5067377fdbc7355dbeef629121cbbd6b86c21128c55c9c"
     },
     {
       "itemId": "scp-series-115",
@@ -2780,6 +2903,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-115-1 isyay ayay oytay umpday ucktray , ithway onay identifyingyay arkersmay oryay abelslay otay identifyyay itsyay originalyay anufacturermay . oweverhay , unlikeyay egularray oytay umpday uckstray , SCP-115-1 eighsway asyay uchmay asyay ethay actualyay ehiclevay ityay epresentsray , oughlyray 90 onstay . ityay isyay urrentlycay unknownyay owhay ethay ehiclevay eighsway isthay uchmay , asyay analysisyay ofyay SCP-115-1's ompositioncay evealsray atthay ityay isyay ademay ofyay ethay amesay o",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -2804,7 +2928,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2828,7 +2952,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "80a754c02896ba044ae9b516675780df725dffcca432049e4d59745c893413cb"
     },
     {
       "itemId": "scp-series-124",
@@ -2840,6 +2966,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-124 isyay ayay otplay ofyay oilsay approximatelyyay 9 m2 inyay areayay andyay 14 m3 inyay izesay. Ityay asay ecoveredray omfray ayay Etroitday asementbay enwhay authoritiesyay ereway otifiednay ofyay otway eenagerstay owinggray argelay amountsyay ofyay arijuanamay.\nSCP-124 ashay ethay abilityyay otay owgray anyyay iologicalbay organismyay otay itsyay ullfay otentialpay inyay ayay elativelyray ortshay amountyay ofyay imetay (ethay engthlay ariesvay accordingyay otay ethay omplexitycay ofyay e",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "ansformationtray",
@@ -2860,7 +2987,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2882,7 +3009,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "cf4be804c2592ed6576d32081e8851507da3771b9bb47d6ffcd1556db1373453"
     },
     {
       "itemId": "scp-series-127",
@@ -2894,6 +3023,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-127, uponyay irstfay anceglay, appearsyay otay ebay ayay andardstay MP5K-PDW ubmachinesay ungay. Eststay avehay evealedray atthay asideyay omfray ethay outeryay eelstay andyay olymerpay ellshay, ethay entiretyyay ofyay ethay irearmfay isyay organicyay andyay aliveyay. Ethay eapon'sway ammunitionyay initiallyyay appearedyay otay ebay umanhay-ikelay eethtay. Oweverhay, DNA estingtay ofyay ethay \"ulletsbay\" esultedray inyay onay atchmay otay anyyay ownknay eciesspay onyay Earthyay.\nSCP-127 eatu",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -2922,7 +3052,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -2945,7 +3075,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "65e14ee4341c98fe2eb8be73c3b631c7b7a72e913410b5c77d468ae1a44055de"
     },
     {
       "itemId": "scp-series-133",
@@ -2957,6 +3089,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-133 areyay ayay etsay ofyay ixsay undredhay andyay irteenthay (613) ackblay, ircularcay iecespay ofyay ayay axyway, aperpay-ikelay aterialmay 5 cm inyay iameterday. Enwhay acedplay againstyay ayay olidsay urfacesay andyay ubbedray, SCP-133 illway instantaneouslyyay \"ansfertray\" otay ethay urfacesay andyay eatecray ayay ircularcay olehay. Estingtay ashay ownshay atthay SCP-133 isyay apablecay ofyay enetratingpay upyay otay 61 cm ofyay ucturalstray adegray eelstay, oughthay ethay exactyay egre",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "actoryfay",
@@ -2985,7 +3118,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3007,7 +3140,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "0c134e439f69996058002901ae0cac4ba7a122857f76685792dd99791d96224a"
     },
     {
       "itemId": "scp-series-143",
@@ -3019,6 +3154,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-143 isyay ayay antationplay ofyay 300 ecimensspay ofyay ayay uniqueyay ypetay ofyay eetray. Ethay eestray areyay imilarsay inyay appearanceyay otay Prunus x yedoensis (Apanesejay Akurasay), oryay errychay ossomsblay. Eythay earbay onay uitfray, andyay ethay onlyyay ownknay ayway ofyay eproductionray isyay ybay arefulcay \"ownyay ootray\" opagationpray usingyay utcay aplingssay omfray anyay olderyay amplesay.\nEthay etalspay areyay ayay ightlay inkishpay olorcay, ightlyslay anslucenttray, andyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -3055,7 +3191,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3076,7 +3212,9 @@
         "zh-tr",
         "el",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "16193ca3fb8fb5b97d20d5f0eb17d721f11cb8fd60adcc1134c20e610f179c51"
     },
     {
       "itemId": "scp-series-154",
@@ -3088,6 +3226,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-154 isyay ayay airpay ofyay implesay onzebray aceletsbray, ompletelycay ircularcay andyay argelay enoughyay otay omfortablycay anghay offyay ethay armyay ofyay ostmay eoplepay. Ectrographspay analysisyay ashay ovenpray atthay ethay itemyay isyay omposedcay entirelyyay ofyay oppercay (85%), intay (11%), arsenicyay (3%), andyay acestray ofyay otheryay ightslay impuritiesyay (<1%).\nEnwhay othbay aceletsbray areyay ornway onyay ethay amesay armyay, andyay ethay earerway oncentratescay onyay emth",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "ansfigurationtray",
@@ -3120,7 +3259,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3138,7 +3277,9 @@
         "ua",
         "vn",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "37836373352d00fb40191f669de8280135b2005b4b30dddd0318a8e0d7c9d392"
     },
     {
       "itemId": "scp-series-159",
@@ -3150,6 +3291,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-159 ashay ethay appearanceyay ofyay ayay andardstay eonnay ignsay eadingray 'OPENYAY', ofyay ethay ylestay ommonlycay oundfay inyay allsmay usinessesbay. Enwhay SCP-159 isyay isplayedday oughthray ayay indowway ofyay ayay uildingbay, andyay eactivatedday ybay emovingray ityay omfray ayay andardstay owerpay outletyay1, ethay uildingbay illway ecomebay impossibleyay otay enteryay ybay anyyay eansmay. Ethay ockinglay effectyay easescay immediatelyyay enwhay SCP-159 isyay eattachedray otay ayay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -3174,7 +3316,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3196,7 +3338,9 @@
         "el",
         "pig",
         "sv"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "17dd6fcf431c3d76bb3a68bf108a1b094e13fae41854ec6b2cf1ede807a1e92a"
     },
     {
       "itemId": "scp-series-162",
@@ -3208,6 +3352,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-162 isyay ayay assmay ofyay ishfay ookshay, ishfay inelay, eedlesnay, issorsscay, andyay otheryay arpshay objectsyay inyay ayay oughray allbay apeshay oseclay otay 2.4 m (8 ft) inyay idthway andyay 2.1 m (7 ft) inyay eighthay. Afteryay eingbay inyay SCP-162's icinityvay, ubjectssay avehay eportedray eelingfay awndray otay ethay objectyay inyay orderyay otay ouchtay ityay. Isthay esireday ancay extendyay orfay everalsay eeksway afteryay eeingsay ethay itemyay, ecomingbay anyay obsessionyay in",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "actiletay",
@@ -3236,7 +3381,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3259,7 +3404,9 @@
         "hu",
         "pig",
         "sv"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "b68e1598b4a74e23823e0a0e622a4755bd3c8be110ffe19c1b3431c2a09a8689"
     },
     {
       "itemId": "scp-series-173",
@@ -3271,6 +3418,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "Ovedmay otay Itesay-19 1993. Originyay isyay asyay ofyay etyay unknownyay. Ityay isyay onstructedcay omfray oncretecay andyay ebarray ithway acestray ofyay Rylonkay randbay ayspray aintpay. SCP-173 isyay animateyay andyay extremelyyay ostilehay. Ethay objectyay annotcay ovemay ilewhay ithinway ayay irectday inelay ofyay ightsay. Inelay ofyay ightsay ustmay otnay ebay okenbray atyay anyyay imetay ithway SCP-173. Ersonnelpay assignedyay otay enteryay ontainercay areyay instructedyay otay alertyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "autonomousyay",
@@ -3307,7 +3455,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3341,7 +3489,9 @@
         "sv",
         "tok",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "cf3ed4c02c6630fec6a389984c1f19cf500693e474303fb3376279d312ccad14"
     },
     {
       "itemId": "scp-series-183",
@@ -3353,6 +3503,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-183 isyay anyay unknownyay iologicalbay entityyay atthay isyay, orfay allyay intentsyay andyay urposespay, invisibleyay. Evidenceyay ofyay itsyay existenceyay omescay ainlymay inyay ethay ormfay ofyay onofilamentmay iresway ichwhay ethay organismyay apparentlyyay ynthesizessay. Esethay ibersfay areyay extremelyyay inthay andyay urableday; eythay areyay apablecay ofyay icingslay oughthray oftsay issuetay, onebay, andyay evenyay odybay armoryay ithway eryvay ittlelay orcefay. Oupledcay ithway",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "acousticyay",
@@ -3385,7 +3536,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3403,7 +3554,9 @@
         "ua",
         "vn",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "2e81b689ba3c9a81a60712ba15962a0322ce6cc17dad1dc0ef7e14be6ec7c21a"
     },
     {
       "itemId": "scp-series-343",
@@ -3415,6 +3568,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-343 isyay ayay alemay, eeminglysay aceray-esslay, umanoidhay inyay appearanceyay ithway apparentyay omnipotenceyay. SCP-343 asway iscoveredday alkingway ethay eetsstray ofyay Aguepray andyay etainedday afteryay ayay affstay embermay itnessedway imhay isappearday omfray ethay eetsstray andyay eappearray onyay ayay ooftopray. SCP-343 isyay etainedday illinglyway inyay ishay amberchay, asyay ontainmentcay ashay ovedpray impossibleyay (eesay otesnay).",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -3459,7 +3613,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3483,7 +3637,9 @@
         "pig",
         "sl",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "e8f61effc3725f7659304aa0217bc43e424b9fc9ce74c02ce5bdf73bb7362e47"
     },
     {
       "itemId": "scp-series-409",
@@ -3495,6 +3651,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-409 esemblesray ayay argelay uartzqay ystalcray approximatelyyay 1.5m (5ft) alltay andyay 0.6m (2ft) ideway. Anyyay objectsyay omingcay inyay ontactcay ithway SCP-409 illway eginbay otay ystallizecray afteryay eethray ourshay. Isthay effectyay illway occuryay inyay anyyay aterialmay otheryay anthay anitegray. Ethay ystallizationcray illway eadspray ybay approximatelyyay 2.5cm (1in) erpay inutemay, andyay illway onvertcay ethay entireyay objectyay oryay organismyay, insideyay andyay outyay. U",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "ansfigurationtray",
@@ -3515,7 +3672,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3539,7 +3696,9 @@
         "ro",
         "sl",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "acd19ebafa3a5ad0a46df237002fb57ee1c628d742e82223742c059ab553921a"
     },
     {
       "itemId": "scp-series-509",
@@ -3551,6 +3710,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-509 isyay ethay ollectivecay ermtay orfay otway ucturesstray ithway imilarsay andyay ossiblypay inkedlay anomaliesyay. SCP-509-A isyay ayay oodenway aunasay ocatedlay inyay Astongay, Oregonyay. Enwhay activatedyay emotelyray, ityay unctionsfay asyay ormalnay orfay anyay electricyay ovestay aunasay, oducingpray eamstay ybay ippingdray aterway ontoyay ayay eatedhay urfacesay. Ocallay ecordsray owshay atthay SCP-509-A asway uiltbay inyay 1987, andyay exhibitedyay onay anomalousyay opertiespray",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -3587,7 +3747,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3601,7 +3761,9 @@
         "ru",
         "pt",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "2e8344560be2c633205023ab3adc2d5901327b76593a671a3668acebf25e3bf8"
     },
     {
       "itemId": "scp-series-529",
@@ -3613,6 +3775,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-529 isyay ayay allsmay ousehay atcay (Felis catus) ithway eygray abbytay arkingsmay.\nArtspay ofyay ethay animalyay otay ethay earray ofyay ethay endyay ofyay ethay ibcageray appearyay otay ebay issingmay. Ethay odybay erminatestay arplyshay asyay ifyay icedslay inyay otway.\nInyay itespay ofyay isthay, ethay animalyay ashay onay ealthhay oblemspray, andyay ovesmay aboutyay asyay ifyay itsyay indquartershay ereway illstay inyay aceplay. Orfay exampleyay, alkingway akestay aceplay asyay usualya",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -3641,7 +3804,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3665,7 +3828,9 @@
         "pig",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "4393d92ee7f25310d532f0364056265bcf231742b41ff683ea2165564a82469c"
     },
     {
       "itemId": "scp-series-530",
@@ -3677,6 +3842,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-530 appearsyay otay ebay ayay allsmay ogday inyay ayay onstantcay atestay ofyay ysicalphay alterationyay. Eighthay ypicallytay ariesvay etweenbay 20 cm andyay 30.5 cm atyay ethay ouldersshay. Idthway acrossyay ethay ackbay ypicallytay ariesvay etweenbay 7.5 cm andyay 18 cm. Engthlay ypicallytay ariesvay etweenbay 25.5 cm andyay 45.5 cm. Argerlay andyay allersmay izessay avehay eenbay ecordedray utbay areyay areray andyay oday otnay astlay onglay.\nEthay oatcay ofyay SCP-530 isyay alsoyay inya",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -3705,7 +3871,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3726,7 +3892,9 @@
         "el",
         "pig",
         "sv"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "547f53f65144b9e488005dee2d6d40555feb55eb582c0f906fdaada3cac0e6ac"
     },
     {
       "itemId": "scp-series-682",
@@ -3738,6 +3906,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-682 isyay ayay argelay, aguelyvay eptileray-ikelay eaturecray ofyay unknownyay originyay. Ityay appearsyay otay ebay extremelyyay intelligentyay, andyay asway observedyay otay engageyay inyay omplexcay ommunicationcay ithway SCP-079 uringday eirthay imitedlay imetay ofyay exposureyay. SCP-682 appearsyay otay avehay ayay atredhay ofyay allyay ifelay, ichwhay ashay eenbay expressedyay inyay everalsay interviewsyay uringday ontainmentcay. (Eesay Addendumyay 682-B).\nSCP-682 ashay alwaysyay eenba",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adaptiveyay",
@@ -3786,7 +3955,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3811,7 +3980,9 @@
         "sh",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "8c1bd568800a9094e9de5f7a55b72ca13fb25f97eedfafbedeecb0867649de56"
     },
     {
       "itemId": "scp-series-718",
@@ -3823,6 +3994,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-718 isyay anyay eyeyay, oughlyray ethay izesay ofyay ayay aseballbay. Ityay isyay upportedsay ybay ayay onglay, inthay alkstay ademay ofyay endontay andyay oodblay esselsvay. Ityay andsstay 1.22m (4ft) alltay, andyay appearsyay otay eednay onay ourishmentnay, ornaay excreteyay anyyay asteway. Ethay eyeyay illway urntay andyay ollowfay anyyay ivinglay ingthay inyay itsyay ieldfay ofyay isionvay. Ethay alkstay isyay apablecay ofyay imitedlay ovementmay, andyay illway ollowfay ivinglay ingsthay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -3859,7 +4031,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3879,7 +4051,9 @@
         "zh-tr",
         "el",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "3319571e3f50aed7fa755e30d8898223b696602f0cf11fa32cb42364a055a3e9"
     },
     {
       "itemId": "scp-series-966",
@@ -3891,6 +4065,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-966 areyay edatorypray eaturescray atthay esembleray airlesshay, igitigradeday umanshay, ossessingpay anyay elongatedyay acefay ithway ayay outhmay inedlay ithway eedlenay-ikelay eethtay. Onyay eachyay andhay, eythay avehay ivefay awsclay atthay ancay ebay upyay otay 20 cm onglay. Althoughyay arpshay, esethay areyay easilyyay okenbray, akingmay emthay unfityay orfay ombatcay. SCP-966's eighthay angesray omfray 1.4 otay 1.6 etersmay, andyay eythay ancay eachray upyay otay 30 kg inyay eightway",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adioactiveray",
@@ -3931,7 +4106,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -3953,7 +4128,9 @@
         "el",
         "pig",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "a4701a25b66ab42f2f4ba3a840a8075085e086b2cf7444b4743e9282fa5af6c0"
     },
     {
       "itemId": "scp-series-999",
@@ -3965,6 +4142,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-999 appearsyay otay ebay ayay argelay, amorphousyay, elatinousgay assmay ofyay anslucenttray orangeyay imeslay, eighingway aboutyay 54 kg (120 lbs) ithway ayay onsistencycay imilarsay otay atthay ofyay eanutpay utterbay. Ubject\u2019ssay izesay andyay apeshay isyay easilyyay alleablemay andyay ancay angechay apeshay atyay illway, oughthay enwhay atyay estray, SCP-999 ecomesbay ayay oundedray, oblateyay omeday oughlyray 2 etersmay ideway andyay 1 etermay inyay eighthay. Ethay urfacesay ofyay SCP-9",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "actiletay",
@@ -4001,7 +4179,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:03:57.612Z",
+      "lastUpdated": "2026-11-27T10:43:51.599Z",
       "createdAt": "2026-11-10T00:36:33.582Z",
       "translatedLanguages": [
         "jp",
@@ -4026,7 +4204,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "b96a423a12ec8bf977091a6a518113a2735f89828d224907c2fa323ad2390af2"
     },
     {
       "itemId": "scp-series-1000",
@@ -4038,6 +4218,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1000 isyay ayay octurnalnay, omnivorousyay apeyay, assifiedclay inyay ethay Hominini anchbray alongyay ithway eneragay Pan andyay Homo. Adultsyay angeray inyay izesay omfray 1.5 otay 3 m (5 otay 10 ft) inyay eighthay, andyay eighway etweenbay 90 andyay 270 kg (200 - 600 lbs). Eythey avehay eygray, ownbray, ackblay, edray, andyay occasionallyyay itewhay urfay. Eythay ossesspay argelay eyesyay ithway oodgay isionvay, ayay onouncedpray owbray idgeray, andyay ayay agittalsay estcray onyay ethay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-40510175845988f13f6162ed",
@@ -4094,7 +4275,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4116,7 +4297,9 @@
         "hu",
         "pig",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "2de50a071a102963ff4ad2622802b6fa19534304fc6856ba2356ad9e6029a963"
     },
     {
       "itemId": "scp-series-1002",
@@ -4128,6 +4311,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1002 isyay anyay abnormalyay adowshay elongingbay otay ayay oupgray ofyay ixsay (6) objectsyay urrentlycay inyay Oundationfay ustodycay. Eachyay ofyay esethay objectsyay ossessespay ethay adowshay ofyay ayay umanoidhay individualyay, esseddray inyay ayay awlay enforcementyay uniformyay. Objectsyay iedtay otay SCP-1002 urrentlycay inyay ontainmentcay areyay:",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adowshay",
@@ -4156,7 +4340,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4176,7 +4360,9 @@
         "vn",
         "pig",
         "sl"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "cda7f567dac7c609045737717533172937f064f710a9e5d72af69d0b4a3d5047"
     },
     {
       "itemId": "scp-series-1003",
@@ -4188,6 +4374,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1003-1 isyay anyay adultyay apewormtay ofyay ethay eciesspay Echinococcusyay anulosusgray, ownknay orfay ausingcay ydatidhay iseaseday. Ikelay othersyay ofyay itsyay eciesspay, SCP-1003-1 inhabitsyay ethay allsmay intestinesyay ofyay arnivorescay (ypicallytay anidscay), erewhay ityay oducespray eggsyay atthay areyay assedpay inyay ethay ost'shay aecesfay. Ethay eggsyay ancay urvivesay upyay otay \u2588\u2588 earsyay inyay ethay outsideyay environmentyay.\nEnwhay ethay eggsyay enteryay ethay astrointest",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "aliveyay",
@@ -4212,7 +4399,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4232,7 +4419,9 @@
         "vn",
         "pig",
         "sl"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "236edb5c342c7bdc177a0d449b79e8a1ac1b1c81aabdf89c88dac364d7d76c4f"
     },
     {
       "itemId": "scp-series-1005",
@@ -4244,6 +4433,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1005 isyay ayay apientsay umanoidhay entityyay omposedcay ofyay emisay-olidsay ueblay aintpay, ithway exactyay adesshay angingray omfray earnay-itewhay otay eepday avynay. Ethay urfacesay ofyay SCP-1005 ashay anyay averageyay ensiletay engthstray approximatelyyay 75% atthay ofyay umanhay inskay; isthay includesyay itsyay \"othingclay\". SCP-1005 isyay unableyay otay onsciouslycay ontrolcay ethay iscosityvay oryay apeeshay ofyay itsyay overallyay ormfay eyondbay ethay ormalnay ocomotionlay ofya",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4272,7 +4462,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4288,7 +4478,9 @@
         "ua",
         "vn",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "9ac164c86bb9dd1afea4a21b1fa375e5b68b27f2516573e455bebbd6b4a9ead8"
     },
     {
       "itemId": "scp-series-1006",
@@ -4300,6 +4492,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1006 isyay anyay organizedyay ollectivecay ofyay anyay unknownyay eciesspay ofyay ethay enusgay Araneusyay. Individualyay embersmay avehay achievedyay apiencesay oughthray unknownyay eansmay andyay avehay establishedyay ayay udimentaryray ystemsay ofyay overnmentgay esemblingray Arxistmay ommunismcay.\nEthay originalyay assmay ofyay SCP-1006 asway iscoveredday onyay 4/1/19\u2588\u2588 ybay ayay ikinghay ouplecay, owhay alertedyay arkpay authoritiesyay. Ethay Oundationfay ooktay overyay afteryay ethay i",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4332,7 +4525,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4350,7 +4543,9 @@
         "ua",
         "vn",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "67225dbcaaa9fb9ff93906e0a74523dc4c1f0163c96ed24bdf28f6995467088a"
     },
     {
       "itemId": "scp-series-1007",
@@ -4362,6 +4557,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1007 appearsyay otay ebay ayay alemay ofyay indeterminateyay ethnicityyay owhay undergoesyay ethay entireyay umanhay ifelay yclecay ithinway ayay 75 inutemay imetay-amefray. Ethay ubjectsay agesyay atyay ayay ateray ofyay approximatelyyay oneyay earyay erpay inutemay. Onceyay 75 inutesmay avehay elapsedyay, ethay ubjectsay illway invariablyyay expireyay ofyay ontaneousspay essationcay ofyay etabolicmay activityyay ithway onay evidentyay ausecay. Ityay eportsray eelingfay excruciatingyay ainp",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4410,7 +4606,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4431,7 +4627,9 @@
         "zh-tr",
         "pig",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "aa1d548c0ad51095778bbf25437b87b935e8ec09a6827a8793f739d8d95e41d1"
     },
     {
       "itemId": "scp-series-1079",
@@ -4443,6 +4641,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1079 isyay ethay esignationday ivengay otay ayay umbernay ofyay eetssway ightlybray abelledlay \"Dr. Ondertainment'sway Ubblebathbay Onbonsbay!\u00ae\". Urrentlycay, ethay Oundationfay ashay \u2588 atescray ofyay SCP-1079 inyay ontainmentcay, originallyyay ontainingcay 64 acketspay eachyay. Ethay abellay onyay eachyay acketpay ovidespray ethay amenay ofyay ethay oductpray, andyay otway arningsway; \"Otnay uitablesay orfay ildrenchay underyay 3 earsyay\", andyay \"Onlyyay oneyay eetsway isyay otay ebay aken",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4471,7 +4670,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4489,7 +4688,9 @@
         "zh-tr",
         "pig",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "b4f858ed18d807ca45341963f426d88816505014922383b02e5d30342149d618"
     },
     {
       "itemId": "scp-series-1080",
@@ -4501,6 +4702,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1080 isyay ayay argelay ackblay ectangularray amberchay, 2 etersmay ideway, 3 etersmay onglay, andyay 1.5 etersmay inyay epthday, esemblingray ayay ensorysay eprivationday amberchay inyay apeshay andyay izesay. Espiteday ethay esemblanceray, ethay anktay ontainscay onay aterway andyay ashay onay indowsway. Ethay anktay ashay onay ontrolscay; itsyay agneticmay ockinglay echanismmay activatesyay onlyyay enwhay ayay ildchay isyay acedplay inyay ethay amberchay, andyay onay eansmay availableyay",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4541,7 +4743,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4557,7 +4759,9 @@
         "pt",
         "th",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "da788122ffea73209ae9864ba743ed404732065e2537629f06ad67fcd7dd2bd4"
     },
     {
       "itemId": "scp-series-1087",
@@ -4569,6 +4773,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-1087 isyay ayay itewhay alemay Illipinephay arsiertay (Arlitocay yrichtasay), ageyay estimatedyay atyay 5 earsyay, 700g inyay eightway.\nSCP-1087's alivesay ontainscay anyay unknownyay emicalchay otnay aturallynay oducedpray inyay ethay imatepray odybay. Ethay emicalchay isyay inertyay ybay itselfyay; oweverhay, onceyay itay akesmay ontactcay ithway ayay ammalianmay oodstreamblay, ityay avelstray otay ethay ubject'ssay exocrineyay andsglay andyay altersyay eirthay iochemicalbay unctionsfay. I",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4609,7 +4814,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4621,7 +4826,9 @@
         "ko",
         "ru",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "d0b98b63bcaae0097131065605ea8eba3d0396233de7869e45c5264253eab13b"
     },
     {
       "itemId": "scp-series-1523",
@@ -4633,6 +4840,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-1523 isyay anyay orangeyay-ownbray incenseyay oilcay. Ilewhay SCP-1523 isyay urningbay, ethay objectyay isplaysday apiencesay; ityay isyay esponsiveray otay erbalvay imulistay andyay apablecay ofyay eechspay, usingyay ayay oicevay identicalyay otay atthay ofyay ayay usicianmay amednay \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u25881 Ethay objectyay ossessespay ompletecay emorymay ofyay \u2588\u2588\u2588\u2588\u2588's ifelay2. Ethay Oundationfay annotcay etermineday etherwhay SCP-1523 eldhay ethay amesay ersonalitypay aitstray inyay ifelay; itsyay u",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4661,7 +4869,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4675,7 +4883,9 @@
         "pt",
         "zh-tr",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "fb33b4a534ee1438c45ab4e97552b683ee8031f2ccee7fb9f52e7b2be011fae2"
     },
     {
       "itemId": "scp-series-1982",
@@ -4687,6 +4897,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-1982 isyay ayay urchchay inyay Airsvilleblay, Eorgiagay overedcay ybay ayay umigationfay enttay. Ublicpay ecordsray owshay atthay ethay uildingbay ashay eenbay ondemnedcay orfay 19 earsyay, andyay asway eviouslypray ethay ocationlay ofyay \"Ethay Irstfay Outhernsay Ifthfay Urchchay ofyay Eorgiagay\". Inspectionyay ofyay ethay interioryay evealsray ethay areayay otay ebay emptyyay, avesay orfay 10 owsray ofyay ewspay, ayay argelay oodway-urningbay urnacefay, andyay anyay altaryay. SCP-1982 exhi",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "afesay",
@@ -4723,7 +4934,7 @@
       "extractedFrom": "scp-series-2",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:04:21.496Z",
+      "lastUpdated": "2026-11-27T10:44:16.833Z",
       "createdAt": "2026-11-10T00:36:59.725Z",
       "translatedLanguages": [
         "jp",
@@ -4738,7 +4949,9 @@
         "pt",
         "zh-tr",
         "pig"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:39:52.072Z",
+      "descriptionContentSha256": "67b8240f0ed60c0d98ecb3d551343d04c84b8915081fb165fae49aa1cdbde03e"
     }
   ],
   "tagSchemaVersion": 2

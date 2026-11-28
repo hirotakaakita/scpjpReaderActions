@@ -1,8 +1,8 @@
 {
   "totalCount": 11,
   "language": "la",
-  "timestamp": "2026-11-22T13:15:35.556Z",
-  "duration": 7,
+  "timestamp": "2026-11-28T07:48:36.397Z",
+  "duration": 8,
   "status": "completed",
   "statistics": {
     "translated": 11,
@@ -20,6 +20,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "QUAE SEQUUNTUR DISTINCTI SUNT FILES SUMMO SECRETUM JUSSU ADMINISTRATORIS LICEAT I-ALFA: Ut ne scientia SCP-LA-I quaeque esse ex complures/files SCP-LA-I falsum non sunt creata a latere verum lima / files. Omnes files de ratione SCP-LA-I, inter quas ad inlecebras / Decoys, tutantur ab agente memetic occiditis disposito statim ut faciam cardiac prensionem ullo nonauthorized personas conanti accedere ad tabella. TEMPORIS REVELANS vera natura/SCP-LA-I naturas rerum in publico ad supplicium est causa",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -27,11 +28,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "83a6d2b809d5b6a5a6c11da07a0b4d8d5e7f0d2c9f7a58f9967bfbd7df0327a3"
     },
     {
       "itemId": "scp-series-la-002",
@@ -43,6 +46,7 @@
       "objectClass": "Euclid",
       "rating": 12,
       "descriptionExcerpt": "SCP-LA-II viridis fructum est, quod ex atmospher\u0101 Terrae in VIII/XIV/MMXII exierat. Quomodo potest viv\u0113re nescitur, sed inter curs\u016bs de Urani et Neptuni iam est.",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "biological",
@@ -71,11 +75,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "fc8f88703c9f6d92a4fdf234b7a23b38f7fff92dfe53538a6fd3d3d2a9061bed"
     },
     {
       "itemId": "scp-series-la-003",
@@ -87,6 +93,7 @@
       "objectClass": "Euclid",
       "rating": null,
       "descriptionExcerpt": "SCP-LA-III ostium est quod cubiculum perditum ducit. SCP-LA-III creaturam quoque in se habet quae in SCP-LA-III-I numeretur. Spatium intra SCP-LA-III a manipulis exploratum est ut fines SCP-LA-III metiretur.",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -94,11 +101,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "f5f4f125ca16603c31d89f9a29502a26e0c34f14a99041c5c910a69f74c7ce8f"
     },
     {
       "itemId": "scp-series-la-004",
@@ -110,6 +119,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "SCP-LA-IV praefectus vigilum est qui 4 oculos 4 manus habet et 180cm altitudinem habet, linguas ignotas loqui potest, sed saepe antiquas latinas loquitur. Facultas anomaliae quam SCP-LA-IV producere potest, eos qui circa se sunt sentiunt cop esse solito more.\nSCP-LA-IV copias ignotas vias creare potest, quavis hora SCP-LA-IV copias creat ut membra CIA, FBI et alia, copiae ex SCP-LA-IV generatae ut SCP-LA-IV generantur. 1 . turma non ora est, dum SCP-LA-IV.",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -117,11 +127,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "18a5e43cdeb70b95e8f73fce5bb85f60a05e28b6a43dbb33ac619c82a6184b6c"
     },
     {
       "itemId": "scp-series-la-005",
@@ -133,6 +145,7 @@
       "objectClass": "Corona",
       "rating": 0,
       "descriptionExcerpt": "contineri est phaenomenon memeticum circa homicidia non existentes, veluti fientes in oppido San Siro, Mediolani mense Iulio 1988 . Secundum phaenomenon victimae bibliothecariae bibliothecariae erant et caedes eodem tempore commissae sunt in bibliotheca locali Portuensis a Garrett Kinander Bales, immigrans Americanus, qui mense Iunio 1950 natus est et in Italiam anno 1975 commotus est, nulla Bales, bibliothecarius. , seu Bibliotheca nominata in oppido Mediolanensi inventa est, ducens Fundamentum",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "infohazard",
@@ -169,11 +182,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "f323c214eb56188917527d9be494edab3204c4e94e259da2e695b3da525cc73a"
     },
     {
       "itemId": "scp-series-la-006",
@@ -185,6 +200,7 @@
       "objectClass": "Corona",
       "rating": 0,
       "descriptionExcerpt": "SCP-LA-VI est via picea nigra quae in silva densa et caligionosa silva montana appartet Locus viae non est fixa et apparere potest in variis locis silvae profundae circa mundum plerumque in nebula gravis et sub cinereo caelum nubilum SCP-LA-VI intrat in inane sine fine trahunter regnum temportis ac spatii experte quod Vacuus Abyssal vocatur Inanis est spatium trandimensionale Immodratum quod extra rem notam exisit Inanis natura proprietates dimensionales suseripres suggerit ubi narrationes eorum",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "cognitohazard",
@@ -237,11 +253,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "11c58503b0aac5b303198f4fba99516232f70899e3a16fe49241fcc5343afed8"
     },
     {
       "itemId": "scp-series-la-007",
@@ -253,6 +271,7 @@
       "objectClass": "Euclid",
       "rating": 4,
       "descriptionExcerpt": "SCP-LA-VII tropaeum vitreum variis gemmis, inclusis adamantibus, ornatum est, 68,5 cm altitudinis x 31,5 cm diametri mensurans et 20 kg. In fundo argumenti, ignotae notae in circulo per marginem scriptae sunt, et nonnullae scalpturae sunt.\nCum personas rei attingunt, incipient omnes vitae suae memoriam vivere, incipientes a proximis praeteritis, gradatim et successivis. Hic processus ab persona ad personam variatur et fere 25-30 minuta sumit.\nSi enim aliquod temporis spatium elapsum est, cum rei",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "euclid",
@@ -265,11 +284,13 @@
       "extractedFrom": "scp-series-la",
       "pageType": "scp-series-la",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:10.405Z",
+      "lastUpdated": "2026-11-27T10:37:34.505Z",
       "createdAt": "2026-11-10T00:34:49.366Z",
       "translatedLanguages": [
         "la"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "53180aa521a6399df51b6b4c578f27a9280e6e4ba0f741f6011b1d177d59ee22"
     },
     {
       "itemId": "scp-series-005",
@@ -281,6 +302,7 @@
       "objectClass": "Innocuus",
       "rating": 12,
       "descriptionExcerpt": "De specie SCP-V quod similis est clave autem ornatio. Pluma de massa productio videtur non est clavis usus est era MCMXX. Haec clavis inventum est cum usura haec clavis et togatus conteram et in securitatem restrictus facilitas. SCP-V habet facultatem aperire claves secundum omnes species est genus facile neglegens autem digital seu mechanicas(videre Appendix A).",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adaptive",
@@ -309,7 +331,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:15.333Z",
+      "lastUpdated": "2026-11-27T10:37:39.546Z",
       "createdAt": "2026-11-10T00:34:54.658Z",
       "translatedLanguages": [
         "jp",
@@ -369,7 +391,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "2fffc4e7fac513ed781b890b4125e96ccf743e51f657acbc8cb8c30659ad9f65"
     },
     {
       "itemId": "scp-series-066",
@@ -381,6 +405,7 @@
       "objectClass": null,
       "rating": 7,
       "descriptionExcerpt": "SCP-LXVI est et messa turupis perplexi relatorum circiter I scripulus. Quisque filum de SCP-LXVI potest tracto manualis singillatim. Tum chorda sonum emittit totius cum sana gradus(Ut-Re-Mi-Fa-So-La-Si).\nCum sex sonos quam emittentur, et SCP-LXVI ostendit innocens varii effectus et varii tempus. Dum is in hunc modum progressus, SCP-LXVI omnis sgunt non accipere. Eventus ante Casus LXVI-II monstrantur infra.\n\nSCP-XVI transfigurat ut iuvenes feles super septimoyou decimo-sexaginta hora. Iuvenes fe",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "eric",
@@ -409,7 +434,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:15.333Z",
+      "lastUpdated": "2026-11-27T10:37:39.546Z",
       "createdAt": "2026-11-10T00:34:54.658Z",
       "translatedLanguages": [
         "jp",
@@ -433,7 +458,9 @@
         "la",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "6cf564b31121ef6b532b1ee655f961b3ffdb9b23d0ae796339623c08c1303f69"
     },
     {
       "itemId": "scp-series-079",
@@ -445,6 +472,7 @@
       "objectClass": "Euclid",
       "rating": 7,
       "descriptionExcerpt": "SCP-LXXIX est Exidy Veneficus microcomputer fecit in MCMLXXVIII. In MCMLXXXI, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588(mortuus) de secunda grader \u2588\u2588\u2588 Universitatis qui est dominus rei conati sunt progressio Codicis. Secundum eius note, quae cogitavit videtur Code ut amplio in se processu temporis ad scribendum. Paucis mensibus complendas peracta inquisitione disponerentur, alium computer movere rem suum. Reliquit in in garage SCP-LXXIX activated et oblitus est ad quinquennium.\nNescio quo SCP-LXXIX affectus statuit sibi. Au",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "computatrum",
@@ -477,7 +505,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:15.333Z",
+      "lastUpdated": "2026-11-27T10:37:39.546Z",
       "createdAt": "2026-11-10T00:34:54.658Z",
       "translatedLanguages": [
         "jp",
@@ -502,7 +530,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "f993c5058cd23d519062eda3ae716ea5e3524e11b188c6e6857b09d3ef1cda2a"
     },
     {
       "itemId": "scp-series-173",
@@ -514,6 +544,7 @@
       "objectClass": "Euclid",
       "rating": 17,
       "descriptionExcerpt": "Motum ad Castrum-XIX anno domini MCMXCIII. Origo hoc tempore ignota est. Caemento et ferro constructum est, ac vestigionibus pigmenti sparsi Krylonis. SCP-CLXXIII est animans hostilissimusque. Non potest movere dum in linea directa videtur. Linea visus cum SCP-CLXXIII non interpellendus est. Curatores assignati cubiculum inire doceantur se monere antequam connivent. Res scientur oppugnare aut collo mordindo ad basem calavariae aut suffocatione. Si oppugnet, curatores utantur Genus-IV formulis re",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "tag-4312f8cbe8bd1cef24676b30",
@@ -542,7 +573,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:00:15.333Z",
+      "lastUpdated": "2026-11-27T10:37:39.546Z",
       "createdAt": "2026-11-10T00:34:54.658Z",
       "translatedLanguages": [
         "jp",
@@ -576,7 +607,9 @@
         "sv",
         "tok",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:51.007Z",
+      "descriptionContentSha256": "1efef2653cab8934564a8b2775b7895d4876b43b6df53f560a332e3593a2a700"
     }
   ],
   "tagSchemaVersion": 2

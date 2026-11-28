@@ -1,7 +1,7 @@
 {
   "totalCount": 7,
   "language": "da",
-  "timestamp": "2026-11-22T13:15:35.556Z",
+  "timestamp": "2026-11-28T07:48:36.397Z",
   "duration": 6,
   "status": "completed",
   "statistics": {
@@ -20,6 +20,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "DE F\u00d8LGENDE FILER ER BLEVET KLASSIFICERET SOM TOP HEMMELIGE EFTER ORDRE FRA ADMINISTRATIONEN GENEREL MEDDELELSE 001-Alfa: For at forhindre at viden om SCP-001-ND bliver l\u00e6kket, er flere falske SCP-001-ND filer blevet lavet sammen med den \u00e6gte fil. Alle filer omhandlende SCP-001-ND, inklusiv de falske filer, er beskyttet af et memetisk dr\u00e6bemiddel designet til \u00f8jeblikkeligt at give hjerteangreb til al ikke-autoriseret personale, der pr\u00f8ver at f\u00e5 adgang til filen. Afsl\u00f8relse af den sande natur af ",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -27,13 +28,15 @@
       "extractedFrom": "da:scp-series-nd",
       "pageType": "scp-series-nd",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:25.317Z",
+      "lastUpdated": "2026-11-27T10:26:07.214Z",
       "createdAt": "2026-11-10T00:33:40.457Z",
       "translatedLanguages": [
         "da",
         "no",
         "sv"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "86cfac803d531c12072f244efedad7f50f77f16687971b3825536c747d62b72a"
     },
     {
       "itemId": "scp-series-nd-004",
@@ -45,6 +48,7 @@
       "objectClass": "Euclid",
       "rating": 0,
       "descriptionExcerpt": "SCP-004-ND er en r\u00f8d boks. P\u00e5 overfladen af SCP-004-ND er en s\u00e6tning skrevet i blod:\u00c5ben mig ikke.N\u00e5r du ser SCP-004-ND-overfladen, fors\u00f8ger den at \u00e5bne SCP-004-ND. N\u00e5r du har \u00e5bnet SCP-004-ND, d\u00f8r personen direkte. P\u00e5 grund af dette ved vi ikke, hvad der er inde i SCP-004-ND, og ingen t\u00f8r at se p\u00e5 det.\nSCP-004-ND \u00e6ndrer sin position kl. 4:00 p\u00e5 fredag. Det vil teleportere fra SCP-004-ND kabinettet til gulvet, og det er umuligt at se SCP-004-ND. Ideen om at oprette et kamera i kabinettet SCP -00",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "dansk",
@@ -65,11 +69,13 @@
       "extractedFrom": "da:scp-series-nd",
       "pageType": "scp-series-nd",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:25.317Z",
+      "lastUpdated": "2026-11-27T10:26:07.214Z",
       "createdAt": "2026-11-10T00:33:40.457Z",
       "translatedLanguages": [
         "da"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "5cfba8e45dbf5b2197e8e9c06c904ad4247d690987b25a75ce8d0ce2901fc657"
     },
     {
       "itemId": "scp-series-001",
@@ -81,6 +87,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "DE F\u00d8LGENDE FILER ER BLEVET KLASSIFICERET SOM TOP HEMMELIGE EFTER ORDRE FRA ADMINISTRATIONEN GENEREL MEDDELELSE 001-Alfa: For at forhindre at viden om SCP-001 l\u00e6kkes, er der oprettede flere/ingen falske SCP-001 filer sammen med den sande fil/filer. Alle filer vedr\u00f8rende SCP-001\u2019s natur, inklusive lokkefil(er), er beskyttet af en memetisk dr\u00e6beragent designet til straks at for\u00e5rsage hjertestop hos enhver uautoriseret person, der fors\u00f8ger at f\u00e5 adgang til filen. Afsl\u00f8ring af den sande natur/nature",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -88,7 +95,7 @@
       "extractedFrom": "da:scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:27.669Z",
+      "lastUpdated": "2026-11-27T10:26:09.219Z",
       "createdAt": "2026-11-10T00:33:42.801Z",
       "translatedLanguages": [
         "jp",
@@ -118,7 +125,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "85155cfcc6562f5fd4e640d528037f76ff334db21f4065d97203712e86bcabba"
     },
     {
       "itemId": "scp-series-002",
@@ -130,6 +139,7 @@
       "objectClass": null,
       "rating": 4,
       "descriptionExcerpt": "SCP-002 ligner en tumorform, k\u00f8dfyldt v\u00e6kst med et rumfang p\u00e5 ca. 60 m\u00b3 (eller 2000 ft\u00b3). En jernventilluge p\u00e5 en side f\u00f8rer til dens indre, hvilket ser ud til at v\u00e6re en normal lejlighed af beskeden st\u00f8rrelse. En v\u00e6g af v\u00e6relset har et enkelt vindue, dog er ingen s\u00e5dan \u00e5bning synlig udefra. V\u00e6relset har m\u00f8bler, som, ved n\u00e6rmere unders\u00f8gelse, ser ud til at v\u00e6re skulptureret knogle, v\u00e6vet h\u00e5r og forskellige andre biologiske stoffer produceret af menneskekroppen. Al stof testet indtil videre viser",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -137,7 +147,7 @@
       "extractedFrom": "da:scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:27.669Z",
+      "lastUpdated": "2026-11-27T10:26:09.219Z",
       "createdAt": "2026-11-10T00:33:42.801Z",
       "translatedLanguages": [
         "jp",
@@ -167,7 +177,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "e88d14fb66b45a9f23ee4cd91bfb8fe240d49bcf255a36e1f371f0c43bb2ca9c"
     },
     {
       "itemId": "scp-series-003",
@@ -179,6 +191,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "SCP-003 best\u00e5r af to relaterede komponenter af forskellige oprindelser, refereret til som SCP-003-1 og SCP-003-2.\nSCP-003-1 ser ud til at v\u00e6re sammensat af kitin, h\u00e5r og negle af ukendt biologi, arrangeret i en konfiguration, der minder om en computeres bundkort. Afpr\u00f8vninger viser, at SCP-003-1 er tusindvis af \u00e5r \u00e6ldre end de tidligste kendte printkort. SCP-003-1 betragtes som sansende, men ikke aktiv farlig, undtagen under visse betingelser.\nSCP-003-1 blev fundet p\u00e5 en stentavle, SCP-003-2, so",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -186,7 +199,7 @@
       "extractedFrom": "da:scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:27.669Z",
+      "lastUpdated": "2026-11-27T10:26:09.219Z",
       "createdAt": "2026-11-10T00:33:42.801Z",
       "translatedLanguages": [
         "jp",
@@ -215,7 +228,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "be113855d41e81708c3e2ff2a11c022a58048aaf09b6027b7149efff6a013397"
     },
     {
       "itemId": "scp-series-037",
@@ -227,6 +242,7 @@
       "objectClass": "Euclid",
       "rating": 2,
       "descriptionExcerpt": "SCP-037 ser ud til at v\u00e6re en stjerne med en diameter p\u00e5 cirka 5 cm (2 tommer), med en lysstyrke p\u00e5 omkring 1*10^-12 gange vores sol og en overfladetemperatur p\u00e5 omkring 5000 K (bestemt ved UBVRI analyse). SCP-037's oprindelse er ukendt, men analyse tyder p\u00e5, at den deler mange egenskaber med en typisk hovedseriestjerne, bortset fra dens anomalt lille st\u00f8rrelse. Det formodes at have tr\u00e6ngt ind i Jordens magnetosf\u00e6re via den Nordlige Magnetpol.\nObjektet blev opdaget i 19\u2588\u2588 over Beaufort Havet ved",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -234,7 +250,7 @@
       "extractedFrom": "da:scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:27.669Z",
+      "lastUpdated": "2026-11-27T10:26:09.219Z",
       "createdAt": "2026-11-10T00:33:42.801Z",
       "translatedLanguages": [
         "jp",
@@ -258,7 +274,9 @@
         "hu",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "0a9d43c415bc067eb4102b92e3950883652c2a5cda4f0d7285168bc517f93fe8"
     },
     {
       "itemId": "scp-series-173",
@@ -270,6 +288,7 @@
       "objectClass": null,
       "rating": 5,
       "descriptionExcerpt": "Flyttet til Omr\u00e5de-19 1993. Oprindelse er endnu ukendt. Den er konstrueret af beton og rebar med spor af krylonbrandspraymaling. SCP-173 er animeret og yderst fjendtlig. Objektet kan ikke bev\u00e6ge sig indenfor et direkte synsfelt. Synslinje med SCP-173 m\u00e5 ikke til brydes p\u00e5 noget tidspunkt. Personale, der er p\u00e5lagt at tr\u00e6nge ind i beholderen, instrueres i at advare hinanden, f\u00f8r de blinker. Det indeberettes om genstanden, at den angriber ved at kn\u00e6kke nakken i bunden af kraniet eller ved kv\u00e6lning.",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -277,7 +296,7 @@
       "extractedFrom": "da:scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T06:57:27.669Z",
+      "lastUpdated": "2026-11-27T10:26:09.219Z",
       "createdAt": "2026-11-10T00:33:42.801Z",
       "translatedLanguages": [
         "jp",
@@ -311,7 +330,9 @@
         "sv",
         "tok",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:44:37.767Z",
+      "descriptionContentSha256": "5f3498f39c8c7764518b1ef22deceef39d17b998e5ae3c824b68befe666aadbb"
     }
   ],
   "tagSchemaVersion": 2

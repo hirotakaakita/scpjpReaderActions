@@ -1,8 +1,8 @@
 {
   "totalCount": 16,
   "language": "nl",
-  "timestamp": "2026-11-22T13:15:35.556Z",
-  "duration": 30,
+  "timestamp": "2026-11-28T07:48:36.397Z",
+  "duration": 11,
   "status": "completed",
   "statistics": {
     "translated": 16,
@@ -20,6 +20,7 @@
       "objectClass": "Euclid",
       "rating": 2,
       "descriptionExcerpt": "SCP-002 lijkt op een tumor-achtig, vlezig groeisel met een volume van ongeveer 60 m3 (of 2000 ft3). Een ijzeren luik aan een kant lijdt tot de binnenkant die eruit ziet als een laag-huur appartement van bescheiden grootte, \u00e9\u00e9n muur van de kamer heeft een enkel raam, deze opening is echter niet zichtbaar van de buitenkant. De kamer is bemeubeld met meubels die, met dichter onderzoek, zijn opgebouwd met gebeeldhouwde botten, gevlochten haar en verschillende andere biologische stoffen geproduceerd",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -27,7 +28,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -87,7 +88,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "fd2754c9c24c5a506ecc9189912999eb6ebfd178210d084cdb4abe9640ab95bf"
     },
     {
       "itemId": "scp-series-003",
@@ -99,6 +102,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-003 bestaat uit twee verwante componenten van afzonderlijke oorsprong, aangeduid als SCP-003-1 en SCP-003-2.\nSCP-003-1 lijkt te bestaan uit chitine, haar en nagels van onbekende biologie, gerangschikt in een configuratie die lijkt op die van een computermotherboard. Testen onthult SCP-003-1 om de vroegst bekende printplaten met een factor van duizenden jaren te dateren. SCP-003-1 wordt beschouwd als gevoelig maar niet actief gevaarlijk behalve onder bepaalde voorwaarden.\nSCP-003-1 werd gevon",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "biologisch",
@@ -155,7 +159,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -184,7 +188,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "f2c7e51cb9ee7b0a03ee18747c157ae131e13998598b7069952d30a1fb5267e3"
     },
     {
       "itemId": "scp-series-004",
@@ -196,6 +202,7 @@
       "objectClass": "Euclid",
       "rating": 1,
       "descriptionExcerpt": "SCP-004 bestaat uit een oude, houten schuurdeur(SCP-004-1) en een set van 12 verroeste stalen sleutels (SCP-004-2 tot SCP-004-13). De deur zelf is de toegang tot een verlaten fabriek in [GEGEVENS VERWIJDERD].",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "bouwen",
@@ -240,7 +247,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -268,7 +275,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "3b4dc69482508bcf48365c74e1d2f96814965584bfaf4ba29839339d68e7e7e3"
     },
     {
       "itemId": "scp-series-005",
@@ -280,6 +289,7 @@
       "objectClass": null,
       "rating": 2,
       "descriptionExcerpt": "In uiterlijk lijkt SCP-005 op een sierlijke sleutel, die de kenmerken van een typische massa geproduceerde sleutel toont die in de jaren 1920 werd gebruikt. De sleutel werd ontdekt toen een burger het gebruikte om een hoog beveiliging gebouw te infiltreren.SCP-005 lijkt de unieke mogelijkheid te hebben om alle soorten vergrendelingen (zie bijlage A), mechanisch of digitaal, met relatief gemak te openen. De oorsprong van deze vermogen moet nog worden bepaald.",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "adaptieve",
@@ -312,7 +322,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -372,7 +382,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "a3beb991c6ee5e699b134330eb745e8078636de7427f13471aa38f18ac668d88"
     },
     {
       "itemId": "scp-series-008",
@@ -384,6 +396,7 @@
       "objectClass": null,
       "rating": 0,
       "descriptionExcerpt": "SCP-008 is een complexe prion waarvan samples op elke G2-site te vinden zijn. De studie van SCP-008 is zeer geclassificeerd en is primair gericht op het voorkomen van onderzoek dat zou kunnen leiden tot de synthese van SCP-008 in de verre toekomst. De kenmerken van de SCP-008 Prion zijn:\n\n100% besmettelijk.\n100% dodelijk.\nOverdracht door blootgestelde slijmvliezen en eventuele lichaamsvloeistoffen.\nNiet overdraagbaar door lucht of water.\n\nSymptomen van SCP-008 infectie manifesteren zich binnen d",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "besmetting",
@@ -416,7 +429,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -474,7 +487,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "f3450a5d65878937d243d1ee3054ad45cf21ad5895c7a0e129d85e4ef4806d53"
     },
     {
       "itemId": "scp-series-009",
@@ -486,6 +501,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "Objectnr.: SCP-009 Klasse: Euclid Speciale Veiligheidsmaatregelen: Onderwerp zal worden ingesloten in een verzegelde opslagtank gemaakt van hittebestendige legering met dimensies van niet minder dan 14 m3. Onder geen situatie zal SCP-009 worden blootgesteld tegen temperaturen hoger dan 0\u00b0C wanneer er geen tests plaatsvinden en geen alledaagse vloeistoffen in vaste staat (vooral bevroren water) mogen binnen 30 meter van het insluitingsgebied van het onderwerp worden toegelaten.De kamer van onderw",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "euclid",
@@ -518,7 +534,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -574,7 +590,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "b12759cab8dbaea3e03792b1682a8486ff3ff8642043e01fa628103a43f48219"
     },
     {
       "itemId": "scp-series-031",
@@ -586,6 +604,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-031 is een amorf organisme, met een massa van 75 kilogram. SCP-031 kan met een snelheid van 3 km / h bewegen en laat een oliespoor achter als het beweegt. Het is alleen in staat tot rudimentaire fysieke beweging. Testen van teruggewonnen weefselmonsters heeft aangetoond dat SCP-031 ten minste gedeeltelijk is samengesteld uit menselijke spieren en epidermaal weefsel. SCP-031 is in staat menselijke spraak te reproduceren in elke toonhoogte of toon, hoewel het momenteel niet bekend is hoe de bi",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "akoestiek",
@@ -626,7 +645,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -649,7 +668,9 @@
         "nl",
         "sl",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "fb367a8bf575e624b24e66ec881195a3e5e0506dab67dc93d445aea902555717"
     },
     {
       "itemId": "scp-series-049",
@@ -661,6 +682,7 @@
       "objectClass": null,
       "rating": null,
       "descriptionExcerpt": "SCP-049 is een humano\u00efde entiteit, ongeveer 1,9 meter hoog, die het uiterlijk heeft van een middeleeuwse pestdoctor/snaveldocter/pestarts. Terwijl de SCP-049 de dikke gewaden en het keramische masker lijkt te dragen dat een indicatie is van dat beroep, de kledingstukken lijken in de loop der tijd uit het lichaam van de SCP-049 te zijn gegroeid en zijn nu bijna niet te onderscheiden van welke vorm dan ook onder het bevindt. R\u00f6ntgenstralen geven aan dat SCP-049 desondanks een humano\u00efde skeletstruc",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -668,7 +690,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -693,18 +715,21 @@
         "pig",
         "sl",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "47c9c0ea05c57bf08e797b778d1255e1cceb35069ed75229451b2a74aad17529"
     },
     {
       "itemId": "scp-series-055",
       "numericItemId": 55,
-      "titleJP": "",
+      "titleJP": "SCP-055",
       "urlEN": "https://scp-wiki.wikidot.com/scp-055",
       "urlJP": "https://scp-nl.wikidot.com/scp-055",
       "imageUrl": null,
       "objectClass": null,
       "rating": 0,
       "descriptionExcerpt": "SCP-055 is een \"zelfbewust geheim\" of \"anti-meme\". Informatie over het fysieke uiterlijk van de SCP-055, evenals de aard, het gedrag en de oorsprong is zelf classificerend. Verduidelijken:\n\nHoe Lokatie 19 oorspronkelijk aan SCP-055 kwam, is onbekend.\n\n\nWanneer SCP-055 werd verkregen en door wie, is onbekend.\n\n\nSCP-055's fysieke verschijning is onbekend. Het is niet onbeschrijfelijk of onzichtbaar: individuen zijn perfect in staat om de container van de SCP-055 binnen te gaan en te observeren, me",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "antimemetis",
@@ -737,7 +762,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -763,7 +788,9 @@
         "sh",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "6b740269d162363ebdacca17f9d8bc454d15d3dddf40f53ea8ac6c9cb156ae99"
     },
     {
       "itemId": "scp-series-087",
@@ -775,6 +802,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-087 is een onverlichte platformtrap. Trappen dalen 13 treden af in een hoek van 38 graden voordat ze een halfrond platform van ongeveer 3 meter in diameter bereiken. De afdaling richting draait 180 graden op elk platform. Het ontwerp van de SCP-087 beperkt de onderwerpen tot een visueel bereik van ongeveer 1,5 vluchten. Een lichtbron is vereist voor alle onderwerpen die SCP-087 verkennen, omdat er geen verlichtingsarmaturen of vensters aanwezig zijn. Verlichtingsbronnen die helderder zijn da",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "akoestisch",
@@ -811,7 +839,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -836,7 +864,9 @@
         "sl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "8ed24b58ec18b59960ac167eec8dcfc503ccd70884955fda8c124a43dbdfb4a1"
     },
     {
       "itemId": "scp-series-096",
@@ -848,6 +878,7 @@
       "objectClass": "Euclid",
       "rating": null,
       "descriptionExcerpt": "SCP-096 is een mensachtige wezen die ongeveer 2,38 meter lang is. Object vertoont zeer weinig spiermassa, waarbij voorlopige analyse van lichaamsgewicht duidt op milde ondervoeding. De armen staan totaal buiten proportie in tegenstelling tot de rest van het lichaam van het onderwerp, met een lengte van elk ongeveer 1,5 meter. De huid is grotendeels verstoken van pigmentvlekken en SCP-096's huid vertoont geen lichaamsbeharing.\nDe kaak van SCP-096 kan zich tot vier (4) keer de norm van een gemidde",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -855,7 +886,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -882,7 +913,9 @@
         "ro",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "c5eebf37dc2688a082f28b92068c1f8c8a59b70acc1edacf4ddd006e05b5f51f"
     },
     {
       "itemId": "scp-series-169",
@@ -894,6 +927,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "Er wordt aangenomen dat SCP-169 een enorme zee-hagedis is, die al generaties lang bekend is bij zeevarenden en in de volksmond bekend staat als \"Leviathan\". Aanvankelijk werd gedacht dat het een mythe was, maar op \u2588\u2588.\u2588\u2588.19\u2588\u2588 werd de SCP-169 van de Mobiele Task Force Gamma-6 onderzocht op paranormale activiteit rond de \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 archipel (co\u00f6rdinaten \u2588\u2588 \u00b0 \u2588\u2588'S \u2588\u2588 \u00b0 \u2588\u2588'W) ontdekt. Tijdens \u0194-6s-onderzoeken ontdekte Dr. \u0194 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 [\u01946-0912] dat de archipel minstens drie (3) kilometer van zijn",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -901,7 +935,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -923,7 +957,9 @@
         "nl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "8633cab5cd653f68f6f7770ac7f027d7d2d1b3453b68938e98771c3b48921fc8"
     },
     {
       "itemId": "scp-series-173",
@@ -935,6 +971,7 @@
       "objectClass": null,
       "rating": 0,
       "descriptionExcerpt": "Overgebracht naar Site-19 in 1993. Herkomst onbekend tot nu toe. Het bestaat uit wapeningsstaal en beton met sporen van spuitverf van het merk Krylon. SCP-173 is geanimeerd en uiterst vijandig. Het object kan niet bewegen zolang het zich in een direct gezichtsveld bevindt. Het is absoluut noodzakelijk dat het visuele contact met SCP-173 niet wordt onderbroken. Medewerkers die zijn aangewezen om de container te betreden, moeten elkaar waarschuwen vooraleer ze knipperen met de ogen. Het object val",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "autonoom",
@@ -963,7 +1000,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -997,7 +1034,9 @@
         "sv",
         "tok",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "bfb402a484224f07341240ecc8d8db5d7dfcd7171ec97dabd9b0feeec2a0eaea"
     },
     {
       "itemId": "scp-series-239",
@@ -1009,6 +1048,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-239 lijkt een 8-jarig meisje te zijn, 1 meter in de hoogte en 20 kilo in gewicht. Onderwerp heeft schouderlengte blond haar. Bij nadere inspectie, de ogen van het onderwerp \"glanst\" een grijsgroene tint. Het subject lijkt een nog niet ontdekte vorm van straling uit te zenden, die \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 wordt genoemd. Deze golven lijken onschadelijk in lage concentraties, maar in hogere concentraties kunnen ze de materie op een subatomisch niveau afbreken.\nSCP-239 heeft schijnbaar het vermogen om te doe",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "ectoentropic",
@@ -1057,7 +1097,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -1079,7 +1119,9 @@
         "nl",
         "sv",
         "tr"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "8c68e1205a3cd06a5a1b97f8debb81c6b4db529135eaee828610ea33e02f8e99"
     },
     {
       "itemId": "scp-series-500",
@@ -1091,6 +1133,7 @@
       "objectClass": null,
       "rating": 3,
       "descriptionExcerpt": "SCP-500 is een plastic doos die op het moment van schrijven van dit rapport zevenenveertig (47) rode pillen bevat. E\u00e9n pil, indien oraal ingenomen, geneest effectief het onderwerp van alle ziekten binnen twee uur, de exacte tijd afhankelijk van de ernst en het aantal van de omstandigheden van het subject. Ondanks vele pogingen zijn alle pogingen om te synthetiseren wat het actieve ingredi\u00ebnt in SCP-500 lijkt te zijn, niet succesvol geweest.",
+      "descriptionVersion": 3,
       "tags": [
         {
           "id": "chemisch",
@@ -1119,7 +1162,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -1174,7 +1217,9 @@
         "vi",
         "zh",
         "zh_Hant"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "1ba9eb1f8da27d91a085e29741b5e6d0acaf23b0977bce05262b314f6293ce0b"
     },
     {
       "itemId": "scp-series-963",
@@ -1186,6 +1231,7 @@
       "objectClass": null,
       "rating": 1,
       "descriptionExcerpt": "SCP-963-1 is een sierlijk amulet, ongeveer 15 centimeter in omtrek, gemaakt van wit goud, met dertien (13) \u2588\u2588 karaat briljant geslepen diamanten in een radiaal uitstralend patroon rond een \u2588\u2588\u2588 karaat ovale geslepen robijn. Het werd ontdekt in de persoonlijke bezittingen van \u2588\u2588\u2588\u2588\u2588\u2588 ,,, die door zelfmoord dood bleek te zijn, omringd door een aantal boeken over het bovennatuurlijke. Onze agenten in het gebied ontdekten dat het SCP niet beschadigd kon worden en bracht het naar ons volgens protocol X",
+      "descriptionVersion": 3,
       "tags": [],
       "tagVersion": 3,
       "tagFetchStatus": "success",
@@ -1193,7 +1239,7 @@
       "extractedFrom": "scp-series",
       "pageType": "scp-series",
       "contentType": "scp",
-      "lastUpdated": "2026-11-22T07:01:31.256Z",
+      "lastUpdated": "2026-11-27T10:39:47.868Z",
       "createdAt": "2026-11-10T00:34:46.327Z",
       "translatedLanguages": [
         "jp",
@@ -1212,7 +1258,9 @@
         "zh-tr",
         "hu",
         "nl"
-      ]
+      ],
+      "descriptionCheckedAt": "2026-11-28T07:41:54.162Z",
+      "descriptionContentSha256": "c72b8b88f7f985542c1c617c71bdd59c4b9bd45c1f95e694fe0f4b0763a381f8"
     }
   ],
   "tagSchemaVersion": 2
